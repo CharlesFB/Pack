@@ -1,0 +1,25 @@
+.package-changelog-view {
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.package-changelog-view__container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-height: 1000px;
+}
+
+.package-changelog-view__scroll {
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-width: 1px;
+    border-color: rgb(60, 60, 60);
+    padding: 5px;
+}
+
+.package-changelog-view__empty-label {
+    color: rgb(180, 180, 180);
+    -unity-font-style: italic;
+    padding: 8px;
+}

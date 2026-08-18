@@ -1,0 +1,33 @@
+
+{
+    "name" : "com.magictavern.mtpmanager",
+    "version" : "1.3.19",
+    "description" : "Magic Tarvern Package\u7BA1\u7406\u5668",
+    "displayName" : "MTPManager",
+    "unity"       : "2019.4",
+    "unityRelease" : null,
+    "author"       : {
+        "name" : "Magic Tavern",
+        "email" : "zhaojieyang@magictavern.com",
+        "url"   : "https://www.magictavern.com/"
+    },
+    "dependenciesGit" : {
+        "com.magictavern.thirdparty.sharpziplib" : "https://gitlab.mte.io/frontengine/common-package-tools/Magictavern-Thirdparty-SharpZipLib.git#sharpziplib-1.3.3"
+    },
+    "changelogUrl"    : "https://www.magictavern.com/changelog.html",
+    "dependencies"    : {
+        "com.unity.nuget.newtonsoft-json" : "3.2.1"
+    },
+    "documentationUrl" : "https://w.magictavern.com/pages/viewpage.action?pageId=73465880",
+    "hideInEditor"     : false,
+    "keywords"         : [
+        "package dev",
+        "package tools"
+    ],
+    "license"          : null,
+    "licenseUrl"       : null,
+    "samples"          : [
+    ],
+    "type"             : null,
+    "scriptDefineSymbols" : null
+}

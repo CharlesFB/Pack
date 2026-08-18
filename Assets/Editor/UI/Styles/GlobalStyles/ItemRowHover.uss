@@ -1,0 +1,12 @@
+/* 通用列表行 hover 高亮（原 MTPHoverBase.uss 迁移而来）。
+ * 用于 ListView Item 一类的整行 hover 效果：PackageSampleItemView / PackageZipItemView 等。
+ */
+.item-row {
+    background-color: rgba(56, 56, 56, 0);
+    transition-property: background-color;
+    transition-duration: 0.15s;
+}
+
+.item-row:hover {
+    background-color: rgba(56, 56, 56, 0.8);
+}

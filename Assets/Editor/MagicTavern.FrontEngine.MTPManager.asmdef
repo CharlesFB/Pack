@@ -1,0 +1,20 @@
+{
+    "name": "MagicTavern.FrontEngine.MTPManager",
+    "rootNamespace": "",
+    "references": [
+        "GUID:edaf137435d54a09a6cf4e111596c89d",
+        "GUID:683923d1d024435c87e3bb05edab4c3f",
+        "GUID:21e64a05ea1aa4893aea68ae8080166c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

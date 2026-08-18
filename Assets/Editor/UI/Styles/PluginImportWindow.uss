@@ -1,0 +1,7 @@
+/* PluginImportWindow.uss 或单独给 Item 用的 uss */
+#tgPluginItem .unity-toggle__checkmark {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    margin-left: 6px;
+}

@@ -1,0 +1,139 @@
+.btnNav {
+    background-color: rgb(71, 71, 71);
+    border-radius: 0;
+}
+
+.btnRefresh {
+    background-color: rgb(90, 90, 90);
+    border-radius: 0;
+}
+
+.btnAction {
+    background-color: rgb(90, 90, 90);
+    border-radius: 0;
+}
+
+.ddType .unity-base-popup-field__input {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    min-height: 24px;
+    width: auto;
+    border-width: 0;
+}
+
+.ddType .unity-base-field__label {
+    color: rgb(200, 200, 200);
+    width: 0;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.ddType .unity-base-popup-field__text {
+    color: rgb(220, 220, 220);
+}
+
+.ddType .unity-base-popup-field__arrow {
+    width: 12px;
+    height: 12px;
+    background-image: url("project://database/Assets/Editor/UI/Imgs/xiala.png?fileID=21300000&guid=a813e43e1813549928b0ca512f0423d7&type=3#xiala");
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+}
+
+.ddType:hover {
+    background-color: rgb(90, 90, 90);
+}
+
+.ddType:hover .unity-base-popup-field__input {
+    background-color: rgb(90, 90, 90);
+}
+
+.ddType:hover .unity-base-popup-field__text {
+    color: rgb(255, 255, 255);
+}
+
+.ddType:hover .unity-base-popup-field__arrow {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.tfSearch > .unity-base-field__label {
+    color: rgb(200, 200, 200);
+    width: 0;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.tfSearch .unity-base-field__label {
+    color: rgb(200, 200, 200);
+    width: 0;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.tfSearch .unity-base-text-field__input {
+    background-color: rgb(45, 45, 45);
+    background-image: none;
+    border-width: 1px;
+    border-color: rgb(35, 35, 35);
+    border-radius: 5px;
+    padding: 0;
+    color: rgb(230, 230, 230);
+}
+
+.tfSearch .unity-text-field__input {
+    background-color: rgb(45, 45, 45);
+    background-image: none;
+    border-width: 1px;
+    border-color: rgb(35, 35, 35);
+    border-radius: 5px;
+    padding: 0;
+    color: rgb(230, 230, 230);
+}
+
+.tfSearch .unity-text-element {
+    color: rgb(230, 230, 230);
+}
+
+#ddVersion .unity-base-popup-field__input {
+    background-color: rgb(80, 80, 80);
+    background-image: none;
+    min-height: 24px;
+    width: auto;
+    border-width: 0;
+}
+
+#ddVersion .unity-base-field__label {
+    width: 0;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#ddVersion .unity-base-popup-field__text {
+    color: rgb(220, 220, 220);
+}
+
+#ddVersion .unity-base-popup-field__arrow {
+    width: 12px;
+    height: 12px;
+    background-image: url("project://database/Assets/Editor/UI/Imgs/xiala.png?fileID=21300000&guid=a813e43e1813549928b0ca512f0423d7&type=3#xiala");
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+}
+
+#ddVersion:hover {
+    background-color: rgb(90, 90, 90);
+}
+
+#ddVersion:hover .unity-base-popup-field__input {
+    background-color: rgb(90, 90, 90);
+}
+
+#ddVersion:hover .unity-base-popup-field__text {
+    color: rgb(255, 255, 255);
+}
+
+#ddVersion:hover .unity-base-popup-field__arrow {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}

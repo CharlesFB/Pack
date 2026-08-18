@@ -1,0 +1,17 @@
+.btnNav:hover {
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+}
+
+.btnRefresh:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+.btnAction:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.unity-button:hover {
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+}

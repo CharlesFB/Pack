@@ -1,0 +1,78 @@
+/* MarkdownUIRenderer 生成节点对应的通用样式。
+ * 修改标题/列表/代码块外观只需要改这里，不用碰渲染逻辑代码。
+ */
+
+.md-h1 {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.md-h2 {
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.md-h3 {
+    font-size: 16px;
+    -unity-font-style: bold;
+    margin-top: 6px;
+    margin-bottom: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.md-h4 {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.md-paragraph {
+    margin-bottom: 4px;
+}
+
+.md-styled-text {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.md-list-item {
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.md-list-bullet {
+    margin-right: 5px;
+    -unity-text-align: middle-center;
+}
+
+.md-list-number {
+    margin-right: 5px;
+    min-width: 20px;
+    -unity-text-align: middle-center;
+}
+
+.md-spacer {
+    height: 8px;
+}
+
+.md-code-block {
+    background-color: rgb(38, 38, 38);
+    border-width: 1px;
+    border-color: rgb(90, 90, 90);
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.md-code-line {
+    white-space: normal;
+    color: rgb(230, 230, 230);
+}
