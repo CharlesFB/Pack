@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Editor/UI/Styles/GlobalStyles/ItemRowHover.uss?fileID=7433441132597879392&amp;guid=a1b2c3d4e5f60718293a4b5c6d7e8f90&amp;type=3#ItemRowHover" />
     <ui:VisualElement class="item-row" style="flex-direction: row; align-items: stretch; height: 35px; justify-content: space-between; margin-right: 20px; text-overflow: ellipsis; align-self: auto; padding-right: 15px; padding-left: 10px; max-height: 40px; min-height: 35px;">
-        <ui:Label text="SampleName" display-tooltip-when-elided="true" name="lbName" style="width: 200px; margin-bottom: 4px; margin-top: 4px; align-self: center; padding-left: 2px; margin-left: 0;" />
-        <ui:Button text="Import" display-tooltip-when-elided="true" name="btnImport" style="width: 70px; max-height: 60px; align-self: center; justify-content: flex-start; margin-left: 0; margin-bottom: 0; margin-right: 0; margin-top: 0; height: 70%;" />
+        <ui:Label text="SampleName" display-tooltip-when-elided="true" name="lbName" style="width: 200px; margin-bottom: 4px; margin-top: 4px; align-self: center; padding-left: 2px; margin-left: 0; font-size: 15px;" />
+        <ui:Button text="Import" display-tooltip-when-elided="true" name="btnImport" style="width: 70px; max-height: 60px; align-self: center; justify-content: flex-start; margin-left: 0; margin-bottom: 0; margin-right: 0; margin-top: 0; height: 70%; font-size: 14px;" />
     </ui:VisualElement>
 </ui:UXML>

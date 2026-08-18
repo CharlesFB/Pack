@@ -43,11 +43,11 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
                     },
                     // .zip：应显示 veDirChosen，且 lbUnzipRoot 默认 "/Assets"
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/Extra/Tools.zip",
+                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/Tools.zip",
                         false
                     },
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/Extra/MoreTools.zip",
+                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/MoreTools.zip",
                         false
                     }
                 }

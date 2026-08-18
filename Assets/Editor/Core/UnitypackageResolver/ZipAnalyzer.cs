@@ -16,7 +16,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     public static class ZipAnalyzer
     {
         /// <summary>
-        /// 解析 zip 内全部文件条目路径，按 parentDirectory 拼出最终落盘路径：
+        /// 解析 zip 内全部文件条目路径，按 parentDirectory 拼出最终持久化路径：
         /// - parentDirectory 为空：视为解到 Assets/ 根目录，返回 "Assets/..." 工程相对路径；
         /// - parentDirectory 指向 Assets/ 或其子目录：同样转换为 "Assets/..." 工程相对路径；
         /// - parentDirectory 指向工程外任意目录：返回绝对路径（= parentDirectory 拼接 zip 内相对路径）。

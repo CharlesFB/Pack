@@ -1,11 +1,22 @@
 # Changelog
 
+### 测试代码段
+```c#
+using Packages;
+
+public static void func()
+{
+    // nothing to do
+}
+```
+
+`abcs import`
 
 ### [1.3.19] - 2026-07-03
--[MOD]修改导入复杂依赖卡住
+- [MOD]修改导入复杂依赖卡住
 
 ### [1.3.17] - 2026-05-09
--[MOD]兼容Unity6版本
+- [MOD]兼容Unity6版本
 
 ### [1.3.16] - 2026-04-14
 -[MOD]修改当前版本发现的问题提交

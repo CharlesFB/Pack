@@ -1,7 +1,8 @@
 // ==================================================
 // Copyright (c) Magic Tavern. All rights reserved.
-// @Description: 将 Markdown 文本解析为 UI Toolkit VisualElement 树，
-// 供任意需要展示 Markdown 内容的 View（Changelog / License / Documentation 等）复用。
+// @Author: 陈梓霄
+// @Maintainer: 陈梓霄
+// @Description: 将 Markdown 文本解析为 UI Toolkit VisualElement 树， 供任意需要展示 Markdown 内容的 View（Changelog / License / Documentation 等）复用。
 // ==================================================
 
 using System;
@@ -32,6 +33,32 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return s_codeFont;
             }
         }
+
+#if UNITY_2020_1_OR_NEWER
+        private static bool s_codeFontDefinitionResolved;
+        private static FontDefinition s_codeFontDefinition;
+
+        /// <summary>
+        /// -unity-font-definition 版本的代码字体。Unity 编辑器默认主题（2022+）会给根节点设置
+        /// 继承式的 -unity-font-definition，其优先级高于旧版 -unity-font；只设置 style.unityFont
+        /// 不会覆盖它，必须显式设置 style.unityFontDefinition 才能真正生效。
+        /// FontDefinition / unityFontDefinition 是 UI Toolkit 在 2020.1（TextCore 整合）之后才有的 API，
+        /// 2019.x 的 UIElements 没有这个概念，因此仅在 2020.1+ 编译此段逻辑。
+        /// </summary>
+        private static FontDefinition CodeFontDefinition
+        {
+            get
+            {
+                if (!s_codeFontDefinitionResolved)
+                {
+                    s_codeFontDefinitionResolved = true;
+                    s_codeFontDefinition = CodeFont != null ? FontDefinition.FromFont(CodeFont) : default;
+                }
+
+                return s_codeFontDefinition;
+            }
+        }
+#endif
 
         /// <summary>
         /// 解析 markdown 并将生成的元素追加到 container 下。
@@ -70,7 +97,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                     codeLabel.AddToClassList("md-code-line");
                     if (CodeFont != null)
                     {
+                        // 同时设置 unityFont 与 unityFontDefinition：
+                        // 2020.1+ 编辑器默认主题会给根节点继承下来一个非空的 -unity-font-definition，
+                        // 其解析优先级高于 -unity-font，只设 unityFont 会被其覆盖导致显示的仍是默认字体。
+                        // 2020.1 以前没有 unityFontDefinition 这个属性，设 unityFont 即可正常生效。
                         codeLabel.style.unityFont = CodeFont;
+#if UNITY_2020_1_OR_NEWER
+                        codeLabel.style.unityFontDefinition = CodeFontDefinition;
+#endif
                     }
 
                     codeBlockElement.Add(codeLabel);

@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using GitLabApiClient;
+using GitLabApiClient.Models.Commits.Responses;
 using GitLabApiClient.Models.Groups.Responses;
 using GitLabApiClient.Models.Tags.Responses;
 using MagicTavern.FrontEngine.MTPManager.LitJson;
@@ -248,6 +249,58 @@ namespace MagicTavern.FrontEngine.MTPManager
                     $"[GitLabService] GetTagAsync 异常: projectId={projectId}, tagName={tagName}\n{ex.Message}");
                 return null;
             }
+        }
+
+        public async Task<Commit> GetCommitAsync(int projectId, string sha)
+        {
+            if (projectId <= 0 || string.IsNullOrEmpty(sha))
+            {
+                LM.LogWarning($"[GitLabService] GetCommitAsync 参数无效: projectId={projectId}, sha={sha}");
+                return null;
+            }
+
+            var client = Client();
+            if (client == null)
+            {
+                return null;
+            }
+
+            try
+            {
+                return await client.Commits.GetAsync(projectId, sha);
+            }
+            catch (Exception ex)
+            {
+                LM.LogError($"[GitLabService] GetCommitAsync 异常: projectId={projectId}, sha={sha}\n{ex.Message}");
+                return null;
+            }
+        }
+
+        public async Task<string> ResolveRevisionAsync(int projectId, string reference)
+        {
+            if (projectId <= 0 || string.IsNullOrEmpty(reference))
+            {
+                LM.LogWarning(
+                    $"[GitLabService] ResolveRevisionAsync 参数无效: projectId={projectId}, reference={reference}");
+                return null;
+            }
+
+            var tag = await GetTagAsync(projectId, reference);
+            if (!string.IsNullOrEmpty(tag?.Commit?.Id))
+            {
+                return tag.Commit.Id;
+            }
+
+            // reference 可能本身就是分支名或已经是 commit sha，回退用 Commits 接口解析。
+            var commit = await GetCommitAsync(projectId, reference);
+            if (commit == null)
+            {
+                LM.LogError(
+                    $"[GitLabService] ResolveRevisionAsync 无法解析: projectId={projectId}, reference={reference}");
+                return null;
+            }
+
+            return commit.Id;
         }
 
         public async Task<IList<GitTree>> GetTreesAsync(int projectId, string path = null, string reference = null,

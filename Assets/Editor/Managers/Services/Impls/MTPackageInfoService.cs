@@ -7,6 +7,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Editor.Data.Models;
 using UnityEngine;
 using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
@@ -16,6 +17,9 @@ namespace MagicTavern.FrontEngine.MTPManager
     public class MTPackageInfoService : IMTPackageInfoService
     {
         private readonly Dictionary<string, MTPackageInfo> _dependencies = new Dictionary<string, MTPackageInfo>();
+
+        private IGitLabService GitLabService => ServiceLocator.Get<IGitLabService>();
+        private IProjectInfoService ProjectInfoService => ServiceLocator.Get<IProjectInfoService>();
 
         public MTPackageInfo AddDependency(MTPackageInfo newPackage)
         {
@@ -38,8 +42,15 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public MTPackageInfo AddDependency(PackageInfo rawPackage, string url, string tag, string revision, int depth, bool isLocal)
         {
+            var newPackage = BuildMTPackageInfo(rawPackage, url, tag, revision, depth, isLocal);
+            return AddDependency(newPackage);
+        }
+
+        private static MTPackageInfo BuildMTPackageInfo(PackageInfo rawPackage, string url, string tag,
+            string revision, int depth, bool isLocal)
+        {
             var formattedUrl = UrlUtils.FormatUrl(url);
-            var newPackage = new MTPackageInfo
+            return new MTPackageInfo
             {
                 PackageName = rawPackage.name,
                 Tag = tag,
@@ -52,7 +63,63 @@ namespace MagicTavern.FrontEngine.MTPManager
                 ScriptDefineSymbols = rawPackage.scriptDefineSymbols,
                 isLocal = isLocal,
             };
-            return AddDependency(newPackage);
+        }
+
+        public async Task<MTPackageInfo> FetchPackageInfoAsync(string gitDependencyUrl, int depth = 0,
+            bool isLocal = false)
+        {
+            if (string.IsNullOrEmpty(gitDependencyUrl))
+            {
+                LM.LogWarning("[MTPackageInfoService] FetchPackageInfoAsync 参数无效: gitDependencyUrl 为空");
+                return null;
+            }
+
+            // 约定与 package.json 中 dependenciesGit 的写法一致："仓库链接#tag"
+            var splitIndex = gitDependencyUrl.LastIndexOf('#');
+            if (splitIndex <= 0 || splitIndex == gitDependencyUrl.Length - 1)
+            {
+                LM.LogError(
+                    $"[MTPackageInfoService] FetchPackageInfoAsync url 格式错误，应为 仓库链接#tag: {gitDependencyUrl}");
+                return null;
+            }
+
+            var url = gitDependencyUrl.Substring(0, splitIndex);
+            var tag = gitDependencyUrl.Substring(splitIndex + 1);
+            return await FetchPackageInfoAsync(url, tag, depth, isLocal);
+        }
+
+        public async Task<MTPackageInfo> FetchPackageInfoAsync(string url, string tag, int depth = 0,
+            bool isLocal = false)
+        {
+            if (string.IsNullOrEmpty(url) || string.IsNullOrEmpty(tag))
+            {
+                LM.LogWarning($"[MTPackageInfoService] FetchPackageInfoAsync 参数无效: url={url}, tag={tag}");
+                return null;
+            }
+
+            var projectInfo = ProjectInfoService.GetByUrl(url);
+            if (projectInfo == null)
+            {
+                LM.LogError($"[MTPackageInfoService] FetchPackageInfoAsync 找不到对应工程: url={url}");
+                return null;
+            }
+
+            var rawPackage =
+                await GitLabService.GetJsonFileAsync<PackageInfo>(projectInfo.ProjectId, "package.json", tag);
+            if (rawPackage == null)
+            {
+                LM.LogError($"[MTPackageInfoService] FetchPackageInfoAsync 拉取 package.json 失败: url={url}, tag={tag}");
+                return null;
+            }
+
+            var revision = await GitLabService.ResolveRevisionAsync(projectInfo.ProjectId, tag);
+            if (string.IsNullOrEmpty(revision))
+            {
+                LM.LogError($"[MTPackageInfoService] FetchPackageInfoAsync 解析 revision 失败: url={url}, tag={tag}");
+                return null;
+            }
+
+            return BuildMTPackageInfo(rawPackage, url, tag, revision, depth, isLocal);
         }
 
         public void RemoveDependency(string packageName)

@@ -7,6 +7,7 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using GitLabApiClient.Models.Commits.Responses;
 using GitLabApiClient.Models.Groups.Responses;
 using GitLabApiClient.Models.Tags.Responses;
 using GitTree = GitLabApiClient.Models.Trees.Responses.Tree;
@@ -59,6 +60,18 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 按名称拉取单个 Tag。
         /// </summary>
         Task<Tag> GetTagAsync(int projectId, string tagName);
+
+        /// <summary>
+        /// 按 commit sha / 分支名 / tag 名拉取单个 Commit。
+        /// </summary>
+        Task<Commit> GetCommitAsync(int projectId, string sha);
+
+        /// <summary>
+        /// 将 tag / 分支名 / commit sha 统一解析为 40 位 commit sha（revision）。
+        /// 优先按 Tag 查询取 Tag.Commit.Id；查询失败（reference 本身是分支名或已经是 commit sha）时
+        /// 回退用 Commits 接口解析。都失败时返回 null。
+        /// </summary>
+        Task<string> ResolveRevisionAsync(int projectId, string reference);
 
         /// <summary>
         /// 拉取仓库目录树节点（不下载文件内容）。
