@@ -66,11 +66,17 @@ namespace MagicTavern.FrontEngine.MTPManager
             _client = null;
         }
 
-        public async Task<string> GetFileTextAsync(int projectId, string filePath, string reference = "master")
+        public async Task<string> GetFileTextAsync(int projectId, string filePath, string reference = "master",
+            bool logOnFailure = true)
         {
             if (projectId <= 0 || string.IsNullOrEmpty(filePath))
             {
-                LM.LogWarning($"[GitLabService] GetFileTextAsync 参数无效: projectId={projectId}, filePath={filePath}");
+                if (logOnFailure)
+                {
+                    LM.LogWarning(
+                        $"[GitLabService] GetFileTextAsync 参数无效: projectId={projectId}, filePath={filePath}");
+                }
+
                 return null;
             }
 
@@ -90,8 +96,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                 var file = await client.Files.GetAsync(projectId, filePath, reference);
                 if (file == null || string.IsNullOrEmpty(file.Content))
                 {
-                    LM.LogError(
-                        $"[GitLabService] 拉取文件失败: projectId={projectId}, path={filePath}, ref={reference}");
+                    if (logOnFailure)
+                    {
+                        LM.LogError(
+                            $"[GitLabService] 拉取文件失败: projectId={projectId}, path={filePath}, ref={reference}");
+                    }
+
                     return null;
                 }
 
@@ -99,8 +109,12 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
             catch (Exception ex)
             {
-                LM.LogError(
-                    $"[GitLabService] GetFileTextAsync 异常: projectId={projectId}, path={filePath}, ref={reference}\n{ex.Message}");
+                if (logOnFailure)
+                {
+                    LM.Log(
+                        $"[GitLabService] GetFileTextAsync 异常: projectId={projectId}, path={filePath}, ref={reference}\n{ex.Message}");
+                }
+
                 return null;
             }
         }

@@ -1,17 +1,21 @@
+.unity-button:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}
+
 .btnNav:hover {
     background-color: rgb(95, 95, 95);
     color: rgb(255, 255, 255);
 }
 
 .btnRefresh:hover {
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(110, 110, 110);
 }
 
 .btnAction:hover {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(110, 110, 110);
 }
 
-.unity-button:hover {
-    background-color: rgb(95, 95, 95);
-    color: rgb(255, 255, 255);
+.btnTextClear:hover {
+    -unity-background-image-tint-color: rgb(220, 220, 220);
 }

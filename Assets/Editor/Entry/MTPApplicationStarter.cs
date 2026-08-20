@@ -24,7 +24,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// Editor 第一次启动时执行：从 647 拉取 list/cache 文件到本地与内存（每会话一次）。
+        /// Editor 第一次启动时执行：
+        /// 确保本地有持久化记录，如没有则强制从 647 拉取 list/cache 文件到本地与内存。
         /// </summary>
         [InitializeOnLoadMethod]
         public static async void EditorFirstStartup()
@@ -34,31 +35,26 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
+            LM.TimeLog("[MTPApplicationStarter] 首次启动 Unity Editor，正在检查 MTP 缓存，确保缓存正常...");
             SessionState.SetBool(SessionKey.EDITOR_FIRST_STARTUP, true);
 
             try
             {
-                var packageInfo = ServiceLocator.Get<IPackageInfoService>();
+                var packageJson = ServiceLocator.Get<IPackageJsonService>();
                 var projectInfo = ServiceLocator.Get<IProjectInfoService>();
 
                 await projectInfo.EnsureInitializedAsync();
-                await packageInfo.EnsureInitializedAsync();
-
-                if (projectInfo.NeedUpdate)
-                {
-                    await projectInfo.PullFromGitAsync();
-                }
-
-                if (packageInfo.NeedUpdate)
-                {
-                    await packageInfo.PullFromGitAsync();
-                }
-
-                LM.Log(
-                    $"[MTPApplicationStarter] EditorFirstStartup done. " +
-                    $"projects:{projectInfo.GetAll().Count}, " +
-                    $"packageCacheLastUpdateDatetime:{packageInfo.RefreshTime}, " +
-                    $"projectListLastUpdateDatetime:{projectInfo.RefreshTime}");
+                await packageJson.EnsureInitializedAsync();
+                
+                // if (projectInfo.NeedUpdate)
+                // {
+                //     await projectInfo.PullFromGitAsync();
+                // }
+                //
+                // if (packageJson.NeedUpdate)
+                // {
+                //     await packageJson.RebuildFromProjectInfoListAsync();
+                // }
             }
             catch (Exception e)
             {
@@ -78,7 +74,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             var packagesLock = ServiceLocator.Get<IPackagesLockService>();
             var pluginAssetList = ServiceLocator.Get<IPluginAssetService>();
             var projectInfo = ServiceLocator.Get<IProjectInfoService>();
-            var packageInfo = ServiceLocator.Get<IPackageInfoService>();
+            var packageJson = ServiceLocator.Get<IPackageJsonService>();
             var rootPackage = ServiceLocator.Get<IRootPackageService>();
             var localPackage = ServiceLocator.Get<ILocalPackageService>();
 
@@ -87,7 +83,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             pluginAssetList.LoadFromLocal();
             mtPackageInfo.LoadDependenciesFromLocal();
             projectInfo.LoadFromLocal();
-            packageInfo.LoadFromLocal();
+            packageJson.LoadFromLocal();
             rootPackage.LoadFromLocal();
             localPackage.LoadFromLocal();
 
@@ -117,11 +113,22 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 冷启动占位
+        /// 冷启动：如果缓存 TTL 到期则重新拉取
         /// </summary>
         private static async Task ColdStartCheckAsync()
         {
-            await Task.CompletedTask;
+            var packageJson = ServiceLocator.Get<IPackageJsonService>();
+            var projectInfo = ServiceLocator.Get<IProjectInfoService>();
+            
+            if (projectInfo.NeedUpdate)
+            {
+                await projectInfo.PullFromGitAsync();
+            }
+
+            if (packageJson.NeedUpdate)
+            {
+                await packageJson.PullFromGitAsync();
+            }
         }
 
         /// <summary>

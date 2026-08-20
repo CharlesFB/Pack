@@ -14,6 +14,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public const string GIT_PROJECT_INFO_LIST_PATH = "upm-list.json";           //远端工程列表信息存放路径
         public const string GIT_PACKAGE_INFO_CACHE_PATH = "upm-cache.json";         //远端工程全部包信息存放路径
+        public const string GIT_CHANGELOG_FILE_NAME = "CHANGELOG.md";               //各工程根目录约定的更新日志文件名
         public const int SOURCE_PROJECT_ID = 647;                                   //远端工程ID（管理工程id）
     }
 }

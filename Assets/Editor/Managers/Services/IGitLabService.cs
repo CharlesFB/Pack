@@ -34,7 +34,12 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// <summary>
         /// 拉取仓库文件原文（UTF-8 解码后的文本）。
         /// </summary>
-        Task<string> GetFileTextAsync(int projectId, string filePath, string reference = "master");
+        /// <param name="logOnFailure">
+        /// 文件不存在 / 拉取异常时是否记录日志。像 CHANGELOG.md 这种"约定存在、但很多仓库其实没有"的文件，
+        /// 调用方可以传 false 静默失败（返回 null 即代表没有该文件），避免刷屏无意义的错误日志。
+        /// </param>
+        Task<string> GetFileTextAsync(int projectId, string filePath, string reference = "master",
+            bool logOnFailure = true);
 
         /// <summary>
         /// 拉取仓库文件原始字节（GitLab base64 Content 解码）。

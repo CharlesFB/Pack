@@ -40,13 +40,13 @@ namespace MagicTavern.FrontEngine.MTPManager
             return newPackage;
         }
 
-        public MTPackageInfo AddDependency(PackageInfo rawPackage, string url, string tag, string revision, int depth, bool isLocal)
+        public MTPackageInfo AddDependency(PackageJson rawPackage, string url, string tag, string revision, int depth, bool isLocal)
         {
             var newPackage = BuildMTPackageInfo(rawPackage, url, tag, revision, depth, isLocal);
             return AddDependency(newPackage);
         }
 
-        private static MTPackageInfo BuildMTPackageInfo(PackageInfo rawPackage, string url, string tag,
+        private static MTPackageInfo BuildMTPackageInfo(PackageJson rawPackage, string url, string tag,
             string revision, int depth, bool isLocal)
         {
             var formattedUrl = UrlUtils.FormatUrl(url);
@@ -105,7 +105,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             var rawPackage =
-                await GitLabService.GetJsonFileAsync<PackageInfo>(projectInfo.ProjectId, "package.json", tag);
+                await GitLabService.GetJsonFileAsync<PackageJson>(projectInfo.ProjectId, "package.json", tag);
             if (rawPackage == null)
             {
                 LM.LogError($"[MTPackageInfoService] FetchPackageInfoAsync 拉取 package.json 失败: url={url}, tag={tag}");

@@ -2,7 +2,7 @@
 // Copyright (c) Magic Tavern. All rights reserved.
 // @Author: 赵杰阳
 // @Maintainer: 陈梓霄
-// @Description: PackageJson数据类
+// @Description: package.json数据类
 // ==================================================
 
 using System;
@@ -14,7 +14,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     /// 解析 / 映射包的标识文件 package.json
     /// </summary>
     [Serializable]
-    public class PackageInfo
+    public class PackageJson
     {
         public string name = "com.magictavern.package";
         public string version = "0.0.1";
@@ -34,6 +34,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         public Author author = new Author();
         public Dictionary<string, string> dependenciesGit = new Dictionary<string, string>();
 
+        public List<string> plugins;
+        public string changelog;
         public string changelogUrl;
         public Dictionary<string, string> dependencies = new Dictionary<string, string>();
         public string documentationUrl;
@@ -51,7 +53,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         public List<Sample> samples;
-        public string type; //无用
+        public string type;
         public string scriptDefineSymbols;
     }
 }

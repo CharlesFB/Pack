@@ -14,7 +14,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     public interface IMTPackageInfoService
     {
         MTPackageInfo AddDependency(MTPackageInfo newPackage);
-        MTPackageInfo AddDependency(PackageInfo rawPackage, string url, string tag, string revision, int depth, bool isLocal);
+        MTPackageInfo AddDependency(PackageJson rawPackage, string url, string tag, string revision, int depth, bool isLocal);
         void RemoveDependency(string packageName);
         MTPackageInfo GetPackage(string packageName);
         List<MTPackageInfo> GetAllPackages();

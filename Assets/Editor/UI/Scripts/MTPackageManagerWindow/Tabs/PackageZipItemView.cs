@@ -1,15 +1,22 @@
 using System;
 using MagicTavern.FrontEngine.MTPManager;
 using UnityEditor;
+using UnityEngine;
 using UnityEngine.UIElements;
 using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
 
 /// <summary>
 /// Plugins Tab 单个条目视图：展示插件包（.zip / .unitypackage）名称 + Import/Unzip/Remove 按钮。
-/// 当前仅支持假数据展示，真实的下载/解析/导入逻辑由 IPluginPackageService 接入后再补上。
+/// 名称颜色 / 按钮可点击态由 (isInstalled, isImported) 两个状态决定，具体规则见 BindData 注释。
+/// 按钮点击逻辑先留空（仅打日志占位），真实的导入/卸载调用后续接入。
 /// </summary>
 public class PackageZipItemView : VisualElement
 {
+    // 未安装：名称浅灰色；已安装但未导入：名称白色（默认文本色）；已安装且已导入：名称浅黄色。
+    private static readonly StyleColor NotInstalledColor = new StyleColor(new Color(140f / 255f, 140f / 255f, 140f / 255f));
+    private static readonly StyleColor InstalledColor = new StyleColor(new Color(224f / 255f, 224f / 255f, 224f / 255f));
+    private static readonly StyleColor ImportedColor = new StyleColor(new Color(240f / 255f, 222f / 255f, 130f / 255f));
+
     private readonly Label _lbName;
     private readonly Button _btnUnzip;
     private readonly Button _btnRemove;
@@ -40,38 +47,60 @@ public class PackageZipItemView : VisualElement
     /// <summary>
     /// 绑定插件包展示数据。
     /// </summary>
-    /// <param name="pluginFileName">插件文件名（.zip 或 .unitypackage）</param>
-    /// <param name="isImported">是否已导入/解压（仅 .unitypackage 有意义）</param>
-    public void BindData(string pluginFileName, bool isImported)
+    /// <param name="pluginFileName">插件文件名（.zip 或 .unitypackage，相对 Editor/PluginsPackage）</param>
+    /// <param name="isInstalled">
+    /// 当前查看的 Tag 对应的包是否已安装（依赖树里存在且 Revision/Tag 与当前查看的一致）。
+    /// 未安装时名称显示浅灰色，Import/Unzip 按钮禁用点击。
+    /// </param>
+    /// <param name="isImported">
+    /// 仅在 isInstalled 为 true 时有意义：该插件是否已经导入/解压过
+    /// （即 MTPackageInfo.Plugins[路径] == true）。
+    /// .unitypackage 已导入时按钮文案变为 "ReImport"；.zip 不论是否导入过，按钮文案始终为 "Unzip"。
+    /// 两者已导入时都会显示 Remove 按钮。
+    /// </param>
+    public void BindData(string pluginFileName, bool isInstalled, bool isImported)
     {
         _pluginFileName = pluginFileName;
-        bool isUnityPackage = pluginFileName.EndsWith(".unitypackage", StringComparison.OrdinalIgnoreCase);
+        bool isZip = !string.IsNullOrEmpty(pluginFileName)
+            && pluginFileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
 
         if (_lbName != null)
         {
             _lbName.text = pluginFileName;
+            _lbName.style.color = ResolveNameColor(isInstalled, isImported);
         }
 
         if (_btnUnzip != null)
         {
-            _btnUnzip.text = isUnityPackage ? (isImported ? "ReImport" : "Import") : "Unzip";
+            _btnUnzip.text = isZip ? "Unzip" : (isImported ? "ReImport" : "Import");
+            _btnUnzip.SetEnabled(isInstalled);
             _btnUnzip.clicked += OnUnzipClicked;
         }
 
         if (_btnRemove != null)
         {
-            _btnRemove.style.display = isUnityPackage && isImported ? DisplayStyle.Flex : DisplayStyle.None;
+            _btnRemove.style.display = isInstalled && isImported ? DisplayStyle.Flex : DisplayStyle.None;
             _btnRemove.clicked += OnRemoveClicked;
         }
     }
 
+    private static StyleColor ResolveNameColor(bool isInstalled, bool isImported)
+    {
+        if (!isInstalled)
+        {
+            return NotInstalledColor;
+        }
+
+        return isImported ? ImportedColor : InstalledColor;
+    }
+
     private void OnUnzipClicked()
     {
-        LM.Log($"[PackageZipItemView] TODO: 导入/解压插件包 \"{_pluginFileName}\"（当前为假数据测试，未接入真实逻辑）");
+        LM.Log($"[PackageZipItemView] TODO: 导入/解压插件包 \"{_pluginFileName}\"（按钮点击逻辑待接入 IPluginPackageService）");
     }
 
     private void OnRemoveClicked()
     {
-        LM.Log($"[PackageZipItemView] TODO: 移除插件包 \"{_pluginFileName}\"（当前为假数据测试，未接入真实逻辑）");
+        LM.Log($"[PackageZipItemView] TODO: 移除插件包 \"{_pluginFileName}\"（按钮点击逻辑待接入 IPluginPackageService）");
     }
 }

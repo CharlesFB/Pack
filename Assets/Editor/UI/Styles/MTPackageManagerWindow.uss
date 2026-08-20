@@ -31,12 +31,15 @@
 
 .ddType .unity-base-popup-field__text {
     color: rgb(220, 220, 220);
+    margin-left: 4px;
 }
 
 .ddType .unity-base-popup-field__arrow {
     width: 12px;
     height: 12px;
     background-image: url("project://database/Assets/Editor/UI/Imgs/xiala.png?fileID=21300000&guid=a813e43e1813549928b0ca512f0423d7&type=3#xiala");
+    margin-right: 5px;
+    margin-left: 4px;
     -unity-background-image-tint-color: rgb(200, 200, 200);
 }
 
@@ -113,12 +116,15 @@
 
 #ddVersion .unity-base-popup-field__text {
     color: rgb(220, 220, 220);
+    margin-left: 4px;
 }
 
 #ddVersion .unity-base-popup-field__arrow {
     width: 12px;
     height: 12px;
     background-image: url("project://database/Assets/Editor/UI/Imgs/xiala.png?fileID=21300000&guid=a813e43e1813549928b0ca512f0423d7&type=3#xiala");
+    margin-right: 5px;
+    margin-left: 4px;
     -unity-background-image-tint-color: rgb(200, 200, 200);
 }
 

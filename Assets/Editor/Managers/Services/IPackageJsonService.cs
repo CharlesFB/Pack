@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MagicTavern.FrontEngine.MTPManager
 {
-    public interface IPackageInfoService
+    public interface IPackageJsonService
     {
         /// <summary>
         /// 缓存是否过期或为空（反序列化后 RefreshTime 默认为 MinValue，会触发重新拉取）。
@@ -19,9 +19,9 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         DateTime RefreshTime { get; set; }
 
-        void Add(string projectId, string tag, PackageInfo packageJson);
+        void Add(string projectId, string tag, PackageJson packageJson);
 
-        PackageInfo Get(string projectId, string tag);
+        PackageJson Get(string projectId, string tag);
 
         PackageInfoCache ExportToPackageInfoCache();
 
@@ -39,17 +39,17 @@ namespace MagicTavern.FrontEngine.MTPManager
         void LoadFromLocal(bool createIfNotExist = false);
 
         /// <summary>
-        /// 初始化装载：本地文件存在则读盘；不存在则 force 从 Git 拉取并落盘。
+        /// 初始化装载：本地文件存在则读盘；不存在则 force 从 Git 拉取并写入本地。
         /// </summary>
         Task EnsureInitializedAsync();
 
         /// <summary>
-        /// 从 GitLab 管理工程拉取 upm-cache.json，写入内存并落盘。
+        /// 从 GitLab 管理工程拉取 upm-cache.json，写入内存并写入本地。
         /// </summary>
         Task<bool> PullFromGitAsync(bool force = false);
 
         /// <summary>
-        /// 遍历 ProjectInfoList 全部工程的全部 Tag，拉取各自 package.json 写入缓存并落盘。
+        /// 遍历 ProjectInfoList 全部工程的全部 Tag，拉取各自 package.json 写入缓存并写入本地。
         /// </summary>
         Task RebuildFromProjectInfoListAsync();
     }

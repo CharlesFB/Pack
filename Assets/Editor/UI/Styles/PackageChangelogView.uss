@@ -13,8 +13,8 @@
 .package-changelog-view__scroll {
     flex-grow: 1;
     flex-shrink: 1;
-    border-width: 1px;
-    border-color: rgb(60, 60, 60);
+    /*border-width: 1px;*/
+    /*border-color: rgb(60, 60, 60);*/
     padding: 5px;
 }
 

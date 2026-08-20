@@ -18,7 +18,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             // 添加注册服务接口与实现
             // Sample : ServiceLocator.Register<IBusinessService>(new BusinessManager);
             ServiceLocator.Register<IGitLabService>(new GitLabService()); // 很多服务需要 Git 服务提供拉取业务，先注册
-            ServiceLocator.Register<IPackageInfoService>(new PackageInfoService());
+            ServiceLocator.Register<IPackageJsonService>(new PackageJsonService());
             ServiceLocator.Register<IProjectInfoService>(new ProjectInfoService());
             ServiceLocator.Register<IPackageManifestService>(new PackageManifestService());
             ServiceLocator.Register<IPackagesLockService>(new PackagesLockService());

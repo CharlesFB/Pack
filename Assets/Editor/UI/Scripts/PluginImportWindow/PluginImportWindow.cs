@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using MagicTavern.FrontEngine.MTPManager;
 using UnityEditor;
 using UnityEngine;
@@ -20,6 +21,8 @@ public class PluginImportWindow : EditorWindow
 
     private MTPackageInfo _info = new MTPackageInfo();
     private List<string> _pluginKeys = new List<string>();
+    private bool _persist = true;
+    private TaskCompletionSource<bool> _completionSource;
 
     /// <summary>
     /// zip 类型插件本次导入选择的解压父目录（key=插件本地路径，value=用户选择的绝对目录）。
@@ -28,25 +31,41 @@ public class PluginImportWindow : EditorWindow
     private readonly Dictionary<string, string> _zipExtractDirs = new Dictionary<string, string>();
 
     /// <summary>
-    /// 弹出插件选择窗。勾选结果直接写回 packageInfo.Plugins。
+    /// 弹出插件选择窗。勾选结果直接写回 packageJson.Plugins。
+    /// 不关心导入结果的场景（如独立手动重新导入插件）用这个即可；
+    /// 需要知道用户是否确认导入、导入是否成功（如安装流程要据此决定是否继续/回滚）请用 <see cref="ShowWindowAsync"/>。
     /// </summary>
-    public static void ShowWindow(MTPackageInfo packageInfo)
+    public static void ShowWindow(MTPackageInfo mtPackageInfo)
     {
-        if (packageInfo == null)
+        _ = ShowWindowAsync(mtPackageInfo);
+    }
+
+    /// <summary>
+    /// 弹出插件选择窗，返回一个在窗口关闭后才 完成 的 Task。
+    /// ShowModalUtility 本身不会阻塞调用方，因此真正的"导入是否成功"必须通过这个 Task 才能拿到：
+    /// - 用户点 取消 / 未勾选任何插件直接 Import：视为"安装 0 个插件"，返回 true（不算错误）。
+    /// - 用户勾选后点 Import：返回值等价于 IPluginPackageService.ImportPreparedPlugins 的结果。
+    /// </summary>
+    public static Task<bool> ShowWindowAsync(MTPackageInfo mtPackageInfo, bool persist = true)
+    {
+        if (mtPackageInfo == null)
         {
             LM.Log("[PluginImportWindow] MTPackageInfo is null, cannot show window with empty package info");
-            return;
+            return Task.FromResult(true);
         }
 
-        packageInfo.Plugins ??= new Dictionary<string, bool>();
+        mtPackageInfo.Plugins ??= new Dictionary<string, bool>();
 
         var window = CreateInstance<PluginImportWindow>();
         window.titleContent = new GUIContent("选择需要导入的插件资源");
         window.minSize = window.maxSize = new Vector2(450, 400);
-        window._info = packageInfo;
-        window._pluginKeys = packageInfo.Plugins.Keys.ToList();
+        window._info = mtPackageInfo;
+        window._pluginKeys = mtPackageInfo.Plugins.Keys.ToList();
+        window._persist = persist;
+        window._completionSource = new TaskCompletionSource<bool>();
 
         window.ShowModalUtility();
+        return window._completionSource.Task;
     }
 
     public void CreateGUI()
@@ -198,7 +217,11 @@ public class PluginImportWindow : EditorWindow
         foreach (var key in _pluginKeys)
             _info.Plugins[key] = false;
         _zipExtractDirs.Clear();
+
+        var completionSource = _completionSource;
         Close();
+        // 用户取消视为"安装 0 个插件"，不算错误，让调用方（如批量安装流程）继续往下走
+        completionSource?.TrySetResult(true);
     }
 
     private void OnImport()
@@ -209,15 +232,20 @@ public class PluginImportWindow : EditorWindow
 
         var zipExtractDirs = new Dictionary<string, string>(_zipExtractDirs);
         var info = _info;
+        var persist = _persist;
+        var completionSource = _completionSource;
         Close();
 
         if (selectedKeys.Count == 0)
         {
             LM.Log("[PluginImportWindow] 未勾选任何插件，跳过导入");
+            completionSource?.TrySetResult(true);
             return;
         }
 
         // UI 只负责收集勾选项与本次会话内选择的 zip 解压目录，实际的覆盖冲突检测/导入/记录都交给 Service
-        ServiceLocator.Get<IPluginPackageService>().ImportPreparedPlugins(info, selectedKeys, zipExtractDirs);
+        bool ok = ServiceLocator.Get<IPluginPackageService>()
+            .ImportPreparedPlugins(info, selectedKeys, zipExtractDirs, persist);
+        completionSource?.TrySetResult(ok);
     }
 }

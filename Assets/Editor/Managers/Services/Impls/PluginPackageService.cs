@@ -22,7 +22,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         private IMTPackageInfoService MTPackage => ServiceLocator.Get<IMTPackageInfoService>();
         private IPluginAssetService PluginAsset => ServiceLocator.Get<IPluginAssetService>();
 
-        public async Task<bool> PreparePluginsAsync(MTPackageInfo mtPackage)
+        public async Task<bool> PreparePluginsAsync(MTPackageInfo mtPackage, bool persist = true)
         {
             if (mtPackage == null || string.IsNullOrEmpty(mtPackage.PackageName))
             {
@@ -75,8 +75,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                 indexed++;
             }
 
-            MTPackage.SaveDependenciesToLocal();
-            PluginAsset.SaveToLocal();
+            if (persist)
+            {
+                MTPackage.SaveDependenciesToLocal();
+                PluginAsset.SaveToLocal();
+            }
+
             LM.Log(
                 $"[PluginPackageService] PreparePlugins done. package:{mtPackage.PackageName}, indexed:{indexed}");
             return true;
@@ -84,7 +88,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public bool ImportPreparedPlugins(MTPackageInfo mtPackage,
             IEnumerable<string> selectedPluginLocalPaths = null,
-            IReadOnlyDictionary<string, string> zipExtractDirectories = null)
+            IReadOnlyDictionary<string, string> zipExtractDirectories = null, bool persist = true)
         {
             if (mtPackage == null || string.IsNullOrEmpty(mtPackage.PackageName))
             {
@@ -149,7 +153,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 }
 
                 // 无论 .unitypackage 还是 .zip，都统一按“插件”处理：先算出本次会落盘的资源清单（zip 已拼接目标父目录），
-                // 再用现有的 GetCoveredList 检测是否会覆盖别的插件已记录的资源，逐插件单独弹窗确认
+                // GetCoveredList 检测是否会覆盖别的插件已记录的资源，逐插件单独弹窗确认
                 List<string> plannedAssetPaths = AnalyzePluginAssetPaths(stagingPath, zipTargetDirectory);
                 // 排除插件自身在 Prepare 阶段已记录的预分析结果，避免误判为跟自己冲突
                 var covered = PluginAsset.GetCoveredList(plannedAssetPaths, pluginKey);
@@ -171,8 +175,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                 imported++;
             }
 
-            MTPackage.SaveDependenciesToLocal();
-            PluginAsset.SaveToLocal();
+            if (persist)
+            {
+                MTPackage.SaveDependenciesToLocal();
+                PluginAsset.SaveToLocal();
+            }
+
             LM.Log(
                 $"[PluginPackageService] ImportPreparedPlugins done. package:{mtPackage.PackageName}, imported:{imported}");
             return imported > 0 || selected == null || selected.Count == 0;
@@ -183,11 +191,11 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// </summary>
         private static bool ConfirmOverwrite(string pluginKey, List<string> coveredPaths)
         {
-            const int maxShown = 15;
+            const int MAX_SHOWN = 15;
             string fileName = Path.GetFileName(pluginKey);
-            string listText = coveredPaths.Count <= maxShown
+            string listText = coveredPaths.Count <= MAX_SHOWN
                 ? string.Join("\n", coveredPaths)
-                : string.Join("\n", coveredPaths.Take(maxShown)) + $"\n...（共 {coveredPaths.Count} 条）";
+                : string.Join("\n", coveredPaths.Take(MAX_SHOWN)) + $"\n...（共 {coveredPaths.Count} 条）";
 
             return EditorUtility.DisplayDialog(
                 "导入插件 - 覆盖确认",
@@ -196,7 +204,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 "取消该插件导入");
         }
 
-        public bool RemoveImportedPlugins(MTPackageInfo mtPackage)
+        public bool RemoveImportedPlugins(MTPackageInfo mtPackage, bool showConfirmDialog = true)
         {
             if (mtPackage == null || string.IsNullOrEmpty(mtPackage.PackageName))
             {
@@ -211,50 +219,105 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             var keys = new List<string>(plugins.Keys);
+
+            // 先汇总本次会真正删除的全部资源路径（仅统计已安装、且未被其它插件共享的部分），
+            // 用一次弹窗整体展示给用户确认，而不是像导入那样逐插件分别询问
+            var uncoveredByKey = new Dictionary<string, List<string>>();
+            var allPathsToRemove = new List<string>();
             foreach (var pluginKey in keys)
             {
                 bool wasInstalled = plugins.TryGetValue(pluginKey, out var installed) && installed;
-                if (wasInstalled)
+                if (!wasInstalled)
                 {
-                    var uncovered = PluginAsset.GetUncoveredListToRemove(pluginKey);
-                    if (uncovered != null && uncovered.Count > 0)
+                    continue;
+                }
+
+                var uncovered = PluginAsset.GetUncoveredListToRemove(pluginKey) ?? new List<string>();
+                uncoveredByKey[pluginKey] = uncovered;
+                allPathsToRemove.AddRange(uncovered);
+            }
+
+            if (showConfirmDialog && allPathsToRemove.Count > 0 && !ConfirmRemoveAll(mtPackage, allPathsToRemove))
+            {
+                LM.Log($"[PluginPackageService] 用户取消卸载插件，未做任何改动: {mtPackage.PackageName}");
+                return false;
+            }
+
+            foreach (var pluginKey in keys)
+            {
+                bool wasInstalled = plugins.TryGetValue(pluginKey, out var installed) && installed;
+                List<string> remainingPaths = null;
+
+                if (wasInstalled && uncoveredByKey.TryGetValue(pluginKey, out var uncovered) && uncovered.Count > 0)
+                {
+                    // unitypackage 记录的都是 "Assets/..." 路径；zip 若解到了工程外自定义目录，
+                    // 记录的会是绝对路径，两者分别走 UnitypackageRemover（AssetDatabase）/ ZipRemover（文件系统）
+                    var assetsRelativePaths = uncovered
+                        .Where(p => p.StartsWith("Assets/", StringComparison.OrdinalIgnoreCase))
+                        .ToList();
+                    var externalPaths = uncovered
+                        .Where(p => !p.StartsWith("Assets/", StringComparison.OrdinalIgnoreCase))
+                        .ToList();
+
+                    var combined = new PluginRemoveResult();
+                    if (assetsRelativePaths.Count > 0)
                     {
-                        // unitypackage 记录的都是 "Assets/..." 路径；zip 若解到了工程外自定义目录，
-                        // 记录的会是绝对路径，两者分别走 UnitypackageRemover（AssetDatabase）/ ZipRemover（文件系统）
-                        var assetsRelativePaths = uncovered
-                            .Where(p => p.StartsWith("Assets/", StringComparison.OrdinalIgnoreCase))
-                            .ToList();
-                        var externalPaths = uncovered
-                            .Where(p => !p.StartsWith("Assets/", StringComparison.OrdinalIgnoreCase))
-                            .ToList();
-
-                        if (assetsRelativePaths.Count > 0)
-                        {
-                            UnitypackageRemover.RemoveByPathnames(assetsRelativePaths, refreshAssetDatabase: false);
-                        }
-
-                        if (externalPaths.Count > 0)
-                        {
-                            ZipRemover.RemoveByPathnames(externalPaths);
-                        }
+                        combined.Merge(
+                            UnitypackageRemover.RemoveByPathnames(assetsRelativePaths, refreshAssetDatabase: false));
                     }
+
+                    if (externalPaths.Count > 0)
+                    {
+                        combined.Merge(ZipRemover.RemoveByPathnames(externalPaths));
+                    }
+
+                    // 只有真正失败/被跳过（如文件被占用、目录非空）的路径才需要继续追踪；
+                    // 已成功删除（或本就不存在）的路径不再需要记录，避免不管删没删成功都无条件清空记录
+                    remainingPaths = new List<string>(combined.FailedPaths);
+                    remainingPaths.AddRange(combined.SkippedPaths);
+                    if (remainingPaths.Count > 0)
+                    {
+                        LM.LogWarning(
+                            $"[PluginPackageService] 插件 {pluginKey} 有 {remainingPaths.Count} 个资源未能移除，" +
+                            $"保留追踪以便下次重试清理: {string.Join(", ", remainingPaths)}");
+                    }
+                }
+
+                if (remainingPaths != null && remainingPaths.Count > 0)
+                {
+                    // 仍有资源残留在磁盘上，保留记录、维持"已安装"状态，不能当作已完全卸载
+                    PluginAsset.Set(pluginKey, remainingPaths);
+                    MTPackage.SetPlugin(mtPackage.PackageName, pluginKey, true);
+                    continue;
                 }
 
                 PluginAsset.Remove(pluginKey);
                 MTPackage.SetPlugin(mtPackage.PackageName, pluginKey, false);
             }
 
-            // 清空该包 Plugins 字典条目
-            var live = MTPackage.GetPackage(mtPackage.PackageName);
-            if (live?.Plugins != null)
-            {
-                live.Plugins.Clear();
-            }
-
             MTPackage.SaveDependenciesToLocal();
             PluginAsset.SaveToLocal();
             LM.Log($"[PluginPackageService] RemoveImportedPlugins done. package:{mtPackage.PackageName}");
             return true;
+        }
+
+        /// <summary>
+        /// 卸载确认弹窗：与旧工程一致，整包一次性列出全部将被删除的资源路径（过长时用 "..." 截断），
+        /// 而不是像导入侧那样逐插件单独询问。
+        /// </summary>
+        private static bool ConfirmRemoveAll(MTPackageInfo mtPackage, List<string> allPathsToRemove)
+        {
+            const int maxShown = 15;
+            var distinctPaths = allPathsToRemove.Distinct(StringComparer.Ordinal).ToList();
+            string listText = distinctPaths.Count <= maxShown
+                ? string.Join("\n", distinctPaths)
+                : string.Join("\n", distinctPaths.Take(maxShown)) + $"\n...（共 {distinctPaths.Count} 条）";
+
+            return EditorUtility.DisplayDialog(
+                "卸载插件确认",
+                $"即将移除 {mtPackage.PackageName} 关联的以下 {distinctPaths.Count} 个插件资源：\n\n{listText}\n\n是否继续？",
+                "确定卸载",
+                "取消");
         }
 
         public async Task<List<string>> ListRemotePluginFileNamesAsync(int projectId, string reference)

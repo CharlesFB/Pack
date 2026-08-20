@@ -13,17 +13,18 @@ using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
 
 namespace MagicTavern.FrontEngine.MTPManager
 {
-    public class PackageInfoService : IPackageInfoService
+    public class PackageJsonService : IPackageJsonService
     {
         private const double CACHE_TTL_SECONDS = MTPTime.PACKAGE_INFO_CACHE_TTL;
 
-        private readonly Dictionary<string, Dictionary<string, PackageInfo>> _packageCache =
-            new Dictionary<string, Dictionary<string, PackageInfo>>();
+        private readonly Dictionary<string, Dictionary<string, PackageJson>> _packageCache =
+            new Dictionary<string, Dictionary<string, PackageJson>>();
 
         private DateTime _refreshTime;
 
         private IGitLabService GitLabService => ServiceLocator.Get<IGitLabService>();
         private IProjectInfoService ProjectInfoService => ServiceLocator.Get<IProjectInfoService>();
+        private IPluginPackageService PluginPackageService => ServiceLocator.Get<IPluginPackageService>();
 
         public bool NeedUpdate =>
             (DateTime.Now - RefreshTime).TotalSeconds > CACHE_TTL_SECONDS
@@ -35,7 +36,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             set => _refreshTime = value;
         }
 
-        public void Add(string projectId, string tag, PackageInfo packageJson)
+        public void Add(string projectId, string tag, PackageJson packageJson)
         {
             if (string.IsNullOrEmpty(projectId) || string.IsNullOrEmpty(tag) || packageJson == null)
             {
@@ -44,14 +45,14 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             if (!_packageCache.TryGetValue(projectId, out var packDic))
             {
-                packDic = new Dictionary<string, PackageInfo>();
+                packDic = new Dictionary<string, PackageJson>();
                 _packageCache.Add(projectId, packDic);
             }
 
             packDic[tag] = packageJson;
         }
 
-        public PackageInfo Get(string projectId, string tag)
+        public PackageJson Get(string projectId, string tag)
         {
             if (string.IsNullOrEmpty(projectId) || string.IsNullOrEmpty(tag))
             {
@@ -68,12 +69,12 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public PackageInfoCache ExportToPackageInfoCache()
         {
-            var cacheCopy = new Dictionary<string, Dictionary<string, PackageInfo>>(_packageCache.Count);
+            var cacheCopy = new Dictionary<string, Dictionary<string, PackageJson>>(_packageCache.Count);
             foreach (var projectKvp in _packageCache)
             {
                 cacheCopy[projectKvp.Key] = projectKvp.Value != null
-                    ? new Dictionary<string, PackageInfo>(projectKvp.Value)
-                    : new Dictionary<string, PackageInfo>();
+                    ? new Dictionary<string, PackageJson>(projectKvp.Value)
+                    : new Dictionary<string, PackageJson>();
             }
 
             return new PackageInfoCache
@@ -102,8 +103,8 @@ namespace MagicTavern.FrontEngine.MTPManager
             foreach (var projectKvp in cache.PackageCache)
             {
                 _packageCache[projectKvp.Key] = projectKvp.Value != null
-                    ? new Dictionary<string, PackageInfo>(projectKvp.Value)
-                    : new Dictionary<string, PackageInfo>();
+                    ? new Dictionary<string, PackageJson>(projectKvp.Value)
+                    : new Dictionary<string, PackageJson>();
             }
         }
 
@@ -126,7 +127,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
-            LM.Log("[PackageInfoService] 本地 upm-cache.json 不存在，force 从 Git 拉取。");
+            LM.Log("[PackageJsonService] 本地 upm-cache.json 不存在，force 从 Git 拉取。");
             await PullFromGitAsync(force: true);
         }
 
@@ -144,7 +145,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             if (remote == null)
             {
                 LM.LogError(
-                    $"[PackageInfoService] PullFromGit 失败: projectId={MTPGit.SOURCE_PROJECT_ID}, path={MTPGit.GIT_PACKAGE_INFO_CACHE_PATH}");
+                    $"[PackageJsonService] PullFromGit 失败: projectId={MTPGit.SOURCE_PROJECT_ID}, path={MTPGit.GIT_PACKAGE_INFO_CACHE_PATH}");
                 return false;
             }
 
@@ -177,16 +178,26 @@ namespace MagicTavern.FrontEngine.MTPManager
                         continue;
                     }
 
-                    var packageJson = await GitLabService.GetJsonFileAsync<PackageInfo>(
+                    var packageJson = await GitLabService.GetJsonFileAsync<PackageJson>(
                         project.ProjectId, "package.json", tag);
 
                     if (packageJson == null)
                     {
                         failCount++;
                         LM.LogWarning(
-                            $"[PackageInfoService] 拉取 package.json 失败: projectId={projectId}, tag={tag}");
+                            $"[PackageJsonService] 拉取 package.json 失败: projectId={projectId}, tag={tag}");
                         continue;
                     }
+
+                    // CHANGELOG.md 是否存在纯属约定，很多仓库压根没有这个文件，
+                    // 这属于正常情况而非错误，因此拉取失败时不记录日志，直接留空即代表"没有 CHANGELOG"。
+                    packageJson.changelog = await GitLabService.GetFileTextAsync(
+                        project.ProjectId, MTPGit.GIT_CHANGELOG_FILE_NAME, tag, logOnFailure: false);
+
+                    // 插件目录同样约定存在，很多包没有 Editor/PluginsPackage，
+                    // ListRemotePluginFileNamesAsync 内部已经把"目录不存在"当作正常情况处理（返回空列表，不额外记录日志）。
+                    packageJson.plugins = await PluginPackageService.ListRemotePluginFileNamesAsync(
+                        project.ProjectId, tag) ?? new List<string>();
 
                     Add(projectId, tag, packageJson);
                     successCount++;
@@ -196,7 +207,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             _refreshTime = DateTime.Now;
             SaveToLocal();
             LM.Log(
-                $"[PackageInfoService] RebuildFromProjectInfoList done. success:{successCount}, fail:{failCount}, projects:{projects.Count}");
+                $"[PackageJsonService] RebuildFromProjectInfoList done. success:{successCount}, fail:{failCount}, projects:{projects.Count}");
         }
     }
 }

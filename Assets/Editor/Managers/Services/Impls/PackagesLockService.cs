@@ -2,7 +2,7 @@
 // Copyright (c) Magic Tavern. All rights reserved.
 // @Author: 陈梓霄
 // @Maintainer: 陈梓霄
-// @Description: Unity packages-lock.json 读取服务（本地由 UPM 管理，不做 MTP 持久化写回）
+// @Description: Unity packages-lock.json 读取服务
 // ==================================================
 
 using System.Collections.Generic;
