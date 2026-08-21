@@ -1,0 +1,31 @@
+
+{
+    "name" : "com.magictavern.mtpdevtoolkit",
+    "version" : "1.2.8",
+    "description" : "Magic Tavern Package\u5F00\u53D1\u5DE5\u5177\u5305",
+    "displayName" : "MTPDevToolkit",
+    "unity"       : "2019.4",
+    "unityRelease" : null,
+    "author"       : {
+        "name" : "Magic Tavern",
+        "email" : "zhaojieyang@magictavern.com",
+        "url"   : "https://www.magictavern.com/"
+    },
+    "dependenciesGit" : {
+    },
+    "changelogUrl"    : "https://w.magictavern.com/pages/viewpage.action?pageId=73465885",
+    "dependencies"    : {
+    },
+    "documentationUrl" : "https://w.magictavern.com/pages/viewpage.action?pageId=73467313",
+    "hideInEditor"     : false,
+    "keywords"         : [
+        "package dev",
+        "package tools"
+    ],
+    "license"          : null,
+    "licenseUrl"       : null,
+    "samples"          : [
+    ],
+    "type"             : null,
+    "scriptDefineSymbols" : null
+}

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="PackageManifestView" src="PackageManifestView.uxml" />
+    <ui:ScrollView style="height: 100%; width: 100%; min-width: 100%; min-height: 100%;">
+        <ui:Instance template="PackageManifestView" name="PackageManifestView" style="width: 100%; height: 100%;" />
+        <ui:Button text="SyncSamples" display-tooltip-when-elided="true" name="btnSample" style="display: none;" />
+        <ui:Button text="Create" display-tooltip-when-elided="true" name="btnCreate" style="min-height: 30px; margin-top: 5px;" />
+    </ui:ScrollView>
+</ui:UXML>

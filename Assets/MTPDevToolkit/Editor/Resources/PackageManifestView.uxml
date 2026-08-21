@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="AuthorView" src="AuthorView.uxml" />
+    <ui:TextField picking-mode="Ignore" label="Name" value="filler text" text="filler text" name="txtName" tooltip="包名" />
+    <ui:TextField picking-mode="Ignore" label="DisplayName" value="filler text" text="filler text" name="txtDisplayName" tooltip="显示名称" />
+    <ui:TextField picking-mode="Ignore" label="Version" value="filler text" text="1.0.0" name="txtVersion" tooltip="版本号" />
+    <ui:TextField picking-mode="Ignore" label="Unity" value="filler text" text="2019.4" name="txtUnity" tooltip="Unity兼容版本" />
+    <ui:TextField picking-mode="Ignore" label="DocumentURL" text="filler text" name="txtDocURL" password="false" />
+    <ui:TextField picking-mode="Ignore" label="Description" value="filler text" text="filler text" name="txtDesc" tooltip="描述" style="flex-direction: column; height: 70px; justify-content: center;" />
+    <ui:TextField picking-mode="Ignore" label="UnityRelease" value="filler text" name="txtUnityRelease" tooltip="Unity兼容版本补丁号" />
+    <ui:Instance template="AuthorView" name="AuthorView" />
+    <ui:Foldout text="UnityDependencies" name="fldUnityDep" tooltip="unity package 依赖">
+        <ui:ListView focusable="true" name="listDepItem" item-height="60" fixed-item-height="60" style="min-height: auto;" />
+        <ui:VisualElement style="height: auto; width: auto; flex-direction: row; justify-content: flex-end;">
+            <ui:Button text="+" display-tooltip-when-elided="true" name="btnDepAdd" style="margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 20px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgb(77, 77, 77); height: 20px; font-size: 20px;" />
+            <ui:Button text="-" display-tooltip-when-elided="true" name="btnDepDel" style="margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 20px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgb(77, 77, 77); height: 20px; font-size: 20px;" />
+        </ui:VisualElement>
+    </ui:Foldout>
+    <ui:Foldout text="GitDependencies" name="fldGitDep" tooltip="包的git依赖" style="justify-content: center;">
+        <ui:ListView focusable="true" name="listGitDepItem" item-height="60" fixed-item-height="60" style="min-height: auto;" />
+        <ui:VisualElement style="height: auto; width: auto; flex-direction: row; justify-content: flex-end;">
+            <ui:Button text="+" display-tooltip-when-elided="true" name="btnGitDepAdd" style="margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 20px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgb(77, 77, 77); height: 20px; font-size: 20px;" />
+            <ui:Button text="-" display-tooltip-when-elided="true" name="btnGitDepDel" style="margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 20px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgb(77, 77, 77); height: 20px; font-size: 20px;" />
+        </ui:VisualElement>
+    </ui:Foldout>
+    <ui:TextField picking-mode="Ignore" label="ScriptDefineSymbols" value="filler text" text="filler text" name="txtSymbols" tooltip="包安装时自动设置的Unity条件编译变量" />
+    <ui:VisualElement style="flex-direction: column;">
+        <ui:VisualElement style="flex-direction: row; align-items: center; margin-bottom: 5px; margin-top: 15px;">
+            <ui:Label text="Changelog" style="width: 100px;" />
+            <ui:Button text="Revert" display-tooltip-when-elided="true" name="btnRevertChangelog" style="margin-right: 5px;" />
+            <ui:Button text="Generate from Git" display-tooltip-when-elided="true" name="btnGitChangelog" style="margin-right: 5px;" />
+            <ui:Button text="Generate with AI" display-tooltip-when-elided="true" name="btnAIChangelog" style="margin-right: 5px;" />
+            <ui:Label text="" name="lblAILoading" style="color: #666666;" />
+        </ui:VisualElement>
+        <ui:ScrollView style=" border-width: 1px; border-color: rgb(51, 51, 51);flex-grow: 1;">
+            <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="txtChangelog" multiline="true" is-delayed="true" is-password="false" style="flex-grow: 1; white-space: pre-wrap; height: auto; min-height: 275px;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout text="Samples" name="fldSample" style="height: 90px;">
+        <ui:TextField picking-mode="Ignore" label="DisplayName" value="filler text" text="filler text" name="txtDisplayName" />
+        <ui:TextField picking-mode="Ignore" label="Description" value="filler text" text="filler text" name="txtDesc" style="height: 19px;" />
+        <ui:TextField picking-mode="Ignore" label="Path" value="filler text" text="filler text" name="txtPath" />
+    </ui:Foldout>
+</ui:UXML>

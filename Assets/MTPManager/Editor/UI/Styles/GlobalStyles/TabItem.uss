@@ -1,0 +1,12 @@
+.package-tab-view__empty-label {
+    color: rgb(180, 180, 180);
+    -unity-font-style: italic;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.package-tab-view__label {
+    color: rgb(240, 240, 240);
+    font-size: 14px;
+    padding: 8px;
+}

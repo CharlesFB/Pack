@@ -1,0 +1,55 @@
+.package-dep-view__container{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.package-dep-view__sub-container{
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.package-dep-view__title-list{
+    flex-grow: initial;
+    flex-shrink: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.package-dep-view__package-names{
+    flex-grow: initial;
+    flex-shrink: 1;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.package-dep-view__min-versions{
+    flex-grow: initial;
+    flex-shrink: 1;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.package-dep-view__installation-status{
+    flex-grow: initial;
+    flex-shrink: 1;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.package-dep-view__title-font{
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: rgb(230, 230, 230);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* common font 的颜色用代码控制，uss不碰 */
+.package-dep-view__common-font{
+    font-size: 14px;
+    -unity-font-style: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+}

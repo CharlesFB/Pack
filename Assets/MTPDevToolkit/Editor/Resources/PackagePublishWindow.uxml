@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="PackageManifestView" src="PackageManifestView.uxml" />
+    <ui:VisualElement style="flex-direction: column; justify-content: space-around; min-width: 100%; min-height: 100%;">
+        <ui:ScrollView style="max-width: 100%; max-height: 100%; min-width: 100%; min-height: 100%; width: auto; height: auto;">
+            <ui:Instance template="PackageManifestView" name="PackageManifestView" />
+            <ui:Button text="SyncSample" display-tooltip-when-elided="true" name="btnSample" style="display: none;" />
+            <ui:Button text="Publish" display-tooltip-when-elided="true" name="btnPublish" style="min-height: 30px;" />
+            <ui:VisualElement name="nodeCheck" style="flex-direction: column; display: flex; min-width: 100%; min-height: auto; width: 100%; max-width: 100%; max-height: 100%; align-items: flex-start;">
+                <ui:Label text="Publish Check Message" display-tooltip-when-elided="true" name="lbTitle" />
+                <ui:Label text="Error Message" display-tooltip-when-elided="true" name="lbError" style="flex-wrap: wrap; white-space: normal;" />
+                <ui:Label text="Error Message" display-tooltip-when-elided="true" name="lbWarning" style="flex-wrap: wrap; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

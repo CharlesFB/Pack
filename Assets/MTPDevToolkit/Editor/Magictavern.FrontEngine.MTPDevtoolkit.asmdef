@@ -1,0 +1,17 @@
+{
+    "name": "Magictavern.FrontEngine.MTPDevtoolkit",
+    "references": [
+        "GUID:9f2a8fa4de3a74e39a7929734141a52a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

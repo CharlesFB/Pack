@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Foldout text="Author" name="fldAuthor">
+        <ui:TextField picking-mode="Ignore" label="Name" value="filler text" text="filler text" name="txtAuthorName" />
+        <ui:TextField picking-mode="Ignore" label="Email" value="filler text" text="filler text" name="txtEmail" />
+        <ui:TextField picking-mode="Ignore" label="Url" value="filler text" text="filler text" name="txtUrl" />
+    </ui:Foldout>
+</ui:UXML>
