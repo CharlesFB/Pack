@@ -1,55 +1,96 @@
-.package-dep-view__container{
+/* 四列手动网格：
+ * 行容器横向排列四列；每列纵向堆 Label。
+ * 列 flex-grow/shrink 均为 0，宽度 = 该列最宽子 Label（再加本列 margin）。
+ * 所有 Label 共用 __cell 锁定行高，缺格用空白 Label 占位。
+ */
+
+.package-dep-view__container {
     flex-grow: 1;
     flex-shrink: 1;
     flex-direction: column;
     margin-bottom: 15px;
 }
 
-.package-dep-view__sub-container{
-    flex-grow: 1;
+.package-dep-view__sub-container {
     flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    align-items: flex-start;
 }
 
-.package-dep-view__title-list{
-    flex-grow: initial;
-    flex-shrink: 1;
+.package-dep-view__title-list,
+.package-dep-view__package-names,
+.package-dep-view__min-versions,
+.package-dep-view__installation-status {
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: stretch;
+}
+
+.package-dep-view__title-list {
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.package-dep-view__package-names{
-    flex-grow: initial;
-    flex-shrink: 1;
+.package-dep-view__package-names {
     margin-left: 8px;
     margin-right: 8px;
 }
 
-.package-dep-view__min-versions{
-    flex-grow: initial;
-    flex-shrink: 1;
+.package-dep-view__min-versions {
     margin-left: 8px;
     margin-right: 8px;
 }
 
-.package-dep-view__installation-status{
-    flex-grow: initial;
-    flex-shrink: 1;
+.package-dep-view__installation-status {
     margin-left: 8px;
     margin-right: 8px;
 }
 
-.package-dep-view__title-font{
+.package-dep-view__cell {
+    height: 22px;
+    min-height: 22px;
+    max-height: 22px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    -unity-text-align: middle-left;
+}
+
+.package-dep-view__title-font {
     font-size: 14px;
     -unity-font-style: bold;
-    color: rgb(230, 230, 230);
     margin-left: 8px;
     margin-right: 8px;
+    margin-top: 6px;
+    -unity-text-align: middle-center;
 }
 
-/* common font 的颜色用代码控制，uss不碰 */
-.package-dep-view__common-font{
+.package-dep-view__title-placeholder {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+
+.package-dep-view__common-font {
     font-size: 14px;
     -unity-font-style: normal;
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 6px;
+    -unity-text-align: middle-left;
+}
+
+.package-dep-view__version-font,
+.package-dep-view__status-font {
+    font-size: 14px;
+    -unity-font-style: normal;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 6px;
+    -unity-text-align: middle-left;
 }

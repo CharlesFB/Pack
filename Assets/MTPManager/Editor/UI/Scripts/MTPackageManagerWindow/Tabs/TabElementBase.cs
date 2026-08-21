@@ -1,4 +1,5 @@
 using UnityEditor;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace MagicTavern.FrontEngine.MTPManager
@@ -17,9 +18,10 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
         }
 
-        public Label LabelWithClass(string text, string className)
+        public Label LabelWithClass(string text, string className, StyleColor color)
         {
             var lb = new Label(text);
+            lb.style.color = color;
             lb.AddToClassList(className);
             return lb;
         }

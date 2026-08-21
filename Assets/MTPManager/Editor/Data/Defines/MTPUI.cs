@@ -16,6 +16,9 @@ namespace MagicTavern.FrontEngine.MTPManager
         public const string PACKAGE_CHANGELOG_VIEW_STYLE_PATH = "Assets/MTPManager/Editor/UI/Styles/PackageChangelogView.uss";
         // PackageDependenciesView 样式路径
         public const string PACKAGE_DEPENDENCIES_VIEW_STYLE_PATH = "Assets/MTPManager/Editor/UI/Styles/PackageDependenciesView.uss";
+        // Dependencies Tab 分区布局（Is Using / Used By）
+        public const string PACKAGE_DEPENDENCIES_ITEM_VIEW_UXML_PATH =
+            "Assets/MTPManager/Editor/UI/Layouts/MTPackageManagerWindow/DependenciesView/DependenciesItemView.uxml";
 
         // Samples Tab 布局路径。
         public const string PACKAGE_SAMPLE_ITEM_VIEW_UXML_PATH =

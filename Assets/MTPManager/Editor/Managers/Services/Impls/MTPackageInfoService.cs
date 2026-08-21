@@ -189,18 +189,33 @@ namespace MagicTavern.FrontEngine.MTPManager
             return true;
         }
 
+        public List<string> GetAllKeys()
+        {
+            return  _dependencies?.Keys.ToList();
+        }
+
         public List<PackageJson> GetAllUsedBy(string packageName)
         {
             if (string.IsNullOrEmpty(packageName))
             {
                 return new List<PackageJson>();
             }
+
             var res = new List<PackageJson>();
             foreach (var info in _dependencies.Values)
             {
-                if (info.Dependencies.ContainsKey(packageName))
-                    res.Add(PackageJsonService.Get(info.ProjectId.ToString(), info.Tag));
+                if (info?.Dependencies == null || !info.Dependencies.ContainsKey(packageName))
+                {
+                    continue;
+                }
+
+                var json = PackageJsonService.Get(info.ProjectId.ToString(), info.Tag);
+                if (json != null)
+                {
+                    res.Add(json);
+                }
             }
+
             return res;
         }
 

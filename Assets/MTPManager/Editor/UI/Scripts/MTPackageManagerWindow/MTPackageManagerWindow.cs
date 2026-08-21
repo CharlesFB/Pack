@@ -100,7 +100,7 @@ public class MTPackageManagerWindow : EditorWindow
 
         AddDetailTab("Description", BuildDescriptionTab(tagInfo.description));
         AddDetailTab("Version History", BuildChangelogTab(tagInfo.changelog));
-        AddDetailTab("Dependencies", BuildDependenciesPlaceholderTab());
+        AddDetailTab("Dependencies", BuildDependenciesTab(tagInfo));
         AddDetailTab("Samples", BuildSamplesTab(tagInfo, isExactInstalledTag));
         AddDetailTab("Plugins", BuildPluginsTab(tagInfo, installed, isExactInstalledTag));
     }
@@ -148,13 +148,13 @@ public class MTPackageManagerWindow : EditorWindow
     }
 
     /// <summary>
-    /// Dependencies 先留空占位，细节（展示依赖树 / PackageDependencyView 等）之后再补充。
+    /// Dependencies Tab 的容器搭建 / 数据装换逻辑见 "PackageDependenciesView"
     /// </summary>
-    private static VisualElement BuildDependenciesPlaceholderTab()
+    private static VisualElement BuildDependenciesTab(PackageJson tagInfo)
     {
-        var placeholder = new VisualElement();
-        placeholder.style.flexGrow = 1;
-        return placeholder;
+        var view = new PackageDependenciesView();
+        view.BindData(tagInfo);
+        return view;
     }
 
     /// <summary>

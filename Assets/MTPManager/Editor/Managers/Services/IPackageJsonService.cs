@@ -6,6 +6,7 @@
 // ==================================================
 
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace MagicTavern.FrontEngine.MTPManager
@@ -22,6 +23,11 @@ namespace MagicTavern.FrontEngine.MTPManager
         void Add(string projectId, string tag, PackageJson packageJson);
 
         PackageJson Get(string projectId, string tag);
+
+        /// <summary>
+        /// 获取所有的 Is Using 显示部分，用于dependencies展示
+        /// </summary>
+        List<PackageJson> GetAllIsUsing(PackageJson tagInfo);
 
         PackageInfoCache ExportToPackageInfoCache();
 

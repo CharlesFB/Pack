@@ -19,6 +19,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         MTPackageInfo GetPackage(string packageName);
         List<MTPackageInfo> GetAllPackages();
 
+        List<string> GetAllKeys();
+
         /// <summary>
         /// 按 "仓库链接#tag"（与 package.json 中 dependenciesGit 的写法一致）从远端拉取单条工程的
         /// package.json，并解析出 tag 对应的 40 位 commit sha（revision），转换为 MTPackageInfo 返回。

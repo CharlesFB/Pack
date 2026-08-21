@@ -118,6 +118,46 @@ namespace MagicTavern.FrontEngine.MTPManager
             var cache = JsonUtils.LoadFromFile<PackageInfoCache>(MTPPath.PACKAGE_INFO_CACHE_PATH, createIfNotExist);
             LoadFromPackageInfoCache(cache);
         }
+        
+        public List<PackageJson> GetAllIsUsing(PackageJson tagInfo)
+        {
+            var result = new List<PackageJson>();
+            if (tagInfo?.dependenciesGit == null || tagInfo.dependenciesGit.Count == 0)
+            {
+                return result;
+            }
+
+            foreach (var depUrl in tagInfo.dependenciesGit.Values)
+            {
+                if (string.IsNullOrEmpty(depUrl))
+                {
+                    continue;
+                }
+
+                // 与 FetchPackageInfoAsync 一致：仓库链接#tag，'#' 本身不算进 url
+                var splitIndex = depUrl.LastIndexOf('#');
+                if (splitIndex <= 0 || splitIndex == depUrl.Length - 1)
+                {
+                    continue;
+                }
+
+                var url = depUrl.Substring(0, splitIndex);
+                var tag = depUrl.Substring(splitIndex + 1);
+                var project = ProjectInfoService.GetByUrl(url);
+                if (project == null || project.ProjectId <= 0)
+                {
+                    continue;
+                }
+
+                var package = Get(project.ProjectId.ToString(), tag);
+                if (package != null)
+                {
+                    result.Add(package);
+                }
+            }
+
+            return result;
+        }
 
         public async Task EnsureInitializedAsync()
         {
