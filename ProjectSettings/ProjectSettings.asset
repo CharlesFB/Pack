@@ -793,10 +793,10 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: 
-    Standalone: 
-    WebGL: 
-    iPhone: 
+    Android: PACKAGE_DEV
+    Standalone: PACKAGE_DEV
+    WebGL: PACKAGE_DEV
+    iPhone: PACKAGE_DEV 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
