@@ -15,9 +15,9 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             public Request StartRequest()
             {
-                if (RequestType == RequestType.Add)
+                if (RequestType == RequestType.Add || RequestType == RequestType.UpdateAdd)
                     return Client.Add(RequestPackageInfo.GetInstallUrl(MTPGit.DEFAULT_TOKEN));
-                if (RequestType == RequestType.Remove)
+                if (RequestType == RequestType.Remove || RequestType == RequestType.UpdateRemove)
                     return Client.Remove(RequestPackageInfo.PackageName);
                 return null;
             }

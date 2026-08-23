@@ -16,6 +16,10 @@ public class MTPackageManagerWindow : EditorWindow
     private const string DEBUG_SUFFIX = "debug";
     private const string PACKAGE_TYPE_NORMAL_LABEL = "Package: FrontEngine";
     private const string NO_VERSION_LABEL = "无可用版本";
+    private const string INSTALL_LABEL = "Install";
+    private const string UPDATE_LABEL = "Update";
+    private const string INSTALL_LOCAL_LABEL = "Install(Local)";
+    private const string UPDATE_LOCAL_LABEL = "Update(Local)";
     
     [SerializeField]
     private VisualTreeAsset mtpWindow = null;
@@ -35,6 +39,7 @@ public class MTPackageManagerWindow : EditorWindow
     private Label _lbUpdateTime;
     private Button _btnRefresh;
     private bool _isRefreshing;
+    private bool _isInstalling;
     private bool _sortDescending;
 
     // InfoView
@@ -46,12 +51,18 @@ public class MTPackageManagerWindow : EditorWindow
     private Label _lbReleaseType;
     private Label _lbDocumentation;
     private Label _lbLicenses;
+    private Button _btnInstall;
+    private Button _btnUninstall;
     private string _documentationUrl;
     private bool _versionShowAll;
+    private int _tagInfoLoadSeq;
 
     private static IProjectInfoService ProjectInfoService => ServiceLocator.Get<IProjectInfoService>();
     private static IPackageJsonService PackageJsonService => ServiceLocator.Get<IPackageJsonService>();
     private static IMTPackageInfoService MTPackageInfoService => ServiceLocator.Get<IMTPackageInfoService>();
+    private static IRootPackageService RootPackageService => ServiceLocator.Get<IRootPackageService>();
+    private static IPackageSyncService PackageSyncService => ServiceLocator.Get<IPackageSyncService>();
+    private static IPackageInstallerService PackageInstallerService => ServiceLocator.Get<IPackageInstallerService>();
 
     public void CreateGUI()
     {
@@ -94,7 +105,7 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
-        var installed = MTPackageInfoService.GetPackage(project.PackageName); 
+        var installed = FindInstalled(project);
         bool isExactInstalledTag = installed != null
             && string.Equals(installed.Tag, tag, StringComparison.Ordinal);
 
@@ -330,6 +341,7 @@ public class MTPackageManagerWindow : EditorWindow
 
         _isRefreshing = true;
         _btnRefresh?.SetEnabled(false);
+        RefreshActionButtons();
         
         try
         {
@@ -364,6 +376,7 @@ public class MTPackageManagerWindow : EditorWindow
         {
             _isRefreshing = false;
             _btnRefresh?.SetEnabled(true);
+            RefreshActionButtons();
             EditorUtility.ClearProgressBar();
         }
     }
@@ -525,10 +538,22 @@ public class MTPackageManagerWindow : EditorWindow
         _lbReleaseType = infoView.Q<Label>("lbReleaseType");
         _lbDocumentation = infoView.Q<Label>("lbDocumentation");
         _lbLicenses = infoView.Q<Label>("lbLicenses");
+        _btnInstall = infoView.Q<Button>("btnInstall");
+        _btnUninstall = infoView.Q<Button>("btnUninstall");
 
         if (_lbDocumentation != null)
         {
             _lbDocumentation.RegisterCallback<PointerUpEvent>(OnDocumentationClicked);
+        }
+
+        if (_btnInstall != null)
+        {
+            _btnInstall.clicked += OnInstallButtonClicked;
+        }
+
+        if (_btnUninstall != null)
+        {
+            _btnUninstall.clicked += OnUninstallPackage;
         }
 
         // Licenses 暂时不接真实数据，先在代码里关掉显示，等需求明确后再补。
@@ -536,6 +561,13 @@ public class MTPackageManagerWindow : EditorWindow
         {
             _lbLicenses.style.display = DisplayStyle.None;
         }
+
+        if (_btnUninstall != null)
+        {
+            _btnUninstall.text = "Uninstall";
+        }
+
+        RefreshActionButtons();
     }
 
     private void OnDocumentationClicked(PointerUpEvent evt)
@@ -569,6 +601,7 @@ public class MTPackageManagerWindow : EditorWindow
 
     private void SetInfoViewEmpty()
     {
+        _tagInfoLoadSeq++;
         SetLabel(_lbDisplayName, "N/A");
         SetLabel(_lbAuthorEmail, "N/A");
         SetLabel(_lbPackageName, "N/A");
@@ -581,10 +614,13 @@ public class MTPackageManagerWindow : EditorWindow
             _ddVersion.choices = new List<string>();
             _ddVersion.SetValueWithoutNotify(string.Empty);
         }
+
+        RefreshActionButtons();
     }
 
-    private void ApplyTagInfoToInfoView(ProjectInfo project, string tag)
+    private async void ApplyTagInfoToInfoView(ProjectInfo project, string tag)
     {
+        int seq = ++_tagInfoLoadSeq;
         var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
         SetLabel(_lbDisplayName, ProjectDisplayUtils.GetDisplayName(project, tag));
         SetLabel(_lbAuthorEmail, tagInfo?.author?.email ?? "N/A");
@@ -592,6 +628,21 @@ public class MTPackageManagerWindow : EditorWindow
         SwitchType(tag);
         ApplyDocumentationLink(tagInfo?.documentationUrl);
         RefreshDetailTabs(project, tag, tagInfo);
+        RefreshActionButtons();
+
+        if (project == null || project.ProjectId <= 0 || string.IsNullOrEmpty(tag) || tagInfo == null)
+        {
+            return;
+        }
+
+        bool filled = await PackageJsonService.EnsurePluginsAndChangelogAsync(project.ProjectId, tag);
+        if (!filled || seq != _tagInfoLoadSeq)
+        {
+            return;
+        }
+
+        RefreshDetailTabs(project, tag, ProjectDisplayUtils.GetTagInfo(project, tag));
+        RefreshActionButtons();
     }
 
     /// <summary>
@@ -697,6 +748,346 @@ public class MTPackageManagerWindow : EditorWindow
         bool isDebug = tag.EndsWith(DEBUG_SUFFIX);
         _lbReleaseType.style.display = isDebug ? DisplayStyle.None : DisplayStyle.Flex;
         _lbDebugType.style.display = isDebug ? DisplayStyle.Flex : DisplayStyle.None;
+    }
+
+    /// <summary>
+    /// 未安装：只显示 Install。已安装：Install 文案改为 Update，并显示 Uninstall。
+    /// 本工程包（com.magictavern.mtpmanager）视为已安装，且永不显示卸载。
+    /// </summary>
+    private void RefreshActionButtons()
+    {
+        if (_btnInstall == null && _btnUninstall == null)
+        {
+            return;
+        }
+
+        var project = _selectedProject;
+        string tag = GetSelectedTag();
+        bool hasValidTag = !string.IsNullOrEmpty(tag);
+        var installed = FindInstalled(project);
+        bool isSelf = IsSelfPackage(project, tag);
+        bool isInstalled = isSelf || installed != null;
+        bool busy = _isInstalling || _isRefreshing;
+        bool toLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
+
+        if (_btnInstall != null)
+        {
+            bool showInstall = project != null;
+            _btnInstall.style.display = showInstall ? DisplayStyle.Flex : DisplayStyle.None;
+            _btnInstall.text = isInstalled
+                ? (toLocal ? UPDATE_LOCAL_LABEL : UPDATE_LABEL)
+                : (toLocal ? INSTALL_LOCAL_LABEL : INSTALL_LABEL);
+            _btnInstall.SetEnabled(showInstall && hasValidTag && !busy);
+        }
+
+        if (_btnUninstall != null)
+        {
+            bool showUninstall = isInstalled && !isSelf;
+            _btnUninstall.style.display = showUninstall ? DisplayStyle.Flex : DisplayStyle.None;
+            _btnUninstall.SetEnabled(showUninstall && !busy);
+        }
+    }
+
+    private void OnInstallButtonClicked()
+    {
+        if (_isInstalling || _isRefreshing)
+        {
+            return;
+        }
+
+        var installed = FindInstalled(_selectedProject);
+        if (installed != null || IsSelfPackage(_selectedProject, GetSelectedTag()))
+        {
+            OnUpdatePackage();
+        }
+        else
+        {
+            OnInstallPackage();
+        }
+    }
+
+    private async void OnInstallPackage()
+    {
+        if (!TryBeginInstall("Install"))
+        {
+            return;
+        }
+
+        try
+        {
+            var package = await FetchSelectedPackageInfoAsync();
+            if (package == null)
+            {
+                LM.LogError("[MTPackageManagerWindow] 安装失败：无法拉取所选 Tag 的包信息");
+                return;
+            }
+
+            RootPackageService.AddOrUpdateRoot(package);
+            RootPackageService.SaveToLocal();
+            bool ok = await PackageSyncService.SyncManifestAsync();
+            LM.Log(ok
+                ? $"[MTPackageManagerWindow] 安装成功: {package.PackageName}#{package.Tag}"
+                : $"[MTPackageManagerWindow] 安装失败: {package.PackageName}#{package.Tag}");
+            RefreshProjectList();
+        }
+        catch (Exception e)
+        {
+            LM.LogError($"[MTPackageManagerWindow] 安装异常: {e}");
+        }
+        finally
+        {
+            EndInstall();
+        }
+    }
+
+    private async void OnUninstallPackage()
+    {
+        if (!TryBeginInstall("Uninstall"))
+        {
+            return;
+        }
+
+        try
+        {
+            var installed = FindInstalled(_selectedProject);
+            if (installed == null
+                || string.Equals(installed.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal)
+                || IsSelfPackage(_selectedProject, GetSelectedTag()))
+            {
+                LM.LogWarning("[MTPackageManagerWindow] 本工程包不可卸载");
+                return;
+            }
+
+            var dependents = MTPackageInfoService.GetAllUsedBy(installed.PackageName);
+            if (dependents != null && dependents.Count > 0)
+            {
+                var names = string.Join(", ", dependents.ConvertAll(d => d.name ?? d.displayName));
+                bool confirmed = EditorUtility.DisplayDialog(
+                    "卸载确认",
+                    $"以下已安装的包依赖 {installed.PackageName}：\n{names}\n\n确定仍要卸载吗？",
+                    "确定卸载",
+                    "取消");
+                if (!confirmed)
+                {
+                    return;
+                }
+            }
+
+            if (!RootPackageService.ContainsRoot(installed.PackageName))
+            {
+                EditorUtility.DisplayDialog(
+                    "无法卸载",
+                    $"{installed.PackageName} 不是手动安装的根包，由其他包依赖引入。请先卸载对应根包。",
+                    "确定");
+                return;
+            }
+
+            RootPackageService.RemoveRoot(installed.PackageName);
+            RootPackageService.SaveToLocal();
+            bool ok = await PackageSyncService.SyncManifestAsync();
+            LM.Log(ok
+                ? $"[MTPackageManagerWindow] 卸载成功: {installed.PackageName}"
+                : $"[MTPackageManagerWindow] 卸载失败: {installed.PackageName}");
+            RefreshProjectList();
+        }
+        catch (Exception e)
+        {
+            LM.LogError($"[MTPackageManagerWindow] 卸载异常: {e}");
+        }
+        finally
+        {
+            EndInstall();
+        }
+    }
+
+    private async void OnUpdatePackage()
+    {
+        if (!TryBeginInstall("Update"))
+        {
+            return;
+        }
+
+        try
+        {
+            var installed = FindInstalled(_selectedProject);
+            var package = await FetchSelectedPackageInfoAsync();
+            if (package == null)
+            {
+                LM.LogError("[MTPackageManagerWindow] 更新失败：无法拉取所选 Tag 的包信息");
+                return;
+            }
+
+            RootPackageService.AddOrUpdateRoot(package);
+            RootPackageService.SaveToLocal();
+
+            bool sameTag = installed == null
+                || string.Equals(installed.Tag, package.Tag, StringComparison.Ordinal);
+
+            if (sameTag)
+            {
+                // 同 tag：只发 UpdateAdd（按最新 hash 再 Add），不发 UpdateRemove，也不走插件导入。
+                var requests = new List<IPackageInstallerService.MTPackageInstallerRequest>
+                {
+                    new IPackageInstallerService.MTPackageInstallerRequest
+                    {
+                        RequestType = RequestType.UpdateAdd,
+                        RequestPackageInfo = package,
+                    }
+                };
+                await PackageInstallerService.StartHandlingInstallerRequest(requests);
+                if (requests[0].RequestState != RequestState.Success)
+                {
+                    LM.LogError($"[MTPackageManagerWindow] 同 Tag 更新失败: {package.PackageName}#{package.Tag}");
+                    if (installed != null)
+                    {
+                        RootPackageService.AddOrUpdateRoot(installed);
+                        RootPackageService.SaveToLocal();
+                    }
+                    return;
+                }
+            }
+
+            bool ok = await PackageSyncService.SyncManifestAsync();
+            LM.Log(ok
+                ? $"[MTPackageManagerWindow] 更新成功: {package.PackageName}#{package.Tag}"
+                : $"[MTPackageManagerWindow] 更新失败: {package.PackageName}#{package.Tag}");
+            RefreshProjectList();
+        }
+        catch (Exception e)
+        {
+            LM.LogError($"[MTPackageManagerWindow] 更新异常: {e}");
+        }
+        finally
+        {
+            EndInstall();
+        }
+    }
+
+    private bool TryBeginInstall(string action)
+    {
+        if (_isInstalling || _isRefreshing || _selectedProject == null)
+        {
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(GetSelectedTag()))
+        {
+            LM.LogWarning($"[MTPackageManagerWindow] {action} 中止：未选择有效 Tag");
+            return false;
+        }
+
+        _isInstalling = true;
+        RefreshActionButtons();
+        return true;
+    }
+
+    private void EndInstall()
+    {
+        _isInstalling = false;
+        RefreshActionButtons();
+    }
+
+    private async Task<MTPackageInfo> FetchSelectedPackageInfoAsync()
+    {
+        var project = _selectedProject;
+        string tag = GetSelectedTag();
+        if (project == null || string.IsNullOrEmpty(tag))
+        {
+            return null;
+        }
+
+        var url = !string.IsNullOrEmpty(project.HttpUrl) ? project.HttpUrl : project.SshUrl;
+        if (string.IsNullOrEmpty(url))
+        {
+            LM.LogError($"[MTPackageManagerWindow] 工程缺少仓库 URL: {project.PackageName}");
+            return null;
+        }
+
+        bool toLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
+        return await MTPackageInfoService.FetchPackageInfoAsync(UrlUtils.FormatUrl(url), tag, 0, toLocal);
+    }
+
+    private string GetSelectedTag()
+    {
+        if (_ddVersion != null)
+        {
+            var value = _ddVersion.value;
+            if (!string.IsNullOrEmpty(value)
+                && !string.Equals(value, NO_VERSION_LABEL, StringComparison.Ordinal)
+                && !value.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))
+            {
+                return value;
+            }
+        }
+
+        return ProjectDisplayUtils.ResolveDisplayTag(_selectedProject);
+    }
+
+    /// <summary>
+    /// 按 ProjectId 查找已安装节点（工程短名 ≠ com.xxx.xxx，不能只用 PackageName 对齐）。
+    /// </summary>
+    private static MTPackageInfo FindInstalled(ProjectInfo project)
+    {
+        if (project == null)
+        {
+            return null;
+        }
+
+        if (project.ProjectId > 0)
+        {
+            foreach (var package in MTPackageInfoService.GetAllPackages())
+            {
+                if (package != null && package.ProjectId == project.ProjectId)
+                {
+                    return package;
+                }
+            }
+        }
+
+        foreach (var tag in ProjectDisplayUtils.GetVisibleSortedTags(project))
+        {
+            var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
+            if (tagInfo == null || string.IsNullOrEmpty(tagInfo.name))
+            {
+                continue;
+            }
+
+            var byName = MTPackageInfoService.GetPackage(tagInfo.name);
+            if (byName != null)
+            {
+                return byName;
+            }
+        }
+
+        return MTPackageInfoService.GetPackage(project.PackageName);
+    }
+
+    private static bool IsSelfPackage(ProjectInfo project, string tag)
+    {
+        var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
+        if (tagInfo != null
+            && string.Equals(tagInfo.name, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        var installed = FindInstalled(project);
+        if (installed != null
+            && string.Equals(installed.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        if (project != null && project.ProjectId > 0)
+        {
+            var selfInstalled = MTPackageInfoService.GetPackage(MTPGit.SELF_PACKAGE_NAME);
+            if (selfInstalled != null && selfInstalled.ProjectId == project.ProjectId)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     #endregion

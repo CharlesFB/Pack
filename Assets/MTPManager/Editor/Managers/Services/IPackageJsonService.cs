@@ -58,5 +58,13 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 遍历 ProjectInfoList 全部工程的全部 Tag，拉取各自 package.json 写入缓存并写入本地。
         /// </summary>
         Task RebuildFromProjectInfoListAsync();
+
+        /// <summary>
+        /// 选中某一 projectId+tag 时：若内存缓存条目存在且 plugins / changelog 仍为 null，
+        /// 则按需从 GitLab 补拉并写回该条缓存（没有插件写入空列表，没有 CHANGELOG.md 写入空字符串）。
+        /// 两条都已有值则直接返回 false，不访问网络。
+        /// </summary>
+        /// <returns>是否改写了缓存（调用方据此决定是否刷新 Tab）。</returns>
+        Task<bool> EnsurePluginsAndChangelogAsync(int projectId, string tag);
     }
 }

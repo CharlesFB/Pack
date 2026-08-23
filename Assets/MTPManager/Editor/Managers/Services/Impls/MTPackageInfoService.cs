@@ -21,6 +21,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         private IGitLabService GitLabService => ServiceLocator.Get<IGitLabService>();
         private IProjectInfoService ProjectInfoService => ServiceLocator.Get<IProjectInfoService>();
         private IPackageJsonService PackageJsonService => ServiceLocator.Get<IPackageJsonService>();
+        private IRootPackageService RootPackageService => ServiceLocator.Get<IRootPackageService>();
 
         public MTPackageInfo AddDependency(MTPackageInfo newPackage)
         {
@@ -264,6 +265,110 @@ namespace MagicTavern.FrontEngine.MTPManager
         public void SaveDependenciesToLocal()
         {
             JsonUtils.SaveToFile(MTPPath.MT_PACKAGE_INFO_LIST_PATH, ExportToMTPackageInfoList());
+        }
+
+        public void Clear()
+        {
+            _dependencies.Clear();
+        }
+
+        public async Task RebuildFromRootsAsync(bool installToLocal)
+        {
+            Clear();
+            var roots = RootPackageService.GetAllRoots();
+            if (roots == null || roots.Count == 0)
+            {
+                LM.Log("[MTPackageInfoService] RebuildFromRoots: 根包列表为空，依赖树已清空");
+                return;
+            }
+
+            var visited = new HashSet<string>();
+            foreach (var root in roots)
+            {
+                if (root == null || string.IsNullOrEmpty(root.Url) || string.IsNullOrEmpty(root.Tag))
+                {
+                    LM.LogWarning(
+                        $"[MTPackageInfoService] RebuildFromRoots 跳过无效根包: {root?.PackageName}");
+                    continue;
+                }
+
+                await WalkDependencyAsync(root.Url, root.Tag, 0, installToLocal, visited);
+            }
+
+            LM.Log($"[MTPackageInfoService] RebuildFromRoots done. nodes:{_dependencies.Count}, roots:{roots.Count}");
+        }
+
+        private async Task WalkDependencyAsync(
+            string url, string tag, int depth, bool installToLocal, HashSet<string> visited)
+        {
+            if (string.IsNullOrEmpty(url) || string.IsNullOrEmpty(tag))
+            {
+                return;
+            }
+
+            var visitKey = $"{UrlUtils.FormatUrl(url)}#{tag}";
+            if (!visited.Add(visitKey))
+            {
+                return;
+            }
+
+            var node = await ResolveNodeAsync(url, tag, depth, installToLocal);
+            if (node == null)
+            {
+                return;
+            }
+
+            AddDependency(node);
+
+            if (node.Dependencies == null || node.Dependencies.Count == 0)
+            {
+                return;
+            }
+
+            foreach (var depUrl in node.Dependencies.Values)
+            {
+                if (string.IsNullOrEmpty(depUrl))
+                {
+                    continue;
+                }
+
+                var splitIndex = depUrl.LastIndexOf('#');
+                if (splitIndex <= 0 || splitIndex == depUrl.Length - 1)
+                {
+                    LM.LogError($"[MTPackageInfoService] 依赖格式错误，应为 仓库链接#tag: {depUrl}");
+                    continue;
+                }
+
+                await WalkDependencyAsync(
+                    depUrl.Substring(0, splitIndex),
+                    depUrl.Substring(splitIndex + 1),
+                    depth + 1,
+                    installToLocal,
+                    visited);
+            }
+        }
+
+        private async Task<MTPackageInfo> ResolveNodeAsync(string url, string tag, int depth, bool isLocal)
+        {
+            var formattedUrl = UrlUtils.FormatUrl(url);
+            var project = ProjectInfoService.GetByUrl(formattedUrl);
+            if (project != null && project.ProjectId > 0)
+            {
+                var cached = PackageJsonService.Get(project.ProjectId.ToString(), tag);
+                if (cached != null)
+                {
+                    var revision = await GitLabService.ResolveRevisionAsync(project.ProjectId, tag);
+                    if (string.IsNullOrEmpty(revision))
+                    {
+                        revision = tag;
+                    }
+
+                    return BuildMTPackageInfo(
+                        cached, formattedUrl, tag, revision, depth, isLocal, project.ProjectId);
+                }
+            }
+
+            return await FetchPackageInfoAsync(formattedUrl, tag, depth, isLocal);
         }
 
         private static void EnsurePluginsInitialized(MTPackageInfo package)

@@ -4,5 +4,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     {
         Add,
         Remove,
+        UpdateRemove,
+        UpdateAdd,
     }
 }

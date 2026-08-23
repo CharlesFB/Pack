@@ -146,9 +146,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// </summary>
         private static async Task SynchronizeManifestAsync()
         {
-            // TODO: 接入 SyncManifest
-            await Task.CompletedTask;
-            LM.Log("[MTPApplicationStarter] SynchronizeManifest done.");
+            var ok = await ServiceLocator.Get<IPackageSyncService>().SyncManifestAsync();
+            LM.Log($"[MTPApplicationStarter] SynchronizeManifest done. success:{ok}");
         }
     }
 }

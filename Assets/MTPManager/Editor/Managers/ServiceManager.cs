@@ -29,6 +29,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             ServiceLocator.Register<ILocalPackageService>(new LocalPackageService());
             ServiceLocator.Register<IPluginPackageService>(new PluginPackageService());
             ServiceLocator.Register<IPackageInstallerService>(new PackageInstallerService());
+            ServiceLocator.Register<IPackageSyncService>(new PackageSyncService());
         }
     }
 }

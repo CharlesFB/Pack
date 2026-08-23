@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEditor;
@@ -13,11 +14,99 @@ namespace MagicTavern.FrontEngine.MTPManager
         private IPluginPackageService PluginPackage => ServiceLocator.Get<IPluginPackageService>();
         private IMTPackageInfoService MTPackage => ServiceLocator.Get<IMTPackageInfoService>();
         private IPluginAssetService PluginAsset => ServiceLocator.Get<IPluginAssetService>();
+        private IPackageJsonService PackageJson => ServiceLocator.Get<IPackageJsonService>();
 
         public List<MTPRequest> LoadInstallerRequest(List<MTPackageInfo> addList,
             List<MTPackageInfo> removeList)
         {
-            return new List<MTPRequest>();
+            var requests = new List<MTPRequest>();
+            addList ??= new List<MTPackageInfo>();
+            removeList ??= new List<MTPackageInfo>();
+
+            var addProjectIds = new HashSet<int>();
+            foreach (var package in addList)
+            {
+                if (package != null && package.ProjectId > 0)
+                {
+                    addProjectIds.Add(package.ProjectId);
+                }
+            }
+
+            var removeProjectIds = new HashSet<int>();
+            foreach (var package in removeList)
+            {
+                if (package != null && package.ProjectId > 0)
+                {
+                    removeProjectIds.Add(package.ProjectId);
+                }
+            }
+
+            // 先 Remove / UpdateRemove，再 Add / UpdateAdd，避免同包先装新版再被卸掉。
+            // 同 ProjectId 且同 Tag：只发 UpdateAdd（按新 hash 再 Add），不卸旧包。
+            foreach (var package in removeList)
+            {
+                if (package == null)
+                {
+                    continue;
+                }
+
+                if (string.Equals(package.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
+                {
+                    continue;
+                }
+
+                bool isUpdate = package.ProjectId > 0 && addProjectIds.Contains(package.ProjectId);
+                if (isUpdate)
+                {
+                    var matchingAdd = FindByProjectId(addList, package.ProjectId);
+                    if (matchingAdd != null
+                        && string.Equals(matchingAdd.Tag, package.Tag, StringComparison.Ordinal))
+                    {
+                        continue;
+                    }
+                }
+
+                requests.Add(new MTPRequest
+                {
+                    RequestType = isUpdate ? RequestType.UpdateRemove : RequestType.Remove,
+                    RequestPackageInfo = package,
+                });
+            }
+
+            foreach (var package in addList)
+            {
+                if (package == null)
+                {
+                    continue;
+                }
+
+                bool isUpdate = package.ProjectId > 0 && removeProjectIds.Contains(package.ProjectId);
+                requests.Add(new MTPRequest
+                {
+                    RequestType = isUpdate ? RequestType.UpdateAdd : RequestType.Add,
+                    RequestPackageInfo = package,
+                });
+            }
+
+            return requests;
+        }
+
+        private static MTPackageInfo FindByProjectId(List<MTPackageInfo> packages, int projectId)
+        {
+            if (packages == null || projectId <= 0)
+            {
+                return null;
+            }
+
+            foreach (var package in packages)
+            {
+                if (package != null && package.ProjectId == projectId)
+                {
+                    return package;
+                }
+            }
+
+            return null;
         }
         
         public async Task StartHandlingInstallerRequest(List<MTPRequest> requests)
@@ -99,6 +188,19 @@ namespace MagicTavern.FrontEngine.MTPManager
                             RollbackPluginImport(request.RequestPackageInfo);
                         }
                     }
+
+                    // 处理宏定义：按 taginfo（projectId + tag）上的 scriptDefineSymbols，逻辑同旧工程
+                    if (request.RequestState == RequestState.Success)
+                    {
+                        if (request.RequestType == RequestType.Add || request.RequestType == RequestType.UpdateAdd)
+                        {
+                            ApplyScriptDefineSymbols(request.RequestPackageInfo, add: true);
+                        }
+                        else if (request.RequestType == RequestType.Remove || request.RequestType == RequestType.UpdateRemove)
+                        {
+                            ApplyScriptDefineSymbols(request.RequestPackageInfo, add: false);
+                        }
+                    }
                     
                     // Remove：只有 UPM 卸载成功才处理插件卸载；失败则包还在装着，不能动插件
                     if (request.RequestType == RequestType.Remove && request.RequestState == RequestState.Success)
@@ -158,6 +260,46 @@ namespace MagicTavern.FrontEngine.MTPManager
             MTPackage.SaveDependenciesToLocal();
             PluginAsset.SaveToLocal();
             LM.Log($"[PackageInstallerService] 包安装成功，插件状态已落盘: {package?.PackageName}");
+        }
+
+        /// <summary>
+        /// 按 package 的 ProjectId + Tag 取 taginfo，把 scriptDefineSymbols（分号分隔）写入 / 移出 PlayerSettings。
+        /// taginfo 缺失或字段为空则跳过，与旧 OnAdd/OnRemoveScriptDefineSymbols 一致。
+        /// </summary>
+        private void ApplyScriptDefineSymbols(MTPackageInfo package, bool add)
+        {
+            if (package == null || package.ProjectId <= 0 || string.IsNullOrEmpty(package.Tag))
+            {
+                return;
+            }
+
+            var tagInfo = PackageJson.Get(package.ProjectId.ToString(), package.Tag);
+            var symbols = tagInfo?.scriptDefineSymbols;
+            if (string.IsNullOrEmpty(symbols))
+            {
+                return;
+            }
+
+            foreach (var symbol in symbols.Split(';'))
+            {
+                if (string.IsNullOrEmpty(symbol))
+                {
+                    continue;
+                }
+
+                if (add)
+                {
+                    ScriptDefineUtils.TryToAddScriptDefineSymbol(symbol);
+                }
+                else
+                {
+                    ScriptDefineUtils.TryToRemoveScriptDefineSymbol(symbol);
+                }
+            }
+
+            LM.Log(add
+                ? $"[PackageInstallerService] 添加 scriptDefineSymbols: {package.PackageName} -> {symbols}"
+                : $"[PackageInstallerService] 移除 scriptDefineSymbols: {package.PackageName} -> {symbols}");
         }
 
         /// <summary>

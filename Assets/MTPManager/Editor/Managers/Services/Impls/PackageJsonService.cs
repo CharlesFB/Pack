@@ -249,5 +249,43 @@ namespace MagicTavern.FrontEngine.MTPManager
             LM.Log(
                 $"[PackageJsonService] RebuildFromProjectInfoList done. success:{successCount}, fail:{failCount}, projects:{projects.Count}");
         }
+
+        public async Task<bool> EnsurePluginsAndChangelogAsync(int projectId, string tag)
+        {
+            if (projectId <= 0 || string.IsNullOrEmpty(tag))
+            {
+                return false;
+            }
+
+            var packageJson = Get(projectId.ToString(), tag);
+            if (packageJson == null)
+            {
+                return false;
+            }
+
+            bool changed = false;
+
+            if (packageJson.plugins == null)
+            {
+                packageJson.plugins = await PluginPackageService.ListRemotePluginFileNamesAsync(projectId, tag)
+                    ?? new List<string>();
+                changed = true;
+            }
+
+            if (packageJson.changelog == null)
+            {
+                packageJson.changelog = await GitLabService.GetFileTextAsync(
+                    projectId, MTPGit.GIT_CHANGELOG_FILE_NAME, tag, logOnFailure: false)
+                    ?? string.Empty;
+                changed = true;
+            }
+
+            if (changed)
+            {
+                SaveToLocal();
+            }
+
+            return changed;
+        }
     }
 }

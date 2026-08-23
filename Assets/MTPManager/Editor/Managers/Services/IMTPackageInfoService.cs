@@ -54,5 +54,16 @@ namespace MagicTavern.FrontEngine.MTPManager
         void LoadFromMTPackageInfoList(MTPackageInfoList list);
         void LoadDependenciesFromLocal(bool createIfNotExist = true);
         void SaveDependenciesToLocal();
+
+        /// <summary>
+        /// 清空内存依赖树（不写盘）。
+        /// </summary>
+        void Clear();
+
+        /// <summary>
+        /// 以 IRootPackageService 中的根包为起点，递归 dependenciesGit 重建整棵依赖树。
+        /// 每条节点优先用 package.json 缓存，缺失再拉 GitLab；失败的子节点跳过。
+        /// </summary>
+        Task RebuildFromRootsAsync(bool installToLocal);
     }
 }
