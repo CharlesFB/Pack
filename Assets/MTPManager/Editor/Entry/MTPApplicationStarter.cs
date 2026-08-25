@@ -12,8 +12,8 @@ namespace MagicTavern.FrontEngine.MTPManager
     /// 执行顺序：
     /// 1. [InitializeOnLoad] 注册服务
     /// 2. [InitializeOnLoadMethod] Editor 首次启动拉取 ProjectInfoList / PackageInfoCache（from project 647）
-    /// 3. [DidReloadScripts(0)] 同步装载本地内存
-    /// 4. [DidReloadScripts(1)] 冷启动->中断恢复->清单同步（串行 await）
+    /// 3. [DidReloadScripts(0)] 纯静态地从本地持久化文件写入内存
+    /// 4. [DidReloadScripts(1)] 冷启动 -> 安装器中断恢复 -> 清单同步（串行 await）
     /// </summary>
     [InitializeOnLoad]
     public static class MTPApplicationStarter
@@ -110,6 +110,10 @@ namespace MagicTavern.FrontEngine.MTPManager
             {
                 LM.LogError($"[MTPApplicationStarter] OnScriptReloaded failed: {e.Message}");
             }
+            finally
+            {
+                MTPackageManagerWindow.RefreshOpenWindows();
+            }
         }
 
         /// <summary>
@@ -132,12 +136,11 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 中断恢复：续跑被域重载打断的安装流程。
+        /// 中断恢复：按进度文件续跑安装器批次（UPM 已完成的条目只补宏/插件）。
         /// </summary>
         private static async Task InterruptedRecoveryAsync()
         {
-            // TODO: 接入 PackageInstaller 中断恢复
-            await Task.CompletedTask;
+            await ServiceLocator.Get<IPackageInstallerService>().ResumeInterruptedInstallAsync();
             LM.Log("[MTPApplicationStarter] InterruptedRecovery done.");
         }
 

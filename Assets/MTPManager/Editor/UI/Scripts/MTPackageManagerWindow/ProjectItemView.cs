@@ -26,8 +26,6 @@ public class ProjectItemView : VisualElement
 
     private ProjectInfo _project;
 
-    private static IMTPackageInfoService MTPackage => ServiceLocator.Get<IMTPackageInfoService>();
-
     public ProjectItemView()
     {
         var tree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>(MTPUI.PROJECT_ITEM_VIEW_UXML_PATH);
@@ -84,7 +82,7 @@ public class ProjectItemView : VisualElement
         SetLabel(_lbVersion, tagInfo?.version ?? "N/A");
         SetDisplay(_lbDebug, IsDebugTag(tag));
 
-        var installed = MTPackage.GetPackage(project.PackageName);
+        var installed = ProjectDisplayUtils.FindInstalled(project);
         bool isInstalled = installed != null;
 
         // 未安装时 DEP 不展示（占位一并去掉）

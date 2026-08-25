@@ -57,7 +57,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
-            var installed = ServiceLocator.Get<IMTPackageInfoService>().GetPackage(project.PackageName);
+            var installed = FindInstalled(project);
             if (installed != null && !string.IsNullOrEmpty(installed.Tag))
             {
                 return installed.Tag;
@@ -80,7 +80,45 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
+        /// 工程是否已安装：同一 GitLab ProjectId 下可以有多个包，必须 ProjectId + 短包名同时对齐。
+        /// 短包名 = MTPackageInfo.PackageName / package.json name 按 '.' 分割的最后一段，
+        /// 对应 ProjectInfo.PackageName。
+        /// </summary>
+        public static MTPackageInfo FindInstalled(ProjectInfo project)
+        {
+            if (project == null)
+            {
+                return null;
+            }
+
+            var mtPackage = ServiceLocator.Get<IMTPackageInfoService>();
+            var byKey = mtPackage.GetPackageByProject(project.ProjectId, project.PackageName);
+            if (byKey != null)
+            {
+                return byKey;
+            }
+
+            foreach (var tag in GetVisibleSortedTags(project))
+            {
+                var tagInfo = GetTagInfo(project, tag);
+                if (tagInfo == null || string.IsNullOrEmpty(tagInfo.name))
+                {
+                    continue;
+                }
+
+                var byName = mtPackage.GetPackage(tagInfo.name);
+                if (byName != null)
+                {
+                    return byName;
+                }
+            }
+
+            return mtPackage.GetPackage(project.PackageName);
+        }
+
+        /// <summary>
         /// 按 ProjectId + Tag 检索 package.json 缓存（即 "taginfo"）。
+        /// 同 id 多包时再用 package.json name 的短名校验，对不上则视为不属于当前列表项。
         /// 工程 / Tag / 缓存任一缺失均返回 null，调用方应统一以 "N/A" 兜底展示。
         /// </summary>
         public static PackageJson GetTagInfo(ProjectInfo project, string tag)
@@ -90,7 +128,20 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
-            return ServiceLocator.Get<IPackageJsonService>().Get(project.ProjectId.ToString(), tag);
+            var json = ServiceLocator.Get<IPackageJsonService>().Get(project.ProjectId.ToString(), tag);
+            if (json == null)
+            {
+                return null;
+            }
+
+            if (!string.IsNullOrEmpty(json.name)
+                && !string.IsNullOrEmpty(project.PackageName)
+                && !PathUtils.MatchesProjectPackageName(project.PackageName, json.name))
+            {
+                return null;
+            }
+
+            return json;
         }
 
         /// <summary>

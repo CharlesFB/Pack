@@ -7,6 +7,7 @@
 
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 
@@ -18,61 +19,93 @@ namespace MagicTavern.FrontEngine.MTPManager
     public static class UnitypackageImporter
     {
         /// <summary>
-        /// 导入单个 .unitypackage。
+        /// 发起导入并等到 Unity 回调完成（completed / failed / cancelled）。
+        /// 不等待随后的编译/域重载；调用方应先落盘再 WaitUntilIdle，避免记录被冲掉。
+        /// ImportPackage 本身是异步的，调用返回不代表资源已进 AssetDatabase。
         /// </summary>
-        /// <param name="packagePath">.unitypackage 绝对或工程相对路径</param>
-        /// <param name="interactive">是否弹出导入确认对话框</param>
-        /// <returns>是否成功发起导入</returns>
-        public static bool Import(string packagePath, bool interactive = false)
+        public static async Task<bool> ImportAndWaitAsync(string packagePath, bool interactive = false)
         {
             if (string.IsNullOrEmpty(packagePath) || !File.Exists(packagePath))
             {
                 Debug.LogWarning($"[UnitypackageImporter] unitypackage missing, skip: {packagePath}");
                 return false;
             }
-            AssetDatabase.StartAssetEditing();
+
+            bool completed = false;
+            bool success = true;
+            void OnCompleted(string _)
+            {
+                completed = true;
+                success = true;
+            }
+
+            void OnFailed(string name, string error)
+            {
+                completed = true;
+                success = false;
+                Debug.LogError($"[UnitypackageImporter] Import failed: {name}, {error}");
+            }
+
+            void OnCancelled(string name)
+            {
+                completed = true;
+                success = false;
+                Debug.LogWarning($"[UnitypackageImporter] Import cancelled: {name}");
+            }
+
+            AssetDatabase.importPackageCompleted += OnCompleted;
+            AssetDatabase.importPackageFailed += OnFailed;
+            AssetDatabase.importPackageCancelled += OnCancelled;
             try
             {
                 AssetDatabase.ImportPackage(packagePath, interactive);
                 Debug.Log($"[UnitypackageImporter] Import: {Path.GetFileName(packagePath)}");
+
+                int timeoutCount = 0;
+                while (!completed)
+                {
+                    if (timeoutCount >= MTPTime.INSTALLATION_TIMEOUT)
+                    {
+                        Debug.LogError(
+                            $"[UnitypackageImporter] Import wait timeout: {Path.GetFileName(packagePath)}");
+                        return false;
+                    }
+
+                    await Task.Delay(MTPTime.INSTALLATION_CHECK_TIME);
+                    timeoutCount += MTPTime.INSTALLATION_CHECK_TIME;
+                }
+
+                return success;
             }
             finally
             {
-                AssetDatabase.StopAssetEditing();
+                AssetDatabase.importPackageCompleted -= OnCompleted;
+                AssetDatabase.importPackageFailed -= OnFailed;
+                AssetDatabase.importPackageCancelled -= OnCancelled;
             }
-            return true;
         }
 
         /// <summary>
-        /// 批量导入 .unitypackage。
+        /// 批量导入，逐个等到完成后再进行下一个。
         /// </summary>
-        /// <param name="packagePaths">待导入路径集合</param>
-        /// <param name="interactive">是否弹出导入确认对话框</param>
-        /// <returns>成功发起导入的文件数量</returns>
-        public static int ImportBatch(IEnumerable<string> packagePaths, bool interactive = false)
+        public static async Task<int> ImportBatchAndWaitAsync(IEnumerable<string> packagePaths,
+            bool interactive = false)
         {
             int importedCount = 0;
             if (packagePaths == null)
             {
                 return importedCount;
             }
-            
-            AssetDatabase.StartAssetEditing();
-            try
+
+            foreach (string packagePath in packagePaths)
             {
-                foreach (string packagePath in packagePaths)
+                if (await ImportAndWaitAsync(packagePath, interactive))
                 {
-                    if (Import(packagePath, interactive))
-                    {
-                        importedCount++;
-                    }
+                    await EditorBusyWait.WaitUntilIdleAsync();
+                    importedCount++;
                 }
             }
-            finally
-            {
-                AssetDatabase.StopAssetEditing();
-            }
-            
+
             return importedCount;
         }
     }

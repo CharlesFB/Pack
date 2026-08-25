@@ -65,7 +65,34 @@ namespace MagicTavern.FrontEngine.MTPManager
             return null;
         }
 
+        public ProjectInfo Get(int projectId, string packageName)
+        {
+            if (projectId <= 0 || string.IsNullOrEmpty(packageName))
+            {
+                return Get(packageName);
+            }
+
+            string shortName = PathUtils.GetPackageShortName(packageName);
+            for (int i = 0; i < _projectCache.Count; i++)
+            {
+                var package = _projectCache[i];
+                if (package != null
+                    && package.ProjectId == projectId
+                    && PathUtils.MatchesProjectPackageName(package.PackageName, shortName))
+                {
+                    return package;
+                }
+            }
+
+            return null;
+        }
+
         public ProjectInfo GetByUrl(string url)
+        {
+            return GetByUrl(url, packageName: null);
+        }
+
+        public ProjectInfo GetByUrl(string url, string packageName)
         {
             if (string.IsNullOrEmpty(url))
             {
@@ -73,6 +100,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             var formattedUrl = UrlUtils.FormatUrl(url);
+            string shortName = PathUtils.GetPackageShortName(packageName);
             for (int i = 0; i < _projectCache.Count; i++)
             {
                 var project = _projectCache[i];
@@ -81,8 +109,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
-                if (string.Equals(project.HttpUrl, formattedUrl, StringComparison.Ordinal)
-                    || string.Equals(project.SshUrl, formattedUrl, StringComparison.Ordinal))
+                if (!string.Equals(project.HttpUrl, formattedUrl, StringComparison.Ordinal)
+                    && !string.Equals(project.SshUrl, formattedUrl, StringComparison.Ordinal))
+                {
+                    continue;
+                }
+
+                if (string.IsNullOrEmpty(shortName)
+                    || PathUtils.MatchesProjectPackageName(project.PackageName, shortName))
                 {
                     return project;
                 }

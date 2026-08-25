@@ -1,48 +1,46 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using UnityEditor;
 using UnityEditor.PackageManager;
+using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
 
 namespace MagicTavern.FrontEngine.MTPManager
 {
-    using MTPRequest = IPackageInstallerService.MTPackageInstallerRequest;
-    using LM = LogManager;
-    
     public class PackageInstallerService : IPackageInstallerService
     {
         private IPluginPackageService PluginPackage => ServiceLocator.Get<IPluginPackageService>();
-        private IMTPackageInfoService MTPackage => ServiceLocator.Get<IMTPackageInfoService>();
-        private IPluginAssetService PluginAsset => ServiceLocator.Get<IPluginAssetService>();
         private IPackageJsonService PackageJson => ServiceLocator.Get<IPackageJsonService>();
 
-        public List<MTPRequest> LoadInstallerRequest(List<MTPackageInfo> addList,
+        public List<MTPackageInstallerRequest> LoadInstallerRequest(List<MTPackageInfo> addList,
             List<MTPackageInfo> removeList)
         {
-            var requests = new List<MTPRequest>();
+            var requests = new List<MTPackageInstallerRequest>();
             addList ??= new List<MTPackageInfo>();
             removeList ??= new List<MTPackageInfo>();
 
-            var addProjectIds = new HashSet<int>();
+            var addNames = new HashSet<string>(StringComparer.Ordinal);
             foreach (var package in addList)
             {
-                if (package != null && package.ProjectId > 0)
+                if (package != null && !string.IsNullOrEmpty(package.PackageName))
                 {
-                    addProjectIds.Add(package.ProjectId);
+                    addNames.Add(package.PackageName);
                 }
             }
 
-            var removeProjectIds = new HashSet<int>();
+            var removeNames = new HashSet<string>(StringComparer.Ordinal);
             foreach (var package in removeList)
             {
-                if (package != null && package.ProjectId > 0)
+                if (package != null && !string.IsNullOrEmpty(package.PackageName))
                 {
-                    removeProjectIds.Add(package.ProjectId);
+                    removeNames.Add(package.PackageName);
                 }
             }
 
             // 先 Remove / UpdateRemove，再 Add / UpdateAdd，避免同包先装新版再被卸掉。
-            // 同 ProjectId 且同 Tag：只发 UpdateAdd（按新 hash 再 Add），不卸旧包。
+            // 同一 PackageName 且同 Tag：只发 UpdateAdd（按新 hash 再 Add），不卸旧包。
+            // 不能只用 ProjectId：同一 GitLab 工程可以有多个包。
             foreach (var package in removeList)
             {
                 if (package == null)
@@ -55,10 +53,11 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
-                bool isUpdate = package.ProjectId > 0 && addProjectIds.Contains(package.ProjectId);
+                bool isUpdate = !string.IsNullOrEmpty(package.PackageName)
+                                && addNames.Contains(package.PackageName);
                 if (isUpdate)
                 {
-                    var matchingAdd = FindByProjectId(addList, package.ProjectId);
+                    var matchingAdd = FindByPackageName(addList, package.PackageName);
                     if (matchingAdd != null
                         && string.Equals(matchingAdd.Tag, package.Tag, StringComparison.Ordinal))
                     {
@@ -66,7 +65,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                     }
                 }
 
-                requests.Add(new MTPRequest
+                requests.Add(new MTPackageInstallerRequest
                 {
                     RequestType = isUpdate ? RequestType.UpdateRemove : RequestType.Remove,
                     RequestPackageInfo = package,
@@ -80,8 +79,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
-                bool isUpdate = package.ProjectId > 0 && removeProjectIds.Contains(package.ProjectId);
-                requests.Add(new MTPRequest
+                bool isUpdate = !string.IsNullOrEmpty(package.PackageName)
+                                && removeNames.Contains(package.PackageName);
+                requests.Add(new MTPackageInstallerRequest
                 {
                     RequestType = isUpdate ? RequestType.UpdateAdd : RequestType.Add,
                     RequestPackageInfo = package,
@@ -91,16 +91,17 @@ namespace MagicTavern.FrontEngine.MTPManager
             return requests;
         }
 
-        private static MTPackageInfo FindByProjectId(List<MTPackageInfo> packages, int projectId)
+        private static MTPackageInfo FindByPackageName(List<MTPackageInfo> packages, string packageName)
         {
-            if (packages == null || projectId <= 0)
+            if (packages == null || string.IsNullOrEmpty(packageName))
             {
                 return null;
             }
 
             foreach (var package in packages)
             {
-                if (package != null && package.ProjectId == projectId)
+                if (package != null
+                    && string.Equals(package.PackageName, packageName, StringComparison.Ordinal))
                 {
                     return package;
                 }
@@ -108,164 +109,280 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             return null;
         }
-        
-        public async Task StartHandlingInstallerRequest(List<MTPRequest> requests)
+
+        public async Task StartHandlingInstallerRequest(List<MTPackageInstallerRequest> requests)
         {
+            EditorUtility.ClearProgressBar(); // 必要的进度条清理
             if (requests == null || requests.Count == 0)
             {
-                await Task.CompletedTask;
                 return;
             }
-            int totalCount = requests.Count;
-            int finishedCount = 0;
-            
-            // 执行编译锁，并 Finally 解锁
-            EditorApplication.LockReloadAssemblies();
+
+            var state = new InstallerProgressState
+            {
+                RestRequests = new List<MTPackageInstallerRequest>(requests),
+                CompletedCount = 0,
+                CurrentUpmDone = false,
+            };
+            SaveProgress(state);
+            await ProcessProgressStateAsync(state);
+        }
+
+        public async Task ResumeInterruptedInstallAsync()
+        {
+            EditorUtility.ClearProgressBar(); // 必要的进度条清理
+            var state = LoadProgress();
+            if (state == null || state.RestRequests == null || state.RestRequests.Count == 0)
+            {
+                DeleteProgress();
+                return;
+            }
+
+            LM.Log(
+                $"[PackageInstallerService] 恢复中断安装. completed:{state.CompletedCount}, " +
+                $"rest:{state.RestRequests.Count}, currentUpmDone:{state.CurrentUpmDone}");
+            await ProcessProgressStateAsync(state);
+        }
+
+        private async Task ProcessProgressStateAsync(InstallerProgressState state)
+        {
+            bool lockEntire = ShouldLockEntireProcess(state.RestRequests);
+            if (lockEntire)
+            {
+                EditorApplication.LockReloadAssemblies();
+            }
+
             try
             {
-                // 执行 UPM 请求
-                foreach (var request in requests)
+                while (state.RestRequests != null && state.RestRequests.Count > 0)
                 {
-                    EditorUtility.DisplayProgressBar(
-                        title: $"MTP Installer",
-                        info: $"Now handling No.{finishedCount+1} of {totalCount} requests in total...",
-                        progress: (float)finishedCount / totalCount);
-                    
-                    // 如果为 Add 请求，则先添加assets
-                    if (request.RequestType == RequestType.Add)
+                    var request = state.RestRequests[0];
+                    if (request == null)
                     {
-                        // 处理插件导入：PreparePluginsAsync 负责下载/发现插件并写入 Plugins 字典，
-                        // PluginImportWindow 内部已经包含冲突检测/勾选 UI/实际导入/记录，这里不用再重复展示
-                        bool pluginReady = await HandlePluginImportForAdd(request.RequestPackageInfo);
-                        if (!pluginReady)
+                        AdvanceToNextRequest(state);
+                        continue;
+                    }
+
+                    UpdateProgressBar(state);
+
+                    if (!state.CurrentUpmDone)
+                    {
+                        bool upmOk = await WaitUpmRequestAsync(request);
+                        request.RequestState = upmOk ? RequestState.Success : RequestState.Failure;
+                        if (!upmOk)
                         {
-                            // 用户取消视为“安装 0 个插件”，不会走到这里；这里只会是真正的准备/导入出错，
-                            // 已经在 HandlePluginImportForAdd 内静默回滚过，直接跳过本次 UPM 请求
-                            request.RequestState = RequestState.Failure;
-                            finishedCount++;
+                            LM.LogError(
+                                $"[PackageInstallerService] {request.RequestType} 失败: " +
+                                $"{request.RequestPackageInfo?.PackageName}");
+                            AdvanceToNextRequest(state);
                             continue;
                         }
+
+                        // 节点1: 当前包 UPM 已完成，资源处理尚未开始
+                        state.CurrentUpmDone = true;
+                        SaveProgress(state);
+                        UpdateProgressBar(state);
                     }
-                    
-                    // 根据 Add / Remove 请求类型，分发给UPM不同的request
-                    int timeoutCount = 0;
-                    bool timedOut = false;
-                    var req = request.StartRequest();
-                    while (!req.IsCompleted)
+                    else
                     {
-                        if (timeoutCount >= MTPTime.INSTALLATION_TIMEOUT)
-                        {
-                            // 安装超时
-                            timedOut = true;
-                            break;
-                        }
-                        await Task.Delay(MTPTime.INSTALLATION_CHECK_TIME);
-                        timeoutCount += MTPTime.INSTALLATION_CHECK_TIME;
+                        // 从进度恢复，节点 1 已写入，视为 UPM 成功
+                        request.RequestState = RequestState.Success;
                     }
 
-                    request.RequestState = !timedOut && req.Status == StatusCode.Success
-                        ? RequestState.Success
-                        : RequestState.Failure;
-
-                    // 安装错误提示
-                    if (request.RequestState == RequestState.Failure)
-                    {
-                        var reason = timedOut ? "超时" : req.Error?.message ?? "未知错误";
-                        LM.LogError(
-                            $"[PackageInstallerService] {request.RequestType} 请求失败: " +
-                            $"{request.RequestPackageInfo?.PackageName}, 原因: {reason}");
-                    }
-
-                    // Add：UPM 成功了才写入本地持久化本次插件准备/导入的结果；失败则静默回滚，不留下半安装状态
-                    if (request.RequestType == RequestType.Add)
-                    {
-                        if (request.RequestState == RequestState.Success)
-                        {
-                            HandlePackageAddSucceeded(request.RequestPackageInfo);
-                        }
-                        else
-                        {
-                            RollbackPluginImport(request.RequestPackageInfo);
-                        }
-                    }
-
-                    // 处理宏定义：按 taginfo（projectId + tag）上的 scriptDefineSymbols，逻辑同旧工程
-                    if (request.RequestState == RequestState.Success)
-                    {
-                        if (request.RequestType == RequestType.Add || request.RequestType == RequestType.UpdateAdd)
-                        {
-                            ApplyScriptDefineSymbols(request.RequestPackageInfo, add: true);
-                        }
-                        else if (request.RequestType == RequestType.Remove || request.RequestType == RequestType.UpdateRemove)
-                        {
-                            ApplyScriptDefineSymbols(request.RequestPackageInfo, add: false);
-                        }
-                    }
-                    
-                    // Remove：只有 UPM 卸载成功才处理插件卸载；失败则包还在装着，不能动插件
-                    if (request.RequestType == RequestType.Remove && request.RequestState == RequestState.Success)
-                    {
-                        // 与旧工程一致：汇总本次会删除的全部资源路径，弹一次 DisplayDialog 整体确认
-                        PluginPackage.RemoveImportedPlugins(request.RequestPackageInfo);
-                    }
-                    
-                    finishedCount++;
-                    EditorUtility.ClearProgressBar(); // 清理当前一轮的安装进度
+                    await HandleResourcesAfterUpmAsync(request, state);
+                    AdvanceToNextRequest(state);
                 }
+
+                DeleteProgress();
+                MTPackageManagerWindow.RefreshOpenWindows();
             }
             finally
             {
-                EditorUtility.ClearProgressBar(); // 清理本次try内可能产生的进度条
-                EditorApplication.UnlockReloadAssemblies(); // 解锁编译锁
+                EditorUtility.ClearProgressBar();
+                if (lockEntire)
+                {
+                    EditorApplication.UnlockReloadAssemblies();
+                }
             }
         }
 
         /// <summary>
-        /// Add 请求里处理插件导入的完整步骤：准备（下载/发现） -> 弹窗勾选并导入。
-        /// 期间不持久化到本地（persist:false），写盘工作统一交给 UPM 请求成功后的后续方法
-        /// 用户取消 / 未勾选任何插件视为"安装 0 个插件"，返回 true，不影响后续 UPM 安装；
-        /// 只有真正的准备失败或导入失败才返回 false，且已经在内部静默回滚（不弹窗）。
+        /// 节点2: 资源处理结束（或 UPM 失败跳过资源）。弹出 rest[0]，CompletedCount++，CurrentUpmDone=false。
         /// </summary>
-        private async Task<bool> HandlePluginImportForAdd(MTPackageInfo package)
+        private static void AdvanceToNextRequest(InstallerProgressState state)
         {
-            bool prepared = await PluginPackage.PreparePluginsAsync(package, persist: false);
+            if (state.RestRequests != null && state.RestRequests.Count > 0)
+            {
+                state.RestRequests.RemoveAt(0);
+            }
+
+            state.CurrentUpmDone = false;
+            state.PluginSelectionDone = false;
+            state.PluginSelectionConfirmed = false;
+            state.SelectedPluginKeys = new List<string>();
+            state.ZipExtractDirs = new Dictionary<string, string>();
+            state.PluginsImportDone = false;
+            state.CompletedCount++;
+            SaveProgress(state);
+        }
+
+        private static async Task<bool> WaitUpmRequestAsync(MTPackageInstallerRequest request)
+        {
+            var req = request?.StartRequest();
+            if (req == null)
+            {
+                return false;
+            }
+
+            int timeoutCount = 0;
+            while (!req.IsCompleted)
+            {
+                if (timeoutCount >= MTPTime.INSTALLATION_TIMEOUT)
+                {
+                    return false;
+                }
+
+                await Task.Delay(MTPTime.INSTALLATION_CHECK_TIME);
+                timeoutCount += MTPTime.INSTALLATION_CHECK_TIME;
+            }
+
+            return req.Status == StatusCode.Success;
+        }
+
+        /// <summary>
+        /// UPM 成功后资源处理。插件与宏严格线性：本阶段完全结束并空闲后，才进入下一阶段。
+        /// Add：插件选择/导入 → 空闲 → 加宏 → 空闲。
+        /// Remove：去宏 → 空闲 → 卸插件资源 → 空闲。
+        /// UpdateAdd 只加宏；UpdateRemove 不处理插件/宏。
+        /// </summary>
+        private async Task HandleResourcesAfterUpmAsync(
+            MTPackageInstallerRequest request, InstallerProgressState state)
+        {
+            if (request == null || request.RequestState != RequestState.Success)
+            {
+                return;
+            }
+
+            var package = request.RequestPackageInfo;
+            await EditorBusyWait.WaitUntilIdleAsync();
+
+            if (request.RequestType == RequestType.Add)
+            {
+                await ImportPluginsAfterAddAsync(package, state);
+                await EditorBusyWait.WaitUntilIdleAsync();
+            }
+
+            bool applyDefines = request.RequestType == RequestType.Add
+                                || request.RequestType == RequestType.UpdateAdd
+                                || request.RequestType == RequestType.Remove;
+            if (applyDefines)
+            {
+                bool addDefines = request.RequestType != RequestType.Remove;
+                ApplyScriptDefineSymbols(package, add: addDefines);
+                await EditorBusyWait.WaitUntilIdleAsync();
+            }
+
+            if (request.RequestType == RequestType.Remove)
+            {
+                PluginPackage.RemoveImportedPlugins(package);
+                await EditorBusyWait.WaitUntilIdleAsync();
+            }
+        }
+
+        private async Task ImportPluginsAfterAddAsync(MTPackageInfo package, InstallerProgressState state)
+        {
+            if (state != null && state.PluginsImportDone)
+            {
+                LM.Log($"[PackageInstallerService] 插件阶段已完成，跳过: {package?.PackageName}");
+                return;
+            }
+
+            bool prepared = await PluginPackage.PreparePluginsAsync(package, persist: true);
             if (!prepared)
             {
-                LM.LogError($"[PackageInstallerService] 插件准备失败，回滚: {package?.PackageName}");
-                PluginPackage.RemoveImportedPlugins(package, showConfirmDialog: false);
-                return false;
+                LM.LogError($"[PackageInstallerService] 插件准备失败（包已安装，不回滚 UPM）: {package?.PackageName}");
+                MarkPluginsImportDone(state);
+                return;
             }
 
             if (package.Plugins == null || package.Plugins.Count == 0)
             {
-                return true; // 该包没有插件，视为“安装 0 个插件”
+                MarkPluginsImportDone(state);
+                return;
             }
 
-            bool imported = await PluginImportWindow.ShowWindowAsync(package, persist: false);
+            PluginImportWindow.PluginImportSelection selection;
+            if (state != null && state.PluginSelectionDone)
+            {
+                LM.Log($"[PackageInstallerService] 恢复已保存的插件选择，不再弹窗: {package.PackageName}");
+                selection = new PluginImportWindow.PluginImportSelection
+                {
+                    Confirmed = state.PluginSelectionConfirmed,
+                    SelectedKeys = state.SelectedPluginKeys ?? new List<string>(),
+                    ZipExtractDirs = state.ZipExtractDirs ?? new Dictionary<string, string>(),
+                };
+            }
+            else
+            {
+                var selectionTask = PluginImportWindow.ShowWindowAsync(package);
+                await EditorBusyWait.WaitUntilTaskAsync(selectionTask);
+                selection = selectionTask.Status == TaskStatus.RanToCompletion
+                    ? selectionTask.Result
+                    : null;
+                PersistPluginSelection(state, selection);
+            }
+
+            if (selection == null || !selection.Confirmed
+                || selection.SelectedKeys == null || selection.SelectedKeys.Count == 0)
+            {
+                LM.Log($"[PackageInstallerService] 未导入插件（取消或未勾选）: {package.PackageName}");
+                MarkPluginsImportDone(state);
+                return;
+            }
+
+            var importTask = PluginPackage.ImportPreparedPluginsAsync(
+                package, selection.SelectedKeys, selection.ZipExtractDirs,
+                persist: true, skipRecorded: true);
+            await EditorBusyWait.WaitUntilTaskAsync(importTask);
+            bool imported = importTask.Status == TaskStatus.RanToCompletion && importTask.Result;
             if (!imported)
             {
-                LM.LogError($"[PackageInstallerService] 插件导入失败，回滚: {package?.PackageName}");
-                PluginPackage.RemoveImportedPlugins(package, showConfirmDialog: false);
-                return false;
+                LM.LogError($"[PackageInstallerService] 插件导入失败（包已安装，不回滚 UPM）: {package?.PackageName}");
             }
 
-            return true;
+            MarkPluginsImportDone(state);
         }
 
-        /// <summary>
-        /// 包安装成功的后续处理：此时才把本次准备/导入的插件状态统一落盘。
-        /// </summary>
-        private void HandlePackageAddSucceeded(MTPackageInfo package)
+        private static void PersistPluginSelection(
+            InstallerProgressState state, PluginImportWindow.PluginImportSelection selection)
         {
-            MTPackage.SaveDependenciesToLocal();
-            PluginAsset.SaveToLocal();
-            LM.Log($"[PackageInstallerService] 包安装成功，插件状态已落盘: {package?.PackageName}");
+            if (state == null)
+            {
+                return;
+            }
+
+            state.PluginSelectionDone = true;
+            state.PluginSelectionConfirmed = selection != null && selection.Confirmed;
+            state.SelectedPluginKeys = selection?.SelectedKeys != null
+                ? new List<string>(selection.SelectedKeys)
+                : new List<string>();
+            state.ZipExtractDirs = selection?.ZipExtractDirs != null
+                ? new Dictionary<string, string>(selection.ZipExtractDirs)
+                : new Dictionary<string, string>();
+            SaveProgress(state);
         }
 
-        /// <summary>
-        /// 按 package 的 ProjectId + Tag 取 taginfo，把 scriptDefineSymbols（分号分隔）写入 / 移出 PlayerSettings。
-        /// taginfo 缺失或字段为空则跳过，与旧 OnAdd/OnRemoveScriptDefineSymbols 一致。
-        /// </summary>
+        private static void MarkPluginsImportDone(InstallerProgressState state)
+        {
+            if (state == null)
+            {
+                return;
+            }
+
+            state.PluginsImportDone = true;
+            SaveProgress(state);
+        }
+
         private void ApplyScriptDefineSymbols(MTPackageInfo package, bool add)
         {
             if (package == null || package.ProjectId <= 0 || string.IsNullOrEmpty(package.Tag))
@@ -303,12 +420,59 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// UPM 添加失败后的回滚：静默移除本次已导入的插件（不弹窗），避免遗留一份没有对应包的插件资源。
-        /// 该包没有导入过任何插件时，RemoveImportedPlugins 内部会直接判空返回，调用无副作用。
+        /// 与旧工程一致：仅当本批次全部为本地内嵌包时，才对安装循环全程加锁。
+        /// UPM Client.Add/Remove 无法被这把锁拦住域重载。
         /// </summary>
-        private void RollbackPluginImport(MTPackageInfo package)
+        private static bool ShouldLockEntireProcess(List<MTPackageInstallerRequest> requests)
         {
-            PluginPackage.RemoveImportedPlugins(package, showConfirmDialog: false);
+            if (requests == null || requests.Count == 0)
+            {
+                return false;
+            }
+
+            foreach (var request in requests)
+            {
+                if (request?.RequestPackageInfo == null || !request.RequestPackageInfo.isLocal)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        private static void UpdateProgressBar(InstallerProgressState state)
+        {
+            int rest = state.RestRequests?.Count ?? 0;
+            int done = state.CompletedCount;
+            int total = done + rest;
+            float progress = total > 0 ? (float)done / total : 1f;
+            string name = rest > 0
+                ? state.RestRequests[0]?.RequestPackageInfo?.PackageName ?? "package"
+                : "package";
+            string stage = state.CurrentUpmDone ? "macros/plugins" : "UPM";
+            EditorUtility.DisplayProgressBar(
+                "MTP Installer",
+                $"{name} [{stage}] {done}/{total}",
+                progress);
+        }
+
+        private static void SaveProgress(InstallerProgressState state)
+        {
+            JsonUtils.SaveToFile(MTPPath.INSTALLER_PROGRESS_PATH, state);
+        }
+
+        private static InstallerProgressState LoadProgress()
+        {
+            return JsonUtils.LoadFromFile<InstallerProgressState>(MTPPath.INSTALLER_PROGRESS_PATH, createIfNotExist: false);
+        }
+
+        private static void DeleteProgress()
+        {
+            if (File.Exists(MTPPath.INSTALLER_PROGRESS_PATH))
+            {
+                File.Delete(MTPPath.INSTALLER_PROGRESS_PATH);
+            }
         }
     }
 }

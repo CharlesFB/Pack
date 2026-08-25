@@ -17,36 +17,39 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public List<string> Get(string pluginLocalPath)
         {
-            if (string.IsNullOrEmpty(pluginLocalPath))
+            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: false);
+            if (string.IsNullOrEmpty(storedKey))
             {
                 return null;
             }
 
-            return _content.TryGetValue(pluginLocalPath, out var paths)
+            return _content.TryGetValue(storedKey, out var paths)
                 ? new List<string>(paths)
                 : null;
         }
 
         public void Set(string pluginLocalPath, List<string> assetPaths)
         {
-            if (string.IsNullOrEmpty(pluginLocalPath))
+            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: true);
+            if (string.IsNullOrEmpty(storedKey))
             {
                 return;
             }
 
-            _content[pluginLocalPath] = assetPaths != null
+            _content[storedKey] = assetPaths != null
                 ? new List<string>(assetPaths)
                 : new List<string>();
         }
 
         public void Append(string pluginLocalPath, List<string> assetPaths)
         {
-            if (string.IsNullOrEmpty(pluginLocalPath))
+            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: true);
+            if (string.IsNullOrEmpty(storedKey))
             {
                 return;
             }
 
-            var merged = _content.TryGetValue(pluginLocalPath, out var existing) && existing != null
+            var merged = _content.TryGetValue(storedKey, out var existing) && existing != null
                 ? new List<string>(existing)
                 : new List<string>();
 
@@ -65,17 +68,13 @@ namespace MagicTavern.FrontEngine.MTPManager
                 }
             }
 
-            _content[pluginLocalPath] = deduped;
+            _content[storedKey] = deduped;
         }
 
         public bool Remove(string pluginLocalPath)
         {
-            if (string.IsNullOrEmpty(pluginLocalPath))
-            {
-                return false;
-            }
-
-            return _content.Remove(pluginLocalPath);
+            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: false);
+            return !string.IsNullOrEmpty(storedKey) && _content.Remove(storedKey);
         }
 
         public Dictionary<string, List<string>> GetAll()
@@ -107,7 +106,13 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             foreach (var kvp in list.Content)
             {
-                _content[kvp.Key] = kvp.Value != null ? new List<string>(kvp.Value) : new List<string>();
+                string key = PathUtils.NormalizePluginKey(kvp.Key);
+                if (string.IsNullOrEmpty(key))
+                {
+                    continue;
+                }
+
+                _content[key] = kvp.Value != null ? new List<string>(kvp.Value) : new List<string>();
             }
         }
 
@@ -134,7 +139,10 @@ namespace MagicTavern.FrontEngine.MTPManager
             foreach (var kvp in _content)
             {
                 if (!string.IsNullOrEmpty(excludePluginKey)
-                    && string.Equals(kvp.Key, excludePluginKey, StringComparison.Ordinal))
+                    && string.Equals(
+                        PathUtils.NormalizePluginKey(kvp.Key),
+                        PathUtils.NormalizePluginKey(excludePluginKey),
+                        StringComparison.OrdinalIgnoreCase))
                 {
                     continue;
                 }
@@ -171,7 +179,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         public List<string> GetUncoveredListToRemove(string pluginLocalPath)
         {
             var result = new List<string>();
-            if (string.IsNullOrEmpty(pluginLocalPath) || !_content.TryGetValue(pluginLocalPath, out var pluginAssets)
+            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: false);
+            if (string.IsNullOrEmpty(storedKey) || !_content.TryGetValue(storedKey, out var pluginAssets)
                 || pluginAssets == null || pluginAssets.Count == 0)
             {
                 return result;
@@ -180,7 +189,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             var sharedByOthers = new HashSet<string>(StringComparer.Ordinal);
             foreach (var kvp in _content)
             {
-                if (string.Equals(kvp.Key, pluginLocalPath, StringComparison.Ordinal) || kvp.Value == null)
+                if (string.Equals(kvp.Key, storedKey, StringComparison.Ordinal) || kvp.Value == null)
                 {
                     continue;
                 }
@@ -206,6 +215,30 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             return result;
+        }
+
+        private string ResolveContentKey(string pluginLocalPath, bool createIfMissing)
+        {
+            if (string.IsNullOrEmpty(pluginLocalPath))
+            {
+                return null;
+            }
+
+            if (_content.ContainsKey(pluginLocalPath))
+            {
+                return pluginLocalPath;
+            }
+
+            string normalized = PathUtils.NormalizePluginKey(pluginLocalPath);
+            foreach (var key in _content.Keys)
+            {
+                if (string.Equals(PathUtils.NormalizePluginKey(key), normalized, StringComparison.OrdinalIgnoreCase))
+                {
+                    return key;
+                }
+            }
+
+            return createIfMissing ? normalized : null;
         }
     }
 }

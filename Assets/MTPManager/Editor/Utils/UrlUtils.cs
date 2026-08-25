@@ -12,24 +12,52 @@ namespace MagicTavern.FrontEngine.MTPManager
     internal static class UrlUtils
     {
         /// <summary>
-        /// 生成带有 Token 和 Revision 的最终安装链接
+        /// 生成带有 Token 和 Revision 的最终安装链接。
+        /// ssh:// / git@ 会先转成 https，再写入 oauth2:{token}（缺省用 DEFAULT_TOKEN）。
         /// </summary>
         public static string GetInstallUrl(string baseUrl, string revision, string privateToken)
         {
             if (string.IsNullOrEmpty(baseUrl)) return string.Empty;
 
-            var urlToLower = baseUrl.ToLower();
-            var finalUrl = baseUrl;
+            var token = string.IsNullOrEmpty(privateToken) ? MTPGit.DEFAULT_TOKEN : privateToken;
+            var url = ToHttpsWithoutToken(baseUrl);
 
-            if (urlToLower.StartsWith("https:"))
+            if (!string.IsNullOrEmpty(token)
+                && url.StartsWith("https://", StringComparison.OrdinalIgnoreCase)
+                && url.IndexOf("://oauth2", StringComparison.OrdinalIgnoreCase) < 0)
             {
-                if (!urlToLower.StartsWith("https://oauth2") && !string.IsNullOrEmpty(privateToken))
-                {
-                    finalUrl = baseUrl.Replace("https://", $"https://oauth2:{privateToken}@");
-                }
+                url = "https://oauth2:" + token + "@" + url.Substring("https://".Length);
             }
 
-            return $"{finalUrl}#{revision}";
+            return string.IsNullOrEmpty(revision) ? url : $"{url}#{revision}";
+        }
+
+        /// <summary>
+        /// 把 package.json dependenciesGit 的 "仓库链接#tag" 转成可安装链接（携带 DEFAULT_TOKEN）。
+        /// </summary>
+        public static string ToInstallGitUrl(string gitDependencyUrl, string privateToken = null)
+        {
+            if (string.IsNullOrEmpty(gitDependencyUrl))
+            {
+                return gitDependencyUrl;
+            }
+
+            var token = string.IsNullOrEmpty(privateToken) ? MTPGit.DEFAULT_TOKEN : privateToken;
+            var splitIndex = gitDependencyUrl.LastIndexOf('#');
+            if (splitIndex <= 0 || splitIndex == gitDependencyUrl.Length - 1)
+            {
+                return GetInstallUrl(gitDependencyUrl, string.Empty, token);
+            }
+
+            return GetInstallUrl(
+                gitDependencyUrl.Substring(0, splitIndex),
+                gitDependencyUrl.Substring(splitIndex + 1),
+                token);
+        }
+
+        public static string ToHttpsWithoutToken(string url)
+        {
+            return SshToHttpsURLWithoutToken(FormatUrl(url));
         }
 
         public static string FormatUrl(string url)

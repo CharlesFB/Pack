@@ -34,19 +34,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                 .OrderByDescending(path => path, StringComparer.Ordinal)
                 .ToList();
 
-            // 逐个 DeleteAsset 都会单独触发 AssetDatabase 导入检查；
-            // 用 StartAssetEditing/StopAssetEditing 把整批删除合并成一次处理
-            AssetDatabase.StartAssetEditing();
-            try
+            foreach (string pathname in normalizedPaths)
             {
-                foreach (string pathname in normalizedPaths)
-                {
-                    RemoveSinglePathname(pathname, result);
-                }
-            }
-            finally
-            {
-                AssetDatabase.StopAssetEditing();
+                RemoveSinglePathname(pathname, result);
             }
 
             if (refreshAssetDatabase && result.RemovedCount > 0)
@@ -72,7 +62,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 批量按 .unitypackage 文件列表解析并删除对应 Assets（合并为一次 AssetEditing）。
+        /// 批量按 .unitypackage 文件列表解析并删除对应 Assets。
         /// </summary>
         public static PluginRemoveResult RemoveByUnityPackageFiles(IEnumerable<string> packagePaths,
             bool refreshAssetDatabase = true)
@@ -112,17 +102,9 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             infos.Sort((a, b) => string.CompareOrdinal(b.pathname, a.pathname));
 
-            AssetDatabase.StartAssetEditing();
-            try
+            foreach (var info in infos)
             {
-                foreach (var info in infos)
-                {
-                    RemovePackageEntry(info, result);
-                }
-            }
-            finally
-            {
-                AssetDatabase.StopAssetEditing();
+                RemovePackageEntry(info, result);
             }
 
             if (refreshAssetDatabase && result.RemovedCount > 0)

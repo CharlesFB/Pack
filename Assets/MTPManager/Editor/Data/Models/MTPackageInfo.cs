@@ -70,7 +70,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// </summary>
         public string GetInstallUrl(string privateToken)
         {
-            return UrlUtils.GetInstallUrl(Url, Revision, privateToken);
+            var token = string.IsNullOrEmpty(privateToken) ? MTPGit.DEFAULT_TOKEN : privateToken;
+            return UrlUtils.GetInstallUrl(Url, Revision, token);
         }
     }
 }

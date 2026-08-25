@@ -50,7 +50,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             LogOnConsole = true;
             ProjectId = string.Empty;
             ProjectName = string.Empty;
-            DebugMode = false;
+            DebugMode = true;
             ShowDevTag = false;
             InstallToLocal = false;
             BlackList = new List<string>(MTPGit.DefaultBlacklist);

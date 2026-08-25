@@ -299,7 +299,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             LocalPackage.SaveToLocal();
         }
 
-        private static bool AllRequestsSucceeded(List<IPackageInstallerService.MTPackageInstallerRequest> requests)
+        private static bool AllRequestsSucceeded(List<MTPackageInstallerRequest> requests)
         {
             foreach (var request in requests)
             {

@@ -143,7 +143,9 @@ namespace MagicTavern.FrontEngine.MTPManager
 
                 var url = depUrl.Substring(0, splitIndex);
                 var tag = depUrl.Substring(splitIndex + 1);
-                var project = ProjectInfoService.GetByUrl(url);
+                string tagHead = tag.Split('-')[0];
+                var project = ProjectInfoService.GetByUrl(url, tagHead)
+                              ?? ProjectInfoService.GetByUrl(url);
                 if (project == null || project.ProjectId <= 0)
                 {
                     continue;

@@ -5,7 +5,9 @@
 // @Description: MT 包依赖信息内存状态服务（对应 MTPackageInfoList / Library/upm-dependencies.json）
 // ==================================================
 
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Editor.Data.Models;
@@ -52,24 +54,133 @@ namespace MagicTavern.FrontEngine.MTPManager
             string revision, int depth, bool isLocal, int projectId = 0)
         {
             var formattedUrl = UrlUtils.FormatUrl(url);
+            string shortName = PathUtils.GetPackageShortName(rawPackage?.name);
+            var project = projectId > 0
+                ? ProjectInfoService.Get(projectId, shortName) ?? ProjectInfoService.Get(projectId)
+                : ProjectInfoService.GetByUrl(formattedUrl, shortName) ?? ProjectInfoService.GetByUrl(formattedUrl);
             if (projectId <= 0)
             {
-                projectId = ProjectInfoService.GetByUrl(formattedUrl)?.ProjectId ?? 0;
+                projectId = project?.ProjectId ?? 0;
             }
 
-            return new MTPackageInfo
+            // 与旧 CollectPackagesToInstall 一致：节点 Url 用工程 HttpUrl，避免 ssh 链接进安装器。
+            var urlToStore = !string.IsNullOrEmpty(project?.HttpUrl)
+                ? UrlUtils.FormatUrl(project.HttpUrl)
+                : formattedUrl;
+
+            var package = new MTPackageInfo
             {
                 PackageName = rawPackage.name,
                 Tag = tag,
                 Revision = revision,
-                Dependencies = rawPackage.dependenciesGit,
+                Dependencies = ToInstallDependencyMap(rawPackage.dependenciesGit),
                 Plugins = new Dictionary<string, bool>(),
-                Url = formattedUrl,
+                Url = urlToStore,
                 ProjectId = projectId,
                 Depth = depth,
                 ScriptDefineSymbols = rawPackage.scriptDefineSymbols,
                 isLocal = isLocal,
             };
+            FillPluginsFromLocalPackage(package);
+            return package;
+        }
+
+        /// <summary>
+        /// 依赖树带入的 git 安装链接补上 DEFAULT_TOKEN；ssh/git@ 一并转成 https。
+        /// </summary>
+        private static Dictionary<string, string> ToInstallDependencyMap(Dictionary<string, string> dependenciesGit)
+        {
+            if (dependenciesGit == null)
+            {
+                return null;
+            }
+
+            var result = new Dictionary<string, string>(dependenciesGit.Count);
+            foreach (var kvp in dependenciesGit)
+            {
+                result[kvp.Key] = UrlUtils.ToInstallGitUrl(kvp.Value, MTPGit.DEFAULT_TOKEN);
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 从已安装包本地目录扫 .zip / .unitypackage，写入 Plugins。
+        /// Key 为 PackageCache（或 Packages）下的插件文件路径；Value 按 PluginAsset 记录判定是否已导入。
+        /// </summary>
+        private static void FillPluginsFromLocalPackage(MTPackageInfo package)
+        {
+            if (package == null)
+            {
+                return;
+            }
+
+            package.Plugins ??= new Dictionary<string, bool>();
+            package.Plugins.Clear();
+
+            string pluginDir = PathUtils.GetPluginsDirectory(package);
+            if (string.IsNullOrEmpty(pluginDir) || !Directory.Exists(pluginDir))
+            {
+                return;
+            }
+
+            var files = new List<string>();
+            files.AddRange(Directory.GetFiles(pluginDir, "*.unitypackage", SearchOption.AllDirectories));
+            files.AddRange(Directory.GetFiles(pluginDir, "*.zip", SearchOption.AllDirectories));
+            if (files.Count == 0)
+            {
+                return;
+            }
+
+            var recorded = ServiceLocator.Get<IPluginAssetService>().GetAll()
+                           ?? new Dictionary<string, List<string>>();
+            string pluginDirNormalized = PathUtils.NormalizePluginKey(Path.GetFullPath(pluginDir)).TrimEnd('/');
+
+            foreach (var file in files)
+            {
+                string fullPath = PathUtils.NormalizePluginKey(Path.GetFullPath(file));
+                string relative = fullPath.StartsWith(pluginDirNormalized, StringComparison.OrdinalIgnoreCase)
+                    ? fullPath.Substring(pluginDirNormalized.Length).TrimStart('/')
+                    : Path.GetFileName(fullPath);
+                if (string.IsNullOrEmpty(relative) || !IsPluginFileName(relative))
+                {
+                    continue;
+                }
+
+                string key = PathUtils.BuildPluginLocalPath(package, relative);
+                if (string.IsNullOrEmpty(key))
+                {
+                    continue;
+                }
+
+                package.Plugins[key] = IsPluginRecorded(key, recorded);
+            }
+        }
+
+        private static bool IsPluginRecorded(string key, Dictionary<string, List<string>> recorded)
+        {
+            if (recorded == null || string.IsNullOrEmpty(key))
+            {
+                return false;
+            }
+
+            foreach (var kvp in recorded)
+            {
+                if (!string.Equals(PathUtils.NormalizePluginKey(kvp.Key), key, StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                return kvp.Value != null && kvp.Value.Count > 0;
+            }
+
+            return false;
+        }
+
+        private static bool IsPluginFileName(string pathOrName)
+        {
+            return pathOrName.EndsWith(".unitypackage", StringComparison.OrdinalIgnoreCase)
+                   || pathOrName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
         }
 
         public async Task<MTPackageInfo> FetchPackageInfoAsync(string gitDependencyUrl, int depth = 0,
@@ -104,7 +215,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
-            var projectInfo = ProjectInfoService.GetByUrl(url);
+            string tagHead = tag.Split('-')[0];
+            var projectInfo = ProjectInfoService.GetByUrl(url, tagHead)
+                              ?? ProjectInfoService.GetByUrl(url);
             if (projectInfo == null)
             {
                 LM.LogError($"[MTPackageInfoService] FetchPackageInfoAsync 找不到对应工程: url={url}");
@@ -126,7 +239,8 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
-            return BuildMTPackageInfo(rawPackage, url, tag, revision, depth, isLocal, projectInfo.ProjectId);
+            var urlToStore = !string.IsNullOrEmpty(projectInfo.HttpUrl) ? projectInfo.HttpUrl : url;
+            return BuildMTPackageInfo(rawPackage, urlToStore, tag, revision, depth, isLocal, projectInfo.ProjectId);
         }
 
         public void RemoveDependency(string packageName)
@@ -169,6 +283,35 @@ namespace MagicTavern.FrontEngine.MTPManager
         public MTPackageInfo GetPackage(string packageName)
         {
             return _dependencies.TryGetValue(packageName, out var package) ? package : null;
+        }
+
+        public MTPackageInfo GetPackageByProject(int projectId, string packageName)
+        {
+            if (string.IsNullOrEmpty(packageName))
+            {
+                return null;
+            }
+
+            string shortName = PathUtils.GetPackageShortName(packageName);
+            foreach (var package in _dependencies.Values)
+            {
+                if (package == null)
+                {
+                    continue;
+                }
+
+                if (projectId > 0 && package.ProjectId > 0 && package.ProjectId != projectId)
+                {
+                    continue;
+                }
+
+                if (PathUtils.MatchesProjectPackageName(shortName, package.PackageName))
+                {
+                    return package;
+                }
+            }
+
+            return null;
         }
 
         public List<MTPackageInfo> GetAllPackages() => _dependencies.Values.ToList();
@@ -252,6 +395,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             foreach (var kvp in list.Dependencies)
             {
                 EnsurePluginsInitialized(kvp.Value);
+                FillPluginsFromLocalPackage(kvp.Value);
                 _dependencies[kvp.Key] = kvp.Value;
             }
         }
@@ -351,7 +495,9 @@ namespace MagicTavern.FrontEngine.MTPManager
         private async Task<MTPackageInfo> ResolveNodeAsync(string url, string tag, int depth, bool isLocal)
         {
             var formattedUrl = UrlUtils.FormatUrl(url);
-            var project = ProjectInfoService.GetByUrl(formattedUrl);
+            string tagHead = tag.Split('-')[0];
+            var project = ProjectInfoService.GetByUrl(formattedUrl, tagHead)
+                          ?? ProjectInfoService.GetByUrl(formattedUrl);
             if (project != null && project.ProjectId > 0)
             {
                 var cached = PackageJsonService.Get(project.ProjectId.ToString(), tag);
@@ -363,8 +509,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                         revision = tag;
                     }
 
+                    var urlToStore = !string.IsNullOrEmpty(project.HttpUrl) ? project.HttpUrl : formattedUrl;
                     return BuildMTPackageInfo(
-                        cached, formattedUrl, tag, revision, depth, isLocal, project.ProjectId);
+                        cached, urlToStore, tag, revision, depth, isLocal, project.ProjectId);
                 }
             }
 

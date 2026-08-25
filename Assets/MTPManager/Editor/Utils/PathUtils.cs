@@ -5,6 +5,7 @@
 // @Description: 提供解析MTP所需目录相关的内联方法
 // ==================================================
 
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -37,6 +38,44 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             int length = 10; //UPM同款记录短哈希为commit的前10位
             return revision.Length <= length ? revision : revision.Substring(0, length);
+        }
+
+        /// <summary>
+        /// UPM 全名 com.xxx.foo 取最后一段 foo；已是短名则原样返回。
+        /// </summary>
+        internal static string GetPackageShortName(string packageName)
+        {
+            if (string.IsNullOrEmpty(packageName))
+            {
+                return packageName;
+            }
+
+            int lastDot = packageName.LastIndexOf('.');
+            return lastDot >= 0 && lastDot < packageName.Length - 1
+                ? packageName.Substring(lastDot + 1)
+                : packageName;
+        }
+
+        /// <summary>
+        /// ProjectInfo.PackageName（git 短名）是否对得上 MTPackageInfo / package.json 的 name。
+        /// 以全名按 '.' 分割的最后一段为准。
+        /// </summary>
+        internal static bool MatchesProjectPackageName(string projectPackageName, string fullOrShortName)
+        {
+            if (string.IsNullOrEmpty(projectPackageName) || string.IsNullOrEmpty(fullOrShortName))
+            {
+                return false;
+            }
+
+            if (string.Equals(projectPackageName, fullOrShortName, StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
+
+            return string.Equals(
+                projectPackageName,
+                GetPackageShortName(fullOrShortName),
+                StringComparison.OrdinalIgnoreCase);
         }
 
         /// <summary>
@@ -76,7 +115,15 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return string.Empty;
             }
 
-            return Path.Combine(packageRoot, MTPPath.PLUGINS_PACKAGE_DIR, pluginFileName);
+            return NormalizePluginKey(Path.Combine(packageRoot, MTPPath.PLUGINS_PACKAGE_DIR, pluginFileName));
+        }
+
+        /// <summary>
+        /// 插件路径统一为正斜杠，便于 Plugins / PluginAsset 按 Key 对齐。
+        /// </summary>
+        internal static string NormalizePluginKey(string path)
+        {
+            return string.IsNullOrEmpty(path) ? path : path.Replace("\\", "/");
         }
 
         /// <summary>
@@ -147,7 +194,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 string localRoot = BuildLocalPackageRoot(mtPackageInfo.PackageName);
                 return string.IsNullOrEmpty(localRoot)
                     ? string.Empty
-                    : Path.Combine(localRoot, MTPPath.PLUGINS_PACKAGE_DIR, pluginFileName);
+                    : NormalizePluginKey(Path.Combine(localRoot, MTPPath.PLUGINS_PACKAGE_DIR, pluginFileName));
             }
 
             return BuildPluginLocalPath(mtPackageInfo.PackageName, mtPackageInfo.Revision, pluginFileName);

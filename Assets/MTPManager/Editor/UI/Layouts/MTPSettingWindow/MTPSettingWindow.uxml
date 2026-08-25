@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MTPManager/Editor/UI/Styles/MTPSettingWindow.uss?fileID=7433441132597879392&amp;guid=7e61f18715ab94aebb16b58f8ba61740&amp;type=3#MTPSettingWindow" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+    </ui:VisualElement>
+</ui:UXML>

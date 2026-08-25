@@ -17,6 +17,12 @@ namespace MagicTavern.FrontEngine.MTPManager
         MTPackageInfo AddDependency(PackageJson rawPackage, string url, string tag, string revision, int depth, bool isLocal);
         void RemoveDependency(string packageName);
         MTPackageInfo GetPackage(string packageName);
+
+        /// <summary>
+        /// 按远端工程 id + 包短名查找已安装节点。同一 ProjectId 下可能有多个包。
+        /// packageName 可以是 git 短名或 com.xxx.xxx；ProjectId &lt;= 0 时只按短名匹配。
+        /// </summary>
+        MTPackageInfo GetPackageByProject(int projectId, string packageName);
         List<MTPackageInfo> GetAllPackages();
 
         List<string> GetAllKeys();

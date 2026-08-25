@@ -38,8 +38,8 @@ public class MTPackageManagerWindow : EditorWindow
     private ProjectInfo _selectedProject;
     private Label _lbUpdateTime;
     private Button _btnRefresh;
-    private bool _isRefreshing;
-    private bool _isInstalling;
+    [NonSerialized] private bool _isRefreshing;
+    [NonSerialized] private bool _isInstalling;
     private bool _sortDescending;
 
     // InfoView
@@ -86,6 +86,9 @@ public class MTPackageManagerWindow : EditorWindow
         InitInfoView(root);
         InitProjectList(root);
 
+        // EditorWindow 会序列化字段；安装中域重载后 _isInstalling 不能继续为 true，否则按钮会一直禁用
+        _isInstalling = false;
+        _isRefreshing = false;
         RefreshProjectList();
     }
     
@@ -290,6 +293,37 @@ public class MTPackageManagerWindow : EditorWindow
     {
         RefreshProjectList();
     }
+
+    /// <summary>
+    /// 刷新当前已打开的 MTP 窗口（安装批次结束 / 域重载后的列表状态）。
+    /// delayCall 避免打断正在进行的 EditorWindow 重建。
+    /// </summary>
+    public static void RefreshOpenWindows()
+    {
+        EditorApplication.delayCall += RefreshOpenWindowsImmediate;
+    }
+
+    private static void RefreshOpenWindowsImmediate()
+    {
+        var windows = Resources.FindObjectsOfTypeAll<MTPackageManagerWindow>();
+        if (windows == null)
+        {
+            return;
+        }
+
+        foreach (var window in windows)
+        {
+            if (window == null)
+            {
+                continue;
+            }
+
+            // 安装批次已结束（或域重载后的恢复已跑完），不能再按“安装中”禁用按钮
+            window._isInstalling = false;
+            window._isRefreshing = false;
+            window.RefreshProjectListView();
+        }
+    }
     
     private void InitProjectList(VisualElement root)
     {
@@ -397,7 +431,10 @@ public class MTPackageManagerWindow : EditorWindow
                 continue;
             }
 
-            var project = ProjectInfoService.Get(installed.PackageName);
+            var shortName = PathUtils.GetPackageShortName(installed.PackageName);
+            var project = installed.ProjectId > 0
+                ? ProjectInfoService.Get(installed.ProjectId, shortName)
+                : ProjectInfoService.Get(shortName);
             if (project == null)
             {
                 continue;
@@ -434,6 +471,7 @@ public class MTPackageManagerWindow : EditorWindow
     /// </summary>
     private void RefreshProjectList()
     {
+        int previousSelectedProjectId = _selectedProject?.ProjectId ?? 0;
         string previousSelectedPackageName = _selectedProject?.PackageName;
 
         _displayedProjects = BuildFilteredSortedProjects();
@@ -447,7 +485,8 @@ public class MTPackageManagerWindow : EditorWindow
         if (!string.IsNullOrEmpty(previousSelectedPackageName))
         {
             indexToSelect = _displayedProjects.FindIndex(project =>
-                string.Equals(project.PackageName, previousSelectedPackageName, StringComparison.Ordinal));
+                (previousSelectedProjectId <= 0 || project.ProjectId == previousSelectedProjectId)
+                && string.Equals(project.PackageName, previousSelectedPackageName, StringComparison.Ordinal));
         }
 
         if (indexToSelect < 0 && _displayedProjects.Count > 0)
@@ -497,8 +536,8 @@ public class MTPackageManagerWindow : EditorWindow
         candidates.Sort((a, b) =>
         {
             // 第一优先级：已安装 > 未安装
-            bool aInstalled = MTPackageInfoService.GetPackage(a.PackageName) != null;
-            bool bInstalled = MTPackageInfoService.GetPackage(b.PackageName) != null;
+            bool aInstalled = ProjectDisplayUtils.FindInstalled(a) != null;
+            bool bInstalled = ProjectDisplayUtils.FindInstalled(b) != null;
             if (aInstalled != bInstalled)
             {
                 return aInstalled ? -1 : 1;
@@ -745,14 +784,20 @@ public class MTPackageManagerWindow : EditorWindow
             _lbDebugType.style.display = DisplayStyle.None;
             return;
         }
+
+        if (_lbReleaseType == null || _lbDebugType == null)
+        {
+            LM.Log("[MTPackageManagerWindow] _lbReleaseType & _lbDebugType is null");
+            return;
+        }
         bool isDebug = tag.EndsWith(DEBUG_SUFFIX);
         _lbReleaseType.style.display = isDebug ? DisplayStyle.None : DisplayStyle.Flex;
         _lbDebugType.style.display = isDebug ? DisplayStyle.Flex : DisplayStyle.None;
     }
 
     /// <summary>
-    /// 未安装：只显示 Install。已安装：Install 文案改为 Update，并显示 Uninstall。
-    /// 本工程包（com.magictavern.mtpmanager）视为已安装，且永不显示卸载。
+    /// 未安装：只显示 Install。已安装：Install 文案改为 Update。
+    /// Uninstall 仅根包（Depth == 0）显示；Depth &gt; 0 的依赖带入包、以及本工程包都不显示。
     /// </summary>
     private void RefreshActionButtons()
     {
@@ -769,6 +814,7 @@ public class MTPackageManagerWindow : EditorWindow
         bool isInstalled = isSelf || installed != null;
         bool busy = _isInstalling || _isRefreshing;
         bool toLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
+        bool canUninstall = isInstalled && !isSelf && installed != null && installed.Depth == 0;
 
         if (_btnInstall != null)
         {
@@ -782,9 +828,8 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (_btnUninstall != null)
         {
-            bool showUninstall = isInstalled && !isSelf;
-            _btnUninstall.style.display = showUninstall ? DisplayStyle.Flex : DisplayStyle.None;
-            _btnUninstall.SetEnabled(showUninstall && !busy);
+            _btnUninstall.style.display = canUninstall ? DisplayStyle.Flex : DisplayStyle.None;
+            _btnUninstall.SetEnabled(canUninstall && !busy);
         }
     }
 
@@ -926,9 +971,9 @@ public class MTPackageManagerWindow : EditorWindow
             if (sameTag)
             {
                 // 同 tag：只发 UpdateAdd（按最新 hash 再 Add），不发 UpdateRemove，也不走插件导入。
-                var requests = new List<IPackageInstallerService.MTPackageInstallerRequest>
+                var requests = new List<MTPackageInstallerRequest>
                 {
-                    new IPackageInstallerService.MTPackageInstallerRequest
+                    new MTPackageInstallerRequest
                     {
                         RequestType = RequestType.UpdateAdd,
                         RequestPackageInfo = package,
@@ -1024,42 +1069,11 @@ public class MTPackageManagerWindow : EditorWindow
     }
 
     /// <summary>
-    /// 按 ProjectId 查找已安装节点（工程短名 ≠ com.xxx.xxx，不能只用 PackageName 对齐）。
+    /// 按 ProjectId + 短包名查找已安装节点。同一工程 id 下可以有多个包。
     /// </summary>
     private static MTPackageInfo FindInstalled(ProjectInfo project)
     {
-        if (project == null)
-        {
-            return null;
-        }
-
-        if (project.ProjectId > 0)
-        {
-            foreach (var package in MTPackageInfoService.GetAllPackages())
-            {
-                if (package != null && package.ProjectId == project.ProjectId)
-                {
-                    return package;
-                }
-            }
-        }
-
-        foreach (var tag in ProjectDisplayUtils.GetVisibleSortedTags(project))
-        {
-            var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
-            if (tagInfo == null || string.IsNullOrEmpty(tagInfo.name))
-            {
-                continue;
-            }
-
-            var byName = MTPackageInfoService.GetPackage(tagInfo.name);
-            if (byName != null)
-            {
-                return byName;
-            }
-        }
-
-        return MTPackageInfoService.GetPackage(project.PackageName);
+        return ProjectDisplayUtils.FindInstalled(project);
     }
 
     private static bool IsSelfPackage(ProjectInfo project, string tag)
@@ -1081,7 +1095,9 @@ public class MTPackageManagerWindow : EditorWindow
         if (project != null && project.ProjectId > 0)
         {
             var selfInstalled = MTPackageInfoService.GetPackage(MTPGit.SELF_PACKAGE_NAME);
-            if (selfInstalled != null && selfInstalled.ProjectId == project.ProjectId)
+            if (selfInstalled != null
+                && selfInstalled.ProjectId == project.ProjectId
+                && PathUtils.MatchesProjectPackageName(project.PackageName, selfInstalled.PackageName))
             {
                 return true;
             }

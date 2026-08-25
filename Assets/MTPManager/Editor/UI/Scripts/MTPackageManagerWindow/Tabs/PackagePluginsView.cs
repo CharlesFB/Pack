@@ -1,11 +1,12 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
 using MagicTavern.FrontEngine.MTPManager;
-using UnityEditor;
 using UnityEngine.UIElements;
 
 /// <summary>
 /// Plugins Tab 视图：只负责容器搭建与数据绑定，把 taginfo.plugins 转成
-/// ListView 行数据后交给PackageZipItemView 逐条渲染。
+/// ListView 行数据后交给 PackagePluginItemView 逐条渲染。
 /// isInstalled（= isExactInstalledTag &amp;&amp; installed != null）为 false 时，
 /// 全部插件按“未安装”绑定：名称浅灰色，Import/Unzip 按钮禁用。
 /// 为 true 时，用 PathUtils.BuildPluginLocalPath(installed, 文件名) 还原出该插件在
@@ -22,18 +23,23 @@ public class PackagePluginsView : TabElementBase
     private readonly struct PluginRow
     {
         public readonly string FileName;
+        public readonly string PluginKey;
         public readonly bool IsInstalled;
         public readonly bool IsImported;
 
-        public PluginRow(string fileName, bool isInstalled, bool isImported)
+        public PluginRow(string fileName, string pluginKey, bool isInstalled, bool isImported)
         {
             FileName = fileName;
+            PluginKey = pluginKey;
             IsInstalled = isInstalled;
             IsImported = isImported;
         }
     }
 
     private readonly VisualElement _container;
+    private PackageJson _tagInfo;
+    private MTPackageInfo _installed;
+    private bool _isExactInstalledTag;
 
     public PackagePluginsView()
     {
@@ -41,9 +47,9 @@ public class PackagePluginsView : TabElementBase
 
         _container = new VisualElement();
         _container.style.flexGrow = 1;
-        
+
         AddStyleSheetIfExists(MTPUI.PROJECT_TAB_ITEM_STYLE_PATH);
-        
+
         Add(_container);
     }
 
@@ -52,9 +58,17 @@ public class PackagePluginsView : TabElementBase
     /// </summary>
     public void BindData(PackageJson tagInfo, MTPackageInfo installed, bool isExactInstalledTag)
     {
+        _tagInfo = tagInfo;
+        _installed = installed;
+        _isExactInstalledTag = isExactInstalledTag;
+        Rebuild();
+    }
+
+    private void Rebuild()
+    {
         _container.Clear();
 
-        var plugins = tagInfo?.plugins;
+        var plugins = _tagInfo?.plugins;
         if (plugins == null || plugins.Count == 0)
         {
             var placeHolder = new Label("No plugins available");
@@ -63,21 +77,12 @@ public class PackagePluginsView : TabElementBase
             return;
         }
 
-        bool isInstalled = isExactInstalledTag && installed != null;
+        bool isInstalled = _isExactInstalledTag && _installed != null;
         var rows = new List<PluginRow>();
         foreach (var pluginFileName in plugins)
         {
-            bool isImported = false;
-            if (isInstalled)
-            {
-                string key = PathUtils.BuildPluginLocalPath(installed, pluginFileName);
-                isImported = !string.IsNullOrEmpty(key)
-                    && installed.Plugins != null
-                    && installed.Plugins.TryGetValue(key, out var imported)
-                    && imported;
-            }
-
-            rows.Add(new PluginRow(pluginFileName, isInstalled, isImported));
+            ResolvePluginState(_installed, pluginFileName, isInstalled, out var pluginKey, out var isImported);
+            rows.Add(new PluginRow(pluginFileName, pluginKey, isInstalled, isImported));
         }
 
         var listView = new ListView
@@ -89,7 +94,13 @@ public class PackagePluginsView : TabElementBase
                 if (element is PackagePluginItemView itemView)
                 {
                     var row = rows[index];
-                    itemView.BindData(row.FileName, row.IsInstalled, row.IsImported);
+                    itemView.BindData(
+                        row.FileName,
+                        row.PluginKey,
+                        isInstalled ? _installed : null,
+                        row.IsInstalled,
+                        row.IsImported,
+                        RefreshSelf);
                 }
             },
             fixedItemHeight = ITEM_HEIGHT,
@@ -98,5 +109,50 @@ public class PackagePluginsView : TabElementBase
         };
         listView.style.flexGrow = 1;
         _container.Add(listView);
+    }
+
+    private void RefreshSelf()
+    {
+        BindData(_tagInfo, _installed, _isExactInstalledTag);
+    }
+
+    private static void ResolvePluginState(MTPackageInfo installed, string pluginFileName, bool isInstalled,
+        out string pluginKey, out bool isImported)
+    {
+        pluginKey = PathUtils.BuildPluginLocalPath(installed, pluginFileName);
+        isImported = false;
+        if (!isInstalled || installed?.Plugins == null)
+        {
+            return;
+        }
+
+        if (!string.IsNullOrEmpty(pluginKey))
+        {
+            string normalized = PathUtils.NormalizePluginKey(pluginKey);
+            foreach (var kvp in installed.Plugins)
+            {
+                if (!string.Equals(PathUtils.NormalizePluginKey(kvp.Key), normalized, StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                pluginKey = kvp.Key;
+                isImported = kvp.Value;
+                return;
+            }
+        }
+
+        string fileName = Path.GetFileName(pluginFileName);
+        foreach (var kvp in installed.Plugins)
+        {
+            if (!string.Equals(Path.GetFileName(kvp.Key), fileName, StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            pluginKey = kvp.Key;
+            isImported = kvp.Value;
+            return;
+        }
     }
 }

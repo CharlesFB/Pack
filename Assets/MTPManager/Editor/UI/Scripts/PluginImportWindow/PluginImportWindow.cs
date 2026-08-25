@@ -21,8 +21,7 @@ public class PluginImportWindow : EditorWindow
 
     private MTPackageInfo _info = new MTPackageInfo();
     private List<string> _pluginKeys = new List<string>();
-    private bool _persist = true;
-    private TaskCompletionSource<bool> _completionSource;
+    private TaskCompletionSource<PluginImportSelection> _completionSource;
 
     /// <summary>
     /// zip 类型插件本次导入选择的解压父目录（key=插件本地路径，value=用户选择的绝对目录）。
@@ -31,9 +30,17 @@ public class PluginImportWindow : EditorWindow
     private readonly Dictionary<string, string> _zipExtractDirs = new Dictionary<string, string>();
 
     /// <summary>
-    /// 弹出插件选择窗。勾选结果直接写回 packageJson.Plugins。
-    /// 不关心导入结果的场景（如独立手动重新导入插件）用这个即可；
-    /// 需要知道用户是否确认导入、导入是否成功（如安装流程要据此决定是否继续/回滚）请用 <see cref="ShowWindowAsync"/>。
+    /// 用户关闭选择窗后的勾选结果。窗口本身不执行导入。
+    /// </summary>
+    public sealed class PluginImportSelection
+    {
+        public bool Confirmed;
+        public List<string> SelectedKeys = new List<string>();
+        public Dictionary<string, string> ZipExtractDirs = new Dictionary<string, string>();
+    }
+
+    /// <summary>
+    /// 弹出非模态插件选择窗。不关心结果时用这个即可。
     /// </summary>
     public static void ShowWindow(MTPackageInfo mtPackageInfo)
     {
@@ -41,17 +48,15 @@ public class PluginImportWindow : EditorWindow
     }
 
     /// <summary>
-    /// 弹出插件选择窗，返回一个在窗口关闭后才 完成 的 Task。
-    /// ShowModalUtility 本身不会阻塞调用方，因此真正的"导入是否成功"必须通过这个 Task 才能拿到：
-    /// - 用户点 取消 / 未勾选任何插件直接 Import：视为"安装 0 个插件"，返回 true（不算错误）。
-    /// - 用户勾选后点 Import：返回值等价于 IPluginPackageService.ImportPreparedPlugins 的结果。
+    /// 弹出非模态插件选择窗，返回 Task。调用方必须循环等待 Task.IsCompleted 后再继续宏 / 下一包。
+    /// 取消、点关闭、未勾选：Confirmed=false 或 SelectedKeys 为空。窗口不执行 ImportPackage。
     /// </summary>
-    public static Task<bool> ShowWindowAsync(MTPackageInfo mtPackageInfo, bool persist = true)
+    public static Task<PluginImportSelection> ShowWindowAsync(MTPackageInfo mtPackageInfo)
     {
         if (mtPackageInfo == null)
         {
             LM.Log("[PluginImportWindow] MTPackageInfo is null, cannot show window with empty package info");
-            return Task.FromResult(true);
+            return Task.FromResult(new PluginImportSelection { Confirmed = false });
         }
 
         mtPackageInfo.Plugins ??= new Dictionary<string, bool>();
@@ -61,10 +66,10 @@ public class PluginImportWindow : EditorWindow
         window.minSize = window.maxSize = new Vector2(450, 400);
         window._info = mtPackageInfo;
         window._pluginKeys = mtPackageInfo.Plugins.Keys.ToList();
-        window._persist = persist;
-        window._completionSource = new TaskCompletionSource<bool>();
+        window._completionSource = new TaskCompletionSource<PluginImportSelection>();
 
-        window.ShowModalUtility();
+        window.ShowUtility();
+        window.Focus();
         return window._completionSource.Task;
     }
 
@@ -83,6 +88,11 @@ public class PluginImportWindow : EditorWindow
         InitWindowComponent();
     }
 
+    private void OnDestroy()
+    {
+        Complete(new PluginImportSelection { Confirmed = false });
+    }
+
     private void InitWindowComponent()
     {
         _lbDescription = rootVisualElement.Q<Label>("lbDescription");
@@ -91,7 +101,7 @@ public class PluginImportWindow : EditorWindow
         _btnImport = rootVisualElement.Q<Button>("btnImport");
 
         BindData();
-        
+
         if (_btnImport != null)
         {
             _btnImport.clicked += OnImport;
@@ -120,7 +130,7 @@ public class PluginImportWindow : EditorWindow
     {
         _lbDescription.text = $"准备安装 {_info.PackageName}[{_info.Tag}]";
     }
-    
+
     private void OnBindItem(VisualElement element, int index)
     {
         if (element == null || _pluginKeys == null || index < 0 || index >= _pluginKeys.Count)
@@ -139,7 +149,7 @@ public class PluginImportWindow : EditorWindow
         toggle.UnregisterValueChangedCallback(OnToggleChanged);
 
         toggle.label = Path.GetFileName(path);
-        toggle.tooltip = path; // hover 的提示消息，显示插件路径
+        toggle.tooltip = path;
         toggle.userData = path;
         toggle.SetValueWithoutNotify(false);
 
@@ -155,7 +165,6 @@ public class PluginImportWindow : EditorWindow
 
         btnChooseDir.UnregisterCallback<ClickEvent>(OnChooseDirClicked);
 
-        // 只有 .zip 需要选择解压目录，.unitypackage 走 AssetDatabase 导入，不需要该条目
         bool isZip = path.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
         veDirChosen.style.display = isZip ? DisplayStyle.Flex : DisplayStyle.None;
 
@@ -183,7 +192,6 @@ public class PluginImportWindow : EditorWindow
             return;
         }
 
-        // 用户取消选择（返回空字符串）时不改变当前状态，后续导入仍按 "/Assets" 默认解压
         string selectedDirectory = EditorUtility.OpenFolderPanel("选择解压目录", "", string.Empty);
         if (string.IsNullOrEmpty(selectedDirectory))
         {
@@ -215,13 +223,13 @@ public class PluginImportWindow : EditorWindow
     private void OnCancel()
     {
         foreach (var key in _pluginKeys)
+        {
             _info.Plugins[key] = false;
-        _zipExtractDirs.Clear();
+        }
 
-        var completionSource = _completionSource;
+        _zipExtractDirs.Clear();
+        Complete(new PluginImportSelection { Confirmed = false });
         Close();
-        // 用户取消视为"安装 0 个插件"，不算错误，让调用方（如批量安装流程）继续往下走
-        completionSource?.TrySetResult(true);
     }
 
     private void OnImport()
@@ -230,22 +238,17 @@ public class PluginImportWindow : EditorWindow
             .Where(key => _info.Plugins.TryGetValue(key, out var isSelected) && isSelected)
             .ToList();
 
-        var zipExtractDirs = new Dictionary<string, string>(_zipExtractDirs);
-        var info = _info;
-        var persist = _persist;
-        var completionSource = _completionSource;
-        Close();
-
-        if (selectedKeys.Count == 0)
+        Complete(new PluginImportSelection
         {
-            LM.Log("[PluginImportWindow] 未勾选任何插件，跳过导入");
-            completionSource?.TrySetResult(true);
-            return;
-        }
+            Confirmed = true,
+            SelectedKeys = selectedKeys,
+            ZipExtractDirs = new Dictionary<string, string>(_zipExtractDirs),
+        });
+        Close();
+    }
 
-        // UI 只负责收集勾选项与本次会话内选择的 zip 解压目录，实际的覆盖冲突检测/导入/记录都交给 Service
-        bool ok = ServiceLocator.Get<IPluginPackageService>()
-            .ImportPreparedPlugins(info, selectedKeys, zipExtractDirs, persist);
-        completionSource?.TrySetResult(ok);
+    private void Complete(PluginImportSelection selection)
+    {
+        _completionSource?.TrySetResult(selection ?? new PluginImportSelection { Confirmed = false });
     }
 }

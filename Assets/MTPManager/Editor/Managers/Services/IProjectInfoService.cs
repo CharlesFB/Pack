@@ -26,14 +26,26 @@ namespace MagicTavern.FrontEngine.MTPManager
         ProjectInfo Get(string packageName);
 
         /// <summary>
-        /// 按远端 ProjectId 查找工程信息。
+        /// 按远端 ProjectId 查找工程信息。同一 id 可能对应多个包，只返回第一条。
+        /// 需要按包区分时用 Get(projectId, packageName)。
         /// </summary>
         ProjectInfo Get(int projectId);
 
         /// <summary>
+        /// 按远端 ProjectId + 包名查找。packageName 可以是 git 短名或 com.xxx.xxx（取最后一段）。
+        /// </summary>
+        ProjectInfo Get(int projectId, string packageName);
+
+        /// <summary>
         /// 按仓库 URL 查找工程信息（与 SshUrl / HttpUrl 比对，输入会先 FormatUrl）。
+        /// 同一仓库多个包时只返回第一条；需要按包区分时传 packageName。
         /// </summary>
         ProjectInfo GetByUrl(string url);
+
+        /// <summary>
+        /// 按仓库 URL + 包名查找。
+        /// </summary>
+        ProjectInfo GetByUrl(string url, string packageName);
 
         List<ProjectInfo> GetAll();
 

@@ -23,6 +23,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         public const string LOG_PATH = "Library/MTPCache/MTPLog.log";                       //MTP日志
         
         // ----- 临时持久化路径，MTP记录状态与进度用 -----
+        public const string INSTALLER_PROGRESS_PATH = "Library/MTPCache/mtp-install-progress.json"; // 安装器批次中断恢复
         
         // ----- 约定目录段 -----
         public const string PLUGINS_PACKAGE_DIR = "Editor/PluginsPackage";                  //包内约定插件根目录
