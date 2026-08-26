@@ -6,8 +6,6 @@ namespace MagicTavern.FrontEngine.MTPManager
 {
     /// <summary>
     /// 等到 AssetDatabase 导入 / 脚本编译都闲下来。
-    /// ImportPackage、改宏之后 Unity 往往过一两拍才把 isUpdating/isCompiling 置位，
-    /// 所以要连续若干次检查都空闲才算完成，避免和下一拍 UPM 抢跑。
     /// </summary>
     internal static class EditorBusyWait
     {
@@ -42,7 +40,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 循环等待 Task 完成，不直接 await，避免续跑进编译泵 / 模态循环。
+        /// 循环等待 Task 完成，不直接 await
         /// 用户交互（插件选择窗）无超时。
         /// </summary>
         public static async Task WaitUntilTaskAsync(Task task)

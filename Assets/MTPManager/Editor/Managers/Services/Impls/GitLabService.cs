@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using GitLabApiClient;
 using GitLabApiClient.Models.Commits.Responses;
 using GitLabApiClient.Models.Groups.Responses;
+using GitLabApiClient.Models.Projects.Responses;
 using GitLabApiClient.Models.Tags.Responses;
 using MagicTavern.FrontEngine.MTPManager.LitJson;
 using UnityEngine;
@@ -370,6 +371,36 @@ namespace MagicTavern.FrontEngine.MTPManager
             catch (Exception ex)
             {
                 LM.LogError($"[GitLabService] GetGroupAsync 异常: groupId={groupId}\n{ex.Message}");
+                return null;
+            }
+        }
+
+        public async Task<Project> GetProjectAsync(string projectId)
+        {
+            if (string.IsNullOrEmpty(projectId))
+            {
+                LM.LogWarning("[GitLabService] GetProjectAsync 参数无效: projectId 为空");
+                return null;
+            }
+
+            var client = Client();
+            if (client == null)
+            {
+                return null;
+            }
+
+            try
+            {
+                if (int.TryParse(projectId, out int numericId))
+                {
+                    return await client.Projects.GetAsync(numericId);
+                }
+
+                return await client.Projects.GetAsync(projectId);
+            }
+            catch (Exception ex)
+            {
+                LM.LogError($"[GitLabService] GetProjectAsync 异常: projectId={projectId}\n{ex.Message}");
                 return null;
             }
         }

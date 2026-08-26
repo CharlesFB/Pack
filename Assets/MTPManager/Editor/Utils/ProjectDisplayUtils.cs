@@ -21,8 +21,10 @@ namespace MagicTavern.FrontEngine.MTPManager
         private const string DEBUG_TAG_SUFFIX = "debug";
 
         /// <summary>
-        /// 非 DebugMode 下过滤掉以 "-debug" 结尾的 Tag，再按 VersionUtils 规则排序
-        /// （debug 优先，其余按 SemVer 降序，故 [0] 即当前可见的最高 Tag）。
+        /// 可见 Tag：非 DebugMode 去掉 *-debug；设置了 ProjectTag 时只保留两段通用版
+        /// （xxx-semver / xxx-debug）以及 3 段及以上且中间段包含 ProjectTag 的 Tag。
+        /// 已安装 Tag 即使不属于当前项目组也保留（与旧工程一致）。
+        /// 再按 VersionUtils 排序（debug 优先，其余 SemVer 降序）。
         /// </summary>
         public static List<string> GetVisibleSortedTags(ProjectInfo project)
         {
@@ -31,19 +33,58 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return new List<string>();
             }
 
-            bool debugMode = ConfigManager.Instance.Current?.DebugMode ?? false;
-            IEnumerable<string> filtered = debugMode
-                ? project.Tags
-                : project.Tags.Where(tag => !string.IsNullOrEmpty(tag)
-                    && !tag.EndsWith(DEBUG_TAG_SUFFIX, StringComparison.OrdinalIgnoreCase));
+            var config = ConfigManager.Instance.Current;
+            bool debugMode = config?.DebugMode ?? false;
+            string projectTag = config?.ProjectTag;
+            string keepInstalledTag = ServiceLocator.Get<IMTPackageInfoService>()
+                ?.GetPackageByProject(project)?.Tag;
 
-            List<string> res = VersionUtils.SortedTags(filtered);
-            // for (int i = 0; i < res.Count(); i++)
-            // {
-            //     if (GetTagInfo(project, res[i]) == null)
-            //         res.RemoveAt(i);
-            // }
-            return res;
+            IEnumerable<string> filtered = project.Tags.Where(tag =>
+            {
+                if (string.IsNullOrEmpty(tag))
+                {
+                    return false;
+                }
+
+                if (!string.IsNullOrEmpty(keepInstalledTag)
+                    && string.Equals(tag, keepInstalledTag, StringComparison.Ordinal))
+                {
+                    return true;
+                }
+
+                if (!debugMode && tag.EndsWith(DEBUG_TAG_SUFFIX, StringComparison.OrdinalIgnoreCase))
+                {
+                    return false;
+                }
+
+                return PassesProjectTagFilter(tag, projectTag);
+            });
+
+            return VersionUtils.SortedTags(filtered);
+        }
+
+        /// <summary>
+        /// 两段 Tag 一律保留；3 段及以上要求 parts[1] 包含 projectTag（忽略大小写）。
+        /// </summary>
+        internal static bool PassesProjectTagFilter(string tag, string projectTag)
+        {
+            if (string.IsNullOrEmpty(tag))
+            {
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(projectTag))
+            {
+                return true;
+            }
+
+            var parts = tag.Split('-');
+            if (parts.Length <= 2)
+            {
+                return true;
+            }
+
+            return parts[1].IndexOf(projectTag, StringComparison.OrdinalIgnoreCase) >= 0;
         }
 
         /// <summary>
@@ -66,7 +107,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             var visibleTags = GetVisibleSortedTags(project);
             if (visibleTags.Count == 0)
             {
-                LM.Log($"[ProjectDisplayUtils] No tags found in {project.PackageName}");
+                // LM.Log($"[ProjectDisplayUtils] No tags found in {project.PackageName}");
                 return null;
             }
 
@@ -80,9 +121,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 工程是否已安装：同一 GitLab ProjectId 下可以有多个包，必须 ProjectId + 短包名同时对齐。
-        /// 短包名 = MTPackageInfo.PackageName / package.json name 按 '.' 分割的最后一段，
-        /// 对应 ProjectInfo.PackageName。
+        /// 工程是否已安装：仓库链接命中，且已装 Tag 前缀等于 PackageName（同一仓库多包）。
         /// </summary>
         public static MTPackageInfo FindInstalled(ProjectInfo project)
         {
@@ -92,10 +131,10 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             var mtPackage = ServiceLocator.Get<IMTPackageInfoService>();
-            var byKey = mtPackage.GetPackageByProject(project.ProjectId, project.PackageName);
-            if (byKey != null)
+            var byUrl = mtPackage.GetPackageByProject(project);
+            if (byUrl != null)
             {
-                return byKey;
+                return byUrl;
             }
 
             foreach (var tag in GetVisibleSortedTags(project))
@@ -113,13 +152,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                 }
             }
 
-            return mtPackage.GetPackage(project.PackageName);
+            return null;
         }
 
         /// <summary>
         /// 按 ProjectId + Tag 检索 package.json 缓存（即 "taginfo"）。
-        /// 同 id 多包时再用 package.json name 的短名校验，对不上则视为不属于当前列表项。
-        /// 工程 / Tag / 缓存任一缺失均返回 null，调用方应统一以 "N/A" 兜底展示。
+        /// 同一仓库多包时，Tag 前缀必须等于 ProjectInfo.PackageName，否则视为不属于当前列表项。
         /// </summary>
         public static PackageJson GetTagInfo(ProjectInfo project, string tag)
         {
@@ -128,20 +166,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
-            var json = ServiceLocator.Get<IPackageJsonService>().Get(project.ProjectId.ToString(), tag);
-            if (json == null)
+            if (!UrlUtils.MatchesProjectTagPrefix(project, tag))
             {
                 return null;
             }
 
-            if (!string.IsNullOrEmpty(json.name)
-                && !string.IsNullOrEmpty(project.PackageName)
-                && !PathUtils.MatchesProjectPackageName(project.PackageName, json.name))
-            {
-                return null;
-            }
-
-            return json;
+            return ServiceLocator.Get<IPackageJsonService>().Get(project.ProjectId.ToString(), tag);
         }
 
         /// <summary>

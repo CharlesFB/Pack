@@ -34,7 +34,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         public Author author = new Author();
         public Dictionary<string, string> dependenciesGit = new Dictionary<string, string>();
 
-        public List<string> plugins;
+        public List<string> plugins; // Editor/PluginsPackage 当前目录下的文件名（不递归）
         public string changelog;
         public string changelogUrl;
         public Dictionary<string, string> dependencies = new Dictionary<string, string>();

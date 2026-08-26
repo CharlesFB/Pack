@@ -79,6 +79,80 @@ namespace MagicTavern.FrontEngine.MTPManager
             return url;
         }
 
+        /// <summary>
+        /// 下载链接 / dependenciesGit 链接 -> 仓库地址：去掉 #tag，再 FormatUrl 去掉 oauth2 token / 统一 git@。
+        /// </summary>
+        public static string GetRepoUrl(string url)
+        {
+            if (string.IsNullOrEmpty(url))
+            {
+                return url;
+            }
+
+            var splitIndex = url.LastIndexOf('#');
+            if (splitIndex > 0)
+            {
+                url = url.Substring(0, splitIndex);
+            }
+
+            return FormatUrl(url);
+        }
+
+        /// <summary>
+        /// Tag / 依赖 revision 的前缀：第一个 '-' 之前。与旧工程 Revision.Split('-')[0] 一致。
+        /// </summary>
+        public static string GetTagPrefix(string tag)
+        {
+            if (string.IsNullOrEmpty(tag))
+            {
+                return tag;
+            }
+
+            int dash = tag.IndexOf('-');
+            return dash < 0 ? tag : tag.Substring(0, dash);
+        }
+
+        /// <summary>
+        /// 同一仓库下用 tag 前缀区分包：prefix == ProjectInfo.PackageName。
+        /// </summary>
+        public static bool MatchesProjectTagPrefix(ProjectInfo project, string tag)
+        {
+            if (project == null || string.IsNullOrEmpty(project.PackageName) || string.IsNullOrEmpty(tag))
+            {
+                return false;
+            }
+
+            return string.Equals(GetTagPrefix(tag), project.PackageName, StringComparison.Ordinal);
+        }
+
+        /// <summary>
+        /// 仓库链接是否对得上工程：Format 后的输入与 HttpUrl / SshUrl 任一相等即成功。
+        /// </summary>
+        public static bool MatchesProjectRepo(ProjectInfo project, string url)
+        {
+            if (project == null || string.IsNullOrEmpty(url))
+            {
+                return false;
+            }
+
+            var repo = GetRepoUrl(url);
+            if (string.IsNullOrEmpty(repo))
+            {
+                return false;
+            }
+
+            return string.Equals(repo, GetRepoUrl(project.HttpUrl), StringComparison.Ordinal)
+                   || string.Equals(repo, GetRepoUrl(project.SshUrl), StringComparison.Ordinal);
+        }
+
+        /// <summary>
+        /// 配对工程：仓库链接（HttpUrl 或 SshUrl）命中，且 tag 前缀等于 PackageName。
+        /// </summary>
+        public static bool MatchesProject(ProjectInfo project, string url, string tag)
+        {
+            return MatchesProjectRepo(project, url) && MatchesProjectTagPrefix(project, tag);
+        }
+
         public static string SshToHttpsURLWithToken(string url, string privateToken)
         {
             if (string.IsNullOrEmpty(url)) return url;

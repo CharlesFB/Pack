@@ -19,10 +19,9 @@ namespace MagicTavern.FrontEngine.MTPManager
         MTPackageInfo GetPackage(string packageName);
 
         /// <summary>
-        /// 按远端工程 id + 包短名查找已安装节点。同一 ProjectId 下可能有多个包。
-        /// packageName 可以是 git 短名或 com.xxx.xxx；ProjectId &lt;= 0 时只按短名匹配。
+        /// 按仓库链接 + tag 前缀查找已安装节点（与工程 HttpUrl / SshUrl 命中，且 Tag 前缀等于 PackageName）。
         /// </summary>
-        MTPackageInfo GetPackageByProject(int projectId, string packageName);
+        MTPackageInfo GetPackageByProject(ProjectInfo project);
         List<MTPackageInfo> GetAllPackages();
 
         List<string> GetAllKeys();
@@ -41,10 +40,10 @@ namespace MagicTavern.FrontEngine.MTPManager
         Task<MTPackageInfo> FetchPackageInfoAsync(string url, string tag, int depth = 0, bool isLocal = false);
 
         /// <summary>
-        /// 写入/更新某包 Plugins 字典中的一条：插件本地路径 -> 是否已安装。
+        /// 写入/更新某包 Plugins 字典中的一条：pluginKey（packageName#pluginFileName）-> 是否已导入。
         /// 包不存在时返回 false。
         /// </summary>
-        bool SetPlugin(string packageName, string pluginLocalPath, bool installed);
+        bool SetPlugin(string packageName, string pluginKey, bool installed);
 
         /// <summary>
         /// 获取某包 Plugins 字典副本；包不存在返回 null。

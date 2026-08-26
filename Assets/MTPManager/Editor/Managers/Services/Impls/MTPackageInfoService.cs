@@ -54,10 +54,9 @@ namespace MagicTavern.FrontEngine.MTPManager
             string revision, int depth, bool isLocal, int projectId = 0)
         {
             var formattedUrl = UrlUtils.FormatUrl(url);
-            string shortName = PathUtils.GetPackageShortName(rawPackage?.name);
-            var project = projectId > 0
-                ? ProjectInfoService.Get(projectId, shortName) ?? ProjectInfoService.Get(projectId)
-                : ProjectInfoService.GetByUrl(formattedUrl, shortName) ?? ProjectInfoService.GetByUrl(formattedUrl);
+            var project = ProjectInfoService.GetByUrl(formattedUrl, tag)
+                          ?? ProjectInfoService.GetByUrl(formattedUrl)
+                          ?? (projectId > 0 ? ProjectInfoService.Get(projectId) : null);
             if (projectId <= 0)
             {
                 projectId = project?.ProjectId ?? 0;
@@ -105,8 +104,9 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 从已安装包本地目录扫 .zip / .unitypackage，写入 Plugins。
-        /// Key 为 PackageCache（或 Packages）下的插件文件路径；Value 按 PluginAsset 记录判定是否已导入。
+        /// 从已安装包本地 Editor/PluginsPackage（不递归）扫 .zip / .unitypackage，写入 Plugins。
+        /// Key 为 packageName#pluginFileName；Value 按 PluginAsset 记录判定是否已导入。
+        /// 目录存在时，同步清掉该包下已不在目录中的 PluginAsset 记录。
         /// </summary>
         private static void FillPluginsFromLocalPackage(MTPackageInfo package)
         {
@@ -124,63 +124,25 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
-            var files = new List<string>();
-            files.AddRange(Directory.GetFiles(pluginDir, "*.unitypackage", SearchOption.AllDirectories));
-            files.AddRange(Directory.GetFiles(pluginDir, "*.zip", SearchOption.AllDirectories));
-            if (files.Count == 0)
+            var fileNames = PathUtils.ListPluginPackageFileNames(pluginDir);
+            var pluginAsset = ServiceLocator.Get<IPluginAssetService>();
+            var recorded = pluginAsset?.GetAll() ?? new Dictionary<string, List<string>>();
+
+            foreach (var fileName in fileNames)
             {
-                return;
-            }
-
-            var recorded = ServiceLocator.Get<IPluginAssetService>().GetAll()
-                           ?? new Dictionary<string, List<string>>();
-            string pluginDirNormalized = PathUtils.NormalizePluginKey(Path.GetFullPath(pluginDir)).TrimEnd('/');
-
-            foreach (var file in files)
-            {
-                string fullPath = PathUtils.NormalizePluginKey(Path.GetFullPath(file));
-                string relative = fullPath.StartsWith(pluginDirNormalized, StringComparison.OrdinalIgnoreCase)
-                    ? fullPath.Substring(pluginDirNormalized.Length).TrimStart('/')
-                    : Path.GetFileName(fullPath);
-                if (string.IsNullOrEmpty(relative) || !IsPluginFileName(relative))
-                {
-                    continue;
-                }
-
-                string key = PathUtils.BuildPluginLocalPath(package, relative);
+                string key = PathUtils.MakePluginKey(package.PackageName, fileName);
                 if (string.IsNullOrEmpty(key))
                 {
                     continue;
                 }
 
-                package.Plugins[key] = IsPluginRecorded(key, recorded);
+                package.Plugins[key] = PathUtils.IsPluginKeyRecorded(key, recorded);
             }
-        }
 
-        private static bool IsPluginRecorded(string key, Dictionary<string, List<string>> recorded)
-        {
-            if (recorded == null || string.IsNullOrEmpty(key))
+            if (pluginAsset != null && pluginAsset.PruneMissingPlugins(package.PackageName, fileNames) > 0)
             {
-                return false;
+                pluginAsset.SaveToLocal();
             }
-
-            foreach (var kvp in recorded)
-            {
-                if (!string.Equals(PathUtils.NormalizePluginKey(kvp.Key), key, StringComparison.OrdinalIgnoreCase))
-                {
-                    continue;
-                }
-
-                return kvp.Value != null && kvp.Value.Count > 0;
-            }
-
-            return false;
-        }
-
-        private static bool IsPluginFileName(string pathOrName)
-        {
-            return pathOrName.EndsWith(".unitypackage", StringComparison.OrdinalIgnoreCase)
-                   || pathOrName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
         }
 
         public async Task<MTPackageInfo> FetchPackageInfoAsync(string gitDependencyUrl, int depth = 0,
@@ -215,8 +177,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
-            string tagHead = tag.Split('-')[0];
-            var projectInfo = ProjectInfoService.GetByUrl(url, tagHead)
+            var projectInfo = ProjectInfoService.GetByUrl(url, tag)
                               ?? ProjectInfoService.GetByUrl(url);
             if (projectInfo == null)
             {
@@ -267,12 +228,12 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             if (existingPackage.Revision != newPackage.Revision)
             {
-                LM.LogWarning($"[MTPackageInfoService] 依赖版本冲突: {existingPackage.PackageName} " +
-                                 $"同时被要求安装 {existingPackage.Revision} 和 {newPackage.Revision}，" +
+                LM.Log($"[MTPackageInfoService] 依赖版本冲突: {existingPackage.PackageName} " +
+                                 $"构建依赖树时同时被要求使用 {existingPackage.Tag} 和 {newPackage.Tag}，" +
                                  $"将自动选用较新版本。");
             }
 
-            if (existingPackage.IsLaterTran(newPackage.Revision, newPackage.Tag))
+            if (existingPackage.IsLaterThan(newPackage.Revision, newPackage.Tag))
             {
                 return existingPackage;
             }
@@ -285,27 +246,16 @@ namespace MagicTavern.FrontEngine.MTPManager
             return _dependencies.TryGetValue(packageName, out var package) ? package : null;
         }
 
-        public MTPackageInfo GetPackageByProject(int projectId, string packageName)
+        public MTPackageInfo GetPackageByProject(ProjectInfo project)
         {
-            if (string.IsNullOrEmpty(packageName))
+            if (project == null)
             {
                 return null;
             }
 
-            string shortName = PathUtils.GetPackageShortName(packageName);
             foreach (var package in _dependencies.Values)
             {
-                if (package == null)
-                {
-                    continue;
-                }
-
-                if (projectId > 0 && package.ProjectId > 0 && package.ProjectId != projectId)
-                {
-                    continue;
-                }
-
-                if (PathUtils.MatchesProjectPackageName(shortName, package.PackageName))
+                if (package != null && UrlUtils.MatchesProject(project, package.Url, package.Tag))
                 {
                     return package;
                 }
@@ -316,9 +266,9 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public List<MTPackageInfo> GetAllPackages() => _dependencies.Values.ToList();
 
-        public bool SetPlugin(string packageName, string pluginLocalPath, bool installed)
+        public bool SetPlugin(string packageName, string pluginKey, bool installed)
         {
-            if (string.IsNullOrEmpty(packageName) || string.IsNullOrEmpty(pluginLocalPath))
+            if (string.IsNullOrEmpty(packageName) || string.IsNullOrEmpty(pluginKey))
             {
                 return false;
             }
@@ -329,7 +279,19 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             EnsurePluginsInitialized(package);
-            package.Plugins[pluginLocalPath] = installed;
+            string storedKey = pluginKey;
+            foreach (var existingKey in package.Plugins.Keys)
+            {
+                if (!PathUtils.PluginKeysEqual(existingKey, pluginKey))
+                {
+                    continue;
+                }
+
+                storedKey = existingKey;
+                break;
+            }
+
+            package.Plugins[storedKey] = installed;
             return true;
         }
 
@@ -495,8 +457,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         private async Task<MTPackageInfo> ResolveNodeAsync(string url, string tag, int depth, bool isLocal)
         {
             var formattedUrl = UrlUtils.FormatUrl(url);
-            string tagHead = tag.Split('-')[0];
-            var project = ProjectInfoService.GetByUrl(formattedUrl, tagHead)
+            var project = ProjectInfoService.GetByUrl(formattedUrl, tag)
                           ?? ProjectInfoService.GetByUrl(formattedUrl);
             if (project != null && project.ProjectId > 0)
             {

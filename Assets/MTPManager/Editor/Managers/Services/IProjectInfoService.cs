@@ -37,15 +37,16 @@ namespace MagicTavern.FrontEngine.MTPManager
         ProjectInfo Get(int projectId, string packageName);
 
         /// <summary>
-        /// 按仓库 URL 查找工程信息（与 SshUrl / HttpUrl 比对，输入会先 FormatUrl）。
-        /// 同一仓库多个包时只返回第一条；需要按包区分时传 packageName。
+        /// 按仓库 URL 查找工程信息。输入可以是下载链接 / dependenciesGit（带 token、#tag 均可）。
+        /// 同一仓库多条记录时只返回第一条。
         /// </summary>
         ProjectInfo GetByUrl(string url);
 
         /// <summary>
-        /// 按仓库 URL + 包名查找。
+        /// 按仓库 URL + tag 前缀查找。tagOrPrefix 取 '-' 前一段，须等于 ProjectInfo.PackageName
+        /// （同一 ProjectId / 同一仓库下区分不同包）。
         /// </summary>
-        ProjectInfo GetByUrl(string url, string packageName);
+        ProjectInfo GetByUrl(string url, string tagOrPrefix);
 
         List<ProjectInfo> GetAll();
 
@@ -70,10 +71,17 @@ namespace MagicTavern.FrontEngine.MTPManager
         Task EnsureInitializedAsync();
 
         /// <summary>
-        /// 从 GitLab 管理工程拉取 upm-list.json，写入内存并本地持久化。
+        /// 从 GitLab 拉取工程列表，写入内存并本地持久化。
+        /// DebugMode 走 PullProjectListFull（扫描 Group 全量 Tag）；否则拉 upm-list.json。
         /// </summary>
         /// <param name="force">为 true 时忽略 TTL，强制拉取</param>
         /// <returns>成功拉取并装载返回 true；跳过（未过期）或失败返回 false</returns>
         Task<bool> PullFromGitAsync(bool force = false);
+
+        /// <summary>
+        /// DebugMode 刷新：扫描 Group 下非归档工程的全部 Tag，按 Tag 前缀拆成多条 ProjectInfo
+        /// （与旧工程 PullProjectListFull 一致）。Config.ProjectId 非空时额外并入该工程。
+        /// </summary>
+        Task<bool> PullProjectListFullAsync();
     }
 }

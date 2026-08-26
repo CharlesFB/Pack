@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 /// ListView 行数据后交给 PackagePluginItemView 逐条渲染。
 /// isInstalled（= isExactInstalledTag &amp;&amp; installed != null）为 false 时，
 /// 全部插件按“未安装”绑定：名称浅灰色，Import/Unzip 按钮禁用。
-/// 为 true 时，用 PathUtils.BuildPluginLocalPath(installed, 文件名) 还原出该插件在
+/// 为 true 时，用 PathUtils.MakePluginKey(installed.PackageName, 文件名) 还原出该插件在
 /// MTPackageInfo.Plugins 字典里的 key，查出对应的导入状态。
 /// </summary>
 public class PackagePluginsView : TabElementBase
@@ -119,7 +119,9 @@ public class PackagePluginsView : TabElementBase
     private static void ResolvePluginState(MTPackageInfo installed, string pluginFileName, bool isInstalled,
         out string pluginKey, out bool isImported)
     {
-        pluginKey = PathUtils.BuildPluginLocalPath(installed, pluginFileName);
+        pluginKey = installed != null
+            ? PathUtils.MakePluginKey(installed.PackageName, Path.GetFileName(pluginFileName))
+            : string.Empty;
         isImported = false;
         if (!isInstalled || installed?.Plugins == null)
         {
@@ -128,10 +130,9 @@ public class PackagePluginsView : TabElementBase
 
         if (!string.IsNullOrEmpty(pluginKey))
         {
-            string normalized = PathUtils.NormalizePluginKey(pluginKey);
             foreach (var kvp in installed.Plugins)
             {
-                if (!string.Equals(PathUtils.NormalizePluginKey(kvp.Key), normalized, StringComparison.OrdinalIgnoreCase))
+                if (!PathUtils.PluginKeysEqual(kvp.Key, pluginKey))
                 {
                     continue;
                 }
@@ -145,7 +146,7 @@ public class PackagePluginsView : TabElementBase
         string fileName = Path.GetFileName(pluginFileName);
         foreach (var kvp in installed.Plugins)
         {
-            if (!string.Equals(Path.GetFileName(kvp.Key), fileName, StringComparison.OrdinalIgnoreCase))
+            if (!string.Equals(PathUtils.GetPluginFileNameFromKey(kvp.Key), fileName, StringComparison.OrdinalIgnoreCase))
             {
                 continue;
             }

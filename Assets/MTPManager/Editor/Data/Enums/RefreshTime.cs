@@ -1,8 +1,9 @@
 namespace MagicTavern.FrontEngine.MTPManager
 {
-    public enum FreshTime
+    public enum RefreshTime
     {
         OneDay = 0,
+        HalfHour,
         OneHour,
         ThreeDay,
         OneWeek,

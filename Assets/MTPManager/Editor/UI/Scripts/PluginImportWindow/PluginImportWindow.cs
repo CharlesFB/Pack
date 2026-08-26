@@ -24,14 +24,11 @@ public class PluginImportWindow : EditorWindow
     private TaskCompletionSource<PluginImportSelection> _completionSource;
 
     /// <summary>
-    /// zip 类型插件本次导入选择的解压父目录（key=插件本地路径，value=用户选择的绝对目录）。
+    /// zip 类型插件本次导入选择的解压父目录（key=pluginKey，value=用户选择的绝对目录）。
     /// 仅在本窗口生命周期内有效，不写回 MTPackageInfo、不做任何持久化；未选择/选空目录时按 "/Assets" 默认解压。
     /// </summary>
     private readonly Dictionary<string, string> _zipExtractDirs = new Dictionary<string, string>();
 
-    /// <summary>
-    /// 用户关闭选择窗后的勾选结果。窗口本身不执行导入。
-    /// </summary>
     public sealed class PluginImportSelection
     {
         public bool Confirmed;
@@ -39,9 +36,6 @@ public class PluginImportWindow : EditorWindow
         public Dictionary<string, string> ZipExtractDirs = new Dictionary<string, string>();
     }
 
-    /// <summary>
-    /// 弹出非模态插件选择窗。不关心结果时用这个即可。
-    /// </summary>
     public static void ShowWindow(MTPackageInfo mtPackageInfo)
     {
         _ = ShowWindowAsync(mtPackageInfo);
@@ -118,7 +112,7 @@ public class PluginImportWindow : EditorWindow
             _lvPluginItemContainer.bindItem = OnBindItem;
             _lvPluginItemContainer.itemsSource = _pluginKeys;
             _lvPluginItemContainer.selectionType = SelectionType.None;
-            _lvPluginItemContainer.Rebuild();
+            _lvPluginItemContainer.RefreshListView();
         }
         else if (pluginTree == null)
         {
@@ -144,13 +138,18 @@ public class PluginImportWindow : EditorWindow
             return;
         }
 
-        string path = _pluginKeys[index];
+        string pluginKey = _pluginKeys[index];
+        string fileName = PathUtils.GetPluginFileNameFromKey(pluginKey);
+        if (string.IsNullOrEmpty(fileName))
+        {
+            fileName = Path.GetFileName(pluginKey);
+        }
 
         toggle.UnregisterValueChangedCallback(OnToggleChanged);
 
-        toggle.label = Path.GetFileName(path);
-        toggle.tooltip = path;
-        toggle.userData = path;
+        toggle.label = fileName;
+        toggle.tooltip = pluginKey;
+        toggle.userData = pluginKey;
         toggle.SetValueWithoutNotify(false);
 
         toggle.RegisterValueChangedCallback(OnToggleChanged);
@@ -165,13 +164,13 @@ public class PluginImportWindow : EditorWindow
 
         btnChooseDir.UnregisterCallback<ClickEvent>(OnChooseDirClicked);
 
-        bool isZip = path.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
+        bool isZip = fileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
         veDirChosen.style.display = isZip ? DisplayStyle.Flex : DisplayStyle.None;
 
         if (isZip)
         {
-            btnChooseDir.userData = path;
-            RefreshUnzipRootLabel(lbUnzipRoot, path);
+            btnChooseDir.userData = pluginKey;
+            RefreshUnzipRootLabel(lbUnzipRoot, pluginKey);
             btnChooseDir.RegisterCallback<ClickEvent>(OnChooseDirClicked);
         }
     }

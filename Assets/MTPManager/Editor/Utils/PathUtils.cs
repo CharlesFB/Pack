@@ -119,11 +119,123 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 插件路径统一为正斜杠，便于 Plugins / PluginAsset 按 Key 对齐。
+        /// 磁盘路径统一为正斜杠。仅用于文件系统路径，不是插件身份 Key。
+        /// 身份 Key 用 MakePluginKey / TryParsePluginKey。
         /// </summary>
         internal static string NormalizePluginKey(string path)
         {
             return string.IsNullOrEmpty(path) ? path : path.Replace("\\", "/");
+        }
+
+        internal const char PluginKeySeparator = '#';
+
+        /// <summary>
+        /// 插件身份 Key：{packageName}#{pluginFileName}。pluginFileName 只取文件名。
+        /// </summary>
+        internal static string MakePluginKey(string packageName, string pluginFileName)
+        {
+            if (string.IsNullOrEmpty(packageName) || string.IsNullOrEmpty(pluginFileName))
+            {
+                return string.Empty;
+            }
+
+            return packageName + PluginKeySeparator + Path.GetFileName(pluginFileName);
+        }
+
+        /// <summary>
+        /// 按第一个 # 拆解插件身份 Key。
+        /// </summary>
+        internal static bool TryParsePluginKey(string pluginKey, out string packageName, out string pluginFileName)
+        {
+            packageName = null;
+            pluginFileName = null;
+            if (string.IsNullOrEmpty(pluginKey))
+            {
+                return false;
+            }
+
+            int separatorIndex = pluginKey.IndexOf(PluginKeySeparator);
+            if (separatorIndex <= 0 || separatorIndex >= pluginKey.Length - 1)
+            {
+                return false;
+            }
+
+            packageName = pluginKey.Substring(0, separatorIndex);
+            pluginFileName = Path.GetFileName(pluginKey.Substring(separatorIndex + 1));
+            return !string.IsNullOrEmpty(packageName) && !string.IsNullOrEmpty(pluginFileName);
+        }
+
+        internal static string GetPluginFileNameFromKey(string pluginKey)
+        {
+            return TryParsePluginKey(pluginKey, out _, out var fileName) ? fileName : string.Empty;
+        }
+
+        internal static bool PluginKeysEqual(string left, string right)
+        {
+            return string.Equals(left, right, StringComparison.OrdinalIgnoreCase);
+        }
+
+        internal static bool IsPluginFileName(string pathOrName)
+        {
+            if (string.IsNullOrEmpty(pathOrName))
+            {
+                return false;
+            }
+
+            string fileName = Path.GetFileName(pathOrName);
+            return fileName.EndsWith(".unitypackage", StringComparison.OrdinalIgnoreCase)
+                   || fileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
+        }
+
+        /// <summary>
+        /// 列出 Editor/PluginsPackage 当前目录下的 .zip / .unitypackage（不递归）。
+        /// </summary>
+        internal static List<string> ListPluginPackageFileNames(string pluginDirectory)
+        {
+            var names = new List<string>();
+            if (string.IsNullOrEmpty(pluginDirectory) || !Directory.Exists(pluginDirectory))
+            {
+                return names;
+            }
+
+            foreach (var pattern in new[] { "*.unitypackage", "*.zip" })
+            {
+                foreach (var file in Directory.GetFiles(pluginDirectory, pattern, SearchOption.TopDirectoryOnly))
+                {
+                    string name = Path.GetFileName(file);
+                    if (string.IsNullOrEmpty(name) || !IsPluginFileName(name))
+                    {
+                        continue;
+                    }
+
+                    if (!names.Exists(x => string.Equals(x, name, StringComparison.OrdinalIgnoreCase)))
+                    {
+                        names.Add(name);
+                    }
+                }
+            }
+
+            return names;
+        }
+
+        internal static bool IsPluginKeyRecorded(string pluginKey, IReadOnlyDictionary<string, List<string>> recorded)
+        {
+            if (recorded == null || string.IsNullOrEmpty(pluginKey))
+            {
+                return false;
+            }
+
+            foreach (var kvp in recorded)
+            {
+                if (!PluginKeysEqual(kvp.Key, pluginKey))
+                {
+                    continue;
+                }
+
+                return kvp.Value != null && kvp.Value.Count > 0;
+            }
+
+            return false;
         }
 
         /// <summary>

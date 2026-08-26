@@ -189,7 +189,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                         request.RequestState = RequestState.Success;
                     }
 
-                    await HandleResourcesAfterUpmAsync(request, state);
+                    await HandleResourcesAsync(request, state);
                     AdvanceToNextRequest(state);
                 }
 
@@ -217,10 +217,12 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             state.CurrentUpmDone = false;
+            // ================ 控制插件恢复选择 ==================
             state.PluginSelectionDone = false;
             state.PluginSelectionConfirmed = false;
             state.SelectedPluginKeys = new List<string>();
             state.ZipExtractDirs = new Dictionary<string, string>();
+            // =================================================
             state.PluginsImportDone = false;
             state.CompletedCount++;
             SaveProgress(state);
@@ -255,7 +257,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// Remove：去宏 → 空闲 → 卸插件资源 → 空闲。
         /// UpdateAdd 只加宏；UpdateRemove 不处理插件/宏。
         /// </summary>
-        private async Task HandleResourcesAfterUpmAsync(
+        private async Task HandleResourcesAsync(
             MTPackageInstallerRequest request, InstallerProgressState state)
         {
             if (request == null || request.RequestState != RequestState.Success)
@@ -265,11 +267,11 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             var package = request.RequestPackageInfo;
             await EditorBusyWait.WaitUntilIdleAsync();
-
+            
             if (request.RequestType == RequestType.Add)
             {
-                await ImportPluginsAfterAddAsync(package, state);
-                await EditorBusyWait.WaitUntilIdleAsync();
+                await ImportPluginsAsync(package, state);
+                // await EditorBusyWait.WaitUntilIdleAsync();
             }
 
             bool applyDefines = request.RequestType == RequestType.Add
@@ -279,17 +281,18 @@ namespace MagicTavern.FrontEngine.MTPManager
             {
                 bool addDefines = request.RequestType != RequestType.Remove;
                 ApplyScriptDefineSymbols(package, add: addDefines);
-                await EditorBusyWait.WaitUntilIdleAsync();
+                // await EditorBusyWait.WaitUntilIdleAsync();
             }
 
             if (request.RequestType == RequestType.Remove)
             {
                 PluginPackage.RemoveImportedPlugins(package);
-                await EditorBusyWait.WaitUntilIdleAsync();
+                // await EditorBusyWait.WaitUntilIdleAsync();
             }
+            await EditorBusyWait.WaitUntilIdleAsync();
         }
 
-        private async Task ImportPluginsAfterAddAsync(MTPackageInfo package, InstallerProgressState state)
+        private async Task ImportPluginsAsync(MTPackageInfo package, InstallerProgressState state)
         {
             if (state != null && state.PluginsImportDone)
             {
@@ -305,12 +308,15 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
-            if (package.Plugins == null || package.Plugins.Count == 0)
+            if (package?.Plugins == null || package.Plugins.Count == 0)
             {
                 MarkPluginsImportDone(state);
                 return;
             }
+            
+            LM.Log($"[PackageInstallerService] 插件准备成功，已写入依赖树。package: {package?.PackageName}");
 
+            // ===========================  控制插件选择恢复 ================================
             PluginImportWindow.PluginImportSelection selection;
             if (state != null && state.PluginSelectionDone)
             {
@@ -331,11 +337,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                     : null;
                 PersistPluginSelection(state, selection);
             }
-
+            // ============================================================================
+            
             if (selection == null || !selection.Confirmed
-                || selection.SelectedKeys == null || selection.SelectedKeys.Count == 0)
+                                  || selection.SelectedKeys == null || selection.SelectedKeys.Count == 0)
             {
-                LM.Log($"[PackageInstallerService] 未导入插件（取消或未勾选）: {package.PackageName}");
+                LM.Log($"[PackageInstallerService] 用户未导入插件（取消或未勾选）: {package.PackageName}");
                 MarkPluginsImportDone(state);
                 return;
             }
@@ -344,15 +351,17 @@ namespace MagicTavern.FrontEngine.MTPManager
                 package, selection.SelectedKeys, selection.ZipExtractDirs,
                 persist: true, skipRecorded: true);
             await EditorBusyWait.WaitUntilTaskAsync(importTask);
+            
             bool imported = importTask.Status == TaskStatus.RanToCompletion && importTask.Result;
             if (!imported)
             {
-                LM.LogError($"[PackageInstallerService] 插件导入失败（包已安装，不回滚 UPM）: {package?.PackageName}");
+                LM.LogError($"[PackageInstallerService] 插件导入失败: {package?.PackageName}");
             }
 
             MarkPluginsImportDone(state);
         }
 
+        // 插件导入已包在 LockReloadAssemblies 内，选择结果不必再写入进度
         private static void PersistPluginSelection(
             InstallerProgressState state, PluginImportWindow.PluginImportSelection selection)
         {
@@ -360,7 +369,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             {
                 return;
             }
-
+        
             state.PluginSelectionDone = true;
             state.PluginSelectionConfirmed = selection != null && selection.Confirmed;
             state.SelectedPluginKeys = selection?.SelectedKeys != null
@@ -446,7 +455,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             int rest = state.RestRequests?.Count ?? 0;
             int done = state.CompletedCount;
             int total = done + rest;
-            float progress = total > 0 ? (float)done / total : 1f;
+            float progress = total > 0 ? (float) done / total : 1f;
             string name = rest > 0
                 ? state.RestRequests[0]?.RequestPackageInfo?.PackageName ?? "package"
                 : "package";
@@ -464,7 +473,8 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         private static InstallerProgressState LoadProgress()
         {
-            return JsonUtils.LoadFromFile<InstallerProgressState>(MTPPath.INSTALLER_PROGRESS_PATH, createIfNotExist: false);
+            return JsonUtils.LoadFromFile<InstallerProgressState>(MTPPath.INSTALLER_PROGRESS_PATH,
+                createIfNotExist: false);
         }
 
         private static void DeleteProgress()

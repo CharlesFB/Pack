@@ -8,6 +8,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 namespace MagicTavern.FrontEngine.MTPManager
@@ -27,7 +29,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 传入后会在删除文件后，向上清理因此产生的空目录，但不会删除 rootDirectory 本身，也不会越界向上删除；
         /// 不传则只删除清单里列出的文件，不做空目录清理。
         /// </param>
-        public static PluginRemoveResult RemoveByPathnames(IEnumerable<string> pathnames, string rootDirectory = null)
+        public static PluginRemoveResult RemoveByPathnames(List<string> pathnames, string rootDirectory = null)
         {
             var result = new PluginRemoveResult();
             if (pathnames == null)
@@ -41,20 +43,29 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             var touchedDirectories = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
-            foreach (var raw in pathnames)
+            try
             {
-                if (string.IsNullOrEmpty(raw))
+                int count = 0;
+                foreach (var raw in pathnames)
                 {
-                    continue;
+                    count++;
+                    EditorUtility.DisplayProgressBar("Removing Assets From Zip", raw, (float)count/pathnames.Count());
+                    if (string.IsNullOrEmpty(raw))
+                    {
+                        continue;
+                    }
+                    string path = raw.Replace("\\", "/").TrimEnd('/');
+                    RemoveSinglePath(path, result, touchedDirectories);
                 }
 
-                string path = raw.Replace("\\", "/").TrimEnd('/');
-                RemoveSinglePath(path, result, touchedDirectories);
+                if (!string.IsNullOrEmpty(normalizedRoot))
+                {
+                    CleanupEmptyDirectories(touchedDirectories, normalizedRoot, result);
+                }
             }
-
-            if (!string.IsNullOrEmpty(normalizedRoot))
+            finally
             {
-                CleanupEmptyDirectories(touchedDirectories, normalizedRoot, result);
+                EditorUtility.ClearProgressBar();
             }
 
             return result;

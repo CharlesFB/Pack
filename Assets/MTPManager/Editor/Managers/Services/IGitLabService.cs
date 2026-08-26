@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using GitLabApiClient.Models.Commits.Responses;
 using GitLabApiClient.Models.Groups.Responses;
+using GitLabApiClient.Models.Projects.Responses;
 using GitLabApiClient.Models.Tags.Responses;
 using GitTree = GitLabApiClient.Models.Trees.Responses.Tree;
 
@@ -92,5 +93,10 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 按 Group Id / path 拉取 Group 详情（含 Projects）。
         /// </summary>
         Task<Group> GetGroupAsync(string groupId);
+
+        /// <summary>
+        /// 按工程 Id / path 拉取单个 GitLab 工程。
+        /// </summary>
+        Task<Project> GetProjectAsync(string projectId);
     }
 }

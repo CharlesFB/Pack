@@ -7,6 +7,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace MagicTavern.FrontEngine.MTPManager
 {
@@ -15,9 +16,9 @@ namespace MagicTavern.FrontEngine.MTPManager
         private readonly Dictionary<string, List<string>> _content =
             new Dictionary<string, List<string>>();
 
-        public List<string> Get(string pluginLocalPath)
+        public List<string> Get(string pluginKey)
         {
-            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: false);
+            string storedKey = ResolveContentKey(pluginKey, createIfMissing: false);
             if (string.IsNullOrEmpty(storedKey))
             {
                 return null;
@@ -28,9 +29,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                 : null;
         }
 
-        public void Set(string pluginLocalPath, List<string> assetPaths)
+        public void Set(string pluginKey, List<string> assetPaths)
         {
-            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: true);
+            string storedKey = ResolveContentKey(pluginKey, createIfMissing: true);
             if (string.IsNullOrEmpty(storedKey))
             {
                 return;
@@ -41,9 +42,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                 : new List<string>();
         }
 
-        public void Append(string pluginLocalPath, List<string> assetPaths)
+        public void Append(string pluginKey, List<string> assetPaths)
         {
-            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: true);
+            string storedKey = ResolveContentKey(pluginKey, createIfMissing: true);
             if (string.IsNullOrEmpty(storedKey))
             {
                 return;
@@ -71,9 +72,9 @@ namespace MagicTavern.FrontEngine.MTPManager
             _content[storedKey] = deduped;
         }
 
-        public bool Remove(string pluginLocalPath)
+        public bool Remove(string pluginKey)
         {
-            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: false);
+            string storedKey = ResolveContentKey(pluginKey, createIfMissing: false);
             return !string.IsNullOrEmpty(storedKey) && _content.Remove(storedKey);
         }
 
@@ -106,7 +107,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             foreach (var kvp in list.Content)
             {
-                string key = PathUtils.NormalizePluginKey(kvp.Key);
+                string key = kvp.Key;
                 if (string.IsNullOrEmpty(key))
                 {
                     continue;
@@ -139,10 +140,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             foreach (var kvp in _content)
             {
                 if (!string.IsNullOrEmpty(excludePluginKey)
-                    && string.Equals(
-                        PathUtils.NormalizePluginKey(kvp.Key),
-                        PathUtils.NormalizePluginKey(excludePluginKey),
-                        StringComparison.OrdinalIgnoreCase))
+                    && PathUtils.PluginKeysEqual(kvp.Key, excludePluginKey))
                 {
                     continue;
                 }
@@ -176,10 +174,10 @@ namespace MagicTavern.FrontEngine.MTPManager
             return covered;
         }
 
-        public List<string> GetUncoveredListToRemove(string pluginLocalPath)
+        public List<string> GetUncoveredListToRemove(string pluginKey)
         {
             var result = new List<string>();
-            string storedKey = ResolveContentKey(pluginLocalPath, createIfMissing: false);
+            string storedKey = ResolveContentKey(pluginKey, createIfMissing: false);
             if (string.IsNullOrEmpty(storedKey) || !_content.TryGetValue(storedKey, out var pluginAssets)
                 || pluginAssets == null || pluginAssets.Count == 0)
             {
@@ -217,28 +215,73 @@ namespace MagicTavern.FrontEngine.MTPManager
             return result;
         }
 
-        private string ResolveContentKey(string pluginLocalPath, bool createIfMissing)
+        public int PruneMissingPlugins(string packageName, IEnumerable<string> keepFileNames)
         {
-            if (string.IsNullOrEmpty(pluginLocalPath))
+            if (string.IsNullOrEmpty(packageName))
+            {
+                return 0;
+            }
+
+            var keep = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            if (keepFileNames != null)
+            {
+                foreach (var name in keepFileNames)
+                {
+                    if (!string.IsNullOrEmpty(name))
+                    {
+                        keep.Add(Path.GetFileName(name));
+                    }
+                }
+            }
+
+            var toRemove = new List<string>();
+            foreach (var key in _content.Keys)
+            {
+                if (!PathUtils.TryParsePluginKey(key, out var pkg, out var fileName))
+                {
+                    continue;
+                }
+
+                if (!string.Equals(pkg, packageName, StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                if (!keep.Contains(fileName))
+                {
+                    toRemove.Add(key);
+                }
+            }
+
+            foreach (var key in toRemove)
+            {
+                _content.Remove(key);
+            }
+
+            return toRemove.Count;
+        }
+
+        private string ResolveContentKey(string pluginKey, bool createIfMissing)
+        {
+            if (string.IsNullOrEmpty(pluginKey))
             {
                 return null;
             }
 
-            if (_content.ContainsKey(pluginLocalPath))
+            if (_content.ContainsKey(pluginKey))
             {
-                return pluginLocalPath;
+                return pluginKey;
             }
 
-            string normalized = PathUtils.NormalizePluginKey(pluginLocalPath);
             foreach (var key in _content.Keys)
             {
-                if (string.Equals(PathUtils.NormalizePluginKey(key), normalized, StringComparison.OrdinalIgnoreCase))
+                if (PathUtils.PluginKeysEqual(key, pluginKey))
                 {
                     return key;
                 }
             }
 
-            return createIfMissing ? normalized : null;
+            return createIfMissing ? pluginKey : null;
         }
     }
 }

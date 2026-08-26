@@ -33,15 +33,24 @@ namespace MagicTavern.FrontEngine.MTPManager
                 .Distinct(StringComparer.Ordinal)
                 .OrderByDescending(path => path, StringComparer.Ordinal)
                 .ToList();
-
-            foreach (string pathname in normalizedPaths)
+            try
             {
-                RemoveSinglePathname(pathname, result);
+                int count = 0;
+                foreach (string pathname in normalizedPaths)
+                {
+                    count++;
+                    EditorUtility.DisplayProgressBar($"Removing Assets From Unitypackage", pathname, (float)count / normalizedPaths.Count);
+                    RemoveSinglePathname(pathname, result);
+                }
+
+                if (refreshAssetDatabase && result.RemovedCount > 0)
+                {
+                    AssetDatabase.Refresh();
+                }
             }
-
-            if (refreshAssetDatabase && result.RemovedCount > 0)
+            finally
             {
-                AssetDatabase.Refresh();
+                EditorUtility.ClearProgressBar();
             }
 
             return result;

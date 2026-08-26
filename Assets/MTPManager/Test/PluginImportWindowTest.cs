@@ -28,15 +28,15 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
                 Plugins = new Dictionary<string, bool>
                 {
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/DemoPlugin.A.unitypackage",
+                        "com.magictavern.test.package#DemoPlugin.A.unitypackage",
                         false
                     },
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/DemoPlugin.B.unitypackage",
+                        "com.magictavern.test.package#DemoPlugin.B.unitypackage",
                         true
                     },
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/Extra/Tools.zip",
+                        "com.magictavern.test.package#Tools.zip",
                         false
                     }
                 }
@@ -53,8 +53,21 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
             Debug.Log("[MTPTest/Import Test] after ShowWindow Plugins:");
             foreach (var kvp in fakePackage.Plugins)
             {
-                Debug.Log($"  {System.IO.Path.GetFileName(kvp.Key)} => {kvp.Value}");
+                Debug.Log($"  {GetPluginFileName(kvp.Key)} => {kvp.Value}");
             }
+        }
+
+        private static string GetPluginFileName(string pluginKey)
+        {
+            if (string.IsNullOrEmpty(pluginKey))
+            {
+                return pluginKey;
+            }
+
+            int separator = pluginKey.IndexOf('#');
+            return separator >= 0 && separator < pluginKey.Length - 1
+                ? pluginKey.Substring(separator + 1)
+                : pluginKey;
         }
     }
 }

@@ -66,8 +66,8 @@ public class PackagePluginItemView : VisualElement
     /// <summary>
     /// 绑定插件包展示数据。
     /// </summary>
-    /// <param name="pluginFileName">插件文件名（.zip 或 .unitypackage，相对 Editor/PluginsPackage）</param>
-    /// <param name="pluginKey">Plugins / PluginAsset 字典 Key（PackageCache 或 Packages 下的本地路径）</param>
+    /// <param name="pluginFileName">插件文件名（.zip 或 .unitypackage，位于 Editor/PluginsPackage 当前目录）</param>
+    /// <param name="pluginKey">Plugins / PluginAsset 字典 Key（packageName#pluginFileName）</param>
     /// <param name="package">当前已安装包；未安装时为 null</param>
     /// <param name="isInstalled">
     /// 当前查看的 Tag 对应的包是否已安装（依赖树里存在且 Revision/Tag 与当前查看的一致）。
@@ -75,7 +75,7 @@ public class PackagePluginItemView : VisualElement
     /// </param>
     /// <param name="isImported">
     /// 仅在 isInstalled 为 true 时有意义：该插件是否已经导入/解压过
-    /// （即 MTPackageInfo.Plugins[路径] == true）。
+    /// （即 MTPackageInfo.Plugins[pluginKey] == true）。
     /// .unitypackage 已导入时按钮文案变为 "ReImport"；.zip 不论是否导入过，按钮文案始终为 "Unzip"。
     /// 两者已导入时都会显示 Remove 按钮。
     /// </param>

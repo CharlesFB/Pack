@@ -23,5 +23,14 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
             window.RefreshProjectListView();
             Debug.Log("[MTPTest/Package Manager Window] opened MTPackageManagerWindow (real data)");
         }
+        
+        
+        [MenuItem("MTPTest/MTPSettingWindow")]
+        public static void ShowSettingWindow()
+        {
+            MTPSettingWindow wnd = EditorWindow.GetWindow<MTPSettingWindow>();
+            wnd.titleContent = new GUIContent("MTPSettingWindow");
+            wnd.minSize = new Vector2(470, 480);
+        }
     }
 }

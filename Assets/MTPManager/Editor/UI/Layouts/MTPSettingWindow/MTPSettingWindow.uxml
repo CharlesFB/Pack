@@ -1,8 +1,28 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/MTPManager/Editor/UI/Styles/MTPSettingWindow.uss?fileID=7433441132597879392&amp;guid=7e61f18715ab94aebb16b58f8ba61740&amp;type=3#MTPSettingWindow" />
-    <ui:VisualElement style="flex-grow: 1;">
-        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
-        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
-        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: space-between; padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; width: 100%; height: 100%;">
+        <ui:VisualElement style="flex-grow: 2; align-self: stretch; min-height: auto;">
+            <ui:Label tabindex="-1" text="Git Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; margin-left: 2px; font-size: 15px; margin-top: 8px; margin-bottom: 8px;" />
+            <ui:TextField picking-mode="Ignore" label="Git URL" name="tfUrl" style="-unity-text-align: middle-left; font-size: 14px; height: auto;" />
+            <ui:TextField value="123123" label="Private Token" password="true" mask-character="•" name="tfToken" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:TextField picking-mode="Ignore" label="Group ID" name="tfGroupID" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Label tabindex="-1" text="Mode Check" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="-unity-font-style: bold; font-size: 15px; margin-bottom: 8px; margin-top: 15px;" />
+            <ui:Toggle label="Debug Mode" name="tgDebugMode" style="height: auto; -unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Current Tag" name="tgDevTag" style="height: auto; -unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Log On Console" name="tgLogOnConsole" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Install To Local" name="tgInstallToLocal" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Label tabindex="-1" text="Project Filter" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 15px; -unity-font-style: bold; font-size: 15px; margin-bottom: 8px;" />
+            <ui:TextField picking-mode="Ignore" label="Project Tag" name="tfProjectTag" style="font-size: 14px;" />
+            <ui:Foldout text="BlackList" name="foBlackList" style="font-size: 14px;" />
+            <ui:VisualElement style="flex-grow: initial; max-height: 35px; flex-direction: row-reverse; min-height: 35px;">
+                <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnAdd" style="max-height: none; min-height: auto; min-width: 40px; max-width: 40px; width: auto; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-top: 8px; margin-right: 10px; margin-bottom: 8px; margin-left: 10px; padding-top: 5px; padding-bottom: 5px;" />
+                <ui:TextField picking-mode="Ignore" name="tfItemInput" style="flex-grow: 1; max-width: 66%; margin-top: 8px; margin-bottom: 8px;" />
+            </ui:VisualElement>
+            <ui:DropdownField label="Refresh Time" name="ddRefreshTime" style="min-height: 24px; max-height: none; max-width: 50%; font-size: 14px; -unity-text-align: middle-left;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; min-width: auto; min-height: auto; justify-content: flex-end; border-left-color: rgb(88, 255, 0); border-right-color: rgb(88, 255, 0); border-top-color: rgb(88, 255, 0); border-bottom-color: rgb(88, 255, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; align-self: stretch; height: auto;">
+            <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnSave" style="align-self: stretch; flex-direction: column; justify-content: flex-start; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-width: auto; min-height: 30px; font-size: 15px;" />
+            <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnReset" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-width: auto; min-height: 30px; font-size: 15px;" />
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

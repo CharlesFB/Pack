@@ -31,6 +31,11 @@ public class MTPackageManagerWindow : EditorWindow
     private Button _btnTextfieldClear;
     private DropdownField _ddSort;
     private DropdownField _ddPackage;
+    private Button _btnSetting;
+    private Button _btnReset;
+    private Button _btnClear;
+    private Button _btnQuickInstall;
+    private Button _btnDependenciesGraph;
 
     // lvProjectList
     private ListView _lvProjectList;
@@ -225,7 +230,7 @@ public class MTPackageManagerWindow : EditorWindow
         _detailTabView?.ClearTabs();
     }
 
-    #endregion
+    #endregion TabView
 
     #region NavigationBar
 
@@ -235,10 +240,41 @@ public class MTPackageManagerWindow : EditorWindow
         _btnTextfieldClear = root.Q<Button>("btnTextfieldClear");
         _ddSort = root.Q<DropdownField>("ddSort");
         _ddPackage = root.Q<DropdownField>("ddPackage");
+        
+        _btnSetting = root.Q<Button>("btnSetting");
+        _btnReset = root.Q<Button>("btnReset");
+        _btnClear = root.Q<Button>("btnClear");
+        _btnQuickInstall = root.Q<Button>("btnQuickInstall");
+        _btnDependenciesGraph = root.Q<Button>("btnDependenciesGraph");
+
+        if (_btnSetting != null)
+        {
+            _btnSetting.clicked += OnSettingClicked;
+        }
+
+        if (_btnReset != null)
+        {
+            _btnReset.clicked += OnResetClicked;
+        }
+
+        if (_btnClear != null)
+        {
+            _btnClear.clicked += OnClearClicked;
+        }
+
+        if (_btnQuickInstall != null)
+        {
+            _btnQuickInstall.clicked += OnQuickInstallClicked;
+        }
+
+        if (_btnDependenciesGraph != null)
+        {
+            _btnDependenciesGraph.clicked += OnDependenciesGraphClicked;
+        }
 
         if (_tfSearch != null)
         {
-            // TextField 默认非 delayed，逐字符触发 ChangeEvent，天然满足“实时筛选”的要求
+            // TextField 默认非 delayed，逐字符触发 ChangeEvent
             _tfSearch.RegisterValueChangedCallback(_ => RefreshProjectList());
         }
 
@@ -264,6 +300,33 @@ public class MTPackageManagerWindow : EditorWindow
         }
     }
 
+    private void OnDependenciesGraphClicked()
+    {
+        
+    }
+
+    private void OnQuickInstallClicked()
+    {
+        
+    }
+    
+    private void OnClearClicked()
+    {
+        
+    }
+    
+    private void OnResetClicked()
+    {
+        
+    }
+
+    private void OnSettingClicked()
+    {
+        MTPSettingWindow wnd = GetWindow<MTPSettingWindow>();
+        wnd.titleContent = new GUIContent("MTPSettingWindow");
+        wnd.minSize = new Vector2(470, 470);
+    }
+
     private void OnClearSearchClicked()
     {
         if (_tfSearch == null)
@@ -281,10 +344,9 @@ public class MTPackageManagerWindow : EditorWindow
         RefreshProjectList();
     }
 
-    #endregion
+    #endregion NavigationBar
 
     #region ProjectList
-
     /// <summary>
     /// 重新拉取 lvProjectList 数据源并刷新 InfoView。
     /// CreateGUI 首次创建窗口时会自动调用一次，这里提供对外手动刷新的接口。
@@ -384,21 +446,21 @@ public class MTPackageManagerWindow : EditorWindow
             EditorUtility.DisplayProgressBar("Refreshing Project List", "Pulling Package json cache...", 0.6f);
             await PackageJsonService.PullFromGitAsync(force: true);
             EditorUtility.DisplayProgressBar("Refreshing Project List", "Checking for packages to update...", 0.8f);
-            var updatablePackages = CheckNewVersion();
-            if (updatablePackages.Count > 0)
-            {
-                // TODO : 需要更新的tag，显示更新图标
-                LM.Log($"[MTPackageManagerWindow] Refresh 完成，发现 {updatablePackages.Count} 个已安装包有新版本可更新: " +
-                    string.Join(", ", updatablePackages));
-            }
-            else
-            {
-                LM.Log("[MTPackageManagerWindow] Refresh 完成，未发现新版本。");
-            }
-
-            // 内部会重建 _displayedProjects、刷新 lvProjectList / lbUpdateTime / InfoView，
-            // ProjectItemView.RefreshStatusIcon 也会在这次刷新里按最新数据重新计算"是否可更新"图标。
-            EditorUtility.DisplayProgressBar("Refreshing Project List", "Refreshing list to show...", 0.9f);
+            // var updatablePackages = CheckNewVersion();
+            // if (updatablePackages.Count > 0)
+            // {
+            //     // TODO : 需要更新的tag，显示更新图标
+            //     LM.Log($"[MTPackageManagerWindow] Refresh 完成，发现 {updatablePackages.Count} 个已安装包有新版本可更新: " +
+            //         string.Join(", ", updatablePackages));
+            // }
+            // else
+            // {
+            //     LM.Log("[MTPackageManagerWindow] Refresh 完成，未发现新版本。");
+            // }
+            //
+            // // 内部会重建 _displayedProjects、刷新 lvProjectList / lbUpdateTime / InfoView，
+            // // ProjectItemView.RefreshStatusIcon 也会在这次刷新里按最新数据重新计算"是否可更新"图标。
+            // EditorUtility.DisplayProgressBar("Refreshing Project List", "Refreshing list to show...", 0.9f);
             RefreshProjectList();
             EditorUtility.DisplayProgressBar("Refreshing Project List", "Finished", 1f);
         }
@@ -431,10 +493,8 @@ public class MTPackageManagerWindow : EditorWindow
                 continue;
             }
 
-            var shortName = PathUtils.GetPackageShortName(installed.PackageName);
-            var project = installed.ProjectId > 0
-                ? ProjectInfoService.Get(installed.ProjectId, shortName)
-                : ProjectInfoService.Get(shortName);
+            var project = ProjectInfoService.GetByUrl(installed.Url, installed.Tag)
+                          ?? ProjectInfoService.GetByUrl(installed.Url);
             if (project == null)
             {
                 continue;
@@ -514,14 +574,18 @@ public class MTPackageManagerWindow : EditorWindow
 
     private List<ProjectInfo> BuildFilteredSortedProjects()
     {
-        var blackList = ConfigManager.Instance.Current?.BlackList ?? new List<string>();
+        var config = ConfigManager.Instance.Current;
+        var blackList = config?.BlackList ?? new List<string>();
+        bool debugMode = config?.DebugMode ?? false;
         string searchText = _tfSearch?.value?.Trim() ?? string.Empty;
 
         // ddPackage 目前只有 "Package: FrontEngine" 一个选项，对应 PackageType.Normal，
         // 因此这里直接按 Normal 过滤；后续若 ddPackage 增加更多选项，再改为按当前选中值映射的类型过滤。
         var candidates = ProjectInfoService.GetAll()
-            .Where(project => project != null && !blackList.Contains(project.ProjectId.ToString()))
+            .Where(project => project != null)
             .Where(project => project.PackageType == PackageType.Normal)
+            .Where(project => PassesBlackListFilter(project, blackList, debugMode))
+            .Where(project => ProjectDisplayUtils.GetVisibleSortedTags(project).Count > 0)
             .ToList();
 
         if (!string.IsNullOrEmpty(searchText))
@@ -535,29 +599,59 @@ public class MTPackageManagerWindow : EditorWindow
         bool descending = _sortDescending;
         candidates.Sort((a, b) =>
         {
-            // 第一优先级：已安装 > 未安装
-            bool aInstalled = ProjectDisplayUtils.FindInstalled(a) != null;
-            bool bInstalled = ProjectDisplayUtils.FindInstalled(b) != null;
+            var mtpA = ProjectDisplayUtils.FindInstalled(a);
+            var mtpB = ProjectDisplayUtils.FindInstalled(b);
+            var disA = ResolveDisplayNameForSort(a);
+            var disB = ResolveDisplayNameForSort(b);
+            bool aInstalled = mtpA != null;
+            bool bInstalled = mtpB != null;
+            // 均已安装比较节点深度，越深越往后
+            if (aInstalled && bInstalled)
+            {
+                if (mtpA.Depth < mtpB.Depth)
+                    return -1;
+                if (mtpA.Depth > mtpB.Depth)
+                    return 1;
+                // // 相同深度比较展示名称
+                // return string.Compare(disA, disB, StringComparison.OrdinalIgnoreCase);
+            }
+            // 优先 已安装 < 未安装
             if (aInstalled != bInstalled)
             {
                 return aInstalled ? -1 : 1;
             }
 
-            // 第二优先级：按 DisplayName 升序/降序
-            int cmp = string.Compare(ResolveDisplayNameForSort(a), ResolveDisplayNameForSort(b),
-                StringComparison.OrdinalIgnoreCase);
+            // 次优先 “同深度” 或 “均未安装” 按展示名称升序/降序
+            int cmp = string.Compare(disA, disB, StringComparison.OrdinalIgnoreCase);
             return descending ? -cmp : cmp;
         });
 
         return candidates;
     }
 
+    /// <summary>
+    /// 非 DebugMode 下过滤黑名单；已安装的包即使在黑名单里也保留。DebugMode 开放黑名单。
+    /// </summary>
+    private static bool PassesBlackListFilter(ProjectInfo project, List<string> blackList, bool debugMode)
+    {
+        if (debugMode || blackList == null || blackList.Count == 0 || project == null)
+        {
+            return true;
+        }
+
+        if (!blackList.Contains(project.ProjectId.ToString()))
+        {
+            return true;
+        }
+
+        return ProjectDisplayUtils.FindInstalled(project) != null;
+    }
+
     private static string ResolveDisplayNameForSort(ProjectInfo project)
     {
         return ProjectDisplayUtils.GetDisplayName(project, ProjectDisplayUtils.ResolveDisplayTag(project));
     }
-
-    #endregion
+    #endregion ProjectList
 
     #region InfoView
 
@@ -629,6 +723,7 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (_selectedProject == null)
         {
+            LM.Log("[MTPackageManagerWindow] 空工程选择");
             SetInfoViewEmpty();
             return;
         }
@@ -659,6 +754,7 @@ public class MTPackageManagerWindow : EditorWindow
 
     private async void ApplyTagInfoToInfoView(ProjectInfo project, string tag)
     {
+        // Debug.Log("调整tag： " + tag);
         int seq = ++_tagInfoLoadSeq;
         var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
         SetLabel(_lbDisplayName, ProjectDisplayUtils.GetDisplayName(project, tag));
@@ -754,7 +850,7 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (!string.IsNullOrEmpty(evt.newValue) && evt.newValue.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))
         {
-            // 点的是 "Show All"：展开全部 Tag，恢复到点击前的选中值，不当作一次真正的版本切换
+            // 展开全部 Tag，恢复到点击前的选中值，不当作一次真正的版本切换
             _versionShowAll = true;
             PopulateVersionDropdown(_selectedProject, evt.previousValue);
             // // 模拟一次点击事件，强行把下拉列表再次展开 (这部分代码按需去掉吧，用于用户体验优化的)
@@ -796,8 +892,9 @@ public class MTPackageManagerWindow : EditorWindow
     }
 
     /// <summary>
-    /// 未安装：只显示 Install。已安装：Install 文案改为 Update。
+    /// 未安装：只显示 Install。已安装：Install 改为 Update。
     /// Uninstall 仅根包（Depth == 0）显示；Depth &gt; 0 的依赖带入包、以及本工程包都不显示。
+    /// 已显示 Uninstall 时，当前下拉 Tag 与已安装 Tag 不一致则禁用（与旧工程一致）。
     /// </summary>
     private void RefreshActionButtons()
     {
@@ -814,7 +911,9 @@ public class MTPackageManagerWindow : EditorWindow
         bool isInstalled = isSelf || installed != null;
         bool busy = _isInstalling || _isRefreshing;
         bool toLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
-        bool canUninstall = isInstalled && !isSelf && installed != null && installed.Depth == 0;
+        bool showUninstall = isInstalled && !isSelf && installed != null && installed.Depth == 0;
+        bool uninstallEnabled = showUninstall && !busy
+            && string.Equals(tag, installed.Tag, StringComparison.Ordinal);
 
         if (_btnInstall != null)
         {
@@ -828,8 +927,8 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (_btnUninstall != null)
         {
-            _btnUninstall.style.display = canUninstall ? DisplayStyle.Flex : DisplayStyle.None;
-            _btnUninstall.SetEnabled(canUninstall && !busy);
+            _btnUninstall.style.display = showUninstall ? DisplayStyle.Flex : DisplayStyle.None;
+            _btnUninstall.SetEnabled(uninstallEnabled);
         }
     }
 
@@ -970,7 +1069,7 @@ public class MTPackageManagerWindow : EditorWindow
 
             if (sameTag)
             {
-                // 同 tag：只发 UpdateAdd（按最新 hash 再 Add），不发 UpdateRemove，也不走插件导入。
+                // 同 tag 只发 UpdateAdd（按最新 hash 再 Add），不发 UpdateRemove，也不走插件导入。
                 var requests = new List<MTPackageInstallerRequest>
                 {
                     new MTPackageInstallerRequest
@@ -1069,7 +1168,7 @@ public class MTPackageManagerWindow : EditorWindow
     }
 
     /// <summary>
-    /// 按 ProjectId + 短包名查找已安装节点。同一工程 id 下可以有多个包。
+    /// 按工程仓库链接查找已安装节点。
     /// </summary>
     private static MTPackageInfo FindInstalled(ProjectInfo project)
     {
@@ -1092,12 +1191,10 @@ public class MTPackageManagerWindow : EditorWindow
             return true;
         }
 
-        if (project != null && project.ProjectId > 0)
+        if (project != null)
         {
             var selfInstalled = MTPackageInfoService.GetPackage(MTPGit.SELF_PACKAGE_NAME);
-            if (selfInstalled != null
-                && selfInstalled.ProjectId == project.ProjectId
-                && PathUtils.MatchesProjectPackageName(project.PackageName, selfInstalled.PackageName))
+            if (selfInstalled != null && UrlUtils.MatchesProject(project, selfInstalled.Url, selfInstalled.Tag))
             {
                 return true;
             }
@@ -1106,7 +1203,7 @@ public class MTPackageManagerWindow : EditorWindow
         return false;
     }
 
-    #endregion
+    #endregion InfoView
 
     private static void SetLabel(Label label, string text)
     {

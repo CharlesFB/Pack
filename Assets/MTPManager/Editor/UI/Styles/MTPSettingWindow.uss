@@ -1,5 +1,4 @@
-.custom-label {
-    font-size: 20px;
-    -unity-font-style: bold;
-    color: rgb(68, 138, 255);
+#tfItemInput .unity-text-field__input {
+    color: rgb(230, 230, 230);
+    -unity-text-align: middle-right;
 }

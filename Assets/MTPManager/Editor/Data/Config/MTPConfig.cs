@@ -16,8 +16,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         public string PrivateToken;
         public string GroupId;
         public string ProjectId;
-        public string ProjectName;
-        public FreshTime FreshFrequency;
+        public string ProjectTag;
+        public RefreshTime refreshFrequency;
         
         public bool LogOnConsole;
         public bool DebugMode; 
@@ -49,13 +49,13 @@ namespace MagicTavern.FrontEngine.MTPManager
             
             LogOnConsole = true;
             ProjectId = string.Empty;
-            ProjectName = string.Empty;
-            DebugMode = true;
+            ProjectTag = string.Empty;
+            DebugMode = false;
             ShowDevTag = false;
             InstallToLocal = false;
             BlackList = new List<string>(MTPGit.DefaultBlacklist);
             
-            FreshFrequency = FreshTime.OneDay;
+            refreshFrequency = RefreshTime.OneDay;
         }
     }
 }

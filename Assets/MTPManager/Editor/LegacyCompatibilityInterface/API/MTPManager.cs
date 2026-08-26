@@ -106,14 +106,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                     x.ProjectInfo?.PackageName, y.ProjectInfo?.PackageName);
             });
 
-            if (!string.IsNullOrEmpty(config?.ProjectName))
+            if (!string.IsNullOrEmpty(config?.ProjectTag))
             {
                 for (int k = 0; k < installList.Count; k++)
                 {
                     installList[k].ProjectInfo = installList[k].ProjectInfo.CloneForDisplayTemp();
                 }
 
-                string projectName = config.ProjectName.ToLower();
+                string projectName = config.ProjectTag.ToLower();
                 for (int i = 0; i < installList.Count; i++)
                 {
                     var package = installList[i];
@@ -177,31 +177,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return false;
             }
 
-            // 新数据主路径
-            if (dep.ProjectId > 0 && project.ProjectId > 0)
-            {
-                return dep.ProjectId == project.ProjectId;
-            }
-
-            // 旧缓存 / 未写 ProjectId 时的回退：tag 前缀 == 工程短名
-            if (!string.IsNullOrEmpty(dep.Tag))
-            {
-                var head = dep.Tag.Split('-')[0];
-                if (string.Equals(head, project.PackageName, StringComparison.Ordinal))
-                {
-                    return true;
-                }
-            }
-
-            // 再回退 URL（Format 后再比，避免 oauth2/ssh 写法不一致）
-            if (string.IsNullOrEmpty(dep.Url))
-            {
-                return false;
-            }
-
-            var url = UrlUtils.FormatUrl(dep.Url);
-            return string.Equals(url, project.HttpUrl, StringComparison.Ordinal)
-                   || string.Equals(url, project.SshUrl, StringComparison.Ordinal);
+            return UrlUtils.MatchesProject(project, dep.Url, dep.Tag);
         }
 
         private static PackageDepInfo ToDepInfo(MTPackageInfo mt)

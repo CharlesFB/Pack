@@ -199,7 +199,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return result;
             }
 
-            string[] pluginPackages = Directory.GetFiles(pluginPackageDirectory, "*.unitypackage", SearchOption.AllDirectories);
+            string[] pluginPackages = Directory.GetFiles(pluginPackageDirectory, "*.unitypackage", SearchOption.TopDirectoryOnly);
             foreach (string pluginPackagePath in pluginPackages)
             {
                 string fileName = Path.GetFileName(pluginPackagePath);

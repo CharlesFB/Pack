@@ -44,8 +44,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 只扫已安装包本地 PluginsPackage，写入 Plugins Key；不写 PluginAsset。
-        /// 已导入状态按 PluginAsset 的 Key 是否有资源清单判定。
+        /// 只扫已安装包本地 Editor/PluginsPackage（不递归），写入 packageName#fileName Key；不写 PluginAsset。
+        /// 已导入状态按 PluginAsset 的 Key 是否有资源清单判定。目录存在时清掉该包下已消失的 PluginAsset 记录。
         /// </summary>
         public void SyncPluginsFromDisk(MTPackageInfo mtPackage)
         {
@@ -63,49 +63,30 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
-            var files = new List<string>();
-            files.AddRange(Directory.GetFiles(pluginDir, "*.unitypackage", SearchOption.AllDirectories));
-            files.AddRange(Directory.GetFiles(pluginDir, "*.zip", SearchOption.AllDirectories));
-
+            var fileNames = PathUtils.ListPluginPackageFileNames(pluginDir);
             var recorded = PluginAsset.GetAll() ?? new Dictionary<string, List<string>>();
-            string pluginDirNormalized = PathUtils.NormalizePluginKey(Path.GetFullPath(pluginDir)).TrimEnd('/');
 
-            foreach (var file in files)
+            foreach (var fileName in fileNames)
             {
-                string fullPath = PathUtils.NormalizePluginKey(Path.GetFullPath(file));
-                string relative = fullPath.StartsWith(pluginDirNormalized, StringComparison.OrdinalIgnoreCase)
-                    ? fullPath.Substring(pluginDirNormalized.Length).TrimStart('/')
-                    : Path.GetFileName(fullPath);
-                if (string.IsNullOrEmpty(relative) || !IsPluginFileName(relative))
-                {
-                    continue;
-                }
-
-                string key = PathUtils.BuildPluginLocalPath(mtPackage, relative);
+                string key = PathUtils.MakePluginKey(mtPackage.PackageName, fileName);
                 if (string.IsNullOrEmpty(key))
                 {
                     continue;
                 }
 
-                bool imported = false;
-                foreach (var kvp in recorded)
-                {
-                    if (!string.Equals(PathUtils.NormalizePluginKey(kvp.Key), key, StringComparison.OrdinalIgnoreCase))
-                    {
-                        continue;
-                    }
-
-                    imported = kvp.Value != null && kvp.Value.Count > 0;
-                    break;
-                }
-
+                bool imported = PathUtils.IsPluginKeyRecorded(key, recorded);
                 mtPackage.Plugins[key] = imported;
                 MTPackage.SetPlugin(mtPackage.PackageName, key, imported);
+            }
+
+            if (PluginAsset.PruneMissingPlugins(mtPackage.PackageName, fileNames) > 0)
+            {
+                PluginAsset.SaveToLocal();
             }
         }
 
         public async Task<bool> ImportPreparedPluginsAsync(MTPackageInfo mtPackage,
-            IEnumerable<string> selectedPluginLocalPaths = null,
+            IEnumerable<string> selectedPluginKeys = null,
             IReadOnlyDictionary<string, string> zipExtractDirectories = null,
             bool persist = true, bool skipRecorded = false)
         {
@@ -121,14 +102,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                           ?? new Dictionary<string, bool>();
 
             HashSet<string> selected = null;
-            if (selectedPluginLocalPaths != null)
+            if (selectedPluginKeys != null)
             {
                 selected = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-                foreach (var path in selectedPluginLocalPaths)
+                foreach (var key in selectedPluginKeys)
                 {
-                    if (!string.IsNullOrEmpty(path))
+                    if (!string.IsNullOrEmpty(key))
                     {
-                        selected.Add(PathUtils.NormalizePluginKey(path));
+                        selected.Add(key);
                     }
                 }
 
@@ -158,7 +139,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             foreach (var pluginKey in pluginKeys)
             {
-                if (selected != null && !selected.Contains(PathUtils.NormalizePluginKey(pluginKey)))
+                if (selected != null && !selected.Contains(pluginKey))
                 {
                     continue;
                 }
@@ -193,12 +174,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                     LM.Log($"[PluginPackageService] 用户取消覆盖，跳过插件: {pluginKey}");
                     continue;
                 }
-
-                if (!await ImportSinglePluginFileAsync(pluginFilePath, zipTargetDirectory))
-                {
-                    continue;
-                }
-
+                
                 // zip 可能多次解压到不同目录，用 Append 合并去重，保留历史落盘路径供卸载时一并清理；
                 // unitypackage 目标路径固定，Append 结果等价于 Set
                 PluginAsset.Append(pluginKey, plannedAssetPaths);
@@ -212,8 +188,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                     PluginAsset.SaveToLocal();
                 }
 
-                // zip 必须 Refresh 才会进 AssetDatabase；unitypackage 的 ImportPackage 自己会刷新。
-                // 两者都要在落盘之后再等空闲，否则编译/域重载会冲掉未写入的 PluginAsset。
+                if (!await ImportSinglePluginFileAsync(pluginFilePath, zipTargetDirectory))
+                {
+                    continue;
+                }
+
+                // zip 必须 Refresh 才会进 AssetDatabase；
                 if (isZip)
                 {
                     AssetDatabase.Refresh();
@@ -239,7 +219,11 @@ namespace MagicTavern.FrontEngine.MTPManager
         private static bool ConfirmOverwrite(string pluginKey, List<string> coveredPaths)
         {
             const int MAX_SHOWN = 15;
-            string fileName = Path.GetFileName(pluginKey);
+            string fileName = PathUtils.GetPluginFileNameFromKey(pluginKey);
+            if (string.IsNullOrEmpty(fileName))
+            {
+                fileName = pluginKey;
+            }
             string listText = coveredPaths.Count <= MAX_SHOWN
                 ? string.Join("\n", coveredPaths)
                 : string.Join("\n", coveredPaths.Take(MAX_SHOWN)) + $"\n...（共 {coveredPaths.Count} 条）";
@@ -404,7 +388,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             var trees = await GitLab.GetTreesAsync(projectId, MTPPath.PLUGINS_PACKAGE_DIR, reference,
-                recursive: true);
+                recursive: false);
             if (trees == null)
             {
                 return result;
@@ -417,15 +401,16 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
-                string relative = GetRelativePluginPath(item.Path, item.Name);
-                if (string.IsNullOrEmpty(relative) || !IsPluginFileName(relative))
+                string fileName = Path.GetFileName(
+                    !string.IsNullOrEmpty(item.Name) ? item.Name : item.Path);
+                if (string.IsNullOrEmpty(fileName) || !PathUtils.IsPluginFileName(fileName))
                 {
                     continue;
                 }
 
-                if (!result.Exists(x => string.Equals(x, relative, StringComparison.OrdinalIgnoreCase)))
+                if (!result.Exists(x => string.Equals(x, fileName, StringComparison.OrdinalIgnoreCase)))
                 {
-                    result.Add(relative);
+                    result.Add(fileName);
                 }
             }
 
@@ -439,30 +424,6 @@ namespace MagicTavern.FrontEngine.MTPManager
             {
                 MTPackage.AddDependency(mtPackage);
             }
-        }
-
-        private static string GetRelativePluginPath(string treePath, string treeName)
-        {
-            string path = string.IsNullOrEmpty(treePath) ? treeName : treePath;
-            if (string.IsNullOrEmpty(path))
-            {
-                return string.Empty;
-            }
-
-            path = path.Replace("\\", "/");
-            string prefix = MTPPath.PLUGINS_PACKAGE_DIR.Replace("\\", "/").TrimEnd('/') + "/";
-            if (path.StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
-            {
-                path = path.Substring(prefix.Length);
-            }
-
-            return path.TrimStart('/');
-        }
-
-        private static bool IsPluginFileName(string pathOrName)
-        {
-            return pathOrName.EndsWith(".unitypackage", StringComparison.OrdinalIgnoreCase)
-                   || pathOrName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
         }
 
         private bool IsPluginAssetRecorded(string pluginKey)
@@ -514,55 +475,23 @@ namespace MagicTavern.FrontEngine.MTPManager
             return false;
         }
 
-        private static string GetRelativePluginNameFromKey(MTPackageInfo mtPackage, string pluginKey)
-        {
-            if (string.IsNullOrEmpty(pluginKey))
-            {
-                return string.Empty;
-            }
-
-            string normalized = pluginKey.Replace("\\", "/");
-            string marker = MTPPath.PLUGINS_PACKAGE_DIR.Replace("\\", "/").TrimEnd('/') + "/";
-            int index = normalized.IndexOf(marker, StringComparison.OrdinalIgnoreCase);
-            if (index >= 0)
-            {
-                return normalized.Substring(index + marker.Length);
-            }
-
-            return Path.GetFileName(pluginKey);
-        }
-
         /// <summary>
-        /// 按 Plugins Key 解析实际插件文件。优先 PackageCache / Packages 下的本地路径，再回退 Staging。
+        /// 按 pluginKey 拆出文件名，再拼本地路径（Packages/ 或 PackageCache）或 Staging。
         /// </summary>
         private static string ResolvePluginFilePath(MTPackageInfo mtPackage, string pluginKey)
         {
-            if (string.IsNullOrEmpty(pluginKey))
+            if (mtPackage == null || string.IsNullOrEmpty(pluginKey))
             {
                 return string.Empty;
             }
 
-            string normalized = PathUtils.NormalizePluginKey(pluginKey);
-            if (File.Exists(normalized))
+            string fileName = PathUtils.GetPluginFileNameFromKey(pluginKey);
+            if (string.IsNullOrEmpty(fileName))
             {
-                return normalized;
+                return string.Empty;
             }
 
-            try
-            {
-                string fullPath = Path.GetFullPath(normalized);
-                if (File.Exists(fullPath))
-                {
-                    return fullPath;
-                }
-            }
-            catch (Exception)
-            {
-                // 非法路径时继续尝试相对名回退
-            }
-
-            string relative = GetRelativePluginNameFromKey(mtPackage, pluginKey);
-            string localPath = PathUtils.BuildPluginLocalPath(mtPackage, relative);
+            string localPath = PathUtils.BuildPluginLocalPath(mtPackage, fileName);
             if (!string.IsNullOrEmpty(localPath))
             {
                 if (File.Exists(localPath))
@@ -584,7 +513,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 }
             }
 
-            string stagingPath = PathUtils.BuildPluginStagingPath(mtPackage, relative);
+            string stagingPath = PathUtils.BuildPluginStagingPath(mtPackage, fileName);
             return !string.IsNullOrEmpty(stagingPath) && File.Exists(stagingPath)
                 ? stagingPath
                 : string.Empty;
@@ -604,17 +533,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return chosenDir;
             }
 
-            string normalized = PathUtils.NormalizePluginKey(pluginKey);
-            if (zipExtractDirectories.TryGetValue(normalized, out chosenDir)
-                && !string.IsNullOrEmpty(chosenDir))
-            {
-                return chosenDir;
-            }
-
             foreach (var kvp in zipExtractDirectories)
             {
-                if (string.Equals(PathUtils.NormalizePluginKey(kvp.Key), normalized, StringComparison.OrdinalIgnoreCase)
-                    && !string.IsNullOrEmpty(kvp.Value))
+                if (PathUtils.PluginKeysEqual(kvp.Key, pluginKey) && !string.IsNullOrEmpty(kvp.Value))
                 {
                     return kvp.Value;
                 }
@@ -638,14 +559,13 @@ namespace MagicTavern.FrontEngine.MTPManager
                     return;
                 }
 
-                string normalized = PathUtils.NormalizePluginKey(key);
-                if (result.TryGetValue(normalized, out var previous))
+                if (result.TryGetValue(key, out var previous))
                 {
-                    result[normalized] = previous || imported;
+                    result[key] = previous || imported;
                 }
                 else
                 {
-                    result[normalized] = imported;
+                    result[key] = imported;
                 }
             }
 
@@ -710,27 +630,8 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return false;
             }
 
-            string key = PathUtils.NormalizePluginKey(pluginKey);
-            string name = package.PackageName;
-            string cacheRoot = MTPPath.PACKAGE_CACHE_ROOT.Replace("\\", "/").TrimEnd('/');
-
-            if (key.IndexOf(cacheRoot + "/" + name + "@", StringComparison.OrdinalIgnoreCase) >= 0)
-            {
-                return true;
-            }
-
-            if (key.IndexOf(cacheRoot + "/" + name + "/", StringComparison.OrdinalIgnoreCase) >= 0)
-            {
-                return true;
-            }
-
-            string packagesSegment = "/Packages/" + name + "/";
-            if (key.IndexOf(packagesSegment, StringComparison.OrdinalIgnoreCase) >= 0)
-            {
-                return true;
-            }
-
-            return key.StartsWith("Packages/" + name + "/", StringComparison.OrdinalIgnoreCase);
+            return PathUtils.TryParsePluginKey(pluginKey, out var packageName, out _)
+                   && string.Equals(packageName, package.PackageName, StringComparison.OrdinalIgnoreCase);
         }
 
         private static string ResolvePluginDictKey(Dictionary<string, bool> plugins, string pluginKey)
@@ -745,10 +646,9 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return pluginKey;
             }
 
-            string normalized = PathUtils.NormalizePluginKey(pluginKey);
             foreach (var key in plugins.Keys)
             {
-                if (string.Equals(PathUtils.NormalizePluginKey(key), normalized, StringComparison.OrdinalIgnoreCase))
+                if (PathUtils.PluginKeysEqual(key, pluginKey))
                 {
                     return key;
                 }

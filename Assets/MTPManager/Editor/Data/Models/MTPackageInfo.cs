@@ -13,14 +13,17 @@ namespace MagicTavern.FrontEngine.MTPManager
     public class MTPackageInfo
     {
         public Dictionary<string, string> Dependencies;
+        /// <summary>
+        /// 插件身份 Key（packageName#pluginFileName）-> 是否已导入。
+        /// </summary>
         public Dictionary<string, bool> Plugins = new Dictionary<string, bool>();
 
         public string PackageName; // "com.xxx.xxx"
         public string Tag; // 发布 Tag，如 package-1.2.3
         public string Revision; // Hash Commit
         public string Url;
-        public int ProjectId; // 所属远端工程 id（对应 ProjectInfo.ProjectId）
         public string ScriptDefineSymbols;
+        public int ProjectId; // 所属远端工程 id（对应 ProjectInfo.ProjectId）
 
         public int Depth;
         public bool isLocal;
@@ -38,12 +41,12 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
         }
 
-        public bool IsLaterTran(MTPackageInfo newMTPackageInfo)
+        public bool IsLaterThan(MTPackageInfo newMTPackageInfo)
         {
-            return IsLaterTran(newMTPackageInfo.Revision, newMTPackageInfo.Tag);
+            return IsLaterThan(newMTPackageInfo.Revision, newMTPackageInfo.Tag);
         }
 
-        public bool IsLaterTran(string revision, string tag)
+        public bool IsLaterThan(string revision, string tag)
         {
             var strArr = string.IsNullOrEmpty(tag) ? Array.Empty<string>() : tag.Split('-');
             var newIsModifyVersion = strArr.Length >= 3;

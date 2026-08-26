@@ -6,7 +6,6 @@
 // ==================================================
 
 using System.Collections.Generic;
-using System.IO;
 using MagicTavern.FrontEngine.MTPManager;
 using UnityEditor;
 using UnityEngine;
@@ -19,7 +18,7 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
     /// - .zip 行：应显示 veDirChosen，且 lbUnzipRoot 默认是 "/Assets"；点击 Chosse Dir 后应实时刷新为所选路径。
     /// 解压目录的选择只在窗口会话内有效（PluginImportWindow._zipExtractDirs），不会写回 MTPackageInfo，
     /// 所以这里只能通过窗口内文本变化肉眼验证，无法在关闭窗口后从 fakePackage 读回。
-    /// 注意：staging 目录下没有对应的真实文件，点击 Import 只会走到 "找不到 Staging 文件" 的警告日志，不会真的导入。
+    /// 注意：测试包在磁盘上没有对应插件文件，点击 Import 只会走到「找不到插件文件」的警告日志，不会真的导入。
     /// </summary>
     public static class PluginItemViewTest
     {
@@ -38,16 +37,16 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
                 {
                     // .unitypackage：不应出现 veDirChosen
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/DemoPlugin.A.unitypackage",
+                        "com.magictavern.test.package#DemoPlugin.A.unitypackage",
                         false
                     },
                     // .zip：应显示 veDirChosen，且 lbUnzipRoot 默认 "/Assets"
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/Tools.zip",
+                        "com.magictavern.test.package#Tools.zip",
                         false
                     },
                     {
-                        "Library/PackageCache/com.magictavern.test.package@abcdef123456/Editor/PluginsPackage/MoreTools.zip",
+                        "com.magictavern.test.package#MoreTools.zip",
                         false
                     }
                 }
@@ -66,9 +65,22 @@ namespace MagicTavern.FrontEngine.MTPManager.Test
         {
             foreach (var kvp in info.Plugins)
             {
-                string fileName = Path.GetFileName(kvp.Key);
+                string fileName = GetPluginFileName(kvp.Key);
                 Debug.Log($"  {fileName} => selected:{kvp.Value}");
             }
+        }
+
+        private static string GetPluginFileName(string pluginKey)
+        {
+            if (string.IsNullOrEmpty(pluginKey))
+            {
+                return pluginKey;
+            }
+
+            int separator = pluginKey.IndexOf('#');
+            return separator >= 0 && separator < pluginKey.Length - 1
+                ? pluginKey.Substring(separator + 1)
+                : pluginKey;
         }
     }
 }
