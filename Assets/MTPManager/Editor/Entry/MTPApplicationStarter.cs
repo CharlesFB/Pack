@@ -45,16 +45,6 @@ namespace MagicTavern.FrontEngine.MTPManager
 
                 await projectInfo.EnsureInitializedAsync();
                 await packageJson.EnsureInitializedAsync();
-                
-                // if (projectInfo.NeedUpdate)
-                // {
-                //     await projectInfo.PullFromGitAsync();
-                // }
-                //
-                // if (packageJson.NeedUpdate)
-                // {
-                //     await packageJson.RebuildFromProjectInfoListAsync();
-                // }
             }
             catch (Exception e)
             {

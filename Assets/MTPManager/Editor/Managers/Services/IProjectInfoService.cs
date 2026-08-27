@@ -59,6 +59,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// </summary>
         void SaveToLocal();
 
+        void Clear();
+
         /// <summary>
         /// 从 MTPPath.PROJECT_INFO_LIST_PATH 装载到内存。
         /// 默认不创建空文件（本地缺失时应走 EnsureInitializedAsync / PullFromGit）。

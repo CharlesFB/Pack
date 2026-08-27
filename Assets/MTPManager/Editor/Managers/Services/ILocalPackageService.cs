@@ -43,5 +43,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 将当前内存状态持久化到 MTPPath.LOCAL_MTP_INFO_PATH。
         /// </summary>
         void SaveToLocal();
+
+        void Clear();
     }
 }

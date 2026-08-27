@@ -87,5 +87,10 @@ namespace MagicTavern.FrontEngine.MTPManager
         {
             JsonUtils.SaveToFile(MTPPath.INSTALLED_MTP_INFO_PATH, ExportToMTPackageInfoList());
         }
+
+        public void Clear()
+        {
+            _rootPackages.Clear();
+        }
     }
 }

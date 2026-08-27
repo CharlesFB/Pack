@@ -43,6 +43,25 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
         }
 
+        public double GetRefreshSecond()
+        {
+            switch (_currentConfig.refreshFrequency)
+            {
+                case RefreshTime.HalfHour :
+                    return 1800;
+                case RefreshTime.OneHour :
+                    return 3600;
+                case RefreshTime.OneDay :
+                    return 86400;
+                case RefreshTime.OneWeek :
+                    return 604800;
+                case RefreshTime.OneMonth :
+                    return 2592000;
+                default:
+                    return 1000;
+            }
+        }
+
         private MTPConfig Load()
         {
             if (!File.Exists(ConfigFilePath))

@@ -15,8 +15,6 @@ namespace MagicTavern.FrontEngine.MTPManager
 {
     public class PackageJsonService : IPackageJsonService
     {
-        private const double CACHE_TTL_SECONDS = MTPTime.PACKAGE_INFO_CACHE_TTL;
-
         private readonly Dictionary<string, Dictionary<string, PackageJson>> _packageCache =
             new Dictionary<string, Dictionary<string, PackageJson>>();
 
@@ -27,13 +25,18 @@ namespace MagicTavern.FrontEngine.MTPManager
         private IPluginPackageService PluginPackageService => ServiceLocator.Get<IPluginPackageService>();
 
         public bool NeedUpdate =>
-            (DateTime.Now - RefreshTime).TotalSeconds > CACHE_TTL_SECONDS
+            (DateTime.Now - RefreshTime).TotalSeconds > ConfigManager.Instance.GetRefreshSecond()
             || _packageCache.Count == 0;
 
         public DateTime RefreshTime
         {
             get => _refreshTime;
             set => _refreshTime = value;
+        }
+
+        public void Clear()
+        {
+            _packageCache.Clear();
         }
 
         public void Add(string projectId, string tag, PackageJson packageJson)

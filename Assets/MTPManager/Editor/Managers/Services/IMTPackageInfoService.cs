@@ -23,6 +23,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// </summary>
         MTPackageInfo GetPackageByProject(ProjectInfo project);
         List<MTPackageInfo> GetAllPackages();
+        
+        PackageJson GetPackageJson(string packageName);
 
         List<string> GetAllKeys();
 

@@ -15,6 +15,7 @@ public class MTPackageManagerWindow : EditorWindow
     private const string SHOW_ALL_PREFIX = "Show All";
     private const string DEBUG_SUFFIX = "debug";
     private const string PACKAGE_TYPE_NORMAL_LABEL = "Package: FrontEngine";
+    private const string PACKAGE_TYPE_EXTERNAL_LABEL = "Package: External";
     private const string NO_VERSION_LABEL = "无可用版本";
     private const string INSTALL_LABEL = "Install";
     private const string UPDATE_LABEL = "Update";
@@ -68,6 +69,7 @@ public class MTPackageManagerWindow : EditorWindow
     private static IRootPackageService RootPackageService => ServiceLocator.Get<IRootPackageService>();
     private static IPackageSyncService PackageSyncService => ServiceLocator.Get<IPackageSyncService>();
     private static IPackageInstallerService PackageInstallerService => ServiceLocator.Get<IPackageInstallerService>();
+    private static ILocalPackageService LocalPackageService => ServiceLocator.Get<ILocalPackageService>();
 
     public void CreateGUI()
     {
@@ -302,7 +304,7 @@ public class MTPackageManagerWindow : EditorWindow
 
     private void OnDependenciesGraphClicked()
     {
-        
+        DependenciesGraphWindow.Load();
     }
 
     private void OnQuickInstallClicked()
@@ -312,12 +314,60 @@ public class MTPackageManagerWindow : EditorWindow
     
     private void OnClearClicked()
     {
-        
+        // 暂时没什么要做的
     }
     
-    private void OnResetClicked()
+    private async void OnResetClicked()
     {
-        
+        if (_isRefreshing || _isInstalling)
+        {
+            return;
+        }
+
+        var ret = EditorUtility.DisplayDialog(
+                "确认重置 MTP 管理器状态",
+                "你正在重置 MTP 状态，该操作将会卸载所有 MTP 管理的包（及其携带插件与可能存在的 UPM 附属依赖），是否继续",
+                "确认重置",
+                "取消"
+            );
+        if (!ret)
+        {
+            return;
+        }
+
+        _isRefreshing = true;
+        _btnRefresh?.SetEnabled(false);
+        _btnReset?.SetEnabled(false);
+        RefreshActionButtons();
+
+        try
+        {
+            EditorUtility.DisplayProgressBar("Reset MTP", "Uninstalling MTP packages...", 0.3f);
+            bool ok = await PackageSyncService.ResetAsync();
+            if (!ok)
+            {
+                EditorUtility.DisplayDialog(
+                    "重置未完成",
+                    "重置未能同步完成，部分包可能仍处于安装状态。请查看 Console 后重试。",
+                    "确定");
+            }
+
+            EditorUtility.DisplayProgressBar("Reset MTP", "Refreshing list...", 0.9f);
+            RefreshProjectList();
+        }
+        catch (Exception e)
+        {
+            LM.LogWarning($"[MTPackageManagerWindow] Reset failed. Error: {e.Message}");
+            EditorUtility.DisplayDialog("重置失败", e.Message, "确定");
+        }
+        finally
+        {
+            _isRefreshing = false;
+            _btnRefresh?.SetEnabled(true);
+            _btnReset?.SetEnabled(true);
+            RefreshActionButtons();
+            EditorUtility.ClearProgressBar();
+        }
     }
 
     private void OnSettingClicked()
@@ -612,7 +662,7 @@ public class MTPackageManagerWindow : EditorWindow
                     return -1;
                 if (mtpA.Depth > mtpB.Depth)
                     return 1;
-                // // 相同深度比较展示名称
+                // 相同深度比较展示名称
                 // return string.Compare(disA, disB, StringComparison.OrdinalIgnoreCase);
             }
             // 优先 已安装 < 未安装
@@ -689,7 +739,7 @@ public class MTPackageManagerWindow : EditorWindow
             _btnUninstall.clicked += OnUninstallPackage;
         }
 
-        // Licenses 暂时不接真实数据，先在代码里关掉显示，等需求明确后再补。
+        // Licenses 暂时不接真实数据，先在代码里关掉显示。
         if (_lbLicenses != null)
         {
             _lbLicenses.style.display = DisplayStyle.None;
@@ -714,8 +764,8 @@ public class MTPackageManagerWindow : EditorWindow
     }
 
     /// <summary>
-    /// 用当前选中工程刷新 InfoView（DisplayName / Author / Version 下拉 / Package）。
-    /// Tag 解析规则同 ProjectItemView：已安装用安装的 Tag，否则用最高 Tag。
+    /// 用当前选中工程刷新 InfoView。
+    /// Tag 解析规则同 ProjectItemView，已安装用安装的 Tag，否则用最高 Tag。
     /// </summary>
     private void RefreshInfoView()
     {

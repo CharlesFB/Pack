@@ -2,7 +2,7 @@
 // Copyright (c) Magic Tavern. All rights reserved.
 // @Author: 陈梓霄
 // @Maintainer: 陈梓霄
-// @Description: 依赖树重建 + UPM/本地 diff + 安装编排（对应旧 SyncManifest）
+// @Description: 依赖树重建 + UPM/本地 diff + 安装编排；Reset 卸载全部 MTP 包
 // ==================================================
 
 using System;
@@ -18,8 +18,12 @@ namespace MagicTavern.FrontEngine.MTPManager
     {
         private IMTPackageInfoService MTPackage => ServiceLocator.Get<IMTPackageInfoService>();
         private ILocalPackageService LocalPackage => ServiceLocator.Get<ILocalPackageService>();
+        private IRootPackageService RootPackage => ServiceLocator.Get<IRootPackageService>();
         private IManifestJsonService Manifest => ServiceLocator.Get<IManifestJsonService>();
         private IPackageInstallerService Installer => ServiceLocator.Get<IPackageInstallerService>();
+        private IProjectInfoService ProjectInfo => ServiceLocator.Get<IProjectInfoService>();
+        private IPackageJsonService PackageJson => ServiceLocator.Get<IPackageJsonService>();
+        private IPluginAssetService PluginAsset => ServiceLocator.Get<IPluginAssetService>();
 
         public async Task<bool> SyncManifestAsync(bool? installToLocal = null)
         {
@@ -83,6 +87,39 @@ namespace MagicTavern.FrontEngine.MTPManager
                 MTPackage.LoadFromMTPackageInfoList(previousTree);
                 return false;
             }
+        }
+
+        public async Task<bool> ResetAsync(bool changeInstallMode = false)
+        {
+            Installer.ClearInterruptedProgress();
+
+            // 只清根包并落盘。依赖树与 upm-local 留给 SyncManifest 做卸载快照；
+            // 先清它们会导致本地模式卸不掉已内嵌包，UPM 模式也无法用旧树还原插件信息。
+            RootPackage.Clear();
+            RootPackage.SaveToLocal();
+
+            bool currentLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
+            bool installToLocal = changeInstallMode ? !currentLocal : currentLocal;
+            bool ok = await SyncManifestAsync(installToLocal);
+            if (!ok)
+            {
+                LM.LogWarning("[PackageSyncService] Reset 同步失败，缓存状态可能需要手动刷新");
+                return false;
+            }
+
+            ProjectInfo.Clear();
+            ProjectInfo.SaveToLocal();
+            PackageJson.Clear();
+            PackageJson.SaveToLocal();
+            LocalPackage.Clear();
+            LocalPackage.SaveToLocal();
+            PluginAsset.Clear();
+            PluginAsset.SaveToLocal();
+            Installer.ClearInterruptedProgress();
+
+            await ProjectInfo.PullFromGitAsync(force: true);
+            await PackageJson.PullFromGitAsync(force: true);
+            return true;
         }
 
         private void CollectUnityAddPackage(List<MTPackageInfo> addList)

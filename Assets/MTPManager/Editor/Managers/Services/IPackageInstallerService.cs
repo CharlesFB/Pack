@@ -19,5 +19,10 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 从本地进度文件续跑被域重载打断的批次。无进度文件时直接返回。
         /// </summary>
         Task ResumeInterruptedInstallAsync();
+
+        /// <summary>
+        /// 删除安装器中断恢复进度文件，避免 Reset 后续跑过期批次。
+        /// </summary>
+        void ClearInterruptedProgress();
     }
 }

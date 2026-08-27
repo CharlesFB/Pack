@@ -17,21 +17,24 @@ namespace MagicTavern.FrontEngine.MTPManager
 {
     public class ProjectInfoService : IProjectInfoService
     {
-        private const double CACHE_TTL_SECONDS = MTPTime.PROJECT_INFO_LIST_TTL;
-
         private readonly List<ProjectInfo> _projectCache = new List<ProjectInfo>();
         private DateTime _refreshTime;
 
         private IGitLabService GitLabService => ServiceLocator.Get<IGitLabService>();
 
         public bool NeedUpdate =>
-            (DateTime.Now - RefreshTime).TotalSeconds > CACHE_TTL_SECONDS
+            (DateTime.Now - RefreshTime).TotalSeconds > ConfigManager.Instance.GetRefreshSecond()
             || _projectCache.Count == 0;
 
         public DateTime RefreshTime
         {
             get => _refreshTime;
             set => _refreshTime = value;
+        }
+
+        public void Clear()
+        {
+            _projectCache.Clear();
         }
 
         public ProjectInfo Get(string packageName)

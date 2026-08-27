@@ -20,6 +20,8 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         DateTime RefreshTime { get; set; }
 
+        void Clear();
+
         void Add(string projectId, string tag, PackageJson packageJson);
 
         PackageJson Get(string projectId, string tag);

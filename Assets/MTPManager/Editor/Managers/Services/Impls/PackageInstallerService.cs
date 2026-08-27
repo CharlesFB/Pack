@@ -128,6 +128,11 @@ namespace MagicTavern.FrontEngine.MTPManager
             await ProcessProgressStateAsync(state);
         }
 
+        public void ClearInterruptedProgress()
+        {
+            DeleteProgress();
+        }
+
         public async Task ResumeInterruptedInstallAsync()
         {
             EditorUtility.ClearProgressBar(); // 必要的进度条清理

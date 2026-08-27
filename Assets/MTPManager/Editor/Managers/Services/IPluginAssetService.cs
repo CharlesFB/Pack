@@ -43,6 +43,11 @@ namespace MagicTavern.FrontEngine.MTPManager
         void LoadFromPluginAssetList(PluginAssetList list);
 
         /// <summary>
+        /// 清空内存中的全部插件资源条目。
+        /// </summary>
+        void Clear();
+
+        /// <summary>
         /// 将当前内存状态持久化到 MTPPath.PLUGIN_ASSET_LIST_PATH。
         /// </summary>
         void SaveToLocal();

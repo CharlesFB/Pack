@@ -265,6 +265,12 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         public List<MTPackageInfo> GetAllPackages() => _dependencies.Values.ToList();
+        public PackageJson GetPackageJson(string packageName)
+        {
+            MTPackageInfo package = GetPackage(packageName);
+            if (package == null) return null;
+            return PackageJsonService.Get(package.ProjectId.ToString(), package.Tag);
+        }
 
         public bool SetPlugin(string packageName, string pluginKey, bool installed)
         {

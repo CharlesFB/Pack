@@ -55,7 +55,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             InstallToLocal = false;
             BlackList = new List<string>(MTPGit.DefaultBlacklist);
             
-            refreshFrequency = RefreshTime.OneDay;
+            refreshFrequency = RefreshTime.HalfHour;
         }
     }
 }

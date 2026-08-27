@@ -117,6 +117,11 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
         }
 
+        public void Clear()
+        {
+            _content.Clear();
+        }
+
         public void SaveToLocal()
         {
             JsonUtils.SaveToFile(MTPPath.PLUGIN_ASSET_LIST_PATH, ExportToPluginAssetList());
