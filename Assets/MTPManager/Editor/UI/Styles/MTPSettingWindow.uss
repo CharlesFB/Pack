@@ -1,4 +1,7 @@
 #tfItemInput .unity-text-field__input {
     color: rgb(230, 230, 230);
     -unity-text-align: middle-right;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

@@ -390,7 +390,8 @@ namespace MagicTavern.FrontEngine.MTPManager
                     .OrderBy(g => g.Key)
                     .ToList();
 
-                int maxLevel = packagesByLevel.Max(g => g.Key);
+                int maxLevel = packagesByLevel.Count > 0 ? 
+                    packagesByLevel.Max(g => g.Key) : 0;
                 float totalHeight = maxLevel * VERTICAL_SPACING;
                 // Depth 0 at top, deeper dependencies further down
                 float startY = (position.height - totalHeight) / 2f;

@@ -8,6 +8,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
 
 namespace MagicTavern.FrontEngine.MTPManager
@@ -156,6 +157,41 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
+        /// 在给定依赖树（线上或草稿）中查找与工程匹配的节点，规则与 <see cref="FindInstalled"/> 相同。
+        /// </summary>
+        public static MTPackageInfo FindInTree(ProjectInfo project, IReadOnlyDictionary<string, MTPackageInfo> tree)
+        {
+            if (project == null || tree == null || tree.Count == 0)
+            {
+                return null;
+            }
+
+            foreach (var package in tree.Values)
+            {
+                if (package != null && UrlUtils.MatchesProject(project, package.Url, package.Tag))
+                {
+                    return package;
+                }
+            }
+
+            foreach (var tag in GetVisibleSortedTags(project))
+            {
+                var tagInfo = GetTagInfo(project, tag);
+                if (tagInfo == null || string.IsNullOrEmpty(tagInfo.name))
+                {
+                    continue;
+                }
+
+                if (tree.TryGetValue(tagInfo.name, out var byName) && byName != null)
+                {
+                    return byName;
+                }
+            }
+
+            return null;
+        }
+
+        /// <summary>
         /// 按 ProjectId + Tag 检索 package.json 缓存（即 "taginfo"）。
         /// 同一仓库多包时，Tag 前缀必须等于 ProjectInfo.PackageName，否则视为不属于当前列表项。
         /// </summary>
@@ -195,11 +231,116 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             return "N/A";
         }
+        
+        /// <summary>
+        /// 非 DebugMode 下过滤黑名单；已安装的包即使在黑名单里也保留。DebugMode 开放黑名单。
+        /// </summary>
+        public static bool PassesBlackListFilter(ProjectInfo project, List<string> blackList, bool debugMode)
+        {
+            if (debugMode || blackList == null || blackList.Count == 0 || project == null)
+            {
+                return true;
+            }
+
+            if (!blackList.Contains(project.ProjectId.ToString()))
+            {
+                return true;
+            }
+
+            return FindInstalled(project) != null;
+        }
+        
+        public static List<ProjectInfo> BuildFilteredPackageList(List<ProjectInfo> initialList, bool descending = false, string searchText = null)
+        {
+            var config = ConfigManager.Instance.Current;
+            var blackList = config?.BlackList ?? new List<string>();
+            bool debugMode = config?.DebugMode ?? false;
+            var rowCache = new Dictionary<ProjectInfo, (MTPackageInfo installed, string displayName, bool hasVisibleTags)>();
+
+            (MTPackageInfo installed, string displayName, bool hasVisibleTags) Row(ProjectInfo project)
+            {
+                if (rowCache.TryGetValue(project, out var cached))
+                {
+                    return cached;
+                }
+
+                var installed = FindInstalled(project);
+                string displayTag = ResolveDisplayTag(project);
+                cached = (installed, GetDisplayName(project, displayTag), GetVisibleSortedTags(project).Count > 0);
+                rowCache[project] = cached;
+                return cached;
+            }
+
+            var candidates = initialList
+                .Where(project => project != null)
+                .Where(project => project.PackageType == PackageType.Normal)
+                .Where(project => PassesBlackListFilter(project, blackList, debugMode))
+                .Where(project => Row(project).hasVisibleTags)
+                .ToList();
+
+            // 先搜，后排序，提高展示性能
+            if (!string.IsNullOrEmpty(searchText))
+            {
+                candidates = candidates
+                    .Where(project => Row(project).displayName
+                        .IndexOf(searchText, StringComparison.OrdinalIgnoreCase) >= 0)
+                    .ToList();
+            }
+
+            candidates.Sort((a, b) =>
+            {
+                var rowA = Row(a);
+                var rowB = Row(b);
+                return CompareProjectListOrder(
+                    rowA.installed,
+                    rowA.displayName,
+                    rowB.installed,
+                    rowB.displayName,
+                    descending);
+            });
+
+            return candidates;
+        }
+
+        /// <summary>
+        /// 工程列表排序：已安装按 Depth 升序（0 最先），再未安装；同档按 displayName 忽略大小写。
+        /// installed 为 null 视为未安装。nameDescending 只翻转名称比较，不影响安装/深度档位。
+        /// 调用方自行决定 installed 来自线上树还是草稿树。
+        /// </summary>
+        public static int CompareProjectListOrder(
+            MTPackageInfo installedA, string displayNameA,
+            MTPackageInfo installedB, string displayNameB,
+            bool nameDescending = false)
+        {
+            bool aInstalled = installedA != null;
+            bool bInstalled = installedB != null;
+
+            if (aInstalled && bInstalled)
+            {
+                if (installedA.Depth < installedB.Depth)
+                {
+                    return -1;
+                }
+
+                if (installedA.Depth > installedB.Depth)
+                {
+                    return 1;
+                }
+            }
+
+            if (aInstalled != bInstalled)
+            {
+                return aInstalled ? -1 : 1;
+            }
+
+            int cmp = string.Compare(displayNameA, displayNameB, StringComparison.OrdinalIgnoreCase);
+            return nameDescending ? -cmp : cmp;
+        }
 
         /// <summary>
         /// 只把首字母大写，其余字符原样保留（不同于 TitleCase 逐词大写）。
         /// </summary>
-        private static string CapitalizeFirstLetter(string text)
+        public static string CapitalizeFirstLetter(string text)
         {
             if (string.IsNullOrEmpty(text))
             {

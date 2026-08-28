@@ -15,12 +15,16 @@ namespace MagicTavern.FrontEngine.MTPManager
         [MenuItem("MTTools/MTP Manager")]
         public static void OpenPackageManagerWindow()
         {
+            bool alreadyOpen = EditorWindow.HasOpenInstances<MTPackageManagerWindow>();
             var window = EditorWindow.GetWindow<MTPackageManagerWindow>();
             window.titleContent = new GUIContent("MT Package Manager");
             window.minSize = new Vector2(1200, 700);
             window.Show();
-            // 窗口若已经打开，CreateGUI 不会重新执行，这里显式再刷新一次，保证展示的是最新的真实数据
-            window.RefreshProjectListView();
+            // 首次打开 CreateGUI 已 RefreshProjectList；仅窗口已存在时补一次，避免算两遍列表
+            if (alreadyOpen)
+            {
+                window.RefreshProjectListView();
+            }
         }
     }
 }

@@ -68,9 +68,18 @@ namespace MagicTavern.FrontEngine.MTPManager
         void Clear();
 
         /// <summary>
-        /// 以 IRootPackageService 中的根包为起点，递归 dependenciesGit 重建整棵依赖树。
-        /// 每条节点优先用 package.json 缓存，缺失再拉 GitLab；失败的子节点跳过。
+        /// 以 IRootPackageService 中的根包为起点，递归 dependenciesGit 重建整棵依赖树并写入本服务内存。
+        /// 内部调用 <see cref="BuildTreeFromRootsAsync"/>，不改根包清单。
         /// </summary>
         Task RebuildFromRootsAsync(bool installToLocal);
+
+        /// <summary>
+        /// 从给定根包递归构建依赖树，返回新字典；不读写本服务内存树、不改根包清单。
+        /// 节点优先用 package.json 缓存，缺失再拉 GitLab；失败的子节点跳过。
+        /// 版本冲突规则：Depth 0 优先，否则取较新 Tag。
+        /// 遍历结束后把根清单中的包 Depth 强制置 0（避免先被当作依赖写入后 visited 跳过升根）。
+        /// </summary>
+        Task<Dictionary<string, MTPackageInfo>> BuildTreeFromRootsAsync(
+            IEnumerable<MTPackageInfo> roots, bool installToLocal);
     }
 }

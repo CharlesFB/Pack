@@ -27,21 +27,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public MTPackageInfo AddDependency(MTPackageInfo newPackage)
         {
-            EnsurePluginsInitialized(newPackage);
-
-            if (_dependencies.TryGetValue(newPackage.PackageName, out var existingPackage))
-            {
-                if (existingPackage.Revision != newPackage.Revision)
-                {
-                    existingPackage = TryToMerge(existingPackage, newPackage);
-                    _dependencies[existingPackage.PackageName] = existingPackage;
-                }
-
-                return existingPackage;
-            }
-
-            _dependencies.Add(newPackage.PackageName, newPackage);
-            return newPackage;
+            return AddToTree(_dependencies, newPackage);
         }
 
         public MTPackageInfo AddDependency(PackageJson rawPackage, string url, string tag, string revision, int depth, bool isLocal)
@@ -386,34 +372,88 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public async Task RebuildFromRootsAsync(bool installToLocal)
         {
-            Clear();
-            var roots = RootPackageService.GetAllRoots();
-            if (roots == null || roots.Count == 0)
+            var tree = await BuildTreeFromRootsAsync(RootPackageService.GetAllRoots(), installToLocal);
+            _dependencies.Clear();
+            foreach (var kvp in tree)
             {
-                LM.Log("[MTPackageInfoService] RebuildFromRoots: 根包列表为空，依赖树已清空");
-                return;
+                _dependencies[kvp.Key] = kvp.Value;
+            }
+        }
+
+        public async Task<Dictionary<string, MTPackageInfo>> BuildTreeFromRootsAsync(
+            IEnumerable<MTPackageInfo> roots, bool installToLocal)
+        {
+            var tree = new Dictionary<string, MTPackageInfo>();
+            if (roots == null)
+            {
+                return tree;
             }
 
-            var visited = new HashSet<string>();
+            var rootList = new List<MTPackageInfo>();
             foreach (var root in roots)
             {
                 if (root == null || string.IsNullOrEmpty(root.Url) || string.IsNullOrEmpty(root.Tag))
                 {
                     LM.LogWarning(
-                        $"[MTPackageInfoService] RebuildFromRoots 跳过无效根包: {root?.PackageName}");
+                        $"[MTPackageInfoService] BuildTreeFromRoots 跳过无效根包: {root?.PackageName}");
                     continue;
                 }
 
-                await WalkDependencyAsync(root.Url, root.Tag, 0, installToLocal, visited);
+                rootList.Add(root);
             }
 
-            LM.Log($"[MTPackageInfoService] RebuildFromRoots done. nodes:{_dependencies.Count}, roots:{roots.Count}");
+            var visited = new HashSet<string>();
+            foreach (var root in rootList)
+            {
+                await WalkDependencyAsync(tree, root.Url, root.Tag, 0, installToLocal, visited);
+            }
+
+            PromoteRootsToDepthZero(tree, rootList);
+
+            if (rootList.Count == 0)
+            {
+                LM.Log("[MTPackageInfoService] BuildTreeFromRoots: 根包列表为空");
+            }
+            else
+            {
+                LM.Log(
+                    $"[MTPackageInfoService] BuildTreeFromRoots done. nodes:{tree.Count}, roots:{rootList.Count}");
+            }
+
+            return tree;
+        }
+
+        /// <summary>
+        /// 根包可能先被其它根的 dependenciesGit 以 Depth&gt;0 写入，visited 随后挡住它自己的 Depth=0 遍历。
+        /// 走完树后按根清单 PackageName 把对应节点强制置回 Depth 0。
+        /// </summary>
+        private static void PromoteRootsToDepthZero(
+            Dictionary<string, MTPackageInfo> tree, List<MTPackageInfo> roots)
+        {
+            if (tree == null || roots == null)
+            {
+                return;
+            }
+
+            foreach (var root in roots)
+            {
+                if (root == null || string.IsNullOrEmpty(root.PackageName))
+                {
+                    continue;
+                }
+
+                if (tree.TryGetValue(root.PackageName, out var node) && node != null)
+                {
+                    node.Depth = 0;
+                }
+            }
         }
 
         private async Task WalkDependencyAsync(
+            Dictionary<string, MTPackageInfo> tree,
             string url, string tag, int depth, bool installToLocal, HashSet<string> visited)
         {
-            if (string.IsNullOrEmpty(url) || string.IsNullOrEmpty(tag))
+            if (tree == null || string.IsNullOrEmpty(url) || string.IsNullOrEmpty(tag))
             {
                 return;
             }
@@ -430,7 +470,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
-            AddDependency(node);
+            AddToTree(tree, node);
 
             if (node.Dependencies == null || node.Dependencies.Count == 0)
             {
@@ -452,12 +492,35 @@ namespace MagicTavern.FrontEngine.MTPManager
                 }
 
                 await WalkDependencyAsync(
+                    tree,
                     depUrl.Substring(0, splitIndex),
                     depUrl.Substring(splitIndex + 1),
                     depth + 1,
                     installToLocal,
                     visited);
             }
+        }
+
+        /// <summary>
+        /// 写入目标树并做版本合并，不碰本服务 <see cref="_dependencies"/>。
+        /// </summary>
+        private MTPackageInfo AddToTree(Dictionary<string, MTPackageInfo> tree, MTPackageInfo newPackage)
+        {
+            EnsurePluginsInitialized(newPackage);
+
+            if (tree.TryGetValue(newPackage.PackageName, out var existingPackage))
+            {
+                if (existingPackage.Revision != newPackage.Revision)
+                {
+                    existingPackage = TryToMerge(existingPackage, newPackage);
+                    tree[existingPackage.PackageName] = existingPackage;
+                }
+
+                return existingPackage;
+            }
+
+            tree.Add(newPackage.PackageName, newPackage);
+            return newPackage;
         }
 
         private async Task<MTPackageInfo> ResolveNodeAsync(string url, string tag, int depth, bool isLocal)

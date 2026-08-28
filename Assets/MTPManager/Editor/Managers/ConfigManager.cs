@@ -43,6 +43,13 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
         }
 
+        public MTPConfig GetDefault()
+        {
+            MTPConfig config = new MTPConfig();
+            config.ResetToDefault();
+            return config;
+        }
+
         public double GetRefreshSecond()
         {
             switch (_currentConfig.refreshFrequency)
@@ -53,6 +60,8 @@ namespace MagicTavern.FrontEngine.MTPManager
                     return 3600;
                 case RefreshTime.OneDay :
                     return 86400;
+                case RefreshTime.ThreeDay:
+                    return 259200;
                 case RefreshTime.OneWeek :
                     return 604800;
                 case RefreshTime.OneMonth :

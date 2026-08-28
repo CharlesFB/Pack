@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using JetBrains.Annotations;
 using MagicTavern.FrontEngine.MTPManager;
 using UnityEditor;
 using UnityEngine;
@@ -39,11 +41,9 @@ public class MTPSettingWindow : EditorWindow
 
     public static void ShowSettingWindow()
     {
-        var window = CreateInstance<MTPSettingWindow>();
+        var window = GetWindow<MTPSettingWindow>();
         window.titleContent = new GUIContent("MTP Config Settings");
-        window.minSize = new Vector2(450, 450);
-        
-        window.ShowUtility();
+        window.minSize = new Vector2(450, 480);
         window.Focus();
     }
     
@@ -83,16 +83,6 @@ public class MTPSettingWindow : EditorWindow
             _btnSave.clicked += OnSave;
         if (_btnReset != null)
             _btnReset.clicked += OnReset;
-
-        // if (_tgDebugMode != null)
-        //     _tgDebugMode.RegisterValueChangedCallback(OnChangeDebugMode);
-        // if (_tgDevTag != null)
-        //     _tgDevTag.RegisterValueChangedCallback(OnChangeDevTag);
-        // if (_tgLogOnConsole != null)
-        //     _tgLogOnConsole.RegisterValueChangedCallback(OnChangeLogOnConsole);
-        // if (_tgInstallToLocal != null)
-        //     _tgInstallToLocal.RegisterValueChangedCallback(OnChangeInstallToLocal);
-
         try
         {
             SetConfigValues();
@@ -103,9 +93,9 @@ public class MTPSettingWindow : EditorWindow
         }
     }
 
-    private void SetConfigValues()
+    private void SetConfigValues([CanBeNull] MTPConfig cfg = null)
     {
-        var config = ConfigManager.Instance.Current;
+        var config = cfg ?? ConfigManager.Instance.Current;
         _tfUrl.value = config.Url;
         _tfToken.value = config.PrivateToken;
         _tfGroupID.value = config.GroupId;
@@ -186,9 +176,64 @@ public class MTPSettingWindow : EditorWindow
         //     ConfigManager.Instance.Current.BlackList.Add(_tfItemInput.value);
     }
 
-    private void OnSave()
+    private async void OnSave()
     {
         var config = ConfigManager.Instance.Current;
+        bool changeInstallMode = config.InstallToLocal != _tgInstallToLocal.value;
+        if (changeInstallMode)
+        {
+            bool confirmed = EditorUtility.DisplayDialog(
+                "正在切换下载模式",
+                "检测到正在切换下载模式，切换模式需要重置MTP状态，卸载所有MTP管理的包安装资源，确定要「继续切换模式」吗？",
+                "确定",
+                "取消"
+            );
+            if (!confirmed)
+            {
+                _tgInstallToLocal.SetValueWithoutNotify(config.InstallToLocal);
+                return;
+            }
+        }
+
+        ApplyFormToConfig(config);
+        ConfigManager.Instance.Save();
+
+        if (changeInstallMode)
+        {
+            _btnSave?.SetEnabled(false);
+            _btnReset?.SetEnabled(false);
+            try
+            {
+                // 必须先 Save 新 InstallToLocal，再 ResetAsync(true)
+                EditorUtility.DisplayProgressBar("Reset MTP", "Switching install mode...", 0.3f);
+                bool ok = await ServiceLocator.Get<IPackageSyncService>().ResetAsync(true);
+                if (!ok)
+                {
+                    EditorUtility.DisplayDialog(
+                        "重置未完成",
+                        "安装模式已保存，但卸载未能全部完成，部分包可能仍处于安装状态。请查看 Console，必要时在主窗口再点一次 Reset。",
+                        "确定");
+                }
+            }
+            catch (Exception e)
+            {
+                LM.LogWarning($"[MTPSettingWindow] 切换安装模式 Reset 失败: {e.Message}");
+                EditorUtility.DisplayDialog("重置失败", e.Message, "确定");
+            }
+            finally
+            {
+                _btnSave?.SetEnabled(true);
+                _btnReset?.SetEnabled(true);
+                EditorUtility.ClearProgressBar();
+            }
+        }
+
+        MTPackageManagerWindow.RefreshOpenWindows();
+        Close();
+    }
+
+    private void ApplyFormToConfig(MTPConfig config)
+    {
         config.Url = _tfUrl.value;
         config.PrivateToken = _tfToken.value;
         config.GroupId = _tfGroupID.value;
@@ -196,7 +241,10 @@ public class MTPSettingWindow : EditorWindow
         foreach (var child in _foBlackList.Children())
         {
             var lbName = child.Q<Label>("lbName");
-            config.BlackList.Add(lbName.text);
+            if (lbName != null && !string.IsNullOrEmpty(lbName.text))
+            {
+                config.BlackList.Add(lbName.text);
+            }
         }
 
         config.refreshFrequency = Enum.Parse<RefreshTime>(_ddRefreshTime.value);
@@ -205,35 +253,12 @@ public class MTPSettingWindow : EditorWindow
         config.LogOnConsole = _tgLogOnConsole.value;
         config.InstallToLocal = _tgInstallToLocal.value;
         config.ProjectTag = _tfProjectTag.value;
-        ConfigManager.Instance.Save();
-        MTPackageManagerWindow.RefreshOpenWindows();
-        Close();
     }
 
     private void OnReset()
     {
-        ConfigManager.Instance.Current.ResetToDefault();
+        // ConfigManager.Instance.Current.ResetToDefault();
         ClearConfigValues();
-        SetConfigValues();
-    }
-
-    private void OnChangeDebugMode(ChangeEvent<bool> evt)
-    {
-        
-    }
-    
-    private void OnChangeDevTag(ChangeEvent<bool> evt)
-    {
-        
-    }
-
-    private void OnChangeLogOnConsole(ChangeEvent<bool> evt)
-    {
-        
-    }
-
-    private void OnChangeInstallToLocal(ChangeEvent<bool> evt)
-    {
-        
+        SetConfigValues(ConfigManager.Instance.GetDefault());
     }
 }

@@ -309,7 +309,7 @@ public class MTPackageManagerWindow : EditorWindow
 
     private void OnQuickInstallClicked()
     {
-        
+        QuickInstallWindow.ShowExample();
     }
     
     private void OnClearClicked()
@@ -372,9 +372,7 @@ public class MTPackageManagerWindow : EditorWindow
 
     private void OnSettingClicked()
     {
-        MTPSettingWindow wnd = GetWindow<MTPSettingWindow>();
-        wnd.titleContent = new GUIContent("MTPSettingWindow");
-        wnd.minSize = new Vector2(470, 470);
+        MTPSettingWindow.ShowSettingWindow();
     }
 
     private void OnClearSearchClicked()
@@ -624,82 +622,10 @@ public class MTPackageManagerWindow : EditorWindow
 
     private List<ProjectInfo> BuildFilteredSortedProjects()
     {
-        var config = ConfigManager.Instance.Current;
-        var blackList = config?.BlackList ?? new List<string>();
-        bool debugMode = config?.DebugMode ?? false;
         string searchText = _tfSearch?.value?.Trim() ?? string.Empty;
-
-        // ddPackage 目前只有 "Package: FrontEngine" 一个选项，对应 PackageType.Normal，
-        // 因此这里直接按 Normal 过滤；后续若 ddPackage 增加更多选项，再改为按当前选中值映射的类型过滤。
-        var candidates = ProjectInfoService.GetAll()
-            .Where(project => project != null)
-            .Where(project => project.PackageType == PackageType.Normal)
-            .Where(project => PassesBlackListFilter(project, blackList, debugMode))
-            .Where(project => ProjectDisplayUtils.GetVisibleSortedTags(project).Count > 0)
-            .ToList();
-
-        if (!string.IsNullOrEmpty(searchText))
-        {
-            candidates = candidates
-                .Where(project => ResolveDisplayNameForSort(project)
-                    .IndexOf(searchText, StringComparison.OrdinalIgnoreCase) >= 0)
-                .ToList();
-        }
-
+        var candidates = ProjectInfoService.GetAll();
         bool descending = _sortDescending;
-        candidates.Sort((a, b) =>
-        {
-            var mtpA = ProjectDisplayUtils.FindInstalled(a);
-            var mtpB = ProjectDisplayUtils.FindInstalled(b);
-            var disA = ResolveDisplayNameForSort(a);
-            var disB = ResolveDisplayNameForSort(b);
-            bool aInstalled = mtpA != null;
-            bool bInstalled = mtpB != null;
-            // 均已安装比较节点深度，越深越往后
-            if (aInstalled && bInstalled)
-            {
-                if (mtpA.Depth < mtpB.Depth)
-                    return -1;
-                if (mtpA.Depth > mtpB.Depth)
-                    return 1;
-                // 相同深度比较展示名称
-                // return string.Compare(disA, disB, StringComparison.OrdinalIgnoreCase);
-            }
-            // 优先 已安装 < 未安装
-            if (aInstalled != bInstalled)
-            {
-                return aInstalled ? -1 : 1;
-            }
-
-            // 次优先 “同深度” 或 “均未安装” 按展示名称升序/降序
-            int cmp = string.Compare(disA, disB, StringComparison.OrdinalIgnoreCase);
-            return descending ? -cmp : cmp;
-        });
-
-        return candidates;
-    }
-
-    /// <summary>
-    /// 非 DebugMode 下过滤黑名单；已安装的包即使在黑名单里也保留。DebugMode 开放黑名单。
-    /// </summary>
-    private static bool PassesBlackListFilter(ProjectInfo project, List<string> blackList, bool debugMode)
-    {
-        if (debugMode || blackList == null || blackList.Count == 0 || project == null)
-        {
-            return true;
-        }
-
-        if (!blackList.Contains(project.ProjectId.ToString()))
-        {
-            return true;
-        }
-
-        return ProjectDisplayUtils.FindInstalled(project) != null;
-    }
-
-    private static string ResolveDisplayNameForSort(ProjectInfo project)
-    {
-        return ProjectDisplayUtils.GetDisplayName(project, ProjectDisplayUtils.ResolveDisplayTag(project));
+        return ProjectDisplayUtils.BuildFilteredPackageList(candidates, descending, searchText);
     }
     #endregion ProjectList
 

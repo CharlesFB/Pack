@@ -3,26 +3,26 @@
     <ui:VisualElement style="flex-grow: 1; justify-content: space-between; padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; width: 100%; height: 100%;">
         <ui:VisualElement style="flex-grow: 2; align-self: stretch; min-height: auto;">
             <ui:Label tabindex="-1" text="Git Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold; margin-left: 2px; font-size: 15px; margin-top: 8px; margin-bottom: 8px;" />
-            <ui:TextField picking-mode="Ignore" label="Git URL" name="tfUrl" style="-unity-text-align: middle-left; font-size: 14px; height: auto;" />
-            <ui:TextField value="123123" label="Private Token" password="true" mask-character="•" name="tfToken" style="-unity-text-align: middle-left; font-size: 14px;" />
-            <ui:TextField picking-mode="Ignore" label="Group ID" name="tfGroupID" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:TextField picking-mode="Ignore" label="Git URL" name="tfUrl" tooltip="获取数据的Git配置，不用更改" style="-unity-text-align: middle-left; font-size: 14px; height: auto;" />
+            <ui:TextField value="123123" label="Private Token" password="true" mask-character="•" name="tfToken" tooltip="获取数据的Git配置，不用更改" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:TextField picking-mode="Ignore" label="Group ID" name="tfGroupID" tooltip="获取数据的Git配置，不用更改" style="-unity-text-align: middle-left; font-size: 14px;" />
             <ui:Label tabindex="-1" text="Mode Check" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="-unity-font-style: bold; font-size: 15px; margin-bottom: 8px; margin-top: 15px;" />
-            <ui:Toggle label="Debug Mode" name="tgDebugMode" style="height: auto; -unity-text-align: middle-left; font-size: 14px;" />
-            <ui:Toggle label="Current Tag" name="tgDevTag" style="height: auto; -unity-text-align: middle-left; font-size: 14px;" />
-            <ui:Toggle label="Log On Console" name="tgLogOnConsole" style="-unity-text-align: middle-left; font-size: 14px;" />
-            <ui:Toggle label="Install To Local" name="tgInstallToLocal" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Debug Mode" name="tgDebugMode" tooltip="切换到Debug模式" style="height: auto; -unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Current Tag" name="tgDevTag" tooltip="显示当前Git分支到Scene和Game页" style="height: auto; -unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Log On Console" name="tgLogOnConsole" tooltip="是否将MTP日志打印到控制台上" style="-unity-text-align: middle-left; font-size: 14px;" />
+            <ui:Toggle label="Install To Local" name="tgInstallToLocal" tooltip="切换到嵌入包安装模式" style="-unity-text-align: middle-left; font-size: 14px;" />
             <ui:Label tabindex="-1" text="Project Filter" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 15px; -unity-font-style: bold; font-size: 15px; margin-bottom: 8px;" />
-            <ui:TextField picking-mode="Ignore" label="Project Tag" name="tfProjectTag" style="font-size: 14px;" />
-            <ui:Foldout text="BlackList" name="foBlackList" style="font-size: 14px;" />
+            <ui:TextField picking-mode="Ignore" label="Project Tag" name="tfProjectTag" tooltip="筛选供下载的Tag" style="font-size: 14px;" />
+            <ui:Foldout text="BlackList" name="foBlackList" tooltip="工程id黑名单列表，在内的工程将不会在非Debug模式下展示出来" style="font-size: 14px;" />
             <ui:VisualElement style="flex-grow: initial; max-height: 35px; flex-direction: row-reverse; min-height: 35px;">
                 <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnAdd" style="max-height: none; min-height: auto; min-width: 40px; max-width: 40px; width: auto; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-top: 8px; margin-right: 10px; margin-bottom: 8px; margin-left: 10px; padding-top: 5px; padding-bottom: 5px;" />
-                <ui:TextField picking-mode="Ignore" name="tfItemInput" style="flex-grow: 1; max-width: 66%; margin-top: 8px; margin-bottom: 8px;" />
+                <ui:TextField picking-mode="Ignore" name="tfItemInput" label="Add To BlackList    " style="flex-grow: 1; max-width: none; margin-top: 2px; margin-bottom: 2px; -unity-text-align: middle-left; align-items: stretch;" />
             </ui:VisualElement>
-            <ui:DropdownField label="Refresh Time" name="ddRefreshTime" style="min-height: 24px; max-height: none; max-width: 50%; font-size: 14px; -unity-text-align: middle-left;" />
+            <ui:DropdownField label="Refresh Time" name="ddRefreshTime" tooltip="自动更新MTP缓存工程列表的最小时间" style="min-height: auto; max-height: none; max-width: 50%; font-size: 14px; -unity-text-align: middle-left; margin-top: 10px; -unity-font-style: normal;" />
         </ui:VisualElement>
         <ui:VisualElement style="flex-grow: 1; min-width: auto; min-height: auto; justify-content: flex-end; border-left-color: rgb(88, 255, 0); border-right-color: rgb(88, 255, 0); border-top-color: rgb(88, 255, 0); border-bottom-color: rgb(88, 255, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; align-self: stretch; height: auto;">
             <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnSave" style="align-self: stretch; flex-direction: column; justify-content: flex-start; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-width: auto; min-height: 30px; font-size: 15px;" />
-            <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnReset" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-width: auto; min-height: 30px; font-size: 15px;" />
+            <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnReset" tooltip="重置到默认配置" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; min-width: auto; min-height: 30px; font-size: 15px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

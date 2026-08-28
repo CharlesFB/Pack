@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 647a14602112d4f5e9d287c2293294ce
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - quickInstallWindow: {fileID: 9197481963319205126, guid: fa21be2943e4a42edbe0f2ada7b1749b, type: 3}
+  - packageListItem: {fileID: 9197481963319205126, guid: 059490e6a90574a0ab7485232c59a324, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
