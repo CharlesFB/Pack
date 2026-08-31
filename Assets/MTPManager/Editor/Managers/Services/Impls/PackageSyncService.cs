@@ -28,7 +28,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         public async Task<bool> SyncManifestAsync(bool? installToLocal = null)
         {
             bool toLocal = installToLocal ?? ConfigManager.Instance.Current?.InstallToLocal ?? false;
-            LM.Log($"[PackageSyncService] SyncManifest Start. installToLocal:{toLocal}");
+            LM.Log($"[PackageSyncService] 开始同步清单并收集安装器安装卸载请求. installToLocal:{toLocal}");
 
             var previousTree = MTPackage.ExportToMTPackageInfoList();
 
@@ -55,8 +55,8 @@ namespace MagicTavern.FrontEngine.MTPManager
                 }
 
                 LM.Log(
-                    $"[PackageSyncService] Plan installToLocal:{toLocal}, " +
-                    $"tree:{MTPackage.GetAllPackages().Count}, add:{addList.Count}, remove:{removeList.Count}");
+                    $"[PackageSyncService] 同步清单、收集整理依赖完成，installToLocal:{toLocal}, " +
+                    $"depTree:{MTPackage.GetAllPackages().Count}, add:{addList.Count}, remove:{removeList.Count}");
 
                 var requests = Installer.LoadInstallerRequest(addList, removeList);
                 if (requests != null && requests.Count > 0)
@@ -78,7 +78,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
                 Manifest.LoadFromLocal();
                 AssetDatabase.Refresh();
-                LM.Log("[PackageSyncService] SyncManifest Success");
+                LM.Log("[PackageSyncService] 同步清单完成");
                 return true;
             }
             catch (Exception e)

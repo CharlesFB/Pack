@@ -228,6 +228,7 @@ public class MTPSettingWindow : EditorWindow
             }
         }
 
+        DevTagOverlay.Refresh();
         MTPackageManagerWindow.RefreshOpenWindows();
         Close();
     }

@@ -21,7 +21,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         Task ResumeInterruptedInstallAsync();
 
         /// <summary>
-        /// 删除安装器中断恢复进度文件，避免 Reset 后续跑过期批次。
+        /// 删除安装器中断恢复进度文件。
         /// </summary>
         void ClearInterruptedProgress();
     }

@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using MagicTavern.FrontEngine.MTPManager.LitJson;
 using UnityEditor;
 using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
 
@@ -20,6 +21,12 @@ namespace MagicTavern.FrontEngine.MTPManager
         private IGitLabService GitLab => ServiceLocator.Get<IGitLabService>();
         private IMTPackageInfoService MTPackage => ServiceLocator.Get<IMTPackageInfoService>();
         private IPluginAssetService PluginAsset => ServiceLocator.Get<IPluginAssetService>();
+
+        private readonly List<ProjectInfo> _extraPlugins = new List<ProjectInfo>();
+        private DateTime _extraPluginsRefreshTime;
+
+        public IReadOnlyList<ProjectInfo> ExtraPlugins => _extraPlugins;
+        public DateTime ExtraPluginsRefreshTime => _extraPluginsRefreshTime;
 
         public Task<bool> PreparePluginsAsync(MTPackageInfo mtPackage, bool persist = true)
         {
@@ -44,7 +51,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// 只扫已安装包本地 Editor/PluginsPackage（不递归），写入 packageName#fileName Key；不写 PluginAsset。
+        /// 只扫已安装包本地 Editor/PluginsPackage，写入 packageName#fileName Key；不写 PluginAsset。
         /// 已导入状态按 PluginAsset 的 Key 是否有资源清单判定。目录存在时清掉该包下已消失的 PluginAsset 记录。
         /// </summary>
         public void SyncPluginsFromDisk(MTPackageInfo mtPackage)
@@ -416,6 +423,190 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             result.Sort(StringComparer.OrdinalIgnoreCase);
             return result;
+        }
+
+        public async Task<List<ProjectInfo>> PullExtraPluginsListAsync()
+        {
+            _extraPlugins.Clear();
+            _extraPluginsRefreshTime = DateTime.Now;
+            if (GitLab == null || !GitLab.EnsureClient())
+            {
+                LM.LogError("[PluginPackageService] PullExtraPluginsList: GitLab Client 不可用");
+                return _extraPlugins;
+            }
+
+            var trees = await GitLab.GetTreesAsync(
+                MTPGit.EXTRA_PLUGINS_PROJECT_ID,
+                MTPGit.EXTRA_PLUGINS_DIR,
+                MTPGit.EXTRA_PLUGINS_REF,
+                recursive: true);
+            if (trees == null || trees.Count == 0)
+            {
+                LM.LogWarning("[PluginPackageService] 2636 plugins/ 目录树为空");
+                _extraPluginsRefreshTime = DateTime.Now;
+                return _extraPlugins;
+            }
+
+            var pluginsDict = new Dictionary<string, ProjectInfo>(StringComparer.Ordinal);
+            foreach (var item in trees)
+            {
+                if (item == null
+                    || !string.Equals(item.Type, "blob", StringComparison.OrdinalIgnoreCase)
+                    || string.IsNullOrEmpty(item.Path))
+                {
+                    continue;
+                }
+
+                string path = item.Path.Replace('\\', '/');
+                if (path.IndexOf($"{MTPGit.EXTRA_PLUGINS_DIR}/-", StringComparison.Ordinal) >= 0)
+                {
+                    continue;
+                }
+
+                if (!path.StartsWith($"{MTPGit.EXTRA_PLUGINS_DIR}/", StringComparison.Ordinal)
+                    && !string.Equals(path, MTPGit.EXTRA_PLUGINS_DIR, StringComparison.Ordinal))
+                {
+                    path = $"{MTPGit.EXTRA_PLUGINS_DIR}/{path}";
+                }
+
+                var parts = path.Split('/');
+                if (parts.Length < 2
+                    || !string.Equals(parts[0], MTPGit.EXTRA_PLUGINS_DIR, StringComparison.Ordinal))
+                {
+                    continue;
+                }
+
+                string pluginName = parts[1];
+                if (string.IsNullOrEmpty(pluginName) || pluginName.Contains(".DS_Store"))
+                {
+                    continue;
+                }
+
+                string version = parts.Length >= 3 && !parts[2].Contains(".DS_Store") ? parts[2] : string.Empty;
+                string fileName = parts.Length >= 4
+                                  && parts[3].EndsWith(".unitypackage", StringComparison.OrdinalIgnoreCase)
+                    ? parts[3]
+                    : string.Empty;
+
+                if (!pluginsDict.TryGetValue(pluginName, out var info))
+                {
+                    info = new ProjectInfo
+                    {
+                        PackageName = pluginName,
+                        ProjectId = MTPGit.EXTRA_PLUGINS_PROJECT_ID,
+                        PackageType = PackageType.ExPlugin,
+                        Tags = new List<string>(),
+                        PluginFileNames = new List<string>(),
+                    };
+                    pluginsDict.Add(pluginName, info);
+                }
+
+                if (!string.IsNullOrEmpty(version)
+                    && !string.IsNullOrEmpty(fileName)
+                    && !info.Tags.Contains(version))
+                {
+                    info.Tags.Add(version);
+                    info.PluginFileNames.Add(fileName);
+                }
+            }
+
+            foreach (var info in pluginsDict.Values)
+            {
+                info.Tags.Reverse();
+                info.PluginFileNames.Reverse();
+                _extraPlugins.Add(info);
+            }
+
+            _extraPluginsRefreshTime = DateTime.Now;
+            LM.Log($"[PluginPackageService] PullExtraPluginsList done. count:{_extraPlugins.Count}");
+            return _extraPlugins;
+        }
+
+        public string GetExtraPluginFileName(ProjectInfo project, string version)
+        {
+            if (project?.Tags == null || project.PluginFileNames == null || string.IsNullOrEmpty(version))
+            {
+                return string.Empty;
+            }
+
+            int idx = project.Tags.IndexOf(version);
+            if (idx < 0 || idx >= project.PluginFileNames.Count)
+            {
+                return string.Empty;
+            }
+
+            return project.PluginFileNames[idx] ?? string.Empty;
+        }
+
+        public async Task<bool> ImportExtraPluginInteractiveAsync(ProjectInfo project, string version)
+        {
+            string fileName = GetExtraPluginFileName(project, version);
+            if (project == null || string.IsNullOrEmpty(fileName))
+            {
+                LM.LogWarning("[PluginPackageService] ImportExtraPlugin: 当前版本没有 .unitypackage");
+                return false;
+            }
+
+            if (GitLab == null || !GitLab.EnsureClient())
+            {
+                LM.LogError("[PluginPackageService] ImportExtraPlugin: GitLab Client 不可用");
+                return false;
+            }
+
+            string gitPath = $"{MTPGit.EXTRA_PLUGINS_DIR}/{project.PackageName}/{version}/{fileName}";
+            string destPath = Path.Combine(Path.GetTempPath(), fileName);
+            bool downloaded = await GitLab.DownloadFileAsync(
+                MTPGit.EXTRA_PLUGINS_PROJECT_ID, gitPath, destPath, MTPGit.EXTRA_PLUGINS_REF);
+            if (!downloaded || !File.Exists(destPath))
+            {
+                LM.LogError($"[PluginPackageService] ImportExtraPlugin 下载失败: {gitPath}");
+                return false;
+            }
+
+            AssetDatabase.ImportPackage(destPath, true);
+            return true;
+        }
+
+        public async Task<PackageJson> GetExtraPluginPackageJsonAsync(ProjectInfo project, string version)
+        {
+            if (project == null || string.IsNullOrEmpty(project.PackageName)
+                || GitLab == null || !GitLab.EnsureClient())
+            {
+                return null;
+            }
+
+            if (!string.IsNullOrEmpty(version))
+            {
+                var versioned = await TryReadExtraPluginPackageJsonAsync(
+                    $"{MTPGit.EXTRA_PLUGINS_DIR}/{project.PackageName}/{version}/package.json");
+                if (versioned != null)
+                {
+                    return versioned;
+                }
+            }
+
+            return await TryReadExtraPluginPackageJsonAsync(
+                $"{MTPGit.EXTRA_PLUGINS_DIR}/{project.PackageName}/package.json");
+        }
+
+        private async Task<PackageJson> TryReadExtraPluginPackageJsonAsync(string gitPath)
+        {
+            string text = await GitLab.GetFileTextAsync(
+                MTPGit.EXTRA_PLUGINS_PROJECT_ID, gitPath, MTPGit.EXTRA_PLUGINS_REF, logOnFailure: false);
+            if (string.IsNullOrEmpty(text))
+            {
+                return null;
+            }
+
+            try
+            {
+                return JsonMapper.ToObject<PackageJson>(text);
+            }
+            catch (Exception e)
+            {
+                LM.LogWarning($"[PluginPackageService] Extra Plugin package.json 解析失败: {gitPath}\n{e.Message}");
+                return null;
+            }
         }
 
         private void EnsurePackageTracked(MTPackageInfo mtPackage)

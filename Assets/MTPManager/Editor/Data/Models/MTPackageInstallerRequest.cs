@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using UnityEditor.PackageManager;
 using UnityEditor.PackageManager.Requests;
 
@@ -8,6 +9,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     /// 安装器单条请求。字段可被 LitJson 写入中断恢复进度文件。
     /// </summary>
     [Serializable]
+    [SuppressMessage("ReSharper", "InconsistentNaming")]
     public class MTPackageInstallerRequest
     {
         public RequestType RequestType;

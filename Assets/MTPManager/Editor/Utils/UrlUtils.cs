@@ -33,6 +33,14 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
+        /// 去掉 URL 中的 oauth2 private token，保留 #tag / #revision。
+        /// </summary>
+        public static string StripPrivateToken(string url)
+        {
+            return FormatUrl(url);
+        }
+
+        /// <summary>
         /// 把 package.json dependenciesGit 的 "仓库链接#tag" 转成可安装链接（携带 DEFAULT_TOKEN）。
         /// </summary>
         public static string ToInstallGitUrl(string gitDependencyUrl, string privateToken = null)

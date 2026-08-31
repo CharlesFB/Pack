@@ -2,7 +2,8 @@
     "name": "MagicTavern.FrontEngine.MTPTest",
     "rootNamespace": "",
     "references": [
-        "GUID:9f2a8fa4de3a74e39a7929734141a52a"
+        "GUID:9f2a8fa4de3a74e39a7929734141a52a",
+        "GUID:edaf137435d54a09a6cf4e111596c89d"
     ],
     "includePlatforms": [
         "Editor"

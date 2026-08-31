@@ -48,7 +48,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
             catch (Exception e)
             {
-                LM.LogError($"[MTPApplicationStarter] EditorFirstStartup failed: {e}");
+                LM.LogError($"[MTPApplicationStarter] 首次启动缓存检查失败，请检查Git配置是否正常，网络环境是否正确。错误信息: {e.Message}");
                 SessionState.SetBool(SessionKey.EDITOR_FIRST_STARTUP, false);
             }
         }
@@ -78,7 +78,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             localPackage.LoadFromLocal();
 
             LM.Log(
-                $"[MTPApplicationStarter] Memory loaded. " +
+                $"[MTPApplicationStarter] 内存装载已完成. " +
                 $"deps:{mtPackageInfo.GetAllPackages().Count}, " +
                 $"projects:{projectInfo.GetAll().Count}, " +
                 $"pluginAssets:{pluginAssetList.GetAll().Count}");
@@ -98,7 +98,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
             catch (Exception e)
             {
-                LM.LogError($"[MTPApplicationStarter] OnScriptReloaded failed: {e.Message}");
+                LM.LogError($"[MTPApplicationStarter] 重载后恢复流程失败。错误信息: {e.Message}");
             }
             finally
             {
@@ -131,7 +131,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         private static async Task InterruptedRecoveryAsync()
         {
             await ServiceLocator.Get<IPackageInstallerService>().ResumeInterruptedInstallAsync();
-            LM.Log("[MTPApplicationStarter] InterruptedRecovery done.");
+            LM.Log("[MTPApplicationStarter] 中断恢复流程已全部完成.");
         }
 
         /// <summary>
@@ -140,7 +140,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         private static async Task SynchronizeManifestAsync()
         {
             var ok = await ServiceLocator.Get<IPackageSyncService>().SyncManifestAsync();
-            LM.Log($"[MTPApplicationStarter] SynchronizeManifest done. success:{ok}");
+            LM.Log($"[MTPApplicationStarter] 同步依赖树清单已完成. 成功状态:{ok}");
         }
     }
 }

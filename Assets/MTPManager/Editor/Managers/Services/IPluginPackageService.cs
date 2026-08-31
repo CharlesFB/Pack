@@ -5,6 +5,7 @@
 // @Description: 插件包服务接口（Prepare / Import / Remove）
 // ==================================================
 
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -60,5 +61,33 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// 列出远端 Editor/PluginsPackage 当前目录下的 .zip / .unitypackage 文件名（不递归）。
         /// </summary>
         Task<List<string>> ListRemotePluginFileNamesAsync(int projectId, string reference);
+
+        /// <summary>
+        /// 当前内存中的 External 插件目录（不落盘）。未拉取过则为空。
+        /// </summary>
+        IReadOnlyList<ProjectInfo> ExtraPlugins { get; }
+
+        DateTime ExtraPluginsRefreshTime { get; }
+
+        /// <summary>
+        /// 从 GitLab 2636 plugins/ 重新拉取 External 目录到内存，并更新 ExtraPluginsRefreshTime。
+        /// </summary>
+        Task<List<ProjectInfo>> PullExtraPluginsListAsync();
+
+        /// <summary>
+        /// 当前版本对应的 .unitypackage 文件名；没有则返回空。
+        /// </summary>
+        string GetExtraPluginFileName(ProjectInfo project, string version);
+
+        /// <summary>
+        /// 下载 2636 上对应 unitypackage 到临时目录，并以 ImportPackage(path, true) 弹出 Unity 导入框。
+        /// 不写 PluginAsset、不等待导入结束。
+        /// </summary>
+        Task<bool> ImportExtraPluginInteractiveAsync(ProjectInfo project, string version);
+
+        /// <summary>
+        /// 读取 External 插件 package.json（先 version 目录，再插件根目录）。文件不存在时静默返回 null。
+        /// </summary>
+        Task<PackageJson> GetExtraPluginPackageJsonAsync(ProjectInfo project, string version);
     }
 }

@@ -49,6 +49,7 @@ public class MTPackageManagerWindow : EditorWindow
     private bool _sortDescending;
 
     // InfoView
+    private VisualElement _localMode;
     private Label _lbDisplayName;
     private Label _lbAuthorEmail;
     private DropdownField _ddVersion;
@@ -70,6 +71,16 @@ public class MTPackageManagerWindow : EditorWindow
     private static IPackageSyncService PackageSyncService => ServiceLocator.Get<IPackageSyncService>();
     private static IPackageInstallerService PackageInstallerService => ServiceLocator.Get<IPackageInstallerService>();
     private static ILocalPackageService LocalPackageService => ServiceLocator.Get<ILocalPackageService>();
+    private static IPluginPackageService PluginPackageService => ServiceLocator.Get<IPluginPackageService>();
+
+    private VisualElement _tabsBar;
+    private VisualElement _tabViewContainer;
+    private VisualElement _authorRow;
+    private VisualElement _packageNameRow;
+
+    private bool IsExternalMode =>
+        _ddPackage != null
+        && string.Equals(_ddPackage.value, PACKAGE_TYPE_EXTERNAL_LABEL, StringComparison.Ordinal);
 
     public void CreateGUI()
     {
@@ -96,6 +107,7 @@ public class MTPackageManagerWindow : EditorWindow
         // EditorWindow 会序列化字段；安装中域重载后 _isInstalling 不能继续为 true，否则按钮会一直禁用
         _isInstalling = false;
         _isRefreshing = false;
+        ApplyExternalChrome();
         RefreshProjectList();
     }
     
@@ -206,6 +218,8 @@ public class MTPackageManagerWindow : EditorWindow
     {
         var tabsBar = root.Q<VisualElement>("tabs");
         var tabViewContainer = root.Q<VisualElement>("tabView");
+        _tabsBar = tabsBar;
+        _tabViewContainer = tabViewContainer;
         if (tabsBar == null || tabViewContainer == null)
         {
             return;
@@ -294,11 +308,9 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (_ddPackage != null)
         {
-            // 目前只有 Normal 类型的包接入该窗口，因此只提供这一个选项；
-            // 后续如果要接入 ExPlugin 等其它 PackageType，在这里追加选项 + 映射即可。
-            _ddPackage.choices = new List<string> { PACKAGE_TYPE_NORMAL_LABEL };
+            _ddPackage.choices = new List<string> { PACKAGE_TYPE_NORMAL_LABEL, PACKAGE_TYPE_EXTERNAL_LABEL };
             _ddPackage.SetValueWithoutNotify(PACKAGE_TYPE_NORMAL_LABEL);
-            _ddPackage.RegisterValueChangedCallback(_ => RefreshProjectList());
+            _ddPackage.RegisterValueChangedCallback(OnPackageTypeChanged);
         }
     }
 
@@ -392,6 +404,75 @@ public class MTPackageManagerWindow : EditorWindow
         RefreshProjectList();
     }
 
+    private async void OnPackageTypeChanged(ChangeEvent<string> evt)
+    {
+        ApplyExternalChrome();
+        if (IsExternalMode)
+        {
+            await PullExtraPluginsAndRefreshAsync();
+            return;
+        }
+
+        RefreshProjectList();
+    }
+
+    private async Task PullExtraPluginsAndRefreshAsync()
+    {
+        if (_isRefreshing || _isInstalling)
+        {
+            RefreshProjectList();
+            return;
+        }
+
+        _isRefreshing = true;
+        RefreshActionButtons();
+        try
+        {
+            EditorUtility.DisplayProgressBar("Extra Plugins", "Pulling plugins/ from GitLab 2636...", 0.4f);
+            await PluginPackageService.PullExtraPluginsListAsync();
+        }
+        catch (Exception e)
+        {
+            LM.LogError($"[MTPackageManagerWindow] Pull Extra Plugins 失败: {e}");
+        }
+        finally
+        {
+            EditorUtility.ClearProgressBar();
+            _isRefreshing = false;
+            RefreshProjectList();
+            RefreshActionButtons();
+        }
+    }
+
+    private void ApplyExternalChrome()
+    {
+        bool showNavExtras = !IsExternalMode;
+        SetDisplay(_btnSetting, showNavExtras);
+        SetDisplay(_btnReset, showNavExtras);
+        SetDisplay(_btnClear, showNavExtras);
+        SetDisplay(_btnQuickInstall, showNavExtras);
+        SetDisplay(_btnDependenciesGraph, showNavExtras);
+        SetDisplay(_btnRefresh, showNavExtras);
+        SetDisplay(_tabsBar, showNavExtras);
+        SetDisplay(_tabViewContainer, showNavExtras);
+        SetDisplay(_authorRow, showNavExtras);
+        SetDisplay(_packageNameRow, showNavExtras);
+        if (IsExternalMode)
+        {
+            SetDisplay(_lbDocumentation, false);
+            SwitchType(null);
+            ClearDetailTabs();
+        }
+    }
+
+    private static void SetDisplay(VisualElement element, bool visible)
+    {
+        if (element != null)
+        {
+            element.style.display = visible ? DisplayStyle.Flex : DisplayStyle.None;
+        }
+    }
+
     #endregion NavigationBar
 
     #region ProjectList
@@ -461,7 +542,7 @@ public class MTPackageManagerWindow : EditorWindow
     {
         if (element is ProjectItemView itemView && index >= 0 && index < _displayedProjects.Count)
         {
-            itemView.BindData(_displayedProjects[index]);
+            itemView.BindData(_displayedProjects[index], IsExternalMode);
             itemView.SetSelected(_lvProjectList != null && _lvProjectList.selectedIndex == index);
         }
     }
@@ -478,7 +559,7 @@ public class MTPackageManagerWindow : EditorWindow
     /// </summary>
     private async void OnRefreshClicked()
     {
-        if (_isRefreshing)
+        if (_isRefreshing || IsExternalMode)
         {
             return;
         }
@@ -562,7 +643,10 @@ public class MTPackageManagerWindow : EditorWindow
     {
         if (_lbUpdateTime != null)
         {
-            _lbUpdateTime.text = $"Last Update {ProjectInfoService.RefreshTime:yyyy-MM-dd HH:mm:ss}";
+            var time = IsExternalMode
+                ? PluginPackageService.ExtraPluginsRefreshTime
+                : ProjectInfoService.RefreshTime;
+            _lbUpdateTime.text = $"Last Update {time:yyyy-MM-dd HH:mm:ss}";
         }
     }
 
@@ -623,9 +707,52 @@ public class MTPackageManagerWindow : EditorWindow
     private List<ProjectInfo> BuildFilteredSortedProjects()
     {
         string searchText = _tfSearch?.value?.Trim() ?? string.Empty;
-        var candidates = ProjectInfoService.GetAll();
         bool descending = _sortDescending;
-        return ProjectDisplayUtils.BuildFilteredPackageList(candidates, descending, searchText);
+        if (IsExternalMode)
+        {
+            return BuildFilteredExternalPlugins(searchText, descending);
+        }
+
+        return ProjectDisplayUtils.BuildFilteredPackageList(
+            ProjectInfoService.GetAll(), descending, searchText);
+    }
+
+    private static List<ProjectInfo> BuildFilteredExternalPlugins(string searchText, bool descending)
+    {
+        var candidates = new List<ProjectInfo>();
+        var source = PluginPackageService.ExtraPlugins;
+        if (source != null)
+        {
+            foreach (var project in source)
+            {
+                if (project == null)
+                {
+                    continue;
+                }
+
+                if (!string.IsNullOrEmpty(searchText))
+                {
+                    string displayName = ProjectDisplayUtils.CapitalizeFirstLetter(project.PackageName) ?? string.Empty;
+                    bool hitName = !string.IsNullOrEmpty(project.PackageName)
+                        && project.PackageName.IndexOf(searchText, StringComparison.OrdinalIgnoreCase) >= 0;
+                    bool hitDisplay = displayName.IndexOf(searchText, StringComparison.OrdinalIgnoreCase) >= 0;
+                    if (!hitName && !hitDisplay)
+                    {
+                        continue;
+                    }
+                }
+
+                candidates.Add(project);
+            }
+        }
+
+        candidates.Sort((a, b) => ProjectDisplayUtils.CompareProjectListOrder(
+            null,
+            ProjectDisplayUtils.CapitalizeFirstLetter(a.PackageName),
+            null,
+            ProjectDisplayUtils.CapitalizeFirstLetter(b.PackageName),
+            descending));
+        return candidates;
     }
     #endregion ProjectList
 
@@ -638,11 +765,15 @@ public class MTPackageManagerWindow : EditorWindow
         {
             return;
         }
+        
+        _localMode = infoView.Q<VisualElement>("localMode");
 
         _lbDisplayName = infoView.Q<Label>("lbDisplayName");
         _lbAuthorEmail = infoView.Q<Label>("lbAuthorEmail");
         _ddVersion = infoView.Q<DropdownField>("ddVersion");
         _lbPackageName = infoView.Q<Label>("lbPackageName");
+        _authorRow = _lbAuthorEmail?.parent;
+        _packageNameRow = _lbPackageName?.parent;
         _lbDebugType = infoView.Q<Label>("lbDebugType");
         _lbReleaseType = infoView.Q<Label>("lbReleaseType");
         _lbDocumentation = infoView.Q<Label>("lbDocumentation");
@@ -676,7 +807,14 @@ public class MTPackageManagerWindow : EditorWindow
             _btnUninstall.text = "Uninstall";
         }
 
+        ApplyLocalModeSymbol();
         RefreshActionButtons();
+    }
+
+    private void ApplyLocalModeSymbol()
+    {
+        bool toLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
+        SetDisplay(_localMode, toLocal);
     }
 
     private void OnDocumentationClicked(PointerUpEvent evt)
@@ -704,9 +842,54 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
+        if (IsExternalMode)
+        {
+            RefreshExternalInfoView();
+            return;
+        }
+
         string tag = ProjectDisplayUtils.ResolveDisplayTag(_selectedProject);
         PopulateVersionDropdown(_selectedProject, tag);
         ApplyTagInfoToInfoView(_selectedProject, tag);
+    }
+
+    private void RefreshExternalInfoView()
+    {
+        var project = _selectedProject;
+        string displayName = ProjectDisplayUtils.CapitalizeFirstLetter(project?.PackageName);
+        SetLabel(_lbDisplayName, string.IsNullOrEmpty(displayName) ? "N/A" : displayName);
+        SetLabel(_lbAuthorEmail, string.Empty);
+        SetLabel(_lbPackageName, project?.PackageName ?? "N/A");
+        SwitchType(null);
+        ApplyDocumentationLink(null);
+        SetDisplay(_lbDocumentation, false);
+        ClearDetailTabs();
+
+        string tag = GetSelectedTag();
+        if (project?.Tags == null || project.Tags.Count == 0
+            || string.IsNullOrEmpty(tag) || !project.Tags.Contains(tag))
+        {
+            tag = project?.Tags != null && project.Tags.Count > 0 ? project.Tags[0] : null;
+        }
+
+        PopulateVersionDropdown(project, tag);
+        RefreshActionButtons();
+        LoadExternalPluginDocumentation();
+    }
+
+    private async void LoadExternalPluginDocumentation()
+    {
+        int seq = ++_tagInfoLoadSeq;
+        var project = _selectedProject;
+        string tag = GetSelectedTag();
+        var manifest = await PluginPackageService.GetExtraPluginPackageJsonAsync(project, tag);
+        if (seq != _tagInfoLoadSeq || !IsExternalMode)
+        {
+            return;
+        }
+
+        ApplyDocumentationLink(manifest?.documentationUrl);
+        SetDisplay(_lbDocumentation, manifest != null);
     }
 
     private void SetInfoViewEmpty()
@@ -716,6 +899,7 @@ public class MTPackageManagerWindow : EditorWindow
         SetLabel(_lbAuthorEmail, "N/A");
         SetLabel(_lbPackageName, "N/A");
         ApplyDocumentationLink(null);
+        SetDisplay(_lbDocumentation, !IsExternalMode);
         ClearDetailTabs();
 
         if (_ddVersion != null)
@@ -737,6 +921,7 @@ public class MTPackageManagerWindow : EditorWindow
         SetLabel(_lbAuthorEmail, tagInfo?.author?.email ?? "N/A");
         SetLabel(_lbPackageName, tagInfo?.name ?? "N/A");
         SwitchType(tag);
+        SetDisplay(_lbDocumentation, true);
         ApplyDocumentationLink(tagInfo?.documentationUrl);
         RefreshDetailTabs(project, tag, tagInfo);
         RefreshActionButtons();
@@ -781,9 +966,12 @@ public class MTPackageManagerWindow : EditorWindow
 
         _ddVersion.UnregisterValueChangedCallback(OnVersionChanged);
 
-        var allTags = ProjectDisplayUtils.GetVisibleSortedTags(project);
+        var allTags = IsExternalMode
+            ? (project?.Tags != null ? new List<string>(project.Tags) : new List<string>())
+            : ProjectDisplayUtils.GetVisibleSortedTags(project);
         _ddVersion.choices = BuildVersionChoices(allTags, _versionShowAll, selectedTag);
         _ddVersion.SetValueWithoutNotify(allTags.Count > 0 ? (selectedTag ?? string.Empty) : NO_VERSION_LABEL);
+        _ddVersion.SetEnabled(allTags.Count > 0);
 
         _ddVersion.RegisterValueChangedCallback(OnVersionChanged);
     }
@@ -845,6 +1033,13 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
+        if (IsExternalMode)
+        {
+            RefreshActionButtons();
+            LoadExternalPluginDocumentation();
+            return;
+        }
+
         ApplyTagInfoToInfoView(_selectedProject, evt.newValue);
     }
     
@@ -852,8 +1047,16 @@ public class MTPackageManagerWindow : EditorWindow
     {
         if (string.IsNullOrEmpty(tag))
         {
-            _lbReleaseType.style.display = DisplayStyle.None;
-            _lbDebugType.style.display = DisplayStyle.None;
+            if (_lbReleaseType != null)
+            {
+                _lbReleaseType.style.display = DisplayStyle.None;
+            }
+
+            if (_lbDebugType != null)
+            {
+                _lbDebugType.style.display = DisplayStyle.None;
+            }
+
             return;
         }
 
@@ -874,6 +1077,7 @@ public class MTPackageManagerWindow : EditorWindow
     /// </summary>
     private void RefreshActionButtons()
     {
+        ApplyLocalModeSymbol();
         if (_btnInstall == null && _btnUninstall == null)
         {
             return;
@@ -881,11 +1085,30 @@ public class MTPackageManagerWindow : EditorWindow
 
         var project = _selectedProject;
         string tag = GetSelectedTag();
+        bool busy = _isInstalling || _isRefreshing;
+
+        if (IsExternalMode)
+        {
+            string fileName = PluginPackageService.GetExtraPluginFileName(project, tag);
+            if (_btnInstall != null)
+            {
+                _btnInstall.style.display = project != null ? DisplayStyle.Flex : DisplayStyle.None;
+                _btnInstall.text = INSTALL_LABEL;
+                _btnInstall.SetEnabled(project != null && !string.IsNullOrEmpty(fileName) && !busy);
+            }
+
+            if (_btnUninstall != null)
+            {
+                _btnUninstall.style.display = DisplayStyle.None;
+            }
+
+            return;
+        }
+
         bool hasValidTag = !string.IsNullOrEmpty(tag);
         var installed = FindInstalled(project);
         bool isSelf = IsSelfPackage(project, tag);
         bool isInstalled = isSelf || installed != null;
-        bool busy = _isInstalling || _isRefreshing;
         bool toLocal = ConfigManager.Instance.Current?.InstallToLocal ?? false;
         bool showUninstall = isInstalled && !isSelf && installed != null && installed.Depth == 0;
         bool uninstallEnabled = showUninstall && !busy
@@ -915,6 +1138,12 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
+        if (IsExternalMode)
+        {
+            OnImportExtraPlugin();
+            return;
+        }
+
         var installed = FindInstalled(_selectedProject);
         if (installed != null || IsSelfPackage(_selectedProject, GetSelectedTag()))
         {
@@ -923,6 +1152,33 @@ public class MTPackageManagerWindow : EditorWindow
         else
         {
             OnInstallPackage();
+        }
+    }
+
+    private async void OnImportExtraPlugin()
+    {
+        if (!TryBeginInstall("Import"))
+        {
+            return;
+        }
+
+        try
+        {
+            EditorUtility.DisplayProgressBar("Import Extra Plugin", "Downloading unitypackage...", 0.5f);
+            bool ok = await PluginPackageService.ImportExtraPluginInteractiveAsync(
+                _selectedProject, GetSelectedTag());
+            LM.Log(ok
+                ? $"[MTPackageManagerWindow] Extra Plugin 已打开导入框: {_selectedProject?.PackageName}"
+                : $"[MTPackageManagerWindow] Extra Plugin 下载失败: {_selectedProject?.PackageName}");
+        }
+        catch (Exception e)
+        {
+            LM.LogError($"[MTPackageManagerWindow] Extra Plugin 导入异常: {e}");
+        }
+        finally
+        {
+            EditorUtility.ClearProgressBar();
+            EndInstall();
         }
     }
 
@@ -1138,6 +1394,12 @@ public class MTPackageManagerWindow : EditorWindow
             {
                 return value;
             }
+        }
+
+        if (IsExternalMode)
+        {
+            var tags = _selectedProject?.Tags;
+            return tags != null && tags.Count > 0 ? tags[0] : null;
         }
 
         return ProjectDisplayUtils.ResolveDisplayTag(_selectedProject);

@@ -16,6 +16,10 @@ public class ProjectItemView : VisualElement
         new StyleColor(new Color(84f / 255f, 84f / 255f, 84f / 255f));
     private static readonly StyleColor s_defaultBackgroundColor =
         new StyleColor(new Color(58f / 255f, 58f / 255f, 58f / 255f));
+    private static readonly StyleColor s_defaultNameColor =
+        new StyleColor(new Color(236f / 255f, 236f / 255f, 236f / 255f));
+    private static readonly StyleColor s_disabledNameColor =
+        new StyleColor(new Color(128f / 255f, 128f / 255f, 128f / 255f));
 
     private readonly VisualElement _row;
     private readonly Label _lbDisplayName;
@@ -61,7 +65,7 @@ public class ProjectItemView : VisualElement
         _row.style.backgroundColor = selected ? s_selectedBackgroundColor : s_defaultBackgroundColor;
     }
 
-    public void BindData(ProjectInfo project)
+    public void BindData(ProjectInfo project, bool externalMode = false)
     {
         _project = project;
 
@@ -72,23 +76,32 @@ public class ProjectItemView : VisualElement
             SetDisplay(_lbDep, false);
             ClearStatusIcon();
             SetDisplay(_lbDebug, false);
+            ResetNameColor();
+            return;
+        }
+
+        if (externalMode || project.PackageType == PackageType.ExPlugin)
+        {
+            BindExternal(project);
             return;
         }
 
         string tag = ProjectDisplayUtils.ResolveDisplayTag(project);
         var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
 
+        ResetNameColor();
         SetLabel(_lbDisplayName, ProjectDisplayUtils.GetDisplayName(project, tag));
         SetLabel(_lbVersion, tagInfo?.version ?? "N/A");
+        SetDisplay(_lbVersion, true);
+        SetLabel(_lbDebug, "Debug");
         SetDisplay(_lbDebug, IsDebugTag(tag));
+        SetDisplay(_lbStatus, true);
 
         var installed = ProjectDisplayUtils.FindInstalled(project);
         bool isInstalled = installed != null;
 
-        // 未安装时 DEP 不展示（占位一并去掉）
         SetDisplay(_lbDep, isInstalled && installed.Depth > 0);
 
-        // 未安装时状态图标只是清空背景（透明），不隐藏元素本身，占位保留
         if (isInstalled)
         {
             RefreshStatusIcon(project, installed);
@@ -96,6 +109,33 @@ public class ProjectItemView : VisualElement
         else
         {
             ClearStatusIcon();
+        }
+    }
+
+    private void BindExternal(ProjectInfo project)
+    {
+        string displayName = ProjectDisplayUtils.CapitalizeFirstLetter(project.PackageName);
+        bool hasVersion = project.Tags != null && project.Tags.Count > 0;
+
+        SetLabel(_lbDisplayName, string.IsNullOrEmpty(displayName) ? "N/A" : displayName);
+        if (_lbDisplayName != null)
+        {
+            _lbDisplayName.style.color = hasVersion ? s_defaultNameColor : s_disabledNameColor;
+        }
+
+        SetDisplay(_lbDep, false);
+        SetLabel(_lbDebug, "Plugin");
+        SetDisplay(_lbDebug, true);
+        SetDisplay(_lbVersion, false);
+        SetDisplay(_lbStatus, false);
+        ClearStatusIcon();
+    }
+
+    private void ResetNameColor()
+    {
+        if (_lbDisplayName != null)
+        {
+            _lbDisplayName.style.color = s_defaultNameColor;
         }
     }
 

@@ -229,7 +229,7 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public MTPackageInfo GetPackage(string packageName)
         {
-            return _dependencies.TryGetValue(packageName, out var package) ? package : null;
+            return _dependencies.GetValueOrDefault(packageName);
         }
 
         public MTPackageInfo GetPackageByProject(ProjectInfo project)
@@ -357,12 +357,15 @@ namespace MagicTavern.FrontEngine.MTPManager
         public void LoadDependenciesFromLocal(bool createIfNotExist = true)
         {
             var list = JsonUtils.LoadFromFile<MTPackageInfoList>(MTPPath.MT_PACKAGE_INFO_LIST_PATH, createIfNotExist);
+            PackagePersistUtils.InjectPrivateTokens(list);
             LoadFromMTPackageInfoList(list);
         }
 
         public void SaveDependenciesToLocal()
         {
-            JsonUtils.SaveToFile(MTPPath.MT_PACKAGE_INFO_LIST_PATH, ExportToMTPackageInfoList());
+            JsonUtils.SaveToFile(
+                MTPPath.MT_PACKAGE_INFO_LIST_PATH,
+                PackagePersistUtils.CloneWithoutPrivateTokens(ExportToMTPackageInfoList()));
         }
 
         public void Clear()
@@ -417,7 +420,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             else
             {
                 LM.Log(
-                    $"[MTPackageInfoService] BuildTreeFromRoots done. nodes:{tree.Count}, roots:{rootList.Count}");
+                    $"[MTPackageInfoService] 重新构建依赖树已完成，重建依赖节点数:{tree.Count}, 手动安装的根节点数:{rootList.Count}");
             }
 
             return tree;

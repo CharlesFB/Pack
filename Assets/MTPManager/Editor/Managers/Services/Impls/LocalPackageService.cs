@@ -80,12 +80,15 @@ namespace MagicTavern.FrontEngine.MTPManager
         public void LoadFromLocal(bool createIfNotExist = true)
         {
             var list = JsonUtils.LoadFromFile<MTPackageInfoList>(MTPPath.LOCAL_MTP_INFO_PATH, createIfNotExist);
+            PackagePersistUtils.InjectPrivateTokens(list);
             LoadFromMTPackageInfoList(list);
         }
 
         public void SaveToLocal()
         {
-            JsonUtils.SaveToFile(MTPPath.LOCAL_MTP_INFO_PATH, ExportToMTPackageInfoList());
+            JsonUtils.SaveToFile(
+                MTPPath.LOCAL_MTP_INFO_PATH,
+                PackagePersistUtils.CloneWithoutPrivateTokens(ExportToMTPackageInfoList()));
         }
 
         public void Clear()

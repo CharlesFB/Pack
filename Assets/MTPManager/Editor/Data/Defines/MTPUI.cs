@@ -40,6 +40,8 @@ namespace MagicTavern.FrontEngine.MTPManager
         
         // 包列表item选中时的背景图片
         public const string PROJECT_SELECTED_BACKGROUND_IMG_PATH = "Assets/MTPManager/Editor/UI/Imgs/selected_background.png";
+        // UPM 导航栏 MTP 入口图标
+        public const string LOGO_SMALL_PATH = "Assets/MTPManager/Editor/UI/Imgs/logo_small.png";
 
         // InfoView ddVersion 下拉框默认最多展示的 Tag 数量，超出的需要用户点击 "Show All" 展开。
         public const int MAX_VERSION_DROPDOWN_COUNT = 30;

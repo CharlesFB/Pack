@@ -39,8 +39,8 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             // 先 Remove / UpdateRemove，再 Add / UpdateAdd，避免同包先装新版再被卸掉。
-            // 同一 PackageName 且同 Tag：只发 UpdateAdd（按新 hash 再 Add），不卸旧包。
-            // 不能只用 ProjectId：同一 GitLab 工程可以有多个包。
+            // 同一 PackageName 且同 Tag，只发 UpdateAdd（按新 hash 再 Add），不卸旧包。
+            // 同一 GitLab 工程可以有多个包。
             foreach (var package in removeList)
             {
                 if (package == null)
@@ -139,13 +139,15 @@ namespace MagicTavern.FrontEngine.MTPManager
             var state = LoadProgress();
             if (state == null || state.RestRequests == null || state.RestRequests.Count == 0)
             {
+                LM.TimeLog("[PackageInstallerService] 恢复中断安装： 检查已经全部安装完成，正在清理安装缓存");
                 DeleteProgress();
                 return;
             }
 
-            LM.Log(
+            LM.TimeLog(
                 $"[PackageInstallerService] 恢复中断安装. completed:{state.CompletedCount}, " +
-                $"rest:{state.RestRequests.Count}, currentUpmDone:{state.CurrentUpmDone}");
+                $"rest:{state.RestRequests.Count}, currentUpmDone:{state.CurrentUpmDone}" + 
+                $"upcomingPackage:{state.RestRequests[0].RequestPackageInfo.PackageName}");
             await ProcessProgressStateAsync(state);
         }
 
@@ -257,9 +259,9 @@ namespace MagicTavern.FrontEngine.MTPManager
         }
 
         /// <summary>
-        /// UPM 成功后资源处理。插件与宏严格线性：本阶段完全结束并空闲后，才进入下一阶段。
-        /// Add：插件选择/导入 → 空闲 → 加宏 → 空闲。
-        /// Remove：去宏 → 空闲 → 卸插件资源 → 空闲。
+        /// UPM 成功后资源处理。
+        /// Add：插件选择/导入 → 加宏 → 空闲。
+        /// Remove：去宏 → 卸插件资源 → 空闲。
         /// UpdateAdd 只加宏；UpdateRemove 不处理插件/宏。
         /// </summary>
         private async Task HandleResourcesAsync(
@@ -271,7 +273,7 @@ namespace MagicTavern.FrontEngine.MTPManager
             }
 
             var package = request.RequestPackageInfo;
-            await EditorBusyWait.WaitUntilIdleAsync();
+            // await EditorBusyWait.WaitUntilIdleAsync();
             
             if (request.RequestType == RequestType.Add)
             {
@@ -366,7 +368,6 @@ namespace MagicTavern.FrontEngine.MTPManager
             MarkPluginsImportDone(state);
         }
 
-        // 插件导入已包在 LockReloadAssemblies 内，选择结果不必再写入进度
         private static void PersistPluginSelection(
             InstallerProgressState state, PluginImportWindow.PluginImportSelection selection)
         {
