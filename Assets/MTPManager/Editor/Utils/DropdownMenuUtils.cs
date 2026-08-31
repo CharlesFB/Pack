@@ -17,12 +17,17 @@ namespace MagicTavern.FrontEngine.MTPManager
     {
         public static void Show(Button button, IList<string> choices, Action<string> onSelected)
         {
+            Show(button, button != null ? button.text : null, choices, onSelected);
+        }
+
+        public static void Show(Button button, string currentValue, IList<string> choices, Action<string> onSelected)
+        {
             if (button == null || choices == null || choices.Count == 0)
             {
                 return;
             }
 
-            string current = button.text ?? string.Empty;
+            string current = currentValue ?? string.Empty;
             var menu = new GenericMenu();
             for (int i = 0; i < choices.Count; i++)
             {

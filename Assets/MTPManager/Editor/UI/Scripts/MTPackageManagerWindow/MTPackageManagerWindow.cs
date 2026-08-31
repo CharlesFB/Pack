@@ -55,6 +55,7 @@ public class MTPackageManagerWindow : EditorWindow
     private Label _lbDisplayName;
     private Label _lbAuthorEmail;
     private Button _ddVersion;
+    private Label _ddVersionLabel;
     private Label _lbPackageName;
     private Label _lbDebugType;
     private Label _lbReleaseType;
@@ -111,6 +112,9 @@ public class MTPackageManagerWindow : EditorWindow
         basic.Q<VisualElement>("imgSearch")?.SetBackgroundImage(MTPUI.SEARCH_ICON_PATH);
         basic.Q<Button>("btnTextfieldClear")?.SetBackgroundImage(MTPUI.CLEAR_ICON_PATH);
         basic.Q<Button>("btnRefresh")?.SetBackgroundImage(MTPUI.REFRESH_ICON_PATH);
+        basic.Q<VisualElement>("ddPA")?.SetBackgroundImage(MTPUI.DROPDOWN_DOWN_ICON_PATH);
+        basic.Q<VisualElement>("ddSA")?.SetBackgroundImage(MTPUI.DROPDOWN_DOWN_ICON_PATH);
+        basic.Q<VisualElement>("ddVA")?.SetBackgroundImage(MTPUI.DROPDOWN_DOWN_ICON_PATH);
         root.Add(basic);
 
         InitDetailTabView(root);
@@ -837,6 +841,7 @@ public class MTPackageManagerWindow : EditorWindow
         _lbDisplayName = infoView.Q<Label>("lbDisplayName");
         _lbAuthorEmail = infoView.Q<Label>("lbAuthorEmail");
         _ddVersion = infoView.Q<Button>("ddVersion");
+        _ddVersionLabel = infoView.Q<Label>("ddVL");
         _lbPackageName = infoView.Q<Label>("lbPackageName");
         _authorRow = _lbAuthorEmail?.parent;
         _packageNameRow = _lbPackageName?.parent;
@@ -976,7 +981,7 @@ public class MTPackageManagerWindow : EditorWindow
         if (_ddVersion != null)
         {
             _versionChoices.Clear();
-            _ddVersion.text = string.Empty;
+            SetVersionDropdownText(string.Empty);
             _ddVersion.SetEnabled(false);
         }
 
@@ -1040,7 +1045,7 @@ public class MTPackageManagerWindow : EditorWindow
             : ProjectDisplayUtils.GetVisibleSortedTags(project);
         _versionChoices.Clear();
         _versionChoices.AddRange(BuildVersionChoices(allTags, _versionShowAll, selectedTag));
-        _ddVersion.text = allTags.Count > 0 ? (selectedTag ?? string.Empty) : NO_VERSION_LABEL;
+        SetVersionDropdownText(allTags.Count > 0 ? (selectedTag ?? string.Empty) : NO_VERSION_LABEL);
         _ddVersion.SetEnabled(allTags.Count > 0);
     }
 
@@ -1080,7 +1085,7 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
-        DropdownMenuUtils.Show(_ddVersion, _versionChoices, OnVersionSelected);
+        DropdownMenuUtils.Show(_ddVersion, GetVersionDropdownText(), _versionChoices, OnVersionSelected);
     }
 
     private void OnVersionSelected(string newValue)
@@ -1090,7 +1095,7 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
-        string previousValue = _ddVersion.text;
+        string previousValue = GetVersionDropdownText();
         if (!string.IsNullOrEmpty(newValue) && newValue.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))
         {
             _versionShowAll = true;
@@ -1105,7 +1110,7 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
-        _ddVersion.text = newValue;
+        SetVersionDropdownText(newValue);
 
         if (IsExternalMode)
         {
@@ -1464,11 +1469,29 @@ public class MTPackageManagerWindow : EditorWindow
         return await MTPackageInfoService.FetchPackageInfoAsync(UrlUtils.FormatUrl(url), tag, 0, toLocal);
     }
 
+    private void SetVersionDropdownText(string text)
+    {
+        if (_ddVersion != null)
+        {
+            _ddVersion.text = string.Empty;
+        }
+
+        if (_ddVersionLabel != null)
+        {
+            _ddVersionLabel.text = text ?? string.Empty;
+        }
+    }
+
+    private string GetVersionDropdownText()
+    {
+        return _ddVersionLabel != null ? (_ddVersionLabel.text ?? string.Empty) : string.Empty;
+    }
+
     private string GetSelectedTag()
     {
         if (_ddVersion != null)
         {
-            var value = _ddVersion.text;
+            var value = GetVersionDropdownText();
             if (!string.IsNullOrEmpty(value)
                 && !string.Equals(value, NO_VERSION_LABEL, StringComparison.Ordinal)
                 && !value.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))
