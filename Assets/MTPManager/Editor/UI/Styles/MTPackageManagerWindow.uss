@@ -13,50 +13,18 @@
     border-radius: 0;
 }
 
-.ddType .unity-base-popup-field__input {
-    background-color: rgba(0, 0, 0, 0);
+.ddType {
+    background-color: rgb(71, 71, 71);
     background-image: none;
-    min-height: 24px;
-    width: auto;
-    border-width: 0;
-}
-
-.ddType .unity-base-field__label {
-    color: rgb(200, 200, 200);
-    width: 0;
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-}
-
-.ddType .unity-base-popup-field__text {
+    border-radius: 0;
+    flex-direction: row;
+    align-items: center;
     color: rgb(220, 220, 220);
-    margin-left: 4px;
-}
-
-.ddType .unity-base-popup-field__arrow {
-    width: 12px;
-    height: 12px;
-    background-image: url("project://database/Assets/Editor/UI/Imgs/xiala.png?fileID=21300000&guid=a813e43e1813549928b0ca512f0423d7&type=3#xiala");
-    margin-right: 5px;
-    margin-left: 4px;
-    -unity-background-image-tint-color: rgb(200, 200, 200);
 }
 
 .ddType:hover {
     background-color: rgb(90, 90, 90);
-}
-
-.ddType:hover .unity-base-popup-field__input {
-    background-color: rgb(90, 90, 90);
-}
-
-.ddType:hover .unity-base-popup-field__text {
     color: rgb(255, 255, 255);
-}
-
-.ddType:hover .unity-base-popup-field__arrow {
-    -unity-background-image-tint-color: rgb(255, 255, 255);
 }
 
 .tfSearch > .unity-base-field__label {
@@ -99,47 +67,16 @@
     color: rgb(230, 230, 230);
 }
 
-#ddVersion .unity-base-popup-field__input {
+#ddVersion {
     background-color: rgb(80, 80, 80);
     background-image: none;
-    min-height: 24px;
-    width: auto;
-    border-width: 0;
-}
-
-#ddVersion .unity-base-field__label {
-    width: 0;
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-}
-
-#ddVersion .unity-base-popup-field__text {
+    border-radius: 3px;
+    flex-direction: row;
+    align-items: center;
     color: rgb(220, 220, 220);
-    margin-left: 4px;
-}
-
-#ddVersion .unity-base-popup-field__arrow {
-    width: 12px;
-    height: 12px;
-    background-image: url("project://database/Assets/Editor/UI/Imgs/xiala.png?fileID=21300000&guid=a813e43e1813549928b0ca512f0423d7&type=3#xiala");
-    margin-right: 5px;
-    margin-left: 4px;
-    -unity-background-image-tint-color: rgb(200, 200, 200);
 }
 
 #ddVersion:hover {
     background-color: rgb(90, 90, 90);
-}
-
-#ddVersion:hover .unity-base-popup-field__input {
-    background-color: rgb(90, 90, 90);
-}
-
-#ddVersion:hover .unity-base-popup-field__text {
     color: rgb(255, 255, 255);
-}
-
-#ddVersion:hover .unity-base-popup-field__arrow {
-    -unity-background-image-tint-color: rgb(255, 255, 255);
 }

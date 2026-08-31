@@ -41,6 +41,7 @@ public class ProjectItemView : VisualElement
 
         var root = tree.CloneTree();
         Add(root);
+        this.AddStyleSheetIfExists(MTPUI.PROJECT_ITEM_VIEW_STYLE_PATH);
 
         _row = root;
         _row.style.backgroundColor = s_defaultBackgroundColor;

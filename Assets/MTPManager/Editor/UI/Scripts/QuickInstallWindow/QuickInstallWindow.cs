@@ -56,6 +56,7 @@ public class QuickInstallWindow : EditorWindow
         VisualElement root = quickInstallWindow.CloneTree();
 #endif
         root.StretchToParentSize();
+        root.AddStyleSheetIfExists(MTPUI.QUICK_INSTALL_STYLE_PATH);
         rootVisualElement.Add(root);
 
         SnapshotLiveInstallState();
@@ -140,6 +141,12 @@ public class QuickInstallWindow : EditorWindow
         _lvPackageList.bindItem = OnBindItem;
         _lvPackageList.itemsSource = _packageList;
         _lvPackageList.selectionType = SelectionType.None;
+#if UNITY_2021_2_OR_NEWER
+        _lvPackageList.fixedItemHeight = 32;
+        _lvPackageList.virtualizationMethod = CollectionVirtualizationMethod.FixedHeight;
+#else
+        _lvPackageList.itemHeight = 32;
+#endif
         RefreshList();
     }
 

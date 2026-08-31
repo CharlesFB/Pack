@@ -55,7 +55,6 @@
     flex-grow: 0;
     flex-shrink: 0;
     overflow: hidden;
-    white-space: nowrap;
     -unity-text-align: middle-left;
 }
 

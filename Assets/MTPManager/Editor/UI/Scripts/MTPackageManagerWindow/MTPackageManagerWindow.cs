@@ -30,8 +30,10 @@ public class MTPackageManagerWindow : EditorWindow
     // NavigationBar
     private TextField _tfSearch;
     private Button _btnTextfieldClear;
-    private DropdownField _ddSort;
-    private DropdownField _ddPackage;
+    
+    private Button _ddSort;
+    private Button _ddPackage;
+    
     private Button _btnSetting;
     private Button _btnReset;
     private Button _btnClear;
@@ -52,7 +54,7 @@ public class MTPackageManagerWindow : EditorWindow
     private VisualElement _localMode;
     private Label _lbDisplayName;
     private Label _lbAuthorEmail;
-    private DropdownField _ddVersion;
+    private Button _ddVersion;
     private Label _lbPackageName;
     private Label _lbDebugType;
     private Label _lbReleaseType;
@@ -63,6 +65,7 @@ public class MTPackageManagerWindow : EditorWindow
     private string _documentationUrl;
     private bool _versionShowAll;
     private int _tagInfoLoadSeq;
+    private readonly List<string> _versionChoices = new List<string>();
 
     private static IProjectInfoService ProjectInfoService => ServiceLocator.Get<IProjectInfoService>();
     private static IPackageJsonService PackageJsonService => ServiceLocator.Get<IPackageJsonService>();
@@ -80,7 +83,7 @@ public class MTPackageManagerWindow : EditorWindow
 
     private bool IsExternalMode =>
         _ddPackage != null
-        && string.Equals(_ddPackage.value, PACKAGE_TYPE_EXTERNAL_LABEL, StringComparison.Ordinal);
+        && string.Equals(_ddPackage.text, PACKAGE_TYPE_EXTERNAL_LABEL, StringComparison.Ordinal);
 
     public void CreateGUI()
     {
@@ -101,6 +104,13 @@ public class MTPackageManagerWindow : EditorWindow
         VisualElement basic = mtpWindow.CloneTree();
 #endif
         basic.StretchToParentSize();
+        basic.AddStyleSheetIfExists(MTPUI.BUTTON_HOVER_STYLE_PATH);
+        basic.AddStyleSheetIfExists(MTPUI.WINDOW_STYLE_PATH);
+        basic.AddStyleSheetIfExists(MTPUI.TAB_VIEW_STYLE_PATH);
+        basic.AddStyleSheetIfExists(MTPUI.HOVER_LINK_STYLE_PATH);
+        basic.Q<VisualElement>("imgSearch")?.SetBackgroundImage(MTPUI.SEARCH_ICON_PATH);
+        basic.Q<Button>("btnTextfieldClear")?.SetBackgroundImage(MTPUI.CLEAR_ICON_PATH);
+        basic.Q<Button>("btnRefresh")?.SetBackgroundImage(MTPUI.REFRESH_ICON_PATH);
         root.Add(basic);
 
         InitDetailTabView(root);
@@ -258,8 +268,8 @@ public class MTPackageManagerWindow : EditorWindow
     {
         _tfSearch = root.Q<TextField>("tfSearch");
         _btnTextfieldClear = root.Q<Button>("btnTextfieldClear");
-        _ddSort = root.Q<DropdownField>("ddSort");
-        _ddPackage = root.Q<DropdownField>("ddPackage");
+        _ddSort = root.Q<Button>("ddSort");
+        _ddPackage = root.Q<Button>("ddPackage");
         
         _btnSetting = root.Q<Button>("btnSetting");
         _btnReset = root.Q<Button>("btnReset");
@@ -305,17 +315,31 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (_ddSort != null)
         {
-            _ddSort.choices = new List<string> { SORT_ASC_LABEL, SORT_DESC_LABEL };
-            _ddSort.SetValueWithoutNotify(SORT_ASC_LABEL);
-            _ddSort.RegisterValueChangedCallback(OnSortChanged);
+            _ddSort.text = SORT_ASC_LABEL;
+            _ddSort.clicked += OnSortClicked;
         }
 
         if (_ddPackage != null)
         {
-            _ddPackage.choices = new List<string> { PACKAGE_TYPE_NORMAL_LABEL, PACKAGE_TYPE_EXTERNAL_LABEL };
-            _ddPackage.SetValueWithoutNotify(PACKAGE_TYPE_NORMAL_LABEL);
-            _ddPackage.RegisterValueChangedCallback(OnPackageTypeChanged);
+            _ddPackage.text = PACKAGE_TYPE_NORMAL_LABEL;
+            _ddPackage.clicked += OnPackageClicked;
         }
+    }
+
+    private void OnSortClicked()
+    {
+        DropdownMenuUtils.Show(
+            _ddSort,
+            new List<string> { SORT_ASC_LABEL, SORT_DESC_LABEL },
+            OnSortSelected);
+    }
+
+    private void OnPackageClicked()
+    {
+        DropdownMenuUtils.Show(
+            _ddPackage,
+            new List<string> { PACKAGE_TYPE_NORMAL_LABEL, PACKAGE_TYPE_EXTERNAL_LABEL },
+            OnPackageTypeSelected);
     }
 
     private void OnDependenciesGraphClicked()
@@ -402,14 +426,26 @@ public class MTPackageManagerWindow : EditorWindow
         RefreshProjectList();
     }
 
-    private void OnSortChanged(ChangeEvent<string> evt)
+    private void OnSortSelected(string value)
     {
-        _sortDescending = evt.newValue == SORT_DESC_LABEL;
+        if (_ddSort == null || string.Equals(_ddSort.text, value, StringComparison.Ordinal))
+        {
+            return;
+        }
+
+        _ddSort.text = value;
+        _sortDescending = value == SORT_DESC_LABEL;
         RefreshProjectList();
     }
 
-    private async void OnPackageTypeChanged(ChangeEvent<string> evt)
+    private async void OnPackageTypeSelected(string value)
     {
+        if (_ddPackage == null || string.Equals(_ddPackage.text, value, StringComparison.Ordinal))
+        {
+            return;
+        }
+
+        _ddPackage.text = value;
         ApplyExternalChrome();
         if (IsExternalMode)
         {
@@ -539,6 +575,12 @@ public class MTPackageManagerWindow : EditorWindow
         _lvProjectList.bindItem = OnBindProjectItem;
         _lvProjectList.selectionType = SelectionType.Single;
         _lvProjectList.itemsSource = _displayedProjects;
+#if UNITY_2021_2_OR_NEWER
+        _lvProjectList.fixedItemHeight = 44;
+        _lvProjectList.virtualizationMethod = CollectionVirtualizationMethod.FixedHeight;
+#else
+        _lvProjectList.itemHeight = 44;
+#endif
 #if UNITY_2022_2_OR_NEWER
         _lvProjectList.selectionChanged += OnProjectSelectionChanged;
 #elif UNITY_2020_1_OR_NEWER
@@ -794,7 +836,7 @@ public class MTPackageManagerWindow : EditorWindow
 
         _lbDisplayName = infoView.Q<Label>("lbDisplayName");
         _lbAuthorEmail = infoView.Q<Label>("lbAuthorEmail");
-        _ddVersion = infoView.Q<DropdownField>("ddVersion");
+        _ddVersion = infoView.Q<Button>("ddVersion");
         _lbPackageName = infoView.Q<Label>("lbPackageName");
         _authorRow = _lbAuthorEmail?.parent;
         _packageNameRow = _lbPackageName?.parent;
@@ -804,6 +846,11 @@ public class MTPackageManagerWindow : EditorWindow
         _lbLicenses = infoView.Q<Label>("lbLicenses");
         _btnInstall = infoView.Q<Button>("btnInstall");
         _btnUninstall = infoView.Q<Button>("btnUninstall");
+
+        if (_ddVersion != null)
+        {
+            _ddVersion.clicked += OnVersionClicked;
+        }
 
         if (_lbDocumentation != null)
         {
@@ -928,9 +975,9 @@ public class MTPackageManagerWindow : EditorWindow
 
         if (_ddVersion != null)
         {
-            _ddVersion.UnregisterValueChangedCallback(OnVersionChanged);
-            _ddVersion.choices = new List<string>();
-            _ddVersion.SetValueWithoutNotify(string.Empty);
+            _versionChoices.Clear();
+            _ddVersion.text = string.Empty;
+            _ddVersion.SetEnabled(false);
         }
 
         RefreshActionButtons();
@@ -988,16 +1035,13 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
-        _ddVersion.UnregisterValueChangedCallback(OnVersionChanged);
-
         var allTags = IsExternalMode
             ? (project?.Tags != null ? new List<string>(project.Tags) : new List<string>())
             : ProjectDisplayUtils.GetVisibleSortedTags(project);
-        _ddVersion.choices = BuildVersionChoices(allTags, _versionShowAll, selectedTag);
-        _ddVersion.SetValueWithoutNotify(allTags.Count > 0 ? (selectedTag ?? string.Empty) : NO_VERSION_LABEL);
+        _versionChoices.Clear();
+        _versionChoices.AddRange(BuildVersionChoices(allTags, _versionShowAll, selectedTag));
+        _ddVersion.text = allTags.Count > 0 ? (selectedTag ?? string.Empty) : NO_VERSION_LABEL;
         _ddVersion.SetEnabled(allTags.Count > 0);
-
-        _ddVersion.RegisterValueChangedCallback(OnVersionChanged);
     }
 
     /// <summary>
@@ -1029,33 +1073,39 @@ public class MTPackageManagerWindow : EditorWindow
         return choices;
     }
 
-    private void OnVersionChanged(ChangeEvent<string> evt)
+    private void OnVersionClicked()
     {
-        if (_selectedProject == null)
+        if (_ddVersion == null || !_ddVersion.enabledSelf)
         {
             return;
         }
 
-        if (!string.IsNullOrEmpty(evt.newValue) && evt.newValue.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))
+        DropdownMenuUtils.Show(_ddVersion, _versionChoices, OnVersionSelected);
+    }
+
+    private void OnVersionSelected(string newValue)
+    {
+        if (_selectedProject == null || _ddVersion == null)
         {
-            // 展开全部 Tag，恢复到点击前的选中值，不当作一次真正的版本切换
+            return;
+        }
+
+        string previousValue = _ddVersion.text;
+        if (!string.IsNullOrEmpty(newValue) && newValue.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))
+        {
             _versionShowAll = true;
-            PopulateVersionDropdown(_selectedProject, evt.previousValue);
-            // // 模拟一次点击事件，强行把下拉列表再次展开 (这部分代码按需去掉吧，用于用户体验优化的)
-            // _ddVersion.schedule.Execute(() =>
-            // {
-            //     using var mouseDownEvent = MouseDownEvent.GetPooled();
-            //     mouseDownEvent.target = _ddVersion;
-            //     _ddVersion.SendEvent(mouseDownEvent);
-            // });
+            PopulateVersionDropdown(_selectedProject, previousValue);
+            EditorApplication.delayCall += OnVersionClicked;
             return;
         }
 
-        if (string.Equals(evt.newValue, NO_VERSION_LABEL, StringComparison.Ordinal))
+        if (string.Equals(newValue, NO_VERSION_LABEL, StringComparison.Ordinal)
+            || string.Equals(newValue, previousValue, StringComparison.Ordinal))
         {
-            // 占位选项，不是真正的 Tag，不触发信息刷新
             return;
         }
+
+        _ddVersion.text = newValue;
 
         if (IsExternalMode)
         {
@@ -1064,7 +1114,7 @@ public class MTPackageManagerWindow : EditorWindow
             return;
         }
 
-        ApplyTagInfoToInfoView(_selectedProject, evt.newValue);
+        ApplyTagInfoToInfoView(_selectedProject, newValue);
     }
     
     private void SwitchType(string tag)
@@ -1418,7 +1468,7 @@ public class MTPackageManagerWindow : EditorWindow
     {
         if (_ddVersion != null)
         {
-            var value = _ddVersion.value;
+            var value = _ddVersion.text;
             if (!string.IsNullOrEmpty(value)
                 && !string.Equals(value, NO_VERSION_LABEL, StringComparison.Ordinal)
                 && !value.StartsWith(SHOW_ALL_PREFIX, StringComparison.Ordinal))

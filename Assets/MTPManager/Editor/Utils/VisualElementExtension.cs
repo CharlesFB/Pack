@@ -5,6 +5,8 @@
 // @Description: 用于提供VisualElement相关的便捷操作
 // ==================================================
 
+using UnityEditor;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace MagicTavern.FrontEngine.MTPManager
@@ -14,6 +16,33 @@ namespace MagicTavern.FrontEngine.MTPManager
     /// </summary>
     public static class VisualElementExtension
     {
+        public static void AddStyleSheetIfExists(this VisualElement element, string path)
+        {
+            if (element == null || string.IsNullOrEmpty(path))
+            {
+                return;
+            }
+
+            var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(path);
+            if (styleSheet != null)
+            {
+                element.styleSheets.Add(styleSheet);
+            }
+        }
+
+        public static void SetBackgroundImage(this VisualElement element, string path)
+        {
+            if (element == null)
+            {
+                return;
+            }
+
+            var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+            element.style.backgroundImage = tex != null
+                ? new StyleBackground(tex)
+                : new StyleBackground();
+        }
+
         public static VisualElement GetRoot(this VisualElement element)
         {
             if (element.panel != null)

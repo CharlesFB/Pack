@@ -32,8 +32,8 @@ public class MTPSettingWindow : EditorWindow
     private TextField _tfItemInput;
     private Button _btnAdd;
     
-    //Refresh
-    private DropdownField _ddRefreshTime;
+    // Refresh
+    private Button _ddRefreshTime;
     
     // Common
     private Button _btnSave;
@@ -51,6 +51,7 @@ public class MTPSettingWindow : EditorWindow
     {
         VisualElement root = settingWindow.CloneTree();
         root.StretchToParentSize();
+        root.AddStyleSheetIfExists(MTPUI.SETTING_WINDOW_STYLE_PATH);
         rootVisualElement.Add(root);
         
         InitializeWindow();
@@ -71,11 +72,15 @@ public class MTPSettingWindow : EditorWindow
         _foBlackList = rootVisualElement.Q<Foldout>("foBlackList");
         _tfItemInput = rootVisualElement.Q<TextField>("tfItemInput");
         _btnAdd = rootVisualElement.Q<Button>("btnAdd");
-        
-        _ddRefreshTime = rootVisualElement.Q<DropdownField>("ddRefreshTime");
-        
+
+        _ddRefreshTime = rootVisualElement.Q<Button>("ddRefreshTime");
         _btnSave = rootVisualElement.Q<Button>("btnSave");
         _btnReset = rootVisualElement.Q<Button>("btnReset");
+
+        if (_ddRefreshTime != null)
+        {
+            _ddRefreshTime.clicked += OnRefreshTimeClicked;
+        }
 
         if (_btnAdd != null)
             _btnAdd.clicked += OnAddBlackList;
@@ -113,12 +118,10 @@ public class MTPSettingWindow : EditorWindow
             AddFoldoutItem(item);
         }
 
-        _ddRefreshTime.choices = new List<string>();
-        foreach (var e in Enum.GetNames(typeof(RefreshTime)))
+        if (_ddRefreshTime != null)
         {
-            _ddRefreshTime.choices.Add(e);
+            _ddRefreshTime.text = Enum.GetName(typeof(RefreshTime), config.refreshFrequency);
         }
-        _ddRefreshTime.value = Enum.GetName(typeof(RefreshTime), config.refreshFrequency);
     }
 
     private void ClearConfigValues()
@@ -145,6 +148,7 @@ public class MTPSettingWindow : EditorWindow
             return;
         }
         VisualElement el = foldoutItem.CloneTree();
+        el.AddStyleSheetIfExists(MTPUI.ITEM_ROW_HOVER_STYLE_PATH);
         var itemName = el.Q<Label>("lbName");
         var itemRemoveButton = el.Q<Button>("btnRemove");
         if (itemName == null || itemRemoveButton == null)
@@ -167,6 +171,24 @@ public class MTPSettingWindow : EditorWindow
         itemName.text = name ?? _tfItemInput.value;
         itemRemoveButton.clicked += el.RemoveFromHierarchy;
         _foBlackList.Add(el);
+    }
+
+    private void OnRefreshTimeClicked()
+    {
+        DropdownMenuUtils.Show(
+            _ddRefreshTime,
+            Enum.GetNames(typeof(RefreshTime)),
+            OnRefreshTimeSelected);
+    }
+
+    private void OnRefreshTimeSelected(string value)
+    {
+        if (_ddRefreshTime == null || string.IsNullOrEmpty(value))
+        {
+            return;
+        }
+
+        _ddRefreshTime.text = value;
     }
 
     private void OnAddBlackList()
@@ -248,7 +270,11 @@ public class MTPSettingWindow : EditorWindow
             }
         }
 
-        config.refreshFrequency = Enum.Parse<RefreshTime>(_ddRefreshTime.value);
+        RefreshTime frequency;
+        if (_ddRefreshTime != null && Enum.TryParse(_ddRefreshTime.text, out frequency))
+        {
+            config.refreshFrequency = frequency;
+        }
         config.DebugMode = _tgDebugMode.value;
         config.ShowDevTag = _tgDevTag.value;
         config.LogOnConsole = _tgLogOnConsole.value;

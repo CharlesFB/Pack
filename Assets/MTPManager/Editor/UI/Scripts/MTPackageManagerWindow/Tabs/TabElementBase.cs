@@ -11,11 +11,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     {
         public void AddStyleSheetIfExists(string path)
         {
-            var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>(path);
-            if (styleSheet != null)
-            {
-                styleSheets.Add(styleSheet);
-            }
+            VisualElementExtension.AddStyleSheetIfExists(this, path);
         }
 
         public Label LabelWithClass(string text, string className, StyleColor color)

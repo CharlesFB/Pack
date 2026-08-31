@@ -5,3 +5,22 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.ddPopup {
+    background-color: rgb(88, 88, 88);
+    background-image: none;
+    border-width: 1px;
+    border-color: rgb(35, 35, 35);
+    border-radius: 3px;
+    flex-direction: row;
+    align-items: center;
+    min-height: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: rgb(220, 220, 220);
+}
+
+.ddPopup:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}

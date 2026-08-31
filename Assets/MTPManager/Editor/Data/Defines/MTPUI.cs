@@ -14,6 +14,20 @@ namespace MagicTavern.FrontEngine.MTPManager
         // Markdown 渲染代码块使用的等宽字体资源路径。
         public const string MONACO_FONT_PATH = UI_ROOT + "Fonts/Monaco.ttf";
         
+        public const string BUTTON_HOVER_STYLE_PATH = UI_ROOT + "Styles/GlobalStyles/ButtonHovor.uss";
+        public const string WINDOW_STYLE_PATH = UI_ROOT + "Styles/MTPackageManagerWindow.uss";
+        public const string TAB_VIEW_STYLE_PATH = UI_ROOT + "Styles/TabView.uss";
+        public const string HOVER_LINK_STYLE_PATH = UI_ROOT + "Styles/GlobalStyles/HoverLink.uss";
+        public const string PROJECT_ITEM_VIEW_STYLE_PATH = UI_ROOT + "Styles/ProjectItemView.uss";
+        public const string ITEM_ROW_HOVER_STYLE_PATH = UI_ROOT + "Styles/GlobalStyles/ItemRowHover.uss";
+        public const string SETTING_WINDOW_STYLE_PATH = UI_ROOT + "Styles/MTPSettingWindow.uss";
+        public const string PLUGIN_IMPORT_STYLE_PATH = UI_ROOT + "Styles/PluginImportWindow.uss";
+        public const string QUICK_INSTALL_STYLE_PATH = UI_ROOT + "Styles/QuickInstallWindow.uss";
+
+        public const string SEARCH_ICON_PATH = UI_ROOT + "Imgs/sousuo.png";
+        public const string CLEAR_ICON_PATH = UI_ROOT + "Imgs/qingkong.png";
+        public const string REFRESH_ICON_PATH = UI_ROOT + "Imgs/refresh.png";
+
         // Markdown 渲染结果对应的通用 USS 样式路径。
         public const string MARKDOWN_STYLE_PATH = UI_ROOT + "Styles/Markdown.uss";
         // 标签页 placeholder 文字通用样式路径

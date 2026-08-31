@@ -1,7 +1,5 @@
 .item-row {
     background-color: rgba(75, 75, 75, 0);
-    transition-property: background-color;
-    transition-duration: 0.15s;
 }
 
 .item-row:hover {

@@ -73,6 +73,5 @@
 }
 
 .md-code-line {
-    white-space: normal;
     color: rgb(230, 230, 230);
 }

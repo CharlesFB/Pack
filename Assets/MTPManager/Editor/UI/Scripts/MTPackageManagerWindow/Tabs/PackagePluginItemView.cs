@@ -40,6 +40,7 @@ public class PackagePluginItemView : VisualElement
 
         var root = tree.CloneTree();
         Add(root);
+        this.AddStyleSheetIfExists(MTPUI.ITEM_ROW_HOVER_STYLE_PATH);
 
         _lbName = root.Q<Label>("lbName");
         _btnUnzip = root.Q<Button>("btnUnZip");

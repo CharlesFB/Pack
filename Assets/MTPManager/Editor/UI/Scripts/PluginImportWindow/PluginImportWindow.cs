@@ -84,6 +84,7 @@ public class PluginImportWindow : EditorWindow
 
         var root = windowTree.CloneTree();
         root.StretchToParentSize();
+        root.AddStyleSheetIfExists(MTPUI.PLUGIN_IMPORT_STYLE_PATH);
         rootVisualElement.Add(root);
 
         InitWindowComponent();
@@ -119,6 +120,12 @@ public class PluginImportWindow : EditorWindow
             _lvPluginItemContainer.bindItem = OnBindItem;
             _lvPluginItemContainer.itemsSource = _pluginKeys;
             _lvPluginItemContainer.selectionType = SelectionType.None;
+#if UNITY_2021_2_OR_NEWER
+            _lvPluginItemContainer.fixedItemHeight = 70;
+            _lvPluginItemContainer.virtualizationMethod = CollectionVirtualizationMethod.FixedHeight;
+#else
+            _lvPluginItemContainer.itemHeight = 70;
+#endif
             _lvPluginItemContainer.RefreshListView();
         }
         else if (pluginTree == null)

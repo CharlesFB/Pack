@@ -60,7 +60,6 @@
     font-size: 14px;
     -unity-font-style: normal;
     -unity-text-align: middle-center;
-    transition-duration: 0.2s;
 }
 
 .tab-button:hover {
