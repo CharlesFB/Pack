@@ -77,6 +77,10 @@ namespace MagicTavern.FrontEngine.MTPManager
             rootPackage.LoadFromLocal();
             localPackage.LoadFromLocal();
 
+#if !PACKAGE_DEV
+            ServiceLocator.Get<IPackageSyncService>().EnsureSelfPackageRegistered();
+#endif
+
             LM.Log(
                 $"[MTPApplicationStarter] 内存装载已完成. " +
                 $"deps:{mtPackageInfo.GetAllPackages().Count}, " +

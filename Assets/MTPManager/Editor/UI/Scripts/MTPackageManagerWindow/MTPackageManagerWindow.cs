@@ -1226,13 +1226,20 @@ public class MTPackageManagerWindow : EditorWindow
         try
         {
             var installed = FindInstalled(_selectedProject);
-            if (installed == null
-                || string.Equals(installed.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal)
+            if (installed == null)
+            {
+                LM.LogWarning("[MTPackageManagerWindow] 未找到已安装记录，无法卸载");
+                return;
+            }
+
+#if !PACKAGE_DEV
+            if (string.Equals(installed.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal)
                 || IsSelfPackage(_selectedProject, GetSelectedTag()))
             {
                 LM.LogWarning("[MTPackageManagerWindow] 本工程包不可卸载");
                 return;
             }
+#endif
 
             var dependents = MTPackageInfoService.GetAllUsedBy(installed.PackageName);
             if (dependents != null && dependents.Count > 0)
@@ -1415,6 +1422,9 @@ public class MTPackageManagerWindow : EditorWindow
 
     private static bool IsSelfPackage(ProjectInfo project, string tag)
     {
+#if PACKAGE_DEV
+        return false;
+#else
         var tagInfo = ProjectDisplayUtils.GetTagInfo(project, tag);
         if (tagInfo != null
             && string.Equals(tagInfo.name, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
@@ -1439,6 +1449,7 @@ public class MTPackageManagerWindow : EditorWindow
         }
 
         return false;
+#endif
     }
 
     #endregion InfoView

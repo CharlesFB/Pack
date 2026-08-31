@@ -23,11 +23,17 @@ namespace MagicTavern.FrontEngine.MTPManager
         /// <summary>
         /// 清空根包后 SyncManifest，卸载全部 MTP 管理的包。
         /// 成功后再清目录缓存 / local 快照 / 插件资源记录，并强制拉回工程列表。
-        /// 不把 MTP 自身重新注册为根包（开发版与发布版路径不同，暂不处理）。
+        /// 非 PACKAGE_DEV 下会把 MTP 自身重新写入根清单（与旧 SyncMTPManagerVersion 一致）。
         /// </summary>
         /// <param name="changeInstallMode">
         /// false：按当前 Config.InstallToLocal 卸载。true：按相反模式卸载（切换安装模式时用）。
         /// </param>
         Task<bool> ResetAsync(bool changeInstallMode = false);
+
+        /// <summary>
+        /// 非开发模式：按 Unity manifest 中自身 git 地址，把 MTP 写入根清单 / 依赖树。
+        /// PACKAGE_DEV 下为空操作。
+        /// </summary>
+        void EnsureSelfPackageRegistered();
     }
 }

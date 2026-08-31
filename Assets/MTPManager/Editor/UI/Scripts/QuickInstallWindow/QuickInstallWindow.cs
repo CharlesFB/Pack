@@ -660,6 +660,9 @@ public class QuickInstallWindow : EditorWindow
 
     private void EnsureSelfRootPreserved(Dictionary<string, MTPackageInfo> roots)
     {
+#if PACKAGE_DEV
+        return;
+#else
         const string SELF_NAME = MTPGit.SELF_PACKAGE_NAME;
         if (roots.ContainsKey(SELF_NAME))
         {
@@ -679,6 +682,7 @@ public class QuickInstallWindow : EditorWindow
         clone.Depth = 0;
         roots[SELF_NAME] = clone;
         LM.Log("[QuickInstallWindow] 已保留 MTP Manager 自身，不允许通过 QuickInstall 卸载");
+#endif
     }
 
     private void SetControlsEnabled(bool enabled)

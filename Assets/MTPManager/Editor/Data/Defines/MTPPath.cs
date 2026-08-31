@@ -2,6 +2,24 @@ namespace MagicTavern.FrontEngine.MTPManager
 {
     internal static class MTPPath
     {
+#if PACKAGE_DEV
+        public const string PACKAGE_ROOT = "Assets/MTPManager";
+#else
+        public const string PACKAGE_ROOT = "Packages/" + MTPGit.SELF_PACKAGE_NAME;
+#endif
+        public const string SELF_PACKAGE_JSON_PATH = PACKAGE_ROOT + "/package.json";
+
+        public static string GetPackagePath(string relativePath)
+        {
+            if (string.IsNullOrEmpty(relativePath))
+            {
+                return PACKAGE_ROOT;
+            }
+
+            relativePath = relativePath.Replace('\\', '/').TrimStart('/');
+            return PACKAGE_ROOT + "/" + relativePath;
+        }
+
         // ----- 不可恢复文件，存放在Packages目录下，随git同步 -----
         public const string PACKAGE_MANIFEST_PATH = "Packages/manifest.json";               //unity manifest.json 路径
         public const string PACKAGE_LOCK_PATH = "Packages/packages-lock.json";              //unity package-lock.json 路径

@@ -7,8 +7,10 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using Editor.Data.Models;
+using MagicTavern.FrontEngine.MTPManager.LitJson;
 using UnityEditor;
 using LM = MagicTavern.FrontEngine.MTPManager.LogManager;
 
@@ -24,6 +26,7 @@ namespace MagicTavern.FrontEngine.MTPManager
         private IProjectInfoService ProjectInfo => ServiceLocator.Get<IProjectInfoService>();
         private IPackageJsonService PackageJson => ServiceLocator.Get<IPackageJsonService>();
         private IPluginAssetService PluginAsset => ServiceLocator.Get<IPluginAssetService>();
+        private IPackagesLockService PackagesLock => ServiceLocator.Get<IPackagesLockService>();
 
         public async Task<bool> SyncManifestAsync(bool? installToLocal = null)
         {
@@ -119,8 +122,84 @@ namespace MagicTavern.FrontEngine.MTPManager
 
             await ProjectInfo.PullFromGitAsync(force: true);
             await PackageJson.PullFromGitAsync(force: true);
+            EnsureSelfPackageRegistered();
             return true;
         }
+
+        public void EnsureSelfPackageRegistered()
+        {
+#if PACKAGE_DEV
+            return;
+#else
+            Manifest.LoadFromLocal();
+            PackagesLock.LoadFromLocal();
+            if (!Manifest.GetGitPackageInfo(MTPGit.SELF_PACKAGE_NAME, out var url, out var tag)
+                || string.IsNullOrEmpty(url) || string.IsNullOrEmpty(tag))
+            {
+                LM.LogWarning("[PackageSyncService] Unity manifest 中没有 MTP 自身 git 依赖，跳过自身注册");
+                return;
+            }
+
+            var selfJson = ReadSelfPackageJson();
+            if (selfJson == null)
+            {
+                LM.LogError("[PackageSyncService] 无法读取 MTP 自身 package.json");
+                return;
+            }
+
+            string revision = PackagesLock.Get(MTPGit.SELF_PACKAGE_NAME)?.hash;
+            if (string.IsNullOrEmpty(revision))
+            {
+                revision = tag;
+            }
+
+            var existingRoot = RootPackage.GetRoot(MTPGit.SELF_PACKAGE_NAME);
+            var existingTree = MTPackage.GetPackage(MTPGit.SELF_PACKAGE_NAME);
+            bool rootChanged = existingRoot == null
+                || !string.Equals(existingRoot.Tag, tag, StringComparison.Ordinal)
+                || !string.Equals(existingRoot.Revision, revision, StringComparison.Ordinal);
+            bool treeChanged = existingTree == null
+                || !string.Equals(existingTree.Tag, tag, StringComparison.Ordinal)
+                || !string.Equals(existingTree.Revision, revision, StringComparison.Ordinal);
+            if (!rootChanged && !treeChanged)
+            {
+                return;
+            }
+
+            var selfPackage = MTPackage.AddDependency(selfJson, url, tag, revision, 0, false);
+            if (selfPackage == null)
+            {
+                LM.LogError("[PackageSyncService] 写入 MTP 自身到依赖树失败");
+                return;
+            }
+
+            RootPackage.AddOrUpdateRoot(selfPackage);
+            RootPackage.SaveToLocal();
+            MTPackage.SaveDependenciesToLocal();
+            LM.Log($"[PackageSyncService] 已注册 MTP 自身: {selfPackage.PackageName}#{selfPackage.Tag}");
+#endif
+        }
+
+#if !PACKAGE_DEV
+        private static PackageJson ReadSelfPackageJson()
+        {
+            string path = Path.GetFullPath(MTPPath.SELF_PACKAGE_JSON_PATH);
+            if (!File.Exists(path))
+            {
+                return null;
+            }
+
+            try
+            {
+                return JsonMapper.ToObject<PackageJson>(File.ReadAllText(path));
+            }
+            catch (Exception e)
+            {
+                LM.LogError($"[PackageSyncService] 解析 MTP package.json 失败: {e.Message}");
+                return null;
+            }
+        }
+#endif
 
         private void CollectUnityAddPackage(List<MTPackageInfo> addList)
         {
@@ -149,10 +228,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
+#if !PACKAGE_DEV
                 if (string.Equals(packageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
                 {
                     continue;
                 }
+#endif
 
                 if (!IsMagicTavernPackage(packageUrl))
                 {
@@ -264,10 +345,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
+#if !PACKAGE_DEV
                 if (string.Equals(local.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
                 {
                     continue;
                 }
+#endif
 
                 if (MTPackage.GetPackage(local.PackageName) == null)
                 {

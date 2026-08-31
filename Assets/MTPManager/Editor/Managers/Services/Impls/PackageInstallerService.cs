@@ -48,10 +48,12 @@ namespace MagicTavern.FrontEngine.MTPManager
                     continue;
                 }
 
+#if !PACKAGE_DEV
                 if (string.Equals(package.PackageName, MTPGit.SELF_PACKAGE_NAME, StringComparison.Ordinal))
                 {
                     continue;
                 }
+#endif
 
                 bool isUpdate = !string.IsNullOrEmpty(package.PackageName)
                                 && addNames.Contains(package.PackageName);
