@@ -1,3 +1,10 @@
+// ==================================================
+// Copyright (c) Magic Tavern. All rights reserved.
+// @Author: 赵杰阳
+// @Maintainer: 陈梓霄
+// @Description: MTP工程内使用的包存储模型，参与各项业务流程
+// ==================================================
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -13,9 +20,7 @@ namespace MagicTavern.FrontEngine.MTPManager
     public class MTPackageInfo
     {
         public Dictionary<string, string> Dependencies;
-        /// <summary>
-        /// 插件身份 Key（packageName#pluginFileName）-> 是否已导入。
-        /// </summary>
+        // 插件身份 Key（packageName#pluginFileName）-> 是否已导入。
         public Dictionary<string, bool> Plugins = new Dictionary<string, bool>();
 
         public string PackageName; // "com.xxx.xxx"

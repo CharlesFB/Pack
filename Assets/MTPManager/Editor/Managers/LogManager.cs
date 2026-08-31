@@ -17,7 +17,22 @@ namespace MagicTavern.FrontEngine.MTPManager
         private static readonly object s_fileLock = new object();
 
         private static LogManager s_instance;
+#if UNITY_2020_2_OR_NEWER
         public static LogManager Instance => s_instance ??= new LogManager();
+#else
+        public static LogManager Instance
+        {
+            get
+            {
+                if (s_instance == null)
+                {
+                    s_instance = new LogManager();
+                }
+
+                return s_instance;
+            }
+        }
+#endif
 
         private LogManager()
         {

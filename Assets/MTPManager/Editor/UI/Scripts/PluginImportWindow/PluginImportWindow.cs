@@ -53,7 +53,14 @@ public class PluginImportWindow : EditorWindow
             return Task.FromResult(new PluginImportSelection { Confirmed = false });
         }
 
+#if UNITY_2020_2_OR_NEWER
         mtPackageInfo.Plugins ??= new Dictionary<string, bool>();
+#else
+        if (mtPackageInfo.Plugins == null)
+        {
+            mtPackageInfo.Plugins = new Dictionary<string, bool>();
+        }
+#endif
 
         var window = CreateInstance<PluginImportWindow>();
         window.titleContent = new GUIContent("选择需要导入的插件资源");
@@ -162,7 +169,11 @@ public class PluginImportWindow : EditorWindow
             return;
         }
 
+#if UNITY_2020_1_OR_NEWER
         btnChooseDir.UnregisterCallback<ClickEvent>(OnChooseDirClicked);
+#else
+        btnChooseDir.UnregisterCallback<MouseUpEvent>(OnChooseDirClicked);
+#endif
 
         bool isZip = fileName.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
         veDirChosen.style.display = isZip ? DisplayStyle.Flex : DisplayStyle.None;
@@ -171,7 +182,11 @@ public class PluginImportWindow : EditorWindow
         {
             btnChooseDir.userData = pluginKey;
             RefreshUnzipRootLabel(lbUnzipRoot, pluginKey);
+#if UNITY_2020_1_OR_NEWER
             btnChooseDir.RegisterCallback<ClickEvent>(OnChooseDirClicked);
+#else
+            btnChooseDir.RegisterCallback<MouseUpEvent>(OnChooseDirClicked);
+#endif
         }
     }
 
@@ -184,9 +199,23 @@ public class PluginImportWindow : EditorWindow
         lbUnzipRoot.tooltip = hasCustomDir ? dir : "默认解到 Assets/ 根目录";
     }
 
+#if UNITY_2020_1_OR_NEWER
     private void OnChooseDirClicked(ClickEvent evt)
+#else
+    private void OnChooseDirClicked(MouseUpEvent evt)
+#endif
     {
+#if !UNITY_2020_1_OR_NEWER
+        if (evt.button != 0)
+        {
+            return;
+        }
+#endif
+#if UNITY_2021_2_OR_NEWER
         if (evt.currentTarget is not Button btnChooseDir || btnChooseDir.userData is not string path)
+#else
+        if (!(evt.currentTarget is Button btnChooseDir) || !(btnChooseDir.userData is string path))
+#endif
         {
             return;
         }

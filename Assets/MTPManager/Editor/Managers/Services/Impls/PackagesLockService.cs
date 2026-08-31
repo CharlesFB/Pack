@@ -21,7 +21,13 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return null;
             }
 
+#if UNITY_2021_2_OR_NEWER
             return _dependencies.GetValueOrDefault(packageName);
+#else
+            PackagesLock.LockInfo info;
+            _dependencies.TryGetValue(packageName, out info);
+            return info;
+#endif
         }
 
         public Dictionary<string, PackagesLock.LockInfo> GetAll()

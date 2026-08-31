@@ -95,7 +95,11 @@ public class MTPackageManagerWindow : EditorWindow
         VisualElement root = rootVisualElement;
 
         // Instantiate UXML
+#if UNITY_2020_1_OR_NEWER
         VisualElement basic = mtpWindow.Instantiate();
+#else
+        VisualElement basic = mtpWindow.CloneTree();
+#endif
         basic.StretchToParentSize();
         root.Add(basic);
 
@@ -535,7 +539,13 @@ public class MTPackageManagerWindow : EditorWindow
         _lvProjectList.bindItem = OnBindProjectItem;
         _lvProjectList.selectionType = SelectionType.Single;
         _lvProjectList.itemsSource = _displayedProjects;
+#if UNITY_2022_2_OR_NEWER
         _lvProjectList.selectionChanged += OnProjectSelectionChanged;
+#elif UNITY_2020_1_OR_NEWER
+        _lvProjectList.onSelectionChange += OnProjectSelectionChanged;
+#else
+        _lvProjectList.onSelectionChanged += OnProjectSelectionChanged;
+#endif
     }
 
     private void OnBindProjectItem(VisualElement element, int index)
@@ -655,7 +665,7 @@ public class MTPackageManagerWindow : EditorWindow
     /// </summary>
     private void UpdateSelectedItemVisual()
     {
-        _lvProjectList?.RefreshItems();
+        _lvProjectList?.RefreshListView();
     }
 
     /// <summary>
@@ -691,12 +701,26 @@ public class MTPackageManagerWindow : EditorWindow
         if (indexToSelect >= 0)
         {
             _selectedProject = _displayedProjects[indexToSelect];
+#if UNITY_2021_2_OR_NEWER
             _lvProjectList?.SetSelectionWithoutNotify(new[] { indexToSelect });
+#else
+            if (_lvProjectList != null)
+            {
+                _lvProjectList.selectedIndex = indexToSelect;
+            }
+#endif
         }
         else
         {
             _selectedProject = null;
+#if UNITY_2020_1_OR_NEWER
             _lvProjectList?.ClearSelection();
+#else
+            if (_lvProjectList != null)
+            {
+                _lvProjectList.selectedIndex = -1;
+            }
+#endif
         }
 
         UpdateSelectedItemVisual(); // 更新选中项

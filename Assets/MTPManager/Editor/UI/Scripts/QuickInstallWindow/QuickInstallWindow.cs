@@ -50,7 +50,11 @@ public class QuickInstallWindow : EditorWindow
             return;
         }
 
+#if UNITY_2020_1_OR_NEWER
         VisualElement root = quickInstallWindow.Instantiate();
+#else
+        VisualElement root = quickInstallWindow.CloneTree();
+#endif
         root.StretchToParentSize();
         rootVisualElement.Add(root);
 
@@ -214,7 +218,9 @@ public class QuickInstallWindow : EditorWindow
         if (tgState != null)
         {
             tgState.userData = index;
+#if UNITY_2021_1_OR_NEWER
             tgState.showMixedValue = false;
+#endif
             tgState.SetValueWithoutNotify(selected);
         }
 
@@ -237,7 +243,11 @@ public class QuickInstallWindow : EditorWindow
             return;
         }
 
+#if UNITY_2021_2_OR_NEWER
         if (evt.target is not Toggle tg || tg.userData is not int index)
+#else
+        if (!(evt.target is Toggle tg) || !(tg.userData is int index))
+#endif
         {
             return;
         }
@@ -263,7 +273,11 @@ public class QuickInstallWindow : EditorWindow
 
     private void OnItemVersionClicked(Button btnVersion)
     {
+#if UNITY_2021_2_OR_NEWER
         if (_isBusy || btnVersion == null || btnVersion.userData is not int index)
+#else
+        if (_isBusy || btnVersion == null || !(btnVersion.userData is int index))
+#endif
         {
             return;
         }
@@ -336,7 +350,9 @@ public class QuickInstallWindow : EditorWindow
         }
 
         _tgAll.SetValueWithoutNotify(selectedCount > 0 && selectedCount == _packageList.Count);
+#if UNITY_2021_1_OR_NEWER
         _tgAll.showMixedValue = selectedCount > 0 && selectedCount < _packageList.Count;
+#endif
     }
 
     private static Dictionary<string, MTPackageInfo> ClonePackages(IEnumerable<MTPackageInfo> source)

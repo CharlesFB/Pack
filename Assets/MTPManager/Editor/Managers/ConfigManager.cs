@@ -10,7 +10,22 @@ namespace MagicTavern.FrontEngine.MTPManager
     {
         private static ConfigManager s_instance;
 
+#if UNITY_2020_2_OR_NEWER
         public static ConfigManager Instance => s_instance ??= new ConfigManager();
+#else
+        public static ConfigManager Instance
+        {
+            get
+            {
+                if (s_instance == null)
+                {
+                    s_instance = new ConfigManager();
+                }
+
+                return s_instance;
+            }
+        }
+#endif
 
         // 缓存当前配置，避免频繁读取磁盘
         private MTPConfig _currentConfig;

@@ -6,7 +6,22 @@ namespace MagicTavern.FrontEngine.MTPManager
     public sealed class ServiceManager
     {
         private static ServiceManager s_instance;
+#if UNITY_2020_2_OR_NEWER
         public static ServiceManager Instance => s_instance ??= new ServiceManager();
+#else
+        public static ServiceManager Instance
+        {
+            get
+            {
+                if (s_instance == null)
+                {
+                    s_instance = new ServiceManager();
+                }
+
+                return s_instance;
+            }
+        }
+#endif
         ServiceManager()
         {
         }

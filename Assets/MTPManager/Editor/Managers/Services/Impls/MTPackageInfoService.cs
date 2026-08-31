@@ -101,7 +101,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
+#if UNITY_2020_2_OR_NEWER
             package.Plugins ??= new Dictionary<string, bool>();
+#else
+            if (package.Plugins == null)
+            {
+                package.Plugins = new Dictionary<string, bool>();
+            }
+#endif
             package.Plugins.Clear();
 
             string pluginDir = PathUtils.GetPluginsDirectory(package);
@@ -229,7 +236,13 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public MTPackageInfo GetPackage(string packageName)
         {
+#if UNITY_2021_2_OR_NEWER
             return _dependencies.GetValueOrDefault(packageName);
+#else
+            MTPackageInfo package;
+            _dependencies.TryGetValue(packageName, out package);
+            return package;
+#endif
         }
 
         public MTPackageInfo GetPackageByProject(ProjectInfo project)
@@ -558,10 +571,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
+#if UNITY_2020_2_OR_NEWER
+            package.Plugins ??= new Dictionary<string, bool>();
+#else
             if (package.Plugins == null)
             {
                 package.Plugins = new Dictionary<string, bool>();
             }
+#endif
         }
     }
 }

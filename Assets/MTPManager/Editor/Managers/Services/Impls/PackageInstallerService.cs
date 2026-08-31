@@ -17,8 +17,20 @@ namespace MagicTavern.FrontEngine.MTPManager
             List<MTPackageInfo> removeList)
         {
             var requests = new List<MTPackageInstallerRequest>();
+#if UNITY_2020_2_OR_NEWER
             addList ??= new List<MTPackageInfo>();
             removeList ??= new List<MTPackageInfo>();
+#else
+            if (addList == null)
+            {
+                addList = new List<MTPackageInfo>();
+            }
+
+            if (removeList == null)
+            {
+                removeList = new List<MTPackageInfo>();
+            }
+#endif
 
             var addNames = new HashSet<string>(StringComparer.Ordinal);
             foreach (var package in addList)

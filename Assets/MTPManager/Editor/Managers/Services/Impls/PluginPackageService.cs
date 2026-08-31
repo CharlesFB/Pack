@@ -61,7 +61,14 @@ namespace MagicTavern.FrontEngine.MTPManager
                 return;
             }
 
+#if UNITY_2020_2_OR_NEWER
             mtPackage.Plugins ??= new Dictionary<string, bool>();
+#else
+            if (mtPackage.Plugins == null)
+            {
+                mtPackage.Plugins = new Dictionary<string, bool>();
+            }
+#endif
             mtPackage.Plugins.Clear();
 
             string pluginDir = PathUtils.GetPluginsDirectory(mtPackage);

@@ -87,6 +87,7 @@ namespace MagicTavern.FrontEngine.MTPManager
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
                 };
+#if UNITY_2020_2_OR_NEWER
                 using var process = Process.Start(start);
                 if (process == null)
                 {
@@ -97,6 +98,20 @@ namespace MagicTavern.FrontEngine.MTPManager
                 process.WaitForExit();
                 output = output.TrimEnd(s_trimChars);
                 return string.IsNullOrEmpty(output) ? "N/A" : output;
+#else
+                using (var process = Process.Start(start))
+                {
+                    if (process == null)
+                    {
+                        return "N/A";
+                    }
+
+                    string output = process.StandardOutput.ReadToEnd();
+                    process.WaitForExit();
+                    output = output.TrimEnd(s_trimChars);
+                    return string.IsNullOrEmpty(output) ? "N/A" : output;
+                }
+#endif
             }
             catch
             {

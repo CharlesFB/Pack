@@ -103,8 +103,12 @@ public class PackageSamplesView : TabElementBase
                     itemView.BindData(row.SampleName, row.Sample);
                 }
             },
+#if UNITY_2021_2_OR_NEWER
             fixedItemHeight = ITEM_HEIGHT,
             virtualizationMethod = CollectionVirtualizationMethod.FixedHeight,
+#else
+            itemHeight = (int)ITEM_HEIGHT,
+#endif
             selectionType = SelectionType.None,
         };
         listView.style.flexGrow = 1;

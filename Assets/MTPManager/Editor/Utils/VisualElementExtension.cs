@@ -35,7 +35,9 @@ namespace MagicTavern.FrontEngine.MTPManager
 
         public static void RefreshListView(this ListView listview)
         {
-#if UNITY_2021_1_OR_NEWER
+#if UNITY_2021_2_OR_NEWER
+            listview.RefreshItems();
+#elif UNITY_2021_1_OR_NEWER
             listview.Rebuild();
 #else
             listview.Refresh();
