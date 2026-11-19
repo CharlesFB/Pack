@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "plugin_id": "build-config",
+  "build_id": "6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975",
+  "artifact": "artifact.zip",
+  "sha256": "6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975",
+  "size": 94026,
+  "metadata_status": "needs_review",
+  "layout": "unconfirmed",
+  "files": [
+    {
+      "path": "BuildConfig/.DS_Store",
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "size": 6148
+    },
+    {
+      "path": "BuildConfig/ios/.DS_Store",
+      "sha256": "d60120df075e0efaa3c1f634b1bde7d618e7c5b755a15ddf1f06390273e9921a",
+      "size": 6148
+    },
+    {
+      "path": "BuildConfig/ios/certificates/[Company]magictavern-distribution.p12",
+      "sha256": "d3d57d10d77de91e50bc69284977fc14e8bb74778de40319fe3cc7e501a90533",
+      "size": 3231
+    },
+    {
+      "path": "BuildConfig/ios/certificates/[Company]poeticcloud-distribution-2024-2-mxxn.p12",
+      "sha256": "c9bdd2eaa7401953e0adfa93de2ee5dd39da0386df64779107c0a3aa25ac597d",
+      "size": 3243
+    },
+    {
+      "path": "BuildConfig/ios/certificates/[Developer]cidemo_dev.p12",
+      "sha256": "8f24672aea9dae71ffaf3ec55422aad707c741db443a50765eb6b2880900ee5b",
+      "size": 3211
+    },
+    {
+      "path": "BuildConfig/ios/certificates/[Enterprise]magictavern-distribution.p12",
+      "sha256": "1e49e5d745a2e46380f1fa50069541cc36ed86f7562c965d9f34c02e7ff138e5",
+      "size": 3197
+    },
+    {
+      "path": "BuildConfig/ios/config/build-config.json",
+      "sha256": "677b7102b66f59138c4773d086be16fb579b541cd4e310834a5efddff6b4058f",
+      "size": 2584
+    },
+    {
+      "path": "BuildConfig/ios/export-options/candy-adhoc.plist",
+      "sha256": "4f8e1626779c491b67d9ccb019754cad3f65933e262d8634012e86ef107cd558",
+      "size": 523
+    },
+    {
+      "path": "BuildConfig/ios/export-options/candy-appstore.plist",
+      "sha256": "b3840100812ed1607d224f84e51a289b308544905b3ec2701b7288a94fbcdef2",
+      "size": 533
+    },
+    {
+      "path": "BuildConfig/ios/export-options/candy-inhouse.plist",
+      "sha256": "ea0b72cf0d4b5ec557376e6e007f9c3c86a1d6f3dd6a8629bf68dbee3e56f46b",
+      "size": 689
+    },
+    {
+      "path": "BuildConfig/ios/export-options/cidemo-adhoc.plist",
+      "sha256": "ea68550f082e1afb594ffa29806bf60b6f475bb7c925708ed86f39c8b17719c4",
+      "size": 515
+    },
+    {
+      "path": "BuildConfig/ios/export-options/cidemo-inhouse.plist",
+      "sha256": "a0b9cad32c1c98c192bcf1bb4461716cc406a5919caac1ac966e46c67ea93732",
+      "size": 691
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/candy-develop.mobileprovision",
+      "sha256": "ea32fb3bb4e691f04dacbce17a193d896b5d2c9879ccf101674966eccef411b1",
+      "size": 13517
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/candy-inhouse.mobileprovision",
+      "sha256": "dd06f9c656118b4fd4752513d84134cb87678fb4d7fd3f32a7179768dddd9cb6",
+      "size": 13203
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/candy-provision-adhoc.mobileprovision",
+      "sha256": "8c82daa2639088b0dc3e22850608f9425b1b76647282b927708c1eabe104db0f",
+      "size": 13569
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/candy-provision-distribution.mobileprovision",
+      "sha256": "b4f9e1f7bbb82bd2aaa05d5cc6e28075431fdf442dd0f7647a35a02c47b97629",
+      "size": 12303
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/cidemo-adhoc.mobileprovision",
+      "sha256": "787ae1fe110d8443f8e56d3be8cddd3420b5234b174b597f6c061bd9f14ba727",
+      "size": 23697
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/cidemo-dev.mobileprovision",
+      "sha256": "76934bfe20a7dce2b111021bf595f91b1589bbea2930da57dc85422194ae0a10",
+      "size": 17881
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/cidemo-inhouse.mobileprovision",
+      "sha256": "4ae2d98367023f45f2a59c836ce7d8996660f70bae0710a1440a31c03728be7f",
+      "size": 13261
+    },
+    {
+      "path": "BuildConfig/ios/provision-profile/pc-candy-develop.mobileprovision",
+      "sha256": "9a07dfc21d4821b69ed2ed0890e773a21d8c9c5e4b60db8bc3f71fd1ff64e7bc",
+      "size": 12779
+    },
+    {
+      "path": "__MACOSX/BuildConfig/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "size": 120
+    },
+    {
+      "path": "__MACOSX/BuildConfig/ios/._.DS_Store",
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9",
+      "size": 120
+    },
+    {
+      "path": "__MACOSX/BuildConfig/ios/config/._build-config.json",
+      "sha256": "1cdb33a5046ad3b72a53328783e0446d280b9b5d3dd1ca60b271c211569aa14f",
+      "size": 220
+    }
+  ]
+}

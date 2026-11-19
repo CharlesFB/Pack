@@ -1,0 +1,4111 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-anti-cheat-toolkit-e264d82c",
+  "build_id": "5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+  "artifact": "artifact.unitypackage",
+  "sha256": "5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+  "size": 1279135,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "52c313066dda63c459f7c826dbb8eed1",
+      "asset.meta": {
+        "sha256": "2a96bd5d6a91c2d46caced12a523ea4c6d969d436b778bb761a97ebde554259e",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit\n00"
+    },
+    {
+      "guid": "f4c375fd5bde53c42b0ebc6ee503f7a1",
+      "asset": {
+        "sha256": "603ed54a2a316f6de56d3dca29ec7300ec602aa57ceac5f137c7172863eee1a6",
+        "size": 114
+      },
+      "asset.meta": {
+        "sha256": "c30c92b9c8abe10a245f5f6be67858ef9738c48c6df2273906fcd481c422cf8f",
+        "size": 142
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/API.txt\n00"
+    },
+    {
+      "guid": "a707e4914fc9f014790c02a3cd0b455d",
+      "asset": {
+        "sha256": "fc2c6d1206c7aa8b07ae26ae391ae29cd87b23dfdff78296255df2d42dc3ca0c",
+        "size": 58025
+      },
+      "asset.meta": {
+        "sha256": "8d2f9ecfa32fbbd378e556b776bed314adf9b27eb661c1be23f1cd29b0f4f91f",
+        "size": 142
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/CHANGELOG.md\n00"
+    },
+    {
+      "guid": "ac5220baa6a51bb47a5c640ddf6c0ce8",
+      "asset.meta": {
+        "sha256": "008a296e28398e6fa79e11f48c9ca3fd6b55dfb684d7603e9ca9c4379f6938d5",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor\n00"
+    },
+    {
+      "guid": "8ef82b58ed1acc8419a02b8a05286620",
+      "asset": {
+        "sha256": "b9e31154c6bbfe50df38f09e27fbe1e3709e6e3d807f7801bf3b15a82616cf29",
+        "size": 536
+      },
+      "asset.meta": {
+        "sha256": "f8da81b84cbe231a34181d2a9cf849c5c5311a7e1ed3ba2f7992448d891f815b",
+        "size": 218
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/ACTk.Editor.asmdef\n00"
+    },
+    {
+      "guid": "1ff6bc3cba85fba4e922af0d4a624023",
+      "asset.meta": {
+        "sha256": "b4fee700b5313c55cd3150caddd9a4dbb3d5d6e0da45470893186acbfb159bb7",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts\n00"
+    },
+    {
+      "guid": "a9ee7d4a58674ac69c27bc7c29417309",
+      "asset": {
+        "sha256": "1e918400fef29a34878e3bf955452aa3309da0dd716549d2781241ae4f9571d2",
+        "size": 2437
+      },
+      "asset.meta": {
+        "sha256": "c97e86326a884cf63a8ac16b103487e821aec53bf41e7ac59aae6f00d9243fdc",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ACTkEditorConstants.cs\n00"
+    },
+    {
+      "guid": "00b850c709170d1469bcd89e6f80b16c",
+      "asset": {
+        "sha256": "5f008c5a6c62665b0e609f5feb0958748ee787f223f17da3db8019a527911129",
+        "size": 1097
+      },
+      "asset.meta": {
+        "sha256": "f8529b4e2ce68122ca0a81baceea36ea909356283bc4e5e51cd455b750dcc6b1",
+        "size": 299
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ACTkMarker.cs\n00"
+    },
+    {
+      "guid": "e10289b3bdb7db64c8f2c624b337d331",
+      "asset": {
+        "sha256": "e07f5af590189be14a975af668a8cda1ccec5195cd72b5b9d59faac6b8fb2a2a",
+        "size": 5028
+      },
+      "asset.meta": {
+        "sha256": "40f9d316c0c789f97173c3b1bbd2b16e08771ef5ed6b4bbdbf9d37bf8016d65d",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ACTkMenuItems.cs\n00"
+    },
+    {
+      "guid": "a1cc293465f841498ad940f7813ccedd",
+      "asset": {
+        "sha256": "79bedca3ff8d230e8ae8f7700ee35ab0119c10de104433db750da1ea62dd43be",
+        "size": 374
+      },
+      "asset.meta": {
+        "sha256": "48b1ac026b46c9160839e7cadb764b374484eed4a8bc632f176315df86f506fc",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/AssemblyInfo.cs\n00"
+    },
+    {
+      "guid": "d9e6164ee563b444d87cbe3437d6012a",
+      "asset.meta": {
+        "sha256": "57b22572fde6b2678bf8fd8e4d5ae91ddecfc938a858a77ede4bf6bf10780e71",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common\n00"
+    },
+    {
+      "guid": "14398b80f1b8c7e4ea405ef47a17e38c",
+      "asset.meta": {
+        "sha256": "87b98be76802b96301c8a30e37d4ae0c099650db160b9a1f1b9ab1db23aeade8",
+        "size": 172
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools\n00"
+    },
+    {
+      "guid": "b18cacce4700f664e8a56903e2090843",
+      "asset": {
+        "sha256": "df88eff0bb0d744be408d9414de4c5a79561f311d8fb9ab0c8221248da0a74c4",
+        "size": 4899
+      },
+      "asset.meta": {
+        "sha256": "ea7f857f89dd9d320c400e2ae1927575a9aaff35b137aae59cea2c8b3dff1b2d",
+        "size": 243
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSColorTools.cs\n00"
+    },
+    {
+      "guid": "0262830fc851659438acad57bb020619",
+      "asset": {
+        "sha256": "b2a46bc7c4cafb92fa352cacd554cbc8f783fd314e3a65036b2fbea6e13170de",
+        "size": 2982
+      },
+      "asset.meta": {
+        "sha256": "67d86b6c856ee299b7c727cb1ce29d38442befc784bffc58b70a01273af7e441",
+        "size": 243
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSEditorIcons.cs\n00"
+    },
+    {
+      "guid": "47e5a8270a3c78c4191b11b026ac7c2d",
+      "asset": {
+        "sha256": "850e335932dbd99a7744260b6a25ed610c3a66d65488033afe838efc9392951a",
+        "size": 750
+      },
+      "asset.meta": {
+        "sha256": "a1c6e70d4c39c9a9260458d530ef6dbfcd573657cb5d7193710e7b6d682482c8",
+        "size": 243
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSFileTools.cs\n00"
+    },
+    {
+      "guid": "5e42f0f68a093d74ea97ddfbd9a5ef4d",
+      "asset": {
+        "sha256": "4042e97819bb9d72f0f7885ab0d4ebe561c5f935b7492098e9a011b6382cb7e6",
+        "size": 2934
+      },
+      "asset.meta": {
+        "sha256": "6e0aad7d42dfb87641840c182af09b095ae0bd88b05096dafe6ab08d706bf4c4",
+        "size": 243
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSTextureLoader.cs\n00"
+    },
+    {
+      "guid": "f0c63cf6cabe3a547a0b46de95bff055",
+      "asset.meta": {
+        "sha256": "9b5c2f2e463ad085675aeb63f525541e1f10cd32e540eb6601e73fdf7397c2e9",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors\n00"
+    },
+    {
+      "guid": "6025f911d895a7e43a5d5c6229254129",
+      "asset": {
+        "sha256": "709ac3051651e9264c1870d020af4b68842c9674985a07ea7b1c0c0bd67d9986",
+        "size": 1691
+      },
+      "asset.meta": {
+        "sha256": "a59ab0e57b7808be0826a3ff438ea695d84a3e165cb2ed953f2d7e7d2cdd4633",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/InjectionDetectorEditor.cs\n00"
+    },
+    {
+      "guid": "6b59c308aff5e054991de809a3b5985b",
+      "asset": {
+        "sha256": "54a47290185fd1ca6a9f6c5c18185f0b5e6b3834bc88570b69cf49681ca1c5dd",
+        "size": 2985
+      },
+      "asset.meta": {
+        "sha256": "fdf5b81d31730d4ab82981a2b94cea49be6cd7d85d34327637715187fcce2889",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/KeepAliveBehaviourEditor.cs\n00"
+    },
+    {
+      "guid": "8df36b70906d65d43bcb3ddce3fe36ba",
+      "asset": {
+        "sha256": "0519a2668fb2b759a3133be8da792293dca8b17d1613cb5c64215dcfb8b53fe5",
+        "size": 1596
+      },
+      "asset.meta": {
+        "sha256": "302ddac0f78112ac5fd1f928f1c256593ede385f061f0c40c12c47cc9f48144f",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/ObscuredCheatingDetectorEditor.cs\n00"
+    },
+    {
+      "guid": "199f39969debe8f46afc5f32b333be3b",
+      "asset": {
+        "sha256": "b11f631f42f36b453a8473eeaca5598a399f02a58e6758d864efe8ac9c1df4ef",
+        "size": 2551
+      },
+      "asset.meta": {
+        "sha256": "1ab4838e23d02bd1b9ba9706e611e392df70e5befb82fe73c1d555240593ba68",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs\n00"
+    },
+    {
+      "guid": "2fb4c7beaf58d554ab0f85d86b53726e",
+      "asset": {
+        "sha256": "318397de83b7f08fd993b059e801f1a0977d0c56c76de7494a45a2b3fe3ccc67",
+        "size": 2671
+      },
+      "asset.meta": {
+        "sha256": "fec3f461346b7f872eabd25af711432fd23deb894a6aa559ab5bd47ce0fe809f",
+        "size": 186
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs\n00"
+    },
+    {
+      "guid": "2f88f8bd1134b464fa26c27d9979e6db",
+      "asset": {
+        "sha256": "525a392103a36478313ed8c5de473e69ace14aba414d8c2e72ce7e8be0402fda",
+        "size": 4546
+      },
+      "asset.meta": {
+        "sha256": "68d3287f332f911b064d9cb19f6fe05898f8a1c7a60f84ec001fb76197d28d4f",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/WallHackDetectorEditor.cs\n00"
+    },
+    {
+      "guid": "b60780b31b4fac0448812d7db515e8a7",
+      "asset.meta": {
+        "sha256": "814ddc3779e4fdd2b3a0a221419a3416f62b965b854924f76fb8eb4320a0902d",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine\n00"
+    },
+    {
+      "guid": "0eab0a2d46900f5498873b929a503bad",
+      "asset.meta": {
+        "sha256": "618895528180dea4c2d20e552f73fecf65e902070f05b385b59a60d291ae77f0",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash\n00"
+    },
+    {
+      "guid": "7ae78be353f2d8243b15efd15919c5f5",
+      "asset.meta": {
+        "sha256": "ba9e8b74c326000235f8ba483917439401ab15983e5fee79509ba3a8fc14f173",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess\n00"
+    },
+    {
+      "guid": "c82c021ded9a49b44b3701f1859341cd",
+      "asset": {
+        "sha256": "9e1aa454bb1ebc2c37b1a2b67ad97d49d72213afd274a724415f0ea65940ec7c",
+        "size": 7625
+      },
+      "asset.meta": {
+        "sha256": "1ccec6612552e3750f8c860028ebe8ef0c4c63e5a5460b13b72e6bb12d38e0f3",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/CodeHashGeneratorPostprocessor.cs\n00"
+    },
+    {
+      "guid": "881ba0c65bee45139ca757895221c6ab",
+      "asset.meta": {
+        "sha256": "2742c6fda0ccc890f53a37806190180d16c1cb3a676c76603d375fba2dae3637",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/Platforms\n00"
+    },
+    {
+      "guid": "9717d52c2bf842caaa8575f8f2947afa",
+      "asset": {
+        "sha256": "ab0efbb82af9ba15fe12d8bd2ce66e580f5ed8071ed42b2e337a7b215c3caba8",
+        "size": 4853
+      },
+      "asset.meta": {
+        "sha256": "a324bb39f4c3b2b3f1166ff35192a79d16da204077ec529596e4c4b3f14737fa",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/Platforms/AndroidBuildHashGenerator.cs\n00"
+    },
+    {
+      "guid": "02b38fd3639d4fd7a1a6732fadbeebc8",
+      "asset": {
+        "sha256": "7422e0f0c27b4e1b05511bb101aa5d83687b672cc2e777515c41d3db197579a8",
+        "size": 1463
+      },
+      "asset.meta": {
+        "sha256": "25ca700673aeacd0b92b657fe0034718bceb1ae5450efa1a06f6d6a12fec5706",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/Platforms/WindowsBuildHashGenerator.cs\n00"
+    },
+    {
+      "guid": "59e19c7338f04be697d7788c76f0cde6",
+      "asset.meta": {
+        "sha256": "826c3a4f12c64437a09ae0c5d4e971a89b119cad87cf2a1703f1b0ebcd53a1c7",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection\n00"
+    },
+    {
+      "guid": "99e59ee643091664d874b8418be8b78e",
+      "asset": {
+        "sha256": "5f20bc03d97724893bbb1b71cfafb9c9aaa7a63848b44be9f15663e4dd318db7",
+        "size": 1921
+      },
+      "asset.meta": {
+        "sha256": "93c7ff7367a19d551166291c3600197533293dcb327163ebdeaaf4120e374221",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/AllowedAssembly.cs\n00"
+    },
+    {
+      "guid": "fdb8abbb3fde4da3aa210fccf74e9524",
+      "asset": {
+        "sha256": "6ca460de197f78c01d3383e9aa3dc2a1d38f9120d857f896e8e0df9a56b4e26f",
+        "size": 797
+      },
+      "asset.meta": {
+        "sha256": "2f6129794d19514a38ba48fa8a0fc8e1bc5a73d7397dc412fece9182bb8e0630",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/InjectionConstants.cs\n00"
+    },
+    {
+      "guid": "682e4f8bd25b4b3f9ab90c2c080decf5",
+      "asset": {
+        "sha256": "ace27d26010b13a0a73f7bc0751451a5e5ce65d53ed2803bea3a348c6e485b4f",
+        "size": 5732
+      },
+      "asset.meta": {
+        "sha256": "5878c6dbc9c6fa47cd182472e881224473a7770deec633a2726646ddfb4795a8",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/InjectionRoutines.cs\n00"
+    },
+    {
+      "guid": "4ed4f862c6dc42a49c1f47d1e9ee2fb5",
+      "asset": {
+        "sha256": "27ff023826477d96a24f657b91cf990033ffbde59e3133d18ef0d6d50679d37a",
+        "size": 6300
+      },
+      "asset.meta": {
+        "sha256": "fedb3e34451a66857d076586131a474c7f1ee38702566bb24a88d666d7e86e00",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/InjectionWhitelistBuilder.cs\n00"
+    },
+    {
+      "guid": "bb730acf6c1569848b1187cd6c0e312c",
+      "asset.meta": {
+        "sha256": "945693fc586152406c838e577bc88e65ca466a096848e8e56db9be980d7ed4f1",
+        "size": 202
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/PostProcess\n00"
+    },
+    {
+      "guid": "e79f56c36f349f64995908c2bc571662",
+      "asset": {
+        "sha256": "1b6a5a7253e6acec2ebb70a550c09de972b44e5328c0a429cf8324f49021ea52",
+        "size": 2288
+      },
+      "asset.meta": {
+        "sha256": "cb1755650b2cecf039ca66f4efb7dc3b8e8dccc1b06b3b4026d6ff084792d936",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/PostProcess/BuildPostProcessor.cs\n00"
+    },
+    {
+      "guid": "bd28be63d7a09224da0cac7e3178896d",
+      "asset": {
+        "sha256": "9be6fbbbb86c0d24a3eb5ead4ca5baf4f78ee4553bb8d2248ff41daece682c7b",
+        "size": 7152
+      },
+      "asset.meta": {
+        "sha256": "8104f41fdd8c4302f7f41d6d880955b08a8de193fd5a129c9891d1cbe5e20bc1",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/UserWhitelistEditor.cs\n00"
+    },
+    {
+      "guid": "d1140a4b6184eae45916fdae3da40a10",
+      "asset.meta": {
+        "sha256": "8b0579aa92795c2f9b059929ba56fd724743f9b7e7304ce0228b77a99d900d74",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes\n00"
+    },
+    {
+      "guid": "7e1925e5a5f04349bee0d734c5705598",
+      "asset": {
+        "sha256": "92d5871d3e251f82f1898ecb012199fa9b2ce6b699a66da1e7f095aab99a588a",
+        "size": 7977
+      },
+      "asset.meta": {
+        "sha256": "3728bee53165f4292ff8033d8c9609b0e829e658d3f89527f74c5348882662bf",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/MigrateUtils.Routines.cs\n00"
+    },
+    {
+      "guid": "c1c7ff960ccd8a243ad385a3fe965e9e",
+      "asset": {
+        "sha256": "d8c95715fd56e52d814e832c08e2ee3e5bd6ea78915e5c171207ebab23e87b90",
+        "size": 4820
+      },
+      "asset.meta": {
+        "sha256": "f05c94f22a4136919b78940af03c4fcfe18bd6dc2bc477d138232adb5b5aefb3",
+        "size": 186
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/MigrateUtils.cs\n00"
+    },
+    {
+      "guid": "dfff86e18b5565b499779c37590c4d83",
+      "asset.meta": {
+        "sha256": "6f346dc496431503022ddce09ce1360044c21c0f9ead981761d1a898463a66ec",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers\n00"
+    },
+    {
+      "guid": "c48a363379404a3f8ffa0970bd1f7653",
+      "asset": {
+        "sha256": "5201f7954ce9899f0d9f4f4672a162ae7a93a3db1ccf4e29862bc8e32bfff4f9",
+        "size": 4170
+      },
+      "asset.meta": {
+        "sha256": "5899948bbf7e38cf1588ea21f61636b4f13d649bec045b8abfdee77c6cbdadfe",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredBigIntegerDrawer.cs\n00"
+    },
+    {
+      "guid": "2a0ae33a4804dd5468c37cee3d9e4a15",
+      "asset": {
+        "sha256": "04024cd6b1b5baffed25a906a9935ea9aec4095e5942be6873bc3610520c99eb",
+        "size": 1753
+      },
+      "asset.meta": {
+        "sha256": "f921af24c3795ea8a814a3cc80112d5e65f23ea05efc0c913cf63bc22a4c337d",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredBoolDrawer.cs\n00"
+    },
+    {
+      "guid": "d4822eb673254d3fa09b8add898e8445",
+      "asset": {
+        "sha256": "802b466074e6a3707cc6f34cb893cee25528de7948f5aa1554ced472e65ad27e",
+        "size": 2777
+      },
+      "asset.meta": {
+        "sha256": "068b1114cae247de91512a7a891063adfca57c07a5326f761ece46d4539cd368",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredDateTimeDrawer.cs\n00"
+    },
+    {
+      "guid": "b695953c62fb4e84aa3bcf20ed203871",
+      "asset": {
+        "sha256": "091fd582cdc73c8de9b928b1299aa41229c70338cf661452861c6bad0f677fdb",
+        "size": 5889
+      },
+      "asset.meta": {
+        "sha256": "cfb17a77e4511396a7f47467df594dafec8e67cb7341edce2b8f004c6a209a59",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredDecimalDrawer.cs\n00"
+    },
+    {
+      "guid": "5f1f384feecf6f94e9229f7d2b8ea644",
+      "asset": {
+        "sha256": "0f7e28a381482c070206b23ed38c1d58b7ba0aeae386e1b7b9ac23347d11dbf1",
+        "size": 1884
+      },
+      "asset.meta": {
+        "sha256": "6526fb3498ebf5f6e112c8a4fc364221e5ec8dcb8dcec7cdb372a14c3159dc6f",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredDoubleDrawer.cs\n00"
+    },
+    {
+      "guid": "68a1078367903c94bb9914b21b55172d",
+      "asset": {
+        "sha256": "dadd45f2acf82d55b334fad480043de5813b3ba6e2f3eba16f3c3d105f25b97a",
+        "size": 1864
+      },
+      "asset.meta": {
+        "sha256": "e9f50fbaf21afdd74d20e323be94143d9d5a5b677faf920e7aae62e351c5e870",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredFloatDrawer.cs\n00"
+    },
+    {
+      "guid": "0d720256b4500364ba597cd9f71f28e1",
+      "asset": {
+        "sha256": "fde2c1bb61f8586dd26627489a668b3d7f2622b3e0df8d6b80f2d91c297309ab",
+        "size": 1830
+      },
+      "asset.meta": {
+        "sha256": "a80d42da86a33a3506b08caf874f7867c89924a3f55fd8a89b78637bffb4fb46",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredIntDrawer.cs\n00"
+    },
+    {
+      "guid": "98c9f8eb20d73134e96287318b713c39",
+      "asset": {
+        "sha256": "922b1131fafbdc9fea35418cc458ad6d40c62e725d57678a154d52f58a334bcb",
+        "size": 1748
+      },
+      "asset.meta": {
+        "sha256": "54cc245db3291ea75e84a799606ef02bc99f8392c19fa2dc0e6b2f7e16cdad9e",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredLongDrawer.cs\n00"
+    },
+    {
+      "guid": "1cd362a81eab4155a2f1585c5d7ba876",
+      "asset": {
+        "sha256": "97060bd50e7b68343f2034923b2065c848e8733dacb00ed4d1d547233c3f0da3",
+        "size": 3322
+      },
+      "asset.meta": {
+        "sha256": "bd588aa55b850ad04d3e91301b774b00ef6e53a7cbb06a098d9413d6a1c4efbf",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredQuaternionDrawer.cs\n00"
+    },
+    {
+      "guid": "eaf7a22e1b4319f40b23596cea6556a4",
+      "asset": {
+        "sha256": "85ec2cfb23e96a7844efec523e3a9fb5b351769b8d1afa47333cd22f643c9868",
+        "size": 1891
+      },
+      "asset.meta": {
+        "sha256": "9667cb91a41b0829eab5bd9d80b6999869607d35278d2ffc777abcd32fe685b5",
+        "size": 186
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredShortDrawer.cs\n00"
+    },
+    {
+      "guid": "db9197f5c028e5b4497f66a9b3217395",
+      "asset": {
+        "sha256": "fdc045916fddf2ccdb20d08c3e87229bf6fba9e52fccff571d4ce59cbf72b662",
+        "size": 4178
+      },
+      "asset.meta": {
+        "sha256": "5fac42adcda77279baa3d6926126c9736057927fe5b75aa62e5b1ee312239d0e",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredStringDrawer.cs\n00"
+    },
+    {
+      "guid": "914802edc5dc95349a9903ac64be6343",
+      "asset": {
+        "sha256": "99fd2e6900223d9b8bb517d840cc53c67ec5455434da7c55a6682766f73a861e",
+        "size": 1898
+      },
+      "asset.meta": {
+        "sha256": "70c777beca7dc1a3fed41db4dae31db1a83f2ad23c3c93bcf98373dffb19e9c3",
+        "size": 186
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredUIntDrawer.cs\n00"
+    },
+    {
+      "guid": "ae392b1c42e591945a2aa46d35119192",
+      "asset": {
+        "sha256": "30ad17adc724136a70f4b9eb329d095e35312742155c3fa051510c8049d63fdd",
+        "size": 1813
+      },
+      "asset.meta": {
+        "sha256": "b0df5905b0d057a49871882c02d996c8d6dbda7f3739c157239f9196c5ea69e7",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredULongDrawer.cs\n00"
+    },
+    {
+      "guid": "bd9505d4322c45e4480aec264415f564",
+      "asset": {
+        "sha256": "163108b3f196a8c3a5df2e5916959791122f99338f6676f2faee2790d80ab32a",
+        "size": 2517
+      },
+      "asset.meta": {
+        "sha256": "5cb19edf24c9cd0bb759409775d6fcbd70f9a0d9cfe1d5fe42fc4cbfcc8cc5dd",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector2Drawer.cs\n00"
+    },
+    {
+      "guid": "43349687f2537d343afec50a81e3e6a7",
+      "asset": {
+        "sha256": "c8a8a7cb35280be8cad522c06604331b6a08ec27dfd343d489c5fef5f56bb0a9",
+        "size": 2586
+      },
+      "asset.meta": {
+        "sha256": "8770bcf65454c3e9c62335b62f50b30b91d791b0aa4a6a673fb6c37336b1e3da",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector2IntDrawer.cs\n00"
+    },
+    {
+      "guid": "ab13e15ddf3b1d24ea07503a57d84959",
+      "asset": {
+        "sha256": "39cf86ce3288829c2280829dff6b56ef14708d43d735740a682651c9429bd2da",
+        "size": 2734
+      },
+      "asset.meta": {
+        "sha256": "afee981624bb34967b7b5d7d112ba585b69f6798ed38e58f91f45777784a3bfe",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector3Drawer.cs\n00"
+    },
+    {
+      "guid": "457d09d2ffa45754ea88b27085364169",
+      "asset": {
+        "sha256": "0a658779f6bff1fbe28624e1559a3ec7e4d329714ef936e600c8291deee089a0",
+        "size": 2809
+      },
+      "asset.meta": {
+        "sha256": "2116ae68dec571b744b1b6f13662458aaf17e3e0ea29ff3b16db534d78664157",
+        "size": 299
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector3IntDrawer.cs\n00"
+    },
+    {
+      "guid": "071f007b436a44fc8f2b6425b606b621",
+      "asset.meta": {
+        "sha256": "d8a0d9e074382eedede3d0fbfe59affa23868665bbac419f113995256f8bd38d",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/Validator\n00"
+    },
+    {
+      "guid": "7ec1712370d34ee1b38697a83d773c14",
+      "asset": {
+        "sha256": "3e87ea550f43289cf706da84cb0761070068c89f8eff600660e0728a589f7fd2",
+        "size": 3841
+      },
+      "asset.meta": {
+        "sha256": "e9dfd2bc7c4ef63ec5178801adee62d98368f3d9cc2f51bbe391837161be2a7f",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/Validator/ObscuredTypesValidator.cs\n00"
+    },
+    {
+      "guid": "d318c64b7444f8543b210f1d70344386",
+      "asset.meta": {
+        "sha256": "08a085ea227058cdef93eb5d8857352bc3586d54987157743a457abd7dc70009",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor\n00"
+    },
+    {
+      "guid": "bb4576e186e147a4875e8c81476e9040",
+      "asset": {
+        "sha256": "928ac91ac50fbe3276989174f43c78868324237688ec9b1a0032168a5ca631f3",
+        "size": 13025
+      },
+      "asset.meta": {
+        "sha256": "c62370b704a0b4b5fccf66dd2b78ce053372a2c1af0ed5a926014c290bbb6d27",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/ACTkPrefsEditor.UI.cs\n00"
+    },
+    {
+      "guid": "996c620e94c266d47beedf3539748d9f",
+      "asset": {
+        "sha256": "61e2d03a9c9041e6d2840c366a8511142ab311b011671bd25fa7cbc2c11cc791",
+        "size": 10977
+      },
+      "asset.meta": {
+        "sha256": "4d8e95e03a801eaaf0d4e89a7adb3db51df8d05ee17ae85c9a4d65acd70a7e3f",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/ACTkPrefsEditor.cs\n00"
+    },
+    {
+      "guid": "2672b3f40586e4d319dfce4c30e00913",
+      "asset": {
+        "sha256": "8b67d56fdd821a29fbf95764b416fec7f851882ab1a95ded369f9aef790cbd53",
+        "size": 26742
+      },
+      "asset.meta": {
+        "sha256": "3c449628361c2e296eb4ee87db9b2d0ff622642462e580b78cf39fe20db513fe",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/Plist.cs\n00"
+    },
+    {
+      "guid": "bbfdc316834441f8a9b90c8d264eee2d",
+      "asset": {
+        "sha256": "0d78940c7c6e41e7c8be02740016e86e2398a23f7920c046c0c7141cfa3fed0a",
+        "size": 11174
+      },
+      "asset.meta": {
+        "sha256": "b554eb623025101f856823ef37cf68190c4da08c74b2ab7c6c1416b37b23beda",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/PrefsRecord.cs\n00"
+    },
+    {
+      "guid": "b75fb59d188745fba898daee356c6042",
+      "asset.meta": {
+        "sha256": "d1b670273111d88378efbcbb12def0d90340917dce4fb115fc69b55be263dc82",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Processors\n00"
+    },
+    {
+      "guid": "206d36528cc940b3a156974ba2580c85",
+      "asset": {
+        "sha256": "9c686a176e7221e5aa97b5ee9e47bc22ef13fc4a050bd1cd10e99f67e7945ad9",
+        "size": 4656
+      },
+      "asset.meta": {
+        "sha256": "c67df32c24fa88d8ae44052c8fac99e9be03b1a96c2632292511075f57f15dc8",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Processors/BuildPreProcessor.cs\n00"
+    },
+    {
+      "guid": "6d740469e3e0430495570572d8084080",
+      "asset": {
+        "sha256": "82c123ac77696012f318ab7d00505786f7bd6a2e419ead47affb0a2c1f0163af",
+        "size": 2512
+      },
+      "asset.meta": {
+        "sha256": "8bfe26ccb94cb57480687f8c6f8f6f5a3d94fa6713855ecdc1905c62ff5b9ac2",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Processors/WallHackDetectorLinkerProcessor.cs\n00"
+    },
+    {
+      "guid": "2a3f8c04015e4bf4faa5e7b926ff757a",
+      "asset.meta": {
+        "sha256": "3c97321ea7c208c0146482e0c33fdabbdc32b715831268aa40a40f0c7b92e40f",
+        "size": 225
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings\n00"
+    },
+    {
+      "guid": "3371576aaf6a4dddb491b60c74360fb8",
+      "asset": {
+        "sha256": "0e129c3fd8b937a066f83dade3fb353ff7859dbeb6d7e9ff739d96007ad6d9be",
+        "size": 3088
+      },
+      "asset.meta": {
+        "sha256": "30ff31eb3c6a097ee389fb389c96970ab2e84071eed5c860b386f04d1603c4b6",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/ACTkEditorPrefsSettings.cs\n00"
+    },
+    {
+      "guid": "22111be9689046e1bd7b8b1fae4d0b3c",
+      "asset": {
+        "sha256": "cc6f1cc9e6df03e06f19af6c0d8423de0867d75acf92ead183052f1dd8442bd1",
+        "size": 5216
+      },
+      "asset.meta": {
+        "sha256": "aad2b301f15f78192dc9c26021c6a877b12a56af7de7121460a9fed4efe2713b",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/ACTkSettings.cs\n00"
+    },
+    {
+      "guid": "04905b38ab174522a78ec941de8ba4ec",
+      "asset": {
+        "sha256": "d09123594e0c17459206e5f61202448c618ce1b30f90ede537fda358e778db9f",
+        "size": 2750
+      },
+      "asset.meta": {
+        "sha256": "058cf21e672b74113c9bbf90277e16e89bbc751591089530f8cc569ef257bed8",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/ACTkUserSettings.cs\n00"
+    },
+    {
+      "guid": "b26f8a79ff8f40aeba8abe91f4d3c9b9",
+      "asset": {
+        "sha256": "7f8685012fb732a5f4aecb3170edada154c4c2f683f09e597d50b038cc4d5a1e",
+        "size": 20232
+      },
+      "asset.meta": {
+        "sha256": "6e745ff0f5fee32dd998050837dac1da8eac0ffcf92439aa198a392121c9254f",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsGUI.cs\n00"
+    },
+    {
+      "guid": "4cad2b15267a468e893f905d662976b2",
+      "asset": {
+        "sha256": "69ec650829f75b2fb2719f1f19fd090e6573e9090c8f19fcbc633fd01badc144",
+        "size": 889
+      },
+      "asset.meta": {
+        "sha256": "3cf00127b7ca445ccf1c26022efe9b907d1a7e5341a088acb07c9de5830a0c58",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsProviderWrapper.cs\n00"
+    },
+    {
+      "guid": "45ebf9a6511c49819d3a64fc4ca0eb03",
+      "asset": {
+        "sha256": "75ed3f2b2bab00df8b9c3510acf12728dcf5b9ebf01efce171b0b554300f4601",
+        "size": 8334
+      },
+      "asset.meta": {
+        "sha256": "dfc1986adcbfebe908e3b9665b16d52d04fb0de251d0ec79142428f868955a2c",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsUtils.cs\n00"
+    },
+    {
+      "guid": "78821826b15a44e79ed6c8549e3c1f1d",
+      "asset": {
+        "sha256": "6af6474da2443f792d442bb218d177bfffcf6131ffd0528a942cc66c18578502",
+        "size": 5290
+      },
+      "asset.meta": {
+        "sha256": "7c5f05b3558cca0eff1722f06a4a8a90ebe79a0f4c884d74ce2bd94e40e1d780",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsValidator.cs\n00"
+    },
+    {
+      "guid": "8259422d2c3f43a6a50862621be7436d",
+      "asset": {
+        "sha256": "30432470ce60c0835471fdf726528f5b9ce05225ab9d5895111ff0f4bd8a5981",
+        "size": 799
+      },
+      "asset.meta": {
+        "sha256": "504ca09bdb6aaa9f58d6d83d13ad52a296c1ea71b5b34fcc2218744c19fdc1ad",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SymbolsData.cs\n00"
+    },
+    {
+      "guid": "b8ffd81fe391c4c4d99936ae7a0bbc08",
+      "asset.meta": {
+        "sha256": "3b674a74abf75f3b54bf81cf8895b8dda22c8ccec9e4ca0ab3cdc2292a1c4b2c",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools\n00"
+    },
+    {
+      "guid": "6f7a87b8e9d64a87bfeac78cba14813a",
+      "asset": {
+        "sha256": "35577989caeca647d7d1a110d9733c6f8e0ad5f5358cbd111cbf8aa21bcbdc45",
+        "size": 2900
+      },
+      "asset.meta": {
+        "sha256": "5725aa9f45b0ff089cb62112f58cc3eafaa2eb9733ced22ef6c9bc3fa02f5cb8",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/AsyncHelpers.cs\n00"
+    },
+    {
+      "guid": "2efcce1fc5ffdd740845b9df0f9cd7ae",
+      "asset": {
+        "sha256": "5d00af2f4c05ecd4e6a9271c4266a26eda81ddc8d4e175bc79e9b3c35133181f",
+        "size": 2887
+      },
+      "asset.meta": {
+        "sha256": "b5052270978a4355d49b172febdfde0a68bde15485c0fe650dc5f737b04cffb9",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/DetectorTools.cs\n00"
+    },
+    {
+      "guid": "8ea824ce9fb98314d8b42d371d177b05",
+      "asset": {
+        "sha256": "0687342a939f5a0bd1900cadfe7498c2a4d8d10b870dda85e12ac6d9a402bdd4",
+        "size": 12712
+      },
+      "asset.meta": {
+        "sha256": "ad85d1187778a20f5c67ae60f5e509137760f842d8208c58b1970b885313ee76",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/EditorTools.cs\n00"
+    },
+    {
+      "guid": "91b4cedaccda1604fa6d0f05bc76b0f1",
+      "asset": {
+        "sha256": "085bc8cc6e4f9f4cbb20f083ebb2f0ef2865341f8b1af60899539b57c8e5be7b",
+        "size": 10634
+      },
+      "asset.meta": {
+        "sha256": "1868a43b4e0f9033dc62269acf9fb5efa65b0d4dce07bccc2e05161d56d7c990",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/GUITools.cs\n00"
+    },
+    {
+      "guid": "ab4b33806d114d87a9398e9929685f2d",
+      "asset": {
+        "sha256": "c0ae2a9783900578abee812f351a109da1d4c766cfd27e0ab6e0dcab3b62963e",
+        "size": 3794
+      },
+      "asset.meta": {
+        "sha256": "001bf87633e717ea66a7a182fe5bdd85fbb71a8ba923708394b71829c61f904a",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/ReflectionTools.cs\n00"
+    },
+    {
+      "guid": "6d8a254c37bd4bb6b7e47a556d284f24",
+      "asset": {
+        "sha256": "e186253bf48593e94b756abc1069c3938b7a3f7b3db41841acd6e947f523e89d",
+        "size": 2524
+      },
+      "asset.meta": {
+        "sha256": "e2ce4187d443ca32e18777c9a9c30739cd9c55ccfe0557d3b9c011f2fb7b6324",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/SerializedPropertyExtensions.cs\n00"
+    },
+    {
+      "guid": "0b7ab4c6b69945fa980b355a1f1b9dee",
+      "asset": {
+        "sha256": "aa6069143700e47fc975a25a60394ef8c87771eb07f31064ffd97d3a76af0a25",
+        "size": 1212
+      },
+      "asset.meta": {
+        "sha256": "e627a479091b96979cc535c97eae2120989c7b3e32149de67e557e9fe56dcdb7",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/TextureTools.cs\n00"
+    },
+    {
+      "guid": "688c2be7bb7259b4382618cce8a240c6",
+      "asset.meta": {
+        "sha256": "1ac255ad50f47a806bab9c99c2e654b63c3ada5d9649658bd185e131344e786b",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/SharpZip\n00"
+    },
+    {
+      "guid": "5b329176be91acd49a93731a24aaf2ef",
+      "asset": {
+        "sha256": "b80ac5d4096052ca1f50ad71874cc8269b81ec40ecf86104dd717e12d2296cb9",
+        "size": 196608
+      },
+      "asset.meta": {
+        "sha256": "9be7cceecd7d8b247834deb41c22c781a9321c085c626942fb1bfffa9e901004",
+        "size": 678
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/SharpZip/ACTkSharpZipLib.dll\n00"
+    },
+    {
+      "guid": "7383ceffba693284fac4cf54c5767852",
+      "asset": {
+        "sha256": "388e38853d88b24b4e2a65bd4a7ac316cc2cf088d08b4a25508205daa62a15a7",
+        "size": 1089
+      },
+      "asset.meta": {
+        "sha256": "1a1f7232d42b74aabea67628088192fac652e1f3805f5b4d2fce86710228886e",
+        "size": 165
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/SharpZip/LICENSE.txt\n00"
+    },
+    {
+      "guid": "00101290d05d02446897e4ba15e3745f",
+      "asset.meta": {
+        "sha256": "cef1c937d679adc4b181412604e2f23fe3067a3d285f68d7b0e99e1611228ac3",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures\n00"
+    },
+    {
+      "guid": "9efb45cd993adc04ca803e6d37ab6045",
+      "asset.meta": {
+        "sha256": "0db9c264e52d8dba9302314fbae0fc8a4f5e323faeb7147906b8677b26fc70c1",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons\n00"
+    },
+    {
+      "guid": "40fd6ffeeb9882e4e936544cf3ad2a7f",
+      "asset": {
+        "sha256": "de29594e53665fb79c2d2bf731b2b3541658131402d8db02b653ba9ba6aab075",
+        "size": 253
+      },
+      "asset.meta": {
+        "sha256": "4b3431358be67fd38efd2ae2d2b93d3dc28d655afb4ee50b1ee048927b313679",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/API.png\n00"
+    },
+    {
+      "guid": "c19afd3f1792e84469c891524f2bebbd",
+      "asset": {
+        "sha256": "8ec7aadfa8ce00b93626aa08793c4ed7a82fd570b8e15b176551b995ec93a8e8",
+        "size": 598
+      },
+      "asset.meta": {
+        "sha256": "2c571cd26588c4d183827b8d74ece9df2a54d345f5636f7f438ac8ddd327283b",
+        "size": 3189
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Discord.png\n00"
+    },
+    {
+      "guid": "29808f9bad076cd44bf828cd0f0aca23",
+      "asset": {
+        "sha256": "e8f1b39d1d8523f7904d89f60f44be0a5155ee329f456fc94720e4f1fdbae7a4",
+        "size": 245
+      },
+      "asset.meta": {
+        "sha256": "1976e28a279639bd327b2dbe3f8646e613fc2279616c65b2e141c08e1aeaba47",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Forum.png\n00"
+    },
+    {
+      "guid": "92ca6df7507706a4cb3e1b65f76feb32",
+      "asset": {
+        "sha256": "9a9daf77b38334ac1a676588764e755ca2a6aa099017de757db79e972ba6905f",
+        "size": 249
+      },
+      "asset.meta": {
+        "sha256": "267d1158f7fd2b43501c0bc024f9bb70c6bb65252cd72b41a1723b0918d58d4f",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Home.png\n00"
+    },
+    {
+      "guid": "9aae83a07b8e94f44ba4ce6a8e06395d",
+      "asset": {
+        "sha256": "a58f13b2ed93440db282b62e46c88c1f5f9baa27fa4dcd0273d88b56cfb4daee",
+        "size": 281
+      },
+      "asset.meta": {
+        "sha256": "428d91818ba5f1aaa0ecbe2df6c7c8ef9e9d129063da65d72816dc14ea496e9e",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Manual.png\n00"
+    },
+    {
+      "guid": "ffbce22a5f4aa4748aa9bace9df0e956",
+      "asset": {
+        "sha256": "750cb3e9f521949426f45a25a9d3cde95378257f834cc66b1fe8eff4cb5f6ebd",
+        "size": 284
+      },
+      "asset.meta": {
+        "sha256": "90d9c32d2c2a716bcf3567665c2b5a1fed16f7c5a780334729a24ff7bc6f8113",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Support.png\n00"
+    },
+    {
+      "guid": "23b913f6e7520ff479f45d45f7cd88ee",
+      "asset": {
+        "sha256": "3ebbbb9b20553b18a98a919b16a4d7f5f475f7a9aa7e26743ea498cbd31a706c",
+        "size": 263
+      },
+      "asset.meta": {
+        "sha256": "7f1ff7a94fe7888102c0ce602d0c93e62e1e05d3937f97a6ad65b7e706d9d68e",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_API.png\n00"
+    },
+    {
+      "guid": "8957daa28fe154b429a7301f247cc79c",
+      "asset": {
+        "sha256": "add5933c12955986fbb384ae1617e06dba3a12fb6fa1731c6374ee9e7ef4d26f",
+        "size": 583
+      },
+      "asset.meta": {
+        "sha256": "f3efb9fb566760eeb96d73f3ebb3dfca36214deeb2883fe342fea43eff4552fc",
+        "size": 3189
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Discord.png\n00"
+    },
+    {
+      "guid": "7b4e1479a7e9dff41aa6ca712956a416",
+      "asset": {
+        "sha256": "7dc60ffbaa9e53697f67cdaeab7ceea92977e55f62e4a2dc7ceb30fb2d757e6e",
+        "size": 244
+      },
+      "asset.meta": {
+        "sha256": "2159199c97de3155be6b4aae64867346adb60bce9de88f7fa79e2973f8b83389",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Forum.png\n00"
+    },
+    {
+      "guid": "5f0296acda3f37e4a8286c7cd6d15234",
+      "asset": {
+        "sha256": "4b89ed0abfbae2d6c62ae5ebdda069b63a73fd0415f8f2bf4347f13394100550",
+        "size": 268
+      },
+      "asset.meta": {
+        "sha256": "692677bfc534c7829a16e761128d3b5ddef1e133ff9ebfe952ec3c7c293cbda8",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Home.png\n00"
+    },
+    {
+      "guid": "83751b678ac01e540b47cafc4e82dd20",
+      "asset": {
+        "sha256": "1a972a01a2668bee25c7e180e6e8afff2b61c471c707b1beeb47e996d1e2c00b",
+        "size": 280
+      },
+      "asset.meta": {
+        "sha256": "94a77201fcb9f4c57d85f001a4a381d271da5373e91ecabeec863d8522fa068e",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Manual.png\n00"
+    },
+    {
+      "guid": "031d945f217d56e4c95e17d5ff7ba66d",
+      "asset": {
+        "sha256": "61af0eba07d9338034387caba0f7eee8a025aecec65ade2508049cd2203c2cf5",
+        "size": 282
+      },
+      "asset.meta": {
+        "sha256": "f4157540f334c6d4424d5601f6cba477b231eafae47963095d772c2faf656291",
+        "size": 3773
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Support.png\n00"
+    },
+    {
+      "guid": "ab8f2446b2b4f0e4fba38f888517d7fd",
+      "asset": {
+        "sha256": "f60265989e50aa866b2e8c8a432732a395ae6f60ae34022cffb3ab4d1997a0b0",
+        "size": 1459
+      },
+      "asset.meta": {
+        "sha256": "977bcf77afcfa976fdd679439b7b567a104f755fcb0226d55cbb7d4608e80230",
+        "size": 3366
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Logo.png\n00"
+    },
+    {
+      "guid": "99edeaaa0eabb3c4b879f5515c702398",
+      "asset": {
+        "sha256": "80ed7ce290a294f5f49cc1603b2f7cafb1171bd307d095dd88f310dc0c512b98",
+        "size": 1436
+      },
+      "asset.meta": {
+        "sha256": "0eaf42d2e83e9c5865e82d0469c1bc5786a7f78229fb9db8db9c924e69c92056",
+        "size": 3365
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/d_Logo.png\n00"
+    },
+    {
+      "guid": "78bafa9205d344342a28db7b6d9de550",
+      "asset.meta": {
+        "sha256": "18597436fbefae322fa1f94abf4ff8efa483c43331d141780983319d6fcf6500",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples\n00"
+    },
+    {
+      "guid": "76a655e2e8214db4bb4160e974b81a55",
+      "asset.meta": {
+        "sha256": "ed82a49c4cf72c56c8b8490e10edd1f4a3486d32725ce8b274dbee2aa7e3001e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples\n00"
+    },
+    {
+      "guid": "5bca97b4033e9234abb953430df1cd67",
+      "asset": {
+        "sha256": "b10c46b22b85a216a38ecb1ca920d13495fa32091438eee9eb2721a63d837590",
+        "size": 34816
+      },
+      "asset.meta": {
+        "sha256": "d847ee8844c82f165ac822aa4129bc8320a8983f09a6a7d49b6c6499df022c62",
+        "size": 139
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/API Examples.unity\n00"
+    },
+    {
+      "guid": "91517eb9ff6d68240906e6993a03532e",
+      "asset.meta": {
+        "sha256": "ab767a0edb8837bdeae44913828cf23a2dd5421b23326ce71d7d84f6ac8f538b",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Materials\n00"
+    },
+    {
+      "guid": "1006b698a54949746bfc466260de19f6",
+      "asset": {
+        "sha256": "df1847a96da20ea629d46516319a3021210bc7d0a0d356f298861080c7dca8b1",
+        "size": 2351
+      },
+      "asset.meta": {
+        "sha256": "9b9de49d93c7f133347f64774a0dbe97343bc9a33b6047f78042a9dd59b0ac1b",
+        "size": 144
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Materials/VertexLitExample.mat\n00"
+    },
+    {
+      "guid": "d4829d0c74c806a4686dd39e47292994",
+      "asset": {
+        "sha256": "dda3d7eff28e6e6d4c72275d9ee9578b1d7c5fae57d1b173a44da4dbcbd8039c",
+        "size": 2405
+      },
+      "asset.meta": {
+        "sha256": "ee646199fcf4b2377eab1f705c916b95daa4d54a6e080c9daac6331a9f6168ab",
+        "size": 144
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Materials/VertexLitExampleGreen.mat\n00"
+    },
+    {
+      "guid": "14a3d92b84717b64cae0c46ec919dac9",
+      "asset.meta": {
+        "sha256": "044cd64714af236f62388e2893cdbc2fb799b5ba06a4884bcd82d84f465ee427",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Prefabs\n00"
+    },
+    {
+      "guid": "60b6c172f7c2a1f4abacc848f7547d63",
+      "asset": {
+        "sha256": "cf54a8ad0c501708dff26c1736a2a1348de1db27e939920cf4ce145b0f3830d9",
+        "size": 4127
+      },
+      "asset.meta": {
+        "sha256": "73660cd435779eddc37492f11ea1d775a97c7ae873a4080a77d6ac4f1a50b44c",
+        "size": 144
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Prefabs/ACTk Detectors Flat.prefab\n00"
+    },
+    {
+      "guid": "95b162e541f72be46bac48d6f19b855a",
+      "asset": {
+        "sha256": "a3003f5e7d1e21f34f34592c24caf92bdb3f65622b37d1daf7ea9ac64933a682",
+        "size": 8723
+      },
+      "asset.meta": {
+        "sha256": "50d2fdedd10cf9495ee72b53d2e3decdf759f666e2ee880fdf5a4efc6502a816",
+        "size": 144
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Prefabs/ACTk Detectors.prefab\n00"
+    },
+    {
+      "guid": "996d5bad3660300428b16ca3bbb4d521",
+      "asset.meta": {
+        "sha256": "18bbfc39ebb1edb5757a1251bbc2375d958d0f6a84f50f1d43559f16b165a0fc",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts\n00"
+    },
+    {
+      "guid": "45e78875993834943a3b3442d3d6d22a",
+      "asset.meta": {
+        "sha256": "54acd0f762229fff43ce612f2202ea1a9b645ce027e8989495d74469033c3d71",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime\n00"
+    },
+    {
+      "guid": "fb916ebfae36eec4ba1dfb094994b0db",
+      "asset": {
+        "sha256": "b3270248d680b4516f29eb1a251778aec5a43fbd1a493227c1e66fed639fefa3",
+        "size": 346
+      },
+      "asset.meta": {
+        "sha256": "97cad5de10db6964a3af84e69edf972830b766ec43979aa54697833d7eca851a",
+        "size": 218
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/ACTk.Examples.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "5160f8c07d4686041a17220988137837",
+      "asset": {
+        "sha256": "367d9cb65ee683e2143326a149ba49bff9a06250a6a16344c5305d6137b18cef",
+        "size": 4867
+      },
+      "asset.meta": {
+        "sha256": "07d7e67b8c711f85c33a09b0c8b24963e97013f04284c2de9ea6d30e7efeae69",
+        "size": 299
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/ExamplesGUI.cs\n00"
+    },
+    {
+      "guid": "be9398f4953f71c43a73299bd636e79d",
+      "asset": {
+        "sha256": "ddf7bd78cbfcf910b45550c49b640491148f807ea50bb84b06320e4f50eeee51",
+        "size": 578
+      },
+      "asset.meta": {
+        "sha256": "a1400d46fbee443f24b28edb5bc03cd83abf8dc2f23e535f4f64b2621397a98c",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/InfiniteRotator.cs\n00"
+    },
+    {
+      "guid": "2f4ec8228c66a7e4baf104f6767f2adb",
+      "asset": {
+        "sha256": "25f4321f67a50a0aa1ebb4a268ac51fc101b69269b154113abd0bf810732b176",
+        "size": 688
+      },
+      "asset.meta": {
+        "sha256": "e4edf3080e3c41c668437ede00214adf5fe702c46291458aed0d40acd65210ea",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/InfiniteRotatorReliable.cs\n00"
+    },
+    {
+      "guid": "7c012c5f3a6748c4f82dd30cb5e666ca",
+      "asset": {
+        "sha256": "5800bea57ce293d0a6ee4fb6edf14484b79362ced6f04d6de5b2f7e6f11d458e",
+        "size": 15086
+      },
+      "asset.meta": {
+        "sha256": "162d73cb2b79e50b830344d5d8bbed41aec95be8208ec1b547ffd3484720a2db",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/ObscuredPerformanceTests.cs\n00"
+    },
+    {
+      "guid": "0ebb3a82e0bc79a4fa374f8027497c2e",
+      "asset.meta": {
+        "sha256": "d090a4d67a6303b679a026464db9d0cb51d03785228f75e4b69e27cefd616125",
+        "size": 202
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples\n00"
+    },
+    {
+      "guid": "c33ea17d2e2648e8a1f1358128cecd86",
+      "asset": {
+        "sha256": "e86da7a5388dbe021a5d87ac6efc574eb3e35ddaa3d616133ed95aca59c2c183",
+        "size": 2668
+      },
+      "asset.meta": {
+        "sha256": "12ba0b60a03f0c4977d5249105538896d3b1c47c68105e88029d3f85a6203b54",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/AndroidExamples.UI.cs\n00"
+    },
+    {
+      "guid": "f851260ddf6d47ba8e51506f98a033c5",
+      "asset": {
+        "sha256": "ba9ed221ddeb615f7718cf27243fc673bf7100315482368d7d620b76842dd2a8",
+        "size": 1906
+      },
+      "asset.meta": {
+        "sha256": "3b827e7d2c64ecba17f01440fedeed36a8f1b6bb66e4de4a57690ab18f910097",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/AndroidExamples.cs\n00"
+    },
+    {
+      "guid": "df90e2bd16bb4a948bd866e4fe02a8e7",
+      "asset": {
+        "sha256": "9699fca33d949f7fd7ec397299c375e14f68625b24cf1f8a9dd173684a1b9c11",
+        "size": 4207
+      },
+      "asset.meta": {
+        "sha256": "3c9e6b7f1ff52bc3ef78a2e2873dee76859300c284a46b3f17694aaece7605c8",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/DetectorsExamples.UI.cs\n00"
+    },
+    {
+      "guid": "404985a153ed24d4d9d37e4440eb1697",
+      "asset": {
+        "sha256": "ea7fb16974f4407e589c61d920241035a1265f13b30e4611bb6692ed3d07ba5f",
+        "size": 9699
+      },
+      "asset.meta": {
+        "sha256": "6e5797c38e019d38122211178e5e3b01423fca9208399176048fe4613faa1826",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/DetectorsExamples.cs\n00"
+    },
+    {
+      "guid": "655861a67e654fb48156fb32279bdf2c",
+      "asset": {
+        "sha256": "996b9c1e3d60d7334b5e76562d3536eb3c797c1d88afe089b62469a1aacfac0c",
+        "size": 2031
+      },
+      "asset.meta": {
+        "sha256": "30b3c4a04de83464d25fdad8981511f1818ec6c9a235a9b5294efaafcbc1534a",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/GenuineChecksExamples.UI.cs\n00"
+    },
+    {
+      "guid": "5cdd7f4d9c5093c4ea9b389f6d3bf600",
+      "asset": {
+        "sha256": "e71139bae2a1d4322273281afc886c81291c2187ec985c282aea9849cfee1aea",
+        "size": 5155
+      },
+      "asset.meta": {
+        "sha256": "e04a74fddefad31c3b705551b1fdaa52e79254837d6c029e314f1f2139ef9f3a",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/GenuineChecksExamples.cs\n00"
+    },
+    {
+      "guid": "dca282ccd1894862afce85957d5cd899",
+      "asset": {
+        "sha256": "94919d5906e3aa4bfebc368a62eafed22b7dcadfda935346e20f5032165221d1",
+        "size": 6823
+      },
+      "asset.meta": {
+        "sha256": "614d2c4a03daa93a3b672401cb8331db07a1b0a0cd5ba01fcc3ab839b522b269",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredFilePrefsExamples.UI.cs\n00"
+    },
+    {
+      "guid": "8332ee246a4e4720931b08f5144f61c2",
+      "asset": {
+        "sha256": "602581b70b9e9f20cbc81fab7e47afb9593b008f17ced7732a256493f0252ff7",
+        "size": 5553
+      },
+      "asset.meta": {
+        "sha256": "1f6c548258cb9d58b482871718006cf4cedd9ba23df993d90ccde2906a0cc95c",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredFilePrefsExamples.cs\n00"
+    },
+    {
+      "guid": "9ecab7daaf894cd5ae3f75caddc6823a",
+      "asset": {
+        "sha256": "2f0ec1886b3516da773ac3b212ab127a47c7f844e1f31928554409b3857d3842",
+        "size": 3840
+      },
+      "asset.meta": {
+        "sha256": "685c87c9e430853f811574580e59bc868893dfefebc7a3d94e1daaecf665aa65",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredPrefsExamples.UI.cs\n00"
+    },
+    {
+      "guid": "87388f037bda48d49a6448f583e27215",
+      "asset": {
+        "sha256": "70101720921140d4810fed7073d884d63b696fd3c59f226d6925dbb13fd738ca",
+        "size": 7708
+      },
+      "asset.meta": {
+        "sha256": "1f9ca28bf2003358d6c0500e56c8b1641c6dfaa0de82c9bc4bf928a0e25e2102",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredPrefsExamples.cs\n00"
+    },
+    {
+      "guid": "c0e1d48066a44b34921ae337f72fde1c",
+      "asset": {
+        "sha256": "3103b3a29eec8887a5f0287b860412a0a22b4a3853305249d96dfb9dd14e5ed7",
+        "size": 4381
+      },
+      "asset.meta": {
+        "sha256": "0415f881536e90f7eead1471279978303870bb49edd67f044304bbddceda32eb",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredTypesExamples.UI.cs\n00"
+    },
+    {
+      "guid": "8528554a675bd23498b237325c380884",
+      "asset": {
+        "sha256": "3a4ec23eda3db33c11e088511cc93cbaf2b07be4c940f4ce826062e988262ab7",
+        "size": 5866
+      },
+      "asset.meta": {
+        "sha256": "b4cee0169014cf90ab5aa2f0dccd135b80659b7daebcf928e81cf08aa3c98a29",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredTypesExamples.cs\n00"
+    },
+    {
+      "guid": "eedae36e8c2d474faf95c7dc20156a4f",
+      "asset": {
+        "sha256": "399f208b6fcd07f568452cdbad158a157f7b4ab1f52ff872765bcb803ed68511",
+        "size": 947
+      },
+      "asset.meta": {
+        "sha256": "95457ece9e0ac5c57889a36b683ff6d60f7dfb363d78a3d7cd7902b800e1d5d6",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/WebExamples.UI.cs\n00"
+    },
+    {
+      "guid": "223e8c19f7af40428b5bccbe75978163",
+      "asset": {
+        "sha256": "f1e184ed08dac4c1f5ca118355cb1064792d351e102b1cdf3834eee8218242d5",
+        "size": 422
+      },
+      "asset.meta": {
+        "sha256": "ba0398fc3e5286e77f1ea91ff6251eb06638853925a2706c8d913aa19cb44000",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/WebExamples.cs\n00"
+    },
+    {
+      "guid": "9275a7b02ff45784fabb1c89351dbfc3",
+      "asset.meta": {
+        "sha256": "594dbfaead4b1cef1188b673378a4f819db93ab93a1d22b8f15991311b178a8e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation\n00"
+    },
+    {
+      "guid": "5d8cd15768d39b141a1a5365bb23b201",
+      "asset": {
+        "sha256": "c212322111328582ac4c8483d912676f2e70112c2df2a542eac903ccf9529774",
+        "size": 6367
+      },
+      "asset.meta": {
+        "sha256": "ae3a5ed23b16ceb9d7cb1e66b62c58eeea37ca0480956289262327b5b4493339",
+        "size": 162
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/GenuineValidator.unity\n00"
+    },
+    {
+      "guid": "e5119e5457a101647a9da1aedbec9967",
+      "asset.meta": {
+        "sha256": "26e3f9e0ec8b941050d14c15bd20d39eb3871917cfaca36d2d529f80c54fdefe",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts\n00"
+    },
+    {
+      "guid": "3409a1020ce23894599ab521dc37df43",
+      "asset.meta": {
+        "sha256": "402e1d0d50608d4f09d8f53e6cff98517d056557725eb9b3b823c9b8f0fd895c",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Editor\n00"
+    },
+    {
+      "guid": "3d30640b987b94d4985e17688c96ee4b",
+      "asset": {
+        "sha256": "b084c7f178d287581156efde7613ac333a3e35101d89ea3592c62f33d07159c4",
+        "size": 316
+      },
+      "asset.meta": {
+        "sha256": "dc10bfe3e292901dfeae2f5c711d7757cc09abea46022d9d699dec804d887544",
+        "size": 173
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Editor/ACTk.Examples.Genuine.Editor.asmdef\n00"
+    },
+    {
+      "guid": "d55ac4b1b5164ff4cadce6b3d95d2ea0",
+      "asset": {
+        "sha256": "002f1bde292dfeb6702dac5c754abfdc32507e3fb03f15a1a25c0d8c435e44d9",
+        "size": 4495
+      },
+      "asset.meta": {
+        "sha256": "6a18bfdad308a162c484b3e1c3738947c7f70a00c97f9af4590b5515497d084e",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Editor/CodeHashGeneratorListener.cs\n00"
+    },
+    {
+      "guid": "19586c683e648dc418c5f15735f2b151",
+      "asset.meta": {
+        "sha256": "b0e0f179cfe53ed71234ee54e71d7a786eec41d437f0511f576086a50e856e07",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Runtime\n00"
+    },
+    {
+      "guid": "aafa4e30070a7144198fb13b3d39c456",
+      "asset": {
+        "sha256": "80e468f86c4be356cfd88bf0eec985349f58697a903e4b298effc80c2f5f7146",
+        "size": 227
+      },
+      "asset.meta": {
+        "sha256": "ec29f6933b16c465ce1bba3e12312bfed8e9187cbeda26f75edcff2471f96ae0",
+        "size": 173
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Runtime/ACTk.Examples.Genuine.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "21ed2f1676e9ff74aa1fdab58b70b555",
+      "asset": {
+        "sha256": "bba4651306275f11c5359b154a1a0a7dd42a2c8abf81f19bafdfa0a3aad62399",
+        "size": 3980
+      },
+      "asset.meta": {
+        "sha256": "3d7f415f9b545739fc6ca41b71b7efd3fa8ef2b13d91f64a200076e161ae5f0a",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Runtime/GenuineValidatorExample.cs\n00"
+    },
+    {
+      "guid": "9f41dd8f84cbeb34cb39d3cddb7b69c3",
+      "asset.meta": {
+        "sha256": "b9a2c10769958d13a53c8082eaf9bd741c5f3d2059b5a95041f33e0b6453900b",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration\n00"
+    },
+    {
+      "guid": "a0519361c30a63a4f94b0b6dc2fc8dad",
+      "asset": {
+        "sha256": "26210364fb47565344946504f437535b47f5cf43076ce25a0773268ed8d12f71",
+        "size": 53754
+      },
+      "asset.meta": {
+        "sha256": "c6a44ab337604f9c52555f5adbf00f91200583d79293180836db201d85960f6d",
+        "size": 139
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/BehaviorDesigner.unitypackage\n00"
+    },
+    {
+      "guid": "f84c746903b1ad946823e434229422ea",
+      "asset": {
+        "sha256": "542073b0c4287936422a06d4c5126ed5f29362f3241380eb441104da8da3867d",
+        "size": 24082
+      },
+      "asset.meta": {
+        "sha256": "c47e98417709d9e1107e8efa6d23ec255c135b4bd1ff48467f4c313d223155a7",
+        "size": 139
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/PlayMaker.unitypackage\n00"
+    },
+    {
+      "guid": "ba80bafc30976424784d71fb92e3f994",
+      "asset": {
+        "sha256": "85320803e61c4d4b80161f355ade516679dd68ee2593add18e51736e4fa89e74",
+        "size": 82
+      },
+      "asset.meta": {
+        "sha256": "0e205ed0aa044d2c2f72fb0385d71d66125c9f82291523ab4b16ddff90db9a06",
+        "size": 142
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/readme.txt\n00"
+    },
+    {
+      "guid": "4d2d6fd090757104e8198ec673f419ac",
+      "asset": {
+        "sha256": "aa4daae20ff5f4bad27361cd11d4eb512cf330a171bc960f485365af9422e482",
+        "size": 834448
+      },
+      "asset.meta": {
+        "sha256": "3f1c416bb12adb9c9568c468dcb007fbe6a1f4ddebda70aa6700cdb5c32b1f69",
+        "size": 421
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Readme.pdf\n00"
+    },
+    {
+      "guid": "d7cca0bad55a675408eadd7dfa383d43",
+      "asset.meta": {
+        "sha256": "d8181284882dfe4213e9f7d2dbd04b3c96f1bd761acffb9cf137a8db2bfc97cf",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime\n00"
+    },
+    {
+      "guid": "db2875c6bc6e11c4fb8730f4afcd8265",
+      "asset": {
+        "sha256": "77678240283e1774b047c9834182f97cf37e182dd1ec0f857dd692d8218c8194",
+        "size": 643
+      },
+      "asset.meta": {
+        "sha256": "aa747509ac16cf7ccc15276e5d64fbaaa1566e63740a69099172d41fa82e3b93",
+        "size": 218
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/ACTk.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "9b66923e82dedcd458e649439a9a8821",
+      "asset.meta": {
+        "sha256": "fff25a6b60a9e6326dd421a3f41cb313f979a98373d8e840a438ff50fe9889a4",
+        "size": 202
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins\n00"
+    },
+    {
+      "guid": "593ae315404df664bb50772b005744b3",
+      "asset.meta": {
+        "sha256": "e21de785f29bd9fefa364569d6d334dd49a3f751198c3466ffcae95e37bf8641",
+        "size": 202
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/Android\n00"
+    },
+    {
+      "guid": "a6f24aa125cab864dbbad6a8e142e96f",
+      "asset": {
+        "sha256": "8e49b5eebcf88131a1ec72472907d383ec2b8ccb6270c13e1f0b42944740d611",
+        "size": 17449
+      },
+      "asset.meta": {
+        "sha256": "5621bfbd92d5426f481d5c5da921ecc9855a2681a73d136379d05313b86b3113",
+        "size": 641
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/Android/AndroidNative.aar\n00"
+    },
+    {
+      "guid": "d352dbbe3384463eb0709fd977eda86c",
+      "asset.meta": {
+        "sha256": "99682f7ef25454594f743d86bb93a03ef3184c7664851730b1ffd274a8483e23",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/WebGL\n00"
+    },
+    {
+      "guid": "6cb512008d124241ba236034c229d146",
+      "asset": {
+        "sha256": "afafa4a699ea2e782c04acbcdfd9e7788ef84e3531c52becc545202ccf526585",
+        "size": 302
+      },
+      "asset.meta": {
+        "sha256": "4f54e8e9471f7ed1b2c0e06329cc2447f861dc5cb666b78cb783491269941c12",
+        "size": 636
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/WebGL/WebGLNative.jslib\n00"
+    },
+    {
+      "guid": "ca357de66eddf1240987b54a7440db14",
+      "asset.meta": {
+        "sha256": "104ce6c368fec474f87da4103878211ae77482b15cecc6a9a6ad1e9f1c59051d",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts\n00"
+    },
+    {
+      "guid": "8902b6ccc7af4045ad3b40c92d52cc12",
+      "asset": {
+        "sha256": "06a724d107e3de93666877dd7fccccafd4c82f436a0e341938bb1455799ccdd3",
+        "size": 481
+      },
+      "asset.meta": {
+        "sha256": "9ee39cf4a2ad8c8f927070c9e7bfb3b3df9cee516814891e2d25806711bd2d0d",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/AssemblyInfo.cs\n00"
+    },
+    {
+      "guid": "30d520c9ee427e34191bb784761ebe11",
+      "asset.meta": {
+        "sha256": "6e86beeb600b3ecce28cb7e66da71238d083b1fb11459a7c11869b46cd50691c",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common\n00"
+    },
+    {
+      "guid": "4a84f340806547148432dd93c28cb7ea",
+      "asset": {
+        "sha256": "22caaacd3d45f832056a1ebfc3e8d15e7464a9e06ea0f910170693d658db8968",
+        "size": 2991
+      },
+      "asset.meta": {
+        "sha256": "65333ae8eefb0b623d4fb31da86035b18d329f27e59871fb45e4c1ce214ae241",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTk.cs\n00"
+    },
+    {
+      "guid": "8114eabec2d57e647a78a9263ef8cb77",
+      "asset": {
+        "sha256": "e7dead79690ed0687f930509af46b73465d512ff5b11fd7b45302fa541260328",
+        "size": 2071
+      },
+      "asset.meta": {
+        "sha256": "a6047f32c18b71695b6e5a816df68520affae38233563d8581e4400828a50d08",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTkByte16.cs\n00"
+    },
+    {
+      "guid": "a9780c29cd9992542b6506217d67ce76",
+      "asset": {
+        "sha256": "d412c77fcb0b3ad77057d21da7a1ff972a908702908e2cc935dd348f3bf1b9d2",
+        "size": 580
+      },
+      "asset.meta": {
+        "sha256": "ba2e25f021df3e90267097ed40af6eb87af0113854d8b3fef546a3768a336af6",
+        "size": 186
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTkByte4.cs\n00"
+    },
+    {
+      "guid": "6089ec68ab2197d408c7a6bfc628a4a9",
+      "asset": {
+        "sha256": "262c96dd2d85823780f12b9c0908ae5e61348cf96199646a369bfe7d41eab405",
+        "size": 830
+      },
+      "asset.meta": {
+        "sha256": "27dc8fcb4bb7d0b6ef3d7264d6fc83df1390bf1162d89d4af8fce3ae06fb0e6a",
+        "size": 276
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTkByte8.cs\n00"
+    },
+    {
+      "guid": "31cfeb8a503e479e8dc80c95cc055959",
+      "asset": {
+        "sha256": "6c42c9af493912c2c5fd36b2ee4d6bafcddddef102ded7c86224bb6dd42d769a",
+        "size": 601
+      },
+      "asset.meta": {
+        "sha256": "198a6527a6aee95357db99d9ee09d879b6da02596bfd88ad429aa656d551a8fd",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/BackgroundThreadAccessException.cs\n00"
+    },
+    {
+      "guid": "cf0b42e703ec4f19811989be4515def4",
+      "asset": {
+        "sha256": "9fbdacf8482ee2accf0cc8197947dc8781a7398edd840cdd729a273412b80f70",
+        "size": 2384
+      },
+      "asset.meta": {
+        "sha256": "a310a13e06e69cd9be3014d852a4b081c3022aef2f174d8cdda03d29ede2cf06",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ContainerHolder.cs\n00"
+    },
+    {
+      "guid": "cce5e7aa50344452aa5288a5ac0852b5",
+      "asset": {
+        "sha256": "0b6afef7eb210578117704cd3b1dd2c07fb863f0e8ccf52677989c9657f970ef",
+        "size": 3923
+      },
+      "asset.meta": {
+        "sha256": "b9776bb83b7611803c822953b9cdb4744dfc903f2cfcb5e81bf9a7ad82daa8e7",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/KeepAliveBehaviour.cs\n00"
+    },
+    {
+      "guid": "3f01147a33cc454f8b196c9c1334ac86",
+      "asset": {
+        "sha256": "130ccf21f973bf5043ad5983596aa6dab63d0ddb7f437f7bc6ca08c1927ce5aa",
+        "size": 3701
+      },
+      "asset.meta": {
+        "sha256": "66de4821f7fc8ca5b9c8aa0af1c099e7919567fc93aa3c481918998d06110bef",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/UnityApiResultsHolder.cs\n00"
+    },
+    {
+      "guid": "fbf6c61c50aaf094e8d04d7554893641",
+      "asset.meta": {
+        "sha256": "7d6b235a3bbf0018542ee98b0111588c482bc50bd88215dee9f069eff3c02ade",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors\n00"
+    },
+    {
+      "guid": "6ac72640b50efad458b747dd66c98f6b",
+      "asset.meta": {
+        "sha256": "1a115686be19840d0026854c4614f5c2ed3e87f46a5e237aa79d023752643961",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract\n00"
+    },
+    {
+      "guid": "6e4e2aa87fa03d04bbe3979a971cc4f6",
+      "asset": {
+        "sha256": "7baa2a84b968e8b231c9945438daff7a97aae5b0bdd4ef7ce5e0a5e9e084c2a1",
+        "size": 4545
+      },
+      "asset.meta": {
+        "sha256": "c1560945225173e4b0349f1fe9bfd8565bb290da8830587dd5198cd92d15bad2",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs\n00"
+    },
+    {
+      "guid": "2c0c2cd00b8d16c43b34c7f120c7df15",
+      "asset": {
+        "sha256": "e3ad59a7381bc0a926c26fbd25589640ad5c1c9e391f6d959f9f2c8ba4833ded",
+        "size": 16839
+      },
+      "asset.meta": {
+        "sha256": "bf3291956e2c16ad15133be849e61df6cb6d734603c521ce9f6db9c50ecdb819",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/InjectionDetector.cs\n00"
+    },
+    {
+      "guid": "a30ad7dd9c3245a488e57ae755cf870e",
+      "asset": {
+        "sha256": "e24917eaed425bd79b99d2310f9d813dc29598f69974608256ed990bbd9479dd",
+        "size": 10082
+      },
+      "asset.meta": {
+        "sha256": "4fb787bc7aa6fdf3cd0d690c678ee9bd2a73dffec1ecd8de1cb7447d4f8d26a7",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/ObscuredCheatingDetector.cs\n00"
+    },
+    {
+      "guid": "d0d04994c2cd96140a8cf16a1ede4fb1",
+      "asset": {
+        "sha256": "be63d716eb928f21012106f2fbe22452800ddbc7b581e02e1da6417df67f8260",
+        "size": 14531
+      },
+      "asset.meta": {
+        "sha256": "4397b72300da442117e674d4c5e68c42a6078d58c7ca117fb46f3e5add3e5480",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/SpeedHackDetector.cs\n00"
+    },
+    {
+      "guid": "1cb994d96ecfe4d4697d649e0e7d5100",
+      "asset": {
+        "sha256": "0cc9aeab0552a473be705d198dc36e07f77c2b4a9ac4e83481b9b51a182dd457",
+        "size": 38519
+      },
+      "asset.meta": {
+        "sha256": "a55b572c3d2072c693857c51ade07e1d6e80cb9667771f76c3f9bf863d02eac5",
+        "size": 186
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/TimeCheatingDetector.cs\n00"
+    },
+    {
+      "guid": "d123a0bf35a94004aa342821cfcc3ea8",
+      "asset": {
+        "sha256": "1d40f4c2c4a8b9adbb40bb37c54cfd6efa314832200aaa19bf2f23f8160138b8",
+        "size": 36919
+      },
+      "asset.meta": {
+        "sha256": "b31c3e78875fcece814caa8c4dc6ccfab1e2b675f3ca8e09f2eabea8634d5e17",
+        "size": 315
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/WallHackDetector.cs\n00"
+    },
+    {
+      "guid": "8630c5d4888d6074296f1e9e7f3b4241",
+      "asset.meta": {
+        "sha256": "e3405de817fe5d6da1aa612857e21488877d7863a6be690f06d2a725e9750b9d",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine\n00"
+    },
+    {
+      "guid": "e1d5fe30dc27425fb0c97b2325d927af",
+      "asset.meta": {
+        "sha256": "8fe2a502b6ab4f6599b34d1448f362c9d1bc56e0b5b30038f7324f754ad36a79",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android\n00"
+    },
+    {
+      "guid": "9f22da4768ea44e2b55af0ead88a0f36",
+      "asset": {
+        "sha256": "68b80eb44b4d2c8c7d963317de535f29fde190292fe8abcb3322450828dc6693",
+        "size": 820
+      },
+      "asset.meta": {
+        "sha256": "fd6c304ab19ef9472af163c63203f2bab48ef7bc79e0c1c3fd91a1b8e5412f70",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android/AndroidAppSource.cs\n00"
+    },
+    {
+      "guid": "871f83f51e824dd79b63863a40954cc0",
+      "asset": {
+        "sha256": "5d58c165217430f487c4655113290df13dc8e4211e51e05ffb8c1c7e5f70c96a",
+        "size": 1609
+      },
+      "asset.meta": {
+        "sha256": "dd6956dc1ab474b0b2fbe27420556a61a4eae5521997b5456f3df90831699366",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android/AppInstallationSource.cs\n00"
+    },
+    {
+      "guid": "d1b17f686bca423eaf2c29b3cf27f2e2",
+      "asset": {
+        "sha256": "8fa8bc4a04e0ee1ef47106cd2ffd895d77c0c357d2920ff6e177d21663bd14c3",
+        "size": 1811
+      },
+      "asset.meta": {
+        "sha256": "5328508afdd8e0bc80b792e8383971e8ec752c249b2feaabb515d0a91ecc6cb0",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android/AppInstallationSourceValidator.cs\n00"
+    },
+    {
+      "guid": "6fbcc57ba3ea6b7458c36201af7e164d",
+      "asset.meta": {
+        "sha256": "f40c6622135653a66fef85fbc6a045db5784952cd8072bf7cf0ed95e917b0009",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash\n00"
+    },
+    {
+      "guid": "738fc3d5fe874cc694342aa834cd729c",
+      "asset": {
+        "sha256": "00b12280c672e852965297c3ec0565b913efb0900ebbffc4ac4be99a796272f3",
+        "size": 4176
+      },
+      "asset.meta": {
+        "sha256": "1fd54336ad51a060c4b20f821356f9dfa1dbe950b4f87db56aa3f3b55786f488",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/BuildHashes.cs\n00"
+    },
+    {
+      "guid": "1a671b141459bfc479bce8bb075fcc38",
+      "asset": {
+        "sha256": "e75687d472a56702abf978068a7ac649b9afb2e75fbf98b03097855e090677ce",
+        "size": 6159
+      },
+      "asset.meta": {
+        "sha256": "cd1074069f9516495e8fc93ba5c5708ad7c6c355b2d707b6221acd66a2cad274",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/CodeHashGenerator.cs\n00"
+    },
+    {
+      "guid": "4457315821b04863812824a153b98988",
+      "asset": {
+        "sha256": "29b283a4167eb18196856ffaf85f23bb6832e97982bf5ecf9bcc8196042095a1",
+        "size": 1140
+      },
+      "asset.meta": {
+        "sha256": "d4bb8002f76a57616908115c039879481ddd668aaf7ac3534523ed1da25289e3",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/FileHash.cs\n00"
+    },
+    {
+      "guid": "fc63887d3556418e9374f436582b7263",
+      "asset": {
+        "sha256": "0185efc6512b037de0a6a0c358df2a94618175c7c654168272b37314ec37a753",
+        "size": 1161
+      },
+      "asset.meta": {
+        "sha256": "79909b84e6eb4cba78bb7d8bf46f05ac2b78d4a538983665b20bc20f1e3c5bc3",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/FilesProgress.cs\n00"
+    },
+    {
+      "guid": "079b58e876ec476aa197244abb78f03e",
+      "asset.meta": {
+        "sha256": "1eb91cbfe6990605c48b39c42bd1bfde92c277d8c60759e9ce5a4bf8f75a08cb",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering\n00"
+    },
+    {
+      "guid": "dd5b56a736e3406c803e3c0524f4b30f",
+      "asset": {
+        "sha256": "597bcd396c032516cee4c1d04d41bbc1bd16f1135f56906d1ac45ada7e74fc42",
+        "size": 3232
+      },
+      "asset.meta": {
+        "sha256": "4f59f3e13093ee4e038fbc5b5bef701b9018d22c3ed94b2a0006616d68b0e9d5",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FileFilter.cs\n00"
+    },
+    {
+      "guid": "fe171be09c2a4f5f9789aba2a34f5bc9",
+      "asset": {
+        "sha256": "25c34fed674ea0bfd755e524a63e449cf84080154e574eff5579f78a988ea55d",
+        "size": 329
+      },
+      "asset.meta": {
+        "sha256": "62361c8f579c4a48fffd16e7b14e54eaa122f6401232ea39be70551a2598bd39",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FilterGroup.cs\n00"
+    },
+    {
+      "guid": "8218d1a22b9148579530fe1594648790",
+      "asset": {
+        "sha256": "57a92ec6eb506b2c139671f7c20a03f9fc4ffdf6933f6d67e2f43228b3edf6ea",
+        "size": 1809
+      },
+      "asset.meta": {
+        "sha256": "47a0c4e53167ef2ad68c1763ebcf056ce2de5a8ffaf3561a779438bf80f1969f",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FilteringData.cs\n00"
+    },
+    {
+      "guid": "fc88ed054d2646fd973cb589a44b32d8",
+      "asset": {
+        "sha256": "c740ec43fd8d3074ee5da7347b2e4b54443e908b7d8abdcf298fc0644bbcb865",
+        "size": 761
+      },
+      "asset.meta": {
+        "sha256": "2812aa4dd4ce8a08f65e868fac1813947523ae80b40d429776e676dfe2228da4",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FilteringSettings.cs\n00"
+    },
+    {
+      "guid": "cc6fa73d31024c40b3e61445c307ab3f",
+      "asset": {
+        "sha256": "6d9a8154351129176e3fa6ef85b6a9e98d18a10448c32ed75d779be66dbcf917",
+        "size": 4363
+      },
+      "asset.meta": {
+        "sha256": "9c48704734a98e609004b42abe861b19b9749405c1a9a1e856e9b55a62a7e2ec",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FiltersProducer.cs\n00"
+    },
+    {
+      "guid": "6b641e2e931fb654794a4c8e18097e5e",
+      "asset": {
+        "sha256": "44f96cd9855d4de324239a62b6595522ad0a3f3b3f6d19eab2aa8aa8dae93d98",
+        "size": 2964
+      },
+      "asset.meta": {
+        "sha256": "6e13a44e40bf0a9879a4a34949d5646436e55f1b427069ed83edd256569e1329",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/HashGeneratorResult.cs\n00"
+    },
+    {
+      "guid": "f06aa8a64f773404da00090f642383dd",
+      "asset": {
+        "sha256": "8ab662cc5f86f91f98acf07a6212682eed73f4a1f4a64b5ca7b2dd56692108a4",
+        "size": 1552
+      },
+      "asset.meta": {
+        "sha256": "bd631bfce7044a255e4c8c8d0723caea2b6f9ca2c867c72e060fa5b3ac9d32d0",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/ICodeHashGenerator.cs\n00"
+    },
+    {
+      "guid": "64afe032c42b00a45aa5627298cf5630",
+      "asset": {
+        "sha256": "d4686724241dbedab41d0fe2595e324ba14c97260658134a265a253ac7488361",
+        "size": 961
+      },
+      "asset.meta": {
+        "sha256": "8ab1941243c6e39e8b884c87d8d7a6d62022f65e2a3999f535081abe9b44cadd",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/SHA1Wrapper.cs\n00"
+    },
+    {
+      "guid": "5d753138687289347859825ac64935e2",
+      "asset.meta": {
+        "sha256": "26d30aaa009e958d446602320e67f756ba64de2aee88b4899cd74748a0549d6e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers\n00"
+    },
+    {
+      "guid": "7e2effac38f14644699881c7c79150e1",
+      "asset": {
+        "sha256": "42b1b47fc6a7dbb018a7cf35c0aa34f8884e4573ed06578162b144ff6cf7cfff",
+        "size": 3512
+      },
+      "asset.meta": {
+        "sha256": "6ed1c282be41dfce907362849fc1a081878687e38e068351267a0a247a95c7ea",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers/AndroidWorker.cs\n00"
+    },
+    {
+      "guid": "e0bee74c0f58db645aa3c72ec1eea123",
+      "asset": {
+        "sha256": "805c081845e5df769852bdb3e6ef215d40f570ebed2a2a267129133f419415fc",
+        "size": 728
+      },
+      "asset.meta": {
+        "sha256": "dbbfe5ecfdfa322c57ee40ee20d83c278daa6392fba38e3a0cc35e8f3cbbfa62",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers/BaseWorker.cs\n00"
+    },
+    {
+      "guid": "43857e841d4d9af48bd3c10efb7f9547",
+      "asset": {
+        "sha256": "23a9dc8baf9205fc7e17515ae3a8e1664a9d054798f1438766b372b93e77a5a9",
+        "size": 3616
+      },
+      "asset.meta": {
+        "sha256": "abd013edd1d0da143a63503fb343c5f174afba18199895bcfd5c29c046c0bc86",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers/StandaloneWindowsWorker.cs\n00"
+    },
+    {
+      "guid": "81cab858d70b02d4e8ee26e389360dd3",
+      "asset.meta": {
+        "sha256": "ae6bb77466966bc1bca8bd636fe04b5fb67e354cb5bd89f95418adc91a8f195e",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes\n00"
+    },
+    {
+      "guid": "866cfe8eb95465b4a9f8d67e0179b932",
+      "asset.meta": {
+        "sha256": "4d35b4b936a4230be6930ac75732bcf58c0cb2670ba479749326662dfb040135",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Converters\n00"
+    },
+    {
+      "guid": "b473e53885ec81142b84b62aaedd530f",
+      "asset.meta": {
+        "sha256": "4a5aafa66e27d3460cc933016098d0b7e79f8d0ac848674fdd01a56b13f4ae92",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Converters/Newtonsoft\n00"
+    },
+    {
+      "guid": "c71db1d59986c3b41af10f08c0c54787",
+      "asset": {
+        "sha256": "cafa3a75923f46dfd6515b6c2733508296a5b81edf96b1464e67f60633d95839",
+        "size": 11855
+      },
+      "asset.meta": {
+        "sha256": "16dc68d2e1d25ad96556d341d6fc52afeda60f5f01e003c6553109c0bc3d2033",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Converters/Newtonsoft/ObscuredTypesNewtonsoftConverter.cs\n00"
+    },
+    {
+      "guid": "cda1d9a236014fff8ccab83d51cd6485",
+      "asset.meta": {
+        "sha256": "da2c0561566465c3c6895cb5933e1cd932e4fd03053b2e903905add211e3863b",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Interfaces\n00"
+    },
+    {
+      "guid": "c633e678c4664854b052df4ae54d9cc8",
+      "asset": {
+        "sha256": "9afcdabc739f761b783bd9fde56957b4cb12a2c550ff8ff84fb3e49936302f04",
+        "size": 699
+      },
+      "asset.meta": {
+        "sha256": "9f4d4a6efb7a57bc2bf0d6e85482b8c979df01b45526088e6e711d058b2db0ff",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Interfaces/IObscuredType.cs\n00"
+    },
+    {
+      "guid": "6d87e49d485644e9b0824650bd0bc85f",
+      "asset": {
+        "sha256": "15d9b597a9cf01797e9a860437273ba63fb9022814b7d2a465db344eea83b471",
+        "size": 11695
+      },
+      "asset.meta": {
+        "sha256": "dac03b40ea4303959812e67a5025a3c55332250c05bb093585715d09f8514d0b",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.API.cs\n00"
+    },
+    {
+      "guid": "4b71b315cb2a41f183596505f2a19126",
+      "asset": {
+        "sha256": "88a39791c4068c5c9e90f2b7eec9f379c4c2f205d943c008dc199ac33c94fad8",
+        "size": 571
+      },
+      "asset.meta": {
+        "sha256": "aa66b68726082d9bedff77e294d9947730bcec4ca08d89cc41f0ee754e4254fd",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.Editor.cs\n00"
+    },
+    {
+      "guid": "76d1d9576d934344b0dbaa48fd7f314e",
+      "asset": {
+        "sha256": "69bf92fb901c6c029e557d2f92d5796016516615df46ba026524bc508c0240dd",
+        "size": 1994
+      },
+      "asset.meta": {
+        "sha256": "f7701c1694d574ebb84f2aeb1d1844f5be0ecca2b1c9ee87f8cf96b752adb51e",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.Raw.cs\n00"
+    },
+    {
+      "guid": "26872f7c804f43978d827a298593df34",
+      "asset": {
+        "sha256": "11b1b18aa6e3ab2ea9d0b7cf0bbbcaeee92989600108a8c7529eede5dd7e532c",
+        "size": 6207
+      },
+      "asset.meta": {
+        "sha256": "d310ce2a05f136033068debea11de0dbf914bdc4751362aee01eca4cb7cc9948",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.cs\n00"
+    },
+    {
+      "guid": "ddd4abd9e1e4456d8f6ba9a829d4939a",
+      "asset": {
+        "sha256": "834f0768a45f719c38460b2da0a60e2c8299372dded46bc5a25b77496bac7b1a",
+        "size": 1675
+      },
+      "asset.meta": {
+        "sha256": "7a7fd6a08fb600942b18d0c20c1b17d021d711477c69d46a644e857037abd610",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBool.API.cs\n00"
+    },
+    {
+      "guid": "a509ae45ba98416f8b165dc136753468",
+      "asset": {
+        "sha256": "e276e60bf09e80ee2d766665e70a9ce4dd0aaeeef5c3f560a4b5cbd42e4b84a3",
+        "size": 565
+      },
+      "asset.meta": {
+        "sha256": "b804ff3389a7fbf6f6a19afd637bd208e7b0a19e2761ad010098104f959aa97d",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBool.Editor.cs\n00"
+    },
+    {
+      "guid": "087379b55c673b6479929f47298ebe2f",
+      "asset": {
+        "sha256": "958d449f79bbd0e74fb7ee21fc53f988663a5279e3164347cd9fe8168df205f8",
+        "size": 6803
+      },
+      "asset.meta": {
+        "sha256": "6bc0b1e59101cdee8364a214ed0bcf5dbd27e1392b7e228c681ee0f5247dbf05",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBool.cs\n00"
+    },
+    {
+      "guid": "01c4ec37f17242e987034c7cfba14fce",
+      "asset": {
+        "sha256": "062ff76ccecdc417de27bafad5906159c5c104cb259426bc014940240c4daeb9",
+        "size": 2721
+      },
+      "asset.meta": {
+        "sha256": "b8df9a53b2471f608bce642657536b26b34985bad4987a11da013dfff9b3d460",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredByte.API.cs\n00"
+    },
+    {
+      "guid": "ffd0f98b7bfcb1f418e2aa6c6d8438be",
+      "asset": {
+        "sha256": "fc02f374b5f08998e05ef6f2965d213fd2eb50cc6ef42be5b800d9e994380a4d",
+        "size": 7926
+      },
+      "asset.meta": {
+        "sha256": "8c46c37f7c00cad157e1bce4b28e07c3b47f3e19fde937764081a4593955aa53",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredByte.cs\n00"
+    },
+    {
+      "guid": "5c0e0cd11aa84b7aa2f060f77c19a6fe",
+      "asset": {
+        "sha256": "f6c1b6287f1b3dfacd520d4cad507ba4be8822e545c14bf91eac366ab132b2e9",
+        "size": 2481
+      },
+      "asset.meta": {
+        "sha256": "fc01400babef9ea789008d8cfe9ff758b12ad8c7a4be14c51405ca2e8414448c",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredChar.API.cs\n00"
+    },
+    {
+      "guid": "df2e4baa10859d4419dd288c8844c098",
+      "asset": {
+        "sha256": "3d54347290f16b028ceb5b009f9543a15a895a1d9c7908b6b27d826a9ab17389",
+        "size": 6747
+      },
+      "asset.meta": {
+        "sha256": "741e873fe2b5f1aaabe767e09ff67248056d6ff517215cafbc536cc980a6b702",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredChar.cs\n00"
+    },
+    {
+      "guid": "d89b0423d1ce47bba805cbb94fcfe315",
+      "asset": {
+        "sha256": "414dc592fad038a04cb33000d858afad4651306c17f8089f755809becbbb8b85",
+        "size": 6164
+      },
+      "asset.meta": {
+        "sha256": "697693a6f19bd4e03f383144122d5477acc55d828e25b2d47c0d0f1425231540",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDateTime.API.cs\n00"
+    },
+    {
+      "guid": "ff6e0af66f3240eb97476c4a4cbebec0",
+      "asset": {
+        "sha256": "70b1a124889e5e0b20e3a707ec88900480b6439859cfa81ee301e41c5161280a",
+        "size": 5970
+      },
+      "asset.meta": {
+        "sha256": "f60347f8111a61f9196e30b82c86037132762cb4947debcc8e0d72be5456c3db",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDateTime.cs\n00"
+    },
+    {
+      "guid": "b19e591daa4149e5a58d44647b9c0c10",
+      "asset": {
+        "sha256": "b8ae6c802aa3536bca42d896c2245d1cf1357e69943f851633f94b0c30e901d8",
+        "size": 2911
+      },
+      "asset.meta": {
+        "sha256": "424ccd2cb5c97e2865ac4f9abdfb3089a4b99fe037b07ba21dd82f52b5b073f1",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDecimal.API.cs\n00"
+    },
+    {
+      "guid": "825ba42c6957452aa173153134e38e08",
+      "asset": {
+        "sha256": "aeda76096444d114184aa5a1185874ec5dd22a26b821c79cd2df09f0d6c4cfe4",
+        "size": 492
+      },
+      "asset.meta": {
+        "sha256": "b27d208b6e606f80ad6e43388b78494b65179d0ef88022fe70e53460b7b7562b",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDecimal.Editor.cs\n00"
+    },
+    {
+      "guid": "4280032ce141abb46abd2b1a00b00737",
+      "asset": {
+        "sha256": "c8d6539810c41459a2fb87269a53ced767cd0021d5e322f4452961a1c5e1331f",
+        "size": 8450
+      },
+      "asset.meta": {
+        "sha256": "fe14e3f2c707e165bda507505527df29ece07cbd1450bc19d5e8f440e94ccd87",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDecimal.cs\n00"
+    },
+    {
+      "guid": "352a6c04af12482086a0adc92034eb9c",
+      "asset": {
+        "sha256": "9f97d4d5a525ee905911e013c54d651d7f918610d5188256a4a49c283feb3909",
+        "size": 2870
+      },
+      "asset.meta": {
+        "sha256": "7bb880d1ce91554a17a6d6956d7ac8d8f3f1b5334c9e3616012f2b5a3906f8fa",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDouble.API.cs\n00"
+    },
+    {
+      "guid": "2602353bf39b46778d8977dd0a5b45fc",
+      "asset": {
+        "sha256": "f7a656be111566fafcd45995770536854e36ecec32f2fa7c80a4b11e29b22403",
+        "size": 574
+      },
+      "asset.meta": {
+        "sha256": "97ed814b72b0ebf6e3586093b264ff00639ae459ac2b91a39906be11cf0fd254",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDouble.Editor.cs\n00"
+    },
+    {
+      "guid": "e000716291073174da137134a3bee2ba",
+      "asset": {
+        "sha256": "6bc5626dbfd010ff7cc8a21b4b050e81dcbd047525d87ff15e0b308b3fa36b21",
+        "size": 10955
+      },
+      "asset.meta": {
+        "sha256": "ad5d10123b1fa314afc6a7e4347dece270d7660d7de29285e2c638f132ec209b",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDouble.cs\n00"
+    },
+    {
+      "guid": "ed318b58608d48869150cc247220c20c",
+      "asset": {
+        "sha256": "1c6454dcd121000110da22f915b74903ec480e65063bb56e5f8a6763c060a563",
+        "size": 2745
+      },
+      "asset.meta": {
+        "sha256": "51c026032e2bcce47c22d996fab866c2362a04f1962f735556a28192a1225bfc",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredFloat.API.cs\n00"
+    },
+    {
+      "guid": "352c3042e2c443bc9f873ec73e8a80e6",
+      "asset": {
+        "sha256": "c7576a138b911051fd81c5bba7168d34ec994bec0ed081c5d12d6fa7dce74bab",
+        "size": 574
+      },
+      "asset.meta": {
+        "sha256": "ddc939f7d332e143648b0edcb68bdefc38fbee742d699e57e1cc012b6d2ebf59",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredFloat.Editor.cs\n00"
+    },
+    {
+      "guid": "0062c4ab43af0ba4bb3a8b3d83c1e16d",
+      "asset": {
+        "sha256": "072608bf5bced66a383bcc0552e0bcfe89c7742d14f1c381683a757c1dadf298",
+        "size": 10209
+      },
+      "asset.meta": {
+        "sha256": "cfca38ce0b6dd5d5f6f1c1aed2e79419f0753b103e31d5e0fab7cbe7382efcfb",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredFloat.cs\n00"
+    },
+    {
+      "guid": "83a81ecd47f749c19fa2fb601d2e77b6",
+      "asset": {
+        "sha256": "c98a42189d8af5449d870ac3dfc39613c053264ce484e2fa1b6d3e11689367d2",
+        "size": 3157
+      },
+      "asset.meta": {
+        "sha256": "150ae9bb1a3c4e5a7f505058af0e7626d5ae0c0d226511b1bef9662ad7bbcb15",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredInt.API.cs\n00"
+    },
+    {
+      "guid": "c4c7ef58a0b547db891276b5cbbee8bb",
+      "asset": {
+        "sha256": "80541fb4723262e2b04f3aaa4614458927635b013c45cb5c6f458c9b294d8a14",
+        "size": 564
+      },
+      "asset.meta": {
+        "sha256": "c5065c77b41d6821194153ffc6adf8e686e47badd47d85e7a379e5ac78970476",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredInt.Editor.cs\n00"
+    },
+    {
+      "guid": "135d4771d45b98a46bf8fc40cc92c2c5",
+      "asset": {
+        "sha256": "127194dc2ab9af6cd5c33f8ac2783cd332221b3a5cf27412f6e14c5209c4c507",
+        "size": 6639
+      },
+      "asset.meta": {
+        "sha256": "44580e54338a02bbb2049619b3bedb4d1e413333b46ef186f1436f82c357ddfd",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredInt.cs\n00"
+    },
+    {
+      "guid": "0c1f4e4f0823481790ea9836b60e9c8a",
+      "asset": {
+        "sha256": "8125d59768046170e61a157cd92a1da0e0aac190d78fb090e0bea0c3e7bcf701",
+        "size": 2723
+      },
+      "asset.meta": {
+        "sha256": "7ac9ddd883b79946ba090644fb66345f815d192583fa4b32bb827aa116d1d911",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredLong.API.cs\n00"
+    },
+    {
+      "guid": "6447e4a358db4386abc01c188cdda3a9",
+      "asset": {
+        "sha256": "80467d95bfd19e4e4fd2e3278f7d8bb26ce7c2a0add1e346d160d4c7fde45b51",
+        "size": 565
+      },
+      "asset.meta": {
+        "sha256": "bf72aba6f5ab6d90a4386a988b7efdf6c256f7e9976e4af072625b08e8b24f19",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredLong.Editor.cs\n00"
+    },
+    {
+      "guid": "1486394148a280c4699dd97480305294",
+      "asset": {
+        "sha256": "1aaf65754f37e65a8c18e837be4184660725740b32e5a4ee8deed4e083902ee4",
+        "size": 6682
+      },
+      "asset.meta": {
+        "sha256": "fe4b9a68cf627f49d9f2f1877580c83735ffe8a6fa640d5d3db1191948a6bb6d",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredLong.cs\n00"
+    },
+    {
+      "guid": "0fe7d9772d484fbeaf8d33ce0cb5896d",
+      "asset": {
+        "sha256": "a670e83cebd3c83d3b94f840c9d29bf7003d585e85101876e9b71f402f39534a",
+        "size": 1750
+      },
+      "asset.meta": {
+        "sha256": "ba7d923660fc3efa0b0ef8d8c98f7fb88dd447cf173895a52cfb3b7b3fe8c717",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.API.cs\n00"
+    },
+    {
+      "guid": "0c068e4728474ea087f0db89b994b8c6",
+      "asset": {
+        "sha256": "f1ac2651d9e09811262a2d39a69ddf5bd106dccc8e169a497e58ede7760a3d37",
+        "size": 578
+      },
+      "asset.meta": {
+        "sha256": "a5c5ae92ccfd86a74525501da01594c05e8f4bee098677eb308602b01b3a22ed",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.Editor.cs\n00"
+    },
+    {
+      "guid": "913bb305a9394088b8b5d2b82fb12a12",
+      "asset": {
+        "sha256": "fe7f2895964aa8637ae8a6f9c4f89383cf2ee472c91b76c4464a5d372285b92b",
+        "size": 1345
+      },
+      "asset.meta": {
+        "sha256": "19fcfcbbcc16c8aeb70c719c6287ef642ce989e2ce9655a3a275326665d8c2d2",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.Raw.cs\n00"
+    },
+    {
+      "guid": "b5554fb207077af4e9fd8a862cfef2d3",
+      "asset": {
+        "sha256": "478ee7d4874684f5c3aa02ed3b108881e85c2c0781d8bd214f20686aa8faa4d0",
+        "size": 9515
+      },
+      "asset.meta": {
+        "sha256": "e3a8aefac2d19a48e1517f1c3e0c071749499f3193edd6b9cbe3cd9e052c6c84",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.cs\n00"
+    },
+    {
+      "guid": "cf604223ed2241a9a278f0462bcea1fb",
+      "asset": {
+        "sha256": "f82eeddce4266ea8721bf2c2b2555be7d759b3a8e5bc4e0a3ec7dcdd86a4e1b2",
+        "size": 2744
+      },
+      "asset.meta": {
+        "sha256": "dbbb132adab45d5ac1b03519b506580d77d43626bb26fddd2e638e58566fe1e5",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredSByte.API.cs\n00"
+    },
+    {
+      "guid": "85fc7cb25b13cdb49bac95dfa9613df3",
+      "asset": {
+        "sha256": "fc9d78db3d9f5d27c82e78ca453eed6033687b6858544bce1af110a873082c14",
+        "size": 6785
+      },
+      "asset.meta": {
+        "sha256": "2c0fb897474239076953803c4e9b0b064f009153ceb8481a262e3929bad612df",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredSByte.cs\n00"
+    },
+    {
+      "guid": "3305d1b94ab64fb5a9253573b3e9a0fe",
+      "asset": {
+        "sha256": "086154abc4d80d3fb9eaf2072c161f07c07a74416f2abe6fde167090e51a8caa",
+        "size": 2744
+      },
+      "asset.meta": {
+        "sha256": "118e17ee26cb78a8c7f81ec627082ada9309ca4f66c52f6685ecaf29b16c1fc8",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredShort.API.cs\n00"
+    },
+    {
+      "guid": "ba529d640a1743db9d63ae30476b3ce2",
+      "asset": {
+        "sha256": "8ea18037257f9c5253d77cdb091ceb72e80114c455f3048cea93b3424192be45",
+        "size": 566
+      },
+      "asset.meta": {
+        "sha256": "4bf60fee2c0af33c464717b05fe02548ddd92c06862fbe998e904e3c9f00a4ec",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredShort.Editor.cs\n00"
+    },
+    {
+      "guid": "46e3b6b31fa3d9b41ab6f000a24f838b",
+      "asset": {
+        "sha256": "01754f6c68035738448b94c4bea08cac9075be21b2cef2d7712824395a968215",
+        "size": 6880
+      },
+      "asset.meta": {
+        "sha256": "7072daa8a0e9e47b8fff444787cb2869d318861e31d6ec4205967afee036da0a",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredShort.cs\n00"
+    },
+    {
+      "guid": "a1ece52e9b49435aa1f0bccec969feb4",
+      "asset": {
+        "sha256": "e4f44126efcb3d21e0bfa64f9fa7b4724f2fe43528841cc77d7f8ff0bc04514a",
+        "size": 5019
+      },
+      "asset.meta": {
+        "sha256": "8f3b350351b35e6e8726e3cc659c23f668d6836cd2c9bb260288c84a40e1317a",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredString.API.cs\n00"
+    },
+    {
+      "guid": "2f1581216ccf4e2eb7ac53d0133bc220",
+      "asset": {
+        "sha256": "fc38eb0905194f70f0886e77fd754e05f918f2c020a341a77841ef34fcf5c937",
+        "size": 570
+      },
+      "asset.meta": {
+        "sha256": "cee0c61a43ef1b10bfd7824e55c5d6dc2e597b2b0d39537a85f11a80423076c4",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredString.Editor.cs\n00"
+    },
+    {
+      "guid": "b7384734914d23c46a03e66efa0e3772",
+      "asset": {
+        "sha256": "e34744d8fb2ed2d19d1a3cc7c2739ba4a40304398fd2ac5698b648ad1e85824c",
+        "size": 13721
+      },
+      "asset.meta": {
+        "sha256": "9dd1c683861c89421d67d9b00d937aef9ada53069a4b9e0cc9eba4d2b473b287",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredString.cs\n00"
+    },
+    {
+      "guid": "4fd4788d44324ca9aaad04c3eabf4b0f",
+      "asset": {
+        "sha256": "9697e3394f0417acb69717109aada88d7d2bf2a5c93e0c6381dc46dc18bfe450",
+        "size": 2841
+      },
+      "asset.meta": {
+        "sha256": "1e2776383a686b06c9b2fe61d2798a44c6f03eb943028ad1f6cfa3daa9e8c320",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUInt.API.cs\n00"
+    },
+    {
+      "guid": "f70a5adbfb3245b0b3d004bcb31a24eb",
+      "asset": {
+        "sha256": "cc450f04a4378a1e4c9c8c1c1c5f312378857eb9a8f45cb2eb41ff8e3a026012",
+        "size": 565
+      },
+      "asset.meta": {
+        "sha256": "ef778698467e8b96a5edaaa23b0e2da5bab314bf516e8ed04096fe773c883c88",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUInt.Editor.cs\n00"
+    },
+    {
+      "guid": "36ce40c89daa5014fb48c61a9f8e1223",
+      "asset": {
+        "sha256": "f46125af4043289e1f24bd66699809a2fa3a87cfa8f2214c35db91884d8e4e2b",
+        "size": 6672
+      },
+      "asset.meta": {
+        "sha256": "21cc4c8c47d337948e6235d6df157e3268055df4413313c3866bdaf1a3217d55",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUInt.cs\n00"
+    },
+    {
+      "guid": "bffdf5db0aff4d60af9b627f8c59426c",
+      "asset": {
+        "sha256": "5d50b8ddfe60b266c0b86cbed949236d82d9ab6a07dc5bfbd25e125976a6d52f",
+        "size": 2774
+      },
+      "asset.meta": {
+        "sha256": "43341ac9878b7146c05cb434e98ebd6166f0c73b1d964d2ea6373c1085d5a33f",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredULong.API.cs\n00"
+    },
+    {
+      "guid": "caa6f1e794994c469fea73a44f03329f",
+      "asset": {
+        "sha256": "28827953de70eb230fe504ac983d1bdcaa1af78c1b81d3a562841dea83a76530",
+        "size": 566
+      },
+      "asset.meta": {
+        "sha256": "c8a186e264848d800f579bdc41e2554d99d382ec9b423c883b1b9dd80ac8b15b",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredULong.Editor.cs\n00"
+    },
+    {
+      "guid": "ba6f44ca353c8e14c9956d3b2ca79d42",
+      "asset": {
+        "sha256": "79853d5d1ebee567176c5939dfbc617b7649316a5f5bd2902014a55da823b1a9",
+        "size": 6711
+      },
+      "asset.meta": {
+        "sha256": "2acae11542c2d699f20430d2a68e50bf173feea611e451229fa04349521178bc",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredULong.cs\n00"
+    },
+    {
+      "guid": "35caec54866c4efe8ea236bc42b39ec0",
+      "asset": {
+        "sha256": "5f34f8d476aaf839995f32682b001120b8ac7f754fd9f977a02cbadad43d997e",
+        "size": 2767
+      },
+      "asset.meta": {
+        "sha256": "462cbdf24645051d4646acc59c8bd1ae0ccc7e96893a178c7510ba30d69d806c",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUShort.API.cs\n00"
+    },
+    {
+      "guid": "c45101ba7cb548746b7a533070d39455",
+      "asset": {
+        "sha256": "6454530ffa902a72f8fdb57aa67c697d2c92089efc65ef9eb6a37588cf214c7c",
+        "size": 6821
+      },
+      "asset.meta": {
+        "sha256": "9ac47a84cb63d95e620dac510e3820732482eeeb676404e936bfb61cb58bef49",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUShort.cs\n00"
+    },
+    {
+      "guid": "17422e8dbb944e89abbcc6611c5f7e9e",
+      "asset": {
+        "sha256": "57b2f1e7841af112a27bcdd73716eb3d18525652f3cf0273a02632612b5ddad4",
+        "size": 1914
+      },
+      "asset.meta": {
+        "sha256": "140ff4c3a3374d1250a456ccc1f0273eba0cd3d1ae675fe49a42a7c6557c795d",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.API.cs\n00"
+    },
+    {
+      "guid": "d83987ab0d524a19aca947859fe514f2",
+      "asset": {
+        "sha256": "9a7be47c738bb97b4bdfc1af6bb978be5b89b37abea38d4f6b0f179080c4c503",
+        "size": 575
+      },
+      "asset.meta": {
+        "sha256": "fd9fff90009495b01d1f22a01c0ea6c7c0a6ecf13cc4fd602904f036018af395",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.Editor.cs\n00"
+    },
+    {
+      "guid": "63cd55426ab0482da5c170cc6b7d9574",
+      "asset": {
+        "sha256": "5eb32fda9e008ba683592a4231dde8062e39e81000a0992743d58d34aeac15f4",
+        "size": 997
+      },
+      "asset.meta": {
+        "sha256": "f6ab8f3b0179097615e58979c911ae4e14f27a20557a4c38584a396527f0dc0f",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.Raw.cs\n00"
+    },
+    {
+      "guid": "b2747e161005ff74f91cf08fc1184a62",
+      "asset": {
+        "sha256": "8bdb0e76426360a73811e0958a0bea236802695508101ce77ac3b83c7469d119",
+        "size": 11658
+      },
+      "asset.meta": {
+        "sha256": "ef21e0a19663590357b7378e66cb75fe957bd849d05e35a61b578c7629c3cd9d",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.cs\n00"
+    },
+    {
+      "guid": "5ebd36de4e03418596a257ef9bc779ef",
+      "asset": {
+        "sha256": "ee4b158dd24b90f1ea7f2b023d5c6e2299a90534bb2772b9534eefd27eece90e",
+        "size": 1574
+      },
+      "asset.meta": {
+        "sha256": "75150b3ebba5e680073b47f4f670096edbce2cf269a2eea5725c63d54d5bb851",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.API.cs\n00"
+    },
+    {
+      "guid": "0fdcf5cd346e40e78a452f5bbe0eb95b",
+      "asset": {
+        "sha256": "234c956b7cf838a67ded51a75bfd8814a2831b5dde6b1a104e20c2919b58f980",
+        "size": 571
+      },
+      "asset.meta": {
+        "sha256": "88f69ad519f42be963e9736b26ce47f781fadef2566b30ceb9de44c1d142026d",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.Editor.cs\n00"
+    },
+    {
+      "guid": "62fa01c2fbd44ada8f0c54ed89914fc7",
+      "asset": {
+        "sha256": "5c9f3aafd5d0f95284af1f8972f56f5ce05f34a5a07b91a24956882233f2e3a6",
+        "size": 1012
+      },
+      "asset.meta": {
+        "sha256": "5dd731e68e31573d99d22441322d5cbb048616a4524449f64e195984ac558f6c",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.Raw.cs\n00"
+    },
+    {
+      "guid": "7d311f3fb76e0264daaa7162eab7563f",
+      "asset": {
+        "sha256": "e5d1ef4dffb10134f1fc0c63d8386f756a91109a96729106ad75d36ad21c84c8",
+        "size": 10649
+      },
+      "asset.meta": {
+        "sha256": "41e499784221fc66d7d3afc5e1840e04e1939605e57bc80c6bbe71838f5eaf09",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.cs\n00"
+    },
+    {
+      "guid": "c2ada4c9123744958b5b7d2575eb5716",
+      "asset": {
+        "sha256": "2a459d878183b22a2dfcc8e5a20ffa8a00ff43a32f970f9ebf78cd0088bd0d87",
+        "size": 3738
+      },
+      "asset.meta": {
+        "sha256": "693b29a9594bef8a3b0b3a573bd6ff3969e8e00dbd0c2f3889c89ee0a3b935f1",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.API.cs\n00"
+    },
+    {
+      "guid": "986cba1b8fe54661b153c0ad08e0f095",
+      "asset": {
+        "sha256": "404e5d8161e2617a11997c28f2e4fe2a19161a047b951d0374e702d4b40e1943",
+        "size": 575
+      },
+      "asset.meta": {
+        "sha256": "41a71096bdae4445dc985fb48f23fb7118980306b8e1ef9863f34fef73332ffe",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.Editor.cs\n00"
+    },
+    {
+      "guid": "3614e359670b47d29e5ce31cec6f1153",
+      "asset": {
+        "sha256": "1dfaca92654a6cf65dca51f179063bd7bb66ee6019726b426e4edf3fc821350d",
+        "size": 1187
+      },
+      "asset.meta": {
+        "sha256": "b30923609d30e8d6b1cd88317dfd3c665c8b064e09122009baccb4b5a5dc49f3",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.Raw.cs\n00"
+    },
+    {
+      "guid": "ee22c33f589a744438fb51f130130827",
+      "asset": {
+        "sha256": "708e516f36b91f86b487b1c6004fd755342b4cdcaf8b690548ff491491ad13cb",
+        "size": 13288
+      },
+      "asset.meta": {
+        "sha256": "0cc0d662753647648eb2cc57be36aa57aeada8ab14e0cafd29606cae467d2bbb",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.cs\n00"
+    },
+    {
+      "guid": "f398f8b21561437c9b36c3dc8770729b",
+      "asset": {
+        "sha256": "d0d13202f33791aeb2fae06412b2cc309f40c9be56f6e9bb71116c687959e5a3",
+        "size": 3447
+      },
+      "asset.meta": {
+        "sha256": "2dc9afbeea7c144c7f060140c291204fddb24629673940825a39ce6a1c7bf730",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.API.cs\n00"
+    },
+    {
+      "guid": "b852214be1af49ca91066b605d494bc7",
+      "asset": {
+        "sha256": "f05617db34efe352fc6a8b7feeb4933a64d7bacbc3d9c3bc3af942c1540bea0f",
+        "size": 571
+      },
+      "asset.meta": {
+        "sha256": "1289bc52baeb2481be299e0415526d307de88b6bedb2213865720380cb752694",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.Editor.cs\n00"
+    },
+    {
+      "guid": "f2c722b1d3654eaca9326f80983c511f",
+      "asset": {
+        "sha256": "8d0ff62dcb642df4e9792b0af79f24551456da414f7d7886aae0c03b7fc90de5",
+        "size": 1209
+      },
+      "asset.meta": {
+        "sha256": "b3f7ef7facf6f0a506956d917ac31528e930a0d603291b644fe13af12aee7009",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.Raw.cs\n00"
+    },
+    {
+      "guid": "810949a528762374e94ad0834411b4af",
+      "asset": {
+        "sha256": "50ae2bd4bb6ea0b63253a94520083ac3e0f3a7000fb8d9048c72c637a3359746",
+        "size": 12132
+      },
+      "asset.meta": {
+        "sha256": "46c644da68de7a48da0d3b02c08c6488934ca935f3dd282410767f71854d165f",
+        "size": 299
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.cs\n00"
+    },
+    {
+      "guid": "53c58f29a336490ebb583a482b606a98",
+      "asset.meta": {
+        "sha256": "2e8a041b7c57791d46e8870375acda2dd763f7dd9b42fe419c1941e32ac3876e",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage\n00"
+    },
+    {
+      "guid": "5c14e3b6c1f7467b839ce0462687948b",
+      "asset.meta": {
+        "sha256": "77a9a5826c97c69db194e8b68bc68aca2b3655b40c03f65f3b04c5121a4afee8",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data\n00"
+    },
+    {
+      "guid": "97a37e2b444044c0af8884070c16fbe4",
+      "asset.meta": {
+        "sha256": "704db850ed030d0a0eadbd9e09a40190d5508bc5e47e6105f7ee895800ad75d9",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/Enums\n00"
+    },
+    {
+      "guid": "d8300df491e14951a99a01d75a2fd1a7",
+      "asset": {
+        "sha256": "6052e5189a6b6b8d272c43f6c9a00d3a7df2e7112fd57e7e5add74b03e07a427",
+        "size": 5122
+      },
+      "asset.meta": {
+        "sha256": "a942dbcd37a06ef072fa43cd2c01d25011822de981df6bd85e2308396ba22d85",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/Enums/StorageDataType.cs\n00"
+    },
+    {
+      "guid": "fa830384d38440d692d9bae231e91611",
+      "asset": {
+        "sha256": "e64d3fc0740b2e2711016e842be9ad9be0068b7b232c17973d91e1f3ec8a1f62",
+        "size": 509
+      },
+      "asset.meta": {
+        "sha256": "fc17774de8d42dda81e960c55be53dd3feb45182ce09adb06cc47d6e33d8d7f8",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/ObscuredPrefsData.cs\n00"
+    },
+    {
+      "guid": "3a140fcdfc8c4dc0a88df806ce98058b",
+      "asset": {
+        "sha256": "6296eb7e37fb4f5f0a4ba6001393b96cb2c98fc5b3eddf8908b04d3d7ddfa1a0",
+        "size": 9311
+      },
+      "asset.meta": {
+        "sha256": "ac599b4e6bb9f3e636da649b420c6cd3e316c6a3de8746648d4c1d9631362fb1",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/StorageDataConverter.cs\n00"
+    },
+    {
+      "guid": "e9921377b0f747debccebc031f0c55d3",
+      "asset": {
+        "sha256": "c364a54e7d34b26ac99626de287ae883fc43d95fd8b8218e0b4ee6def67f4464",
+        "size": 4480
+      },
+      "asset.meta": {
+        "sha256": "b0a41afc0305f2fbb7a5ffee10e5c868ef36dc9f226b75ff1b1182b2ff101a46",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/StorageDataTypeClassifier.cs\n00"
+    },
+    {
+      "guid": "bb9d8ea9d58e42a083882e4981608519",
+      "asset": {
+        "sha256": "680b998638570a8b169194614d7b30c0ed6217dca634ed3f09e16a88f34f5eba",
+        "size": 439
+      },
+      "asset.meta": {
+        "sha256": "7219c17558a9e598b862756c1c8431a8e63a7080b963e429f6419221b328174e",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/UnsupportedDataTypeException.cs\n00"
+    },
+    {
+      "guid": "342c3ac4daf94102a9818315aabce193",
+      "asset.meta": {
+        "sha256": "cc6c58401b878048ebf6596daaf240ac54ef1a79e3473420d97bab2eef0e95d3",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock\n00"
+    },
+    {
+      "guid": "71bc8753816c4dd487c486884a613af3",
+      "asset": {
+        "sha256": "7f0b63e4e60bc1dee4ca80d37fbd02f5093fa7e131fce061920f0c0e310018cf",
+        "size": 3733
+      },
+      "asset.meta": {
+        "sha256": "18149ac17918b2c61d647a7a7647770ed589ce9920929fc0e2d3c26500402d50",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceIdHolder.cs\n00"
+    },
+    {
+      "guid": "173fabcb544d436ca35870420eb58008",
+      "asset": {
+        "sha256": "6bd5a3608811be755aa24d80dbcf41d091fd51dca483bb2b3d643ca543b9a42e",
+        "size": 2926
+      },
+      "asset.meta": {
+        "sha256": "83e3d85c1aba977ef0566458968a0476a18bf4fc64313c4266625415a646311e",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceLockLevel.cs\n00"
+    },
+    {
+      "guid": "3e7cc245e34a4e31864afbefb70d9c98",
+      "asset": {
+        "sha256": "6aabd78f1756bf05e5ec8783bddb299de72be97e6be9f781d6b3c4b9e3241e7f",
+        "size": 1137
+      },
+      "asset.meta": {
+        "sha256": "f5d00aa1799ca34aa358b09088ee8025a03385560c5a3703c8e32ba7c836faee",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceLockSettings.cs\n00"
+    },
+    {
+      "guid": "a3df350ee20f4958babae3d07e3661a1",
+      "asset": {
+        "sha256": "b8a9ae2c5b7eb32f319bdd33ac8633160f927d592abba95f008aa20d40d85ede",
+        "size": 1106
+      },
+      "asset.meta": {
+        "sha256": "288ac9f52e68a6e5909d04f17d4314e11ac0d7bf94f79c0107583c0938fd1e5b",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceLockTamperingSensitivity.cs\n00"
+    },
+    {
+      "guid": "aeeaf650d39d4346a2bdef4f13139d22",
+      "asset.meta": {
+        "sha256": "2a4fcae3d198f27a97bb92b71a29102b81a6b76030923b557403038f1759b57e",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions\n00"
+    },
+    {
+      "guid": "4ddd915e96d44240b4dcb9c159cbef7d",
+      "asset": {
+        "sha256": "5a784a542c1b36c88e2cbcfdf36fc6a13e0b0fc6ee4f1943af96d9515a4fa05f",
+        "size": 539
+      },
+      "asset.meta": {
+        "sha256": "21332f898aa8e992a58c3a232c99bf7f9e64b5729f7d22dcb446462b588acd99",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions/DeviceUniqueIdentifierException.cs\n00"
+    },
+    {
+      "guid": "fdf0055c31634e909d8fa139c4ed3466",
+      "asset": {
+        "sha256": "2cfff5f01653956a3711a629c9172402c6c194cdc29fdd9e967ede2ccdc26486",
+        "size": 528
+      },
+      "asset.meta": {
+        "sha256": "7d2392d2807e2c256f8a15b7f220fe1b8946676f2113c4cd4d66cd11eb2fa9f0",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions/PersistentDataPathException.cs\n00"
+    },
+    {
+      "guid": "aebcb2d846cd4234a5dbf58722d0a5f9",
+      "asset": {
+        "sha256": "59f0ebdb89bd81eaccad926e2a9e875d5133061f4dc83a23674eeca35ea6849e",
+        "size": 644
+      },
+      "asset.meta": {
+        "sha256": "a2df97afb476f5c6f29de4e45912990eb9dec21eaf75f1e27893e8cae57ccce7",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions/VendorIdentifierException.cs\n00"
+    },
+    {
+      "guid": "e4f21e7e364d6e44f9843807ff7a5af8",
+      "asset.meta": {
+        "sha256": "87dbfd2d1f89678235c596ed5166f1a8716ea1b8cc275c15af41998a3af8c268",
+        "size": 180
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File\n00"
+    },
+    {
+      "guid": "87bcb44861ea5794c91502625ccf2b42",
+      "asset": {
+        "sha256": "79ee90fd89f87c0e1324518576c51e5f0a6953f1a7c98b3391bdea91b57260c0",
+        "size": 16104
+      },
+      "asset.meta": {
+        "sha256": "f61d4977f69513cd8c1202c6e54cfbb260e664faee95b76b085ba1500650ba68",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFile.cs\n00"
+    },
+    {
+      "guid": "7d63eeaec0204d5d9a24e84d682dada6",
+      "asset": {
+        "sha256": "a6541a9e268a8c7576422ab68b2eaf9ac400f7b06e504cf5501fb3e01e064dee",
+        "size": 2892
+      },
+      "asset.meta": {
+        "sha256": "f555636fa3aef0c4c0d3452b5997f21be85245f8fa4a13ed3270d518da31669c",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFileCrypto.cs\n00"
+    },
+    {
+      "guid": "1e66aeea00dc48e5b6484999ec7a5668",
+      "asset": {
+        "sha256": "fbb81f919326c497d771f7fc14d58167265d29628aba9e5deeac1a8272c8328e",
+        "size": 1618
+      },
+      "asset.meta": {
+        "sha256": "12836309147971be76fdc24255379accd8f9bcd0e643b0719e6001f08b232fbe",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFileHeader.cs\n00"
+    },
+    {
+      "guid": "439854bd00ab46028d4c3cd5bf68eeee",
+      "asset.meta": {
+        "sha256": "16ffaab317ac3c0c6967b19b1c0446b2ca9d94e280c84162d28eb9be196192fd",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults\n00"
+    },
+    {
+      "guid": "d10bb1e4419440449fe5083c4c8d20a4",
+      "asset": {
+        "sha256": "68aecf9271f645211646fa668d9b34ad9c4485456a1e60ec1bbe29e09ec14b52",
+        "size": 2286
+      },
+      "asset.meta": {
+        "sha256": "1a36b64394337af3c494436b3b460d72c3f5ce77ccb39cadb28a3db0c7a10e57",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults/ObscuredFileError.cs\n00"
+    },
+    {
+      "guid": "6d66c88b42404e0cae8c737bbfcb800b",
+      "asset": {
+        "sha256": "f6dd96bf2e45b3717ae35e8c6ca9aeeef7033dce51d6800880660d7899092f6a",
+        "size": 3512
+      },
+      "asset.meta": {
+        "sha256": "32421c68c64a5401e8015a5ef654d81f300790ed4a39098bbb620a2572c3de51",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults/ObscuredFileReadResult.cs\n00"
+    },
+    {
+      "guid": "6055bbb3199e4e79b38a8ea2d09aac31",
+      "asset": {
+        "sha256": "dd5b6442bb5b3714633398975f26b0a3518934f7f6614207eeb70a41736b7d70",
+        "size": 1749
+      },
+      "asset.meta": {
+        "sha256": "55a6a81e5fee42c889695d632f4efcedb1c72f18f23ca052f25f5f033d88d8ff",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults/ObscuredFileWriteResult.cs\n00"
+    },
+    {
+      "guid": "68ab9f6eb5f54aabb21851293e9b04e8",
+      "asset.meta": {
+        "sha256": "bb6d78d78330ed06b8c0a9293dd142a00bfc58272010fc94835f400b80a2cf54",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs\n00"
+    },
+    {
+      "guid": "30c294f0c32d40aab86161ea4a6c6cdb",
+      "asset": {
+        "sha256": "018d68b10b8e8e93f33cb3ddfba0ba4c54c4bfb51e7181f401b0c954a77c989d",
+        "size": 5110
+      },
+      "asset.meta": {
+        "sha256": "c8fed435c6047ce2637a12f481c651b7e79c861d462bf00774460e2e74b6c844",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/ObscuredFilePrefs.ObscuredTypes.cs\n00"
+    },
+    {
+      "guid": "d9b841dfe843485e8f0d22bf45b0789b",
+      "asset": {
+        "sha256": "c9834f094ae2c73cb81992ff7bf152f8fe8794f5c27987fe6991bd91e17adfbe",
+        "size": 16890
+      },
+      "asset.meta": {
+        "sha256": "0acc46533e8a7c5410882ae641e4242932589041539f24fa9ffa78ca085fcb3b",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/ObscuredFilePrefs.cs\n00"
+    },
+    {
+      "guid": "42a77b99c66148f893666c084f9a9650",
+      "asset": {
+        "sha256": "b919843b92ff8c0ffaf39f6c4e6db129c32cfe4f7aa3bb47792f1072642529e0",
+        "size": 3065
+      },
+      "asset.meta": {
+        "sha256": "24357d3da2b3d342277d0ad9a7c3d290a6571c481fb256c351a3bdfc3b8defcc",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/ObscuredFilePrefsAutoSaver.cs\n00"
+    },
+    {
+      "guid": "95f1f2c08107411d8f2778b93c663b6e",
+      "asset.meta": {
+        "sha256": "5fca661e283fad631b3b0c98a86ff2f715e72bca17d10fbdb0fa35b1b0a51c8d",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization\n00"
+    },
+    {
+      "guid": "4443ceaad88f421ca769f62179f25860",
+      "asset": {
+        "sha256": "4448a57cbf16dd3fb280229199bd5141905ae7c4c36b9ed1b4703de990ced18e",
+        "size": 1516
+      },
+      "asset.meta": {
+        "sha256": "3b8d38b78f093391a47ff8fbf2f4b678bdcccd4d5496c9d7f9df3e03681bff48",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/PrefsSerialization.cs\n00"
+    },
+    {
+      "guid": "905728f794eb4c9a8871af1cd83479be",
+      "asset": {
+        "sha256": "e551898632d6bfa402f36bc43b6a8c8cf4e73fe531663fd1728caae6d3cf89cf",
+        "size": 582
+      },
+      "asset.meta": {
+        "sha256": "1087ca3c69cdf66d37284ff2def9dea40b4f3881f5730447fe9f513ce15192f2",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/SerializationSettings.cs\n00"
+    },
+    {
+      "guid": "3205bf6ebaa843d1b8be3afeb38f5ef8",
+      "asset.meta": {
+        "sha256": "1998f7642fcbeeb47d2bda1e4ea161aa6896ba7890c67396af5efc32eabd3b33",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers\n00"
+    },
+    {
+      "guid": "ced52881bfaf4d98a304173fa5ef0773",
+      "asset": {
+        "sha256": "24e76769c2de456b3fec2649fc17165620afc490df321280b5fc79f608b79b80",
+        "size": 2925
+      },
+      "asset.meta": {
+        "sha256": "0134b175731bc0372f698c5aca645c57bd3347877e22e290079756f2964adccb",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers/BinarySerializer.cs\n00"
+    },
+    {
+      "guid": "e3bff4cc002a4f849f3e7c6c6fc11d6d",
+      "asset": {
+        "sha256": "b0852b63631935f901942a0dcc20961a2ab36b50c6f9f198e634bdbd107c392d",
+        "size": 643
+      },
+      "asset.meta": {
+        "sha256": "c8d22f307c1339e874093bd1d0a4f87aa24653555da4d68e01155183a362d7f1",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers/IObscuredFilePrefsSerializer.cs\n00"
+    },
+    {
+      "guid": "74b302c3833b44648954b9e45c39c811",
+      "asset": {
+        "sha256": "703d8bb3473a8f21746b1aecfdda81aad57a7672d635c7f31060422fed10bd92",
+        "size": 1170
+      },
+      "asset.meta": {
+        "sha256": "25a117a8d47b54c5ebd17284ac5173b127157d0e371fc74f5a680e0189613258",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers/JsonSerializer.cs\n00"
+    },
+    {
+      "guid": "5d93c91b029c41dd981e53cf8697a8a2",
+      "asset.meta": {
+        "sha256": "9afe7c4e0c2b3132d573e62800dddb88f8253e9e2bc6a7386829b519fccdaa08",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings\n00"
+    },
+    {
+      "guid": "bd60e7d395014239ab4976b91f4850a9",
+      "asset": {
+        "sha256": "1ab42952f932e5e5038d458fba1728224985fe2189641b65e5a806b81c6ab24e",
+        "size": 2728
+      },
+      "asset.meta": {
+        "sha256": "eb828a255277ff79d455a882eb20c8b7c0ce3e595b9d127ab5f5e45152b8ee3e",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings/EncryptionSettings.cs\n00"
+    },
+    {
+      "guid": "bf7cf4e40873480487d04fb9499be4a0",
+      "asset": {
+        "sha256": "fa4e9066a8f8dceb70147150b06faa9e5fbaa05cb3a54ce65b6824824415fc97",
+        "size": 1568
+      },
+      "asset.meta": {
+        "sha256": "90e4630288fd5263e1f2756e904b0141864bf0c46b2e5c3c4864db49e5341e69",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings/IObscuredFileSettings.cs\n00"
+    },
+    {
+      "guid": "48100ed207eb4b43a61d3e58f737aeae",
+      "asset": {
+        "sha256": "97cc76729d69234f894a6d0a140c04c2140eb628c27ce299b23e4b51a4899d8e",
+        "size": 3108
+      },
+      "asset.meta": {
+        "sha256": "568ca1131d79be18b19e017218ecef188ed5b8c5c2266fbb67b79b74e0fbceda",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings/ObscuredFileSettings.cs\n00"
+    },
+    {
+      "guid": "5f1dc951fb744fc49b4b508bff79157f",
+      "asset.meta": {
+        "sha256": "a21674cbdca720e6a75b31fc7c3c8d9676a34bdae745c53c869838462b021b84",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs\n00"
+    },
+    {
+      "guid": "6560e603784748ca9e742adbe8119d1c",
+      "asset": {
+        "sha256": "d2335d2ac857a55aa116d030d102f19e04671a341c11f6ea90af265c368528ad",
+        "size": 9062
+      },
+      "asset.meta": {
+        "sha256": "54a20d92c5e5043ad89ea9a2fbe4bc0401cb557063ba40fdfecc8955cf9a981f",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.LegacyApi.cs\n00"
+    },
+    {
+      "guid": "140cedaa8714013488f22776e11e85cd",
+      "asset": {
+        "sha256": "213928a908533fd5cf5cafbd892934c4117a298bf4e3d654ae0c965c933a6f2f",
+        "size": 5109
+      },
+      "asset.meta": {
+        "sha256": "bf1f36cfa685e7e8a4d6cae85d86eb3fd403600bbedb53ded17bc0d18759b479",
+        "size": 254
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.ObscuredTypes.cs\n00"
+    },
+    {
+      "guid": "c09fe09018b845fa977f45e1d4258802",
+      "asset": {
+        "sha256": "8d05a0724e9d1eacfeaf14deb1ec908fcd032bca7b73b673608a3351b1ffe10f",
+        "size": 14171
+      },
+      "asset.meta": {
+        "sha256": "05f10184dac394eb52b75139b96cf0601bbd1c78fd56fba0e18a636c786c9711",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.Routines.cs\n00"
+    },
+    {
+      "guid": "6bf8f5de6da8c8e49a2a9db7717a3624",
+      "asset": {
+        "sha256": "b8026679019d1ec4cb92306426dc651eb57f14c0e48d9b5196b5f999304f31ff",
+        "size": 12963
+      },
+      "asset.meta": {
+        "sha256": "a3dd44b3858aefa5f6033bed282e791c5ab3af361fecc3c4c0da0803869e9fef",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.cs\n00"
+    },
+    {
+      "guid": "6de18cf7b50ad184991cf3d8042a9a5c",
+      "asset.meta": {
+        "sha256": "e4eccef8dd9513967acdf0533701c1e3727e48ddd816a69c4a50707fc150c194",
+        "size": 225
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Time\n00"
+    },
+    {
+      "guid": "412e16d0fa167194389bfb6445d52a7d",
+      "asset": {
+        "sha256": "76b6f97a9cd34c1720e3e0b7b2a98e220e5e6bb48e802f1917be1b169db368ab",
+        "size": 7451
+      },
+      "asset.meta": {
+        "sha256": "7671b2dc0b83dbff267d657d626d01d95599a649c2811e26fc3d8dc738fbe934",
+        "size": 299
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Time/SpeedHackProofTime.cs\n00"
+    },
+    {
+      "guid": "b0fc418f659fbf140875f58cbcdf714f",
+      "asset.meta": {
+        "sha256": "bf179d28726c26e7c727e95e1f5d28021e746e92d7fc57aed9fae121cf969fed",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils\n00"
+    },
+    {
+      "guid": "f39437ad332c402daf0ac30deaf348e3",
+      "asset.meta": {
+        "sha256": "c3f33ccc9f162c1e774bf0a90120420567f74d9d4590b79a7fa510c2f1edbb94",
+        "size": 83
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Android\n00"
+    },
+    {
+      "guid": "a1c0ad8ceca64396819c4c567ee0c78f",
+      "asset": {
+        "sha256": "db89970e615278ed04b94f106b0f28c04869afac1f45b0684263449f0bd68b72",
+        "size": 3294
+      },
+      "asset.meta": {
+        "sha256": "e3af2b536d5fa60e987aac6571eafdbcaae0da1f25d6510bb546b01ef995fc60",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Android/AndroidRoutines.cs\n00"
+    },
+    {
+      "guid": "dc8dca0740f24bae975c5c48c5d469bc",
+      "asset": {
+        "sha256": "e9d507722cb8009058b0caef8290bb7586d114ce6017afb0b5b3ae2549ee7691",
+        "size": 1285
+      },
+      "asset.meta": {
+        "sha256": "6a6c6e4eff748eb5f1cba346f6a20f6d9b735e570f227f338cc1dcc4e4ab9fa3",
+        "size": 83
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Android/AndroidScreenRecordingBlocker.cs\n00"
+    },
+    {
+      "guid": "80ad1116523d402784d923a4c7b71cdd",
+      "asset": {
+        "sha256": "c87487684e3d107be290ab7b84d6ac6b7865d679cff262a3a0df8584bd17edbe",
+        "size": 1266
+      },
+      "asset.meta": {
+        "sha256": "fa90f3a9f225c9cac60e03a2180c70c7798acebe01ec9458023f47ef37b12620",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/AppEventsDispatcher.cs\n00"
+    },
+    {
+      "guid": "3a63abd32feb4085af3cd6e18e162b0c",
+      "asset": {
+        "sha256": "8ef401d481898d45cb6495b7425fe92ddff8adabf15afbf792fe6b1cdc68bc52",
+        "size": 1025
+      },
+      "asset.meta": {
+        "sha256": "bde00657c6142ff99ecb369583a88d5cd419431c2e690c60fcdb892edfba3ba3",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Base64Utils.cs\n00"
+    },
+    {
+      "guid": "f8b626810c114798800a9bb7c101e0a0",
+      "asset": {
+        "sha256": "473a1bc78ad9e9a6744e8f49548d8d129ab0a97a9e70d7e61978fd9b58967305",
+        "size": 2927
+      },
+      "asset.meta": {
+        "sha256": "5ce57e7ef24f6189f116a8485b958f6580dbf99f70e676639aa031036d5f82c2",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/CryptoUtils.cs\n00"
+    },
+    {
+      "guid": "e30989f05f4c4f648ac37eb1393e20e7",
+      "asset": {
+        "sha256": "ba7c90dbc71f56d853bab93d0fb05a8ffc67b076109e8126735051848415104e",
+        "size": 581
+      },
+      "asset.meta": {
+        "sha256": "a2b24eeec3f2b6d07a818248340eced96b4edf82af672eb468005995c29221ac",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/NonValidatingCertificateHandler.cs\n00"
+    },
+    {
+      "guid": "7e877a2da4bf4ace8b8d92b9e3a3daf3",
+      "asset": {
+        "sha256": "bbc9cf7eb1e574cb58f2ddd941e43acfa7e82f979ba4f8d88839ee539eed58fc",
+        "size": 502
+      },
+      "asset.meta": {
+        "sha256": "9b47935aade2456b192e77f4a366c96216728af48c4031ecd9f179a13a31ac22",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/NumUtils.cs\n00"
+    },
+    {
+      "guid": "8acb09078aef4ba98ac831c94944e1a2",
+      "asset": {
+        "sha256": "eb53248899f735d13b96c5bc3c381149c7cb54c9142012555699d7a27bc3d7c4",
+        "size": 840
+      },
+      "asset.meta": {
+        "sha256": "f34f8499db4d90224045e259370d0a1ca6ed07c1a542e44993b7ed8208aa80bc",
+        "size": 85
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/ProgressExtensionMethods.cs\n00"
+    },
+    {
+      "guid": "961e7678dbb74bf1aac1f220ce9f4ad3",
+      "asset": {
+        "sha256": "42c4367271129422edfde971a7ece7a0a268ebc9a29c60a2887700845e4b9b1e",
+        "size": 1829
+      },
+      "asset.meta": {
+        "sha256": "77ff6bc43b83b8a50cb3272e84c308e2ff960f238de8009d5a5e9d5a41ac5907",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/RandomUtils.cs\n00"
+    },
+    {
+      "guid": "94dadaebdbbc4a90997d87b8b9ce7c41",
+      "asset": {
+        "sha256": "36fb89f0b45e1b17c339f76f9ce285e065fbb223071b0d098ce7fe2215fbb57d",
+        "size": 1592
+      },
+      "asset.meta": {
+        "sha256": "644bc13211a55943ec1bfa58627326ffedad3bce4b73b1e14a58dbd0cb9bb327",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/StringUtils.cs\n00"
+    },
+    {
+      "guid": "36a7cddae1a24aacb514e029fed03fa5",
+      "asset": {
+        "sha256": "170b0bf0b0d191c6e6a074032181f3960ed0feb12e130529d1a2c1fb73d878b4",
+        "size": 971
+      },
+      "asset.meta": {
+        "sha256": "36b453b829aa8d6622c14037b06cba88fb5be594d45d069329ec77d26be97186",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/ThreadSafeDisposablesPool.cs\n00"
+    },
+    {
+      "guid": "8e4d27a9c75b48ca82b4eee37273f1b2",
+      "asset": {
+        "sha256": "bc962fdb7af6353c7ddfaef166d17621c7972d98792ec0e66b49af2daa2c9a31",
+        "size": 3547
+      },
+      "asset.meta": {
+        "sha256": "af3ba6bcb132d950a0cadff0437db8db03600cf430685009ad5547b9530a6b70",
+        "size": 88
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/ThreadSafeRandom.cs\n00"
+    },
+    {
+      "guid": "c07c3153d9ad3cd48b72fc51968c3760",
+      "asset": {
+        "sha256": "a431c6a359abb7c733d39141189854e0ec76c1f793586ed265a25d7d47f2ff92",
+        "size": 2012
+      },
+      "asset.meta": {
+        "sha256": "63b5c7f00f75dd133c4971722592528ebc08e1b9ba67ca9392d681d1a7900ea7",
+        "size": 299
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/TimeUtils.cs\n00"
+    },
+    {
+      "guid": "ca55307c6e2ac774987295514b80aa65",
+      "asset": {
+        "sha256": "08eae5ff1de80a361c02364d5ad5258c01628d9349977cb9b9bfbf14d303d254",
+        "size": 6190
+      },
+      "asset.meta": {
+        "sha256": "8d4eed6075433c359c4f858cf68993237c1bea53f19446562191af1fa096b561",
+        "size": 231
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/xxHash.cs\n00"
+    },
+    {
+      "guid": "01bd3305f71f4544aa9db9079f88e4ce",
+      "asset.meta": {
+        "sha256": "85a491b84d967a987039c41877fc0f66c547456825bb0c19c7f1a4309fe967ad",
+        "size": 157
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Shaders\n00"
+    },
+    {
+      "guid": "daa473204a35ad242922f896f206d931",
+      "asset": {
+        "sha256": "807ee6088c5c1a94531737538dfb77ece27aa0cb90740e2860d1730317a25633",
+        "size": 896
+      },
+      "asset.meta": {
+        "sha256": "9d6432d96499489a03938b09dad75578025db38b0838f9b9db61ba62bb63645b",
+        "size": 161
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Shaders/WallHackTexture.shader\n00"
+    },
+    {
+      "guid": "bea83117fdebb0a468c22e747faaf69f",
+      "asset": {
+        "sha256": "2f7ce133caa1b9b9fabfce0e37f47ed975eec6aa24ba8727808e92c37eb47874",
+        "size": 175
+      },
+      "asset.meta": {
+        "sha256": "dc1e2d90b26a37eb565e5f7722bf51701b7e28f0abaaff77e92e31ea8b563703",
+        "size": 165
+      },
+      "path": "Assets/Plugins/CodeStage/AntiCheatToolkit/Third-Party Notices.txt\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "807be6c39e55171636ac8631e5fbf27e766aeb0c782d5b8c39583df6fd86f381",
+      "size": 6455
+    }
+  ],
+  "control_character_paths": [
+    "Assets/Plugins/CodeStage/AntiCheatToolkit\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/API.txt\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/CHANGELOG.md\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/ACTk.Editor.asmdef\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ACTkEditorConstants.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ACTkMarker.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ACTkMenuItems.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/AssemblyInfo.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSColorTools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSEditorIcons.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSFileTools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Common/Tools/CSTextureLoader.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/InjectionDetectorEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/KeepAliveBehaviourEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/ObscuredCheatingDetectorEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/SpeedHackDetectorEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/TimeCheatingDetectorEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Editors/WallHackDetectorEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/CodeHashGeneratorPostprocessor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/Platforms\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/Platforms/AndroidBuildHashGenerator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Genuine/CodeHash/PostProcess/Platforms/WindowsBuildHashGenerator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/AllowedAssembly.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/InjectionConstants.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/InjectionRoutines.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/InjectionWhitelistBuilder.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/PostProcess\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/PostProcess/BuildPostProcessor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Injection/UserWhitelistEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/MigrateUtils.Routines.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/MigrateUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredBigIntegerDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredBoolDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredDateTimeDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredDecimalDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredDoubleDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredFloatDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredIntDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredLongDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredQuaternionDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredShortDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredStringDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredUIntDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredULongDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector2Drawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector2IntDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector3Drawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/PropertyDrawers/ObscuredVector3IntDrawer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/Validator\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/ObscuredTypes/Validator/ObscuredTypesValidator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/ACTkPrefsEditor.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/ACTkPrefsEditor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/Plist.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PrefsEditor/PrefsRecord.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Processors\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Processors/BuildPreProcessor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Processors/WallHackDetectorLinkerProcessor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/ACTkEditorPrefsSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/ACTkSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/ACTkUserSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsGUI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsProviderWrapper.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SettingsValidator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Settings/SymbolsData.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/AsyncHelpers.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/DetectorTools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/EditorTools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/GUITools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/ReflectionTools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/SerializedPropertyExtensions.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Tools/TextureTools.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/SharpZip\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/SharpZip/ACTkSharpZipLib.dll\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/SharpZip/LICENSE.txt\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/API.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Discord.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Forum.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Home.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Manual.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/Support.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_API.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Discord.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Forum.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Home.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Manual.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Icons/d_Support.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/Logo.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Textures/d_Logo.png\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/API Examples.unity\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Materials\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Materials/VertexLitExample.mat\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Materials/VertexLitExampleGreen.mat\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Prefabs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Prefabs/ACTk Detectors Flat.prefab\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Prefabs/ACTk Detectors.prefab\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/ACTk.Examples.Runtime.asmdef\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/ExamplesGUI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/InfiniteRotator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/InfiniteRotatorReliable.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/ObscuredPerformanceTests.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/AndroidExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/AndroidExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/DetectorsExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/DetectorsExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/GenuineChecksExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/GenuineChecksExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredFilePrefsExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredFilePrefsExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredPrefsExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredPrefsExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredTypesExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/ObscuredTypesExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/WebExamples.UI.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/API Examples/Scripts/Runtime/UsageExamples/WebExamples.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/GenuineValidator.unity\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Editor\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Editor/ACTk.Examples.Genuine.Editor.asmdef\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Editor/CodeHashGeneratorListener.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Runtime\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Runtime/ACTk.Examples.Genuine.Runtime.asmdef\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Examples/Code Genuine Validation/Scripts/Runtime/GenuineValidatorExample.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/BehaviorDesigner.unitypackage\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/PlayMaker.unitypackage\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Integration/readme.txt\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Readme.pdf\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/ACTk.Runtime.asmdef\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/Android\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/Android/AndroidNative.aar\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/WebGL\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Plugins/WebGL/WebGLNative.jslib\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/AssemblyInfo.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTk.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTkByte16.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTkByte4.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ACTkByte8.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/BackgroundThreadAccessException.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/ContainerHolder.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/KeepAliveBehaviour.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Common/UnityApiResultsHolder.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/InjectionDetector.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/ObscuredCheatingDetector.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/SpeedHackDetector.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/TimeCheatingDetector.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Detectors/WallHackDetector.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android/AndroidAppSource.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android/AppInstallationSource.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/Android/AppInstallationSourceValidator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/BuildHashes.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/CodeHashGenerator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/FileHash.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/FilesProgress.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FileFilter.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FilterGroup.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FilteringData.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FilteringSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Filtering/FiltersProducer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/HashGeneratorResult.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/ICodeHashGenerator.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/SHA1Wrapper.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers/AndroidWorker.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers/BaseWorker.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Genuine/CodeHash/Workers/StandaloneWindowsWorker.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Converters\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Converters/Newtonsoft\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Converters/Newtonsoft/ObscuredTypesNewtonsoftConverter.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Interfaces\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/Interfaces/IObscuredType.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.Raw.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBigInteger.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBool.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBool.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredBool.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredByte.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredByte.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredChar.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredChar.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDateTime.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDateTime.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDecimal.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDecimal.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDecimal.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDouble.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDouble.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredDouble.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredFloat.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredFloat.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredFloat.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredInt.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredInt.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredInt.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredLong.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredLong.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredLong.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.Raw.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredQuaternion.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredSByte.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredSByte.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredShort.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredShort.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredShort.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredString.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredString.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredString.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUInt.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUInt.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUInt.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredULong.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredULong.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredULong.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUShort.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredUShort.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.Raw.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.Raw.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector2Int.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.Raw.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.API.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.Editor.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.Raw.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/ObscuredTypes/ObscuredVector3Int.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/Enums\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/Enums/StorageDataType.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/ObscuredPrefsData.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/StorageDataConverter.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/StorageDataTypeClassifier.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Data/UnsupportedDataTypeException.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceIdHolder.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceLockLevel.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceLockSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/DeviceLock/DeviceLockTamperingSensitivity.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions/DeviceUniqueIdentifierException.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions/PersistentDataPathException.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Exceptions/VendorIdentifierException.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFile.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFileCrypto.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFileHeader.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults/ObscuredFileError.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults/ObscuredFileReadResult.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/OperationResults/ObscuredFileWriteResult.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/ObscuredFilePrefs.ObscuredTypes.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/ObscuredFilePrefs.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/ObscuredFilePrefsAutoSaver.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/PrefsSerialization.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/SerializationSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers/BinarySerializer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers/IObscuredFilePrefsSerializer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Prefs/Serialization/Serializers/JsonSerializer.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings/EncryptionSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings/IObscuredFileSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/File/Settings/ObscuredFileSettings.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.LegacyApi.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.ObscuredTypes.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.Routines.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Storage/Prefs/ObscuredPrefs.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Time\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Time/SpeedHackProofTime.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Android\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Android/AndroidRoutines.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Android/AndroidScreenRecordingBlocker.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/AppEventsDispatcher.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/Base64Utils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/CryptoUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/NonValidatingCertificateHandler.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/NumUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/ProgressExtensionMethods.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/RandomUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/StringUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/ThreadSafeDisposablesPool.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/ThreadSafeRandom.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/TimeUtils.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Scripts/Utils/xxHash.cs\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Shaders\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Runtime/Shaders/WallHackTexture.shader\n00",
+    "Assets/Plugins/CodeStage/AntiCheatToolkit/Third-Party Notices.txt\n00"
+  ]
+}

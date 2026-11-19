@@ -1,0 +1,9 @@
+{
+  "name": "ServiceBase.UpmExecutor",
+  "rootNamespace": "ServiceBase.Upm",
+  "references": [],
+  "overrideReferences": true,
+  "precompiledReferences": [],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

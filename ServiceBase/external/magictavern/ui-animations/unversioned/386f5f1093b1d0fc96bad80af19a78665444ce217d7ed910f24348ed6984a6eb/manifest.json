@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "plugin_id": "ui-animations",
+  "build_id": "386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb",
+  "artifact": "artifact.unitypackage",
+  "sha256": "386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb",
+  "size": 11041,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "53afe119e4d8d4b638f6cade01d1bc81",
+      "asset.meta": {
+        "sha256": "ba2eeb87e1336e528c0e5a11dee683341a04961bac9d8fa70f95d52f16ded662",
+        "size": 172
+      },
+      "path": "Assets/Animations"
+    },
+    {
+      "guid": "d682be8abc87d4b10bd6c9b8933716e0",
+      "asset.meta": {
+        "sha256": "20aa1fd9973ecf4b82e5b13b2a4842e86a0d38fce9c7701238023b278e02ed9f",
+        "size": 172
+      },
+      "path": "Assets/Animations/Button"
+    },
+    {
+      "guid": "011ab0be5dd654aa79c9b215b987f8c4",
+      "asset.meta": {
+        "sha256": "ec8a927de7d10b045118d1662fb085fcd6bbd44e0156e8b50d950d5c8397a08c",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "573206cf8177d433efdb4d117e0bb5a139d5425dc768931508918e97f7aa2c0a",
+        "size": 7926
+      },
+      "path": "Assets/Animations/Button/MTButtonScaleAnimation.prefab"
+    },
+    {
+      "guid": "a186b7c21626e4baf979f8321300a713",
+      "asset.meta": {
+        "sha256": "83154c3b5f82e4af22b1dfcd74d317daa33b513146804ef5beca4be5343e08cb",
+        "size": 172
+      },
+      "path": "Assets/Animations/Common"
+    },
+    {
+      "guid": "7ad765a0096d74059a1089c05efba520",
+      "asset.meta": {
+        "sha256": "918313a27d36f998072550a936bd78725ab3a5f912dd02eb5af7d7074d54fce1",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "bd80bdb6d312c0fce3feaaa8f6943c3f28c04add1b7727091188229f866339c3",
+        "size": 8127
+      },
+      "path": "Assets/Animations/Common/DOTweenAnimation.prefab"
+    },
+    {
+      "guid": "fa30e8461c11483ab49121254a1dc726",
+      "asset.meta": {
+        "sha256": "c6b1ddde94b066e48333618d029626a4b016d88eb9652676c4e697594353c5d6",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "b5277a8990695cceff17ff5a7d0b71f3e0c04334ab6ec27f9f59ffc84a4e557c",
+        "size": 6713
+      },
+      "path": "Assets/Animations/MTFullScreenMask.cs"
+    },
+    {
+      "guid": "e60186d316d8e464bb3b10972cd688b0",
+      "asset.meta": {
+        "sha256": "e7416286ede0ba28663543d43796ae7952a9045f774290ed200f58bf0bbcab69",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "78afa45407ed4b13b78fff41948750db8823b4a68f38f078f9eb932419feefc1",
+        "size": 9316
+      },
+      "path": "Assets/Animations/Mask.prefab"
+    },
+    {
+      "guid": "2c7b696e1881f45c1af8d1ba2397f7ab",
+      "asset.meta": {
+        "sha256": "715a743ccbc31857cd8285f75315cd45372a94d3942ced37d4a97b4461f8f4f6",
+        "size": 172
+      },
+      "path": "Assets/Animations/Panel"
+    },
+    {
+      "guid": "2479c07d4820c40ed9fb64818c6f9a66",
+      "asset.meta": {
+        "sha256": "9618e691a7cbef3080d14fac501a6bb9878ae0ec63b2fd353810bf80ef9a05b0",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "0b1f303d717806aca165179b12fbb3a9229bf61058712a3c637b011c4d03c8ee",
+        "size": 3135
+      },
+      "path": "Assets/Animations/Panel/PanelFadeInAnimation.prefab"
+    },
+    {
+      "guid": "11b0681cc9e5a439080d3ca41b568e39",
+      "asset.meta": {
+        "sha256": "cc1e71d3ff960c6ab8b7153695cc1b44df333114dd4cd3ac76a171197cd50f7b",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "858f90f96ce75773e7f70a7f04dfb1b884ed4f85f35be5b6f8924853891c16d3",
+        "size": 3180
+      },
+      "path": "Assets/Animations/Panel/PanelFadeOutAnimation.prefab"
+    },
+    {
+      "guid": "319f8cf1db45148b69b70c37e515338a",
+      "asset.meta": {
+        "sha256": "864c10c2e690abf7705d746088e1b6a667b1fa66a682e9248ed9d6946e2ed9f3",
+        "size": 172
+      },
+      "path": "Assets/Animations/Script"
+    },
+    {
+      "guid": "9439481532fb45a0bab77317e2b429c9",
+      "asset.meta": {
+        "sha256": "deee2236abe2f7291689712e776f1be41b19200c585ff1e80bdf35005e277a15",
+        "size": 83
+      },
+      "path": "Assets/Animations/Script/Editor"
+    },
+    {
+      "guid": "e418a3afd8ca4fd7a0a942094f3b5d17",
+      "asset.meta": {
+        "sha256": "2c3eece5040f61cdfc62e50c4534387956a5351be34b5b2b9e46ce4cd29c02ef",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "3b23d8638c33d31dcba30b57aeb13c52c5529111ce0f388232ff571f2b7b76e4",
+        "size": 1896
+      },
+      "path": "Assets/Animations/Script/Editor/MTDOTweenButtonAnimationEditor.cs"
+    },
+    {
+      "guid": "66cb712c95c0441d9650b789ef942950",
+      "asset.meta": {
+        "sha256": "9c47209d8bbf29a52336efe547328c3d9b47448a2fec48ca66a536a13cb50b63",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "846e6ffca4ab2d53cbb1417e5b70d864e7ce755d02febeaea12adcd3eb361bda",
+        "size": 1890
+      },
+      "path": "Assets/Animations/Script/Editor/MTDOTweenFadeInAnimationEditor.cs"
+    },
+    {
+      "guid": "eab220d4ead5460199d27ebcfca47270",
+      "asset.meta": {
+        "sha256": "ce5931f598275e10fed2d34dbacc8232253306c8e7db3800dfbbba6d506780e4",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "f812ff614ac1132060f736e94f9f461ac5e20b134bdee0d691e9e09233c82935",
+        "size": 1939
+      },
+      "path": "Assets/Animations/Script/Editor/MTDOTweenFadeOutAnimationEditor.cs"
+    },
+    {
+      "guid": "9b4a462a8a834f93aa40b46e3d5a249c",
+      "asset.meta": {
+        "sha256": "90e6e73559b2ea995c4dd6afa67e1ca253085474f27fcd8b93645b0e118d4bb2",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "8a03300a75a9b81182adcfe06497936f85dd90c7489cf7819972f5776b3a89f8",
+        "size": 1583
+      },
+      "path": "Assets/Animations/Script/Editor/MTDOTweenInAnimationExEditor.cs"
+    },
+    {
+      "guid": "7919539ca7b1e4d63b56d691111a15b1",
+      "asset.meta": {
+        "sha256": "18edd9b6323eb2c3f47d12b9849b497e8d880fe17493cd528ab580de1c2caeb8",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "dfce5bf6c3bbd8f4cf423bb2048dde3c1612c88bc47e6a4b3d6a0934e42e4fa5",
+        "size": 787
+      },
+      "path": "Assets/Animations/Script/MTButtonScaleAnimation.cs"
+    },
+    {
+      "guid": "90dc2de0cd434b429f6844c5782a700b",
+      "asset.meta": {
+        "sha256": "d1d43b4bc68add5ef7ceec7b65ff12abbfb1d269e01586f53769e36f0cf4e52b",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "fa977c667e7745ad9dc89eea34075c7423bfdb2b9bacf399a40f1e37c2d6de61",
+        "size": 2710
+      },
+      "path": "Assets/Animations/Script/MTDOTweenAnimationEx.cs"
+    },
+    {
+      "guid": "c51b5a8d80064913875ff00d00d97b3d",
+      "asset.meta": {
+        "sha256": "d8020c96333b259984aeece74a5cbb20097f37048e7f501a0cb35dea8312d4ca",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "348b29ba4b078ddc964a8cc9b93251c91c37d16d5909b95395f8789ed3b2bf91",
+        "size": 1345
+      },
+      "path": "Assets/Animations/Script/MTDOTweenButtonAnimation.cs"
+    },
+    {
+      "guid": "6e44724aa3af4ae1823a1c0b366693a4",
+      "asset.meta": {
+        "sha256": "f0ff9107477d8da1b05b568d9cb56369d794c00a964acfcaa668b32d58e9e8a7",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "cc686a12a54473e15739d668c9ff65150caaf4e4def15112df6bc48ba2686481",
+        "size": 1345
+      },
+      "path": "Assets/Animations/Script/MTDOTweenFadeInAnimation.cs"
+    },
+    {
+      "guid": "73294a53fbda409b888e2f2cf9da2de2",
+      "asset.meta": {
+        "sha256": "5bc79ecc3064c271ea1540842c8586b990930b0ecb2b6c18d0288183ba6aaead",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "c9ea42d7434a5c56c639e273b2e02d96a864b5d55b503bb0f4d5ab64ef5a67e2",
+        "size": 1349
+      },
+      "path": "Assets/Animations/Script/MTDOTweenFadeOutAnimation.cs"
+    },
+    {
+      "guid": "15c5d67bf2a14185bc12c242e3027478",
+      "asset.meta": {
+        "sha256": "32b0d27497f922f4e1fa5509abd5ae634263305c790fe4df49f635f3da2b4eec",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "f9dfe4133293f8dd014ca27a6f42b04343dfbd4f0877c345753843cac9047d4c",
+        "size": 954
+      },
+      "path": "Assets/Animations/Script/MTPanelFadeInAnimation.cs"
+    },
+    {
+      "guid": "60366f8a8fc14727929e12b9980a28fb",
+      "asset.meta": {
+        "sha256": "40bef20c3f4f366723455e117f8b8670ae771cf49db7ca9db6a7a0db4ec7284c",
+        "size": 83
+      },
+      "asset": {
+        "sha256": "fb9f59fcada8f68961f39f9211c9c5066779a93ff2bbb1e86fdf2cd79362af48",
+        "size": 902
+      },
+      "path": "Assets/Animations/Script/MTPanelFadeOutAnimation.cs"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

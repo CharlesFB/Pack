@@ -1,0 +1,7 @@
+{% load static %}<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>管理员设置 · ServiceBase</title><link rel="stylesheet" href="{% static 'dashboard/app.css' %}?v=lavender-1"><link rel="stylesheet" href="{% static 'dashboard/account.css' %}?v=lavender-1"></head><body>
+<header><a class="brand" href="/">ServiceBase</a><span>管理员设置</span><a href="/">返回工程列表</a></header>
+<main class="account-panel"><h1>GitLab 与黑名单</h1><p>设置用于服务共享的包目录。黑名单保存后即生效；更换 GitLab 凭据或分支后，请回到工程列表同步包信息。</p>
+{% if saved %}<p class="account-success" role="status">设置已保存。</p>{% endif %}
+<p>Token 状态：{% if token_configured %}已配置（不显示原文）{% else %}尚未配置{% endif %}</p>
+<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">保存设置</button></form>
+</main></body></html>

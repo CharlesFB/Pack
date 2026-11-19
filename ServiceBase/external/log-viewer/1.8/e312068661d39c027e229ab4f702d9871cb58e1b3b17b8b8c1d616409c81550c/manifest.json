@@ -1,0 +1,901 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-log-viewer-b26528cf",
+  "build_id": "e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+  "artifact": "artifact.unitypackage",
+  "sha256": "e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+  "size": 814992,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "7970120b28b7fc040bcf888bbe4e0062",
+      "asset": {
+        "sha256": "72894d429ffd2f10d83ee92597bab02d505ce22a6cb15a31a60be99cb656fe94",
+        "size": 1345
+      },
+      "asset.meta": {
+        "sha256": "f1eab4df7624fe52b8257e94ffbc46c6f8d8a82c488bef465d1aa1d667020726",
+        "size": 158
+      },
+      "path": "Assets/Unity-Logs-Viewer/README.md\n00"
+    },
+    {
+      "guid": "0264958cc64273c46a257dd5bc018605",
+      "asset.meta": {
+        "sha256": "c09b6873b9d246428df24160d84d59282e4f2695aa2269b377a42ca0f97880d0",
+        "size": 172
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter\n00"
+    },
+    {
+      "guid": "15d89de0102fd6743afd4d727f43d481",
+      "asset.meta": {
+        "sha256": "a5e9da40b2feb687e5c45752d28edab398d33664ec64065d21ff1b756135d2df",
+        "size": 112
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Editor\n00"
+    },
+    {
+      "guid": "639e2d9db58377f4997f7678b50e7e7a",
+      "asset": {
+        "sha256": "67e4830d32311832822b7be67b88aaeb74024aa94c27e85280d119d6c6936852",
+        "size": 6432
+      },
+      "asset.meta": {
+        "sha256": "3005fcb985c1ef265ababd387103960b8e4f2d412c0bb22035c6c472f62b86c1",
+        "size": 186
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Editor/ReporterEditor.cs\n00"
+    },
+    {
+      "guid": "7482c424dbd8a48489e4b2091f858a69",
+      "asset.meta": {
+        "sha256": "7e3493bcff7dd5f46c55c5d91fb43df98ed651406ab95c091d244788174aca94",
+        "size": 112
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images\n00"
+    },
+    {
+      "guid": "e9011b1dc9256ad4d9c19a31c595f95f",
+      "asset": {
+        "sha256": "a0903b75f157abaa6fa2f359fce829cdbfb0179684411d8d526c9f6977363e3d",
+        "size": 5924
+      },
+      "asset.meta": {
+        "sha256": "f974ba865c651f57f1a970a7e1f01a92815a5a7652ab5fe0f8e75643a8c1ff87",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png\n00"
+    },
+    {
+      "guid": "4a4821d80a1fc774fb76eac6213544e7",
+      "asset": {
+        "sha256": "7b1917e2c3eb6bb3d2b7b3d28a324cac523289cd9196f402e89cb2edd3b410cb",
+        "size": 26883
+      },
+      "asset.meta": {
+        "sha256": "08e247aeec419b3e6d07773073128dafd31d45cc893295edfc2e6c37e44edd70",
+        "size": 2263
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/Save.png\n00"
+    },
+    {
+      "guid": "ff4dfb29f203a174ab8e4c498afe908a",
+      "asset": {
+        "sha256": "6c3729ec71ddb681d06974f311b864d38d8d860b63233a179d5404b86a411718",
+        "size": 7213
+      },
+      "asset.meta": {
+        "sha256": "4510aff4b85ae40e4e1fb68155cb2dc5ea6572ef93820fdd8632d5a4973e63b4",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/UnityIcon.png\n00"
+    },
+    {
+      "guid": "a0632a18e7c665641b94fea66506ab50",
+      "asset": {
+        "sha256": "ada4d2b622fc57fa227a5cf678802d3a2de1172782252d0ae0cfbd6f2aef5092",
+        "size": 5831
+      },
+      "asset.meta": {
+        "sha256": "31a4e956ffda12f584db23bea4670eca92a7a306586bcd8098fe314ce0b127db",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/back.png\n00"
+    },
+    {
+      "guid": "8128d4f4c0193e34586f9631ef7d4787",
+      "asset": {
+        "sha256": "ddda9b9225063ba85626484b3179b50c28c164f46922959aad2f8fa670cbb6a1",
+        "size": 3098
+      },
+      "asset.meta": {
+        "sha256": "df39f9e3a2d66e6b575b1d909f9e2375e85ada5e2a9a69ba80cf1c6ca5c4a73c",
+        "size": 1023
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/bar.png\n00"
+    },
+    {
+      "guid": "8702be598dd9f504ca33be2afee2ca33",
+      "asset": {
+        "sha256": "8f399122aa42554c8ad335bb7bb7be35152a3347426ea3af3a4ef72256522148",
+        "size": 6777
+      },
+      "asset.meta": {
+        "sha256": "ec850881d83cbda2943b07bbebde2fb1cd8114d6994d3ee38975003951cc2510",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png\n00"
+    },
+    {
+      "guid": "2580a2e903691e44282e56ed6e0ff37a",
+      "asset": {
+        "sha256": "ec5a6174d0d46b2e01c8ef0c531508765f2c47121180b85b43798d92fbe750aa",
+        "size": 3056
+      },
+      "asset.meta": {
+        "sha256": "eb910be7274d5259f86a8128d1b540bd9f8a778b453fb0ea559aaca73ee93ec9",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/button_active.png\n00"
+    },
+    {
+      "guid": "903d664043815ca4a9cc1f548bdd4b21",
+      "asset": {
+        "sha256": "58baaf090901292c1496de708c1a9feeebaf612dca31e521c129478deb8b1e8b",
+        "size": 7209
+      },
+      "asset.meta": {
+        "sha256": "059c60a6ab9b5609ea13ef3a2d4d969d52b090b28dfaa627ec52fccf7c831428",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/chart.png\n00"
+    },
+    {
+      "guid": "112c6fcf56e349449ab2e6ad76b67816",
+      "asset": {
+        "sha256": "ab3fb3da410ab814f31b79d3025e0e325f96d4553da7ef601288d01c6098f77e",
+        "size": 8116
+      },
+      "asset.meta": {
+        "sha256": "da405ca483a23df0ae6d428f1d9c04c88fd56e2f2a07da8a06f2cd2085a656fc",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/clear.png\n00"
+    },
+    {
+      "guid": "3a6bc61a8319b1949ab9f1f2db1302b4",
+      "asset": {
+        "sha256": "194e1b76ba02af33efdd46468d5721035b6d160f2b96cbc62d63e188ed8b8ff1",
+        "size": 10569
+      },
+      "asset.meta": {
+        "sha256": "b7ae4b135debbb283395a133a20f02ac2a025c5bfb4f23f618e1979c2415c5ee",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png\n00"
+    },
+    {
+      "guid": "b65e9be99974bc94eab5d6698811d0b8",
+      "asset": {
+        "sha256": "5b8b5003b023484e919353cb9ee75f7f5191541cd815018ef5e4c754ff5b2d41",
+        "size": 5784
+      },
+      "asset.meta": {
+        "sha256": "267d6723d734bb046399f527726b9c321a72b72a36fc8a5e180990d1b3d81e25",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/close.png\n00"
+    },
+    {
+      "guid": "4623f326a884a2546ab39078bf7822c3",
+      "asset": {
+        "sha256": "0f8f69487c8b512e4bd92ef2aaedc904f367728816dec90cda8c6ef12d8abbfa",
+        "size": 3936
+      },
+      "asset.meta": {
+        "sha256": "3c15c130197a07452d8355ca95d1e5c5657404bf8837ce8f9dcc98467673705f",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png\n00"
+    },
+    {
+      "guid": "7f36d71624c630046b855909c497be17",
+      "asset": {
+        "sha256": "3bf18ccbb559312a4562ba1890c20301ae800e52b98715dfe3c4276c453ad0bd",
+        "size": 5250
+      },
+      "asset.meta": {
+        "sha256": "6f6fd6cbc46f304b3087a9809d487be3a73e67fb830a2844ceaa0c613d82bdf4",
+        "size": 2544
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/copy.png\n00"
+    },
+    {
+      "guid": "a7561cd0a9f62a84e99bff1abce2a222",
+      "asset": {
+        "sha256": "df9cdd317252109ae9ffcfdb93692e5548f2c4c50a8cc3a1e8607efef24c2a13",
+        "size": 7184
+      },
+      "asset.meta": {
+        "sha256": "fd618ab3bebdaf079a162527423d48ec245bd3b11f755edd13197105e9aeab96",
+        "size": 1028
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/date.png\n00"
+    },
+    {
+      "guid": "7640ebf8b3a92124d821d3b4b8b3fd7e",
+      "asset": {
+        "sha256": "d2f43b2308c47e0c45cc09e59608f78c1415f0f15f4bdef3fb755be667cb8132",
+        "size": 4298
+      },
+      "asset.meta": {
+        "sha256": "4c12406dc7d94595b1f3f9cfeba4a55a2b105de316fd45c5366d8e61c84ccee3",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png\n00"
+    },
+    {
+      "guid": "d27aad55b568c6544b0b95a95da44bc7",
+      "asset": {
+        "sha256": "073ce89e1bf3d4910955c43b18f4a1d013fb39803d7ebbfdcb2afeaed6117a29",
+        "size": 2843
+      },
+      "asset.meta": {
+        "sha256": "b93ece019935a6a70c9bec99760c006052dd4c976206fc07a2ec11e04a428228",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png\n00"
+    },
+    {
+      "guid": "90b2f48155dc0e74f8e428561ac79da5",
+      "asset": {
+        "sha256": "deb5a20594158a9ce49cf42390c264ad2dbbc07559134fd91d4e18356522cafe",
+        "size": 4112
+      },
+      "asset.meta": {
+        "sha256": "2283ff35b6b5d025315bf3011823fc1ca0d39bdf159d206c375d696d7e5f20a6",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/fps.png\n00"
+    },
+    {
+      "guid": "999d31716332cc04eb4abc9c9270b0ca",
+      "asset": {
+        "sha256": "11d8fd5cb85023870937b8d3354a03d8b7d2aafdc6692c521280b67d625570dc",
+        "size": 10861
+      },
+      "asset.meta": {
+        "sha256": "54919ea718884713a65a3a7d9503ed76c788b77fee2fcd67a4aecd6fa82d0c4d",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png\n00"
+    },
+    {
+      "guid": "2954bef266e6d794aba08ceacc887a0f",
+      "asset": {
+        "sha256": "03998ef1c53619532d0450399e45a6668bc5f80c9f40558d4c686bfd340b9faf",
+        "size": 9134
+      },
+      "asset.meta": {
+        "sha256": "284e740fc153b35e6ece34b47c830f1b45790cbccf1f4dfd1732006adaac077a",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/info.png\n00"
+    },
+    {
+      "guid": "e876b803a4dd5c5488078071d15aa9c0",
+      "asset": {
+        "sha256": "1adbadf77bd285eda88b132dbf84c24097196579d1c902b9bba293eeb3d4b564",
+        "size": 4880
+      },
+      "asset.meta": {
+        "sha256": "e037d6b678faf9022329c50df46fcfff759a2cf0ccbed8279d487f8dc2b2376b",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png\n00"
+    },
+    {
+      "guid": "f447d62f2dacf9843be7cbf168a3a9d0",
+      "asset": {
+        "sha256": "6bac4fa2e2d151645aaeee9e961b8456d51ae423079dd13825958bdc221c9df6",
+        "size": 6373
+      },
+      "asset.meta": {
+        "sha256": "e781214a2d582786eea7d1156ab6d198ecd136420f43fe0689ea4510ad5899fd",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/memory.png\n00"
+    },
+    {
+      "guid": "8ffbb44a2c3adae45913474e4fd487f5",
+      "asset": {
+        "sha256": "b5841b6b5186ae3303cbce7b23998a8ccdd5b8c627a2c66930de263646b2bfe2",
+        "size": 2826
+      },
+      "asset.meta": {
+        "sha256": "e6e96e7bf86807ded17c34963250be6a3416a67f929cf0af971bd1c2f5885f02",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png\n00"
+    },
+    {
+      "guid": "1cc68832d00d3284a9324a4dc05be753",
+      "asset": {
+        "sha256": "2cc163fe20a9904f5db079a8c5cd16b35c1422d374f7c39dcb20505027f46ade",
+        "size": 36930
+      },
+      "asset.meta": {
+        "sha256": "7a998821a574066475aaeb379b934d509eafc931f51a2bff01b761c6e212e79a",
+        "size": 99
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin\n00"
+    },
+    {
+      "guid": "564b866f40be55d40bb624f85197535c",
+      "asset": {
+        "sha256": "4d80ee71c67af94e523afaffa2a05e0aec3bd037e8bda738a7316475731d9179",
+        "size": 3466
+      },
+      "asset.meta": {
+        "sha256": "06ae1a010b99f107fd2703a28a0f505d3354db82e1b4bd4d2f5f8e95ae8fb9c9",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_down_arraw.png\n00"
+    },
+    {
+      "guid": "65382a9375963d842a164495d6431d6d",
+      "asset": {
+        "sha256": "ca3b23d5322ff64e2976f2a57001493cbd5aa2cc67ed56c5c880ba02fb018577",
+        "size": 2876
+      },
+      "asset.meta": {
+        "sha256": "39c1217ab66cd0e5faa478fd7b85f3b275d9edf8e467fe4fe3d9a17c101c6580",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_back.png\n00"
+    },
+    {
+      "guid": "ea91678cb5fa4914d9a87d5882e46bf9",
+      "asset": {
+        "sha256": "e561733305f7b0c684df53ba646fd0553fd140171b410370d381d89c614fa12f",
+        "size": 2882
+      },
+      "asset.meta": {
+        "sha256": "cdc0e9029bf35d58269e64e6950ed5363e733a795a3a280786475e194e835b38",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png\n00"
+    },
+    {
+      "guid": "2b898d54956773c4ca8dac4becfff81d",
+      "asset": {
+        "sha256": "6947d09373bb66ccf1fc261b4ed47ea01879ba2563d5c0069f1701a8d8ac6ba6",
+        "size": 3423
+      },
+      "asset.meta": {
+        "sha256": "9123502e0d7173bc033c0b00cb2dda0f98989d9f0686057f172c2ddc91482dac",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_left_arraw.png\n00"
+    },
+    {
+      "guid": "1054f346b49bc774e84a30b01e173cd8",
+      "asset": {
+        "sha256": "351ced1395dc088ddc882f81c6264ef6c268be9930d20f505623921725d3f917",
+        "size": 3433
+      },
+      "asset.meta": {
+        "sha256": "6cc7833ac422e4c54893c81ebc052b9a72aee60b6a196bd836607862fef561c9",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_right_arraw.png\n00"
+    },
+    {
+      "guid": "844af5f04b57ce841a17503f7e44ac44",
+      "asset": {
+        "sha256": "a6b6595c1c3083ebce8ab91858916f17e56490fa7cbc7a1c810b6036fb2237db",
+        "size": 3458
+      },
+      "asset.meta": {
+        "sha256": "5b539598130195915f7b35832bfbb3da023449c7f7f1439b83aff45a5dc24d9b",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_up_arraw.png\n00"
+    },
+    {
+      "guid": "f44f16dd98d65e74e8001cf19cec1868",
+      "asset": {
+        "sha256": "614fffc20c994d7ad8dd49e1828b163881ebeea109fc895416cd5dddfc91fe96",
+        "size": 2875
+      },
+      "asset.meta": {
+        "sha256": "431f7dfac927859e7c9ecee59cb391c00162f9090b1154939fb4f5f44ac22d9b",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png\n00"
+    },
+    {
+      "guid": "7eafdff7daf79fe4ea883940862a3b9e",
+      "asset": {
+        "sha256": "22639ee91b2ecc7605c824052063848e0ad856510e7f213dd1fd6f6e88d600f7",
+        "size": 2886
+      },
+      "asset.meta": {
+        "sha256": "9af7ccffded0ae4c2ad0827a6c7efd24434ebcb3e0796eb482062a414b400b65",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_thumb.png\n00"
+    },
+    {
+      "guid": "bfef37b5a26d2264798616d960451329",
+      "asset": {
+        "sha256": "8bef2a6f0d72899c640b05387ca4a2af7819334116339363993b7b10af7eb448",
+        "size": 2446
+      },
+      "asset.meta": {
+        "sha256": "263ade24c111fdf7648970e39716912916addc58b0ab2013c1237493986f19f5",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/search.png\n00"
+    },
+    {
+      "guid": "17117a429b08e7e43b0b6c8421de69fe",
+      "asset": {
+        "sha256": "f3698cdf0b0fddc3bd6c88480b3f3804a1baeba6c965f846392e870b84934551",
+        "size": 2819
+      },
+      "asset.meta": {
+        "sha256": "8921e1993900c6dd0b1f639d96b8e420048d50c16eb5513044be702138266e5f",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/selected.png\n00"
+    },
+    {
+      "guid": "6c91fc88ee6c791468318d85febfb48d",
+      "asset": {
+        "sha256": "186941a2116e80df4531b72ffd7f3db01e334790d5de00907a4c155a1073370c",
+        "size": 12708
+      },
+      "asset.meta": {
+        "sha256": "2677ff101e8f48b659ef96b14c5542627f6bf6352150c92cc074fe926b39bcdc",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/software.png\n00"
+    },
+    {
+      "guid": "782e03669fa4a614e89ef56252134250",
+      "asset": {
+        "sha256": "cbf5db3ec24ce1271e313c4c154548de16667af9eed120738d46760f0b4a7ad8",
+        "size": 5753
+      },
+      "asset.meta": {
+        "sha256": "170f09d50d2cce400f2e2edac38bd398aaee64867e7a699beac9f3229d5d8cdf",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png\n00"
+    },
+    {
+      "guid": "2bcdc012e7356f1449ce7d3a31dc458c",
+      "asset": {
+        "sha256": "2ea5546b301d44837e8a7d4a8c094b6c68f885cd1806d30e3ea37bff035e951b",
+        "size": 7845
+      },
+      "asset.meta": {
+        "sha256": "159cb4b637681bf15c28e98415bc71f750fe7d5fdab488578c58334b85c6e51f",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/user.png\n00"
+    },
+    {
+      "guid": "1066be8e7b994b94c8a182b8dbe30705",
+      "asset": {
+        "sha256": "0cdb18d51fba45a48f78ac2eb067f21040dd078ba2f1d0a4805f32fc217f4142",
+        "size": 3979
+      },
+      "asset.meta": {
+        "sha256": "7fb8fe638f5954d38ba59e9d24462b8e65f02c2e76432c7f9e72e6a610422ee3",
+        "size": 1025
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png\n00"
+    },
+    {
+      "guid": "9d432a5d3d68af34aa3aefa93fc296c1",
+      "asset": {
+        "sha256": "e437f060ed1d1748a9131dd9b6e3ec5eee75c07622fea4286000b3a5eaf71b2d",
+        "size": 619
+      },
+      "asset.meta": {
+        "sha256": "9470491598fc140ca562843a9c8dd1139ad991034aeb13e70531b29f191b98f2",
+        "size": 186
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs\n00"
+    },
+    {
+      "guid": "600c02144c4813244abd262cbcbe8825",
+      "asset": {
+        "sha256": "8938ae3fd3a12f27e47e7e0776a23fa6d6b0101a2812baea524f03bf47d17ef4",
+        "size": 67861
+      },
+      "asset.meta": {
+        "sha256": "9c163b24604865cd3a9a0e9d8690ced17f39b12a405c82603c8397938b653759",
+        "size": 248
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Reporter.cs\n00"
+    },
+    {
+      "guid": "8c866050b2c752d488112993fd0ddfce",
+      "asset": {
+        "sha256": "ecaca45fda1cfa2bb70419f53840a9db449e1bd7bd3f3e7ef5718a4c426c280e",
+        "size": 245
+      },
+      "asset.meta": {
+        "sha256": "4c203df9252d6c510524eeea3c071c15e816df3298196885d5a7cc0513bf252e",
+        "size": 186
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/ReporterGUI.cs\n00"
+    },
+    {
+      "guid": "6767a180de870304caa2013b2772dd62",
+      "asset": {
+        "sha256": "2c218fadd7d902c1f9fa20d1b54d29b5b66f701eda2ca84acfd42cfa7fdaf2b3",
+        "size": 925
+      },
+      "asset.meta": {
+        "sha256": "8395d9e9531f7215371a691f7d24bf4f7816225d888022d45900b5030840d0e8",
+        "size": 186
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs\n00"
+    },
+    {
+      "guid": "7c32ffadc35cc8045a81f08654eaf6cf",
+      "asset.meta": {
+        "sha256": "b4ec6ad608f20a96e94eefb253e5b26cded57b0b6a07ad709b877da273136bdb",
+        "size": 112
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Test\n00"
+    },
+    {
+      "guid": "50197f88423d447488d9bff2736b47dc",
+      "asset": {
+        "sha256": "763e30d36a64af9f8f909dc0ff9fac44289328063dff62c9673d6b0cd09485a8",
+        "size": 13842
+      },
+      "asset.meta": {
+        "sha256": "48a70139576d625f58e8e6ec10c0e4c896e3fc278dd66fc7bd658cb2f20c57a8",
+        "size": 94
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Test/ReporterScene.unity\n00"
+    },
+    {
+      "guid": "fa24ce3e8b4a445479906686d9756911",
+      "asset": {
+        "sha256": "bdf5ce8cb9996fd8c39ec05c6ac5981cc7b3c56ff440dd8144d5cb450d0adf1e",
+        "size": 269
+      },
+      "asset.meta": {
+        "sha256": "48db757a280ac9505e094bcd91b0ef1d8b2ad717a17c41ee031372f4126a6e74",
+        "size": 186
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs\n00"
+    },
+    {
+      "guid": "cac68c003767bec459aa60dc282ff67d",
+      "asset": {
+        "sha256": "9ec3b283fbaf562b97e659fd90a3d2015ed7abe99442c098f562bc997e4a87d0",
+        "size": 4907
+      },
+      "asset.meta": {
+        "sha256": "fee3a21e1919bf63961253accb01c5d1b7ba3e9c3b8b5ab467abafcbcab13a88",
+        "size": 186
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Test/TestReporter.cs\n00"
+    },
+    {
+      "guid": "1cf4e2e23b6e31d498242c9db1608ccd",
+      "asset": {
+        "sha256": "ba10d62b799ada9b3514520f1c86b4537d90212c761ca4f9595550c5f00d3ac5",
+        "size": 9589
+      },
+      "asset.meta": {
+        "sha256": "cfaf0fdf8ba3d1b896ba63fbfe8d44fa43301ca398ae7bf77ae53e50d5f5ddb7",
+        "size": 94
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity\n00"
+    },
+    {
+      "guid": "91c6d29558bd35e4d9d9883614fa135b",
+      "asset": {
+        "sha256": "35858a46a7d396b827613f19c3e0e8b7ae7c2ff3a367d9b33bf75f054b275d59",
+        "size": 9568
+      },
+      "asset.meta": {
+        "sha256": "362e311be7159344170fb4e930a45440acc36c2b190b5b48884001de2f0bbafb",
+        "size": 94
+      },
+      "path": "Assets/Unity-Logs-Viewer/Reporter/Test/test2.unity\n00"
+    },
+    {
+      "guid": "b502cdbcc667dce419bfb328dac18458",
+      "asset.meta": {
+        "sha256": "302e05ccf546782e0d7f808b2c5148a22ec32b6957e4d3ff7ca7a8103da9d9b7",
+        "size": 172
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation\n00"
+    },
+    {
+      "guid": "8d6ce7703b81feb4a8cd4950e8de1675",
+      "asset": {
+        "sha256": "233e0967796650fc15daa926c5b492b9174d16fe394cc27a491fedf521b01085",
+        "size": 10175
+      },
+      "asset.meta": {
+        "sha256": "dadb0b4ad19282cd1427ec25aa981443d3008b9d3653aed07c7d31c738306372",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/GCMem.png\n00"
+    },
+    {
+      "guid": "a0fcf46a2dc6a1b4b86e3f9927780fae",
+      "asset": {
+        "sha256": "772a25bd488eed0a348f553485e35b3c1b4b4c0035446ce2d01f0ef49806008b",
+        "size": 10707
+      },
+      "asset.meta": {
+        "sha256": "2c6d86cb265fee6fad88353a20f21318848dd5c465ab8d27d9b6e542f88dd225",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/clear.png\n00"
+    },
+    {
+      "guid": "3e140b615316ac34db80e51dd3c1a03f",
+      "asset": {
+        "sha256": "a4d1fc1991c36ac41c91348dafb934d33d9d77e1e21de96d64ec6ddd3c5b2459",
+        "size": 13166
+      },
+      "asset.meta": {
+        "sha256": "81f2fcf77ee68c8e3687f0638718cd6d8aea64891795563ad69eeb9eff3ae756",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/clearOnNewScene.png\n00"
+    },
+    {
+      "guid": "c4b3092b9223cfa4d80efc408b5a4152",
+      "asset": {
+        "sha256": "95787ecc12d871de9eef01a96846c994d2fe13da6e7731fcdae7550e4adc7f7f",
+        "size": 7985
+      },
+      "asset.meta": {
+        "sha256": "5c13f445b7c16d780cd5fd487c682b773decaec1cfaaf53ee13a5a4d1369966e",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/collapse.png\n00"
+    },
+    {
+      "guid": "ecf03d11d96159d43ad6b7a2b60bd422",
+      "asset": {
+        "sha256": "81caf1b39e138f3fb62d024a03ac0ff2da228ebd94fc53148a271185716c2053",
+        "size": 6244
+      },
+      "asset.meta": {
+        "sha256": "5d5b12eac5d4a7433d7aeda037dfb73698bb90b52266bcd86df51530e0913844",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/error.png\n00"
+    },
+    {
+      "guid": "5764076715929d5479162c37a0736b90",
+      "asset": {
+        "sha256": "40de4aa217c942029e5d10379ff9a8b207da0c01a7a474101598c8aaa9b86e91",
+        "size": 9748
+      },
+      "asset.meta": {
+        "sha256": "72718341df4c236b3ebde51987e3789ec0da7c9e1abbafacb94186d9b3cdda30",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/fps.png\n00"
+    },
+    {
+      "guid": "8871d4a18c1a22f4e9fd02081f915fc1",
+      "asset": {
+        "sha256": "ab8477f57e210d3f1358dfd07da60e447c1c05f3132e5ee1a35e8cee0e14e1e9",
+        "size": 7885
+      },
+      "asset.meta": {
+        "sha256": "ecc767cdb7b9e3b80e9d934d95589d51b8247809933d1e7bd9efd75f7351c637",
+        "size": 158
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/index.htm\n00"
+    },
+    {
+      "guid": "45bcf5f5e1369544584f5974ae904739",
+      "asset": {
+        "sha256": "48c899f5fbe789308c769be3e73020f82f63f974ea2c1bebc80e9416a4287e03",
+        "size": 10331
+      },
+      "asset.meta": {
+        "sha256": "c8d82a387abd720e720c8a7b8d5bb74c946fa3c6f9708b4846912aa663f0b716",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/info.png\n00"
+    },
+    {
+      "guid": "679c1c3b742729b45a60849042799a26",
+      "asset": {
+        "sha256": "4f546c549e92faf11f1f69afd2455e4fc61d88f49dbb2da20fc6ecd3cb5dcc99",
+        "size": 6909
+      },
+      "asset.meta": {
+        "sha256": "0ccad91ec9561566bef432714d1a38165c88e28af0b739a3af18287a50424454",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/log.png\n00"
+    },
+    {
+      "guid": "31f8aee177daaf645b9d0694e6fc50c5",
+      "asset": {
+        "sha256": "a9b4460cded1aac85edaf01f2a322965de1a744b9f6ff670b24c6a07fdeb8ff4",
+        "size": 11278
+      },
+      "asset.meta": {
+        "sha256": "ea508008e80ca1823eaa75566da23321bb0e1331b6fccd107307ed6ff07c976a",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/scene.png\n00"
+    },
+    {
+      "guid": "52620bf3edf5e4b4e8584ab2d516389d",
+      "asset": {
+        "sha256": "d8af66bc53476d80e18cc067f8da3d9421bcb7f7a5085d6e11ec6509c0e66151",
+        "size": 174067
+      },
+      "asset.meta": {
+        "sha256": "edad963813ab1ed7103c534e0497a251b8e91cd30baa921bc582240d914d987f",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot11.png\n00"
+    },
+    {
+      "guid": "610107702c8806949869cffc95a67b57",
+      "asset": {
+        "sha256": "4377aa067eff7ce8f901f0e76748a18d9d35bd298f062232ce7322875b55146d",
+        "size": 142431
+      },
+      "asset.meta": {
+        "sha256": "599267d9c8ed8301074fa1899d792edb6b852e363681e980948a6dc785c7bcfa",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot21.png\n00"
+    },
+    {
+      "guid": "82ec3e6201c354645a0338b570838083",
+      "asset": {
+        "sha256": "0b27541b31d88f050a7e068382267189490c5a2e92c791158fc0ab25404da24a",
+        "size": 42377
+      },
+      "asset.meta": {
+        "sha256": "548018e4d629b7847280af7baab5f182382958521a43922490aa1d699724c033",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot3.png\n00"
+    },
+    {
+      "guid": "2fe284c4cad97754296ef1bb99985423",
+      "asset": {
+        "sha256": "027ef944ea31ca7fa56426a1858571316bb73a3ab55781472db6d454166eb65c",
+        "size": 54428
+      },
+      "asset.meta": {
+        "sha256": "2a9ecb8eda969cf58df0498a81c32770ef4e358bfe5216d429d846539c3b99bc",
+        "size": 155
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/style.css\n00"
+    },
+    {
+      "guid": "dbae7700ad1eca246949933cce6ab4e1",
+      "asset": {
+        "sha256": "191d106fb68c85ebcdca6b1887ccad4343799e7637dde4486a2176b5ec343dab",
+        "size": 10032
+      },
+      "asset.meta": {
+        "sha256": "6aed7b9ac26c3de0ada2501e4875c3e974697ac0c4a0a54e8e3b5dd7f3f74ad1",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/time.png\n00"
+    },
+    {
+      "guid": "65b0df5f5ed78ca49aed5ff6dadae865",
+      "asset": {
+        "sha256": "7f234a12da607b706960e708a3a1dad3c43aaa6036646678f37f2b49865bcc8c",
+        "size": 6740
+      },
+      "asset.meta": {
+        "sha256": "afe9685802b4fad5175aae38eae30becc96366ba2ea977601a4693de0cc78dbc",
+        "size": 1982
+      },
+      "path": "Assets/Unity-Logs-Viewer/ReporterDocumentation/warning.png\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "2e53eb027e9ef5d9bd66149ba543c12fce155c09e090ca5b487855bcb51ab23b",
+      "size": 12136
+    }
+  ],
+  "control_character_paths": [
+    "Assets/Unity-Logs-Viewer/README.md\n00",
+    "Assets/Unity-Logs-Viewer/Reporter\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Editor\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Editor/ReporterEditor.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/Save.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/UnityIcon.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/back.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/bar.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/button_active.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/chart.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/clear.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/close.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/copy.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/date.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/fps.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/info.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/memory.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_down_arraw.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_back.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_left_arraw.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_right_arraw.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_up_arraw.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_thumb.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/search.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/selected.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/software.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/user.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Reporter.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/ReporterGUI.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Test\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Test/ReporterScene.unity\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Test/TestReporter.cs\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity\n00",
+    "Assets/Unity-Logs-Viewer/Reporter/Test/test2.unity\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/GCMem.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/clear.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/clearOnNewScene.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/collapse.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/error.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/fps.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/index.htm\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/info.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/log.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/scene.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot11.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot21.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot3.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/style.css\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/time.png\n00",
+    "Assets/Unity-Logs-Viewer/ReporterDocumentation/warning.png\n00"
+  ]
+}

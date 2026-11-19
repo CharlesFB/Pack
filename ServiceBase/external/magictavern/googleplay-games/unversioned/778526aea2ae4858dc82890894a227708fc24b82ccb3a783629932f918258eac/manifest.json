@@ -1,0 +1,1117 @@
+{
+  "schema_version": 1,
+  "plugin_id": "googleplay-games",
+  "build_id": "778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac",
+  "artifact": "artifact.unitypackage",
+  "sha256": "778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac",
+  "size": 152336,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "60aa3e010f609434dbf8530d2a3d240b",
+      "asset.meta": {
+        "sha256": "81f1127bba3f89544cb8f2febd21741577c133d93c2ff926561f2663b5b8df1f",
+        "size": 172
+      },
+      "path": "Assets/Public"
+    },
+    {
+      "guid": "0f46bd976d4574f27ab2a6ac774c2aae",
+      "asset.meta": {
+        "sha256": "795b9cd380f4acd5e88939a5fbce8d83052bacad7a3ee7e7855396638a33455f",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames"
+    },
+    {
+      "guid": "5ac346bde353f4eebb3c828dd9364c57",
+      "asset.meta": {
+        "sha256": "de41c05ca3c0b75887bb619ff1e75162b856f0516fdb3e8f6a01f4673a7cd815",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "fd775b0990d9714850829a0fac6b3da12371075af696c828300932ac981b79ad",
+        "size": 832
+      },
+      "path": "Assets/Public/GooglePlayGames/AssemblyInfo.cs"
+    },
+    {
+      "guid": "9a2a6d69323804772ad6bffed2a67a73",
+      "asset.meta": {
+        "sha256": "85ca0b43bbd89ba2d65e9ca7c436cac7bfaee2abef743b03f9b17a90fa1c610a",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games"
+    },
+    {
+      "guid": "11083f74e79584f50ad394be94e2caec",
+      "asset.meta": {
+        "sha256": "fed85b18438de7a4188e20f972074eddeba8e6ede7a6d4fe14ec1bd863c86fb3",
+        "size": 191
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor"
+    },
+    {
+      "guid": "41fe658b93aa24c709c540575965fdff",
+      "asset.meta": {
+        "sha256": "8405ba130ddb3fa7a300b3ebf9acdc26aa7fcbf51f98f56bc06e98d43214d16a",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "bd4c9720f8507c14dc1a3ffd80bc85542db8e4ec7bbb750a086e8a5d39d3f485",
+        "size": 16837
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSAndroidSetupUI.cs"
+    },
+    {
+      "guid": "73cbcab28a27446ff9e06e06a040814f",
+      "asset.meta": {
+        "sha256": "fa23142f579d3a0a8849f428a94e073e3c8e22f5fdac5bde4511b3000eb74f9b",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "34458dbfdcb8544d82a7f0b172140c567293ff0e57c0bedd8f7f3fdb5c91b728",
+        "size": 2054
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSDocsUI.cs"
+    },
+    {
+      "guid": "1a7b050a8e8214613893df7d81dcc13c",
+      "asset.meta": {
+        "sha256": "3f4c40aea483769ef0cf4f634f153879e65436a4436646ac4f5575f29986c649",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "e00d034a578635ab6ab2b13d3c412886836ce0d65134a53f4eda166d233b5616",
+        "size": 1475
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSPostBuild.cs"
+    },
+    {
+      "guid": "cf234a050ba25433f9386e20578ccf19",
+      "asset.meta": {
+        "sha256": "6b4888cd59ee1858ca2489e0e1d0558cb56a5cc2a5179423d6b266f5a9d63bf9",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "67a74d3feb9e1b8bf9dfc119bcc51f1f854c4d6ed5dbc4a4a48280ad7aa84a4e",
+        "size": 5475
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSProjectSettings.cs"
+    },
+    {
+      "guid": "992ecb564cf02408d9c5a1b44d958334",
+      "asset.meta": {
+        "sha256": "e2cb8bcda2cec2a296c550ecf4b592c9dc18c0a8375c2204587d95f92178c30d",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "6f54079eb70a4e196f03096d9d4567fc1dd9280fbdec8016c91c998c9d4f60ef",
+        "size": 10355
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSStrings.cs"
+    },
+    {
+      "guid": "357a64420a0c44b61a0ed7ca22c7f10f",
+      "asset.meta": {
+        "sha256": "704bd3d43bbe2cc9701f010e87380b2bdb281d922bbc7047e54e2cf7b62e54c0",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "60def60f26699be0a1db503c7f2721f1afaf30c38bc64f90c19b68720caa627f",
+        "size": 1964
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSUpgrader.cs"
+    },
+    {
+      "guid": "fd01714f9ee99447996b878b1ac67540",
+      "asset.meta": {
+        "sha256": "6b1fcd24bb0d1fc9894814e358aa3c89748d6c3a2c8839eed13b3ecbdd2195fc",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "85d17b245b09f9a806c0af41e63633ce79e0c271f371501278a6b94d061ad6f5",
+        "size": 30178
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GPGSUtil.cs"
+    },
+    {
+      "guid": "9172e27a923a34eb8b02dc3ab88d3dcd",
+      "asset.meta": {
+        "sha256": "69e37cd857c6ad36ea33f17f8b2a6b18a7b704392d793031763e330d3c46145a",
+        "size": 202
+      },
+      "asset": {
+        "sha256": "bfff5aa065846ba15bf3d62712b3b2472c60966fa188d478ce99e4d1176cb8c2",
+        "size": 148
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/Google.Play.Games.Editor.asmdef"
+    },
+    {
+      "guid": "56e4f40c267bfa268afda2ea9f4846a0",
+      "asset.meta": {
+        "sha256": "9711d338ae7824d9019b49ac663b8bcf041dee91ff43946252504a0862f9955d",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "c4bd5aa431a64f4cb1d6f838719803718df0256e7a92783451191ca9d12b8839",
+        "size": 483
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GooglePlayGamesPluginDependencies.xml"
+    },
+    {
+      "guid": "693a823b8f0ad41fe8231a1b1c8a50da",
+      "asset.meta": {
+        "sha256": "0811969dbdb3084eafdc28c58220e2013b45b79720850e9ee97f52f6ba84eaa8",
+        "size": 209
+      },
+      "asset": {
+        "sha256": "d5bff93be69e438d6b2257eac854de8f2d44ffe1a21f78a499a69b376347dca7",
+        "size": 8149
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/GooglePlayGamesPlugin_v0.11.01.txt"
+    },
+    {
+      "guid": "b64332a502e18436da5652adbf7e24a3",
+      "asset.meta": {
+        "sha256": "ace6f91ad93a785ca3c6678832976490262b77abce6e7fa77d5cac1458360a29",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "24c3c1e8ee0f0dff447a885f47a26eef32dba656eca640519117d066cc81ef1e",
+        "size": 5473
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/NearbyConnectionUI.cs"
+    },
+    {
+      "guid": "a1aac54589c4640cd89900056af3a094",
+      "asset.meta": {
+        "sha256": "53d91efd1c84cb6a8a92ae8e418e95c35daf1516bb76cae476f40b78f92bcf21",
+        "size": 214
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository"
+    },
+    {
+      "guid": "6bfd2e0bf6a79efa5a524c758a029a97",
+      "asset.meta": {
+        "sha256": "c900fc27baad3cd523f42d9e62a286747322d1a211fc348645c25529769b0436",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com"
+    },
+    {
+      "guid": "44f501fdbcc7ecb3a9d935d48385fcd7",
+      "asset.meta": {
+        "sha256": "45926d70c4c174ce39043da2dd86880d969c0f53208dad862fbbc68494a2e8b9",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google"
+    },
+    {
+      "guid": "ab2c8702a5ac8186e833079b0c2b97eb",
+      "asset.meta": {
+        "sha256": "c1c10d5d868a7649740c13d19f8163f6130d60a9f4ac20975e3a68475bb706d2",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games"
+    },
+    {
+      "guid": "7aad2f859f18616f6b634cecc92785db",
+      "asset.meta": {
+        "sha256": "49c67326a9508610cf81339adf72c395bea9c6b1634ebd166a165dd3431b03e3",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support"
+    },
+    {
+      "guid": "270a1b374befae139bb007ed9fe42c0a",
+      "asset.meta": {
+        "sha256": "e40d90b7d14933342a597f5fdc99c03662b2038e218370e28d1cb1b8ac18fc0d",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01"
+    },
+    {
+      "guid": "3a8de8e589297f83cbf708663d04784d",
+      "asset.meta": {
+        "sha256": "dd3097e48b94c9e30155bde4cd0272a806a4fc490b13817837d02377e0f278fa",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "7e08e05859056dcab79e1f8c85bf576e2d74d52245b97fe7d96605763432705f",
+        "size": 871
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01/gpgs-plugin-support-0.11.01.pom"
+    },
+    {
+      "guid": "021d4ecf67ff30875941d1d1d3e4273f",
+      "asset.meta": {
+        "sha256": "8c37dd5b5f229cac108cb580ffe97c7d2c111df779fa2f5a37529940959574b4",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "b72639cad9f6e96491cb13d95b94b6dda801536aaa0ca43114b216d076fde681",
+        "size": 32
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01/gpgs-plugin-support-0.11.01.pom.md5"
+    },
+    {
+      "guid": "2ace5c923ae5a5e4182561bb8b0e47ad",
+      "asset.meta": {
+        "sha256": "2ad9c96269859fe450bf0a998b028e7ed70f69877c5ccc4b414fa8c77fec9e2a",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "c945d086766f72a7c3dfecc0e9fa835453ba1bd7c9f93b3db21ef0e023fa1b65",
+        "size": 40
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01/gpgs-plugin-support-0.11.01.pom.sha1"
+    },
+    {
+      "guid": "8a7a2dcd7d551e040938c69456bd0643",
+      "asset.meta": {
+        "sha256": "acb00629a938b6cebf9272f791fcccc1b8bd6adf10b4244ad4dfdf005946602b",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "6eba5105887afb24c4929a92ea92de398a580b6e766aba680617297a40c7ab38",
+        "size": 33110
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01/gpgs-plugin-support-0.11.01.srcaar"
+    },
+    {
+      "guid": "6a5d6cd742873c73f8f0c9a1ac445182",
+      "asset.meta": {
+        "sha256": "9336123968d560f78bcfc22cb7821866252454c4725b060d76a99ea08ca383f6",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "e8fcd2e95798db7b57b8356da3cc89bf4499fc1b2d38e5b6f13871a8bb15b764",
+        "size": 32
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01/gpgs-plugin-support-0.11.01.srcaar.md5"
+    },
+    {
+      "guid": "b8fc53361999b1f4a830505b47234b73",
+      "asset.meta": {
+        "sha256": "6e7eb38a502f8bc55fd22e830e785ff075a5b6193dc9f091ab79d0691b049009",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "1f6bfcbe3e743d06c12bfa8cf5d902469b5369c7a86cd0e24cf5a391c6e78c9f",
+        "size": 40
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/0.11.01/gpgs-plugin-support-0.11.01.srcaar.sha1"
+    },
+    {
+      "guid": "e9ae03af85334796fa074f4f75bd5426",
+      "asset.meta": {
+        "sha256": "7e5f14fad7f5a5f436cbecabdcb3efbc9e6a485bf0aa6d262b1698bc22789efb",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "ca8e3915f4d397d8c2a0a7ef42595c34554f098861e8631a0a38367ba41cb1fe",
+        "size": 319
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml"
+    },
+    {
+      "guid": "b99ac5f1bd7ba77d390d8508c2c3b8cc",
+      "asset.meta": {
+        "sha256": "79449838ebed9a7fe80e4c44c0e0cd6d00b5ab353f8000b95ea87247361f51f3",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "9f858eb432a6c5dbbb890070b832af2cf3621c5a7da8c0ab30475ea24f7f89b3",
+        "size": 32
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.md5"
+    },
+    {
+      "guid": "75441663f29e7a430af793277d746c7e",
+      "asset.meta": {
+        "sha256": "6662c0894f5710fe4e8816381e1a4236a6637bda070060e591d473f6936e51c7",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "123f07ea1606104cf6a4950dd2c7cbbfff58bf26acda01401cef07c8169d336b",
+        "size": 40
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/m2repository/com/google/games/gpgs-plugin-support/maven-metadata.xml.sha1"
+    },
+    {
+      "guid": "0e1f3c150256848b1ba98702cfb71220",
+      "asset.meta": {
+        "sha256": "742f744b50fae0b26b18b7651b3391fff304a02c9eee905e0b94be6e97ef2f12",
+        "size": 194
+      },
+      "asset": {
+        "sha256": "e364f98878db4d2af92c0d3ad2e885c222209becaec4fd39176900d7195dea47",
+        "size": 996
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/template-AndroidManifest.txt"
+    },
+    {
+      "guid": "7f2719cb8be514661b7b6aa9986bfe5f",
+      "asset.meta": {
+        "sha256": "7e476c381f73e7f79abe0c648a8091bff09ace132c3131a13f17ae8a6b24af10",
+        "size": 194
+      },
+      "asset": {
+        "sha256": "037ff5cc63c23165ebeb37244757615fc086d83bd0f4f7328d0f38fc9b7a6a89",
+        "size": 951
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/template-Constants.txt"
+    },
+    {
+      "guid": "c6fa1c0456d174d298bf8dd66f584e9e",
+      "asset.meta": {
+        "sha256": "1181f0a0588e41f9a1a3460a13c7f601f8643e249cdbe4dbedaf53c0c8622575",
+        "size": 194
+      },
+      "asset": {
+        "sha256": "8300506453abd88e7d14b726de2ef8305582d4f9967f070e0e138414fe282ed3",
+        "size": 3279
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Editor/template-GameInfo.txt"
+    },
+    {
+      "guid": "c57e8b683b23f4e07a71b057837d8840",
+      "asset.meta": {
+        "sha256": "ddda5d21978ad78bcf01c207bcddb111f7ff5d4631500fa7d8828bcdbc84e4b9",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Proguard"
+    },
+    {
+      "guid": "a2e7df8f3f93d4c6aa6a5ae284b18dc8",
+      "asset.meta": {
+        "sha256": "d319f7cadb669bbfd39b85b757f95baed58363dd6362da7cd34eac211d9c7fe3",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "0dea92c5681d58ffa44c2e513f27af1fe755c9df9c30455cfe5d38b692a78604",
+        "size": 1147
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Proguard/games.txt"
+    },
+    {
+      "guid": "d0af3ead5684f4b1692ceec201b627f0",
+      "asset.meta": {
+        "sha256": "bee9208713dc934cc0968930bc20513d4a08024ece1673cffffb34321d6d3ebc",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime"
+    },
+    {
+      "guid": "1ed07ff861e5f468287b0baef844706d",
+      "asset.meta": {
+        "sha256": "92aaf876fe0ab4535c685ffb3c065a25a6d996a09fd0ff7f5b7e546fdf3978fc",
+        "size": 202
+      },
+      "asset": {
+        "sha256": "1d9641b0f1fc8e3f549df58b30036017a5af766f476e4c426c3bc41fefa8b21a",
+        "size": 105
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Google.Play.Games.asmdef"
+    },
+    {
+      "guid": "876ac55ce98154909924142bc42f356c",
+      "asset.meta": {
+        "sha256": "8d1bb05dc5466505f2e034851ae78a14158cf484b4c56ec93e2ae8e55df3b3e1",
+        "size": 172
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts"
+    },
+    {
+      "guid": "0a565e85253b345878939982a360e0b6",
+      "asset.meta": {
+        "sha256": "985ff27d405d25a354f578d1d4231ed6517876888554ea183d3b35236d45de10",
+        "size": 107
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi"
+    },
+    {
+      "guid": "b20fc2fda369044ba962d1d9115c4c63",
+      "asset.meta": {
+        "sha256": "91ede48737df9c82bde05cbd57f7d3bde469ac3ae86e4b277c34c11689deeaa0",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "1a97aa642f46c99e55915911408d7706893fda610997193d877ed25d73ffd8db",
+        "size": 6147
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Achievement.cs"
+    },
+    {
+      "guid": "cd54f7a2763f74ce191bdd3efa0a44d5",
+      "asset.meta": {
+        "sha256": "d9207e51a8c0c1e39affa559605fbb2fe5ac1ceef91da5663a9dba559e3893f2",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "a27f2d3ebafe2a2d2004fd4e13713f040e1b27f07cb6f3d084fa781a705963b2",
+        "size": 3666
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/CommonStatusCodes.cs"
+    },
+    {
+      "guid": "1c5d1cb1974d14c0c8b32fcf00089556",
+      "asset.meta": {
+        "sha256": "120c99e6430c301888cd2311afd676805231ed5936bbd628325d8c6f24bd7f06",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "b9dca54dc13753772b81dc92b228dce990051be3257fef8575130c30e8516b50",
+        "size": 7268
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/CommonTypes.cs"
+    },
+    {
+      "guid": "2c600182c9892457e92f885549bd838a",
+      "asset.meta": {
+        "sha256": "58e9af52aafdeb12141d6a77d7ae0038eff34d72902a1e44737677841acafd7e",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "d8feafecc86141099479bb394b9d5c1d929a46871d2c35dc0fec7180710c2985",
+        "size": 8380
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/DummyClient.cs"
+    },
+    {
+      "guid": "672ea858ca3b74efb9d0981849563065",
+      "asset.meta": {
+        "sha256": "05dc81de87c6ead3211dd3293c772590aa4f77b2cf05ea41298bb3040ee9b77c",
+        "size": 191
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Events"
+    },
+    {
+      "guid": "ce7f6801baead4bbda584bb96882e78b",
+      "asset.meta": {
+        "sha256": "fa2934825e10b3cd381722d67b8a12df7f9bcfc2cda09507829d9493d9b077a9",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "cf0bfee3ab8ac93b212e0c180347d6845db70e15306c402a8b1dc04af909437f",
+        "size": 1219
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Events/Event.cs"
+    },
+    {
+      "guid": "7e4f4f47218d14208a8ae0f676e1bca4",
+      "asset.meta": {
+        "sha256": "0c9a9606b726b793d61ddbd16fa631975653afe5cf138819472080a79d9d8ccd",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "e4c93192780cc5103c81c9271a65bdf837829295b6e20cb1eabdac4991ad36de",
+        "size": 1787
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Events/IEvent.cs"
+    },
+    {
+      "guid": "da57ba264ec114c57b8352923847ec34",
+      "asset.meta": {
+        "sha256": "b7c90954c905c063216ae59d37795790539dc0b394165792a5ea843477666074",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "b5290a22f5073b52394e28ff36b5c294c4e13681b56ce2999503902dd76ad53d",
+        "size": 2660
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Events/IEventsClient.cs"
+    },
+    {
+      "guid": "9138e04e4459148c680055b40ad324c0",
+      "asset.meta": {
+        "sha256": "c80c06abba8dfdeac405ee53dd8c703c33ed72f4789bcb001742db2178645092",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "7a0476a68e6a4f3f765b251d394ee205614ced5fa32785769e381ea5cc52918c",
+        "size": 17891
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/IPlayGamesClient.cs"
+    },
+    {
+      "guid": "8e369c64e8c9f4571a8847f37848c37e",
+      "asset.meta": {
+        "sha256": "0988c0df168453a417465e577b326e3c212eb001932b358862007ec2d816343a",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "0c79f637fe85eb47a7da66a6001fe8d01366ce49d280beb76855e4383dbf4f1a",
+        "size": 3514
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/LeaderboardScoreData.cs"
+    },
+    {
+      "guid": "c980790a380df4850b17a208e544d062",
+      "asset.meta": {
+        "sha256": "1a62baf382671e86a7aefa67785a6f6913748223ed1650ac52fbe7d7df6bc6ba",
+        "size": 191
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby"
+    },
+    {
+      "guid": "941324a6338664af6a9faf5b88cad408",
+      "asset.meta": {
+        "sha256": "11a45973c9af19de6dbfd3f8acf0a51c81416c49d80ba14761232d8d831e5013",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "85bc825fa0f983575084019a45ece5df0ec51b0f333865bbcc57e7d5f602b644",
+        "size": 1497
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/AdvertisingResult.cs"
+    },
+    {
+      "guid": "c7f9bb6b249224f99ad05a87d3e4ee34",
+      "asset.meta": {
+        "sha256": "2433e14658723e9bf30c058774d1f2a8add8d430c2f654903666369bc15c271d",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "1180b74ade3c6403d2359439bcf988fb24f1a365532fdf2a70dddb798649a7b3",
+        "size": 1474
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/ConnectionRequest.cs"
+    },
+    {
+      "guid": "ad6611af8d0204d0d8922a327d3d9ec0",
+      "asset.meta": {
+        "sha256": "c9d86820285ebb2cb4a6c500e6b5c70c5d7dc73768da1aea37def3484cb1c0d2",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "94bde7b1c684ff700fa3d1976a28e22840ecae2a6bee2a78c203e0332a3bf9df",
+        "size": 3627
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/ConnectionResponse.cs"
+    },
+    {
+      "guid": "9b3f34a2bba13428789d02b53fd89a47",
+      "asset.meta": {
+        "sha256": "1235efdc261eb958cf0045fd32e0adb0376f4712494775793bbd0be37bdc2943",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "37a3465af74796977e3fb04cf12d55dfdf459738318e3f237f7258bba9891f95",
+        "size": 4183
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/DummyNearbyConnectionClient.cs"
+    },
+    {
+      "guid": "9d9a087b0e20d4752b24f33a4a2bf977",
+      "asset.meta": {
+        "sha256": "fe644534c8ef75772928c8ed90f27ae02475439461114e696740f37009ffa176",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "b58200ef781e3d19fe49fe48953fed73c075a1ba804055348a3997b3fc8c62d1",
+        "size": 1477
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/EndpointDetails.cs"
+    },
+    {
+      "guid": "cb64b5b444dd34de5bd308c7eed6e509",
+      "asset.meta": {
+        "sha256": "e32c88962084e5a048073d3b0787c006c1d7b2fdc37ead576647a3417349ce3f",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "2c4219c3f0144ef6a42ea9728d979d6514a0a8d325c12841ad6add5ce68c0010",
+        "size": 2565
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/INearbyConnectionClient.cs"
+    },
+    {
+      "guid": "968ac90e4a9094a4a92df9da1ee1f884",
+      "asset.meta": {
+        "sha256": "f210352adce673b75c82f8f24c9f176aa20c3ad44f46027248ab54ae9239b67a",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "9d9567ae98757a3ed9f52229579aa75e9fe56d1fcf34befb71979f62edd6e708",
+        "size": 1730
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Nearby/NearbyConnectionConfiguration.cs"
+    },
+    {
+      "guid": "a6dfb529ed3bfc58ea80e1e100af33fd",
+      "asset.meta": {
+        "sha256": "e942cbf0ef356b450c00489904dca590fdf3b521f89a505d57e42b815981b38c",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "db62c886cd53701e7a85f3a35ce594ecda845883e7344c0e2671c9c63592dcb1",
+        "size": 1303
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/Player.cs"
+    },
+    {
+      "guid": "12cfec295ecf76a6fb0d0d48f59d374c",
+      "asset.meta": {
+        "sha256": "e78e396ec52340637c3ce59bca63cd5f807549a9f55e8b4d76e8bd6656f14228",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "9ebe144fb973991a77fb60c499bd20950c5f773a9b7396eb2b436e3d6286cc21",
+        "size": 1098
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/PlayerProfile.cs"
+    },
+    {
+      "guid": "0cf73f44d6d524deab1717d6e71e2c6d",
+      "asset.meta": {
+        "sha256": "82273052a547f05d8904cc042d296dd8562d60f620cc6f08856f0fcbcf7b5f82",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "43baae3582bf97860adec0534718709f7534041409644fb72f16d749483b681f",
+        "size": 9328
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/PlayerStats.cs"
+    },
+    {
+      "guid": "1bc47bd5631b849f88f2785c2d44019b",
+      "asset.meta": {
+        "sha256": "776724ca100e8cc50438cc582252ffe3d71e46591bd155f5c1ee8302e109663d",
+        "size": 191
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/SavedGame"
+    },
+    {
+      "guid": "5d4ff89980bdd4c9780aa3ceee54a51b",
+      "asset.meta": {
+        "sha256": "89aee3ac3a9c2c8e9e3ff7658ce921ba369ee28c021b7b9c072968950345d6d6",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "4ad092f5777bff19f6486cfa77ece0c010999c6a7b385ef2182b1b9f9929f560",
+        "size": 21174
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/SavedGame/ISavedGameClient.cs"
+    },
+    {
+      "guid": "a94650f478358403ea166d374b2a950c",
+      "asset.meta": {
+        "sha256": "4a611552a9b185f4f5c4561a5f8512393f41f7c648091525a967d51722b37077",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "abb68ef2bc300c5ee7fedfad46247d8980e6b7bd328bf0b3258a0a9f9014e7b4",
+        "size": 3569
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/SavedGame/ISavedGameMetadata.cs"
+    },
+    {
+      "guid": "602d9e1c90f0144e79536115f3614478",
+      "asset.meta": {
+        "sha256": "c3fcd4364fe736e9b5db2d15be7caa16f123d3987ad705e3b0f72d35245874f3",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "504c8069712fd1188913981d62ac836614f9c364a999e8b91ab7d863f05f8ded",
+        "size": 3891
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/SavedGame/SavedGameMetadataUpdate.cs"
+    },
+    {
+      "guid": "3eade9d49f3e341ddb2ba8209e7ddf42",
+      "asset.meta": {
+        "sha256": "a4aa185054402c67f266dce6ecd2d37be60de117af20d8868c7cfbeed133d418",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "c61079a3a3c0a46bb9b1e17c27dbf0f90ed00b72e91d74f3dd22e15f97ddac9c",
+        "size": 2282
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/ScorePageToken.cs"
+    },
+    {
+      "guid": "f5c7733064f2b09dc8df0009b3bbb1d6",
+      "asset.meta": {
+        "sha256": "135089fee09e68234d485dc5eaf98f33ac84f51d4c63adc269eb041d469fdec2",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "409d69964c9215ec932f8496ec21dd3aafcea1782fc3d3c13da44e756c65049c",
+        "size": 1220
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/SignInInteractivity.cs"
+    },
+    {
+      "guid": "0992bc2597d741e59dc3f8c963a3ca25",
+      "asset.meta": {
+        "sha256": "cbc92b365294176d0924b01c8cba442a16e67277c4b2eceedbb6790759e6a183",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "ebdf922d3e2caf3ca232a07f1580f3f0ac747129e1c6753dd581f5d465b38681",
+        "size": 317
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/BasicApi/SignInStatus.cs"
+    },
+    {
+      "guid": "a722d413080904cc1bd07f4db21e1af1",
+      "asset.meta": {
+        "sha256": "624244c6a4f83f942d0d4b3fc3fc8bc20ca9f7007cdcc84cf2a58e282ac8cdaf",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "4514be77a62576c34183ce2231507593d46cc2d4a8ffa2c96539c5d138a68fdc",
+        "size": 3014
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/GameInfo.cs"
+    },
+    {
+      "guid": "ef66268ee929544fb82bbef6ac13bafe",
+      "asset.meta": {
+        "sha256": "12040a057b90561e30668a78da682f0fa0b96ef7bbe9efd06900c80730540696",
+        "size": 107
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform"
+    },
+    {
+      "guid": "e5354c32a5dc64372ba5102f7f787adf",
+      "asset.meta": {
+        "sha256": "ace80efaae9e328e6fca705d428515c4f99062cd43c0a7c06d9cc8f1a679564e",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "8680ac3791f9d1b583b907d3353b93d9516f20cd8fb4ea8ef8b3af09b7dc7f29",
+        "size": 9225
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform/PlayGamesAchievement.cs"
+    },
+    {
+      "guid": "a027e4767bd0f41509b9ef6bd2f6080e",
+      "asset.meta": {
+        "sha256": "48bf14fd5831bc432deb7530d25312931689e64d829c915632396a154eb47feb",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "47127a4fef5381c492fb1258fa8b84eafeb708144a60cfb4e2d76802507884f8",
+        "size": 4655
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform/PlayGamesLeaderboard.cs"
+    },
+    {
+      "guid": "3b5f03fe051cb4a41a3b5489bd63c24c",
+      "asset.meta": {
+        "sha256": "c27d1048b27fdec9b94f955c7a49c40a428182e94e02baf353d0247ba9f8cfcf",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "00c20becf23263983ee2970d17b9ef591130c1a32c64fc1a1a148b748d3b9255",
+        "size": 6242
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform/PlayGamesLocalUser.cs"
+    },
+    {
+      "guid": "c1de7754a6e7f4fb08b76780a184b3ca",
+      "asset.meta": {
+        "sha256": "e48ef2b029fcdbac1dbca642d390cea99a1a3f78f6ee6e9aa74749323960afa6",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "3472606b64c8a234aec4d4a3607a650243886dd37e4cbfc437dba3f8b3bbd231",
+        "size": 56349
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform/PlayGamesPlatform.cs"
+    },
+    {
+      "guid": "2a6e2425305ab455a91061b1eb955b38",
+      "asset.meta": {
+        "sha256": "e5f7178ffbe2c5de6d04b75a343977d435068ab7a04906e2c90c24cb166b4f13",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "bc0780d793615db4d2288e5d0b3e8cbff27f09b0bcdf737525702122e4f03740",
+        "size": 3502
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform/PlayGamesScore.cs"
+    },
+    {
+      "guid": "ab1b90315f37e498a849765260dd436c",
+      "asset.meta": {
+        "sha256": "d7ab4117a86aa00e5ac08bbbe7b87215ecabd02de9dea8b189d642cc9b63514e",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "9accfa721ce8510641a32180b2857fa0e4d6859bea329c96c4df96560484f471",
+        "size": 6148
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/ISocialPlatform/PlayGamesUserProfile.cs"
+    },
+    {
+      "guid": "dc34e4ac2f7e6420da72898e7b511098",
+      "asset.meta": {
+        "sha256": "2d17c5bd5587674fab091bc09fac4350b93b4d2b9a51156af3538c548932e5cb",
+        "size": 107
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/OurUtils"
+    },
+    {
+      "guid": "cde7cfd197b4a47edac2efe305e22e78",
+      "asset.meta": {
+        "sha256": "12ef8e3b32e3e180830bc5e37421b6cd209a58fcfbe599647ed36e5617de24f5",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "4a255d99d857dcd6b423a2928fba4b1118fce2c5ade33da2b0501b080f8cac4e",
+        "size": 2848
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/OurUtils/Logger.cs"
+    },
+    {
+      "guid": "ee52269f55933442fa5ea52e688ebec2",
+      "asset.meta": {
+        "sha256": "a13da858752d4b5ac19b1a30fd7b5ceeee9e95f75701899747368d0102e0301f",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "041c513e6d63f7ff11c757dfc1c4624f6798b090070fee2024485ece08f005d8",
+        "size": 2663
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/OurUtils/Misc.cs"
+    },
+    {
+      "guid": "b66cca4a5a1f4a5092a280c452185308",
+      "asset.meta": {
+        "sha256": "16cde4d8e6b8b0d3eb67bdeac96628081ea090dc0a759f0efa99fe5f8003c0c6",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "9bbcb3d1c2155fc9b91f44f93b18eddc89f8f9e4403eefc6629ef8b3200c3822",
+        "size": 2710
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/OurUtils/NearbyHelperObject.cs"
+    },
+    {
+      "guid": "053811e778f3d4e3e98065f5db5bd005",
+      "asset.meta": {
+        "sha256": "4d9d12d6838427b0f183ad2937b76abc2774b92e8a602362334c35c321d2bee9",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "11d52046025391384be131a5d938d438551dd3010af10070a8c1a04eba8f5954",
+        "size": 1927
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/OurUtils/PlatformUtils.cs"
+    },
+    {
+      "guid": "7dd6f93ee6cb54945aea72a87542f720",
+      "asset.meta": {
+        "sha256": "06e1333bb704d6f863c4824fcebc636af3f84adc673a45751d291dbb9cddc33a",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "8a217977101583c230a51fb9ccbc6a253c32f940ca53b70983c9fd2887fe2644",
+        "size": 7006
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/OurUtils/PlayGamesHelperObject.cs"
+    },
+    {
+      "guid": "58fac82a81a11415b99606841f6040a6",
+      "asset.meta": {
+        "sha256": "5f44cf807f5df5c04d69fa1673cb5e259d697a77de37da8a848403f2f801475a",
+        "size": 107
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms"
+    },
+    {
+      "guid": "5c9032ae026414e1bbe872da53708edd",
+      "asset.meta": {
+        "sha256": "9ec319237642cdddcb3eab83330516fc3257aef2c89bd24f3915f0cf5087f690",
+        "size": 191
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android"
+    },
+    {
+      "guid": "32e99ad5da22248a28a9ca51282b121f",
+      "asset.meta": {
+        "sha256": "56fc2761afb3c84d106df47fbaf6ef56788931afcc65d041cfbc830784092775",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "a0cf4e5e198668f307a6490cca70d4ff68c15daa274d26bcb3199f33e6fe3660",
+        "size": 44446
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidClient.cs"
+    },
+    {
+      "guid": "311e1761661a341bebebd422a144b5e8",
+      "asset.meta": {
+        "sha256": "8acc59b9344b75e186aeffc2541f2ace838bd9b3a4fe68dfbc19d4f15cc2505e",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "4bdc6d813a53084d57f324c47625d309425b7d00ad85631291ed3a9c2f8a5633",
+        "size": 5901
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidEventsClient.cs"
+    },
+    {
+      "guid": "6eb353a6ffa554bacb374cfaf0cc45e7",
+      "asset.meta": {
+        "sha256": "7ed3bcae386c4dff41a0ae9d1f9d3e32ddadbac8c91b23594704eb0a51936e9a",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "226fae9ccf5dd867dcfcee9233ab279e650b5523084a9db1ec350cccd99ee2a0",
+        "size": 9299
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidHelperFragment.cs"
+    },
+    {
+      "guid": "d498c17d61b504b4f984a99b4542d02f",
+      "asset.meta": {
+        "sha256": "67d61903e37f1d1a3361d48387e4475fa149f3fa000d893e1f443ea0b0c37bd3",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "1960e807c24861cd4deded5f788029c99b38475cf1beafb13c5b07df22075771",
+        "size": 6029
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidJavaConverter.cs"
+    },
+    {
+      "guid": "d69ac0a61e8943ff82b14f7469f0fe97",
+      "asset.meta": {
+        "sha256": "b44185359a3bb7645dd23f71b91c0a855a95f62ec616214845eeea817ad3d2f1",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "51ec0cf26b6aa749808c2aa238485d942ba3dc8f6f314f06da6d627fc0e07229",
+        "size": 18123
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidNearbyConnectionClient.cs"
+    },
+    {
+      "guid": "a52ca79a06d83464e89d0d052c9af7d9",
+      "asset.meta": {
+        "sha256": "c7f118732cb5546bcce383a8d0272b7be691d8ae83f9de6330dcdb8a907e219f",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "56b61ea7012557ebe66bb18166d838359c481b4e87917e1fa40bf6b3323115eb",
+        "size": 24691
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidSavedGameClient.cs"
+    },
+    {
+      "guid": "330ac7fa11d9a4bc099f0db5a3c26ad7",
+      "asset.meta": {
+        "sha256": "c4bca635cb4688d4036a215184dc493dec1d88b4f2047e457f0d32dd87761f44",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "b7acab1bf8bb8ea30f07ba55a2234b9de982352eddeaa1b20b268b699165ac08",
+        "size": 2466
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidSnapshotMetadata.cs"
+    },
+    {
+      "guid": "5d045a29538404b2da664bb55de949de",
+      "asset.meta": {
+        "sha256": "b2196ccfe33b26ff896d8d7e8b56d5d18d60fe83d65766687bf21c242d4d9ca0",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "ee5c5bfcec28b2743133a30f46b38acee46c2117b0f5295ec9d944b95fc6943b",
+        "size": 3383
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/Android/AndroidTaskUtils.cs"
+    },
+    {
+      "guid": "ff1201bd0205943ba9c881e50e38156b",
+      "asset.meta": {
+        "sha256": "18b575fbda2b0a663be0313d6749f0bca6ce6cfa951cc8ffa1002f8b60b98554",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "b083e69727fa270a3b6db4e6f5abf19ff582f7cf04ded6358b432150968e1604",
+        "size": 1444
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/NearbyConnectionClientFactory.cs"
+    },
+    {
+      "guid": "435fc2d0dc0ba475e9c8b0796303d6dd",
+      "asset.meta": {
+        "sha256": "2d8178bd1ddad37e2a8e75d01d5e2395997d808a22f82e71bc8a86eef5f3a9ba",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "c06d89cd6e1545d7e0a92fce34e304ffb71dffd1d3561198865d300170c871b8",
+        "size": 1607
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/Platforms/PlayGamesClientFactory.cs"
+    },
+    {
+      "guid": "4539142948daf4a26bf9cd6870ffa0b2",
+      "asset.meta": {
+        "sha256": "907911af3a493678a4c4bb40f6bab0d911766f86927daefce0f8271bb352b18d",
+        "size": 279
+      },
+      "asset": {
+        "sha256": "631627ee44095c0f60bbb3732e3a14a652005a63f08788d0fb17eecc3812fd57",
+        "size": 952
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/Runtime/Scripts/PluginVersion.cs"
+    },
+    {
+      "guid": "51dd7d46faed94b31a71d5f4cec6ce14",
+      "asset.meta": {
+        "sha256": "a4c5b6629778db9b87cfc9ba59b81be71cc0465cf31dfd4aba15881db309900e",
+        "size": 194
+      },
+      "asset": {
+        "sha256": "d4cbb70e9dd6bb93bdee31cb03604263ba346adf85eb17cc10b277bbf9e30cc4",
+        "size": 347
+      },
+      "path": "Assets/Public/GooglePlayGames/com.google.play.games/package.json"
+    },
+    {
+      "guid": "d532dc489b25f4ba58e1d1363f0c2761",
+      "asset.meta": {
+        "sha256": "5b08fc6ea387a2e1ca94b53e94e85488b71eab3b1c6ce0bb7b98d152c3eb9447",
+        "size": 172
+      },
+      "path": "Assets/Public/Plugins"
+    },
+    {
+      "guid": "97480e4feb711467e9a149bcc63ab7fe",
+      "asset.meta": {
+        "sha256": "1d43469bd43eb58d38f082fb738b8e43d40e70d249c4a8b31317f8c34e32bdd0",
+        "size": 172
+      },
+      "path": "Assets/Public/Plugins/Android"
+    },
+    {
+      "guid": "7c95365d53f81457eb049525b4592ddc",
+      "asset.meta": {
+        "sha256": "8b21c3da4bbcb6ec90fac52032d7bc6ee71b6c93aa566d4b85c4c6c81a587fdf",
+        "size": 543
+      },
+      "path": "Assets/Public/Plugins/Android/GooglePlayGamesManifest.androidlib"
+    },
+    {
+      "guid": "772a83c21943f49afa605fd7d46b4331",
+      "asset": {
+        "sha256": "de669bd0ed2cb8a2c1735a2bf93561df0d91d584631246eb49c5c047675de3a9",
+        "size": 927
+      },
+      "path": "Assets/Public/Plugins/Android/GooglePlayGamesManifest.androidlib/AndroidManifest.xml"
+    }
+  ],
+  "ignored_appledouble_entries": 376,
+  "missing_meta_paths": [
+    "Assets/Public/Plugins/Android/GooglePlayGamesManifest.androidlib/AndroidManifest.xml"
+  ],
+  "non_assets_paths": []
+}

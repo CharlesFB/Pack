@@ -1,0 +1,106 @@
+name: servicebase-mac
+x-logging: &service_logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+services:
+  db:
+    image: postgres:16
+    logging: *service_logging
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: servicebase
+      POSTGRES_USER: servicebase
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U servicebase]
+      interval: 5s
+      retries: 10
+  redis:
+    image: redis:7-alpine
+    logging: *service_logging
+    restart: unless-stopped
+    command: [redis-server, --maxmemory, 256mb, --maxmemory-policy, allkeys-lru]
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 5s
+      retries: 10
+  web:
+    build: ../..
+    logging: *service_logging
+    restart: unless-stopped
+    environment:
+      SERVICEBASE_MODE: production
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY}
+      ALLOWED_HOSTS: ${DOMAIN:?Set DOMAIN}
+      POSTGRES_HOST: db
+      POSTGRES_DB: servicebase
+      POSTGRES_USER: servicebase
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      REDIS_URL: redis://redis:6379/0
+      PLUGIN_REPOSITORY_ROOT: /app/external
+      PLUGIN_DELIVERY_ROOT: /app/.runtime/plugin-deliveries
+      SERVICEBASE_ALLOWED_REGISTRIES: ${SERVICEBASE_ALLOWED_REGISTRIES:-https://packages.unity.com}
+      MTP_GITLAB_URL: ${MTP_GITLAB_URL:-https://gitlab.mte.io/}
+      MTP_GITLAB_TOKEN: ${MTP_GITLAB_TOKEN:-}
+      MTP_GITLAB_REF: ${MTP_GITLAB_REF:-master}
+    volumes:
+      - static_data:/app/staticfiles
+      - plugin_deliveries:/app/.runtime/plugin-deliveries
+      - type: bind
+        source: ../../external
+        target: /app/external
+        read_only: true
+        bind:
+          create_host_path: false
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+  proxy:
+    image: caddy:2-alpine
+    logging: *service_logging
+    restart: unless-stopped
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - static_data:/srv/static:ro
+      - caddy_data:/data
+    depends_on: [web]
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    # Compose file secrets retain host permissions; read the owner-only token as root.
+    user: "0:0"
+    read_only: true
+    logging: *service_logging
+    restart: unless-stopped
+    command: [tunnel, --no-autoupdate, run, --token-file, /run/secrets/tunnel_token]
+    secrets: [tunnel_token]
+    depends_on: [proxy]
+  maintenance:
+    build: ../..
+    logging: *service_logging
+    restart: unless-stopped
+    environment:
+      SERVICEBASE_MODE: production
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY}
+      ALLOWED_HOSTS: ${DOMAIN:?Set DOMAIN}
+      POSTGRES_HOST: db
+      POSTGRES_DB: servicebase
+      POSTGRES_USER: servicebase
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      REDIS_URL: redis://redis:6379/0
+    command: [sh, -c, 'while true; do python manage.py prune_bridge_tasks; sleep 86400; done']
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+secrets:
+  tunnel_token:
+    file: ../../.runtime/tunnel-token
+volumes:
+  postgres_data:
+  static_data:
+  caddy_data:
+  plugin_deliveries:

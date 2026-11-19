@@ -1,0 +1,196 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FrontEngine Unity Service 引擎中台服务</title>
+    <link rel="icon" href="{% static 'resources/logo.png' %}?v=lavender-1" type="image/png">
+    <link rel="stylesheet" href="{% static 'dashboard/app.css' %}?v=assets9">
+    <link rel="stylesheet" href="{% static 'dashboard/mtp.css' %}?v=lavender-1">
+    <link rel="stylesheet" href="{% static 'dashboard/plugins.css' %}?v=plugin-lifecycle13">
+</head>
+
+<body>
+    <header>
+        <a class="brand" href="/">
+            <img class="header-icon" src="{% static 'resources/logo.png' %}" alt="FrontEngine Unity Service">
+            <span>FrontEngine Unity Service</span>
+        </a>
+        <span class="divider"></span>
+        <span class="subtitle">引擎中台服务</span>
+        <span class="account-actions">
+            {% if account.is_authenticated %}
+                <span>{{ account.username }}</span>
+                {% if account.is_staff %}
+                    <a href="/settings/">设置</a>
+                {% else %}
+                    <a href="/accounts/device/">
+                        {% if device_bound %}
+                            本机设备
+                        {% else %}
+                            绑定本机设备
+                        {% endif %}
+                    </a>
+                {% endif %}
+                <form action="/accounts/logout/" method="post">
+                    {% csrf_token %}
+                    <button type="submit" class="secondary">退出登录</button>
+                </form>
+            {% else %}
+                <a href="/accounts/login/?next=/">管理员登录</a>
+            {% endif %}
+        </span>
+    </header>
+    <main>
+        <div class="heading">
+            <div>
+                <h1>Unity 工程工作台</h1>
+                <p>查看工程包状态 | 浏览服务器插件仓库</p>
+            </div><button id="open-debug" class="secondary">消息调试</button><button id="refresh" class="secondary">刷新列表
+                <span>↻</span></button>
+        </div>
+        <div class="summary">
+            <div><span id="online-count">0</span> 本页在线工程</div>
+            <div><span id="total-count">0</span> 已发现工程</div>
+            <div class="sync" id="sync-status" role="status">正在连接服务…</div>
+        </div>
+        <div id="page-error" class="error" hidden role="alert"></div>
+        <section class="project-picker" aria-label="Unity 工程选择">
+            <div class="project-actions"><input id="project-search" placeholder="搜索工程名称" aria-label="搜索工程名称"><button
+                    id="prev-page" class="secondary">上一页</button><span id="page-label">1 / 1</span><button
+                    id="next-page" class="secondary">下一页</button></div>
+            <div id="project-list"></div>
+            <p id="empty" hidden>暂无匹配的 Unity 工程。</p>
+        </section>
+        <section id="installation-panel" class="installation-panel installation-history" aria-labelledby="installation-heading">
+            <div class="installation-heading">
+                <div><h2 id="installation-heading">安装计划</h2><p>安装、导入、更新与卸载 · 最近 10 条记录</p></div>
+                <button id="installation-recent" type="button" class="secondary" disabled>继续最近的安装预览</button>
+            </div>
+            <p id="installation-target">请先选择工程。</p>
+            {% csrf_token %}
+            <p id="installation-error" role="alert" hidden></p>
+            <div id="installation-jobs" class="installation-cards" role="list" aria-label="安装记录，可横向滚动"></div>
+        </section>
+        <dialog id="installation-detail" class="installation-detail-dialog" aria-labelledby="installation-detail-title">
+            <div class="installation-detail-heading">
+                <div><p id="installation-detail-context"></p><h2 id="installation-detail-title">安装计划详情</h2></div>
+                <button id="installation-detail-close" type="button" class="secondary" aria-label="关闭安装计划详情">关闭</button>
+            </div>
+            <p id="installation-detail-error" class="error" role="alert" hidden></p>
+            <div id="installation-detail-content"></div>
+        </dialog>
+        <dialog id="legacy-panel" class="installation-detail-dialog legacy-dialog" aria-labelledby="legacy-title">
+            <div class="installation-detail-heading">
+                <h2 id="legacy-title">迁移 MTP 本机记录</h2>
+                <button id="legacy-close" type="button" class="secondary">关闭</button>
+            </div>
+            <p>点击读取后才扫描旧 MTP 记录，逐项选择并确认迁移。迁移保留原记录和工程资源；旧插件仅保存现状基线，不取得自动删除或覆盖权限。</p>
+            <button id="legacy-scan" class="secondary" disabled>读取旧记录并预览</button>
+            <p id="legacy-status" role="status">请先选择工程。</p>
+            <p id="legacy-error" class="error" role="alert" hidden></p>
+            <div id="legacy-previews"></div>
+            <div id="legacy-inventory"></div>
+        </dialog>
+        <nav class="workspace-tabs" role="tablist" aria-label="工作台视图">
+            <button id="workspace-projects" role="tab" aria-selected="true" aria-controls="projects-panel">工程包</button>
+            <button id="workspace-plugins" role="tab" aria-selected="false" aria-controls="plugins-panel"
+                tabindex="-1">插件仓库</button>
+        </nav>
+        <div id="projects-panel" role="tabpanel" aria-labelledby="workspace-projects">
+            <div class="workspace">
+                <section class="packages">
+                    <div class="section-title">
+                        <h2 id="package-heading">工程包列表</h2><button id="refresh-packages"
+                            class="secondary">刷新包信息</button>
+                    </div>
+                    <div class="detail-tabs" role="tablist" aria-label="包视图"><button id="tab-catalog" role="tab"
+                            aria-selected="true" class="active">全部包列表</button><button id="tab-project-tree" role="tab"
+                            aria-selected="false">工程依赖树</button><button id="sync-catalog" class="secondary" 
+                            {% if not account.is_staff %}
+                            disabled title="请先登录管理员账号"
+                            {% endif %}
+                            >同步包信息</button></div>
+                    <p id="package-note" class="tree-note"></p>
+                    <details id="assets-packages" class="tree-note" hidden></details>
+                    <div id="package-columns" class="package-columns">
+                        <span>DisplayName</span><span>构建</span><span>安装</span><span>来源</span>
+                    </div>
+                    <div id="package-list"></div>
+                </section>
+                <aside id="package-detail" aria-live="polite"></aside>
+            </div>
+            <div class="package-footer">
+                <button id="legacy-open" type="button" class="secondary" disabled>迁移 MTP 本机记录</button>
+            </div>
+        </div>
+        <section id="plugins-panel" role="tabpanel" aria-labelledby="workspace-plugins" hidden>
+            <div class="plugin-intro">
+                <div>
+                    <h2>插件仓库</h2>
+                    <p>按来源分类，浏览全部版本与资源信息。</p>
+                </div><span id="plugin-totals" role="status"></span>
+            </div>
+            <p class="plugin-notice">选择工程后可导入、更新和删除插件，并查看 Unity 核对的资源状态。</p>
+            <div class="plugin-toolbar">
+                <label>分类<select id="plugin-group">
+                        <option value="">全部分类</option>
+                    </select></label>
+                <label class="plugin-search-label">搜索插件<input id="plugin-search" type="search"
+                        placeholder="名称或插件 ID"></label>
+                <button id="plugin-reload" class="secondary">刷新仓库</button>
+            </div>
+            <div id="plugin-error" class="error" role="alert" hidden></div>
+            <div class="plugin-workspace">
+                <section aria-label="插件列表">
+                    <p id="plugin-list-status" role="status"></p>
+                    <div id="plugin-list"></div>
+                    <div class="plugin-pagination"><button id="plugin-prev" class="secondary">上一页</button><span
+                            id="plugin-page"></span><button id="plugin-next" class="secondary">下一页</button></div>
+                </section>
+                <aside id="plugin-detail" aria-label="插件详情" aria-live="polite">
+                    <p>选择插件查看版本与详情。</p>
+                </aside>
+            </div>
+        </section>
+        <dialog id="debug-dialog" aria-labelledby="debug-title">
+            <div class="dialog-heading">
+                <h2 id="debug-title">消息调试</h2><button id="close-debug" class="secondary" aria-label="关闭消息调试">关闭</button>
+            </div>
+            <aside>
+                <div class="section-title">
+                    <h2>消息调试</h2><span class="badge">MOCK</span>
+                </div>
+                <div class="composer">
+                    <div class="field-label">目标工程</div>
+                    <div id="target-name">请先选择一个在线工程</div>
+                    <div id="target-endpoint">GET / POST 消息 → 工程任务队列</div>
+                    <form id="message-form">{% csrf_token %}<label for="method">请求方式</label><select id="method">
+                            <option>POST</option>
+                            <option>GET</option>
+                        </select><label for="message">字符串消息</label><textarea id="message" maxlength="2000" rows="5"
+                            placeholder="例如：Hello Unity，连接测试">Hello Unity，来自 ServiceBase 的消息！</textarea>
+                        <div class="hint">Unity Console 会输出消息，并返回 mock JSON。</div><button id="send" type="submit"
+                            disabled>发送到 Unity <span>→</span></button>
+                    </form>
+                    <div id="send-error" class="error" hidden role="alert"></div>
+                </div>
+                <div class="response">
+                    <div class="section-title">
+                        <h2>最近响应</h2><span id="response-meta">尚未发送</span>
+                    </div>
+                    <pre id="response-output" aria-live="polite">发送一条消息，查看工程返回结果。</pre>
+                </div>
+            </aside>
+        </dialog>
+        <footer><span>工程包快照 · 安装计划 · 插件管理</span><span>新版 Bridge 45 秒无心跳标记离线</span></footer>
+    </main>
+    <script type="module" src="{% static 'dashboard/app.js' %}?v=plugin-lifecycle13"></script>
+    <script type="module" src="{% static 'dashboard/plugins.js' %}?v=plugin-lifecycle13"></script>
+    <script type="module" src="{% static 'dashboard/installations.js' %}?v=plugin-lifecycle13"></script>
+    <script type="module" src="{% static 'dashboard/legacy-migration.js' %}?v=plugin-lifecycle13"></script>
+</body>
+
+</html>

@@ -1,0 +1,1110 @@
+{
+  "schema_version": 1,
+  "catalog_project_id": 647,
+  "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+  "selection": "highest numeric version suffix among package tags without debug; named release variants included; standard tag wins equal version",
+  "rows": [
+    {
+      "project_id": 603,
+      "package_short_name": "mtspine",
+      "state": "scanned",
+      "tag": "mtspine-original-3.8.0",
+      "commit": "1ea2490c342f03080c92bf719325ba711fec155b",
+      "package_name": "com.magictavern.spine",
+      "package_version": "3.8.0",
+      "package_json_sha256": "a301d21556a82fa5a5d584a189a3d4d82a022ab317c93d3247b61a7f2dd753f9",
+      "files": []
+    },
+    {
+      "project_id": 614,
+      "package_short_name": "mtpdevtoolkit",
+      "state": "scanned",
+      "tag": "mtpdevtoolkit-1.2.8",
+      "commit": "1df14309c783c1104ee5b3840171fa90140e23b1",
+      "package_name": "com.magictavern.mtpdevtoolkit",
+      "package_version": "1.2.8",
+      "package_json_sha256": "6b2f2724812502955c41b73d4fabf79fb8f84b31ea9fdafe478c40f6617ad026",
+      "files": []
+    },
+    {
+      "project_id": 614,
+      "package_short_name": "mtpmanager",
+      "state": "scanned",
+      "tag": "mtpmanager-1.3.19",
+      "commit": "868dacc9706cb9e3a2154dda4d23b6080b1125a3",
+      "package_name": "com.magictavern.mtpmanager",
+      "package_version": "1.3.19",
+      "package_json_sha256": "d8a7d44f10e6218a1147420b395500f0c76e0d0f8935e77b15c77f3bf28f1dee",
+      "files": []
+    },
+    {
+      "project_id": 618,
+      "package_short_name": "base",
+      "state": "scanned",
+      "tag": "base-1.0.25",
+      "commit": "0b8e660268d1e7d5a4ad69df99bc3d68a453c5b1",
+      "package_name": "com.magictavern.frontengine.base",
+      "package_version": "1.0.25",
+      "package_json_sha256": "3907e8a12ff40792b1b0a1ec359eaff6e20127172f393cb4e80a599221e3bf48",
+      "files": []
+    },
+    {
+      "project_id": 627,
+      "package_short_name": "eventmanager",
+      "state": "scanned",
+      "tag": "eventmanager-1.0.14",
+      "commit": "c40cf45d664555adb1bf32dd5f4779d1dbf3afa6",
+      "package_name": "com.magictavern.eventmanager",
+      "package_version": "1.0.14",
+      "package_json_sha256": "d8aa3ea5a0b8e0e4d21b7f2b3b430b680f88a03c72d73a8a99664bd7b85c06c3",
+      "files": []
+    },
+    {
+      "project_id": 636,
+      "package_short_name": "lecommon",
+      "state": "scanned",
+      "tag": "lecommon-1.0.10",
+      "commit": "c2cc5f7b767ecbcdf9572097c8cde4fd1ec555b9",
+      "package_name": "com.magictavern.lecommon",
+      "package_version": "1.0.10",
+      "package_json_sha256": "0a59b9c83c02929c4bc7219ca2a2f5a37bdbcffbae3f7903f4c74c10e227491e",
+      "files": []
+    },
+    {
+      "project_id": 646,
+      "package_short_name": "guiassetimporter",
+      "state": "scanned",
+      "tag": "guiassetimporter-1.0.16",
+      "commit": "70b6e35f66345f25caba4260941d7173d413c890",
+      "package_name": "com.magictavern.guiassetimporter",
+      "package_version": "1.0.16",
+      "package_json_sha256": "c64861a6123faf435766a69568080b592eaed705f2c6b8171ca9953b811604d8",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/Odin Inspector 3.1.10.0.unitypackage",
+          "blob_id": "12295185084427ae91573722ae5fa4cc7a68397c",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 680,
+      "package_short_name": "nativeutility",
+      "state": "scanned",
+      "tag": "nativeutility-1.3.27",
+      "commit": "8ec63868f8d3b415ebf3d57adc9f7971ff78814d",
+      "package_name": "com.magictavern.nativeutility",
+      "package_version": "1.3.27",
+      "package_json_sha256": "b7d9f3960fa416433052b3d981daa57f6f84c5ef398076955d60e1b9ac96e43d",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/external-dependency-manager-1.2.175.unitypackage",
+          "blob_id": "c6162d8a0ae9fc9502b8e9742a1253a63871ad5e",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 680,
+      "package_short_name": "taskinvoker",
+      "state": "no_release",
+      "available_tags": [
+        "taskinvoker-debug"
+      ]
+    },
+    {
+      "project_id": 682,
+      "package_short_name": "track",
+      "state": "scanned",
+      "tag": "track-1.1.18",
+      "commit": "70230c089aade9376d1c9cbd9afff9905f30f48b",
+      "package_name": "com.magictavern.track",
+      "package_version": "1.1.18",
+      "package_json_sha256": "30f8cac866c2cec43ff0c7dd290b7ef54842f88bc9285ec6166ebf62f3f917d9",
+      "files": []
+    },
+    {
+      "project_id": 682,
+      "package_short_name": "tracklib",
+      "state": "scanned",
+      "tag": "tracklib-1.0.8",
+      "commit": "c05b401b34cb7d7fff124d67046f29660052cd06",
+      "package_name": "com.magictavern.tracklib",
+      "package_version": "1.0.8",
+      "package_json_sha256": "703cbbf025ab3fcf6da4be1c390574f19c132867b0d8d3c7dc05aa0930350e61",
+      "files": []
+    },
+    {
+      "project_id": 689,
+      "package_short_name": "cibuildpipeline",
+      "state": "scanned",
+      "tag": "cibuildpipeline-1.2.22",
+      "commit": "5bda12cc57da1cac3080254720df5f8d21fe00ac",
+      "package_name": "com.magictavern.cibuildpipeline",
+      "package_version": "1.2.22",
+      "package_json_sha256": "77a392bcdb4489bcf3703845d7b5dc58ec8e1b0b1620466b82ce8ecb96e6f608",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/BuildConfig.zip",
+          "blob_id": "9aa692f175b2874e5544be74ad43cdb3722ace06",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 692,
+      "package_short_name": "filedispatcher",
+      "state": "scanned",
+      "tag": "filedispatcher-develop-0.0.6",
+      "commit": "75c7caa35f41b5dfd4a23bb4a89455033851e846",
+      "package_name": "com.magictavern.filedispatcher",
+      "package_version": "0.0.6",
+      "package_json_sha256": "25b1ef177875acfa70ff8d7f1abcb528625f58c8d73ab53e77aaa47e6e0b1b5d",
+      "files": []
+    },
+    {
+      "project_id": 692,
+      "package_short_name": "filereceiver",
+      "state": "scanned",
+      "tag": "filereceiver-develop-0.0.4",
+      "commit": "0c9dc7656c5ac176396d14f980654553723d5246",
+      "package_name": "com.magictavern.filereceiver",
+      "package_version": "0.0.4",
+      "package_json_sha256": "ee0926b335361aa7eded4b2d0946476ab8c01ef50b6d5f11c4a079d4a44c66d0",
+      "files": []
+    },
+    {
+      "project_id": 692,
+      "package_short_name": "mtmatch",
+      "state": "scanned",
+      "tag": "mtmatch-develop-1.0.10",
+      "commit": "645ff8c4096d40446e271f4cabe90126aa7e21fa",
+      "package_name": "com.magictavern.mtmatch",
+      "package_version": "1.0.10",
+      "package_json_sha256": "f6513c6484db4ea38789e2a4e04e8f96e9cebc876bb4bdb3ddda660c5fcc42d8",
+      "files": []
+    },
+    {
+      "project_id": 692,
+      "package_short_name": "mtmatcheditor",
+      "state": "scanned",
+      "tag": "mtmatcheditor-develop-1.0.5",
+      "commit": "d6276ebcbefc632fe69bab2e253b5ad3569418d6",
+      "package_name": "com.magictavern.matcheditor",
+      "package_version": "1.0.5",
+      "package_json_sha256": "2b7a17e4258b2842868ee028fb4ddb625d2639d370c6f107108d162f3d8ce311",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage",
+      "state": "scanned",
+      "tag": "testpackage-1.0.12",
+      "commit": "2d353a386047320902754fa2f6a70d14513438d4",
+      "package_name": "com.magictavern.testpackage",
+      "package_version": "1.0.12",
+      "package_json_sha256": "bf3353126f1b02dd561ec7b32e709ca6ed861419b2e9f64578726e42538ed9f9",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage10",
+      "state": "scanned",
+      "tag": "testpackage10-1.0.0",
+      "commit": "27d8b0fc08746c2a64c6fd9b0fc0c1b273ab787f",
+      "package_name": "com.magictavern.testpackage10",
+      "package_version": "1.0.0",
+      "package_json_sha256": "841af868b1d7b2490c736e4fdb5e74fe641bae93b0b1325198513b92381f40fc",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage11",
+      "state": "scanned",
+      "tag": "testpackage11-1.0.0",
+      "commit": "1fe13069360ea7e81b72f28887be6a6c899e8faa",
+      "package_name": "com.magictavern.testpackage11",
+      "package_version": "1.0.0",
+      "package_json_sha256": "c6c4672a3aa839f0683b4c6ec70404b1ab4729cf00ce51285d4280e8722671fe",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage12",
+      "state": "scanned",
+      "tag": "testpackage12-1.0.2",
+      "commit": "d6d28bea7eaa0aff076543b721f473966a7f3da2",
+      "package_name": "com.magictavern.testpackage12",
+      "package_version": "1.0.2",
+      "package_json_sha256": "abcae7c66b8ebf75f7134a482f567277fed9ffe1b6f6ca623cefa91348f20abd",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage13",
+      "state": "scanned",
+      "tag": "testpackage13-1.0.1",
+      "commit": "cc3c69aa38ef11a6059ef6b849eae8c6f2f0ae02",
+      "package_name": "com.magictavern.testpackage13",
+      "package_version": "1.0.1",
+      "package_json_sha256": "11429d959d1186a4000ef7513a0cfa6f4b3ff32d5ea4eab6255ad68d99ff7b86",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage2",
+      "state": "scanned",
+      "tag": "testpackage2-1.0.0",
+      "commit": "7d00f7f376fd7c6b9c01bd9457f4008e7eda9e2e",
+      "package_name": "com.magictavern.testpackage2",
+      "package_version": "1.0.0",
+      "package_json_sha256": "1cdf01c175caa5ccd2b2ea8495f85f3173dc2a8f9b33841054ac348917015020",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage3",
+      "state": "scanned",
+      "tag": "testpackage3-jump-1.0.5",
+      "commit": "ff29de9a78c3245001c691d3d4e3f5e1b330be62",
+      "package_name": "com.magictavern.testpackage3",
+      "package_version": "1.0.3",
+      "package_json_sha256": "e4c21d0ffa162d2fef4557822f4a04f4bc8e13dcc15aadf7eec71eafa51b409a",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage4",
+      "state": "scanned",
+      "tag": "testpackage4-1.0.1",
+      "commit": "9797980bb9d9d1b4c07571722ead0a9024742714",
+      "package_name": "com.magictavern.testpackage4",
+      "package_version": "1.0.1",
+      "package_json_sha256": "8e747e34c2d5ba14411309f20b6f3c8bc04c605a580f5faa17ce02e23560c4f6",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage5",
+      "state": "no_release",
+      "available_tags": [
+        "testpackage5-debug"
+      ]
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage6",
+      "state": "scanned",
+      "tag": "testpackage6-1.0.0",
+      "commit": "8955b8201cc14d62946bfee29aaf9ae1372a7e3d",
+      "package_name": "com.magictavern.TestPackage6",
+      "package_version": "1.0.0",
+      "package_json_sha256": "b677337c422f4a93f4028b2f11145d4bcf45e01477a12499fa5fdaebd1820318",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage7",
+      "state": "scanned",
+      "tag": "testpackage7-1.0.0",
+      "commit": "1a6c95b04a999b63c93e9393211b8b7ea6212645",
+      "package_name": "com.magictavern.testpackage7",
+      "package_version": "1.0.0",
+      "package_json_sha256": "cd26df8c8a14922fa28820950e185ba858e102cb3065724cf0417f974e7143ff",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage8",
+      "state": "scanned",
+      "tag": "testpackage8-1.0.1",
+      "commit": "1c01ff8da05d71d99d3f1bcea42a7508d09f3d10",
+      "package_name": "com.magictavern.testpackage8",
+      "package_version": "1.0.0",
+      "package_json_sha256": "4f13e528bc327f1f825d13bca55c0ff34ca406ed8dac48bbd27fa1057caadf1b",
+      "files": []
+    },
+    {
+      "project_id": 693,
+      "package_short_name": "testpackage9",
+      "state": "scanned",
+      "tag": "testpackage9-1.0.0",
+      "commit": "d458c1323195390f2319ad576e980ccb50164e12",
+      "package_name": "com.magictavern.testpackage9",
+      "package_version": "1.0.0",
+      "package_json_sha256": "e46d01d3111bd90b191b638acf8c2d6ac0be8160da26edc2091b74cbc8e9564e",
+      "files": []
+    },
+    {
+      "project_id": 707,
+      "package_short_name": "adssdk",
+      "state": "scanned",
+      "tag": "adssdk-1.0.27",
+      "commit": "9a653b2e93a880add660a28af7bb893f335f8cad",
+      "package_name": "com.magictavern.sdk.ads",
+      "package_version": "1.0.27",
+      "package_json_sha256": "fbadfa44c576c2978ef5875763ac8548061df29961040dc4a164cec91a28b0c9",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/AppLovin-MAX-Unity-Plugin-8.0.1-Android-13.0.1-iOS-13.0.1.unitypackage",
+          "blob_id": "5c430acd62f9c8d23613fd9bcb82ea00298fafdd",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 708,
+      "package_short_name": "adjustsdk",
+      "state": "scanned",
+      "tag": "adjustsdk-1.0.1",
+      "commit": "3f056081d35a9fa2c0216facc143e712a2becc73",
+      "package_name": "com.magictavern.sdk.adjustsdk",
+      "package_version": "1.0.1",
+      "package_json_sha256": "d25ad2b5330f136a2d6348f46123c5f41cf4bd5f3f4d956ba2f37ef84f590fed",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/Adjust_v5.0.6.unitypackage",
+          "blob_id": "15f4b9e5e172170cd2f39d2e7d929b7fd1b6a1e9",
+          "conventional_location": true
+        },
+        {
+          "path": "Editor/PluginsPackage/external-dependency-manager-1.2.175.unitypackage",
+          "blob_id": "c6162d8a0ae9fc9502b8e9742a1253a63871ad5e",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 726,
+      "package_short_name": "audiomanager",
+      "state": "scanned",
+      "tag": "audiomanager-1.1.11",
+      "commit": "6e98204a243748a5db0af7389d34b0a1c1ce4a2b",
+      "package_name": "com.magictavern.audiomanager",
+      "package_version": "1.1.11",
+      "package_json_sha256": "27e63201f51faf084736e5255338f22ffead56bb3c8131f1fd3b7c8936c70b64",
+      "files": []
+    },
+    {
+      "project_id": 749,
+      "package_short_name": "purchasingsdk",
+      "state": "scanned",
+      "tag": "purchasingsdk-1.8.0",
+      "commit": "197b077ca085326bd718e598324686347437b46a",
+      "package_name": "com.magictavern.purchasingsdk",
+      "package_version": "1.8.0",
+      "package_json_sha256": "4c314201a82b5865d3554186300102f7c629bcda10fdd25b01979d84f56432d7",
+      "files": []
+    },
+    {
+      "project_id": 753,
+      "package_short_name": "configtool",
+      "state": "scanned",
+      "tag": "configtool-1.2.25",
+      "commit": "7e1c0f3aa0b873069985a1088968dab26943dc7f",
+      "package_name": "com.magictavern.configtool",
+      "package_version": "1.2.25",
+      "package_json_sha256": "b0e095a38ed73eadaa764a61deab6365636f3bf9e6ba45c0abfa246bc15323a1",
+      "files": []
+    },
+    {
+      "project_id": 759,
+      "package_short_name": "devicemanager",
+      "state": "scanned",
+      "tag": "devicemanager-1.0.3",
+      "commit": "0905e0d963246f0652e08eda7a70468484133f48",
+      "package_name": "com.magictavern.devicemanager",
+      "package_version": "1.0.3",
+      "package_json_sha256": "0f80fddc9e862e92d95151db0d7132f47812f2efb81cdf163460d00bb752805a",
+      "files": []
+    },
+    {
+      "project_id": 760,
+      "package_short_name": "assetsmanager",
+      "state": "scanned",
+      "tag": "assetsmanager-1.1.21",
+      "commit": "009347d53a630ae907058e983e7b6754c7de40a7",
+      "package_name": "com.magictavern.assetsmanager",
+      "package_version": "1.1.21",
+      "package_json_sha256": "25e82a31e8f751eb415a7b077db3f29fd44673018dd846e4f474fbb9fbf263bc",
+      "files": []
+    },
+    {
+      "project_id": 763,
+      "package_short_name": "mtaccount",
+      "state": "scanned",
+      "tag": "mtaccount-1.0.21",
+      "commit": "2075101bbae14615073a048d4b9d1b416f8388ef",
+      "package_name": "com.magictavern.mtaccount",
+      "package_version": "1.0.21",
+      "package_json_sha256": "0f1eb5b39c555b9e30c1ccd38d5b48036525e8c84a38241f82b6a8133b5886eb",
+      "files": []
+    },
+    {
+      "project_id": 763,
+      "package_short_name": "mtnetwork",
+      "state": "scanned",
+      "tag": "mtnetwork-1.0.19",
+      "commit": "97ed7784a38f29563b2f711b709d0be006e53044",
+      "package_name": "com.magictavern.mtnetwork",
+      "package_version": "1.0.19",
+      "package_json_sha256": "0ffe6c7a2cff81c5a9f14a8804a39cb957d9965fc6a93a61b00cb0d5fa278e3b",
+      "files": []
+    },
+    {
+      "project_id": 770,
+      "package_short_name": "authoritymanager",
+      "state": "scanned",
+      "tag": "authoritymanager-0.0.4",
+      "commit": "5d4f676e17003deec153c1a88c751080d3013f77",
+      "package_name": "com.magictavern.authoritymanager",
+      "package_version": "0.0.4",
+      "package_json_sha256": "7caf2d2beeec13324b918002a6b4ee46a9f06ccb18b50b468250c7b368d1e258",
+      "files": []
+    },
+    {
+      "project_id": 781,
+      "package_short_name": "protobuf",
+      "state": "scanned",
+      "tag": "protobuf-3.21.8",
+      "commit": "510dbdea76f3a8cfb49519d016a2c4e2efb1be6b",
+      "package_name": "com.magictavern.thirdparty.protobuf",
+      "package_version": "3.21.8",
+      "package_json_sha256": "786bdf8f681ef480ff7e623824a5395bbad23757315e2000d3b2776a968af5ef",
+      "files": []
+    },
+    {
+      "project_id": 781,
+      "package_short_name": "systembuffer",
+      "state": "scanned",
+      "tag": "systembuffer-1.0.0",
+      "commit": "75dac2faa7301b3fdfe2ed580945ac6196215eb9",
+      "package_name": "com.magictavern.thirdparty.systembuffer",
+      "package_version": "1.0.0",
+      "package_json_sha256": "5a46e941bbe7a7e83aca07943372517e96792ac1f81b2167aaf9279249d79ff9",
+      "files": []
+    },
+    {
+      "project_id": 784,
+      "package_short_name": "bsdiff",
+      "state": "no_release",
+      "available_tags": [
+        "bsdiff-debug"
+      ]
+    },
+    {
+      "project_id": 784,
+      "package_short_name": "mtaddressable",
+      "state": "scanned",
+      "tag": "mtaddressable-upgrade/2022.3.62-1.21.23",
+      "commit": "562ea47abd2a4b316660884f1adc73c6e9560767",
+      "package_name": "com.magictavern.mtaddressable",
+      "package_version": "1.21.23",
+      "package_json_sha256": "1a76e9d31b250ea8a467b23a3e33dca73cb9c4d561644380b7d74ccd012952ea",
+      "files": []
+    },
+    {
+      "project_id": 791,
+      "package_short_name": "appleauth",
+      "state": "scanned",
+      "tag": "appleauth-1.4.3",
+      "commit": "d5f04b397d0c3e62fce667676d009170c2293f35",
+      "package_name": "com.magictavern.thirdparty.applesigninunity",
+      "package_version": "1.4.3",
+      "package_json_sha256": "53541673d571b0e77a8180f075afcbfb76b47cb98e753ddc1045a38ac742b7d2",
+      "files": []
+    },
+    {
+      "project_id": 791,
+      "package_short_name": "socialaccountsdk",
+      "state": "scanned",
+      "tag": "socialaccountsdk-1.0.26",
+      "commit": "6150ebe13c67182651df83dcfe3ecc8bd30047a3",
+      "package_name": "com.magictavern.sdk.socialaccount",
+      "package_version": "1.0.26",
+      "package_json_sha256": "6d42ede296fe0d74eeef69ac551ab719d03a7483877cfcecb681ddd131df4cf2",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/facebook-unity-sdk-16.0.2.unitypackage",
+          "blob_id": "d923cf0e8c54ff542963dc4e064b8a99140124a5",
+          "conventional_location": true
+        },
+        {
+          "path": "Editor/PluginsPackage/google-signin-plugin-1.0.4.12.unitypackage",
+          "blob_id": "92b3222f73ee1e8ec8e86185599910c99a96bb16",
+          "conventional_location": true
+        },
+        {
+          "path": "Editor/PluginsPackage/googleplay-games.unitypackage",
+          "blob_id": "e3267a7f55896d303ad24beafc6b288f2f5da7ec",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 792,
+      "package_short_name": "mtsocket",
+      "state": "scanned",
+      "tag": "mtsocket-develop-0.0.1",
+      "commit": "442221aba685182eb85f890901e7d78786b48280",
+      "package_name": "com.magictavern.socket",
+      "package_version": "0.0.1",
+      "package_json_sha256": "66c4d3895f20e6d80affb975b45b8bcef7d93f99460e399b75228bdca62c290c",
+      "files": []
+    },
+    {
+      "project_id": 793,
+      "package_short_name": "zstring",
+      "state": "scanned",
+      "tag": "zstring-2.4.5",
+      "commit": "c3f8edd8beff8b25abfdae201bfedc3c815b14c9",
+      "package_name": "com.magictavern.zstring",
+      "package_version": "2.4.5",
+      "package_json_sha256": "a604866483ed0ae6e7ad6faf9c56ac292c903be37368374ddc4d306f65676c62",
+      "files": []
+    },
+    {
+      "project_id": 794,
+      "package_short_name": "unitask",
+      "state": "scanned",
+      "tag": "unitask-2.3.1",
+      "commit": "1fa809f1cd602c4691f8fcb077a3af402ad57d17",
+      "package_name": "com.magictavern.unitask",
+      "package_version": "2.3.1",
+      "package_json_sha256": "60ba870c4c89d6cb6476c77a3ce3c0e41e857c3bf038c2a0719bb48cd8521771",
+      "files": []
+    },
+    {
+      "project_id": 797,
+      "package_short_name": "mtlitjson",
+      "state": "scanned",
+      "tag": "mtlitjson-develop-1.0.1",
+      "commit": "f4299fdc3052943c8683fa44d0f9e10a24707728",
+      "package_name": "com.magictavern.litjson",
+      "package_version": "1.0.1",
+      "package_json_sha256": "9810644b332906bbb93d73b27a837dc47688cf20d8a20af462e16bf52d2b941f",
+      "files": []
+    },
+    {
+      "project_id": 819,
+      "package_short_name": "cheattool",
+      "state": "scanned",
+      "tag": "cheattool-2.2.14",
+      "commit": "ee75963e50bfe55ae74f3a2d24f3bb046a982709",
+      "package_name": "com.magictavern.cheattool",
+      "package_version": "2.2.14",
+      "package_json_sha256": "a6395d0fa301565bf73fe261e6ec48c1af8c665c2e20a6a8cf4078862300c19d",
+      "files": []
+    },
+    {
+      "project_id": 819,
+      "package_short_name": "srcheattool",
+      "state": "no_release",
+      "available_tags": [
+        "srcheattool-feature/SRDebugger-debug"
+      ]
+    },
+    {
+      "project_id": 820,
+      "package_short_name": "sharpziplib",
+      "state": "scanned",
+      "tag": "sharpziplib-1.3.3",
+      "commit": "d7b2c076f0b1642b081a37b0039fa56dc317d705",
+      "package_name": "com.magictavern.thirdparty.sharpziplib",
+      "package_version": "1.3.3",
+      "package_json_sha256": "2759c70912c9cc96662a29a0ed29e19ae5452ddb289fa9d4c6cc9a3e73125864",
+      "files": []
+    },
+    {
+      "project_id": 841,
+      "package_short_name": "notificationmanager",
+      "state": "scanned",
+      "tag": "notificationmanager-1.0.13",
+      "commit": "5e87c9b89506a965aecca0d463af90e720958db8",
+      "package_name": "com.magictavern.notificationmanager",
+      "package_version": "1.0.13",
+      "package_json_sha256": "57eea3818d95311d07a366d36ed5358d6ab798ebe0d90e7fb026153875382bdb",
+      "files": []
+    },
+    {
+      "project_id": 843,
+      "package_short_name": "mtuiframework",
+      "state": "scanned",
+      "tag": "mtuiframework-2.5.16",
+      "commit": "23ed4e5f983bd2daf3f5bbe8339b65433bc5bb85",
+      "package_name": "com.magictavern.mtuiframework",
+      "package_version": "2.5.16",
+      "package_json_sha256": "c0146c317e570679acd7d952134bc3e7b821a6f7ffa5b232ef0439874f01ed1f",
+      "files": [
+        {
+          "path": "Runtime/Plugins/Animations.unitypackage",
+          "blob_id": "3f41520bb7865addac986178ba93bd657339b92c",
+          "conventional_location": false
+        },
+        {
+          "path": "Runtime/Plugins/Demigiant.unitypackage",
+          "blob_id": "ca8895431b09adae2958fd1bc9f14a23266c1273",
+          "conventional_location": false
+        }
+      ]
+    },
+    {
+      "project_id": 853,
+      "package_short_name": "hotfixdownloader",
+      "state": "scanned",
+      "tag": "hotfixdownloader-1.1.40",
+      "commit": "bfbdf2626e28f426f6f076246d29410459aac477",
+      "package_name": "com.magictavern.hotfixdownloader",
+      "package_version": "1.1.40",
+      "package_json_sha256": "d3ec93ca10ce05ccaee0f2bb95100d2313ac45d94813ed7d2642e3102c61cf73",
+      "files": []
+    },
+    {
+      "project_id": 853,
+      "package_short_name": "hybridclr",
+      "state": "scanned",
+      "tag": "hybridclr-8.6.0",
+      "commit": "5011fd7b26ae874dc1ada1f2b913afd544268c5e",
+      "package_name": "com.magictavern.hybridclr",
+      "package_version": "8.6.0",
+      "package_json_sha256": "eaff2aaa050bf7dbefbda92419405241fb3d8e2cd5be791465f8a2fc0be7f77c",
+      "files": []
+    },
+    {
+      "project_id": 853,
+      "package_short_name": "hybridclrhelper",
+      "state": "scanned",
+      "tag": "hybridclrhelper-1.0.1",
+      "commit": "11a6857135048950bc7e9feecb34f52b9009415c",
+      "package_name": "com.magictavern.hybridclrhelper",
+      "package_version": "1.0.1",
+      "package_json_sha256": "3677c393b8b0979dea780eae532d3119e167a4ebf4cf01a7d2026c41d05c8e20",
+      "files": []
+    },
+    {
+      "project_id": 855,
+      "package_short_name": "h5gamemanager",
+      "state": "scanned",
+      "tag": "h5gamemanager-1.0.7",
+      "commit": "8744955f7f321b3f321f02d1056c3f855c2f2040",
+      "package_name": "com.magictavern.h5game",
+      "package_version": "1.0.7",
+      "package_json_sha256": "1f75cbd62dde47fc4df605209e1a794bff85483c2754bbf7e9fd4ab25f3a7ee4",
+      "files": []
+    },
+    {
+      "project_id": 869,
+      "package_short_name": "psd2ugui",
+      "state": "scanned",
+      "tag": "psd2ugui-0.0.11",
+      "commit": "2036defc200422bddb4d4da602f29fc795274226",
+      "package_name": "com.magictavern.psd2ugui",
+      "package_version": "0.0.11",
+      "package_json_sha256": "cfaa9c91bff01b2fb2aabc2c631a5e0a917cd83743f4cc7349a2074048765bfe",
+      "files": []
+    },
+    {
+      "project_id": 872,
+      "package_short_name": "mtu8",
+      "state": "scanned",
+      "tag": "mtu8-0.1.30",
+      "commit": "05187d46fe260dba8df83b8dc872a39fcf772635",
+      "package_name": "com.magictavern.mtu8",
+      "package_version": "0.1.30",
+      "package_json_sha256": "d49369c786f08c9719095ae96e780d7d20591ef813a11a7f10bbb914303ee21b",
+      "files": []
+    },
+    {
+      "project_id": 917,
+      "package_short_name": "langtool",
+      "state": "scanned",
+      "tag": "langtool-1.4.12",
+      "commit": "764b87e05bb3ff6871e02e26cf52da953db161a7",
+      "package_name": "com.magictavern.langtool",
+      "package_version": "1.4.12",
+      "package_json_sha256": "dc7bf64fabb4ccdfb08aa400f17ac77a868dee2789ba353996bc2a40ca0c6a2b",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/Odin Inspector_ConfigTool.unitypackage",
+          "blob_id": "05aadde00eef39fff8da2866182b6cd42ed218ba",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 921,
+      "package_short_name": "modulesystem",
+      "state": "scanned",
+      "tag": "modulesystem-1.0.2",
+      "commit": "57c569df871457c3f1063260b267322785f60ba0",
+      "package_name": "com.magictavern.modulesystem",
+      "package_version": "1.0.2",
+      "package_json_sha256": "a59fb97c533cf19067fe138c250afe15f3092e87fbfc539f94ca8081b63051d5",
+      "files": []
+    },
+    {
+      "project_id": 921,
+      "package_short_name": "scriban",
+      "state": "scanned",
+      "tag": "scriban-5.5.2",
+      "commit": "bee7dc182d5a46381a54e5c71c002f52670509fd",
+      "package_name": "com.magictavern.thirdparty.scriban",
+      "package_version": "5.5.2",
+      "package_json_sha256": "d2446af83cd1f1b639a6193fff19aaed6f574d9accb001b62f3411e036792771",
+      "files": []
+    },
+    {
+      "project_id": 1102,
+      "package_short_name": "langtooltmpsupport",
+      "state": "scanned",
+      "tag": "langtooltmpsupport-1.2.2",
+      "commit": "1eddefb5090cc52b9c86ed303bb5eec67a5e6684",
+      "package_name": "com.magictavern.langtool_tmpsupport",
+      "package_version": "1.2.2",
+      "package_json_sha256": "87c34f512a5b1a61653e81eb1ef271502731fae288034d2d18319f7c818b9e0c",
+      "files": []
+    },
+    {
+      "project_id": 1102,
+      "package_short_name": "rtltmpro",
+      "state": "scanned",
+      "tag": "rtltmpro-3.4.3",
+      "commit": "0fc7667fee0276c243cef1ad1c2edad0a5525398",
+      "package_name": "com.magictavern.rtltmpro",
+      "package_version": "3.4.3",
+      "package_json_sha256": "957b3f92c8118b13060dcba4ddd6a3ad66b18b5f76cca73dbe9ffc71cb64b6e4",
+      "files": []
+    },
+    {
+      "project_id": 1153,
+      "package_short_name": "bezieranimationeditor",
+      "state": "scanned",
+      "tag": "bezieranimationeditor-1.0.5",
+      "commit": "3cedfeee48a16cb05234d01b17a98bfdedc0f4f5",
+      "package_name": "com.magictavern.bezieranimationeditor",
+      "package_version": "1.0.5",
+      "package_json_sha256": "57b7dbc92e3c68e5c9a861d230500706210c47d2e3bd05984e3d26c874604c60",
+      "files": []
+    },
+    {
+      "project_id": 1167,
+      "package_short_name": "nativecrashtracker",
+      "state": "scanned",
+      "tag": "nativecrashtracker-1.0.4",
+      "commit": "da5f8efda983b7f7f9f544cc282c717ff0e1fb59",
+      "package_name": "com.magictavern.nativecrashtracker",
+      "package_version": "1.0.4",
+      "package_json_sha256": "fd7ae9b703cc4d63cc51ba977f1f337148a4175d18c2e1bc3cf8d24d45a85be4",
+      "files": []
+    },
+    {
+      "project_id": 1170,
+      "package_short_name": "helpshiftsdk",
+      "state": "scanned",
+      "tag": "helpshiftsdk-1.0.0",
+      "commit": "cf2371c16bab65a09b56b5d207fe17fb2f78639c",
+      "package_name": "com.magictavern.helpshiftsdk",
+      "package_version": "1.0.0",
+      "package_json_sha256": "f045ade74d9465461b6cfbef2c782c9f1dc059273d48a42b328905b6266704e4",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/helpshiftX-plugin-unity-v10.2.1/helpshiftX-plugin-unity-v10.2.1.unitypackage",
+          "blob_id": "fc0f64d33b5496007710fda897c2cde478f695d2",
+          "conventional_location": true
+        },
+        {
+          "path": "Editor/PluginsPackage/helpshiftX-plugin-unity-v10.2.1/unity-jar-resolver/external-dependency-manager-1.2.170.unitypackage",
+          "blob_id": "964b91da4cfce8cd64b2d2156d51824a864bf486",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 1175,
+      "package_short_name": "vibrationutils",
+      "state": "scanned",
+      "tag": "vibrationutils-1.0.15",
+      "commit": "dbf1d1fb2c409eba3090bdd67ed97aa6bfe409b4",
+      "package_name": "com.magictavern.vibrationutils",
+      "package_version": "1.0.15",
+      "package_json_sha256": "d8fb6e31764b02ab81d2981f21fd4844fe91b0000591224cc6212e2dded15165",
+      "files": []
+    },
+    {
+      "project_id": 1258,
+      "package_short_name": "userdata",
+      "state": "scanned",
+      "tag": "userdata-1.0.4",
+      "commit": "6b1db972457939f99b882390984117dadee18063",
+      "package_name": "com.magictavern.userdata",
+      "package_version": "1.0.4",
+      "package_json_sha256": "4c1d0793e4a25deae2a6a243bc00fc7af4391cb2e500f2169bd8423d2b43a6fa",
+      "files": []
+    },
+    {
+      "project_id": 1262,
+      "package_short_name": "minigame",
+      "state": "scanned",
+      "tag": "minigame-0.6.11",
+      "commit": "6e84efb0909d0ec717a448748f75036046b54cd6",
+      "package_name": "com.magictavern.minigame",
+      "package_version": "0.6.11",
+      "package_json_sha256": "69edbd4d040876cef57fd9918d165625458b297ddbc5b039cd8c52affb3e1d13",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/DOTween.unitypackage",
+          "blob_id": "a6a02d8f8376ba08308b4124eaabf5054c7cb7c0",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 1400,
+      "package_short_name": "mttimeline",
+      "state": "scanned",
+      "tag": "mttimeline-1.0.0",
+      "commit": "48ecc657cfb5255a0fb023dd1f1c61c84b7dc8f4",
+      "package_name": "com.magictavern.timeline",
+      "package_version": "1.0.0",
+      "package_json_sha256": "c68472dbe5c0ef6f50e8b0abb6ddc988cc7feef175d0302f36802d1b47fd3add",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/Demigiant.zip",
+          "blob_id": "d06ddb40c40fd0b1b680d4c65d4120cae55874bd",
+          "conventional_location": true
+        },
+        {
+          "path": "Editor/PluginsPackage/com.esotericsoftware.spine.timeline-4.1-2023-05-16.zip",
+          "blob_id": "ed37c53a12ca08867c47815d9236143c5251d389",
+          "conventional_location": true
+        },
+        {
+          "path": "Editor/PluginsPackage/spine-unity-4.1-2023-05-16.unitypackage",
+          "blob_id": "e5dd5d63ee4590207d6fbdb699e74a5cb05afa51",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 1535,
+      "package_short_name": "amusesunityclient",
+      "state": "scanned",
+      "tag": "amusesunityclient-1.1.8",
+      "commit": "fa334e25c46926c6fc398fe7b2f17ef875028b54",
+      "package_name": "com.magictavern.amusesunityclient",
+      "package_version": "1.1.8",
+      "package_json_sha256": "daf99e016beda949a7a278d918e34d349870d6819d9330da04c6671057234028",
+      "files": []
+    },
+    {
+      "project_id": 1587,
+      "package_short_name": "editorbase",
+      "state": "scanned",
+      "tag": "editorbase-1.0.3",
+      "commit": "51da06c9c1d33b4ebcadeb3a00668be802074788",
+      "package_name": "com.magictavern.editorbase",
+      "package_version": "1.0.3",
+      "package_json_sha256": "f12f1522f9fd2b4d0c22f6f5d79062081b6e3b9bb8d63600c94299dbf43c8d44",
+      "files": []
+    },
+    {
+      "project_id": 1904,
+      "package_short_name": "assetfindusages",
+      "state": "scanned",
+      "tag": "assetfindusages-develop-1.0.1",
+      "commit": "1539a6868c3272a32d340310c84c62e9af45f67f",
+      "package_name": "com.magictavern.assetfindusages",
+      "package_version": "1.0.1",
+      "package_json_sha256": "e51a3f9138aeb31c8f604c6d8eec72e9e63bb388bf40b7469c52bc366556d836",
+      "files": []
+    },
+    {
+      "project_id": 1958,
+      "package_short_name": "pocosdk",
+      "state": "scanned",
+      "tag": "pocosdk-1.0.1",
+      "commit": "f7f2f4c5bf3bf478856aaf29fd1e45c105a7ae11",
+      "package_name": "com.magictavern.sdk.poco",
+      "package_version": "1.0.1",
+      "package_json_sha256": "52d239698b73b644d4516e69610d8cc9ab2fec474ddafcba7f52afe26bf25a0b",
+      "files": []
+    },
+    {
+      "project_id": 1959,
+      "package_short_name": "anubissdk",
+      "state": "scanned",
+      "tag": "anubissdk-1.0.1",
+      "commit": "888048bfc21e78a8d60e6a75d5768ccc8f595eae",
+      "package_name": "com.magictavern.sdk.anubis",
+      "package_version": "1.0.1",
+      "package_json_sha256": "11f3d4bfde5581eb09c703200a4404200ac7ff487d0c2a4212b06399508dee2c",
+      "files": []
+    },
+    {
+      "project_id": 1966,
+      "package_short_name": "updatemanager",
+      "state": "scanned",
+      "tag": "updatemanager-1.0.3",
+      "commit": "b601230fea3bfe7b45593264e6f0685cba04fddc",
+      "package_name": "com.magictavern.updatemanager",
+      "package_version": "1.0.3",
+      "package_json_sha256": "ab052daff005bd402efb90ead805f17313a8fc57a909f74bef72894cdf0b0109",
+      "files": []
+    },
+    {
+      "project_id": 2107,
+      "package_short_name": "mtunigif",
+      "state": "scanned",
+      "tag": "mtunigif-1.0.2",
+      "commit": "af70c15128c95484883fec28aa5533a9bf070eb3",
+      "package_name": "com.magictavern.mtunigif",
+      "package_version": "1.0.2",
+      "package_json_sha256": "ba83742390c330f252c4e104ec5b20ecea33896d17a02e51d24d57d00debcd0f",
+      "files": []
+    },
+    {
+      "project_id": 2107,
+      "package_short_name": "mtunitgif",
+      "state": "scanned",
+      "tag": "mtunitgif-1.0.0",
+      "commit": "21f9fb94bb36be2da937ff2ddb0805ac101450e5",
+      "package_name": "com.magictavern.mtunitgif",
+      "package_version": "1.0.0",
+      "package_json_sha256": "b6673bedaed654480a9763025e254a0cd4e63d06140514ce4cfb11ba7fc15f8b",
+      "files": []
+    },
+    {
+      "project_id": 2251,
+      "package_short_name": "dotsmatch3",
+      "state": "scanned",
+      "tag": "dotsmatch3-0.0.9",
+      "commit": "403000e08f6913283b597776da4fb9b541101708",
+      "package_name": "com.magictavern.dotsmatch3",
+      "package_version": "0.0.9",
+      "package_json_sha256": "503adc211cb0bcaa263fb186cf5da76828434b88a6d9c20ee0aa6cdf6a4b7aa3",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/DotweenPro.unitypackage",
+          "blob_id": "767a66442190f10ed537c2a9751151c5c446227c",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 2272,
+      "package_short_name": "mtunitgif",
+      "state": "scanned",
+      "tag": "mtunitgif-1.0.0",
+      "commit": "21f9fb94bb36be2da937ff2ddb0805ac101450e5",
+      "package_name": "com.magictavern.mtunitgif",
+      "package_version": "1.0.0",
+      "package_json_sha256": "b6673bedaed654480a9763025e254a0cd4e63d06140514ce4cfb11ba7fc15f8b",
+      "files": []
+    },
+    {
+      "project_id": 2572,
+      "package_short_name": "levelautogenerator",
+      "state": "scanned",
+      "tag": "levelautogenerator-1.0.16",
+      "commit": "c1c4dec74c7b90e286730e510019d35b2855e7a9",
+      "package_name": "com.magictavern.levelautogenerator",
+      "package_version": "1.0.16",
+      "package_json_sha256": "d7ec5a2f4794e419f4168071cf452b1756eb790cd966f0d52f753c94f921ba94",
+      "files": []
+    },
+    {
+      "project_id": 2638,
+      "package_short_name": "mttypereigstersourcegenerator",
+      "state": "scanned",
+      "tag": "mttypereigstersourcegenerator-1.0.0",
+      "commit": "121065ebd9ecf861a0c76c4f60486155448cceee",
+      "package_name": "com.magictavern.mttypereigstersourcegenerator",
+      "package_version": "1.0.0",
+      "package_json_sha256": "462cbcaaf4e2bcb21e8a2c54d7178f500bfe76516a80e8e6e9fd1d54f6a7744c",
+      "files": []
+    },
+    {
+      "project_id": 2758,
+      "package_short_name": "vibration",
+      "state": "scanned",
+      "tag": "vibration-1.0.18",
+      "commit": "e98b1f3d333655ab3358fd0706b20df93d275b91",
+      "package_name": "com.magictavern.vibration",
+      "package_version": "1.0.18",
+      "package_json_sha256": "d7bb917e390429240ab3a7d272e08a7a22bfc646d0876ba2702ec2baf52ae92f",
+      "files": [
+        {
+          "path": "Editor/PluginsPackage/NiceVibrations-v-3-9-0.unitypackage",
+          "blob_id": "1f602d1ee8a938fba47c0db836f2264653a4ebfe",
+          "conventional_location": true
+        }
+      ]
+    },
+    {
+      "project_id": 2916,
+      "package_short_name": "smartvibration",
+      "state": "scanned",
+      "tag": "smartvibration-1.0.2",
+      "commit": "4965f94b446a055481e489b0618e433727ed18c3",
+      "package_name": "com.magictavern.smartvibration",
+      "package_version": "1.0.2",
+      "package_json_sha256": "03c450cf045c80daa8fe6ba6f8bef73deaa8c9265e311d9d158521de978ab319",
+      "files": []
+    },
+    {
+      "project_id": 2928,
+      "package_short_name": "activity",
+      "state": "scanned",
+      "tag": "activity-1.0.3",
+      "commit": "508ce1ab317d60d24e7ff8e174adc2272099e7cf",
+      "package_name": "com.magictavern.activity",
+      "package_version": "1.0.3",
+      "package_json_sha256": "ee762554788844f3c97b230bcd3a21ad5da4035d5353b1460c67f9a75228d24e",
+      "files": []
+    },
+    {
+      "project_id": 3151,
+      "package_short_name": "mtunityiap",
+      "state": "scanned",
+      "tag": "mtunityiap-1.4.0",
+      "commit": "49793a15c352634347cc5cd110510bc5ba4ccfc9",
+      "package_name": "com.magictavern.sdk.mtunityiap",
+      "package_version": "1.4.0",
+      "package_json_sha256": "57d2db558ddd21e5427b9421aa110e163995ecdcd6be951674426cb4102acb2c",
+      "files": []
+    },
+    {
+      "project_id": 3273,
+      "package_short_name": "mtageguard",
+      "state": "scanned",
+      "tag": "mtageguard-0.0.16",
+      "commit": "de9471d1908637b216b8b0f8654ff6a3f1bede52",
+      "package_name": "com.magictavern.ageguardsdk",
+      "package_version": "0.0.16",
+      "package_json_sha256": "5cda3f3ed4fb96213d4cbf437469372bea04b1d8980b6e4f5e4b91cd853784bd",
+      "files": []
+    },
+    {
+      "project_id": 3755,
+      "package_short_name": "mtumcp",
+      "state": "scanned",
+      "tag": "mtumcp-1.0.0",
+      "commit": "3065419c57251cbb35a1a2097fe665e532f138c5",
+      "package_name": "com.magictavern.umcp",
+      "package_version": "1.0.0",
+      "package_json_sha256": "9de01dc6eb7f09932168229f9624d07acae11a3995ece5fde9504fbc39f5f3eb",
+      "files": []
+    },
+    {
+      "project_id": 4124,
+      "package_short_name": "assetautogroup",
+      "state": "scanned",
+      "tag": "assetautogroup-1.0.0",
+      "commit": "f3ffc4ff0f3208e6be117f0e26379cc6b7c7fc0c",
+      "package_name": "com.magictavern.assetautogroup",
+      "package_version": "1.0.0",
+      "package_json_sha256": "6ed8b09b20e95e42d1506f9c9aeb7b63f8257a5cc24d205bb8dafed738a622ea",
+      "files": []
+    }
+  ]
+}

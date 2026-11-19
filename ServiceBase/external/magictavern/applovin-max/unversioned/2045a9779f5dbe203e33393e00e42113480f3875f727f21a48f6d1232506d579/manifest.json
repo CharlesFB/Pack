@@ -1,0 +1,1007 @@
+{
+  "schema_version": 1,
+  "plugin_id": "applovin-max",
+  "build_id": "2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+  "artifact": "artifact.unitypackage",
+  "sha256": "2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+  "size": 602613,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "db1ff0e59262d467a8fd66c56e3180db",
+      "asset.meta": {
+        "sha256": "8abba803280adf4636fd679cec486e95ced213a07f0a0d0f4d8d1d06d2203429",
+        "size": 172
+      },
+      "path": "Assets/ExternalDependencyManager"
+    },
+    {
+      "guid": "afcb2bcc44b144fde9ca888fe3bc2a0b",
+      "asset.meta": {
+        "sha256": "3846fa963c216e12fa89a47a596f1e97721d0d510aaeac2187119d21a7d2efb3",
+        "size": 172
+      },
+      "path": "Assets/ExternalDependencyManager/Editor"
+    },
+    {
+      "guid": "6bcff75beb1c54c12be4cefb0b0482e5",
+      "asset.meta": {
+        "sha256": "281343851fb3d79931d585453f208aab0ff7dd931c329b035baa3662aa5e067c",
+        "size": 172
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182"
+    },
+    {
+      "guid": "3429646f5d4949efa347230fa86778b7",
+      "asset.meta": {
+        "sha256": "38ca2b6ef450227d4a865fde96ae098b338a18c36427988bf1820b2bc6d37f96",
+        "size": 729
+      },
+      "asset": {
+        "sha256": "18b478d6ed3f24d0b6904eb377f7ff24529d484b4c562cff0a856fa93ab8e096",
+        "size": 74240
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.IOSResolver.dll"
+    },
+    {
+      "guid": "51b6f287d0d540049f299c19a2f62321",
+      "asset.meta": {
+        "sha256": "2f1a2a55b08bde493951833d9d465febdce050641c1b1a6dadef9d8b86c53428",
+        "size": 311
+      },
+      "asset": {
+        "sha256": "8448417a53483eacf5e6c21b21cf3d16c109ca3d045c99ed445709241874dc57",
+        "size": 21332
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.IOSResolver.pdb"
+    },
+    {
+      "guid": "5b1a2b9a8d0748609fa3195265844d21",
+      "asset.meta": {
+        "sha256": "2315026c9d35a5660b1a1177a52c7bc2a2a2759015155bd372ccbda6520ab71b",
+        "size": 729
+      },
+      "asset": {
+        "sha256": "4da525d335aaece910e7e8450613e126a03796d3cce19009cc9f56d0559ef13e",
+        "size": 364032
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.JarResolver.dll"
+    },
+    {
+      "guid": "50924eb6369047da88d4803f207075b7",
+      "asset.meta": {
+        "sha256": "1b3b6dba0a09a8ad80d83356bc60973dcc60a8531fb9b5c5b089f76800e2aa2b",
+        "size": 311
+      },
+      "asset": {
+        "sha256": "24f857eba187211ccb98771480162c68b24bd239204a886694e143254a2bb14f",
+        "size": 74664
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.JarResolver.pdb"
+    },
+    {
+      "guid": "4026c19ba8ec495f93f5919b5f2934ee",
+      "asset.meta": {
+        "sha256": "66a88004b4bfe5a0e5db183f48992a3f274f3813f9845b5c89e7885a674c695d",
+        "size": 740
+      },
+      "asset": {
+        "sha256": "3e9249c65f43f63d036398ee371b201d287cc23088dc4335f9bdbea6b2b797d6",
+        "size": 74240
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.PackageManagerResolver.dll"
+    },
+    {
+      "guid": "fda6a96d9a064226b6cea47e6eef3d16",
+      "asset.meta": {
+        "sha256": "f6889fd4440f9c67b7fa1606d8fea8b2d293950cdc779cf03199eb8af097cc70",
+        "size": 322
+      },
+      "asset": {
+        "sha256": "b907c49ba6ae67e80ac6ac21a1466f33f06e76a33af79b9171bc3f9a94e8877a",
+        "size": 24584
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.PackageManagerResolver.pdb"
+    },
+    {
+      "guid": "025280fbe75c450fbdf7c5fc7ecc8860",
+      "asset.meta": {
+        "sha256": "406931c12de8f94a2052222b952e310339e95765d78e297d39fa405640c1d3dc",
+        "size": 736
+      },
+      "asset": {
+        "sha256": "8fa48dd86a184a96387df909d0b9606b4aa9e4dc485fdea68d82da256ff2452b",
+        "size": 119296
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.VersionHandlerImpl.dll"
+    },
+    {
+      "guid": "5f7e0d6d612a4e18be5161653a63d2f0",
+      "asset.meta": {
+        "sha256": "d414c9bcad9458ed70a6e846db1d3e58c5d03b701521c5ccec3b356d3598603a",
+        "size": 318
+      },
+      "asset": {
+        "sha256": "234e2440979f56aed01c5ef52bedb0b4a253085488d61ebcf54b911899b63b43",
+        "size": 56076
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.182/Google.VersionHandlerImpl.pdb"
+    },
+    {
+      "guid": "b699fc553a294dbcad96ff0365038f6a",
+      "asset.meta": {
+        "sha256": "d36e1225dfc4532105d2279259c181f9720207b5797ddf3a56c69c01647f3a75",
+        "size": 274
+      },
+      "asset": {
+        "sha256": "9c96fd21763e4cc03ba72dd04cf5cb2407a682031c683beed617710e53f3306c",
+        "size": 56334
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/CHANGELOG.md"
+    },
+    {
+      "guid": "61128ff4560e43ddb606dc203efe7799",
+      "asset.meta": {
+        "sha256": "b73285af916c2da8ec7f33b2b5a6d889e2ea9b81089c2199fd0072f8a45c2775",
+        "size": 724
+      },
+      "asset": {
+        "sha256": "b5d42b14319147da284dfeeab45d379b687c6a0e97b86e0e6ff6b8074ef2e6a3",
+        "size": 15360
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll"
+    },
+    {
+      "guid": "ef0c2c4976ca4593860e7d5871a226bf",
+      "asset.meta": {
+        "sha256": "84aa351035e61e3d2cf99769403d26efa989375402db251c739549cfdcce6a25",
+        "size": 284
+      },
+      "asset": {
+        "sha256": "f76ff87bfedfea3af27f24935cf2db582392339da288b1c41c9fc4008cd03405",
+        "size": 6336
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.pdb"
+    },
+    {
+      "guid": "b91d7551a5d9453e914e5295af46195e",
+      "asset.meta": {
+        "sha256": "6a8c47b660a7536c3125fbdfb94e54aed44f25f108d00251dd4da1ee06e91afc",
+        "size": 269
+      },
+      "asset": {
+        "sha256": "f76f18185c04ec80175330572b38e40772dccda80f4bf0868e042e4e5b0b58a5",
+        "size": 13395
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/LICENSE"
+    },
+    {
+      "guid": "ee2d63ed1abf409b893e36120a404f03",
+      "asset.meta": {
+        "sha256": "1156e01570c5be02e11fbd777522079cad80e66f2c572ad90b348b19f60eb21a",
+        "size": 271
+      },
+      "asset": {
+        "sha256": "9d21b8fedd7edacc49853ad94949c383fc1605e2180eebbd52ebaf566de26547",
+        "size": 39604
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/README.md"
+    },
+    {
+      "guid": "d602686ba68d4bfea020d161c28431a9",
+      "asset.meta": {
+        "sha256": "b9701b0cb886544cb3a910bcc2e6ae86bda591cb5ac6f0a21349636539522dbb",
+        "size": 425
+      },
+      "asset": {
+        "sha256": "7097b2b30d60755b32f56a86d5497f06428286469ce04f820abf2b35c4de1116",
+        "size": 887
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.182_manifest.txt"
+    },
+    {
+      "guid": "2d96e3ab2a4f742d68cc8cf2e7f12a34",
+      "asset.meta": {
+        "sha256": "3df971136aa5dccf51fd520e682858d8b71b2c2b8feb6e8b1b1d54b2625ea0e0",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk"
+    },
+    {
+      "guid": "19c6cb99fb8e24f28b7d024345b742bd",
+      "asset.meta": {
+        "sha256": "8a224e1389eca3a8b4cd928040e290967d8aa5524de014d61edf6adb963c320a",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/AppLovin"
+    },
+    {
+      "guid": "fe18194f0b21c45d188acfe7422e5ab5",
+      "asset.meta": {
+        "sha256": "be8d893ae95188ea02657fabe3ff164ee6dacb3b780c949a4dedf5c573290996",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/AppLovin/Editor"
+    },
+    {
+      "guid": "746da98302dc0402aaa37e8f7bd97e77",
+      "asset.meta": {
+        "sha256": "41ff57183de8b0ab490157b5e559cf87477c644158c4ec0131961aa7fab73cbb",
+        "size": 236
+      },
+      "asset": {
+        "sha256": "1396e11d319a5cb42511ba9113d27f9832a002d797924b79803b7525d68feb37",
+        "size": 275
+      },
+      "path": "Assets/MaxSdk/AppLovin/Editor/Dependencies.xml"
+    },
+    {
+      "guid": "d82a9582c198a40b692a73d6289f69a5",
+      "asset.meta": {
+        "sha256": "56799f8726c2699f67b2f2cb03fd3710cae98c4fad2be7cb7531eff337388b29",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins"
+    },
+    {
+      "guid": "846b6f85437c240b68e2f31dc4b0e9a6",
+      "asset.meta": {
+        "sha256": "4d8a7b02d774fb32d32acd3c578030fd8b6db5ac68c495c6452e9efc6578fb83",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins/Android"
+    },
+    {
+      "guid": "1db980bd612824d2097f78fd779e6051",
+      "asset.meta": {
+        "sha256": "7643e341f6c929312f9695ab5f04efc879f2d20aa70675c37404c7bedfc3f3b6",
+        "size": 708
+      },
+      "asset": {
+        "sha256": "f7efb97d99f9a0122ccc38567f6002e697781b80f93c6b2d070dd2187443c94e",
+        "size": 42575
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins/Android/applovin-max-unity-plugin.aar"
+    },
+    {
+      "guid": "e4447afe4358042e58819e79bad548a3",
+      "asset.meta": {
+        "sha256": "648395028d6df3dba7694fc9e172266b190856af72430a16c16a8be1907ea637",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins/iOS"
+    },
+    {
+      "guid": "4209563f82b8a4f7dabf03705ab761c6",
+      "asset.meta": {
+        "sha256": "1d2947ba6081617192c0c686c63bd233de085cf49ea7f2ad20093dcbbb5227bd",
+        "size": 2145
+      },
+      "asset": {
+        "sha256": "b743ab008d2def8509f84a0ac7d85d0304a55d48b9bcb719568316e2d6df8c06",
+        "size": 7441
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins/iOS/MAUnityAdManager.h"
+    },
+    {
+      "guid": "2973e70bd2fa74984b35aea07ae9db52",
+      "asset.meta": {
+        "sha256": "c9d0efb526d33ebfebbd9f4ba2572a9023feef8ba317705fd0a1f561e5866c2e",
+        "size": 2038
+      },
+      "asset": {
+        "sha256": "535d6b0c20f5a7dc9e905aa6843ed2662b6107430c7aff05028608e86cae755b",
+        "size": 89692
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins/iOS/MAUnityAdManager.m"
+    },
+    {
+      "guid": "7e373ed7168b243e6b706e991ab5a643",
+      "asset.meta": {
+        "sha256": "95a954c60cb200f08e2da09c2642c5d1fa87f8b961ce0c617b42d5171875058d",
+        "size": 2036
+      },
+      "asset": {
+        "sha256": "211cba79e39b8a432af1fcebf04fa7098d2d7c8c323f70636859af288b07ec2f",
+        "size": 40979
+      },
+      "path": "Assets/MaxSdk/AppLovin/Plugins/iOS/MAUnityPlugin.mm"
+    },
+    {
+      "guid": "dfb944c2e1cb479cabf023040a5942d2",
+      "asset.meta": {
+        "sha256": "5d689f3e791ee590f82a380394f9e806dae49b93ecc933aacac8628df524bb8d",
+        "size": 216
+      },
+      "asset": {
+        "sha256": "6e1903ec16ec89ebe7a23c7df1fa7916df4ef36509819564f83f9d47a5719c8c",
+        "size": 153
+      },
+      "path": "Assets/MaxSdk/CHANGELOG.md"
+    },
+    {
+      "guid": "dcf2020c4018447c9b91170c0f62d799",
+      "asset.meta": {
+        "sha256": "f4ec4935d888d69485e5c1933f0f83d92dd9740e366d9814bd2c6933cac036b8",
+        "size": 227
+      },
+      "path": "Assets/MaxSdk/Mediation"
+    },
+    {
+      "guid": "9a8f83e97729443c86120be3bb24190d",
+      "asset.meta": {
+        "sha256": "7fbd48ff570ea336c6edeb55ca28ca1a2f439b4f4b92158feef685dea31c98a6",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "26254200ff7353a051e73a1426e7080f67866d357d90a502284cf256c6704ef0",
+        "size": 221
+      },
+      "path": "Assets/MaxSdk/Mediation/MediationAdapters.txt"
+    },
+    {
+      "guid": "e7abc8c7963a542afb2d365de975ef72",
+      "asset.meta": {
+        "sha256": "7f56dc1f3f38b6894e4e1d6250c1b58fa9d015893b8d952128db0e7921ff85a0",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/Prefabs"
+    },
+    {
+      "guid": "54c062c0526b148efa2ea2e9489b3aa0",
+      "asset.meta": {
+        "sha256": "4649c053df60e443093b51fcf337a676e88306aadaa07e655268af2b51db3873",
+        "size": 227
+      },
+      "asset": {
+        "sha256": "132bef213207e9bf9a1e8ad7359705c249fc96f421eeebe3382b38fd00a1d190",
+        "size": 11526
+      },
+      "path": "Assets/MaxSdk/Prefabs/BannerBottom.prefab"
+    },
+    {
+      "guid": "6521750c87fd14f709d09a1e38ffde47",
+      "asset.meta": {
+        "sha256": "9866eb05b3123350ebc3492bbb5a5d8f87726cff4a45cb2ea15b3a82c58b29e9",
+        "size": 224
+      },
+      "asset": {
+        "sha256": "5a95c72e90c821ae4367146b59db63a655ac87714d83e3fece87198d7f29b6dd",
+        "size": 11523
+      },
+      "path": "Assets/MaxSdk/Prefabs/BannerTop.prefab"
+    },
+    {
+      "guid": "3fc0c2627ce8a4490b8e319326f8a535",
+      "asset.meta": {
+        "sha256": "424978e267edb4f739a2cc575567ec68143bcd2f55a800bdd2125ea57f336be1",
+        "size": 227
+      },
+      "asset": {
+        "sha256": "78a92f012fb18ebc81de4ac194e55fc042f04236b2b4047a314f28e454fb0fce",
+        "size": 15339
+      },
+      "path": "Assets/MaxSdk/Prefabs/Interstitial.prefab"
+    },
+    {
+      "guid": "a28c1544d6f094d5eafc8da2343c9119",
+      "asset.meta": {
+        "sha256": "7b1bd3d764243758fe6dcf6c8950b00f11b0cd382c2180e007e1478f06eac298",
+        "size": 223
+      },
+      "asset": {
+        "sha256": "5517456156ef8d66d1fa6feb2c2b43e744c1b637461c1e5bd8c576c6c17c0431",
+        "size": 23339
+      },
+      "path": "Assets/MaxSdk/Prefabs/Rewarded.prefab"
+    },
+    {
+      "guid": "289bb1f7e984a4676a40e1d37f89401a",
+      "asset.meta": {
+        "sha256": "1867c1bf5add5f37787b4f2efcfb4d431bf4d48f8c6399f519b86602c388cd87",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/Resources"
+    },
+    {
+      "guid": "d4cd8d4670cfe404186bbfc4d02480b9",
+      "asset.meta": {
+        "sha256": "938575a52221ee137010a7cb252ad11dc258ee70fee816c0209648eb18821665",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/Resources/Images"
+    },
+    {
+      "guid": "572fee4574afa4f6dbf2846e0c152fe8",
+      "asset.meta": {
+        "sha256": "c944b2577b6f16144d78680b64c2d25187e169a1b2053c8d80021f6e5e139c18",
+        "size": 2106
+      },
+      "asset": {
+        "sha256": "78a598514dcf24b91cd2d829932e166eaa54e5ca564b37007f14f238e812da1c",
+        "size": 1154
+      },
+      "path": "Assets/MaxSdk/Resources/Images/alert_icon.png"
+    },
+    {
+      "guid": "d24994f48fdd0430692e3d49279cd782",
+      "asset.meta": {
+        "sha256": "630b869eb57e9d5b3a5218df3a0c611060cb1903ae85a009efd239ce276a09d7",
+        "size": 2110
+      },
+      "asset": {
+        "sha256": "14a35fbd30b73fb4130f2c0b9884c7d22be0013275678f7c81c93f594cbaf920",
+        "size": 159
+      },
+      "path": "Assets/MaxSdk/Resources/Images/uninstall_icon.png"
+    },
+    {
+      "guid": "b504c956e7ed744b6b0e7f014e1cac5a",
+      "asset.meta": {
+        "sha256": "b703b3cabc2f263235c4bcd1f585d88428f5db1fd495778538e369dbdd43e4dd",
+        "size": 2014
+      },
+      "asset": {
+        "sha256": "b80ac67d5722c44c8c8fc8bf3bff508d6aa0c29a03eeb1849b0fbcc6b2245e15",
+        "size": 959
+      },
+      "path": "Assets/MaxSdk/Resources/Images/warning_icon.png"
+    },
+    {
+      "guid": "9c20934c34d684369b52cd22fa168df0",
+      "asset.meta": {
+        "sha256": "3112f0a63526f63e46052badc47b7ba78bdfd19dbdc3e0057681b01d24dbb899",
+        "size": 172
+      },
+      "path": "Assets/MaxSdk/Scripts"
+    },
+    {
+      "guid": "e01816bc45c944d03afb95d035caf0e1",
+      "asset.meta": {
+        "sha256": "e79b4f771ef6aed86d645687ed5716cbf68c808776fb39b20b43b76d904a3bc0",
+        "size": 244
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager"
+    },
+    {
+      "guid": "0da229e279400497786c39933fe02e52",
+      "asset.meta": {
+        "sha256": "2b12eecc13fc1306b821c4695f1476efc2d9d99fa9954a5c17649ef139d31207",
+        "size": 251
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor"
+    },
+    {
+      "guid": "8bcdd5226273242c5bd9ec79568202e6",
+      "asset.meta": {
+        "sha256": "83034fe77b8307cd3a5b77f8782c82645db8c1a302bc3ac5c7526fe83870fe83",
+        "size": 345
+      },
+      "asset": {
+        "sha256": "6c0a2392e859695bfa4576f76b53a839031065fc9157c239b0c4331694bc0bfc",
+        "size": 8902
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinAutoUpdater.cs"
+    },
+    {
+      "guid": "2d0aa55f9a7d2440f871dfb256372a33",
+      "asset.meta": {
+        "sha256": "310a75f6dc87086d6b880e830f5f6588fbd503a943c74b77ac310ddb506c0b3e",
+        "size": 345
+      },
+      "asset": {
+        "sha256": "50ae70ddc90425e3ab261eb9453064475f4ab5f9e42c6beb0005330cc57ff077",
+        "size": 3348
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinCommandLine.cs"
+    },
+    {
+      "guid": "95747c688378548eeb92aeb528ac96ff",
+      "asset.meta": {
+        "sha256": "e545b4deac1c340b9473576839adeb71340796eee5bc3844a452c8347f8d23d1",
+        "size": 349
+      },
+      "asset": {
+        "sha256": "039afd84e3fb360c4b0b8c526c33b6a65977db8df23cb05d7792707d1ed04271",
+        "size": 2829
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinEditorCoroutine.cs"
+    },
+    {
+      "guid": "6b7dce7fe193a4058bc51d9f4d3a2aed",
+      "asset.meta": {
+        "sha256": "c955fe058c673a04ce84d66531f66f03fc451e947793ab8891ce0e20a26f2ba0",
+        "size": 344
+      },
+      "asset": {
+        "sha256": "8d8ce838f57d109dd8a71cf956045048370d8531bf7608fc4432f656c99d6686",
+        "size": 6239
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinInitialize.cs"
+    },
+    {
+      "guid": "c5b874c1e65274159bcc0dc15d9458cc",
+      "asset.meta": {
+        "sha256": "fd257e50228c754df20faf6115f7b00411ccef169c1d7b97f827825268bf1e60",
+        "size": 352
+      },
+      "asset": {
+        "sha256": "f8b4d19f55658ff8e7b87490ba3f75b07fa42efa717363541840386fbcbbd213",
+        "size": 17249
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinIntegrationManager.cs"
+    },
+    {
+      "guid": "96efb4dba39eb48d2a60afab69786e6a",
+      "asset.meta": {
+        "sha256": "cea7b6c46da9a081bd38f082516db8bb2d99e713e97f22a87baa8e281acdddd8",
+        "size": 357
+      },
+      "asset": {
+        "sha256": "0b0d45f5161addb5e98989d432ca07b137f58ff73b75d7041ac231e7f5ba559e",
+        "size": 4199
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinIntegrationManagerUtils.cs"
+    },
+    {
+      "guid": "84c61b4c05e114cec91df447d1b585f8",
+      "asset.meta": {
+        "sha256": "ba199153eaecae105013ea0b60ba80f072f11e49c082ccfb4886853ea497c4de",
+        "size": 358
+      },
+      "asset": {
+        "sha256": "ea347ff2efa61b88a7437886776e307dfbec19203da6d5d858466e67cfcaf060",
+        "size": 48491
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinIntegrationManagerWindow.cs"
+    },
+    {
+      "guid": "65c51e21887ae42c2839962fb9585e9f",
+      "asset.meta": {
+        "sha256": "d2d3a89b471da212450e382746efa4451049b162dd31163440251e7922690fdf",
+        "size": 350
+      },
+      "asset": {
+        "sha256": "9e5d673166447981d37c363bb5269f01201ce85a4df9d9fe939e0641a1178447",
+        "size": 14670
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinInternalSettings.cs"
+    },
+    {
+      "guid": "02c2d277874f649d18a59d382420bf65",
+      "asset.meta": {
+        "sha256": "1f203574f594cc37af8bada7757f7afdf13725f14e81e475a74d6fa243653a13",
+        "size": 343
+      },
+      "asset": {
+        "sha256": "8e7746f489f7a212bea16e108f7326baa92c7cbdde8ec6579f8929929591476a",
+        "size": 1602
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinMenuItems.cs"
+    },
+    {
+      "guid": "69faa9dfd9aac483daa24261a3e11206",
+      "asset.meta": {
+        "sha256": "dbf4b2d0492abfcc8dced59e9d270777f8941a2a5729bad6e21efe6fcb6b1d82",
+        "size": 348
+      },
+      "asset": {
+        "sha256": "b829f73d858025ea944cb3edd4eafa20c31ff882e7802b34aeee1b53845bf525",
+        "size": 24612
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPackageManager.cs"
+    },
+    {
+      "guid": "11288612632de49b99708cdee436692c",
+      "asset.meta": {
+        "sha256": "11ff5842e3d6f9b97c3f605c94e4cf5d2bfb1334dec4a172a17552488733c1e2",
+        "size": 355
+      },
+      "asset": {
+        "sha256": "da8e9962fee22cb08ec4e6cbef10100bf0873e2979eaa714d0481fdcd25c94a2",
+        "size": 5181
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPluginMigrationHelper.cs"
+    },
+    {
+      "guid": "c01ea79d0cb2a43c093e2fd07201df9e",
+      "asset.meta": {
+        "sha256": "eac61182f91efa907213566faed21c8f5b2b0d9d758bc00549489e46bae3f94c",
+        "size": 352
+      },
+      "asset": {
+        "sha256": "3d5f0b0fa11cd33508f60cf5a7d181327cff528e515b265a3751aa61c27b603f",
+        "size": 23565
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPostProcessAndroid.cs"
+    },
+    {
+      "guid": "f75e54e2eb78f427ca8643c97684387b",
+      "asset.meta": {
+        "sha256": "0bc268ed15c6456a229dda7eebdd8afc3b61840385aa79c9be9b12babbc52530",
+        "size": 358
+      },
+      "asset": {
+        "sha256": "d3d851d460a5e9a93d0f71af40675f4bca4303d839cbfe6ca399a09619b0fa45",
+        "size": 2810
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPostProcessAndroidGradle.cs"
+    },
+    {
+      "guid": "d5d209f90444f4a90830b48b5f3f3ff4",
+      "asset.meta": {
+        "sha256": "8582adf7472c4236295372f6bcaa95ad9a0f9d85f276fae1f26324e2f08390bf",
+        "size": 348
+      },
+      "asset": {
+        "sha256": "24ba36dda333208d75fff57544500d5360cba4702dea596701bf18f23c1901e2",
+        "size": 36334
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPostProcessiOS.cs"
+    },
+    {
+      "guid": "0e6254f24e89548b3a7644fa7bf25f9d",
+      "asset.meta": {
+        "sha256": "4cc2cec3097a978fa685a3876a82153d6a3f56b57b3317d7c1a1b21c18c5dee4",
+        "size": 344
+      },
+      "asset": {
+        "sha256": "a6d0cbf440907ccad683dd10f9c82ed7874fb4db35941318228b6efb1cf4b0eb",
+        "size": 6057
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPreProcess.cs"
+    },
+    {
+      "guid": "8ccaf444d0d4f4cadb5debe7c41b20c4",
+      "asset.meta": {
+        "sha256": "fff8125c1fdfd3671c13aaa604c2f7aeae188c81a20c3d58d859e4d1c0ec64cb",
+        "size": 351
+      },
+      "asset": {
+        "sha256": "a1f4e5a7ca1f9cf1dbef433e28e58b307dfd51c00059326c6d2386f4aebfaaaa",
+        "size": 2857
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPreProcessAndroid.cs"
+    },
+    {
+      "guid": "ee45537a5833240d7afcfac4a38df1b9",
+      "asset.meta": {
+        "sha256": "065b4a9b1bad7c8b684446378fa1615e71cebeb7ef0cdd9da8a585131aa59e45",
+        "size": 347
+      },
+      "asset": {
+        "sha256": "0b91a43f691a27bc5386e6f4099668513a5a59e83819277192bc0cafa91e5b95",
+        "size": 1659
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPreProcessiOS.cs"
+    },
+    {
+      "guid": "732b7510bc9c94aafb3fd3b8c0dc5d2d",
+      "asset.meta": {
+        "sha256": "dae8cce0459179e7e3aad18bb2f157b7e3393e80cdb70cb02b8b780e2b60803c",
+        "size": 356
+      },
+      "asset": {
+        "sha256": "b868ede364ffd28af02e33a803d95f76dd59e6db4d551412f49e371b57533d07",
+        "size": 25620
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinProcessGradleBuildFile.cs"
+    },
+    {
+      "guid": "ebc0ba1b5ef6b4a6b9dd53d7eadfea16",
+      "asset.meta": {
+        "sha256": "d73f7dca9f9dd691a2c233da3cb9fbb597747ba2b658be8dd92474a3043141d7",
+        "size": 342
+      },
+      "asset": {
+        "sha256": "27e3070d8366fe8781133a7a3744842be4d0ada1b031dd86fbee7fb8b539a3e3",
+        "size": 6405
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinSettings.cs"
+    },
+    {
+      "guid": "40e2ad4a252104688b8627f82e806b2e",
+      "asset.meta": {
+        "sha256": "caf31f4757199c35912be6f09c940d163f093378a4ed19277be6e0c8ff1539f4",
+        "size": 404
+      },
+      "asset": {
+        "sha256": "e6d3431ee5fee7a55adf8cd31d4d2f5493f75350c31cecf921cb238b90c29324",
+        "size": 6755
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/AppLovinUpmManifest.cs"
+    },
+    {
+      "guid": "a10a05a8449c42519fd80f2b8b580de3",
+      "asset.meta": {
+        "sha256": "1a1f08e84fc156de689f1ff5c4da761251c0b0ace9897b7e7c21534506d01cec",
+        "size": 203
+      },
+      "asset": {
+        "sha256": "e33792753d549aed173c89c0286a95736dd32e842e3f8854b33a4f393fb5a75b",
+        "size": 189
+      },
+      "path": "Assets/MaxSdk/Scripts/IntegrationManager/Editor/MaxSdk.IntegrationManager.Editor.asmdef"
+    },
+    {
+      "guid": "f2e895983b04846af81b59189de0310c",
+      "asset.meta": {
+        "sha256": "ae564b2cc00e0215f39279ed6cd6cb83e3f314e71aa04429a8ccf944e0bdcd8a",
+        "size": 313
+      },
+      "asset": {
+        "sha256": "b25e8eb48cf31b3114473e8b7c2ef49d6f744da6316af1e27be950dcc354019b",
+        "size": 4623
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxCmpService.cs"
+    },
+    {
+      "guid": "4715dd62632564dc4810a4dc98243f4a",
+      "asset.meta": {
+        "sha256": "bd3fb66fa94e4a289ebfb33ad3e9ea0aaa294e803431bf50dde6ef5416153c24",
+        "size": 316
+      },
+      "asset": {
+        "sha256": "2d65422329abacfd63b16977b9be26ff470ce01372c0144401a761a851153db2",
+        "size": 2959
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxEventExecutor.cs"
+    },
+    {
+      "guid": "e0acf281ba86b4929a6942ecd998395b",
+      "asset.meta": {
+        "sha256": "41fd7b8e8cc0240fca0f10f627e50c5d4f4649e357cd4700e83eb9c2f3bdb0aa",
+        "size": 321
+      },
+      "asset": {
+        "sha256": "c99df2faa1d2ba889fe6a63aad51cca07ff64071d801f0a71f6ef0acc51b917e",
+        "size": 1016
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxEventSystemChecker.cs"
+    },
+    {
+      "guid": "67ec2f620c6b0405ba16ea2c032dc9a2",
+      "asset.meta": {
+        "sha256": "55aa4dfc8e25fcfd7b2965d9fce4729a7f381ebaba812f6cfcfa11f810535b3e",
+        "size": 309
+      },
+      "asset": {
+        "sha256": "8d855139e214f03e0a94ad1d38ca2a2e74d96d202a78b03d662ae2ec5211a260",
+        "size": 842
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxEvents.cs"
+    },
+    {
+      "guid": "a4cfc1a18fa3a469b96d885db522f42e",
+      "asset.meta": {
+        "sha256": "b79378f4915d6c1b40bec67f1bc9caabece9050f01d2a67f3e91b757e81e68ce",
+        "size": 241
+      },
+      "asset": {
+        "sha256": "760d51e7f809f939315b7e37a1986795b45eb8e50e95b9940e115c09d4863fba",
+        "size": 113
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdk.Scripts.asmdef"
+    },
+    {
+      "guid": "2fc7aa576843c44e68c7ab14b475bb82",
+      "asset.meta": {
+        "sha256": "67898979041ee403aa252293174965b3b9751e0032990fb123f7dd41b5b79009",
+        "size": 306
+      },
+      "asset": {
+        "sha256": "47c3313ba7284ff6d8aacd3019b2df5bcf8fa51938fd21a9c874bdcad7fc28d9",
+        "size": 633
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdk.cs"
+    },
+    {
+      "guid": "10335fad6bfef47b8819a411aa591dc8",
+      "asset.meta": {
+        "sha256": "a502427b0ac8cbc643ea505eb7f4fb0ef289ce7e3945c67d0cc5879aef318362",
+        "size": 313
+      },
+      "asset": {
+        "sha256": "45c8601538cd29409007ab43b045e1bf871a162eaceb3796890abb1711293176",
+        "size": 50566
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkAndroid.cs"
+    },
+    {
+      "guid": "893e4e55a7e394274957f1034f7afc45",
+      "asset.meta": {
+        "sha256": "9c02034dd85105dd89553b9572a1e0331b56a5155ebf7ac4693d8866b429adcc",
+        "size": 310
+      },
+      "asset": {
+        "sha256": "571533d7b41a0d2d49df1f74956f137441748b7568573fed30e8d6457c7a2d6e",
+        "size": 29514
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkBase.cs"
+    },
+    {
+      "guid": "4dc129a60049645f7a492a0a658a6c22",
+      "asset.meta": {
+        "sha256": "5069040e716bba70ada27a2a4a2775e1b3bbdb19be3bc7b9f438245cff2be69e",
+        "size": 315
+      },
+      "asset": {
+        "sha256": "4d025fea1c22152be317d376fe0d61d6a38c8f661cdaa085af4a69c4a6487b7f",
+        "size": 68196
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkCallbacks.cs"
+    },
+    {
+      "guid": "ff2b160afdfd4a74b731954323772a90",
+      "asset.meta": {
+        "sha256": "1c63bcb96e402c989a705deecdfcceec9076b88c7d9385d59876b6fe86237d96",
+        "size": 312
+      },
+      "asset": {
+        "sha256": "15af320ec3e89446dc73366f19a802f08c85ea67b92ef5aecf661ddfe72792c7",
+        "size": 2453
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkLogger.cs"
+    },
+    {
+      "guid": "13b3e537a64f24986bb8ffe3a0beef5c",
+      "asset.meta": {
+        "sha256": "a775a828cc01f37044f9b45970d10314203d1baef3303fb09ad2cfbe2141f5ce",
+        "size": 317
+      },
+      "asset": {
+        "sha256": "37eda0a8b89745111cf40b33101d773e92c7bc29c777c5389b23018957593f0e",
+        "size": 59448
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkUnityEditor.cs"
+    },
+    {
+      "guid": "47f1bc9a8eebd4d088e22e6baf00ede3",
+      "asset.meta": {
+        "sha256": "0697a0c60762716b2e8f491a4ce894ff2b76c29afabcfc976cdc873940a62afc",
+        "size": 311
+      },
+      "asset": {
+        "sha256": "809ea64cb7ebee895e27b264c0a5ca9a8639ce35cc4aeb2709438df03bdbf3fb",
+        "size": 23946
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkUtils.cs"
+    },
+    {
+      "guid": "e7c7ed6cdbdca44cd8eae28d3b60d28c",
+      "asset.meta": {
+        "sha256": "1ed98b627237fab6772a693d44b610fa2e13b4bd5cbd71e4b6219576d935c9af",
+        "size": 309
+      },
+      "asset": {
+        "sha256": "a4d1874323137472c9e6ea6c2e721e7d1b9ef7478a6fb4a11c5b548f1e528ffe",
+        "size": 58480
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSdkiOS.cs"
+    },
+    {
+      "guid": "c1a4950b4ed22489684fa40311f9d5b8",
+      "asset.meta": {
+        "sha256": "e6b74a687580efe666c989dea074bf7e8ecd9a1a91b38255a3db5d87b5d6e096",
+        "size": 320
+      },
+      "asset": {
+        "sha256": "984a563f11c76b10acca532c4ceffe5507d644e2e62f72c2a1a915d7eb0b6602",
+        "size": 2840
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxSegmentCollection.cs"
+    },
+    {
+      "guid": "409fe14211f31433da09f5b4bd5467b9",
+      "asset.meta": {
+        "sha256": "efd9280f2e8c84c321ecd33063481dbad4a519e2568f36127f50c4486ada0d82",
+        "size": 316
+      },
+      "asset": {
+        "sha256": "d340563c9894d9aa2a412f62e44d3856cc5b81fbb6d3301a334c503631d340a4",
+        "size": 81
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxTargetingData.cs"
+    },
+    {
+      "guid": "8fb1f6f31b19c407b9d3fa62557d373a",
+      "asset.meta": {
+        "sha256": "5b8d8875ac20101cdb3350cd21e107a117edf4c45836267bf4a85fe80618c898",
+        "size": 314
+      },
+      "asset": {
+        "sha256": "d340563c9894d9aa2a412f62e44d3856cc5b81fbb6d3301a334c503631d340a4",
+        "size": 81
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxUserSegment.cs"
+    },
+    {
+      "guid": "d2eacd6aa14494de6809b4b06027a332",
+      "asset.meta": {
+        "sha256": "0984b56c2ef0398d0eba22260e0775663cbb0ae10cf9ea9081d7dbad899085b2",
+        "size": 321
+      },
+      "asset": {
+        "sha256": "d340563c9894d9aa2a412f62e44d3856cc5b81fbb6d3301a334c503631d340a4",
+        "size": 81
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxUserServiceAndroid.cs"
+    },
+    {
+      "guid": "16d44e29e68204f36975abec0feb1d35",
+      "asset.meta": {
+        "sha256": "3f5da9fcb59d2c41982aff8a62a47a8403d16d8c6be6f025bc8dba565c40cc40",
+        "size": 325
+      },
+      "asset": {
+        "sha256": "d340563c9894d9aa2a412f62e44d3856cc5b81fbb6d3301a334c503631d340a4",
+        "size": 81
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxUserServiceUnityEditor.cs"
+    },
+    {
+      "guid": "6233dd3f0b4664e7dbdca14cc8904176",
+      "asset.meta": {
+        "sha256": "fbbb558a093c0c17bfd97075bdf074a8d4b7cc45aae648d3c5580604f2c243aa",
+        "size": 317
+      },
+      "asset": {
+        "sha256": "d340563c9894d9aa2a412f62e44d3856cc5b81fbb6d3301a334c503631d340a4",
+        "size": 81
+      },
+      "path": "Assets/MaxSdk/Scripts/MaxUserServiceiOS.cs"
+    },
+    {
+      "guid": "68fc43fe05dea4106bb4b376720d6708",
+      "asset.meta": {
+        "sha256": "b361d2c9cca72eccf0836d228db492436ed999b76c7e2591059b65d3023e46fc",
+        "size": 236
+      },
+      "path": "Assets/MaxSdk/Scripts/ThirdParty"
+    },
+    {
+      "guid": "52789a1d5a5754d46816fd9ed114a375",
+      "asset.meta": {
+        "sha256": "b69f061c3429242ea380083c471ca5c8284f1d2316bc842c511dbb0fd9267346",
+        "size": 319
+      },
+      "asset": {
+        "sha256": "00d737998e6daeb86f7404def5c92eace935edadf2c5b6c1c51a3bde6a7afd38",
+        "size": 21978
+      },
+      "path": "Assets/MaxSdk/Scripts/ThirdParty/MiniJSON.cs"
+    },
+    {
+      "guid": "0fa2897db3e1740e4be4baa0a70cb2c5",
+      "asset.meta": {
+        "sha256": "0ab5683ba7bc4cc55900ab77d62439603b8728ef9ccbd209e8dba801c2b7e7fe",
+        "size": 172
+      },
+      "path": "Assets/PlayServicesResolver"
+    },
+    {
+      "guid": "84f9cc435960f4616948a3f3b4803db8",
+      "asset.meta": {
+        "sha256": "24f69d9a31347e054007550b07f25fc5436f4a7adc7a2418000d624bcc3e417e",
+        "size": 172
+      },
+      "path": "Assets/PlayServicesResolver/Editor"
+    },
+    {
+      "guid": "ba6f911c6f9d4d9ea269756e9dafb641",
+      "asset.meta": {
+        "sha256": "3220acf8f0ac301d18845d7d7b20af9f3bfe35929eafb67854a80842d8e64aab",
+        "size": 333
+      },
+      "asset": {
+        "sha256": "9746742f6f187698a449657be32d14ca7b3a0fa7e783b45c7894e5733eba0f15",
+        "size": 126
+      },
+      "path": "Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt"
+    }
+  ],
+  "ignored_appledouble_entries": 1,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

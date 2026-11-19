@@ -1,0 +1,3241 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "plugin_id": "adjust",
+      "version": "",
+      "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+      "directory": "magictavern/adjust/unversioned/13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "applovin-max",
+      "version": "",
+      "build_id": "2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+      "directory": "magictavern/applovin-max/unversioned/2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "build-config",
+      "version": "",
+      "build_id": "6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975",
+      "directory": "magictavern/build-config/unversioned/6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "demigiant-bundle",
+      "version": "",
+      "build_id": "37df0c3514bccb777cff78573060c74041cdb81cd1a4cdffd9bfe75da1a0e9ce",
+      "directory": "magictavern/demigiant-bundle/unversioned/37df0c3514bccb777cff78573060c74041cdb81cd1a4cdffd9bfe75da1a0e9ce",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "demigiant-bundle",
+      "version": "",
+      "build_id": "b5b456700cf35e540d3234f2543c6b113f8c0b55f10e27d13fe9c87714e125d7",
+      "directory": "magictavern/demigiant-bundle/unversioned/b5b456700cf35e540d3234f2543c6b113f8c0b55f10e27d13fe9c87714e125d7",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "dotween",
+      "version": "",
+      "build_id": "f22c0d425232de759cbd42b8059e57ea0955dee97ce77c76fa0243ab304331ee",
+      "directory": "magictavern/dotween/unversioned/f22c0d425232de759cbd42b8059e57ea0955dee97ce77c76fa0243ab304331ee",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "dotween-pro",
+      "version": "",
+      "build_id": "b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237",
+      "directory": "magictavern/dotween-pro/unversioned/b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "edm4u",
+      "version": "",
+      "build_id": "6db6b031d4fbd18a73e8b56455245b24355a9cfc558b7ae042326503bb01bc2a",
+      "directory": "magictavern/edm4u/unversioned/6db6b031d4fbd18a73e8b56455245b24355a9cfc558b7ae042326503bb01bc2a",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "edm4u",
+      "version": "",
+      "build_id": "dadb3728349f95e6786504322dc8a3014064581b7503c2023757ee2d2ea4b2a5",
+      "directory": "magictavern/edm4u/unversioned/dadb3728349f95e6786504322dc8a3014064581b7503c2023757ee2d2ea4b2a5",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-a-pathfinding-project-pro-dbf3cd71",
+      "version": "5.3.1",
+      "build_id": "6866ba46ca15b57506ca64ccc7f7f24b462d49c59c799cdc59dddd60b6dd5118",
+      "directory": "external-2636/external2636-a-pathfinding-project-pro-dbf3cd71/5.3.1/6866ba46ca15b57506ca64ccc7f7f24b462d49c59c799cdc59dddd60b6dd5118",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+      "version": "4.30.0",
+      "build_id": "e9021ea4746d4940ce0fe5281345418741b351ba3ea59c8464ca118aaa35156e",
+      "directory": "external-2636/external2636-adjust-sdk-dcbb7d32/4.30.0/e9021ea4746d4940ce0fe5281345418741b351ba3ea59c8464ca118aaa35156e",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+      "version": "4.37.1",
+      "build_id": "d3b1faee0ad25643e7c3ca660a4e0d25b16ce576d52f658a974ee9c96e924c88",
+      "directory": "external-2636/external2636-adjust-sdk-dcbb7d32/4.37.1/d3b1faee0ad25643e7c3ca660a4e0d25b16ce576d52f658a974ee9c96e924c88",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+      "version": "5.0.6",
+      "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+      "directory": "external-2636/external2636-adjust-sdk-dcbb7d32/5.0.6/13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-anti-cheat-toolkit-e264d82c",
+      "version": "2024.0.0",
+      "build_id": "5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+      "directory": "external-2636/external2636-anti-cheat-toolkit-e264d82c/2024.0.0/5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+      "version": "5.11.5",
+      "build_id": "92bdf51ac2925019426f5bba672a114b8e502d83e760c99c1cab764ebc49a4cf",
+      "directory": "external-2636/external2636-applovin-max-sdk-8ade2fe2/5.11.5/92bdf51ac2925019426f5bba672a114b8e502d83e760c99c1cab764ebc49a4cf",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+      "version": "5.4.4",
+      "build_id": "95964d6835497d28410ef6054d5adb7732b5c75f99a368d893110f3ec29f3481",
+      "directory": "external-2636/external2636-applovin-max-sdk-8ade2fe2/5.4.4/95964d6835497d28410ef6054d5adb7732b5c75f99a368d893110f3ec29f3481",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+      "version": "6.1.1",
+      "build_id": "bb64f982fc6dc8a3b06f52e92d25fedf588fbe66098d5a2d6c31135a00478e75",
+      "directory": "external-2636/external2636-applovin-max-sdk-8ade2fe2/6.1.1/bb64f982fc6dc8a3b06f52e92d25fedf588fbe66098d5a2d6c31135a00478e75",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-behavior-designer-behavior-trees-for-everyone-0745505c",
+      "version": "1.7.11",
+      "build_id": "99913b6066a4b4a36b812fae9172672b171ea9905ab38be6290d8d95b13657fd",
+      "directory": "external-2636/external2636-behavior-designer-behavior-trees-for-everyone-0745505c/1.7.11/99913b6066a4b4a36b812fae9172672b171ea9905ab38be6290d8d95b13657fd",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6",
+      "version": "9.1-Unity2022",
+      "build_id": "990b43e087c073cb1963d7fedb9e92cc1b98f2e2a393e22f5caeaef439adeb54",
+      "directory": "external-2636/external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6/9.1-Unity2022/990b43e087c073cb1963d7fedb9e92cc1b98f2e2a393e22f5caeaef439adeb54",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6",
+      "version": "9.3-Unity6000",
+      "build_id": "96145f931a096a6286da7a35288e6e15b9a242d5d39c9138c48dac1ad641df0c",
+      "directory": "external-2636/external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6/9.3-Unity6000/96145f931a096a6286da7a35288e6e15b9a242d5d39c9138c48dac1ad641df0c",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-dotween-pro-7c368136",
+      "version": "1.0.335",
+      "build_id": "6917a1f1def4cbdb30e66596bdc1626ae822e81ab9745fbe09462ab3855df3b4",
+      "directory": "external-2636/external2636-dotween-pro-7c368136/1.0.335/6917a1f1def4cbdb30e66596bdc1626ae822e81ab9745fbe09462ab3855df3b4",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-easy-collider-editor-9649192d",
+      "version": "6.16.4",
+      "build_id": "c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+      "directory": "external-2636/external2636-easy-collider-editor-9649192d/6.16.4/c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-edmu-08d7c817",
+      "version": "1.2.176",
+      "build_id": "71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+      "directory": "external-2636/external2636-edmu-08d7c817/1.2.176/71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-edmu-08d7c817",
+      "version": "1.2.177",
+      "build_id": "f6128a08533deee0cf5f324378cd18d17f255e606187cfd07c71bb0b4ed8116e",
+      "directory": "external-2636/external2636-edmu-08d7c817/1.2.177/f6128a08533deee0cf5f324378cd18d17f255e606187cfd07c71bb0b4ed8116e",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-epic-toon-fx-634730ba",
+      "version": "1.82 - unity6000",
+      "build_id": "2338237895359e6f7d2f3c1435a96ee754c74c75aaf36a4123aa54936ff6404b",
+      "directory": "external-2636/external2636-epic-toon-fx-634730ba/1.82---unity6000-3a1122490ac1/2338237895359e6f7d2f3c1435a96ee754c74c75aaf36a4123aa54936ff6404b",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-epic-toon-vfx3-b45e8e1d",
+      "version": "1.1",
+      "build_id": "127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+      "directory": "external-2636/external2636-epic-toon-vfx3-b45e8e1d/1.1/127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-feel-cd1e2387",
+      "version": "3.7.1",
+      "build_id": "340413083e6c8095c8b886a1304eee69b3b0b3ea09e757d359a5bf9a8a75a4fe",
+      "directory": "external-2636/external2636-feel-cd1e2387/3.7.1/340413083e6c8095c8b886a1304eee69b3b0b3ea09e757d359a5bf9a8a75a4fe",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-feel-cd1e2387",
+      "version": "4.3-Unity2022",
+      "build_id": "ba862b9e7d351f370344a47070b677e1314aa32e85961c5575d3ce04d3644107",
+      "directory": "external-2636/external2636-feel-cd1e2387/4.3-Unity2022/ba862b9e7d351f370344a47070b677e1314aa32e85961c5575d3ce04d3644107",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-feel-cd1e2387",
+      "version": "5.3-Unity6",
+      "build_id": "906cf3fb4818db5ff4c1d3c8e50bde20b0cd4f19539dc57cd48ec48f27028c88",
+      "directory": "external-2636/external2636-feel-cd1e2387/5.3-Unity6/906cf3fb4818db5ff4c1d3c8e50bde20b0cd4f19539dc57cd48ec48f27028c88",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-fmod-studio-755279a6",
+      "version": "2.0.2.19",
+      "build_id": "715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+      "directory": "external-2636/external2636-fmod-studio-755279a6/2.0.2.19/715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-fmod-studio-755279a6",
+      "version": "2.0.2.26",
+      "build_id": "2a3276a809292aa00ddaeb6cc6926999ebde417ba81c78308276fefb92d6e31c",
+      "directory": "external-2636/external2636-fmod-studio-755279a6/2.0.2.26/2a3276a809292aa00ddaeb6cc6926999ebde417ba81c78308276fefb92d6e31c",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-log-viewer-b26528cf",
+      "version": "1.8",
+      "build_id": "e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+      "directory": "external-2636/external2636-log-viewer-b26528cf/1.8/e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-magica-cloth-f971aa59",
+      "version": "2.13.1",
+      "build_id": "0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+      "directory": "external-2636/external2636-magica-cloth-f971aa59/2.13.1/0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-map-graph-53789fa8",
+      "version": "1.26.2",
+      "build_id": "645de9f47126d647414c0e945b6a15b5e84353bf924154dd6da2385a22bb26c8",
+      "directory": "external-2636/external2636-map-graph-53789fa8/1.26.2/645de9f47126d647414c0e945b6a15b5e84353bf924154dd6da2385a22bb26c8",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-nicevibrations-a97fc6fd",
+      "version": "3.9.0",
+      "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+      "directory": "external-2636/external2636-nicevibrations-a97fc6fd/3.9.0/0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-nugetforunity-d17a20b9",
+      "version": "3.0.4",
+      "build_id": "47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+      "directory": "external-2636/external2636-nugetforunity-d17a20b9/3.0.4/47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-odin-inspector-and-serializer-7a65c84f",
+      "version": "3.1.10.0",
+      "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+      "directory": "external-2636/external2636-odin-inspector-and-serializer-7a65c84f/3.1.10.0/bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-pixel-art-full-gui-ui-kit-f3e1d86c",
+      "version": "1.2.0",
+      "build_id": "99b368037398a28176b8ffd85216998ae2bdd9c1dfc11ef5f5a648f38aee8754",
+      "directory": "external-2636/external2636-pixel-art-full-gui-ui-kit-f3e1d86c/1.2.0/99b368037398a28176b8ffd85216998ae2bdd9c1dfc11ef5f5a648f38aee8754",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-proxima-5f634d1a",
+      "version": "1.2.1",
+      "build_id": "6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+      "directory": "external-2636/external2636-proxima-5f634d1a/1.2.1/6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-spine-36682557",
+      "version": "3.8",
+      "build_id": "ebec10123b018ba9a4c7f4023ac0602a98674e57465657e0b190acd29c923108",
+      "directory": "external-2636/external2636-spine-36682557/3.8/ebec10123b018ba9a4c7f4023ac0602a98674e57465657e0b190acd29c923108",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-spine-36682557",
+      "version": "4.1",
+      "build_id": "785c14dcf9c2744f9de1b4512b0e2a060fa6b18adfcd1e407c36a59b6a0d0e31",
+      "directory": "external-2636/external2636-spine-36682557/4.1/785c14dcf9c2744f9de1b4512b0e2a060fa6b18adfcd1e407c36a59b6a0d0e31",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-spine-36682557",
+      "version": "4.1 with example",
+      "build_id": "8416f5bd99c61247302131761e4c8aef96ddbef90e81d34e8d28356bb4ba140b",
+      "directory": "external-2636/external2636-spine-36682557/4.1-with-example-83a4361ad5af/8416f5bd99c61247302131761e4c8aef96ddbef90e81d34e8d28356bb4ba140b",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-statsmonitor-16a8b28e",
+      "version": "1.0.0",
+      "build_id": "e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+      "directory": "external-2636/external2636-statsmonitor-16a8b28e/1.0.0/e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-stylized-water-2-90c54509",
+      "version": "1.7.0",
+      "build_id": "893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+      "directory": "external-2636/external2636-stylized-water-2-90c54509/1.7.0/893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-task-invoker-mobile-background-tasks-5a618738",
+      "version": "1.0.2",
+      "build_id": "941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+      "directory": "external-2636/external2636-task-invoker-mobile-background-tasks-5a618738/1.0.2/941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-text-animator-for-unity-d050710a",
+      "version": "2.1.0",
+      "build_id": "7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+      "directory": "external-2636/external2636-text-animator-for-unity-d050710a/2.1.0/7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "external2636-uniwebview-743d2f34",
+      "version": "5.12.0",
+      "build_id": "2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+      "directory": "external-2636/external2636-uniwebview-743d2f34/5.12.0/2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "facebook-unity-sdk",
+      "version": "",
+      "build_id": "6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf",
+      "directory": "magictavern/facebook-unity-sdk/unversioned/6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "google-signin",
+      "version": "",
+      "build_id": "b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf",
+      "directory": "magictavern/google-signin/unversioned/b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "googleplay-games",
+      "version": "",
+      "build_id": "778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac",
+      "directory": "magictavern/googleplay-games/unversioned/778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "helpshift-x",
+      "version": "",
+      "build_id": "0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f",
+      "directory": "magictavern/helpshift-x/unversioned/0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "nice-vibrations",
+      "version": "",
+      "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+      "directory": "magictavern/nice-vibrations/unversioned/0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "odin-inspector",
+      "version": "",
+      "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+      "directory": "magictavern/odin-inspector/unversioned/bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "odin-inspector-configtool",
+      "version": "",
+      "build_id": "c297d2cf833edebbc099436510bbc0ed1f72555b055e19135a11942081b5bc7e",
+      "directory": "magictavern/odin-inspector-configtool/unversioned/c297d2cf833edebbc099436510bbc0ed1f72555b055e19135a11942081b5bc7e",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "spine-timeline",
+      "version": "",
+      "build_id": "51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4",
+      "directory": "magictavern/spine-timeline/unversioned/51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "spine-unity",
+      "version": "",
+      "build_id": "0ec86d76e453a99a661335f2e4508d7d59a636ce0ab60197c9458eac2b37753c",
+      "directory": "magictavern/spine-unity/unversioned/0ec86d76e453a99a661335f2e4508d7d59a636ce0ab60197c9458eac2b37753c",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "test-readme-archive",
+      "version": "",
+      "build_id": "0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502",
+      "directory": "magictavern/test-readme-archive/unversioned/0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502",
+      "metadata_status": "needs_review"
+    },
+    {
+      "plugin_id": "ui-animations",
+      "version": "",
+      "build_id": "386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb",
+      "directory": "magictavern/ui-animations/unversioned/386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb",
+      "metadata_status": "needs_review"
+    }
+  ],
+  "package_mappings": [
+    {
+      "key": "com.magictavern.TestPackage6@8955b8201cc14d62946bfee29aaf9ae1372a7e3d",
+      "package_name": "com.magictavern.TestPackage6",
+      "package_version": "1.0.0",
+      "commit": "8955b8201cc14d62946bfee29aaf9ae1372a7e3d",
+      "package_json_sha256": "b677337c422f4a93f4028b2f11145d4bcf45e01477a12499fa5fdaebd1820318",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage6-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "b677337c422f4a93f4028b2f11145d4bcf45e01477a12499fa5fdaebd1820318",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.activity@508ce1ab317d60d24e7ff8e174adc2272099e7cf",
+      "package_name": "com.magictavern.activity",
+      "package_version": "1.0.3",
+      "commit": "508ce1ab317d60d24e7ff8e174adc2272099e7cf",
+      "package_json_sha256": "ee762554788844f3c97b230bcd3a21ad5da4035d5353b1460c67f9a75228d24e",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2928,
+          "tag": "activity-1.0.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "ee762554788844f3c97b230bcd3a21ad5da4035d5353b1460c67f9a75228d24e",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.ageguardsdk@de9471d1908637b216b8b0f8654ff6a3f1bede52",
+      "package_name": "com.magictavern.ageguardsdk",
+      "package_version": "0.0.16",
+      "commit": "de9471d1908637b216b8b0f8654ff6a3f1bede52",
+      "package_json_sha256": "5cda3f3ed4fb96213d4cbf437469372bea04b1d8980b6e4f5e4b91cd853784bd",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 3273,
+          "tag": "mtageguard-0.0.16",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "5cda3f3ed4fb96213d4cbf437469372bea04b1d8980b6e4f5e4b91cd853784bd",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.amusesunityclient@fa334e25c46926c6fc398fe7b2f17ef875028b54",
+      "package_name": "com.magictavern.amusesunityclient",
+      "package_version": "1.1.8",
+      "commit": "fa334e25c46926c6fc398fe7b2f17ef875028b54",
+      "package_json_sha256": "daf99e016beda949a7a278d918e34d349870d6819d9330da04c6671057234028",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1535,
+          "tag": "amusesunityclient-1.1.8",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "daf99e016beda949a7a278d918e34d349870d6819d9330da04c6671057234028",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.assetautogroup@f3ffc4ff0f3208e6be117f0e26379cc6b7c7fc0c",
+      "package_name": "com.magictavern.assetautogroup",
+      "package_version": "1.0.0",
+      "commit": "f3ffc4ff0f3208e6be117f0e26379cc6b7c7fc0c",
+      "package_json_sha256": "6ed8b09b20e95e42d1506f9c9aeb7b63f8257a5cc24d205bb8dafed738a622ea",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 4124,
+          "tag": "assetautogroup-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "6ed8b09b20e95e42d1506f9c9aeb7b63f8257a5cc24d205bb8dafed738a622ea",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.assetfindusages@1539a6868c3272a32d340310c84c62e9af45f67f",
+      "package_name": "com.magictavern.assetfindusages",
+      "package_version": "1.0.1",
+      "commit": "1539a6868c3272a32d340310c84c62e9af45f67f",
+      "package_json_sha256": "e51a3f9138aeb31c8f604c6d8eec72e9e63bb388bf40b7469c52bc366556d836",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1904,
+          "tag": "assetfindusages-develop-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "e51a3f9138aeb31c8f604c6d8eec72e9e63bb388bf40b7469c52bc366556d836",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.assetsmanager@009347d53a630ae907058e983e7b6754c7de40a7",
+      "package_name": "com.magictavern.assetsmanager",
+      "package_version": "1.1.21",
+      "commit": "009347d53a630ae907058e983e7b6754c7de40a7",
+      "package_json_sha256": "25e82a31e8f751eb415a7b077db3f29fd44673018dd846e4f474fbb9fbf263bc",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 760,
+          "tag": "assetsmanager-1.1.21",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "25e82a31e8f751eb415a7b077db3f29fd44673018dd846e4f474fbb9fbf263bc",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.audiomanager@6e98204a243748a5db0af7389d34b0a1c1ce4a2b",
+      "package_name": "com.magictavern.audiomanager",
+      "package_version": "1.1.11",
+      "commit": "6e98204a243748a5db0af7389d34b0a1c1ce4a2b",
+      "package_json_sha256": "27e63201f51faf084736e5255338f22ffead56bb3c8131f1fd3b7c8936c70b64",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 726,
+          "tag": "audiomanager-1.1.11",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "27e63201f51faf084736e5255338f22ffead56bb3c8131f1fd3b7c8936c70b64",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.authoritymanager@5d4f676e17003deec153c1a88c751080d3013f77",
+      "package_name": "com.magictavern.authoritymanager",
+      "package_version": "0.0.4",
+      "commit": "5d4f676e17003deec153c1a88c751080d3013f77",
+      "package_json_sha256": "7caf2d2beeec13324b918002a6b4ee46a9f06ccb18b50b468250c7b368d1e258",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 770,
+          "tag": "authoritymanager-0.0.4",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "7caf2d2beeec13324b918002a6b4ee46a9f06ccb18b50b468250c7b368d1e258",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.bezieranimationeditor@3cedfeee48a16cb05234d01b17a98bfdedc0f4f5",
+      "package_name": "com.magictavern.bezieranimationeditor",
+      "package_version": "1.0.5",
+      "commit": "3cedfeee48a16cb05234d01b17a98bfdedc0f4f5",
+      "package_json_sha256": "57b7dbc92e3c68e5c9a861d230500706210c47d2e3bd05984e3d26c874604c60",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1153,
+          "tag": "bezieranimationeditor-1.0.5",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "57b7dbc92e3c68e5c9a861d230500706210c47d2e3bd05984e3d26c874604c60",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.cheattool@ee75963e50bfe55ae74f3a2d24f3bb046a982709",
+      "package_name": "com.magictavern.cheattool",
+      "package_version": "2.2.14",
+      "commit": "ee75963e50bfe55ae74f3a2d24f3bb046a982709",
+      "package_json_sha256": "a6395d0fa301565bf73fe261e6ec48c1af8c665c2e20a6a8cf4078862300c19d",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 819,
+          "tag": "cheattool-2.2.14",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "a6395d0fa301565bf73fe261e6ec48c1af8c665c2e20a6a8cf4078862300c19d",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.cibuildpipeline@5bda12cc57da1cac3080254720df5f8d21fe00ac",
+      "package_name": "com.magictavern.cibuildpipeline",
+      "package_version": "1.2.22",
+      "commit": "5bda12cc57da1cac3080254720df5f8d21fe00ac",
+      "package_json_sha256": "77a392bcdb4489bcf3703845d7b5dc58ec8e1b0b1620466b82ce8ecb96e6f608",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "build-config",
+          "version": "",
+          "build_id": "6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975",
+          "source_path": "Editor/PluginsPackage/BuildConfig.zip",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 689,
+          "tag": "cibuildpipeline-1.2.22",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "77a392bcdb4489bcf3703845d7b5dc58ec8e1b0b1620466b82ce8ecb96e6f608",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.configtool@7e1c0f3aa0b873069985a1088968dab26943dc7f",
+      "package_name": "com.magictavern.configtool",
+      "package_version": "1.2.25",
+      "commit": "7e1c0f3aa0b873069985a1088968dab26943dc7f",
+      "package_json_sha256": "b0e095a38ed73eadaa764a61deab6365636f3bf9e6ba45c0abfa246bc15323a1",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 753,
+          "tag": "configtool-1.2.25",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "b0e095a38ed73eadaa764a61deab6365636f3bf9e6ba45c0abfa246bc15323a1",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.devicemanager@0905e0d963246f0652e08eda7a70468484133f48",
+      "package_name": "com.magictavern.devicemanager",
+      "package_version": "1.0.3",
+      "commit": "0905e0d963246f0652e08eda7a70468484133f48",
+      "package_json_sha256": "0f80fddc9e862e92d95151db0d7132f47812f2efb81cdf163460d00bb752805a",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 759,
+          "tag": "devicemanager-1.0.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "0f80fddc9e862e92d95151db0d7132f47812f2efb81cdf163460d00bb752805a",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.dotsmatch3@403000e08f6913283b597776da4fb9b541101708",
+      "package_name": "com.magictavern.dotsmatch3",
+      "package_version": "0.0.9",
+      "commit": "403000e08f6913283b597776da4fb9b541101708",
+      "package_json_sha256": "503adc211cb0bcaa263fb186cf5da76828434b88a6d9c20ee0aa6cdf6a4b7aa3",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "dotween-pro",
+          "version": "",
+          "build_id": "b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237",
+          "source_path": "Editor/PluginsPackage/DotweenPro.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2251,
+          "tag": "dotsmatch3-0.0.9",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "503adc211cb0bcaa263fb186cf5da76828434b88a6d9c20ee0aa6cdf6a4b7aa3",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.editorbase@51da06c9c1d33b4ebcadeb3a00668be802074788",
+      "package_name": "com.magictavern.editorbase",
+      "package_version": "1.0.3",
+      "commit": "51da06c9c1d33b4ebcadeb3a00668be802074788",
+      "package_json_sha256": "f12f1522f9fd2b4d0c22f6f5d79062081b6e3b9bb8d63600c94299dbf43c8d44",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1587,
+          "tag": "editorbase-1.0.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "f12f1522f9fd2b4d0c22f6f5d79062081b6e3b9bb8d63600c94299dbf43c8d44",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.eventmanager@c40cf45d664555adb1bf32dd5f4779d1dbf3afa6",
+      "package_name": "com.magictavern.eventmanager",
+      "package_version": "1.0.14",
+      "commit": "c40cf45d664555adb1bf32dd5f4779d1dbf3afa6",
+      "package_json_sha256": "d8aa3ea5a0b8e0e4d21b7f2b3b430b680f88a03c72d73a8a99664bd7b85c06c3",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 627,
+          "tag": "eventmanager-1.0.14",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d8aa3ea5a0b8e0e4d21b7f2b3b430b680f88a03c72d73a8a99664bd7b85c06c3",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.filedispatcher@75c7caa35f41b5dfd4a23bb4a89455033851e846",
+      "package_name": "com.magictavern.filedispatcher",
+      "package_version": "0.0.6",
+      "commit": "75c7caa35f41b5dfd4a23bb4a89455033851e846",
+      "package_json_sha256": "25b1ef177875acfa70ff8d7f1abcb528625f58c8d73ab53e77aaa47e6e0b1b5d",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 692,
+          "tag": "filedispatcher-develop-0.0.6",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "25b1ef177875acfa70ff8d7f1abcb528625f58c8d73ab53e77aaa47e6e0b1b5d",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.filereceiver@0c9dc7656c5ac176396d14f980654553723d5246",
+      "package_name": "com.magictavern.filereceiver",
+      "package_version": "0.0.4",
+      "commit": "0c9dc7656c5ac176396d14f980654553723d5246",
+      "package_json_sha256": "ee0926b335361aa7eded4b2d0946476ab8c01ef50b6d5f11c4a079d4a44c66d0",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 692,
+          "tag": "filereceiver-develop-0.0.4",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "ee0926b335361aa7eded4b2d0946476ab8c01ef50b6d5f11c4a079d4a44c66d0",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.frontengine.base@0b8e660268d1e7d5a4ad69df99bc3d68a453c5b1",
+      "package_name": "com.magictavern.frontengine.base",
+      "package_version": "1.0.25",
+      "commit": "0b8e660268d1e7d5a4ad69df99bc3d68a453c5b1",
+      "package_json_sha256": "3907e8a12ff40792b1b0a1ec359eaff6e20127172f393cb4e80a599221e3bf48",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 618,
+          "tag": "base-1.0.25",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "3907e8a12ff40792b1b0a1ec359eaff6e20127172f393cb4e80a599221e3bf48",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.guiassetimporter@70b6e35f66345f25caba4260941d7173d413c890",
+      "package_name": "com.magictavern.guiassetimporter",
+      "package_version": "1.0.16",
+      "commit": "70b6e35f66345f25caba4260941d7173d413c890",
+      "package_json_sha256": "c64861a6123faf435766a69568080b592eaed705f2c6b8171ca9953b811604d8",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "odin-inspector",
+          "version": "",
+          "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+          "source_path": "Editor/PluginsPackage/Odin Inspector 3.1.10.0.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 646,
+          "tag": "guiassetimporter-1.0.16",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "c64861a6123faf435766a69568080b592eaed705f2c6b8171ca9953b811604d8",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.h5game@8744955f7f321b3f321f02d1056c3f855c2f2040",
+      "package_name": "com.magictavern.h5game",
+      "package_version": "1.0.7",
+      "commit": "8744955f7f321b3f321f02d1056c3f855c2f2040",
+      "package_json_sha256": "1f75cbd62dde47fc4df605209e1a794bff85483c2754bbf7e9fd4ab25f3a7ee4",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 855,
+          "tag": "h5gamemanager-1.0.7",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "1f75cbd62dde47fc4df605209e1a794bff85483c2754bbf7e9fd4ab25f3a7ee4",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.helpshiftsdk@cf2371c16bab65a09b56b5d207fe17fb2f78639c",
+      "package_name": "com.magictavern.helpshiftsdk",
+      "package_version": "1.0.0",
+      "commit": "cf2371c16bab65a09b56b5d207fe17fb2f78639c",
+      "package_json_sha256": "f045ade74d9465461b6cfbef2c782c9f1dc059273d48a42b328905b6266704e4",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "helpshift-x",
+          "version": "",
+          "build_id": "0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f",
+          "source_path": "Editor/PluginsPackage/helpshiftX-plugin-unity-v10.2.1/helpshiftX-plugin-unity-v10.2.1.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        },
+        {
+          "plugin_id": "edm4u",
+          "version": "",
+          "build_id": "dadb3728349f95e6786504322dc8a3014064581b7503c2023757ee2d2ea4b2a5",
+          "source_path": "Editor/PluginsPackage/helpshiftX-plugin-unity-v10.2.1/unity-jar-resolver/external-dependency-manager-1.2.170.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 1
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1170,
+          "tag": "helpshiftsdk-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "f045ade74d9465461b6cfbef2c782c9f1dc059273d48a42b328905b6266704e4",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.hotfixdownloader@bfbdf2626e28f426f6f076246d29410459aac477",
+      "package_name": "com.magictavern.hotfixdownloader",
+      "package_version": "1.1.40",
+      "commit": "bfbdf2626e28f426f6f076246d29410459aac477",
+      "package_json_sha256": "d3ec93ca10ce05ccaee0f2bb95100d2313ac45d94813ed7d2642e3102c61cf73",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 853,
+          "tag": "hotfixdownloader-1.1.40",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d3ec93ca10ce05ccaee0f2bb95100d2313ac45d94813ed7d2642e3102c61cf73",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.hybridclr@5011fd7b26ae874dc1ada1f2b913afd544268c5e",
+      "package_name": "com.magictavern.hybridclr",
+      "package_version": "8.6.0",
+      "commit": "5011fd7b26ae874dc1ada1f2b913afd544268c5e",
+      "package_json_sha256": "eaff2aaa050bf7dbefbda92419405241fb3d8e2cd5be791465f8a2fc0be7f77c",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 853,
+          "tag": "hybridclr-8.6.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "eaff2aaa050bf7dbefbda92419405241fb3d8e2cd5be791465f8a2fc0be7f77c",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.hybridclrhelper@11a6857135048950bc7e9feecb34f52b9009415c",
+      "package_name": "com.magictavern.hybridclrhelper",
+      "package_version": "1.0.1",
+      "commit": "11a6857135048950bc7e9feecb34f52b9009415c",
+      "package_json_sha256": "3677c393b8b0979dea780eae532d3119e167a4ebf4cf01a7d2026c41d05c8e20",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 853,
+          "tag": "hybridclrhelper-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "3677c393b8b0979dea780eae532d3119e167a4ebf4cf01a7d2026c41d05c8e20",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.langtool@764b87e05bb3ff6871e02e26cf52da953db161a7",
+      "package_name": "com.magictavern.langtool",
+      "package_version": "1.4.12",
+      "commit": "764b87e05bb3ff6871e02e26cf52da953db161a7",
+      "package_json_sha256": "dc7bf64fabb4ccdfb08aa400f17ac77a868dee2789ba353996bc2a40ca0c6a2b",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [
+        {
+          "plugin_id": "odin-inspector-configtool",
+          "version": "",
+          "build_id": "c297d2cf833edebbc099436510bbc0ed1f72555b055e19135a11942081b5bc7e",
+          "source_path": "Editor/PluginsPackage/Odin Inspector_ConfigTool.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 917,
+          "tag": "langtool-1.4.12",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "dc7bf64fabb4ccdfb08aa400f17ac77a868dee2789ba353996bc2a40ca0c6a2b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.langtool_tmpsupport@1eddefb5090cc52b9c86ed303bb5eec67a5e6684",
+      "package_name": "com.magictavern.langtool_tmpsupport",
+      "package_version": "1.2.2",
+      "commit": "1eddefb5090cc52b9c86ed303bb5eec67a5e6684",
+      "package_json_sha256": "87c34f512a5b1a61653e81eb1ef271502731fae288034d2d18319f7c818b9e0c",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1102,
+          "tag": "langtooltmpsupport-1.2.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "87c34f512a5b1a61653e81eb1ef271502731fae288034d2d18319f7c818b9e0c",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.lecommon@c2cc5f7b767ecbcdf9572097c8cde4fd1ec555b9",
+      "package_name": "com.magictavern.lecommon",
+      "package_version": "1.0.10",
+      "commit": "c2cc5f7b767ecbcdf9572097c8cde4fd1ec555b9",
+      "package_json_sha256": "0a59b9c83c02929c4bc7219ca2a2f5a37bdbcffbae3f7903f4c74c10e227491e",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 636,
+          "tag": "lecommon-1.0.10",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "0a59b9c83c02929c4bc7219ca2a2f5a37bdbcffbae3f7903f4c74c10e227491e",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.levelautogenerator@c1c4dec74c7b90e286730e510019d35b2855e7a9",
+      "package_name": "com.magictavern.levelautogenerator",
+      "package_version": "1.0.16",
+      "commit": "c1c4dec74c7b90e286730e510019d35b2855e7a9",
+      "package_json_sha256": "d7ec5a2f4794e419f4168071cf452b1756eb790cd966f0d52f753c94f921ba94",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2572,
+          "tag": "levelautogenerator-1.0.16",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d7ec5a2f4794e419f4168071cf452b1756eb790cd966f0d52f753c94f921ba94",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.litjson@f4299fdc3052943c8683fa44d0f9e10a24707728",
+      "package_name": "com.magictavern.litjson",
+      "package_version": "1.0.1",
+      "commit": "f4299fdc3052943c8683fa44d0f9e10a24707728",
+      "package_json_sha256": "9810644b332906bbb93d73b27a837dc47688cf20d8a20af462e16bf52d2b941f",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 797,
+          "tag": "mtlitjson-develop-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "9810644b332906bbb93d73b27a837dc47688cf20d8a20af462e16bf52d2b941f",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.matcheditor@a1a4b826d0246ec7ce451b9cc0dd1285611a7802",
+      "package_name": "com.magictavern.matcheditor",
+      "package_version": "1.0.0",
+      "commit": "a1a4b826d0246ec7ce451b9cc0dd1285611a7802",
+      "package_json_sha256": "a34794dce196c3332a5b4d93ea394d89ab586a4fc8953748ebe035cca4f948fd",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 692,
+          "tag": "mtmatcheditor-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "a34794dce196c3332a5b4d93ea394d89ab586a4fc8953748ebe035cca4f948fd",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.matcheditor@d6276ebcbefc632fe69bab2e253b5ad3569418d6",
+      "package_name": "com.magictavern.matcheditor",
+      "package_version": "1.0.5",
+      "commit": "d6276ebcbefc632fe69bab2e253b5ad3569418d6",
+      "package_json_sha256": "2b7a17e4258b2842868ee028fb4ddb625d2639d370c6f107108d162f3d8ce311",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 692,
+          "tag": "mtmatcheditor-develop-1.0.5",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "2b7a17e4258b2842868ee028fb4ddb625d2639d370c6f107108d162f3d8ce311",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.minigame@6e84efb0909d0ec717a448748f75036046b54cd6",
+      "package_name": "com.magictavern.minigame",
+      "package_version": "0.6.11",
+      "commit": "6e84efb0909d0ec717a448748f75036046b54cd6",
+      "package_json_sha256": "69edbd4d040876cef57fd9918d165625458b297ddbc5b039cd8c52affb3e1d13",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [
+        {
+          "plugin_id": "dotween",
+          "version": "",
+          "build_id": "f22c0d425232de759cbd42b8059e57ea0955dee97ce77c76fa0243ab304331ee",
+          "source_path": "Editor/PluginsPackage/DOTween.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1262,
+          "tag": "minigame-0.6.11",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "69edbd4d040876cef57fd9918d165625458b297ddbc5b039cd8c52affb3e1d13",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.modulesystem@57c569df871457c3f1063260b267322785f60ba0",
+      "package_name": "com.magictavern.modulesystem",
+      "package_version": "1.0.2",
+      "commit": "57c569df871457c3f1063260b267322785f60ba0",
+      "package_json_sha256": "a59fb97c533cf19067fe138c250afe15f3092e87fbfc539f94ca8081b63051d5",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 921,
+          "tag": "modulesystem-1.0.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "a59fb97c533cf19067fe138c250afe15f3092e87fbfc539f94ca8081b63051d5",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtaccount@2075101bbae14615073a048d4b9d1b416f8388ef",
+      "package_name": "com.magictavern.mtaccount",
+      "package_version": "1.0.21",
+      "commit": "2075101bbae14615073a048d4b9d1b416f8388ef",
+      "package_json_sha256": "0f1eb5b39c555b9e30c1ccd38d5b48036525e8c84a38241f82b6a8133b5886eb",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 763,
+          "tag": "mtaccount-1.0.21",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "0f1eb5b39c555b9e30c1ccd38d5b48036525e8c84a38241f82b6a8133b5886eb",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtaddressable@3a5956d6b55d2acb20deda8b378d3d2a35af7af0",
+      "package_name": "com.magictavern.mtaddressable",
+      "package_version": "1.19.19",
+      "commit": "3a5956d6b55d2acb20deda8b378d3d2a35af7af0",
+      "package_json_sha256": "51b1af4305123de91dae3f164885b6d7689828df4b439852b7813b68c1f7a4ce",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false
+    },
+    {
+      "key": "com.magictavern.mtaddressable@562ea47abd2a4b316660884f1adc73c6e9560767",
+      "package_name": "com.magictavern.mtaddressable",
+      "package_version": "1.21.23",
+      "commit": "562ea47abd2a4b316660884f1adc73c6e9560767",
+      "package_json_sha256": "1a76e9d31b250ea8a467b23a3e33dca73cb9c4d561644380b7d74ccd012952ea",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 784,
+          "tag": "mtaddressable-upgrade/2022.3.62-1.21.23",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "1a76e9d31b250ea8a467b23a3e33dca73cb9c4d561644380b7d74ccd012952ea",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtaddressable@ff915672322583b9bafd489e2b05b5748a4f1509",
+      "package_name": "com.magictavern.mtaddressable",
+      "package_version": "1.21.21",
+      "commit": "ff915672322583b9bafd489e2b05b5748a4f1509",
+      "package_json_sha256": "5ce4c242e612a6f6582751fdbfd05de8d222e893e211fce71bf078ca7512b465",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 784,
+          "tag": "mtaddressable-1.21.21",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "5ce4c242e612a6f6582751fdbfd05de8d222e893e211fce71bf078ca7512b465",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtmatch@50b430a17a23f79751afcaedfed5beea26fca5f8",
+      "package_name": "com.magictavern.mtmatch",
+      "package_version": "1.0.0",
+      "commit": "50b430a17a23f79751afcaedfed5beea26fca5f8",
+      "package_json_sha256": "89c84aeb718e67cebf39f629020c8ac0619735af36687587151d1d3dc7d736e9",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 692,
+          "tag": "mtmatch-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "89c84aeb718e67cebf39f629020c8ac0619735af36687587151d1d3dc7d736e9",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtmatch@645ff8c4096d40446e271f4cabe90126aa7e21fa",
+      "package_name": "com.magictavern.mtmatch",
+      "package_version": "1.0.10",
+      "commit": "645ff8c4096d40446e271f4cabe90126aa7e21fa",
+      "package_json_sha256": "f6513c6484db4ea38789e2a4e04e8f96e9cebc876bb4bdb3ddda660c5fcc42d8",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 692,
+          "tag": "mtmatch-develop-1.0.10",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "f6513c6484db4ea38789e2a4e04e8f96e9cebc876bb4bdb3ddda660c5fcc42d8",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtnetwork@97ed7784a38f29563b2f711b709d0be006e53044",
+      "package_name": "com.magictavern.mtnetwork",
+      "package_version": "1.0.19",
+      "commit": "97ed7784a38f29563b2f711b709d0be006e53044",
+      "package_json_sha256": "0ffe6c7a2cff81c5a9f14a8804a39cb957d9965fc6a93a61b00cb0d5fa278e3b",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 763,
+          "tag": "mtnetwork-1.0.19",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "0ffe6c7a2cff81c5a9f14a8804a39cb957d9965fc6a93a61b00cb0d5fa278e3b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtpdevtoolkit@1df14309c783c1104ee5b3840171fa90140e23b1",
+      "package_name": "com.magictavern.mtpdevtoolkit",
+      "package_version": "1.2.8",
+      "commit": "1df14309c783c1104ee5b3840171fa90140e23b1",
+      "package_json_sha256": "6b2f2724812502955c41b73d4fabf79fb8f84b31ea9fdafe478c40f6617ad026",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 614,
+          "tag": "mtpdevtoolkit-1.2.8",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "6b2f2724812502955c41b73d4fabf79fb8f84b31ea9fdafe478c40f6617ad026",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtpmanager@868dacc9706cb9e3a2154dda4d23b6080b1125a3",
+      "package_name": "com.magictavern.mtpmanager",
+      "package_version": "1.3.19",
+      "commit": "868dacc9706cb9e3a2154dda4d23b6080b1125a3",
+      "package_json_sha256": "d8a7d44f10e6218a1147420b395500f0c76e0d0f8935e77b15c77f3bf28f1dee",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 614,
+          "tag": "mtpmanager-1.3.19",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d8a7d44f10e6218a1147420b395500f0c76e0d0f8935e77b15c77f3bf28f1dee",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mttypereigstersourcegenerator@121065ebd9ecf861a0c76c4f60486155448cceee",
+      "package_name": "com.magictavern.mttypereigstersourcegenerator",
+      "package_version": "1.0.0",
+      "commit": "121065ebd9ecf861a0c76c4f60486155448cceee",
+      "package_json_sha256": "462cbcaaf4e2bcb21e8a2c54d7178f500bfe76516a80e8e6e9fd1d54f6a7744c",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2638,
+          "tag": "mttypereigstersourcegenerator-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "462cbcaaf4e2bcb21e8a2c54d7178f500bfe76516a80e8e6e9fd1d54f6a7744c",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtu8@05187d46fe260dba8df83b8dc872a39fcf772635",
+      "package_name": "com.magictavern.mtu8",
+      "package_version": "0.1.30",
+      "commit": "05187d46fe260dba8df83b8dc872a39fcf772635",
+      "package_json_sha256": "d49369c786f08c9719095ae96e780d7d20591ef813a11a7f10bbb914303ee21b",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 872,
+          "tag": "mtu8-0.1.30",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d49369c786f08c9719095ae96e780d7d20591ef813a11a7f10bbb914303ee21b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtuiframework@23ed4e5f983bd2daf3f5bbe8339b65433bc5bb85",
+      "package_name": "com.magictavern.mtuiframework",
+      "package_version": "2.5.16",
+      "commit": "23ed4e5f983bd2daf3f5bbe8339b65433bc5bb85",
+      "package_json_sha256": "c0146c317e570679acd7d952134bc3e7b821a6f7ffa5b232ef0439874f01ed1f",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [
+        {
+          "plugin_id": "ui-animations",
+          "version": "",
+          "build_id": "386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb",
+          "source_path": "Runtime/Plugins/Animations.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        },
+        {
+          "plugin_id": "demigiant-bundle",
+          "version": "",
+          "build_id": "37df0c3514bccb777cff78573060c74041cdb81cd1a4cdffd9bfe75da1a0e9ce",
+          "source_path": "Runtime/Plugins/Demigiant.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 1
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 843,
+          "tag": "mtuiframework-2.5.16",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "c0146c317e570679acd7d952134bc3e7b821a6f7ffa5b232ef0439874f01ed1f",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtunigif@af70c15128c95484883fec28aa5533a9bf070eb3",
+      "package_name": "com.magictavern.mtunigif",
+      "package_version": "1.0.2",
+      "commit": "af70c15128c95484883fec28aa5533a9bf070eb3",
+      "package_json_sha256": "ba83742390c330f252c4e104ec5b20ecea33896d17a02e51d24d57d00debcd0f",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2107,
+          "tag": "mtunigif-1.0.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "ba83742390c330f252c4e104ec5b20ecea33896d17a02e51d24d57d00debcd0f",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.mtunitgif@21f9fb94bb36be2da937ff2ddb0805ac101450e5",
+      "package_name": "com.magictavern.mtunitgif",
+      "package_version": "1.0.0",
+      "commit": "21f9fb94bb36be2da937ff2ddb0805ac101450e5",
+      "package_json_sha256": "b6673bedaed654480a9763025e254a0cd4e63d06140514ce4cfb11ba7fc15f8b",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2107,
+          "tag": "mtunitgif-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "b6673bedaed654480a9763025e254a0cd4e63d06140514ce4cfb11ba7fc15f8b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        },
+        {
+          "project_id": 2272,
+          "tag": "mtunitgif-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "b6673bedaed654480a9763025e254a0cd4e63d06140514ce4cfb11ba7fc15f8b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.nativecrashtracker@da5f8efda983b7f7f9f544cc282c717ff0e1fb59",
+      "package_name": "com.magictavern.nativecrashtracker",
+      "package_version": "1.0.4",
+      "commit": "da5f8efda983b7f7f9f544cc282c717ff0e1fb59",
+      "package_json_sha256": "fd7ae9b703cc4d63cc51ba977f1f337148a4175d18c2e1bc3cf8d24d45a85be4",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1167,
+          "tag": "nativecrashtracker-1.0.4",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "fd7ae9b703cc4d63cc51ba977f1f337148a4175d18c2e1bc3cf8d24d45a85be4",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.nativeutility@8ec63868f8d3b415ebf3d57adc9f7971ff78814d",
+      "package_name": "com.magictavern.nativeutility",
+      "package_version": "1.3.27",
+      "commit": "8ec63868f8d3b415ebf3d57adc9f7971ff78814d",
+      "package_json_sha256": "b7d9f3960fa416433052b3d981daa57f6f84c5ef398076955d60e1b9ac96e43d",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "edm4u",
+          "version": "",
+          "build_id": "6db6b031d4fbd18a73e8b56455245b24355a9cfc558b7ae042326503bb01bc2a",
+          "source_path": "Editor/PluginsPackage/external-dependency-manager-1.2.175.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 680,
+          "tag": "nativeutility-1.3.27",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "b7d9f3960fa416433052b3d981daa57f6f84c5ef398076955d60e1b9ac96e43d",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.notificationmanager@5e87c9b89506a965aecca0d463af90e720958db8",
+      "package_name": "com.magictavern.notificationmanager",
+      "package_version": "1.0.13",
+      "commit": "5e87c9b89506a965aecca0d463af90e720958db8",
+      "package_json_sha256": "57eea3818d95311d07a366d36ed5358d6ab798ebe0d90e7fb026153875382bdb",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 841,
+          "tag": "notificationmanager-1.0.13",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "57eea3818d95311d07a366d36ed5358d6ab798ebe0d90e7fb026153875382bdb",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.psd2ugui@2036defc200422bddb4d4da602f29fc795274226",
+      "package_name": "com.magictavern.psd2ugui",
+      "package_version": "0.0.11",
+      "commit": "2036defc200422bddb4d4da602f29fc795274226",
+      "package_json_sha256": "cfaa9c91bff01b2fb2aabc2c631a5e0a917cd83743f4cc7349a2074048765bfe",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 869,
+          "tag": "psd2ugui-0.0.11",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "cfaa9c91bff01b2fb2aabc2c631a5e0a917cd83743f4cc7349a2074048765bfe",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.purchasingsdk@197b077ca085326bd718e598324686347437b46a",
+      "package_name": "com.magictavern.purchasingsdk",
+      "package_version": "1.8.0",
+      "commit": "197b077ca085326bd718e598324686347437b46a",
+      "package_json_sha256": "4c314201a82b5865d3554186300102f7c629bcda10fdd25b01979d84f56432d7",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 749,
+          "tag": "purchasingsdk-1.8.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "4c314201a82b5865d3554186300102f7c629bcda10fdd25b01979d84f56432d7",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.rtltmpro@0fc7667fee0276c243cef1ad1c2edad0a5525398",
+      "package_name": "com.magictavern.rtltmpro",
+      "package_version": "3.4.3",
+      "commit": "0fc7667fee0276c243cef1ad1c2edad0a5525398",
+      "package_json_sha256": "957b3f92c8118b13060dcba4ddd6a3ad66b18b5f76cca73dbe9ffc71cb64b6e4",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1102,
+          "tag": "rtltmpro-3.4.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "957b3f92c8118b13060dcba4ddd6a3ad66b18b5f76cca73dbe9ffc71cb64b6e4",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.sdk.adjustsdk@3f056081d35a9fa2c0216facc143e712a2becc73",
+      "package_name": "com.magictavern.sdk.adjustsdk",
+      "package_version": "1.0.1",
+      "commit": "3f056081d35a9fa2c0216facc143e712a2becc73",
+      "package_json_sha256": "d25ad2b5330f136a2d6348f46123c5f41cf4bd5f3f4d956ba2f37ef84f590fed",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "adjust",
+          "version": "",
+          "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+          "source_path": "Editor/PluginsPackage/Adjust_v5.0.6.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        },
+        {
+          "plugin_id": "edm4u",
+          "version": "",
+          "build_id": "6db6b031d4fbd18a73e8b56455245b24355a9cfc558b7ae042326503bb01bc2a",
+          "source_path": "Editor/PluginsPackage/external-dependency-manager-1.2.175.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 1
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 708,
+          "tag": "adjustsdk-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d25ad2b5330f136a2d6348f46123c5f41cf4bd5f3f4d956ba2f37ef84f590fed",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.sdk.ads@9a653b2e93a880add660a28af7bb893f335f8cad",
+      "package_name": "com.magictavern.sdk.ads",
+      "package_version": "1.0.27",
+      "commit": "9a653b2e93a880add660a28af7bb893f335f8cad",
+      "package_json_sha256": "fbadfa44c576c2978ef5875763ac8548061df29961040dc4a164cec91a28b0c9",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "applovin-max",
+          "version": "",
+          "build_id": "2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+          "source_path": "Editor/PluginsPackage/AppLovin-MAX-Unity-Plugin-8.0.1-Android-13.0.1-iOS-13.0.1.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 707,
+          "tag": "adssdk-1.0.27",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "fbadfa44c576c2978ef5875763ac8548061df29961040dc4a164cec91a28b0c9",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.sdk.ads@d4e18270577624ff0347673adcfc4985853ef7f1",
+      "package_name": "com.magictavern.sdk.ads",
+      "package_version": "1.0.26",
+      "commit": "d4e18270577624ff0347673adcfc4985853ef7f1",
+      "package_json_sha256": "8cea44999b1593942072d4f86bd0a5ebf4d698219e8bfd9b2c80f1c17198b9b4",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [
+        {
+          "plugin_id": "applovin-max",
+          "version": "",
+          "build_id": "2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+          "source_path": "Editor/PluginsPackage/AppLovin-MAX-Unity-Plugin-8.0.1-Android-13.0.1-iOS-13.0.1.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false
+    },
+    {
+      "key": "com.magictavern.sdk.anubis@888048bfc21e78a8d60e6a75d5768ccc8f595eae",
+      "package_name": "com.magictavern.sdk.anubis",
+      "package_version": "1.0.1",
+      "commit": "888048bfc21e78a8d60e6a75d5768ccc8f595eae",
+      "package_json_sha256": "11f3d4bfde5581eb09c703200a4404200ac7ff487d0c2a4212b06399508dee2c",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1959,
+          "tag": "anubissdk-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "11f3d4bfde5581eb09c703200a4404200ac7ff487d0c2a4212b06399508dee2c",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.sdk.mtunityiap@49793a15c352634347cc5cd110510bc5ba4ccfc9",
+      "package_name": "com.magictavern.sdk.mtunityiap",
+      "package_version": "1.4.0",
+      "commit": "49793a15c352634347cc5cd110510bc5ba4ccfc9",
+      "package_json_sha256": "57d2db558ddd21e5427b9421aa110e163995ecdcd6be951674426cb4102acb2c",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 3151,
+          "tag": "mtunityiap-1.4.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "57d2db558ddd21e5427b9421aa110e163995ecdcd6be951674426cb4102acb2c",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.sdk.poco@f7f2f4c5bf3bf478856aaf29fd1e45c105a7ae11",
+      "package_name": "com.magictavern.sdk.poco",
+      "package_version": "1.0.1",
+      "commit": "f7f2f4c5bf3bf478856aaf29fd1e45c105a7ae11",
+      "package_json_sha256": "52d239698b73b644d4516e69610d8cc9ab2fec474ddafcba7f52afe26bf25a0b",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1958,
+          "tag": "pocosdk-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "52d239698b73b644d4516e69610d8cc9ab2fec474ddafcba7f52afe26bf25a0b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.sdk.socialaccount@6150ebe13c67182651df83dcfe3ecc8bd30047a3",
+      "package_name": "com.magictavern.sdk.socialaccount",
+      "package_version": "1.0.26",
+      "commit": "6150ebe13c67182651df83dcfe3ecc8bd30047a3",
+      "package_json_sha256": "6d42ede296fe0d74eeef69ac551ab719d03a7483877cfcecb681ddd131df4cf2",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [
+        {
+          "plugin_id": "facebook-unity-sdk",
+          "version": "",
+          "build_id": "6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf",
+          "source_path": "Editor/PluginsPackage/facebook-unity-sdk-16.0.2.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        },
+        {
+          "plugin_id": "google-signin",
+          "version": "",
+          "build_id": "b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf",
+          "source_path": "Editor/PluginsPackage/google-signin-plugin-1.0.4.12.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 1
+        },
+        {
+          "plugin_id": "googleplay-games",
+          "version": "",
+          "build_id": "778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac",
+          "source_path": "Editor/PluginsPackage/googleplay-games.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 2
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 791,
+          "tag": "socialaccountsdk-1.0.26",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "6d42ede296fe0d74eeef69ac551ab719d03a7483877cfcecb681ddd131df4cf2",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.smartvibration@4965f94b446a055481e489b0618e433727ed18c3",
+      "package_name": "com.magictavern.smartvibration",
+      "package_version": "1.0.2",
+      "commit": "4965f94b446a055481e489b0618e433727ed18c3",
+      "package_json_sha256": "03c450cf045c80daa8fe6ba6f8bef73deaa8c9265e311d9d158521de978ab319",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2916,
+          "tag": "smartvibration-1.0.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "03c450cf045c80daa8fe6ba6f8bef73deaa8c9265e311d9d158521de978ab319",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.socket@442221aba685182eb85f890901e7d78786b48280",
+      "package_name": "com.magictavern.socket",
+      "package_version": "0.0.1",
+      "commit": "442221aba685182eb85f890901e7d78786b48280",
+      "package_json_sha256": "66c4d3895f20e6d80affb975b45b8bcef7d93f99460e399b75228bdca62c290c",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 792,
+          "tag": "mtsocket-develop-0.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "66c4d3895f20e6d80affb975b45b8bcef7d93f99460e399b75228bdca62c290c",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.spine@1ea2490c342f03080c92bf719325ba711fec155b",
+      "package_name": "com.magictavern.spine",
+      "package_version": "3.8.0",
+      "commit": "1ea2490c342f03080c92bf719325ba711fec155b",
+      "package_json_sha256": "a301d21556a82fa5a5d584a189a3d4d82a022ab317c93d3247b61a7f2dd753f9",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 603,
+          "tag": "mtspine-original-3.8.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "a301d21556a82fa5a5d584a189a3d4d82a022ab317c93d3247b61a7f2dd753f9",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.spine@852142d995a45025e7dab49c4c1dbb4d94b875b1",
+      "package_name": "com.magictavern.spine",
+      "package_version": "3.0.2",
+      "commit": "852142d995a45025e7dab49c4c1dbb4d94b875b1",
+      "package_json_sha256": "63a8f5f592ec9bfe91728af12d7a0c77cdac4e99d40371f49a1cb28b37faf123",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 603,
+          "tag": "mtspine-3.0.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "63a8f5f592ec9bfe91728af12d7a0c77cdac4e99d40371f49a1cb28b37faf123",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage10@27d8b0fc08746c2a64c6fd9b0fc0c1b273ab787f",
+      "package_name": "com.magictavern.testpackage10",
+      "package_version": "1.0.0",
+      "commit": "27d8b0fc08746c2a64c6fd9b0fc0c1b273ab787f",
+      "package_json_sha256": "841af868b1d7b2490c736e4fdb5e74fe641bae93b0b1325198513b92381f40fc",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage10-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "841af868b1d7b2490c736e4fdb5e74fe641bae93b0b1325198513b92381f40fc",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage11@1fe13069360ea7e81b72f28887be6a6c899e8faa",
+      "package_name": "com.magictavern.testpackage11",
+      "package_version": "1.0.0",
+      "commit": "1fe13069360ea7e81b72f28887be6a6c899e8faa",
+      "package_json_sha256": "c6c4672a3aa839f0683b4c6ec70404b1ab4729cf00ce51285d4280e8722671fe",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage11-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "c6c4672a3aa839f0683b4c6ec70404b1ab4729cf00ce51285d4280e8722671fe",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage12@d6d28bea7eaa0aff076543b721f473966a7f3da2",
+      "package_name": "com.magictavern.testpackage12",
+      "package_version": "1.0.2",
+      "commit": "d6d28bea7eaa0aff076543b721f473966a7f3da2",
+      "package_json_sha256": "abcae7c66b8ebf75f7134a482f567277fed9ffe1b6f6ca623cefa91348f20abd",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage12-1.0.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "abcae7c66b8ebf75f7134a482f567277fed9ffe1b6f6ca623cefa91348f20abd",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage13@cc3c69aa38ef11a6059ef6b849eae8c6f2f0ae02",
+      "package_name": "com.magictavern.testpackage13",
+      "package_version": "1.0.1",
+      "commit": "cc3c69aa38ef11a6059ef6b849eae8c6f2f0ae02",
+      "package_json_sha256": "11429d959d1186a4000ef7513a0cfa6f4b3ff32d5ea4eab6255ad68d99ff7b86",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage13-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "11429d959d1186a4000ef7513a0cfa6f4b3ff32d5ea4eab6255ad68d99ff7b86",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage2@7d00f7f376fd7c6b9c01bd9457f4008e7eda9e2e",
+      "package_name": "com.magictavern.testpackage2",
+      "package_version": "1.0.0",
+      "commit": "7d00f7f376fd7c6b9c01bd9457f4008e7eda9e2e",
+      "package_json_sha256": "1cdf01c175caa5ccd2b2ea8495f85f3173dc2a8f9b33841054ac348917015020",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage2-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "1cdf01c175caa5ccd2b2ea8495f85f3173dc2a8f9b33841054ac348917015020",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage3@9ef3295faba7c381d67b18f9204693e2390f329b",
+      "package_name": "com.magictavern.testpackage3",
+      "package_version": "1.0.1",
+      "commit": "9ef3295faba7c381d67b18f9204693e2390f329b",
+      "package_json_sha256": "3d9003ee8009b36fc491399e8a93de3cb1f04b89163e9b20e943675a3bb079bf",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "test-readme-archive",
+          "version": "",
+          "build_id": "0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502",
+          "source_path": "Editor/PluginsPackage/README的副本.md.zip",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage3-1.0.4",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "3d9003ee8009b36fc491399e8a93de3cb1f04b89163e9b20e943675a3bb079bf",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage3@ff29de9a78c3245001c691d3d4e3f5e1b330be62",
+      "package_name": "com.magictavern.testpackage3",
+      "package_version": "1.0.3",
+      "commit": "ff29de9a78c3245001c691d3d4e3f5e1b330be62",
+      "package_json_sha256": "e4c21d0ffa162d2fef4557822f4a04f4bc8e13dcc15aadf7eec71eafa51b409a",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage3-jump-1.0.5",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "e4c21d0ffa162d2fef4557822f4a04f4bc8e13dcc15aadf7eec71eafa51b409a",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage4@9797980bb9d9d1b4c07571722ead0a9024742714",
+      "package_name": "com.magictavern.testpackage4",
+      "package_version": "1.0.1",
+      "commit": "9797980bb9d9d1b4c07571722ead0a9024742714",
+      "package_json_sha256": "8e747e34c2d5ba14411309f20b6f3c8bc04c605a580f5faa17ce02e23560c4f6",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage4-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "8e747e34c2d5ba14411309f20b6f3c8bc04c605a580f5faa17ce02e23560c4f6",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage7@1a6c95b04a999b63c93e9393211b8b7ea6212645",
+      "package_name": "com.magictavern.testpackage7",
+      "package_version": "1.0.0",
+      "commit": "1a6c95b04a999b63c93e9393211b8b7ea6212645",
+      "package_json_sha256": "cd26df8c8a14922fa28820950e185ba858e102cb3065724cf0417f974e7143ff",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage7-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "cd26df8c8a14922fa28820950e185ba858e102cb3065724cf0417f974e7143ff",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage8@1c01ff8da05d71d99d3f1bcea42a7508d09f3d10",
+      "package_name": "com.magictavern.testpackage8",
+      "package_version": "1.0.0",
+      "commit": "1c01ff8da05d71d99d3f1bcea42a7508d09f3d10",
+      "package_json_sha256": "4f13e528bc327f1f825d13bca55c0ff34ca406ed8dac48bbd27fa1057caadf1b",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage8-1.0.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "4f13e528bc327f1f825d13bca55c0ff34ca406ed8dac48bbd27fa1057caadf1b",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage9@d458c1323195390f2319ad576e980ccb50164e12",
+      "package_name": "com.magictavern.testpackage9",
+      "package_version": "1.0.0",
+      "commit": "d458c1323195390f2319ad576e980ccb50164e12",
+      "package_json_sha256": "e46d01d3111bd90b191b638acf8c2d6ac0be8160da26edc2091b74cbc8e9564e",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage9-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "e46d01d3111bd90b191b638acf8c2d6ac0be8160da26edc2091b74cbc8e9564e",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.testpackage@2d353a386047320902754fa2f6a70d14513438d4",
+      "package_name": "com.magictavern.testpackage",
+      "package_version": "1.0.12",
+      "commit": "2d353a386047320902754fa2f6a70d14513438d4",
+      "package_json_sha256": "bf3353126f1b02dd561ec7b32e709ca6ed861419b2e9f64578726e42538ed9f9",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 693,
+          "tag": "testpackage-1.0.12",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "bf3353126f1b02dd561ec7b32e709ca6ed861419b2e9f64578726e42538ed9f9",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.thirdparty.applesigninunity@d5f04b397d0c3e62fce667676d009170c2293f35",
+      "package_name": "com.magictavern.thirdparty.applesigninunity",
+      "package_version": "1.4.3",
+      "commit": "d5f04b397d0c3e62fce667676d009170c2293f35",
+      "package_json_sha256": "53541673d571b0e77a8180f075afcbfb76b47cb98e753ddc1045a38ac742b7d2",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 791,
+          "tag": "appleauth-1.4.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "53541673d571b0e77a8180f075afcbfb76b47cb98e753ddc1045a38ac742b7d2",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.thirdparty.protobuf@510dbdea76f3a8cfb49519d016a2c4e2efb1be6b",
+      "package_name": "com.magictavern.thirdparty.protobuf",
+      "package_version": "3.21.8",
+      "commit": "510dbdea76f3a8cfb49519d016a2c4e2efb1be6b",
+      "package_json_sha256": "786bdf8f681ef480ff7e623824a5395bbad23757315e2000d3b2776a968af5ef",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 781,
+          "tag": "protobuf-3.21.8",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "786bdf8f681ef480ff7e623824a5395bbad23757315e2000d3b2776a968af5ef",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.thirdparty.scriban@bee7dc182d5a46381a54e5c71c002f52670509fd",
+      "package_name": "com.magictavern.thirdparty.scriban",
+      "package_version": "5.5.2",
+      "commit": "bee7dc182d5a46381a54e5c71c002f52670509fd",
+      "package_json_sha256": "d2446af83cd1f1b639a6193fff19aaed6f574d9accb001b62f3411e036792771",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 921,
+          "tag": "scriban-5.5.2",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d2446af83cd1f1b639a6193fff19aaed6f574d9accb001b62f3411e036792771",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.thirdparty.sharpziplib@d7b2c076f0b1642b081a37b0039fa56dc317d705",
+      "package_name": "com.magictavern.thirdparty.sharpziplib",
+      "package_version": "1.3.3",
+      "commit": "d7b2c076f0b1642b081a37b0039fa56dc317d705",
+      "package_json_sha256": "2759c70912c9cc96662a29a0ed29e19ae5452ddb289fa9d4c6cc9a3e73125864",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 820,
+          "tag": "sharpziplib-1.3.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "2759c70912c9cc96662a29a0ed29e19ae5452ddb289fa9d4c6cc9a3e73125864",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.thirdparty.systembuffer@75dac2faa7301b3fdfe2ed580945ac6196215eb9",
+      "package_name": "com.magictavern.thirdparty.systembuffer",
+      "package_version": "1.0.0",
+      "commit": "75dac2faa7301b3fdfe2ed580945ac6196215eb9",
+      "package_json_sha256": "5a46e941bbe7a7e83aca07943372517e96792ac1f81b2167aaf9279249d79ff9",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 781,
+          "tag": "systembuffer-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "5a46e941bbe7a7e83aca07943372517e96792ac1f81b2167aaf9279249d79ff9",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.timeline@48ecc657cfb5255a0fb023dd1f1c61c84b7dc8f4",
+      "package_name": "com.magictavern.timeline",
+      "package_version": "1.0.0",
+      "commit": "48ecc657cfb5255a0fb023dd1f1c61c84b7dc8f4",
+      "package_json_sha256": "c68472dbe5c0ef6f50e8b0abb6ddc988cc7feef175d0302f36802d1b47fd3add",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "demigiant-bundle",
+          "version": "",
+          "build_id": "b5b456700cf35e540d3234f2543c6b113f8c0b55f10e27d13fe9c87714e125d7",
+          "source_path": "Editor/PluginsPackage/Demigiant.zip",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        },
+        {
+          "plugin_id": "spine-timeline",
+          "version": "",
+          "build_id": "51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4",
+          "source_path": "Editor/PluginsPackage/com.esotericsoftware.spine.timeline-4.1-2023-05-16.zip",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 1
+        },
+        {
+          "plugin_id": "spine-unity",
+          "version": "",
+          "build_id": "0ec86d76e453a99a661335f2e4508d7d59a636ce0ab60197c9458eac2b37753c",
+          "source_path": "Editor/PluginsPackage/spine-unity-4.1-2023-05-16.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 2
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1400,
+          "tag": "mttimeline-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "c68472dbe5c0ef6f50e8b0abb6ddc988cc7feef175d0302f36802d1b47fd3add",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.track@70230c089aade9376d1c9cbd9afff9905f30f48b",
+      "package_name": "com.magictavern.track",
+      "package_version": "1.1.18",
+      "commit": "70230c089aade9376d1c9cbd9afff9905f30f48b",
+      "package_json_sha256": "30f8cac866c2cec43ff0c7dd290b7ef54842f88bc9285ec6166ebf62f3f917d9",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 682,
+          "tag": "track-1.1.18",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "30f8cac866c2cec43ff0c7dd290b7ef54842f88bc9285ec6166ebf62f3f917d9",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.tracklib@c05b401b34cb7d7fff124d67046f29660052cd06",
+      "package_name": "com.magictavern.tracklib",
+      "package_version": "1.0.8",
+      "commit": "c05b401b34cb7d7fff124d67046f29660052cd06",
+      "package_json_sha256": "703cbbf025ab3fcf6da4be1c390574f19c132867b0d8d3c7dc05aa0930350e61",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 682,
+          "tag": "tracklib-1.0.8",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "703cbbf025ab3fcf6da4be1c390574f19c132867b0d8d3c7dc05aa0930350e61",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.umcp@3065419c57251cbb35a1a2097fe665e532f138c5",
+      "package_name": "com.magictavern.umcp",
+      "package_version": "1.0.0",
+      "commit": "3065419c57251cbb35a1a2097fe665e532f138c5",
+      "package_json_sha256": "9de01dc6eb7f09932168229f9624d07acae11a3995ece5fde9504fbc39f5f3eb",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 3755,
+          "tag": "mtumcp-1.0.0",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "9de01dc6eb7f09932168229f9624d07acae11a3995ece5fde9504fbc39f5f3eb",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.unitask@1fa809f1cd602c4691f8fcb077a3af402ad57d17",
+      "package_name": "com.magictavern.unitask",
+      "package_version": "2.3.1",
+      "commit": "1fa809f1cd602c4691f8fcb077a3af402ad57d17",
+      "package_json_sha256": "60ba870c4c89d6cb6476c77a3ce3c0e41e857c3bf038c2a0719bb48cd8521771",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 794,
+          "tag": "unitask-2.3.1",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "60ba870c4c89d6cb6476c77a3ce3c0e41e857c3bf038c2a0719bb48cd8521771",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.updatemanager@b601230fea3bfe7b45593264e6f0685cba04fddc",
+      "package_name": "com.magictavern.updatemanager",
+      "package_version": "1.0.3",
+      "commit": "b601230fea3bfe7b45593264e6f0685cba04fddc",
+      "package_json_sha256": "ab052daff005bd402efb90ead805f17313a8fc57a909f74bef72894cdf0b0109",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1966,
+          "tag": "updatemanager-1.0.3",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "ab052daff005bd402efb90ead805f17313a8fc57a909f74bef72894cdf0b0109",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.userdata@6b1db972457939f99b882390984117dadee18063",
+      "package_name": "com.magictavern.userdata",
+      "package_version": "1.0.4",
+      "commit": "6b1db972457939f99b882390984117dadee18063",
+      "package_json_sha256": "4c1d0793e4a25deae2a6a243bc00fc7af4391cb2e500f2169bd8423d2b43a6fa",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1258,
+          "tag": "userdata-1.0.4",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "4c1d0793e4a25deae2a6a243bc00fc7af4391cb2e500f2169bd8423d2b43a6fa",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.vibration@e98b1f3d333655ab3358fd0706b20df93d275b91",
+      "package_name": "com.magictavern.vibration",
+      "package_version": "1.0.18",
+      "commit": "e98b1f3d333655ab3358fd0706b20df93d275b91",
+      "package_json_sha256": "d7bb917e390429240ab3a7d272e08a7a22bfc646d0876ba2702ec2baf52ae92f",
+      "source_kind": "gitlab_release",
+      "plugins": [
+        {
+          "plugin_id": "nice-vibrations",
+          "version": "",
+          "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+          "source_path": "Editor/PluginsPackage/NiceVibrations-v-3-9-0.unitypackage",
+          "required": null,
+          "phase": "unconfirmed",
+          "order": 0
+        }
+      ],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 2758,
+          "tag": "vibration-1.0.18",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d7bb917e390429240ab3a7d272e08a7a22bfc646d0876ba2702ec2baf52ae92f",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.vibrationutils@dbf1d1fb2c409eba3090bdd67ed97aa6bfe409b4",
+      "package_name": "com.magictavern.vibrationutils",
+      "package_version": "1.0.15",
+      "commit": "dbf1d1fb2c409eba3090bdd67ed97aa6bfe409b4",
+      "package_json_sha256": "d8fb6e31764b02ab81d2981f21fd4844fe91b0000591224cc6212e2dded15165",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 1175,
+          "tag": "vibrationutils-1.0.15",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "d8fb6e31764b02ab81d2981f21fd4844fe91b0000591224cc6212e2dded15165",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    },
+    {
+      "key": "com.magictavern.zstring@123473d4e3f3ad82d95599753621ce70a22b079b",
+      "package_name": "com.magictavern.zstring",
+      "package_version": "2.4.4",
+      "commit": "123473d4e3f3ad82d95599753621ce70a22b079b",
+      "package_json_sha256": "9d1818d8e9805e2a0987d44aa83163d52ebcf19eb65a891b9180216662e39d11",
+      "source_kind": "local_locked_package_cache",
+      "plugins": [],
+      "execution_ready": false
+    },
+    {
+      "key": "com.magictavern.zstring@c3f8edd8beff8b25abfdae201bfedc3c815b14c9",
+      "package_name": "com.magictavern.zstring",
+      "package_version": "2.4.5",
+      "commit": "c3f8edd8beff8b25abfdae201bfedc3c815b14c9",
+      "package_json_sha256": "a604866483ed0ae6e7ad6faf9c56ac292c903be37368374ddc4d306f65676c62",
+      "source_kind": "gitlab_release",
+      "plugins": [],
+      "execution_ready": false,
+      "remote_sources": [
+        {
+          "project_id": 793,
+          "tag": "zstring-2.4.5",
+          "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+          "package_json_sha256": "a604866483ed0ae6e7ad6faf9c56ac292c903be37368374ddc4d306f65676c62",
+          "verified_git_blobs": true,
+          "scope": "full_repository_tree"
+        }
+      ]
+    }
+  ],
+  "project_snapshots": [
+    {
+      "project_name": "Pack Test",
+      "project_path_sha256": "2981218450f9a561a23bc04d212cd97037dbb35c368bccc4f66882e432a95eff",
+      "packages_lock_sha256": "dee9064bfa39428a2ae693909ec9f2a8fa2ee9fa4e9d1462fee56554fa35d5a2",
+      "mapping_keys": [
+        "com.magictavern.activity@508ce1ab317d60d24e7ff8e174adc2272099e7cf",
+        "com.magictavern.assetsmanager@009347d53a630ae907058e983e7b6754c7de40a7",
+        "com.magictavern.audiomanager@6e98204a243748a5db0af7389d34b0a1c1ce4a2b",
+        "com.magictavern.configtool@7e1c0f3aa0b873069985a1088968dab26943dc7f",
+        "com.magictavern.eventmanager@c40cf45d664555adb1bf32dd5f4779d1dbf3afa6",
+        "com.magictavern.frontengine.base@0b8e660268d1e7d5a4ad69df99bc3d68a453c5b1",
+        "com.magictavern.hotfixdownloader@bfbdf2626e28f426f6f076246d29410459aac477",
+        "com.magictavern.langtool@764b87e05bb3ff6871e02e26cf52da953db161a7",
+        "com.magictavern.langtool_tmpsupport@1eddefb5090cc52b9c86ed303bb5eec67a5e6684",
+        "com.magictavern.minigame@6e84efb0909d0ec717a448748f75036046b54cd6",
+        "com.magictavern.mtaddressable@3a5956d6b55d2acb20deda8b378d3d2a35af7af0",
+        "com.magictavern.mtuiframework@23ed4e5f983bd2daf3f5bbe8339b65433bc5bb85",
+        "com.magictavern.rtltmpro@0fc7667fee0276c243cef1ad1c2edad0a5525398",
+        "com.magictavern.sdk.ads@d4e18270577624ff0347673adcfc4985853ef7f1",
+        "com.magictavern.sdk.socialaccount@6150ebe13c67182651df83dcfe3ecc8bd30047a3",
+        "com.magictavern.thirdparty.applesigninunity@d5f04b397d0c3e62fce667676d009170c2293f35",
+        "com.magictavern.thirdparty.scriban@bee7dc182d5a46381a54e5c71c002f52670509fd",
+        "com.magictavern.unitask@1fa809f1cd602c4691f8fcb077a3af402ad57d17",
+        "com.magictavern.zstring@123473d4e3f3ad82d95599753621ce70a22b079b"
+      ],
+      "scope": "locked-magictavern-git-packages",
+      "note": "Archive availability mapping only; not proof of plugin installation."
+    }
+  ],
+  "catalog_snapshot": {
+    "catalog_project_id": 647,
+    "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+    "mapping_keys": [
+      "com.magictavern.TestPackage6@8955b8201cc14d62946bfee29aaf9ae1372a7e3d",
+      "com.magictavern.activity@508ce1ab317d60d24e7ff8e174adc2272099e7cf",
+      "com.magictavern.ageguardsdk@de9471d1908637b216b8b0f8654ff6a3f1bede52",
+      "com.magictavern.amusesunityclient@fa334e25c46926c6fc398fe7b2f17ef875028b54",
+      "com.magictavern.assetautogroup@f3ffc4ff0f3208e6be117f0e26379cc6b7c7fc0c",
+      "com.magictavern.assetfindusages@1539a6868c3272a32d340310c84c62e9af45f67f",
+      "com.magictavern.assetsmanager@009347d53a630ae907058e983e7b6754c7de40a7",
+      "com.magictavern.audiomanager@6e98204a243748a5db0af7389d34b0a1c1ce4a2b",
+      "com.magictavern.authoritymanager@5d4f676e17003deec153c1a88c751080d3013f77",
+      "com.magictavern.bezieranimationeditor@3cedfeee48a16cb05234d01b17a98bfdedc0f4f5",
+      "com.magictavern.cheattool@ee75963e50bfe55ae74f3a2d24f3bb046a982709",
+      "com.magictavern.cibuildpipeline@5bda12cc57da1cac3080254720df5f8d21fe00ac",
+      "com.magictavern.configtool@7e1c0f3aa0b873069985a1088968dab26943dc7f",
+      "com.magictavern.devicemanager@0905e0d963246f0652e08eda7a70468484133f48",
+      "com.magictavern.dotsmatch3@403000e08f6913283b597776da4fb9b541101708",
+      "com.magictavern.editorbase@51da06c9c1d33b4ebcadeb3a00668be802074788",
+      "com.magictavern.eventmanager@c40cf45d664555adb1bf32dd5f4779d1dbf3afa6",
+      "com.magictavern.filedispatcher@75c7caa35f41b5dfd4a23bb4a89455033851e846",
+      "com.magictavern.filereceiver@0c9dc7656c5ac176396d14f980654553723d5246",
+      "com.magictavern.frontengine.base@0b8e660268d1e7d5a4ad69df99bc3d68a453c5b1",
+      "com.magictavern.guiassetimporter@70b6e35f66345f25caba4260941d7173d413c890",
+      "com.magictavern.h5game@8744955f7f321b3f321f02d1056c3f855c2f2040",
+      "com.magictavern.helpshiftsdk@cf2371c16bab65a09b56b5d207fe17fb2f78639c",
+      "com.magictavern.hotfixdownloader@bfbdf2626e28f426f6f076246d29410459aac477",
+      "com.magictavern.hybridclr@5011fd7b26ae874dc1ada1f2b913afd544268c5e",
+      "com.magictavern.hybridclrhelper@11a6857135048950bc7e9feecb34f52b9009415c",
+      "com.magictavern.langtool@764b87e05bb3ff6871e02e26cf52da953db161a7",
+      "com.magictavern.langtool_tmpsupport@1eddefb5090cc52b9c86ed303bb5eec67a5e6684",
+      "com.magictavern.lecommon@c2cc5f7b767ecbcdf9572097c8cde4fd1ec555b9",
+      "com.magictavern.levelautogenerator@c1c4dec74c7b90e286730e510019d35b2855e7a9",
+      "com.magictavern.litjson@f4299fdc3052943c8683fa44d0f9e10a24707728",
+      "com.magictavern.matcheditor@d6276ebcbefc632fe69bab2e253b5ad3569418d6",
+      "com.magictavern.minigame@6e84efb0909d0ec717a448748f75036046b54cd6",
+      "com.magictavern.modulesystem@57c569df871457c3f1063260b267322785f60ba0",
+      "com.magictavern.mtaccount@2075101bbae14615073a048d4b9d1b416f8388ef",
+      "com.magictavern.mtaddressable@562ea47abd2a4b316660884f1adc73c6e9560767",
+      "com.magictavern.mtmatch@645ff8c4096d40446e271f4cabe90126aa7e21fa",
+      "com.magictavern.mtnetwork@97ed7784a38f29563b2f711b709d0be006e53044",
+      "com.magictavern.mtpdevtoolkit@1df14309c783c1104ee5b3840171fa90140e23b1",
+      "com.magictavern.mtpmanager@868dacc9706cb9e3a2154dda4d23b6080b1125a3",
+      "com.magictavern.mttypereigstersourcegenerator@121065ebd9ecf861a0c76c4f60486155448cceee",
+      "com.magictavern.mtu8@05187d46fe260dba8df83b8dc872a39fcf772635",
+      "com.magictavern.mtuiframework@23ed4e5f983bd2daf3f5bbe8339b65433bc5bb85",
+      "com.magictavern.mtunigif@af70c15128c95484883fec28aa5533a9bf070eb3",
+      "com.magictavern.mtunitgif@21f9fb94bb36be2da937ff2ddb0805ac101450e5",
+      "com.magictavern.nativecrashtracker@da5f8efda983b7f7f9f544cc282c717ff0e1fb59",
+      "com.magictavern.nativeutility@8ec63868f8d3b415ebf3d57adc9f7971ff78814d",
+      "com.magictavern.notificationmanager@5e87c9b89506a965aecca0d463af90e720958db8",
+      "com.magictavern.psd2ugui@2036defc200422bddb4d4da602f29fc795274226",
+      "com.magictavern.purchasingsdk@197b077ca085326bd718e598324686347437b46a",
+      "com.magictavern.rtltmpro@0fc7667fee0276c243cef1ad1c2edad0a5525398",
+      "com.magictavern.sdk.adjustsdk@3f056081d35a9fa2c0216facc143e712a2becc73",
+      "com.magictavern.sdk.ads@9a653b2e93a880add660a28af7bb893f335f8cad",
+      "com.magictavern.sdk.anubis@888048bfc21e78a8d60e6a75d5768ccc8f595eae",
+      "com.magictavern.sdk.mtunityiap@49793a15c352634347cc5cd110510bc5ba4ccfc9",
+      "com.magictavern.sdk.poco@f7f2f4c5bf3bf478856aaf29fd1e45c105a7ae11",
+      "com.magictavern.sdk.socialaccount@6150ebe13c67182651df83dcfe3ecc8bd30047a3",
+      "com.magictavern.smartvibration@4965f94b446a055481e489b0618e433727ed18c3",
+      "com.magictavern.socket@442221aba685182eb85f890901e7d78786b48280",
+      "com.magictavern.spine@1ea2490c342f03080c92bf719325ba711fec155b",
+      "com.magictavern.testpackage10@27d8b0fc08746c2a64c6fd9b0fc0c1b273ab787f",
+      "com.magictavern.testpackage11@1fe13069360ea7e81b72f28887be6a6c899e8faa",
+      "com.magictavern.testpackage12@d6d28bea7eaa0aff076543b721f473966a7f3da2",
+      "com.magictavern.testpackage13@cc3c69aa38ef11a6059ef6b849eae8c6f2f0ae02",
+      "com.magictavern.testpackage2@7d00f7f376fd7c6b9c01bd9457f4008e7eda9e2e",
+      "com.magictavern.testpackage3@ff29de9a78c3245001c691d3d4e3f5e1b330be62",
+      "com.magictavern.testpackage4@9797980bb9d9d1b4c07571722ead0a9024742714",
+      "com.magictavern.testpackage7@1a6c95b04a999b63c93e9393211b8b7ea6212645",
+      "com.magictavern.testpackage8@1c01ff8da05d71d99d3f1bcea42a7508d09f3d10",
+      "com.magictavern.testpackage9@d458c1323195390f2319ad576e980ccb50164e12",
+      "com.magictavern.testpackage@2d353a386047320902754fa2f6a70d14513438d4",
+      "com.magictavern.thirdparty.applesigninunity@d5f04b397d0c3e62fce667676d009170c2293f35",
+      "com.magictavern.thirdparty.protobuf@510dbdea76f3a8cfb49519d016a2c4e2efb1be6b",
+      "com.magictavern.thirdparty.scriban@bee7dc182d5a46381a54e5c71c002f52670509fd",
+      "com.magictavern.thirdparty.sharpziplib@d7b2c076f0b1642b081a37b0039fa56dc317d705",
+      "com.magictavern.thirdparty.systembuffer@75dac2faa7301b3fdfe2ed580945ac6196215eb9",
+      "com.magictavern.timeline@48ecc657cfb5255a0fb023dd1f1c61c84b7dc8f4",
+      "com.magictavern.track@70230c089aade9376d1c9cbd9afff9905f30f48b",
+      "com.magictavern.tracklib@c05b401b34cb7d7fff124d67046f29660052cd06",
+      "com.magictavern.umcp@3065419c57251cbb35a1a2097fe665e532f138c5",
+      "com.magictavern.unitask@1fa809f1cd602c4691f8fcb077a3af402ad57d17",
+      "com.magictavern.updatemanager@b601230fea3bfe7b45593264e6f0685cba04fddc",
+      "com.magictavern.userdata@6b1db972457939f99b882390984117dadee18063",
+      "com.magictavern.vibration@e98b1f3d333655ab3358fd0706b20df93d275b91",
+      "com.magictavern.vibrationutils@dbf1d1fb2c409eba3090bdd67ed97aa6bfe409b4",
+      "com.magictavern.zstring@c3f8edd8beff8b25abfdae201bfedc3c815b14c9"
+    ],
+    "no_release": [
+      {
+        "project_id": 680,
+        "package_short_name": "taskinvoker",
+        "state": "no_release",
+        "available_tags": [
+          "taskinvoker-debug"
+        ]
+      },
+      {
+        "project_id": 693,
+        "package_short_name": "testpackage5",
+        "state": "no_release",
+        "available_tags": [
+          "testpackage5-debug"
+        ]
+      },
+      {
+        "project_id": 784,
+        "package_short_name": "bsdiff",
+        "state": "no_release",
+        "available_tags": [
+          "bsdiff-debug"
+        ]
+      },
+      {
+        "project_id": 819,
+        "package_short_name": "srcheattool",
+        "state": "no_release",
+        "available_tags": [
+          "srcheattool-feature/SRDebugger-debug"
+        ]
+      }
+    ],
+    "selection": "highest numeric version suffix among package tags without debug; named release variants included; standard tag wins equal version"
+  },
+  "external_catalogs": {
+    "2636": {
+      "schema_version": 1,
+      "project_id": 2636,
+      "ref": "main",
+      "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+      "selection": "all versions in provided MTP external list; preserve version variants and source order",
+      "source_refresh_time": "08/31/2026 10:25:39",
+      "versions": [
+        {
+          "package_name": "A PathFinding Project Pro",
+          "plugin_id": "external2636-a-pathfinding-project-pro-dbf3cd71",
+          "version": "5.3.1",
+          "source_path": "plugins/A PathFinding Project Pro/5.3.1/A Pathfinding Project Pro[5.3.1].unitypackage",
+          "filename": "A Pathfinding Project Pro[5.3.1].unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "f61e29d9b19ac43cb961eb54a0625a0d81f0cc6e",
+          "metadata_path": "plugins/A PathFinding Project Pro/5.3.1/package.json",
+          "metadata_sha256": "9b4b216cd718e64449896625745d93a0bac5b41a66c7c88973b113e6194477e2",
+          "metadata_scope": "version",
+          "build_id": "6866ba46ca15b57506ca64ccc7f7f24b462d49c59c799cdc59dddd60b6dd5118",
+          "directory": "external-2636/external2636-a-pathfinding-project-pro-dbf3cd71/5.3.1/6866ba46ca15b57506ca64ccc7f7f24b462d49c59c799cdc59dddd60b6dd5118",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Adjust SDK",
+          "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+          "version": "5.0.6",
+          "source_path": "plugins/Adjust SDK/5.0.6/Adjust_v5.0.6.unitypackage",
+          "filename": "Adjust_v5.0.6.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "15f4b9e5e172170cd2f39d2e7d929b7fd1b6a1e9",
+          "metadata_path": "plugins/Adjust SDK/5.0.6/package.json",
+          "metadata_sha256": "083d7880cda65dcfeeec5b81ff9b104d1a7f6bfde8c6deae1a7086a9b88a86fd",
+          "metadata_scope": "version",
+          "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+          "directory": "external-2636/external2636-adjust-sdk-dcbb7d32/5.0.6/13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Adjust SDK",
+          "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+          "version": "4.37.1",
+          "source_path": "plugins/Adjust SDK/4.37.1/Adjust_v4.37.1.unitypackage",
+          "filename": "Adjust_v4.37.1.unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "bc481fcedec7dec848e68c3f82b5c6e4e085f07a",
+          "metadata_path": "plugins/Adjust SDK/4.37.1/package.json",
+          "metadata_sha256": "083d7880cda65dcfeeec5b81ff9b104d1a7f6bfde8c6deae1a7086a9b88a86fd",
+          "metadata_scope": "version",
+          "build_id": "d3b1faee0ad25643e7c3ca660a4e0d25b16ce576d52f658a974ee9c96e924c88",
+          "directory": "external-2636/external2636-adjust-sdk-dcbb7d32/4.37.1/d3b1faee0ad25643e7c3ca660a4e0d25b16ce576d52f658a974ee9c96e924c88",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Adjust SDK",
+          "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+          "version": "4.30.0",
+          "source_path": "plugins/Adjust SDK/4.30.0/Adjust_v4.30.0.unitypackage",
+          "filename": "Adjust_v4.30.0.unitypackage",
+          "source_order": 2,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "33bb1c1bf6d2040b17b232fc238f635a787ca40e",
+          "metadata_path": "plugins/Adjust SDK/4.30.0/package.json",
+          "metadata_sha256": "083d7880cda65dcfeeec5b81ff9b104d1a7f6bfde8c6deae1a7086a9b88a86fd",
+          "metadata_scope": "version",
+          "build_id": "e9021ea4746d4940ce0fe5281345418741b351ba3ea59c8464ca118aaa35156e",
+          "directory": "external-2636/external2636-adjust-sdk-dcbb7d32/4.30.0/e9021ea4746d4940ce0fe5281345418741b351ba3ea59c8464ca118aaa35156e",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Anti Cheat ToolKit",
+          "plugin_id": "external2636-anti-cheat-toolkit-e264d82c",
+          "version": "2024.0.0",
+          "source_path": "plugins/Anti Cheat ToolKit/2024.0.0/Anti-Cheat Toolkit 2024.unitypackage",
+          "filename": "Anti-Cheat Toolkit 2024.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "6b786b0c745a680afa9fa18ce20ccce3f36df866",
+          "metadata_path": "plugins/Anti Cheat ToolKit/package.json",
+          "metadata_sha256": "d443074a401466c15f3e3d78c76270010283ae819334b84372db959e8b54fd1b",
+          "metadata_scope": "plugin",
+          "build_id": "5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+          "directory": "external-2636/external2636-anti-cheat-toolkit-e264d82c/2024.0.0/5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Applovin MAX SDK",
+          "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+          "version": "6.1.1",
+          "source_path": "plugins/Applovin MAX SDK/6.1.1/AppLovin-MAX-Unity-Plugin-6.1.1-Android-12.1.0-iOS-12.1.0.unitypackage",
+          "filename": "AppLovin-MAX-Unity-Plugin-6.1.1-Android-12.1.0-iOS-12.1.0.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "11bfaad7cb7c87c5989fb2d374ad1f4f3c658be0",
+          "build_id": "bb64f982fc6dc8a3b06f52e92d25fedf588fbe66098d5a2d6c31135a00478e75",
+          "directory": "external-2636/external2636-applovin-max-sdk-8ade2fe2/6.1.1/bb64f982fc6dc8a3b06f52e92d25fedf588fbe66098d5a2d6c31135a00478e75",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Applovin MAX SDK",
+          "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+          "version": "5.4.4",
+          "source_path": "plugins/Applovin MAX SDK/5.4.4/AppLovin-MAX-Unity-Plugin-5.4.4-Android-11.4.4-iOS-11.4.3.unitypackage",
+          "filename": "AppLovin-MAX-Unity-Plugin-5.4.4-Android-11.4.4-iOS-11.4.3.unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "50c268176599fd80d0d196fd3dd8d85f5b10fc3c",
+          "build_id": "95964d6835497d28410ef6054d5adb7732b5c75f99a368d893110f3ec29f3481",
+          "directory": "external-2636/external2636-applovin-max-sdk-8ade2fe2/5.4.4/95964d6835497d28410ef6054d5adb7732b5c75f99a368d893110f3ec29f3481",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Applovin MAX SDK",
+          "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+          "version": "5.11.5",
+          "source_path": "plugins/Applovin MAX SDK/5.11.5/AppLovin-MAX-Unity-Plugin-5.11.5-Android-11.11.3-iOS-11.11.4.unitypackage",
+          "filename": "AppLovin-MAX-Unity-Plugin-5.11.5-Android-11.11.3-iOS-11.11.4.unitypackage",
+          "source_order": 2,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "64010f846e4b7b6ecf6671f4cf54570bf55c824f",
+          "build_id": "92bdf51ac2925019426f5bba672a114b8e502d83e760c99c1cab764ebc49a4cf",
+          "directory": "external-2636/external2636-applovin-max-sdk-8ade2fe2/5.11.5/92bdf51ac2925019426f5bba672a114b8e502d83e760c99c1cab764ebc49a4cf",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Behavior Designer Behavior Trees for Everyone",
+          "plugin_id": "external2636-behavior-designer-behavior-trees-for-everyone-0745505c",
+          "version": "1.7.11",
+          "source_path": "plugins/Behavior Designer Behavior Trees for Everyone/1.7.11/Behavior Designer - Behavior Trees for Everyone 1.7.11.unitypackage",
+          "filename": "Behavior Designer - Behavior Trees for Everyone 1.7.11.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "88c9cf251ef2dd0975a6ea59f01570d4129344b8",
+          "metadata_path": "plugins/Behavior Designer Behavior Trees for Everyone/package.json",
+          "metadata_sha256": "f0bc692bb1870d5dc50a432a45dfab2e300651db5c26926ebf79083ee2ab4dd8",
+          "metadata_scope": "plugin",
+          "build_id": "99913b6066a4b4a36b812fae9172672b171ea9905ab38be6290d8d95b13657fd",
+          "directory": "external-2636/external2636-behavior-designer-behavior-trees-for-everyone-0745505c/1.7.11/99913b6066a4b4a36b812fae9172672b171ea9905ab38be6290d8d95b13657fd",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Corgi Engine - 2D + 2.5D Platformer",
+          "plugin_id": "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6",
+          "version": "9.3-Unity6000",
+          "source_path": "plugins/Corgi Engine - 2D + 2.5D Platformer/9.3-Unity6000/Corgi Engine - 2D 25D Platformer 9.3.unitypackage",
+          "filename": "Corgi Engine - 2D 25D Platformer 9.3.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "4334ec1b40b2e4ea4fdd607da0b3f71969d2b0eb",
+          "metadata_path": "plugins/Corgi Engine - 2D + 2.5D Platformer/package.json",
+          "metadata_sha256": "0b8fb74cc577045890aec2a65c1d066d3e653366e174a479df9fccaf144b383a",
+          "metadata_scope": "plugin",
+          "build_id": "96145f931a096a6286da7a35288e6e15b9a242d5d39c9138c48dac1ad641df0c",
+          "directory": "external-2636/external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6/9.3-Unity6000/96145f931a096a6286da7a35288e6e15b9a242d5d39c9138c48dac1ad641df0c",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Corgi Engine - 2D + 2.5D Platformer",
+          "plugin_id": "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6",
+          "version": "9.1-Unity2022",
+          "source_path": "plugins/Corgi Engine - 2D + 2.5D Platformer/9.1-Unity2022/Corgi Engine - 2D 25D Platformer [9.1].unitypackage",
+          "filename": "Corgi Engine - 2D 25D Platformer [9.1].unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "0e83552e6a0ccd67e47695b3c043e9a164333520",
+          "metadata_path": "plugins/Corgi Engine - 2D + 2.5D Platformer/package.json",
+          "metadata_sha256": "0b8fb74cc577045890aec2a65c1d066d3e653366e174a479df9fccaf144b383a",
+          "metadata_scope": "plugin",
+          "build_id": "990b43e087c073cb1963d7fedb9e92cc1b98f2e2a393e22f5caeaef439adeb54",
+          "directory": "external-2636/external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6/9.1-Unity2022/990b43e087c073cb1963d7fedb9e92cc1b98f2e2a393e22f5caeaef439adeb54",
+          "execution_ready": false
+        },
+        {
+          "package_name": "DOTween Pro",
+          "plugin_id": "external2636-dotween-pro-7c368136",
+          "version": "1.0.335",
+          "source_path": "plugins/DOTween Pro/1.0.335/DOTween Pro.unitypackage",
+          "filename": "DOTween Pro.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "404c9252eab72fd4bcc265640896b7f764af2654",
+          "metadata_path": "plugins/DOTween Pro/1.0.335/package.json",
+          "metadata_sha256": "b4689c10b03f658abcb85a3bcf95e0968e3d7bd7cea6b1d04576a59c198dc732",
+          "metadata_scope": "version",
+          "build_id": "6917a1f1def4cbdb30e66596bdc1626ae822e81ab9745fbe09462ab3855df3b4",
+          "directory": "external-2636/external2636-dotween-pro-7c368136/1.0.335/6917a1f1def4cbdb30e66596bdc1626ae822e81ab9745fbe09462ab3855df3b4",
+          "execution_ready": false
+        },
+        {
+          "package_name": "EDMU",
+          "plugin_id": "external2636-edmu-08d7c817",
+          "version": "1.2.177",
+          "source_path": "plugins/EDMU/1.2.177/external-dependency-manager-1.2.177.unitypackage",
+          "filename": "external-dependency-manager-1.2.177.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "7f9c1d80bdea15ac5250377cf93508137adc9f93",
+          "metadata_path": "plugins/EDMU/package.json",
+          "metadata_sha256": "b3d82fa1e1ebf9d2b5d6a108562830fca9c899a99c00985d7271031dcfe7536d",
+          "metadata_scope": "plugin",
+          "build_id": "f6128a08533deee0cf5f324378cd18d17f255e606187cfd07c71bb0b4ed8116e",
+          "directory": "external-2636/external2636-edmu-08d7c817/1.2.177/f6128a08533deee0cf5f324378cd18d17f255e606187cfd07c71bb0b4ed8116e",
+          "execution_ready": false
+        },
+        {
+          "package_name": "EDMU",
+          "plugin_id": "external2636-edmu-08d7c817",
+          "version": "1.2.176",
+          "source_path": "plugins/EDMU/1.2.176/external-dependency-manager-1.2.176.unitypackage",
+          "filename": "external-dependency-manager-1.2.176.unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "7ceee4fdc82044f12484f3dd25f431a13b8aefe1",
+          "metadata_path": "plugins/EDMU/package.json",
+          "metadata_sha256": "b3d82fa1e1ebf9d2b5d6a108562830fca9c899a99c00985d7271031dcfe7536d",
+          "metadata_scope": "plugin",
+          "build_id": "71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+          "directory": "external-2636/external2636-edmu-08d7c817/1.2.176/71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Easy Collider Editor",
+          "plugin_id": "external2636-easy-collider-editor-9649192d",
+          "version": "6.16.4",
+          "source_path": "plugins/Easy Collider Editor/6.16.4/Easy Collider Editor 6.16.4.unitypackage",
+          "filename": "Easy Collider Editor 6.16.4.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "4e3087afa93a0105d0ae57ca5251b766581c3f6d",
+          "metadata_path": "plugins/Easy Collider Editor/package.json",
+          "metadata_sha256": "c67ada7394a2953ee14264008d608bdb366bfd07459de2cbf6fa6ef933458e3e",
+          "metadata_scope": "plugin",
+          "build_id": "c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+          "directory": "external-2636/external2636-easy-collider-editor-9649192d/6.16.4/c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Epic Toon FX",
+          "plugin_id": "external2636-epic-toon-fx-634730ba",
+          "version": "1.82 - unity6000",
+          "source_path": "plugins/Epic Toon FX/1.82 - unity6000/Epic Toon FX 1.82 u6000.0.11.unitypackage",
+          "filename": "Epic Toon FX 1.82 u6000.0.11.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "9acab10398a18117b26d456d38ae4b90f1fc1310",
+          "metadata_path": "plugins/Epic Toon FX/1.82 - unity6000/package.json",
+          "metadata_sha256": "76ae5e1e93df2a68e1535d8395c1534cb27cb7cd052855465a01dc9c0d46f1c4",
+          "metadata_scope": "version",
+          "build_id": "2338237895359e6f7d2f3c1435a96ee754c74c75aaf36a4123aa54936ff6404b",
+          "directory": "external-2636/external2636-epic-toon-fx-634730ba/1.82---unity6000-3a1122490ac1/2338237895359e6f7d2f3c1435a96ee754c74c75aaf36a4123aa54936ff6404b",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Epic Toon VFX3",
+          "plugin_id": "external2636-epic-toon-vfx3-b45e8e1d",
+          "version": "1.1",
+          "source_path": "plugins/Epic Toon VFX3/1.1/Epic Toon VFX 3 1.1.unitypackage",
+          "filename": "Epic Toon VFX 3 1.1.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "524b4cfcebab42cf636a9ba3cbc67c9e8c171498",
+          "metadata_path": "plugins/Epic Toon VFX3/1.1/package.json",
+          "metadata_sha256": "7fba4224f3e6313c858e7ecbb7a407b9f10abec7eb014e8bdb3b3078e5e90419",
+          "metadata_scope": "version",
+          "build_id": "127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+          "directory": "external-2636/external2636-epic-toon-vfx3-b45e8e1d/1.1/127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Feel",
+          "plugin_id": "external2636-feel-cd1e2387",
+          "version": "5.3-Unity6",
+          "source_path": "plugins/Feel/5.3-Unity6/Feel Unity6 v5.3.unitypackage",
+          "filename": "Feel Unity6 v5.3.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "5636367128df56fe06ba6170c95303b0d9e9ceb2",
+          "metadata_path": "plugins/Feel/5.3-Unity6/package.json",
+          "metadata_sha256": "f173b5525adf015cbe8efa29402724f21d945c0dc004783cef5e13aafb84424b",
+          "metadata_scope": "version",
+          "build_id": "906cf3fb4818db5ff4c1d3c8e50bde20b0cd4f19539dc57cd48ec48f27028c88",
+          "directory": "external-2636/external2636-feel-cd1e2387/5.3-Unity6/906cf3fb4818db5ff4c1d3c8e50bde20b0cd4f19539dc57cd48ec48f27028c88",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Feel",
+          "plugin_id": "external2636-feel-cd1e2387",
+          "version": "4.3-Unity2022",
+          "source_path": "plugins/Feel/4.3-Unity2022/Feel 2022[4.3].unitypackage",
+          "filename": "Feel 2022[4.3].unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "0649b0e61f50d1c1ddf6aeb20a9164a817d398ed",
+          "metadata_path": "plugins/Feel/4.3-Unity2022/package.json",
+          "metadata_sha256": "f173b5525adf015cbe8efa29402724f21d945c0dc004783cef5e13aafb84424b",
+          "metadata_scope": "version",
+          "build_id": "ba862b9e7d351f370344a47070b677e1314aa32e85961c5575d3ce04d3644107",
+          "directory": "external-2636/external2636-feel-cd1e2387/4.3-Unity2022/ba862b9e7d351f370344a47070b677e1314aa32e85961c5575d3ce04d3644107",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Feel",
+          "plugin_id": "external2636-feel-cd1e2387",
+          "version": "3.7.1",
+          "source_path": "plugins/Feel/3.7.1/Feel 3.7.1.unitypackage",
+          "filename": "Feel 3.7.1.unitypackage",
+          "source_order": 2,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "cebd78e711f956c273a23231e1b7910777206679",
+          "metadata_path": "plugins/Feel/3.7.1/package.json",
+          "metadata_sha256": "f173b5525adf015cbe8efa29402724f21d945c0dc004783cef5e13aafb84424b",
+          "metadata_scope": "version",
+          "build_id": "340413083e6c8095c8b886a1304eee69b3b0b3ea09e757d359a5bf9a8a75a4fe",
+          "directory": "external-2636/external2636-feel-cd1e2387/3.7.1/340413083e6c8095c8b886a1304eee69b3b0b3ea09e757d359a5bf9a8a75a4fe",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Fmod Studio",
+          "plugin_id": "external2636-fmod-studio-755279a6",
+          "version": "2.0.2.26",
+          "source_path": "plugins/Fmod Studio/2.0.2.26/fmodstudio20226.unitypackage",
+          "filename": "fmodstudio20226.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "ebca06074b1082184afd57fcc8aa7ac0581f261c",
+          "metadata_path": "plugins/Fmod Studio/package.json",
+          "metadata_sha256": "02d5ce46f5e2eff0836ef7ba9858efa78c344e6980ffbc083f68b07185231d46",
+          "metadata_scope": "plugin",
+          "build_id": "2a3276a809292aa00ddaeb6cc6926999ebde417ba81c78308276fefb92d6e31c",
+          "directory": "external-2636/external2636-fmod-studio-755279a6/2.0.2.26/2a3276a809292aa00ddaeb6cc6926999ebde417ba81c78308276fefb92d6e31c",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Fmod Studio",
+          "plugin_id": "external2636-fmod-studio-755279a6",
+          "version": "2.0.2.19",
+          "source_path": "plugins/Fmod Studio/2.0.2.19/fmodstudio20219.unitypackage",
+          "filename": "fmodstudio20219.unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "01993a13661a9ce923a1bf7ada91f1820ab202f3",
+          "metadata_path": "plugins/Fmod Studio/package.json",
+          "metadata_sha256": "02d5ce46f5e2eff0836ef7ba9858efa78c344e6980ffbc083f68b07185231d46",
+          "metadata_scope": "plugin",
+          "build_id": "715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+          "directory": "external-2636/external2636-fmod-studio-755279a6/2.0.2.19/715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Log Viewer",
+          "plugin_id": "external2636-log-viewer-b26528cf",
+          "version": "1.8",
+          "source_path": "plugins/Log Viewer/1.8/Log Viewer.unitypackage",
+          "filename": "Log Viewer.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "ebdaca3e2ba501c201e974c9785a3582b9c78112",
+          "metadata_path": "plugins/Log Viewer/1.8/package.json",
+          "metadata_sha256": "1d0ddad2fe383405f35918f575038a8b6871eff0092af811662a296918515f15",
+          "metadata_scope": "version",
+          "build_id": "e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+          "directory": "external-2636/external2636-log-viewer-b26528cf/1.8/e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Magica Cloth",
+          "plugin_id": "external2636-magica-cloth-f971aa59",
+          "version": "2.13.1",
+          "source_path": "plugins/Magica Cloth/2.13.1/Magica Cloth 2.unitypackage",
+          "filename": "Magica Cloth 2.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "ff07ba00bed580b6e0b94db4c443f8ca3880a7a5",
+          "metadata_path": "plugins/Magica Cloth/2.13.1/package.json",
+          "metadata_sha256": "0b8fb74cc577045890aec2a65c1d066d3e653366e174a479df9fccaf144b383a",
+          "metadata_scope": "version",
+          "build_id": "0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+          "directory": "external-2636/external2636-magica-cloth-f971aa59/2.13.1/0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Map Graph",
+          "plugin_id": "external2636-map-graph-53789fa8",
+          "version": "1.26.2",
+          "source_path": "plugins/Map Graph/1.26.2/Map Graph 1.26.2.unitypackage",
+          "filename": "Map Graph 1.26.2.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "eb4e476927e98f6c3235c91c3bc3631ae293c20c",
+          "metadata_path": "plugins/Map Graph/1.26.2/package.json",
+          "metadata_sha256": "c7c30e0d0e4813d050ef6e3d925c7adbe87d8fbc2318891532798d68dbf34c6d",
+          "metadata_scope": "version",
+          "build_id": "645de9f47126d647414c0e945b6a15b5e84353bf924154dd6da2385a22bb26c8",
+          "directory": "external-2636/external2636-map-graph-53789fa8/1.26.2/645de9f47126d647414c0e945b6a15b5e84353bf924154dd6da2385a22bb26c8",
+          "execution_ready": false
+        },
+        {
+          "package_name": "NiceVibrations",
+          "plugin_id": "external2636-nicevibrations-a97fc6fd",
+          "version": "3.9.0",
+          "source_path": "plugins/NiceVibrations/3.9.0/NiceVibrations-v-3-9-0.unitypackage",
+          "filename": "NiceVibrations-v-3-9-0.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "1f602d1ee8a938fba47c0db836f2264653a4ebfe",
+          "metadata_path": "plugins/NiceVibrations/3.9.0/package.json",
+          "metadata_sha256": "02e9db0cc949f82f4aebdf5e17ef412d626f6045c5bad18cd732d4a1e08139f1",
+          "metadata_scope": "version",
+          "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+          "directory": "external-2636/external2636-nicevibrations-a97fc6fd/3.9.0/0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+          "execution_ready": false
+        },
+        {
+          "package_name": "NugetForUnity",
+          "plugin_id": "external2636-nugetforunity-d17a20b9",
+          "version": "3.0.4",
+          "source_path": "plugins/NugetForUnity/3.0.4/NugetForUnity.3.0.4.unitypackage",
+          "filename": "NugetForUnity.3.0.4.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "d2f41350ff69308814fcc2f87403c05cca79ea39",
+          "metadata_path": "plugins/NugetForUnity/3.0.4/package.json",
+          "metadata_sha256": "150605a5babc7a5bf0021b4d9dc02d173417f1f9e4ca3bd37f06e31ab4615fca",
+          "metadata_scope": "version",
+          "build_id": "47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+          "directory": "external-2636/external2636-nugetforunity-d17a20b9/3.0.4/47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Odin Inspector and Serializer",
+          "plugin_id": "external2636-odin-inspector-and-serializer-7a65c84f",
+          "version": "3.1.10.0",
+          "source_path": "plugins/Odin Inspector and Serializer/3.1.10.0/Odin Inspector 3.1.10.0.unitypackage",
+          "filename": "Odin Inspector 3.1.10.0.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "12295185084427ae91573722ae5fa4cc7a68397c",
+          "metadata_path": "plugins/Odin Inspector and Serializer/3.1.10.0/package.json",
+          "metadata_sha256": "706fd391f9fd84fcbf556184f474e8da336fc3423bf67dfa341c974cd49ddc09",
+          "metadata_scope": "version",
+          "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+          "directory": "external-2636/external2636-odin-inspector-and-serializer-7a65c84f/3.1.10.0/bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Pixel Art Full GUI UI Kit",
+          "plugin_id": "external2636-pixel-art-full-gui-ui-kit-f3e1d86c",
+          "version": "1.2.0",
+          "source_path": "plugins/Pixel Art Full GUI UI Kit/1.2.0/Pixel Art Full GUI UI Kit 151 icons 1.2.0.unitypackage",
+          "filename": "Pixel Art Full GUI UI Kit 151 icons 1.2.0.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "8fb8a268f51aece045fa8fa7d99e06b8d1dd1a57",
+          "metadata_path": "plugins/Pixel Art Full GUI UI Kit/1.2.0/package.json",
+          "metadata_sha256": "b464e4c3a1a1a89c6159e314b4e2ce64d1f060cc1d46f4ba409a0c72443820e2",
+          "metadata_scope": "version",
+          "build_id": "99b368037398a28176b8ffd85216998ae2bdd9c1dfc11ef5f5a648f38aee8754",
+          "directory": "external-2636/external2636-pixel-art-full-gui-ui-kit-f3e1d86c/1.2.0/99b368037398a28176b8ffd85216998ae2bdd9c1dfc11ef5f5a648f38aee8754",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Proxima",
+          "plugin_id": "external2636-proxima-5f634d1a",
+          "version": "1.2.1",
+          "source_path": "plugins/Proxima/1.2.1/Proxima Runtime Inspector Console.unitypackage",
+          "filename": "Proxima Runtime Inspector Console.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "35c2657ee102fe1e853316a51544d512054e6ec4",
+          "build_id": "6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+          "directory": "external-2636/external2636-proxima-5f634d1a/1.2.1/6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Spine",
+          "plugin_id": "external2636-spine-36682557",
+          "version": "4.1",
+          "source_path": "plugins/Spine/4.1/spine-unity-4.1-2023-06-27.unitypackage",
+          "filename": "spine-unity-4.1-2023-06-27.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "a66bae9fcad21180c995190a747569391d23818b",
+          "build_id": "785c14dcf9c2744f9de1b4512b0e2a060fa6b18adfcd1e407c36a59b6a0d0e31",
+          "directory": "external-2636/external2636-spine-36682557/4.1/785c14dcf9c2744f9de1b4512b0e2a060fa6b18adfcd1e407c36a59b6a0d0e31",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Spine",
+          "plugin_id": "external2636-spine-36682557",
+          "version": "4.1 with example",
+          "source_path": "plugins/Spine/4.1 with example/spine4.1-withexample.unitypackage",
+          "filename": "spine4.1-withexample.unitypackage",
+          "source_order": 1,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "db538220c29923bb6ad4b9607d84173564aa837b",
+          "build_id": "8416f5bd99c61247302131761e4c8aef96ddbef90e81d34e8d28356bb4ba140b",
+          "directory": "external-2636/external2636-spine-36682557/4.1-with-example-83a4361ad5af/8416f5bd99c61247302131761e4c8aef96ddbef90e81d34e8d28356bb4ba140b",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Spine",
+          "plugin_id": "external2636-spine-36682557",
+          "version": "3.8",
+          "source_path": "plugins/Spine/3.8/spine-unity-3.8-2021-11-10.unitypackage",
+          "filename": "spine-unity-3.8-2021-11-10.unitypackage",
+          "source_order": 2,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "8d4da36548eb9160e3f9cba969b8c8c74070c8c7",
+          "build_id": "ebec10123b018ba9a4c7f4023ac0602a98674e57465657e0b190acd29c923108",
+          "directory": "external-2636/external2636-spine-36682557/3.8/ebec10123b018ba9a4c7f4023ac0602a98674e57465657e0b190acd29c923108",
+          "execution_ready": false
+        },
+        {
+          "package_name": "StatsMonitor",
+          "plugin_id": "external2636-statsmonitor-16a8b28e",
+          "version": "1.0.0",
+          "source_path": "plugins/StatsMonitor/1.0.0/StatsMonitor.unitypackage",
+          "filename": "StatsMonitor.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "852f25c781f2cd1c3403f1689d2dc639209ee510",
+          "metadata_path": "plugins/StatsMonitor/1.0.0/package.json",
+          "metadata_sha256": "1992e3c322e5811a8cd9f64387c68deed6e937a613b7b31bf1f761bc2a5cf0c0",
+          "metadata_scope": "version",
+          "build_id": "e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+          "directory": "external-2636/external2636-statsmonitor-16a8b28e/1.0.0/e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Stylized Water 2",
+          "plugin_id": "external2636-stylized-water-2-90c54509",
+          "version": "1.7.0",
+          "source_path": "plugins/Stylized Water 2/1.7.0/Stylized Water 2 1.7.0.unitypackage",
+          "filename": "Stylized Water 2 1.7.0.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "6a6b2100125c2062d9fc781155e22965e2d97bcc",
+          "metadata_path": "plugins/Stylized Water 2/package.json",
+          "metadata_sha256": "b153c7942aa0cc63b9d4b2c4319872855fc6c98d83155072f338ab7bb070f6c7",
+          "metadata_scope": "plugin",
+          "build_id": "893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+          "directory": "external-2636/external2636-stylized-water-2-90c54509/1.7.0/893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Task Invoker - Mobile Background Tasks",
+          "plugin_id": "external2636-task-invoker-mobile-background-tasks-5a618738",
+          "version": "1.0.2",
+          "source_path": "plugins/Task Invoker - Mobile Background Tasks/1.0.2/Task Invoker - Mobile Background Tasks [1.0.2].unitypackage",
+          "filename": "Task Invoker - Mobile Background Tasks [1.0.2].unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "3a2d7a336fc65ffa10a0c2996ce39f48dc8f3526",
+          "metadata_path": "plugins/Task Invoker - Mobile Background Tasks/1.0.2/package.json",
+          "metadata_sha256": "a3a7467800ba1585f629c6e410bd071aa85d395e17b7c41faae715976e448d35",
+          "metadata_scope": "version",
+          "build_id": "941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+          "directory": "external-2636/external2636-task-invoker-mobile-background-tasks-5a618738/1.0.2/941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+          "execution_ready": false
+        },
+        {
+          "package_name": "Text Animator for Unity",
+          "plugin_id": "external2636-text-animator-for-unity-d050710a",
+          "version": "2.1.0",
+          "source_path": "plugins/Text Animator for Unity/2.1.0/Text Animator for Unity v2.1.0.unitypackage",
+          "filename": "Text Animator for Unity v2.1.0.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "549ae0f6a59bacdf18e38f2e50a244e0b220e413",
+          "metadata_path": "plugins/Text Animator for Unity/2.1.0/package.json",
+          "metadata_sha256": "2eaf2aecc497a39ce9e8411b945172cb650931193ab382ae9329249bf4f22939",
+          "metadata_scope": "version",
+          "build_id": "7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+          "directory": "external-2636/external2636-text-animator-for-unity-d050710a/2.1.0/7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+          "execution_ready": false
+        },
+        {
+          "package_name": "UniWebView",
+          "plugin_id": "external2636-uniwebview-743d2f34",
+          "version": "5.12.0",
+          "source_path": "plugins/UniWebView/5.12.0/UniWebView 5.unitypackage",
+          "filename": "UniWebView 5.unitypackage",
+          "source_order": 0,
+          "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+          "blob_id": "9a368006e247afa5f62a8a56371578a727c5c48b",
+          "metadata_path": "plugins/UniWebView/package.json",
+          "metadata_sha256": "0b8fb74cc577045890aec2a65c1d066d3e653366e174a479df9fccaf144b383a",
+          "metadata_scope": "plugin",
+          "build_id": "2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+          "directory": "external-2636/external2636-uniwebview-743d2f34/5.12.0/2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+          "execution_ready": false
+        }
+      ],
+      "additional_remote_archives": []
+    }
+  }
+}

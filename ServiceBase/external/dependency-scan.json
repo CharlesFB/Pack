@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "catalog_project_id": 647,
+  "catalog_commit": "cc6362d665487700b4dac5d40caad0416b74a76b",
+  "selection": "explicit historical tags; retain current highest-release selection",
+  "rows": [
+    {
+      "project_id": 618,
+      "package_short_name": "base-1.0.13",
+      "state": "scanned",
+      "tag": "base-1.0.13",
+      "commit": "027473fcc322505706b997a9651978c82db49446",
+      "package_name": "com.magictavern.frontengine.base",
+      "package_version": "1.0.13",
+      "package_json_sha256": "20569858845ec0d961da4837d5e873428605da7419ee8bfb13c2c427cefa9465",
+      "files": []
+    }
+  ]
+}

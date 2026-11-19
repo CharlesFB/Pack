@@ -1,0 +1,1839 @@
+{
+  "schema_version": 1,
+  "plugin_id": "dotween-pro",
+  "build_id": "b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237",
+  "artifact": "artifact.unitypackage",
+  "sha256": "b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237",
+  "size": 429160,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "6bc921b9268c04d08bc72828251ce32f",
+      "asset.meta": {
+        "sha256": "0bc05e9040aaa08033946c1ad65885cec42e7ae07b533eedcb99ba6f532674d0",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant"
+    },
+    {
+      "guid": "634c6819754454fd49074d4c2376d111",
+      "asset.meta": {
+        "sha256": "5f3a59ea43f78880c1c4ab8b22731f6232aaff89bdb1c2b528f33df19bf86f05",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DOTween"
+    },
+    {
+      "guid": "34192c5e0d14aee43a0e86cc4823268a",
+      "asset.meta": {
+        "sha256": "fa0910a2d57fab309c43ceb73e17e48825d406e39421d898b29c00449f1c8832",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "f365f0e51809433b38778a4504ab9fc1acc7f6b2e17cdbbe632d68c5b924b4ef",
+        "size": 202229
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/DOTween.XML"
+    },
+    {
+      "guid": "a811bde74b26b53498b4f6d872b09b6d",
+      "asset.meta": {
+        "sha256": "0f3fd10b47b5f199f6e22d6cfabee46ed218324a1cd0e8d420d70bc94b9f9580",
+        "size": 621
+      },
+      "asset": {
+        "sha256": "2180f13df3ffb3b0ac63595a17c99a59e8bf1e986302dabf69a3c68588088fa7",
+        "size": 155648
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/DOTween.dll"
+    },
+    {
+      "guid": "4f007001a22b3d24dae350342c4d19c8",
+      "asset.meta": {
+        "sha256": "cb8eb62368c7258e9109ea20881beebdf10095251e79833dd5e25836f5ff85da",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "9323672ab22db9973af2cfd1faa4c8041f26f754ab352f8f6c10f5066ddd2dff",
+        "size": 59574
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/DOTween.dll.mdb"
+    },
+    {
+      "guid": "964afa5502c3046aea940155cb881e50",
+      "asset.meta": {
+        "sha256": "1fc3a918c7257278b51dd457500499f52a77ad3f445531d6f6da5d3c92d7b6a7",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor"
+    },
+    {
+      "guid": "2e2c6224d345d9249acfa6e8ef40bb2d",
+      "asset.meta": {
+        "sha256": "0dd69bc2cdf15c3d0ac2b37bb8c1b120cee963af89445a5195677fa7586351a1",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "54f9d4ac966ac073af2c5c091f0c6b6b3dc550a872fee77a1c7aaacb4ae2c67e",
+        "size": 5264
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/DOTweenEditor.XML"
+    },
+    {
+      "guid": "45d5034162d6cf04dbe46da84fc7d074",
+      "asset.meta": {
+        "sha256": "fbba360a5674b2bbeb8dc94b6e6fc442a5afd4f02a0e16d5b7f8f01d14af22f6",
+        "size": 621
+      },
+      "asset": {
+        "sha256": "8da671a9c911b41b499ef4c6409d77a88fc11a07914a9d027274f60f76d5bd29",
+        "size": 50688
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/DOTweenEditor.dll"
+    },
+    {
+      "guid": "8f46310a8b0a8f04a92993c37c713243",
+      "asset.meta": {
+        "sha256": "799e269a2c72bcbb8dae558cb7863d17cd20fe9969700710069b94863c9c850f",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "3682e8f4f4d0219fc073be0a65edfe395a234c213bc55f84f47a4bcf0143a48c",
+        "size": 9289
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb"
+    },
+    {
+      "guid": "ac2d6bad719784d50ab8482b6633fe00",
+      "asset.meta": {
+        "sha256": "3ec8248d426436bf1d7c979ae4963d858c7a7ecf4e640c0d8eff4546bb025848",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/Imgs"
+    },
+    {
+      "guid": "8da095e39e9b4df488dfd436f81116d6",
+      "asset.meta": {
+        "sha256": "80d79c8afed0b9c4c6b1922858c405c493e0bc4850d21cf03ba32b1c50a84c71",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "6e6ca81af7b3fdbecc7069b8644047713af97c8e311cd3da97e75eff0b973faa",
+        "size": 1565
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png"
+    },
+    {
+      "guid": "7051dba417b3d53409f2918f1ea4938d",
+      "asset.meta": {
+        "sha256": "4d56f10dfe308c998d7a03d200c79683cc1c52c67a1d29ca620bd2cc00f10319",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "b1bccfb25ef58988d123ade538e28637da988dfaf33272067b641f34582e7b89",
+        "size": 4409
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/Imgs/Footer.png"
+    },
+    {
+      "guid": "519694efe2bb2914788b151fbd8c01f4",
+      "asset.meta": {
+        "sha256": "bc480152191436e7a4a317a9f78e23a9c52dfb14060e48c9b4f683e4de0c2603",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "2bc04d9700e60b53aa4741c4580d61e490b1192d3ea4f98f4437a2e776057a5a",
+        "size": 4429
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/Imgs/Footer_dark.png"
+    },
+    {
+      "guid": "78a59ca99f8987941adb61f9e14a06a7",
+      "asset.meta": {
+        "sha256": "463d93dd452a7adc464a3aa68014784f28f32e809ffcd7b8110a7d0440a15dfa",
+        "size": 1929
+      },
+      "asset": {
+        "sha256": "80652902491d99fe580056ed204d204d9ecaccf810e7ec546bd949ccff8d67fd",
+        "size": 22787
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Editor/Imgs/Header.jpg"
+    },
+    {
+      "guid": "502f5a9bfa94a44f4a4f8f3b9feec39d",
+      "asset.meta": {
+        "sha256": "98c06b908e92c1ff1d91db4bbfacf730db59aafc4f08b05eb135661341a5a8be",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules"
+    },
+    {
+      "guid": "b766d08851589514b97afb23c6f30a70",
+      "asset.meta": {
+        "sha256": "e532af142d5ed95972d47dd432869689f562991f6580df51f69fb322c268f599",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "c4b6026e387920a768c2b858408632b0454be30a3a4551fb5ac225c5ae1de718",
+        "size": 8850
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+    },
+    {
+      "guid": "dae9aa560b4242648a3affa2bfabc365",
+      "asset.meta": {
+        "sha256": "6de36c8a0af270aa37b02e50a6d1940090d1c64fab70d6e7b0cedccf01168b4a",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "7ca56d21fb15157eb079357f477ffc440016ed8d95e6373e59587b6c513eabe0",
+        "size": 13687
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+    },
+    {
+      "guid": "230fe34542e175245ba74b4659dae700",
+      "asset.meta": {
+        "sha256": "8df904d81a748efc262d295d4731d5560075b16cfa9ff170de5336656f07faba",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "234b3017df398c4b6a239c6967e035e4de688c96c23869d943e3e728446fefbb",
+        "size": 6007
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    },
+    {
+      "guid": "188918ab119d93148aa0de59ccf5286b",
+      "asset.meta": {
+        "sha256": "0c769f1f1fa89b7d11c4e83287017301ade9889551a600a8e1a103cd334a1cc7",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "2c50ceffc158f5d00b482210d772816f1487635fc95ccdd60640c0eb42113676",
+        "size": 4127
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+    },
+    {
+      "guid": "a060394c03331a64392db53a10e7f2d1",
+      "asset.meta": {
+        "sha256": "8149da99a9bc2ef66206f212a80cdb113a0231e7bd9e32ba70d5ed424fb64125",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "7f70026cfb02b74eb1771b283377b20716d7046cb0788e89b839157e26dc56db",
+        "size": 39097
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
+    },
+    {
+      "guid": "63c02322328255542995bd02b47b0457",
+      "asset.meta": {
+        "sha256": "81efb5294decaa578e7b78f3ce68d52463fbd4ffd45d0538369b64c5cf6e8a8c",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "e348fc5453881c658e44af8ae769e373514b4d5f43f10e964c79b14a77031cfe",
+        "size": 13863
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    },
+    {
+      "guid": "7bcaf917d9cf5b84090421a5a2abe42e",
+      "asset.meta": {
+        "sha256": "8916ae26378ab67d6a025295987e3ae071bfd70f7fe4aa3b47c516b7c8d1719a",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "3bf916a87f4da4411446803213f30b5357bcdceeb745de949982c651accf0794",
+        "size": 6053
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+    },
+    {
+      "guid": "fccfc62abf2eb0a4db614853430894fd",
+      "asset.meta": {
+        "sha256": "2415e9520af9e17b3ecf1b1280c4a19f46cbfc943efc44e33a6a5a7d1fea472f",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "37b99ffdbb8b01b159d807b1fe77db664ae5b3b201734a5ad602c7c7f83941f0",
+        "size": 2190
+      },
+      "path": "Assets/Addons/Demigiant/DOTween/readme.txt"
+    },
+    {
+      "guid": "bd8e0ef93787f4f87885938196f6d4d0",
+      "asset.meta": {
+        "sha256": "9a168d2902e52dae1742f3bd688b5c0793ec4e2b96137190464c3fd2069c0e7e",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro"
+    },
+    {
+      "guid": "4d0390bd8b8ffd640b34fe25065ff1df",
+      "asset.meta": {
+        "sha256": "90a367b1627512c0d6e29fef5885c65daf7063bdab5968d3a1ef21f6cdc9a3d3",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "e8ff9f92b570567c5c7df18bb2233648244a65263799b12e1565b006d8b522b6",
+        "size": 27235
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenAnimation.cs"
+    },
+    {
+      "guid": "db7d7ef84c388bc4fbc3835d31a15306",
+      "asset.meta": {
+        "sha256": "651c478fafd84d6486339c57eddb426d431196e7f9cc19e8c7c198050d346903",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "abef19e16144b30c06eb13f126f7879849e527958f89620562b1c08b421d616f",
+        "size": 2658
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenPro.XML"
+    },
+    {
+      "guid": "aa0b1eebb5db27a419fa4564bbe5c9c5",
+      "asset.meta": {
+        "sha256": "1d34dbeac0e4647e36324c3124c91e8639d2ed6e36e009101b86a341ab94438a",
+        "size": 621
+      },
+      "asset": {
+        "sha256": "714a787cdec5be9cd386596a633b4163e9363de46e493b6ced955f6da51468be",
+        "size": 16384
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenPro.dll"
+    },
+    {
+      "guid": "d719ed2e2c87eae4e8dd520e2df659c1",
+      "asset.meta": {
+        "sha256": "4ba11676a462edd7e08892b0032f214d14d126a862128d3aeb73da0d17347a36",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "3ab0d08644a5f8244943f166c230515ec09719a052b46d6fca7ab84ca31d345c",
+        "size": 2581
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenPro.dll.mdb"
+    },
+    {
+      "guid": "1c3190a1a1c53f449926f6d5542b4ce5",
+      "asset.meta": {
+        "sha256": "49e241a9e2f0409daea7d6e7acc92bd3d63e5febc7cd48274cb36922c47b9b4b",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "1f217bcde126e864d555d7db596162560c0361d6cbb2edd9f09d0455e09c3ba3",
+        "size": 3992
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenProShortcuts.cs"
+    },
+    {
+      "guid": "8fb0d65aa5b048649a3a785b82b8f8db",
+      "asset.meta": {
+        "sha256": "b54154cae13acccad7c63745971a227bdf68eedd70a804df9847abb0a33347dc",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "cb91526fd4ab1b02a23fd98bf3baab6deff1d911b3ad650cdde2d8fa2a8e3192",
+        "size": 8559
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs"
+    },
+    {
+      "guid": "2a5935d4c3cbf544e8dec8f08ac0d540",
+      "asset.meta": {
+        "sha256": "900321254b6fc804206bd75827129538b1d39b80a8a25e100df564c06de97bf1",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "cb91526fd4ab1b02a23fd98bf3baab6deff1d911b3ad650cdde2d8fa2a8e3192",
+        "size": 8559
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.addon"
+    },
+    {
+      "guid": "b590cd7c24ffa5d4faa5b6fa993cccad",
+      "asset.meta": {
+        "sha256": "e358f1eb0e66f96e8b713c695b45796550b23c565771ee5397a36952d794cdb6",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4ce939f802f4129c339925bb2cf9add97d44658e191db6db5edd02aa99d57039",
+        "size": 15360
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenTk2d.cs"
+    },
+    {
+      "guid": "6ec99626716d95c4ba56a6d6f9dec583",
+      "asset.meta": {
+        "sha256": "563ed854a1efbe2d128342f100c24a5ce481d7708a5e39cb976a5286be87604e",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "4ce939f802f4129c339925bb2cf9add97d44658e191db6db5edd02aa99d57039",
+        "size": 15360
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/DOTweenTk2d.cs.addon"
+    },
+    {
+      "guid": "f519fdf3b2d73479c9faf765b0025aa7",
+      "asset.meta": {
+        "sha256": "8d2b5929e150fabd86cbdf665075486b66714d9705ebff8090e94d45d08da20a",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/Editor"
+    },
+    {
+      "guid": "e0203fd81362bab4d842d87ad09ee76e",
+      "asset.meta": {
+        "sha256": "460472fa29d6d7f34e0fa445f471b1d6348e4ce02b21b18a832f2ad6d75ab5e2",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4dd2805d0da0c3f356f2be2ae27b8ee2a042dee054088b64a11e87b76f2a732c",
+        "size": 37256
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs"
+    },
+    {
+      "guid": "22292a5f27a9a644ba9e6ad1bf863531",
+      "asset.meta": {
+        "sha256": "63511b0bf5a845bd979b3d57d0b18a199c9e5931678149e6622c4208b2bbebae",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "e3ef9d5bb9c5eace4f3f210bd6d7d07efb8bfb596971c875b3a096821ab02a80",
+        "size": 11783
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs"
+    },
+    {
+      "guid": "753a4f4ed73b17143923101226957756",
+      "asset.meta": {
+        "sha256": "28f63ac11c9c92d476299b356ea7b836ed8bfaf3b8f6a8965094ad95331c8681",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "95734f6a4f9d7dbf1563487785a757ae99a9e5b1969ebd9f6381de18c3124975",
+        "size": 542
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML"
+    },
+    {
+      "guid": "a6402d4311c862b4eb1325590d6466af",
+      "asset.meta": {
+        "sha256": "c91aaef52a317bd06421a71aabaf215568ebe8d226fe3982d74a7dc49dae1590",
+        "size": 621
+      },
+      "asset": {
+        "sha256": "ee2e144891da3af32987a4617075b2377e540cdf88ad5520132c7207e2f8c3fe",
+        "size": 33280
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll"
+    },
+    {
+      "guid": "ee3a420017f129443896310d9fab256b",
+      "asset.meta": {
+        "sha256": "f928d36ca3596000c5dca60caf3fe2bfcc8c458340058d6f41358cf2ae0d53f9",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "02908181ae70761a43e6bce0bf848da9f212b8e4e70cdf5bb1878d0814e08b06",
+        "size": 5124
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.mdb"
+    },
+    {
+      "guid": "aa8f07903bf128e44a7d0b91a63dedab",
+      "asset.meta": {
+        "sha256": "3678f40f540548978c6e99b8475ffae70233438867080a064c39d11256003c95",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "a4e07752a02c23ea87e3ec583510c2821325d927cfa619117a294328d2976416",
+        "size": 2439
+      },
+      "path": "Assets/Addons/Demigiant/DOTweenPro/readme.txt"
+    },
+    {
+      "guid": "6aa66b84d2e8f41a4b5c60ee821b6fad",
+      "asset.meta": {
+        "sha256": "87a7ea94de61e670fe75a2f6815b411f062130a5198a6c342a888035d62b0c0f",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib"
+    },
+    {
+      "guid": "4c01964a9b54d4a739f249941a05e602",
+      "asset.meta": {
+        "sha256": "4fbfff5caa51297bb4fe33f88eecab01ea050ad5e00b8888b4c070cb430822e1",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core"
+    },
+    {
+      "guid": "54be29b67d0d29a478da2c6e5c62f091",
+      "asset.meta": {
+        "sha256": "edb22928d3633f271e86877684478f2f55ca886e6ff3f62c8f8210e88d1d0d35",
+        "size": 621
+      },
+      "asset": {
+        "sha256": "c88a33268e64bf4d8a939bbf726e622fdf865db7abb3bc4d0bb0e1c1b42ce1bd",
+        "size": 11264
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/DemiLib.dll"
+    },
+    {
+      "guid": "995cf2d9b4a41f840b3a41712e9b3bc0",
+      "asset.meta": {
+        "sha256": "4f0d0e8d47b71335e4b25c85c86dc07f93e7c65040f68dcb2f578dd31075d371",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "4401792d47ab105fcf2f4a7fd93a3690ecdc579b034463b6435bfedf13e6f9a9",
+        "size": 3089
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/DemiLib.dll.mdb"
+    },
+    {
+      "guid": "9bf2564c9817bb34988453ae948954d2",
+      "asset.meta": {
+        "sha256": "5ac070b936a5bc5ed2bc899ca4945bf3a65a36af149b0f9bc97e1ce799a3f116",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "618cf9f8eb34c01ce1843250ff37b80b74205ef027a7e85c476e41e02d77176b",
+        "size": 7649
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/DemiLib.xml"
+    },
+    {
+      "guid": "77ef89ebfa634425184714fb682df470",
+      "asset.meta": {
+        "sha256": "195631e31cb5a491901928e3a2b2f827071bc8008e953758331500bc4074ea73",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor"
+    },
+    {
+      "guid": "202f9ddaf2c1a8a429504f7f3cd7b84f",
+      "asset.meta": {
+        "sha256": "1e93f91c7fb19295057ed6ebc61ece31cdc06ad7c238fe413bfbc4bd637e6044",
+        "size": 621
+      },
+      "asset": {
+        "sha256": "b177a154729c12dd665b6cedfcd078c5f18add0e9f98a5719fec4b39656b224d",
+        "size": 138240
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/DemiEditor.dll"
+    },
+    {
+      "guid": "2c20a7b4db3cd0a4a99bcf6218f92860",
+      "asset.meta": {
+        "sha256": "6dd13ed0724bc10d883a14ae4714701c6f1d85b23303148a47650cd07b3e438f",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "3f9de340f465b0cea7643c0c4eed92a2b1ce03c0be736909c75f5d357b7ddfaa",
+        "size": 45092
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.mdb"
+    },
+    {
+      "guid": "d4a42b2e4e6f64d4ba01d35c5a3dafed",
+      "asset.meta": {
+        "sha256": "fce6193cdf918b952f894cf9f8b10513fd56fd10a1214c50b31de1f929aeb19f",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "cc038915ddf4086eff5b10ac34c6fd9012aa07dfa4bc516e141dc30b1bb8bee1",
+        "size": 93572
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/DemiEditor.xml"
+    },
+    {
+      "guid": "de806dce70b4a4225a1ac7f0e08c93b4",
+      "asset.meta": {
+        "sha256": "4528e3d424eccf60f6347a3bfd7bb3246b139ccbef989ea578c9154c52da6758",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs"
+    },
+    {
+      "guid": "7ba4b2810f605d945af87e032ca2957b",
+      "asset.meta": {
+        "sha256": "39a74b697271539303cd6656569c2be1714e3783c085cb67c3bb1bc0125846ad",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "82229aea959142c60c1d153a2e16e6862f26071a702776b192a0e5fe416768a7",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png"
+    },
+    {
+      "guid": "8c9cfa1dbe00a1d41ae9d14f5ac543ec",
+      "asset.meta": {
+        "sha256": "b13ac10bf0dab312f4dd27671787fc3eb04abf8559a99cb172e5f1aa2b3c3a8d",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "9c7e5b138b583bbca93b3c2ff13d90058fea7a1c4b1fec4d7363d441607d9bbd",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png"
+    },
+    {
+      "guid": "53d696c01f6ca524383f11fcc34dd13c",
+      "asset.meta": {
+        "sha256": "b3e8ea84e2354a27c10a0ae4fdb20439231bd4f92cb3e31337809924bdab40fc",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "47e1a096e87d83087d5098cf97fe5cc4129c12a849c2d3bf6f4eee458afd4d31",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png"
+    },
+    {
+      "guid": "f7ff421f40d548444864a01cd7f47112",
+      "asset.meta": {
+        "sha256": "d0007e5ecdc0a679e4fe7494e14fc26b6b2431e294b488b28a422ef24631c8cc",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "12cfeefd4f8c3d2304b60ee4aeddcff525cf3fc91ac6eecace7f8cc6e6db21f9",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png"
+    },
+    {
+      "guid": "aa1d42dc6ff3e894da2208c6929d2165",
+      "asset.meta": {
+        "sha256": "9162b2662062e1dc5a68bc06226a38e42b0b07ff69e3f146a11bfa7a02999a74",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "4b698d47e744661f50cb5be49eb91c1ab31fc7bec18575d19399b8b2805a5f40",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png"
+    },
+    {
+      "guid": "595b166389c8db546a199430284ebc9b",
+      "asset.meta": {
+        "sha256": "e285ca180a2ac6d1fa73d9629643836df7d2a2fd127c15cde803ec5f1ec379b9",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "63319df4a841e277d31df46bc441f2917192b58ef8048df8f9d730e069362e85",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png"
+    },
+    {
+      "guid": "05cfe010378336646ad6c721f66543d1",
+      "asset.meta": {
+        "sha256": "184de0d9e971313ff04f04ed3fa47fb71853adce02c944c33355c507a7cc742d",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "fb164ebf05c0540aa904258f24d9b1b9a573b920c4353701c87b4f592c9810ea",
+        "size": 106
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png"
+    },
+    {
+      "guid": "af28470bd0e2e9543a6dfa9a1a4b348d",
+      "asset.meta": {
+        "sha256": "01456d51b42aa3dd980af78ee4ecc5576fb9d2d8434b4b080d588ea95f2bc7dc",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "6a77febec4fb32ef351a662dfc4f7636615096d6d06de2fc95cde7f49c2b0d8c",
+        "size": 455
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/circle.png"
+    },
+    {
+      "guid": "789ef07ba2573f6448fa8b5dc5224c44",
+      "asset.meta": {
+        "sha256": "d260a2a60cbdab2e20fbf1156a38d2e695612f6e02ca509ea0423722d366a4cc",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "33184769c2b2c809f3f30261340c5fbe0fcf10ae00b1c8a3e6c2f1d65237e1ce",
+        "size": 106
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png"
+    },
+    {
+      "guid": "93b1287b4a087f84c95c72f49ec94e83",
+      "asset.meta": {
+        "sha256": "0654f3ce159fb5c67436431b9a3d7a6b472e85818e4e58e72eb3a3e8ed2e74e3",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "e5e3c4e985c002efe83d571e616edbe7260996db9a0db7c364c87f77860e1191",
+        "size": 222
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png"
+    },
+    {
+      "guid": "d542f997a51000946873268e3546b6ba",
+      "asset.meta": {
+        "sha256": "e6e593aea3ae9ecf1b9c12190bebd0e0e564f337c7d84c87a0c60e422a94c94a",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "f8d76402d413e084ef25283f42cdf3ab6c2accedc09c5abc158b63c0aee4fdd5",
+        "size": 216
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png"
+    },
+    {
+      "guid": "39cacc93c6c183f44992bf2421362f78",
+      "asset.meta": {
+        "sha256": "e243f5f9c722e465311d9c4cef36fea02406f36d3d99a427409ec65219de28db",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "1d65946c80e9dd37f8fbf36b1670774b3db905f327657c78d10ff0851186933b",
+        "size": 540
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png"
+    },
+    {
+      "guid": "8b6b31f71cd528243b053cfc488e73f5",
+      "asset.meta": {
+        "sha256": "134e16d2a3231a81c140a76362e85084b0bbafa5654eebac1636aab9e98e6ae6",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "e74917f1bff03d17a5128543c7f5febc21798829328b6bf6ad2f7da9c4329a3e",
+        "size": 131
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png"
+    },
+    {
+      "guid": "2cdc0bc527f7a434496c6be9236e636f",
+      "asset.meta": {
+        "sha256": "789f92a8d55eaa865945bfaa7bad97e0220ddabf6e5b7a82f02798a28e92f778",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "0f30081c2f7fd3124e198753aa28a96ab6b0bb7d8d443e3ba21a8b7caf817243",
+        "size": 158
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png"
+    },
+    {
+      "guid": "abf8a615f379ef44b9ac872a13b7712f",
+      "asset.meta": {
+        "sha256": "e4771bbbfb81e16e7abfcf5c808c9110d6658a66a6b83bc7fdb6301ab3f09a39",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "7cc479898122a263d6c157e2e26d1312999cf8f9743910654508053520d180f4",
+        "size": 152
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png"
+    },
+    {
+      "guid": "eeac3acbf7d1cd54fabfb1c4a12f9fc8",
+      "asset.meta": {
+        "sha256": "88c2a5a3c938c8d137cad4c51dc6ea0a10c9d59c95ef8c75c50f78a72cd8068d",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "40da24c99ce457302c4b035ceaa03ae9a4cf1317e083dcec18ba16e99414acf2",
+        "size": 150
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png"
+    },
+    {
+      "guid": "8f0cb66458819764b94b93250bae94b6",
+      "asset.meta": {
+        "sha256": "382834415163532caf4fb1fd690392abc6d1725fd683eb4c4e9807c9c8a78b28",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "4571e83a8d8f75826ac95463e6e9a2869d4f8a60816a35e7af4253ce4ed4f75d",
+        "size": 152
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png"
+    },
+    {
+      "guid": "2a8208d8e80f90944b8ff2978292b03b",
+      "asset.meta": {
+        "sha256": "77a891a1cf93507252318f907c8528d5cf5638d91beece771220c88e7e003c72",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "dbb14570e88f95f42d492013d0b269db1465eb1fbd717695b980abff20739bcb",
+        "size": 158
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png"
+    },
+    {
+      "guid": "6f504a3fa8848264bb4fb9bb7d582dd5",
+      "asset.meta": {
+        "sha256": "b858d47ceeb45830b8c780ae04aa7ffc43114bed22ab0b328bf2e0ce236d6346",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "386b0b2af5bb56fc95032ffe225b5bc7d71cecc0761e9879f42518d6e0101c95",
+        "size": 153
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png"
+    },
+    {
+      "guid": "b9e0e5a8836018e4c810fbceba55a1b4",
+      "asset.meta": {
+        "sha256": "99885417225fa989374dcc78019704ee07b346fc73425574b8682c0ab43f7178",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "0e6d40aee6701e3ff2a1b44dbb9107f62291ccc38c0551411733ce8ae0b12a22",
+        "size": 147
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png"
+    },
+    {
+      "guid": "d18ceface0c20014b8db4bba05a41b83",
+      "asset.meta": {
+        "sha256": "c346ffadcb9f5a7fab793bdaf43ab36a8d06c30bf63b49a87b3ac0cc19c93765",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "3c29fc206cf0b75d1070bc3a52b40b3ec9b0be5dc1ea0f859e3481372de37439",
+        "size": 136
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png"
+    },
+    {
+      "guid": "727ba41e4cc95fe4a98b07301e3ebfc8",
+      "asset.meta": {
+        "sha256": "fe95ba0d8061c0cb2bf2a7454f1f77d6f0d95a9c3c0d4cd9f2062ceb9ffe44fa",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "ca23cd973bef79d646c9bdc8340ea4f8e5969292ceb40f8e41814c01ae3f4f1c",
+        "size": 145
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png"
+    },
+    {
+      "guid": "b4785ec6d937dab4fa59da70b69afc9d",
+      "asset.meta": {
+        "sha256": "f1b3827f9c08a536d34ca92e94e2cb7dd3c400e07adb3e41f4a9b2aebc343b6f",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c1aedd1a6b7ec218f706a6b2dc380953313a7ceba174deeeede6e0acab404c41",
+        "size": 129
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png"
+    },
+    {
+      "guid": "0f79253104349f44cb73978f6c8e93de",
+      "asset.meta": {
+        "sha256": "40e6d70f3d248e77256a4ce4aa4694eefbb82a10261a5d69f791a89ba4e3a96a",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "dd55e48dbe79f0ff7fa6198018674547c54736c9f221d63af2a350a488250b0a",
+        "size": 164
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png"
+    },
+    {
+      "guid": "6efe1c8569d975640ba0c9f2ac4a9d61",
+      "asset.meta": {
+        "sha256": "2cd44d3349419feb6e12af75a1c3bf85952df374d079a2eba4262f8ab5643fb4",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "090e6517b1bee00364eee4b726f52540b5674befea11be853ca0a0dcf70b38bf",
+        "size": 153
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png"
+    },
+    {
+      "guid": "e01c0b07c87513844ab88bb432bcf85a",
+      "asset.meta": {
+        "sha256": "85bd77cd4e025318b68255fe8c2d2847ace5795ef8c0d91067b09b59bedd7b88",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "187c6e04d29354ad3662de612e6408b08e8c1f7e848fa33505bbc1de1a8494bc",
+        "size": 155
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png"
+    },
+    {
+      "guid": "d1d45eadab0e41c4a82cdffb6396b1d7",
+      "asset.meta": {
+        "sha256": "e8ba49363b9acdf354ecfa9a007336ec64d8f7c244f4ce19f91b55c46ccd57e2",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c646d2ec2a134fd1e0624cc82cb202640ba6ad5ca31b0454295137555231c84f",
+        "size": 135
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png"
+    },
+    {
+      "guid": "37639be6148186645bca3fce45d5aa22",
+      "asset.meta": {
+        "sha256": "e5c80f96985a6b36294fe7b3b4c4dcd0d1fb201fb045fcbd715dfe978f258937",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "f5e9a7e7aaec300b185ddaf1747ec57ba5700b736bb3b13a974e5d8ed4d71c1c",
+        "size": 206
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png"
+    },
+    {
+      "guid": "358cddede8023574191e0aae610a4645",
+      "asset.meta": {
+        "sha256": "74de38bb1299e31edbaafa50801373164eb69ecb50559a7697b3cb9df726b3ec",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "e1e1598ae1f18608178e755cd99267d93ce971ef45afa2d8ab5f2d29f60845f8",
+        "size": 347
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png"
+    },
+    {
+      "guid": "7c83a08052c9e2f49b47897a637994de",
+      "asset.meta": {
+        "sha256": "e25107277792cf0e293484d5bc81c53690cd8965600704cf706d78ea21070805",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "f7f696c43215f9583d135586be244beed14dccdb340642eac511dbaed418d6ee",
+        "size": 197
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png"
+    },
+    {
+      "guid": "6862027f2176eae40a3143c562466a1b",
+      "asset.meta": {
+        "sha256": "e41cd72084bd36a5883293d87ae706aa72e7024f5f6eb317842fedd44a1ae70c",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "e9d68bb9327ee0d308e0db970112c2c532f3561263147ceaf549c42e3f624809",
+        "size": 376
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png"
+    },
+    {
+      "guid": "622fdb780ae13e840938631c5ed708f2",
+      "asset.meta": {
+        "sha256": "8bc332e95aa2f6baa714b97e0c1a23355e58071359a9f77561e27ce821593be6",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "3904c903887cd7ebda0f45d865ed54ca66673a9db643f080305bb252898c85b4",
+        "size": 176
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png"
+    },
+    {
+      "guid": "d98b8847646169c4fb5af28dd84c4179",
+      "asset.meta": {
+        "sha256": "12233da142a1f0640669a32a3f87ac9ce9d7377ffc96aaeaad97490bf1eeeee1",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "8f1b6a2f144728a1ccb53b4f6d20e5a759a9b9f06fc924f19cb6e2edee8197c9",
+        "size": 426
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png"
+    },
+    {
+      "guid": "6b1f9e1e1c2cf004b8e3bdd3033a8e75",
+      "asset.meta": {
+        "sha256": "b285c22c5b59b4aea9103c2d5267cb4c7aa9da32db4c9957d1c502e75ded4f00",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "2ab0ae782bc82e1050e79aa7d9294878fcd26815bdd4a02238abdd004e4db656",
+        "size": 145
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png"
+    },
+    {
+      "guid": "229d0d11465a822449f78a50dbf7104d",
+      "asset.meta": {
+        "sha256": "b0e725f0be65cebcf02a3d98408e20e70fc8621dd6ff6138a3a6fc071c06d147",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "3e95e2f25c45fe7934d4a5a4ad3d4e5e78cf57deff916de9416d73db1fd45b18",
+        "size": 605
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png"
+    },
+    {
+      "guid": "1ccb12a4b0bf8f447b2cc114851732f5",
+      "asset.meta": {
+        "sha256": "3af636de9aeae8e48e0d4fa61fb7280959bd0c718098f09284b26a62c37b76e9",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "1a1e9cb39aad5f781309a8e836d0c9e4ae018c547cf25a6848fb46965d995a18",
+        "size": 174
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png"
+    },
+    {
+      "guid": "32eaa0efb2b38774ea9705b40fdcc00a",
+      "asset.meta": {
+        "sha256": "47058ac2dde1eafb0f4b7416edb5af06c38d21fd7d3ad4b96ad3c5695849dad2",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "b9b277674cf28c445410dd9ac12872238852c07c9829de80bab81fd4b6a4fc4b",
+        "size": 197
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png"
+    },
+    {
+      "guid": "a248c8288afb9184f953d9aa07a696b0",
+      "asset.meta": {
+        "sha256": "1865744ec108f8c5c47d179994ea6484869816f6cfd57eb53f46aa4ef94ab43f",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "48e2671f0fc0f8afd785c3ae652f8801b72586cc958577bf2ebb7f7f5a79c52b",
+        "size": 475
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png"
+    },
+    {
+      "guid": "d173388c1d9c32a418b5b777dd89d71a",
+      "asset.meta": {
+        "sha256": "5b618156ee97c1e637e6ecb9a91693ca865c21a1c06004f9813a9b185b5cdbe5",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "f11a1b9ece98c4d995fe8b6ff540be408db172f522054c7619d92e997e4654f4",
+        "size": 210
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png"
+    },
+    {
+      "guid": "669c487f3c9c5fe4abb6459f9c2628f0",
+      "asset.meta": {
+        "sha256": "9ec29f5cd53340ae36fa059aaa374bb06ae5bbc742073e378feb4b9d9d426dd1",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "cd7b4efac9b29943646fbd15ab4b514d61dd8acd7fff78af56e595221b10f3cc",
+        "size": 307
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png"
+    },
+    {
+      "guid": "4aa34055b1d36ef479af3d7b5701b28a",
+      "asset.meta": {
+        "sha256": "098d3a79480825a92df75cf8fcbcc8838db624fe910fcee9c1fb6912c599d112",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "ce1907e8d81146b03b4410a5e0fce17017565f2142d86d6d7a96b83ff26c3388",
+        "size": 168
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png"
+    },
+    {
+      "guid": "2a563a43c33f0f3428d02b3a43886fc2",
+      "asset.meta": {
+        "sha256": "02bc3e3883531835eb94f43da49708c2a0c81521b328142a73a04f1a94fef157",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "8f26c81c560b65c04d3f77ac2900d89cd4f81d5a9be975bb6d10446c0520cbcb",
+        "size": 256
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png"
+    },
+    {
+      "guid": "45e128e1cf00555479ee7934ab11cadf",
+      "asset.meta": {
+        "sha256": "44f96bd56f37595c9519f9b4571d289ec9ef0edd49e643417e876edfbaa44078",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "797276ab04615ad038a4198052d5458559a88f0f653c7aa6d6ecd1ed8213d8d1",
+        "size": 386
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png"
+    },
+    {
+      "guid": "01976ad42d31f494e8040d3e32e283dc",
+      "asset.meta": {
+        "sha256": "a2073843d72740a59f62c25a3102fc1ce002a1afa14c63d6571660453fd47dca",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "ce36531c10c892c4faebfae65ea5e3f5e4fb90d0f562fd646b2943ced02763ec",
+        "size": 227
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png"
+    },
+    {
+      "guid": "6dfd924c0ba23844fb5d04ad1560de22",
+      "asset.meta": {
+        "sha256": "d16d37ab5e91c2e4bf5178b8604f4a912892de0ca0f079f068f5fd00ea1e45ba",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c85c2061099cdd9738f306ee70d7064f7c35e627b0b2fdbb966c7b810bd1eb29",
+        "size": 332
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png"
+    },
+    {
+      "guid": "645aafe2260b2884a9df05b4bc01b1ec",
+      "asset.meta": {
+        "sha256": "7380772ca111d4b962a2813ae4bf2bbee5e23aee5381ee8178ebc8bfe9e99e1b",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "9e4a0e6c557d9d09f6962e5806bd3efb77f46abdef45dd9f4aab38c669ae8926",
+        "size": 203
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png"
+    },
+    {
+      "guid": "18f3a26aa87fccc4cb5e211d4c6de662",
+      "asset.meta": {
+        "sha256": "757a2501ed61e082041dd53268c5e59c209c299193cf2a66ce9ac1724496828b",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "61dc10b4a0e6e3e3fa78477c0920bf96a73a6b6e997a8a365e3279fb33888b59",
+        "size": 323
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png"
+    },
+    {
+      "guid": "cb46e1d925af22d43a6f8bf0e1d459e6",
+      "asset.meta": {
+        "sha256": "3f17919045064cc329ba7293aa26d2418f861306272aa714ae6faad8dd4e8b7c",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "a6781c923b9806b4b5877372970004e7d88095b31fa60dd860829ce5ebbb3573",
+        "size": 223
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png"
+    },
+    {
+      "guid": "c0c40ceac3c6df146a0fcd4e6b226540",
+      "asset.meta": {
+        "sha256": "5a9385e33b5ace33d5a01c25286cd0d21b1ab535bf95e05661eb1056efa327e1",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "682e5714ac5234b32a0baa1429fede676567cba893b635e96e68fb82050e83de",
+        "size": 259
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png"
+    },
+    {
+      "guid": "3e730492361eb6e45be5c5fdafac23be",
+      "asset.meta": {
+        "sha256": "7bd3287559e210d2136e6b339b09e02ed35308f428acd03ce5ecbf4eac11d593",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "fda30c19f005f633f425a81d412701f7c5b226bc9b9fe1f6fbcbe1eaa95a23d6",
+        "size": 104
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png"
+    },
+    {
+      "guid": "4fde44a06701748b7a249d94c8604268",
+      "asset.meta": {
+        "sha256": "10815a2edebf2cc8c87ce4f09350d39418b789e669d7a40146032dcf657a125c",
+        "size": 172
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project"
+    },
+    {
+      "guid": "e2279677842a8064fbae0bc889fb85ab",
+      "asset.meta": {
+        "sha256": "fde67a3f702cb3e05f4b47b1131264daeac3696302cf7041e9891613a4e06756",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "9603e21524c1d5e8e2591c038bf715845221fa819dc83ed2e8a3e38c65426846",
+        "size": 218
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png"
+    },
+    {
+      "guid": "e1af8927fb6f5634896d59aed409a589",
+      "asset.meta": {
+        "sha256": "731488a7b674253a363f1ae0d774e762a62cdc1870e5e9c9a06249b95afeae40",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "f411e19f792779568f2605dc57395c261240d434d5d58f6e9211f918f409c5aa",
+        "size": 338
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png"
+    },
+    {
+      "guid": "58676a985ae875646b7be748cf4499fd",
+      "asset.meta": {
+        "sha256": "c05d6880235efdfc2a0dbb5c21adb554e82f5e310113dda58293f8d2bbbd42fe",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "0e0c6ba7f825d8f049865fb601599de308f7ff5c4488af87a4703c5776e427a9",
+        "size": 522
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png"
+    },
+    {
+      "guid": "fb605a2688b31194887f2e7a6769235b",
+      "asset.meta": {
+        "sha256": "a91bc679d9f861544eff136e2573844a8fba858a2710dadc0ef692d578b89d83",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "d5f6e1496e210a709776ee6f78be08d10e65b5240f84ea31faf2dae3fe9e20a4",
+        "size": 406
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png"
+    },
+    {
+      "guid": "3b67e53c8c2f8114b966c0e70d452419",
+      "asset.meta": {
+        "sha256": "d636e35616302d2bc393b5e95d08e0f4ecbeb791a9b78721b70a7caf0811173a",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "74cb99d30e94bb3998c02fe298778c5ce2b30989c2fb5fc26e83d30b439a0dba",
+        "size": 210
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png"
+    },
+    {
+      "guid": "f36ab42cc6fcdfd4187033279d3d14a9",
+      "asset.meta": {
+        "sha256": "c240ac8c7e84da2771ad1b3e0c55e7a483daafbd39f28ffe62db69b69f84c257",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "d709a82ce35d2d357cc8ce1ce154af0cd606898d724e266ee0d8899b16f71e14",
+        "size": 388
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png"
+    },
+    {
+      "guid": "4f2c4b43188596b47866d41e1dc13c8a",
+      "asset.meta": {
+        "sha256": "366ca2151949620c5d98666807d8536e45e08bbdedc18040f1489c055349a4b8",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "6e75690c113d2c16935a99bf1811aebc62c0f610c2e666aef337c9317d89cbf3",
+        "size": 150
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png"
+    },
+    {
+      "guid": "cf986943c88c2254780c17b2b5e3bc2f",
+      "asset.meta": {
+        "sha256": "fc02e739fb3d541047bbfd534afe834829b46d52d07b160a169b1aaf650b0c0b",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "816677ed92e204fc3c3a4cfc82f1f037b3323f217c910a509064e7e0853ea1b5",
+        "size": 465
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png"
+    },
+    {
+      "guid": "20794834c0a413f408b80110d0fc73b8",
+      "asset.meta": {
+        "sha256": "90c05f82ea98100fc6a6270173a0276a0e3ec1fd8d7ad278a67ea8b6a1953b08",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "474b71306f9ce309bf1cbe4ad23a1facb8ff88c9bc9ab6b384e62754c6cb448e",
+        "size": 334
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png"
+    },
+    {
+      "guid": "e02713e10d7aced44a7a651231f0adef",
+      "asset.meta": {
+        "sha256": "895b48ec62e2b04c9f03f57402f1367eb259122a9940541b59821bdcca96a5fc",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "4d7453ade86d067d28aa2cbf5680b7cc08657cc11067eaa5e62a53240a95acff",
+        "size": 355
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png"
+    },
+    {
+      "guid": "09a0cde07b4d75f49b4c817932791b81",
+      "asset.meta": {
+        "sha256": "592df27bdb176c919e0772b8a7abf276765b9f2d3591bc33ed429aa80cc7f77d",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "885290315143f747c50841c4eacb2b656efc43abc802826fb91c91b54c1cda70",
+        "size": 380
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png"
+    },
+    {
+      "guid": "d8306b1e159c72c4ebc9a4fc31debe60",
+      "asset.meta": {
+        "sha256": "6bf15745983b4a9893c7e6dde404c3d4fbbed9a2c0cd5f10b83274a174121494",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "78fbfacf889b5d0a9846dc06b44ac55af34cee5e9811b50182c7f5ca878a22d6",
+        "size": 217
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png"
+    },
+    {
+      "guid": "ed3789262161efa4fa33c85ca534590e",
+      "asset.meta": {
+        "sha256": "89de064c7ff33ca0a05fc47ccf9b9a9f6dd160e295c050c94dd9935de7f6dc04",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "9bd8e2a393424a4ad0c13de8e3ed8473562c1b823ff23adc1900f36e2f91e7e6",
+        "size": 343
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png"
+    },
+    {
+      "guid": "96cbdf605b8ddb34da384703f2d0b849",
+      "asset.meta": {
+        "sha256": "f9a3fe9c7ede7a00e4b506377a493e9055d2fad779fe3c865ee5fa50292b0a31",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "3787b6b3d8661105e59b7ad7f3bcd77d7fc5df1ffbe386bdcd4d9c5f2baf256b",
+        "size": 208
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png"
+    },
+    {
+      "guid": "f252c69cd0163714eba038403f61b09e",
+      "asset.meta": {
+        "sha256": "80a87828cdccf365dd2bd42aa3b82c365095c3f2035a63fcc459ef7eb8ecd4f6",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "ae4eb5b7b5d8ecd04e8884950e80ad1b52dd00b23df8c6da9ea6364efe4352a6",
+        "size": 379
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png"
+    },
+    {
+      "guid": "d563d6ce25cd2ca48b185ec47a74a3fb",
+      "asset.meta": {
+        "sha256": "9935920ef7f0a426feab263caee6435e1910a190912c35bb956a879458bfe1aa",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "a0923c111663d0b4b4f4eadee045dc37c67871b24555079b9329ef16ad99b3ea",
+        "size": 368
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png"
+    },
+    {
+      "guid": "21820ec6fc9dd0b4fbf42a3b93fdad4e",
+      "asset.meta": {
+        "sha256": "d0c64f68af866de115c26e1ce35347b114e4c2e57411befd748ceec494ca48f4",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "944651031ce652dfe52cbf69bcb604ae8279f35867a7ce179023337d58aacdd0",
+        "size": 289
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png"
+    },
+    {
+      "guid": "4a091a7609ef2d34bbdfaa1a886deb18",
+      "asset.meta": {
+        "sha256": "de8a0b1462f03eee7e63a8a6d4e53b0a9220aac2f9a283733c10db452817957f",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c87a9c03f1875e5de6f004aa2f1208adc49e1d9d1403a17bf466205160844d9d",
+        "size": 309
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png"
+    },
+    {
+      "guid": "3e6b96a975eba1c43b2bad66fb7f8b4a",
+      "asset.meta": {
+        "sha256": "aea678471edce2c62413b850818716a45bb90dfeadb0be3b771c74f0605c5279",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "41d57d57afe53c69fc87e41cb3b7ee01a9b4093b2892b1dcc411f48d80f74e15",
+        "size": 278
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png"
+    },
+    {
+      "guid": "dc0ca9b32ae9fd049911671cf1a480bf",
+      "asset.meta": {
+        "sha256": "b2d489fa933512718fef1d98e107f84c07cd0787961614b909e1b1cb2a67c45f",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "71a637ea0d09c139867c44b4febb11c3fe55f1f28534991d40e7ef11db238b6a",
+        "size": 106
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png"
+    },
+    {
+      "guid": "fbdd7ecf39c13bf48a5bd02a1159c90b",
+      "asset.meta": {
+        "sha256": "dd2f7653b206f85a82efe7e2a05b26ae09bb95d220b3cb09634cabc3d0937cd5",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c65b64bd6476059b111cf5eaa28878c66389c3d4a0968b0a49639829d87d0ce9",
+        "size": 106
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png"
+    },
+    {
+      "guid": "afd7d0ddb1d6c744b9cb87ae49b2ce62",
+      "asset.meta": {
+        "sha256": "55b82eacb10ba04eb0ecb95fbd0cf0f9968c5c3344a559920b46295c1e7578af",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "8d1f237e81c8d89a27b2ec984fba3f7593a10d1b5072761994d4b54a533336b7",
+        "size": 122
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png"
+    },
+    {
+      "guid": "dfd33662d9f6f3849bd92f6e159ca226",
+      "asset.meta": {
+        "sha256": "1e07ee7a2a99b4672493f71a84e49e653f2d9d41cde82f8577c6f8e5ebc38c0a",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "e0421b14f621812c6178f1a1ebcb926b80e143d267e009e80ab246b4337c9000",
+        "size": 116
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png"
+    },
+    {
+      "guid": "4896b5aa9d63dec498136c21ffce735b",
+      "asset.meta": {
+        "sha256": "07fd286f3e9c44b2db6db4f16549c8f967bc14b32cca51a540c9c55eea186302",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "a99bb8221c02be789b71745705be83b36ddf7166b536fffa9bcaad3213624f83",
+        "size": 196
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png"
+    },
+    {
+      "guid": "ff88be84254fb1f4b9a81a27ae0b2e81",
+      "asset.meta": {
+        "sha256": "19fe98e583ad11dd339e7f78b3c81289afe890a0c3c61a5a46ebae87b080d98b",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "d053aadaebd40a93570cf31be9551b1cc9785009925531ab564a6702a36dda9a",
+        "size": 281
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png"
+    },
+    {
+      "guid": "e3ae01f12865ad54ba365963bda55759",
+      "asset.meta": {
+        "sha256": "b94156b9e8a1fc201195b183b74eaac8d979967b9da0f9fe0f9ef410a754d24d",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "468b7a609b7d85b76c92fe2b2ebd86ef383eef166b57b5b5410d5ba52dccd0a5",
+        "size": 336
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png"
+    },
+    {
+      "guid": "a1606d34a052ed3449da93edd229743e",
+      "asset.meta": {
+        "sha256": "2e97c025628898237a090e46e0672971f4a71cc325b5b927ddcc7a10b56443f9",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c03d325cd46056af4c46209c6259629811355865798c4fa4dd0090d0e5bf9b34",
+        "size": 197
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png"
+    },
+    {
+      "guid": "4578222ee7a511446b0c340551bf8740",
+      "asset.meta": {
+        "sha256": "2cc57963e8cd9f0f49fd2351c84e2d59286a07c4480f7b467bbe3b8c64e833ff",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "54bebd71cd13829f8975465bf993fa8d375c1ca1d2d4e97ba2248750b6d14f70",
+        "size": 180
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png"
+    },
+    {
+      "guid": "7d504312fad10f040b95bd8836dc6fc6",
+      "asset.meta": {
+        "sha256": "8682fc1e5bbcb67ccc84ad85512993b3b8e84d767ab9f546dfdc0c1b3b9ebda2",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "13433aa5f15552699d5282e7993a1df16152f38c825a682cb0c2199763928148",
+        "size": 217
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png"
+    },
+    {
+      "guid": "fc3b86627d5fe1c4d865b80627e2e37c",
+      "asset.meta": {
+        "sha256": "d0d567b0ef73cc115151175b7a14d18fcf0292e0f95d5dfdfbc411f41b4efb3c",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "28b7b1bb09d83e8a312a6fa9ec990a6d4bb4c4f8c807f8af3a78f4d541ed157b",
+        "size": 233
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png"
+    },
+    {
+      "guid": "25da15ac84743244ab4c860cf8798ec8",
+      "asset.meta": {
+        "sha256": "a84a8caec3ede64e7817b1160992c7bf1cd4835be6fe5a03c5b47a8b51ca6f38",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "da33e1e50abaccfb39ea204f52578146ed85d6148f7210618c2b5b07a463ba8a",
+        "size": 216
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png"
+    },
+    {
+      "guid": "f536c51d3da3f2e4ca93ac8773ec2ad8",
+      "asset.meta": {
+        "sha256": "55e578f9b28f6a9dc0ea28f3f129fa5596141c4fb92825bf8713ccaacb843f75",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "e662ff249d4396f0968f95d08a9bcc548adfc309071978f2c0d6d31b74624f2e",
+        "size": 200
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png"
+    },
+    {
+      "guid": "8db54efcce998554c86b796b37a7cdfa",
+      "asset.meta": {
+        "sha256": "59a949ad7bd56856cd62bebab182a4a3b150df12cb33577ef7b966108ab72438",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "cd2e7f26848da11adfbbdd20b7912f072501ea3b1bbffd3bbc4163fb904353ef",
+        "size": 114
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png"
+    },
+    {
+      "guid": "aa8dc9238ab21e54ca88fa22698e4679",
+      "asset.meta": {
+        "sha256": "c6e1d8a91a294ecd463d26470c10a622a305371a3144c2b4c8f2e144d35c0aa5",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "cd2e7f26848da11adfbbdd20b7912f072501ea3b1bbffd3bbc4163fb904353ef",
+        "size": 114
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png"
+    },
+    {
+      "guid": "29b0e8156f6fb774faf129c83bc9ee33",
+      "asset.meta": {
+        "sha256": "9eef3e15df2d6520b452f3ff427ec29a6c1a27d9b5cb1dc5db328e712e9a420e",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "5b1c5ca4fb93c56ac94f5c9598791be3fe181241fdf3a384f51191b4404ea38a",
+        "size": 121
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png"
+    },
+    {
+      "guid": "c0a56b88a1b449045b3fe5f561aa12fa",
+      "asset.meta": {
+        "sha256": "33b1685478b7b3bcca179e2eace0573b4749dc57ce90878de7c94882a10433ea",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "32f252d4c9adf3f9f676faccaed4e167d19e315ce0ba0780b8edcac8d0913274",
+        "size": 122
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png"
+    },
+    {
+      "guid": "c456d5ac01d2aa843a63985497b04931",
+      "asset.meta": {
+        "sha256": "1187b013fb94a83d774551f4260ba8bc72ac49b15a12d9fed6718c30b6605ade",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "5b1c5ca4fb93c56ac94f5c9598791be3fe181241fdf3a384f51191b4404ea38a",
+        "size": 121
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png"
+    },
+    {
+      "guid": "7acc6bd588627b046bc1c9b3cd78a6c7",
+      "asset.meta": {
+        "sha256": "ea26711f98d6353a6f54706206a40dcf345a4279f5b7b227f4945fd7b3df812b",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "32f252d4c9adf3f9f676faccaed4e167d19e315ce0ba0780b8edcac8d0913274",
+        "size": 122
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png"
+    },
+    {
+      "guid": "dec3ea647707588408ec0d11ab130b73",
+      "asset.meta": {
+        "sha256": "f8b870e3bee6939d1690d97d14b7ce323b00570155221cbaeed3dd4d4193cea2",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "1ae4ffbaa8bfb4d940da2974603a65d63875d6fba801a41762a9d76d5085cf36",
+        "size": 133
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png"
+    },
+    {
+      "guid": "ca2f91cc405eb144dad970eb23db2f72",
+      "asset.meta": {
+        "sha256": "58b1eeae6129184ca238e3b752553514923ff1dc40298b50a7e444a0c10db184",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "cd50cccd64d3ebc2ed17f2e82a74a4cc33acfff39eb5d28910eed845d28dbac4",
+        "size": 131
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png"
+    },
+    {
+      "guid": "d1278357b25e10442b6ca6c24edc9781",
+      "asset.meta": {
+        "sha256": "9dfc36675e403867d462ec0cb0e97777c00d003a7752a136db258b48d5bf96fc",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "551dafb07efe9afcb3b83d870f83be528b68c5932cc322962f2fc3c6e3485c31",
+        "size": 236
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png"
+    },
+    {
+      "guid": "c99a391f381fe534c80a193fe9f307a0",
+      "asset.meta": {
+        "sha256": "589b84633d7465f78bc1686aa7c655af0b3123c1537edf51a6d2c9840a680ae2",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "522c51e075b989fb868f85fb91552b7dbb5a8992a2c5dcf1a7d332919c23b7ed",
+        "size": 285
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png"
+    },
+    {
+      "guid": "018a5623a46db1d49b1e6ff2482b07ab",
+      "asset.meta": {
+        "sha256": "235d76540c31b08c7500f34bf8c10adbeb01e5370affb174cad477280fc9a31d",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "f2ba4a628145576c525e18bfea77d894ea8501530cc642d691afeec8737ba213",
+        "size": 266
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png"
+    },
+    {
+      "guid": "ed7cb8f9a27664e48896c904189f0e2c",
+      "asset.meta": {
+        "sha256": "ba784e1893fbc4fd18de555367da4c5e7cef5b5aff16596288a5efa4ed55a505",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "8206d2ef3a85bc7435ff7cb72855d3cc158667a3f5484dc1c67fad9435786314",
+        "size": 148
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png"
+    },
+    {
+      "guid": "27df4ca974a8eaf40803907859421506",
+      "asset.meta": {
+        "sha256": "14ff7c2e6d3616e1d16e4c3af0d54a1ef18684e9b414e8f3e4f762e958ad95c3",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "8b84b741502e5d5d6e0a2d0a9ee990dd59be8b60ca39cf31d77c1b48c4b8f6f9",
+        "size": 219
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png"
+    },
+    {
+      "guid": "039dc89c76661c344b7776f8a47cc5a4",
+      "asset.meta": {
+        "sha256": "c91ffc4745f4ddd1513ea12666665fc470d3a9288d435b60fcef896725a6b6e0",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "8ffff2d2591976d926691bc37923e124d17c5958b9e8ad7f971a0b274fc7a762",
+        "size": 176
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png"
+    },
+    {
+      "guid": "dfe6e0ac3e5f24740a17e14b65e08406",
+      "asset.meta": {
+        "sha256": "3f2fba032542ba31229afc6e10b58c66f98dcc4f94eb6eaed878a6059574532b",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "ab25b1d3b0e34207733dcf2f99534e7e85480037a4ce6baec05242842c2f2163",
+        "size": 103
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png"
+    },
+    {
+      "guid": "93b68213089b05943a651574eb7e2fb5",
+      "asset.meta": {
+        "sha256": "4bdc1c886082dddef95ef2a01ced6de2504976d627daf5e83963c078f5a06651",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "05fb9a947e59fbe9565abfe12ed874ff9274bee2abb3c163d7d7aba2949f00b3",
+        "size": 107
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png"
+    },
+    {
+      "guid": "5510cdd48a6aaaa439c95ef5b2fe9e28",
+      "asset.meta": {
+        "sha256": "865278e9ac9a3d97720e022cbb00d01337b844ab0f8be6e0cd390669e4c9794e",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "184973062a12a76c247aad19321c112a2320c4616c271f80b2730f3ee00b5ab9",
+        "size": 109
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png"
+    },
+    {
+      "guid": "511f6b24c50557a40a09633b12b8b8ef",
+      "asset.meta": {
+        "sha256": "335cb7c750921dae333832d225586df2e61ecb5a4a9dddccd1cd75ab0d9313e0",
+        "size": 3499
+      },
+      "asset": {
+        "sha256": "09fb6b58d655ff2588df4bdd0c3d1bdb4f68d9a1da8f7352cbaeab3e98df2361",
+        "size": 107
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png"
+    },
+    {
+      "guid": "ef40b00a83f7bd34f84851386b3321f0",
+      "asset.meta": {
+        "sha256": "64612a305d9d9ccdcd6a4c3f09a5e5966965bb80efb528474ab94c71709dbf43",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "9d5de101381971149f32f0e40a337a7cb5cb76ade828db5bca5763fc37535a4d",
+        "size": 107
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png"
+    },
+    {
+      "guid": "11848dd30e516d846a02cd302634d317",
+      "asset.meta": {
+        "sha256": "20a785c52ee4e0cca202c0321840bf5f27b4bb102b9da4a24a47099355a71ba8",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "c0b525db5d9c3b5164181ef8a7ad7a072e3e955cfd54eb809056e1d13597b6cb",
+        "size": 110
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png"
+    },
+    {
+      "guid": "a40dc0d6372a9084fb45976308087290",
+      "asset.meta": {
+        "sha256": "25311455ae29a7d94ce7b701324245c342099ea2f2d77f3f40c398bdd177d0f9",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "b0271104bbc121ab397694cefcae3da8a87f88198a132d6877b4e702e9cd4c95",
+        "size": 131
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png"
+    },
+    {
+      "guid": "517a5bfe18f2ee04d9925db10be034e2",
+      "asset.meta": {
+        "sha256": "436ad3d92d7659484e7cf7ee61358b47818b1e996fa4a048b6fa1db74f535d25",
+        "size": 3503
+      },
+      "asset": {
+        "sha256": "04d5e7eeebf5f678550977f6d7e3e34e7bfa835d93370d87e53251175a8e5630",
+        "size": 106
+      },
+      "path": "Assets/Addons/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png"
+    },
+    {
+      "guid": "24123b2fcdc15c943bed44e0c6beeec7",
+      "asset.meta": {
+        "sha256": "bfcfbbbf785bbe1bab61c3e6166f77ab31640bf5cf5aad169bea3e61a3fa1a6e",
+        "size": 311
+      },
+      "asset": {
+        "sha256": "a4e07752a02c23ea87e3ec583510c2821325d927cfa619117a294328d2976416",
+        "size": 2439
+      },
+      "path": "Assets/Addons/Demigiant/readme_DOTweenPro.txt"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

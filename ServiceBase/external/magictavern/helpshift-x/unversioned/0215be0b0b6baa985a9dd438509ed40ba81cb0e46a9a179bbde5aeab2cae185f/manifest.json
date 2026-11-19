@@ -1,0 +1,711 @@
+{
+  "schema_version": 1,
+  "plugin_id": "helpshift-x",
+  "build_id": "0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f",
+  "artifact": "artifact.unitypackage",
+  "sha256": "0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f",
+  "size": 4133792,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "86a8297b182fc47dfb71ca38ad8ddde4",
+      "asset.meta": {
+        "sha256": "22edd05f211d98c60e23599267fa2af4c37dc65a775f4e7101bbae0f6cab5b34",
+        "size": 172
+      },
+      "path": "Assets/Helpshift"
+    },
+    {
+      "guid": "0c3eb11d3d4114d948e4a4f1502d7a9d",
+      "asset.meta": {
+        "sha256": "13c7eaae8eef013a37660f9ab325e593e89720a66d95a07016049b3774d7f20b",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Editor"
+    },
+    {
+      "guid": "e98a4470d6ea84122b68edf124008282",
+      "asset.meta": {
+        "sha256": "60db29690e6e24cf5cba51ae9f15696e28f5c93c95469eaa2454ca53e7e8fefd",
+        "size": 166
+      },
+      "asset": {
+        "sha256": "820f8d5a1c23c1efb5a7df7b62d30dd3445ae0d8ff5ea42414791b60e6b0565a",
+        "size": 371
+      },
+      "path": "Assets/Helpshift/Editor/HelpShift.Editor.asmdef"
+    },
+    {
+      "guid": "c567efa5e073243618dcdbcac81089a8",
+      "asset.meta": {
+        "sha256": "1150c4cb2265c1be79b73ebb15fc3de0308ac9a0baeb08f1662f756aa064c87b",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "a826744fdd3caa3d18d03103a0ba205c031239ecee60356550858fc87d5b26c2",
+        "size": 419
+      },
+      "path": "Assets/Helpshift/Editor/HelpshiftDependencies.xml"
+    },
+    {
+      "guid": "661f6c948606443c3832141501721a3d",
+      "asset.meta": {
+        "sha256": "1b1bf10060c82284b68abd8276d4869b05137d57068c3419f088800cd6827e3c",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "bd4600c90aef9714ff4fc61c8ece1a5f5485fa0588152e245355c1c2b5eff5b2",
+        "size": 7304
+      },
+      "path": "Assets/Helpshift/Editor/HelpshiftPostProcess.cs"
+    },
+    {
+      "guid": "0075bf1185c0b4701b483e9edad32c8b",
+      "asset.meta": {
+        "sha256": "ff1f8f5ba52c6d99ae7bc7eee3e943b2d1851747ffcbe8f21d42aa2bf7511a34",
+        "size": 645
+      },
+      "asset": {
+        "sha256": "6745683f41cb5d371151217c9dd26faa941797573936c0ba806873d83a199c5f",
+        "size": 126976
+      },
+      "path": "Assets/Helpshift/Editor/HsUnityEditor.iOS.Xcode.dll"
+    },
+    {
+      "guid": "649aa4b87db7a45b3a0af81f6e8e606f",
+      "asset.meta": {
+        "sha256": "bbaed454f2783e2e04201c9b6d691d1be15d44d6715c2452150ebee1a4c14ae6",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Example"
+    },
+    {
+      "guid": "0d9cc3ca6bbce456189e46fcd3121ba6",
+      "asset.meta": {
+        "sha256": "d4adce2620a7280eadc49310b1d8f3d3b8f4155193dac01ad96284ab9dd33614",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "94c4bb8f7bb3ff666e8f1963bc80fbd02296d2286eca6b28bd110ea06c9df01b",
+        "size": 871
+      },
+      "path": "Assets/Helpshift/Example/HSEventsListener.cs"
+    },
+    {
+      "guid": "021393cae666d4d68824af5a0581a200",
+      "asset.meta": {
+        "sha256": "80450d2715b5dc6d02121e2a809794fbf7a05ad4a3a5cbcc9323a56043cd5d46",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "f6bd62e3cdc3659c6cd8ef0aea06bf3632d012619ed76c1a6e28894960a95b31",
+        "size": 749
+      },
+      "path": "Assets/Helpshift/Example/HSProactiveListener.cs"
+    },
+    {
+      "guid": "273ee81375edb491c93ef6925d4e9441",
+      "asset.meta": {
+        "sha256": "c25f8b234e5b2417e6cabb1be565604a28aa5d99eeecc5353c8f4962dd3b4c47",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "4515e3b58d99637d3e2d940c8ff62e80220edbee7940b2e6853aee866043faed",
+        "size": 80285
+      },
+      "path": "Assets/Helpshift/Example/HelpshiftExample.unity"
+    },
+    {
+      "guid": "ac705f2ff325b47c398a37f6a88702d1",
+      "asset.meta": {
+        "sha256": "e985c976325368d5a7f418c779fc96156de609a3c4a9a742abee82893af7c9de",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "dcad640d7c992c7f4d355393056ab30419935f9b75f363b4b96cb0a7445157d2",
+        "size": 7806
+      },
+      "path": "Assets/Helpshift/Example/HelpshiftExampleScript.cs"
+    },
+    {
+      "guid": "7c7e24424b22e4d6bbe3bc2ea714f90b",
+      "asset.meta": {
+        "sha256": "64ab710e2a2a7caf926f76c337866b42eccbf0fcb8ee4ace17c5ca915263b38c",
+        "size": 200
+      },
+      "asset": {
+        "sha256": "5502aa478a99788ec0c74236b1e2dfbf5655635b3f8cc70f721af1ef59adf45c",
+        "size": 1764
+      },
+      "path": "Assets/Helpshift/Example/HelpshiftExampleSettings.lighting"
+    },
+    {
+      "guid": "eb8d35c7ac75d4c4986980039ec273c5",
+      "asset.meta": {
+        "sha256": "4ca1050969b80fa581021c90e388d66d22974fdcfc99547609dfa10688c2a94a",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Example/Textures"
+    },
+    {
+      "guid": "f4d2346965ede4e82a70e2b50ba86eb3",
+      "asset.meta": {
+        "sha256": "da82a8f65c3b6b61ee4e0de1831030295f36fc9657f6a12211370003e6c9570e",
+        "size": 1688
+      },
+      "asset": {
+        "sha256": "3cb9fa9f0f3167588531cd1cadf31faaae4962f4c3b867855e3e284894ffc1ce",
+        "size": 56060
+      },
+      "path": "Assets/Helpshift/Example/Textures/background.png"
+    },
+    {
+      "guid": "4316bfdbbef6a4b2e8b25618c03501f3",
+      "asset.meta": {
+        "sha256": "17dc18294c0b249aba6daae67af6ad5dd133548ab4895ac9d90a7636bd3f6a84",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "1806f7a5f33b27ed449864de133284a93ed51b63e5f0a538c492b2295f670a69",
+        "size": 2449
+      },
+      "path": "Assets/Helpshift/NOTICE_IOS.txt"
+    },
+    {
+      "guid": "1bc15a626fe56427491ff4ce3151f046",
+      "asset.meta": {
+        "sha256": "50ca1722a2869e44fe0cb8b459d86bc3be92b81c7e90d790835db955f8a2d81e",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins"
+    },
+    {
+      "guid": "97ea080dfaf4f4c6c950318a15933011",
+      "asset.meta": {
+        "sha256": "710a9372712a364e5c6dd8ae8c112e260ba77f4d19d40cf2e39af1b5dec1ca86",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/Android"
+    },
+    {
+      "guid": "d3f6b4038032f43dc8ef6ff91f0663d8",
+      "asset.meta": {
+        "sha256": "e062543a45888990de6e58d304d88a190a9a8f60a8487eeba8e7441efa4d9677",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "e3ae55606492590ad2163dead76324cc39c33ad7afe77a6ca1fd101bb155e4bc",
+        "size": 1647
+      },
+      "path": "Assets/Helpshift/Plugins/Android/HelpshiftAndroidEventsListener.cs"
+    },
+    {
+      "guid": "ff1a3b158f1a143ee88ff07e30d2cce5",
+      "asset.meta": {
+        "sha256": "4062bc2be33af175f83a1343dbdd4ecc660318320abafb1ae86ffed7bb7b52f5",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "adac0c92d95de8a9f10110637a848b8a2978c7caeb1aa48da765149782523565",
+        "size": 1006
+      },
+      "path": "Assets/Helpshift/Plugins/Android/HelpshiftAndroidProactiveCollectorListener.cs"
+    },
+    {
+      "guid": "27c58428483b647a28b62d0e5667f4a0",
+      "asset.meta": {
+        "sha256": "65e5823ef316e42de313da6f13706cbe90f51a5e6ee3809dbc22588ef509ce83",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4e8e96b0e5b35940de5ef11fca6e77eb11ee5616502689c72120d2bf42008f88",
+        "size": 7649
+      },
+      "path": "Assets/Helpshift/Plugins/Android/Helpshiftandroid.cs"
+    },
+    {
+      "guid": "0b471c5e90f7f4c91bbc9ef67a978415",
+      "asset.meta": {
+        "sha256": "b037f146540ba4737ac0da7910b67bd5e4c63755c9efa07f2bdf7a587c3b8649",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "5baed333d69adad272439d565d8fc9dcde130a0571f4e3d741bdad53b616dfd8",
+        "size": 20251
+      },
+      "path": "Assets/Helpshift/Plugins/HSMiniJSON.cs"
+    },
+    {
+      "guid": "52f972ce9a734495ebb4b21093ef71b1",
+      "asset.meta": {
+        "sha256": "0993a05e961f6db38cad5278c7e13d55d8329b230f5d5e46f30a92a028bbceda",
+        "size": 166
+      },
+      "asset": {
+        "sha256": "85e11875d88e44b21f13ffe3c220f097a43678360b6e863d48a569673b3d8579",
+        "size": 286
+      },
+      "path": "Assets/Helpshift/Plugins/HelpShift.asmdef"
+    },
+    {
+      "guid": "7a836a31ef4a545118b9b5adb80d110c",
+      "asset.meta": {
+        "sha256": "3773eab158ea8a1f4217a423ff18b553e9be5fc42c3d77a848577db69fa6f088",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "ef7c38d370cf8699a5147f5fab956dfc19d2b4e2a3ce0610acb1313095bebd0e",
+        "size": 12828
+      },
+      "path": "Assets/Helpshift/Plugins/Helpshift.cs"
+    },
+    {
+      "guid": "f9f33e3affc7f45aaa96aba04fd6e18d",
+      "asset.meta": {
+        "sha256": "3d5cb56c610a3dce7a883e7b47e43d825e5a08e59c4f237f12bf9718feffe4c1",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "56d64ca4b64ed12e188510e09a9bc626150fab95f227a23ebb036d3564de283c",
+        "size": 286
+      },
+      "path": "Assets/Helpshift/Plugins/HelpshiftAuthenticationFailureReason.cs"
+    },
+    {
+      "guid": "3c1ce8c79cf9440d8860da1cb799e20a",
+      "asset.meta": {
+        "sha256": "06133da3ebb268abc5469a0df4fdad36cc473bb2da196655b492899036628321",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "28322532ad34260dc189dc7431e6c8ce7a646a145ab77972fd386d4096509857",
+        "size": 1874
+      },
+      "path": "Assets/Helpshift/Plugins/HelpshiftEvent.cs"
+    },
+    {
+      "guid": "8bad00c2a1cb9436a8259ea3a0d12ad9",
+      "asset.meta": {
+        "sha256": "f8e123b4fce7770296fbd03136455d1be52b2fd2660f4b8c74a2247329d7abc2",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "c02aacaf9135e15896402981a9a1701c31b3005b7af6ee3488242d11d184e80b",
+        "size": 1422
+      },
+      "path": "Assets/Helpshift/Plugins/HelpshiftInternalLogger.cs"
+    },
+    {
+      "guid": "f0f6ea038c37d4132b4f617eb0e27c44",
+      "asset.meta": {
+        "sha256": "45349eb357c523fce2000cf9ec486393d3176d03e0e1ceac7294c1f60a827b70",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "fa242679ac729fbc13bd2444fd33cfb4d8f8d35f9d448b3e402dd1be775c9fed",
+        "size": 434
+      },
+      "path": "Assets/Helpshift/Plugins/IHelpshiftEventsListener.cs"
+    },
+    {
+      "guid": "7071c2303140446ffa907a24ae25d988",
+      "asset.meta": {
+        "sha256": "16b147d20e6d77aa3a5e5e014e4e4016cb7b5606ea5ca4a60ef3bcd1b2bfd258",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "88767831974e157a20fe0e962a361af4313df96478c07acdfb627b661f0abf69",
+        "size": 309
+      },
+      "path": "Assets/Helpshift/Plugins/IHelpshiftProactiveAPIConfigCollector.cs"
+    },
+    {
+      "guid": "4ac9fe3944de74234af8717ef38aa300",
+      "asset.meta": {
+        "sha256": "0c29f642e3d5578b7bc2228d76e6b75935a5dbcbcb453a710cbac1def2abf22d",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/iOS"
+    },
+    {
+      "guid": "90a78d96ed82d4ed1a12e95cf797bd3d",
+      "asset.meta": {
+        "sha256": "9be946c2771b7c41096c605d82f4149844a35f4e4a9bb880744122d3b657fa17",
+        "size": 450
+      },
+      "asset": {
+        "sha256": "b6e654c7de2736f2ef3ecb89e9ffe7a1b705bad99725f61a55de5e3a5e9ab0e7",
+        "size": 1059
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX-Unity.h"
+    },
+    {
+      "guid": "b690d5787d8f944669f3475d6b763c97",
+      "asset.meta": {
+        "sha256": "f9b66cb80d3c8ad96275f30677a48097d4d6b26aff426b324023e105f623f36d",
+        "size": 467
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework"
+    },
+    {
+      "guid": "872558f48e4de4fe0aab997d01c62ba4",
+      "asset.meta": {
+        "sha256": "f509b72180a364dc4b082f0091774f69877f29cf0247512d35c042c416e7c1c1",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "844a1661310485a37f058974f46887f943a0ae2816c57b1b18664bdf5100e1f0",
+        "size": 129087
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Assets.car"
+    },
+    {
+      "guid": "89b7c2e9ad70946e7b1bfd4c423fe9eb",
+      "asset.meta": {
+        "sha256": "8a6a9b6ef6dad03004ce34a395e9dc5a6d22f27cecfe18942d8c7c20e91a3235",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Headers"
+    },
+    {
+      "guid": "d3ffdc7390af74ac1b79a40c39a266cb",
+      "asset.meta": {
+        "sha256": "9d0c0a49bef063cdf683785d526afecdb3f3e8386bfbb4cd8f40cc58342ac0c5",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "3cde89c74deb41eea8e332955cf2d8842f5edb575bc7d760e1e6f54dcee55fb6",
+        "size": 8853
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Headers/Helpshift.h"
+    },
+    {
+      "guid": "72f19984036804d04906c8b9c1a7f808",
+      "asset.meta": {
+        "sha256": "217984dca35d02826d290f2931feb78bbeaa1e4b91540f91cf0288c6f654d3df",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "ffea260b1520ed225909dea61b083e3efec2e96f2c4974c56a9ab525ebf42777",
+        "size": 3755
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Headers/HelpshiftDelegate.h"
+    },
+    {
+      "guid": "13861db27a6514dad88669a1dc99a69a",
+      "asset.meta": {
+        "sha256": "3016442c93d2bf4bec5f3d37d94c0f495b73e79c0de704a4a55351ee2dc2e884",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "1ffb4ac627017b73a122b2b7233f8e4d72369510bd6c2f7294e298f3a6319e89",
+        "size": 462
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Headers/HelpshiftProactiveAPIConfigCollectorDelegate.h"
+    },
+    {
+      "guid": "0a01d939f453c4e02a1dc42718764412",
+      "asset.meta": {
+        "sha256": "a34b056af6a4d4a9fb77fe40f67aa6c6df0e26db18f3ff4e6cfaeefb02ec34de",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "7ce0fe14578c8e5d7501529af4fb3cc37c20d21b6604c941bc294566be4976a6",
+        "size": 485
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Headers/HelpshiftX.h"
+    },
+    {
+      "guid": "c95fbfa478f314138afbba25958401e4",
+      "asset.meta": {
+        "sha256": "011906c92423093eb44a51266a6896a6cd0ed14eb163cc2f04eb2f647ca43e18",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftChatViewController.nib"
+    },
+    {
+      "guid": "98ad58e21357e44c18830109a97016b9",
+      "asset.meta": {
+        "sha256": "bdfc413815fdb4d83eb3e02c1648bdb78660d804fa5a1e4e4620bd708cee185e",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "5e241ff8fbd6ce18907aeb7d8adb29261e93cfd0a4b510e658848a57ab09eba7",
+        "size": 2741
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftChatViewController.nib/objects-11.0+.nib"
+    },
+    {
+      "guid": "fc194186ac1e1401aa510a82be9febc9",
+      "asset.meta": {
+        "sha256": "7abab76e28dbfd802949c756405975d04d9b0c8bbf6f7e5e92254b401d47b30e",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "048fd17be5f1ab8af1b736bdf47d5f36c2ab707a21c9a0ebb6658982b3ec46f7",
+        "size": 2074
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftChatViewController.nib/runtime.nib"
+    },
+    {
+      "guid": "4b7ef22f2980d4b71931fc20695ae973",
+      "asset.meta": {
+        "sha256": "ae80f7345acbe528256a8fe32f2357522609e6cbe62b515a90f2727ca0117908",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftFAQsViewController.nib"
+    },
+    {
+      "guid": "4d8d5d784aac44d039c4bf05c1f22984",
+      "asset.meta": {
+        "sha256": "778a8d6c5c9fb40b2bbb96d44c8d9b193883f23792e36480557dabc508f33179",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "82ccfbc8c9feb694fa96d7c76f59d10e789d7c92c4c8e6eb7b423b142bc4b515",
+        "size": 2790
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftFAQsViewController.nib/objects-11.0+.nib"
+    },
+    {
+      "guid": "b66cbd6e8bee141519123d2c993208fd",
+      "asset.meta": {
+        "sha256": "d43880f81d40285ba4d071db4ba6d99791c4a17cd01ad7441b6839b07397f137",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "60607ebb32e1a2f453d79edd81672f5e8e9393bd7d519d438fe3917a372040aa",
+        "size": 2121
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftFAQsViewController.nib/runtime.nib"
+    },
+    {
+      "guid": "0ce2f72bf0c284879b98b48a759c8346",
+      "asset.meta": {
+        "sha256": "32f3a4d07ff8fccaed648cc04df8ca31c061813482adda9c15fc31fc8446c23b",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "cc75f23d12edd99581e37674cdbbf3b0adf27788a5045e6bd9b50aaefecfb451",
+        "size": 9866864
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HelpshiftX"
+    },
+    {
+      "guid": "c4a4eb735925644a7b2033adb2fb5e9b",
+      "asset.meta": {
+        "sha256": "02135fac995e83a5efae2fe4716613926a9d9a1328063f65360429950005aeca",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HsLoadingView.nib"
+    },
+    {
+      "guid": "9aa0530f98d7f492e83e6336accf4c39",
+      "asset.meta": {
+        "sha256": "f77fcced6f1d46b74cbb406d0bcdf84b73500674ce69bfc4fa54394319ae39b1",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "8c0fcc8b564d244d54f70fb0562b5756aca561917a8eed3e8a14123a7615c351",
+        "size": 4231
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HsLoadingView.nib/objects-11.0+.nib"
+    },
+    {
+      "guid": "1cd2ea3a105474efc88341d954b4cb92",
+      "asset.meta": {
+        "sha256": "3805c01f109159c99ce284d7ce9baae52876a91f214b9df588b0b5f04eecb96e",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "863e1e83b0a1e20550957da23553370577f6592ae1996e3d300220a616c5c5fc",
+        "size": 3573
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/HsLoadingView.nib/runtime.nib"
+    },
+    {
+      "guid": "34bac70fba12d43709a5629a49ebd891",
+      "asset.meta": {
+        "sha256": "cc8e755a3ce9c70ebebe1f1d9fdc54124414a593e94453345241d8ecefa4c559",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "96897bb7b1d618816d1cff048ab11c5d9c6c01016db3373aba6eb8911c661c30",
+        "size": 712
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Info.plist"
+    },
+    {
+      "guid": "007f69aec21e44715aeb01b832b27810",
+      "asset.meta": {
+        "sha256": "32964cdf8e43185607d12279600be6c16db8c29904bcf376ef77197947971274",
+        "size": 172
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Modules"
+    },
+    {
+      "guid": "ed3912f88911b4ac081b3c71bcc71d48",
+      "asset.meta": {
+        "sha256": "fe94c1e18138ed2a6152d05e1b82aadf16f5341c3fc62029f2b044ae6e01d6ac",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "74edf751ee67cd00c1265068b37745d9dbba011a87f18b3718059f29d0c1e3aa",
+        "size": 101
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/Modules/module.modulemap"
+    },
+    {
+      "guid": "e2e258d870d3f4fe78f6f3944319e4e4",
+      "asset.meta": {
+        "sha256": "7554daa3725e61c3f3e026188a5f5e122b82555e492e35d7581dbf951ed70ee6",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "6c35aa2ab6dec1b9733fb94dce0ce6c5a3a5f41f1d8aed28a3f07be7303149ea",
+        "size": 1225
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/helpshift-console-override.txt"
+    },
+    {
+      "guid": "a2aef81948cc94a12a0a6c6fda6ff26b",
+      "asset.meta": {
+        "sha256": "d57ceb0d5e4017ae865ee834953b5f636a1f683c3363ebe01eaffb00ca3cfa26",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "109664953ff82408f51a1a9cd22f2ca344117748253794968616b7a89697b664",
+        "size": 751
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/helpshift-helpcenter.html"
+    },
+    {
+      "guid": "a87c044964cba42bcaf2bbbf749cc402",
+      "asset.meta": {
+        "sha256": "b2a48e77edb30c17aaecef617d85d7b09d2fb5ab675c46a3ff126241d0af36dd",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "ccea3f46fb3f572791f9ad02fa2e424bc49eec86cf44d504ba6370d7e27a523e",
+        "size": 313
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/helpshift-webchat.html"
+    },
+    {
+      "guid": "ae438d030a9ab4c6e82bccbb887dc912",
+      "asset.meta": {
+        "sha256": "57745723a1e9aeb2f712ac07945c64bc3e897cc9222ea6945cc9a9cedab86482",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "e18298b310bb8156645307463aed7418aed6efca1132f15a569f743461c91259",
+        "size": 2556
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftX.framework/strip_frameworks.sh"
+    },
+    {
+      "guid": "d1f5157c9257b4e86a6300c74d422d5c",
+      "asset.meta": {
+        "sha256": "c7bd3545b74c263987fb0bc264a514056ce8cb3e7790aa12b4a4b500e6e27888",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "5d05607dd4d7c7d2069d28d5a3c0d746ee3b24ff944174fc08a0a82a01628ea5",
+        "size": 9461
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftXiOS.cs"
+    },
+    {
+      "guid": "bc03b39073fbd46a5955100912a108e9",
+      "asset.meta": {
+        "sha256": "b0a56102a81ab83584dcdcdcfab207d2d1a9740a8baeaab09898d0d3f151254c",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "15ce36f9f1828fce4d831f00d9aa1b6340363add7e1da7b94e51d5b7293ddc0d",
+        "size": 7063
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HelpshiftXiOSDelegate.cs"
+    },
+    {
+      "guid": "ad985c5316dfc42898256243f1ad6911",
+      "asset.meta": {
+        "sha256": "f5f14dc5316c47a0867ff1b6f3c199fe9d72358a0df5f824f46abd34ad545d1f",
+        "size": 603
+      },
+      "asset": {
+        "sha256": "ae6bc2bacff0fbdf0ba2fc785e97867cbbd4343d787ff83a3ee07a25b4e1967c",
+        "size": 5466
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/HsUnityAppController.mm"
+    },
+    {
+      "guid": "59b4fb4903cce4e1888f91bbfc0a40e9",
+      "asset.meta": {
+        "sha256": "58737116b0c3b7f6d8cfb1d2dc62834d759da711599f7933c794853653d1a91f",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "1c3284f2190b91eec6562891e04837b43db91f6ec95144c7fdabd0c912c6bc87",
+        "size": 334
+      },
+      "path": "Assets/Helpshift/Plugins/iOS/MonoPInvokeCallbackAttribute.cs"
+    },
+    {
+      "guid": "c97203982aa614952a84aa97b5a75458",
+      "asset.meta": {
+        "sha256": "ed021901468fb5909470cb84f123e8661e15680ea36b0ee388b1708d63664b84",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "674c9aab0b6c69f585320a22c4fb11cebe81c787d08e58f7afa11ac1b5edbcbf",
+        "size": 10725
+      },
+      "path": "Assets/Helpshift/README.md"
+    },
+    {
+      "guid": "6a4472b9dd1f34573b5c4107341cf514",
+      "asset.meta": {
+        "sha256": "2155de9150c1d465cb930271b967f651e4760e963b8e8c4d572738b14d74bf31",
+        "size": 172
+      },
+      "path": "Assets/Plugins"
+    },
+    {
+      "guid": "7db7207c2f32a425d9d06f030c701f81",
+      "asset.meta": {
+        "sha256": "594d6b1012da1a6bea399d4735d5939446ccfbe8031f1d05802f1b82e70ec282",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Android"
+    },
+    {
+      "guid": "701e5de858d9d47c2a5ad473d849fee7",
+      "asset.meta": {
+        "sha256": "02de6c9befc46c4c9ab2f6535df0fd9ba47d3b1a639c731ba42db53850ef4792",
+        "size": 608
+      },
+      "asset": {
+        "sha256": "e6cc2c5e9ccef11e98ee9eef9d1c0aca5fde0d09bbb6d6ce5a04454ef8f31ff1",
+        "size": 351233
+      },
+      "path": "Assets/Plugins/Android/Helpshift.aar"
+    },
+    {
+      "guid": "fcabbd1d7a42541f185a4d5e8c001321",
+      "asset.meta": {
+        "sha256": "0b165794cde8a6a4bccd5d4a869b18b4eca833d8c3a4046ab5e7ab2c8a1e6271",
+        "size": 608
+      },
+      "asset": {
+        "sha256": "fc6ffccee634c053c423fc23c200846a502c65f26c5567f70ac6b717ebf10fcf",
+        "size": 1856
+      },
+      "path": "Assets/Plugins/Android/hsfcmplugin.jar"
+    }
+  ],
+  "ignored_appledouble_entries": 96,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-edmu-08d7c817",
+  "build_id": "71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+  "artifact": "artifact.unitypackage",
+  "sha256": "71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+  "size": 380982,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "b7c76e2890e2487cbee851fb01abd17d",
+      "asset": {
+        "sha256": "0b25facaea8529bd89da8f879e9c14a250cf6c6931e2d0a078e0739c13f3a69c",
+        "size": 74240
+      },
+      "asset.meta": {
+        "sha256": "1a3406f575fc91c1c1b2fd5523bcdbed2e2f8480448d2b1e3808229eb25ad569",
+        "size": 729
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.IOSResolver.dll"
+    },
+    {
+      "guid": "2385f4fef43e435fabb18362178b3b4b",
+      "asset": {
+        "sha256": "70c4949506d1d2e6a7cdcf2d89e0bedf114b2a6effeb95dde20b5f492814f382",
+        "size": 16506
+      },
+      "asset.meta": {
+        "sha256": "f5424f4ba86d769442f24c0f890831273f9aebfbe3b03f4ce931fb2a94cf39bd",
+        "size": 315
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.IOSResolver.dll.mdb"
+    },
+    {
+      "guid": "1396517e985a41a1af57ee285335eb24",
+      "asset": {
+        "sha256": "aa0c51ef96b5aa28861038a89ffab6dc7df056a6de1b5f402b1b88de0b53fb31",
+        "size": 358912
+      },
+      "asset.meta": {
+        "sha256": "5cc1043b2fd34e96ce851e1d08cc1e3be8f4007ea520a75596255adb246397ab",
+        "size": 729
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.JarResolver.dll"
+    },
+    {
+      "guid": "983e30d0a59b48048e6287069dc87f16",
+      "asset": {
+        "sha256": "25586d2d450411e871fd97560b3d353c66abba10c74c04863cc1e12a6d8f74b4",
+        "size": 73457
+      },
+      "asset.meta": {
+        "sha256": "f473594b0b735b9e22ded793a8490183f600bfe3523a6263bae66556d94c8731",
+        "size": 315
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.JarResolver.dll.mdb"
+    },
+    {
+      "guid": "ab7c22193da44aea9aaa380ba652a206",
+      "asset": {
+        "sha256": "c653974bfa6dca6e077e1209aee7dc51ea6efbc73ea259196937e74b3ece25a7",
+        "size": 73216
+      },
+      "asset.meta": {
+        "sha256": "831f4596e89ae82d84afff849e0925c602ce8c61a19729e22d1937ddf1840c2e",
+        "size": 740
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.PackageManagerResolver.dll"
+    },
+    {
+      "guid": "219b2ec322f741b1b429aa63ff518ccd",
+      "asset": {
+        "sha256": "95c4562d80735120cf80e248098b10fb527a2b9b715f21844d229d058f483c1a",
+        "size": 28540
+      },
+      "asset.meta": {
+        "sha256": "0f2512ee5b857e3f3dd00feda544b2debbde5b1266c45796be17c304f465ad0b",
+        "size": 326
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.PackageManagerResolver.dll.mdb"
+    },
+    {
+      "guid": "595c0a1a42b7440d897fce3d281f5332",
+      "asset": {
+        "sha256": "c4108ece3a6f35c3518d913d94780417d50051cce05b745d4e2a4978f2dd0178",
+        "size": 118272
+      },
+      "asset.meta": {
+        "sha256": "d7b861ebcff53cbd84470cc2a6b67c72a40104d1054de8b6a31fc72ac305cf9f",
+        "size": 736
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.VersionHandlerImpl.dll"
+    },
+    {
+      "guid": "c2d0e4d79a974892a30b93ee2a625947",
+      "asset": {
+        "sha256": "52e1d40e03188b184c6215fecc6a80264969ccb010f1e8c267910bb67bd041fd",
+        "size": 43697
+      },
+      "asset.meta": {
+        "sha256": "bf553659f3a99838b9c514014e1272b84b778be3ba6fb67cf83a5c385da5fbf4",
+        "size": 322
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.176/Google.VersionHandlerImpl.dll.mdb"
+    },
+    {
+      "guid": "c59750df28b54a599d43c4d5204fb1b8",
+      "asset": {
+        "sha256": "eb6786547006e90d54f998faf4900c83b6b7e67a314c2b54b7161d64dc5433e7",
+        "size": 55454
+      },
+      "asset.meta": {
+        "sha256": "18380386b6b886d2797fd9c258f33da74593f79d86cfccd64854d68ba3e4c8b3",
+        "size": 274
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/CHANGELOG.md"
+    },
+    {
+      "guid": "9083229ed99f4fb0993b5625e8ea47f8",
+      "asset": {
+        "sha256": "8db6423dec8ddc6b7ff5f5588bcb09bd21d8f1312240f32a23cdb3fb7ad86732",
+        "size": 14848
+      },
+      "asset.meta": {
+        "sha256": "02ccd365da6a669a751231e508702fa927cde6f30ad86a413f6ee1e987ae1d0b",
+        "size": 724
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll"
+    },
+    {
+      "guid": "8e257495524f4e6aa7ed13445e81a182",
+      "asset": {
+        "sha256": "8aba9e961f53b0b03aef236ed690a17d5466804cf97408f64dcd745bd215198f",
+        "size": 3983
+      },
+      "asset.meta": {
+        "sha256": "7641d5f44b69a1eb1e97959e44218e8954e59da6517fb982cd2fbff98f4263a8",
+        "size": 288
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb"
+    },
+    {
+      "guid": "d980a3fa4da0408e910fde746ce3b558",
+      "asset": {
+        "sha256": "f76f18185c04ec80175330572b38e40772dccda80f4bf0868e042e4e5b0b58a5",
+        "size": 13395
+      },
+      "asset.meta": {
+        "sha256": "458fc68d4e8976da97c79e6795ca21a8735ca86b89a7d1cab3b000c3ec276625",
+        "size": 269
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/LICENSE"
+    },
+    {
+      "guid": "b86aa3582c084272a2ff16841e0523f7",
+      "asset": {
+        "sha256": "475e90ede4856d263106138457df0dae7e6202d4e53cc0c826678a3fc74fe61a",
+        "size": 35551
+      },
+      "asset.meta": {
+        "sha256": "75000ec05b92308ffed044cb40b1caa0ab59ea4332294fe7e3804b01908350b9",
+        "size": 271
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/README.md"
+    },
+    {
+      "guid": "6645ca7b22724daa8c73b6017832ff86",
+      "asset": {
+        "sha256": "22af81692f47449b7408a24f3814ce58cc23453436d350d112628cb9a1fe0db0",
+        "size": 907
+      },
+      "asset.meta": {
+        "sha256": "deeb15f4c0973e8377153267ca084874539b3d9fd0fc2f302eb32918d7a9e5cf",
+        "size": 425
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.176_manifest.txt"
+    },
+    {
+      "guid": "ba6f911c6f9d4d9ea269756e9dafb641",
+      "asset": {
+        "sha256": "9746742f6f187698a449657be32d14ca7b3a0fa7e783b45c7894e5733eba0f15",
+        "size": 126
+      },
+      "asset.meta": {
+        "sha256": "6fc9eeb0556ce67c1cb2789743e64e68935e87b8283f10f0c546449f858c9f79",
+        "size": 333
+      },
+      "path": "Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

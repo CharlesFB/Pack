@@ -1,0 +1,1415 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-proxima-5f634d1a",
+  "build_id": "6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+  "artifact": "artifact.unitypackage",
+  "sha256": "6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+  "size": 1985026,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "53c7cf36ddcf17b4da75df27231f866e",
+      "asset": {
+        "sha256": "ef601b4b0227e0776ce7359bd48d706b137e9957ef63a586bb7521d9ff406198",
+        "size": 3625
+      },
+      "asset.meta": {
+        "sha256": "c37f6d7ba6b28a5db5620f36949f3d0d52733fb17045ea74318d5b8300f328b6",
+        "size": 158
+      },
+      "path": "Assets/Proxima/CHANGELOG.md\n00"
+    },
+    {
+      "guid": "a11d997695a4c49a7b11e4aac0452e57",
+      "asset": {
+        "sha256": "21d7ca3c357d02f083491af79ae7bacdd7201e3d8afe1ab7a0638619908ecd74",
+        "size": 15546
+      },
+      "asset.meta": {
+        "sha256": "2ee207928821febcfd6ee44799790f7ef746ed5e05b9a227095e9f90ce72ff5e",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/_app/immutable/assets/_layout-1f0a7e97.css\n00"
+    },
+    {
+      "guid": "b5e0ef40ebe73442bb08e542d48be87e",
+      "asset": {
+        "sha256": "236cc3c5d0f33991a8a7883ff48e34070995077b2f3f1d600a1f5370ad2e1ab1",
+        "size": 554
+      },
+      "asset.meta": {
+        "sha256": "a4bf9b250875fcb1ed589cb456d7ebf9ce0d49028af89fef1928246fdfc27ff5",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/_app/immutable/assets/_layout-6847360b.css\n00"
+    },
+    {
+      "guid": "b45089c0bd97cbb40ae999c94216a444",
+      "asset": {
+        "sha256": "f92248f52a1ca28306c56b51173a10b5051079b9f5c0325912119eee8e5b9317",
+        "size": 5990
+      },
+      "asset.meta": {
+        "sha256": "2555709d0774245bac40bfae00350fd8c0cbf1847dfaaf6df422f588ec0637c2",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs.html\n00"
+    },
+    {
+      "guid": "deed7884a12e5b546acaba45aed60ea1",
+      "asset": {
+        "sha256": "c44c3c41051f13cfe49c395c908af8e98161b803b76873c738d860fb3230829f",
+        "size": 7708
+      },
+      "asset.meta": {
+        "sha256": "53c52ab8e0149ea10a455a2b58accd7fb3ca18b2f5ffd680c0c73df1f2a0aa8c",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/all_config.html\n00"
+    },
+    {
+      "guid": "b9e1c30cb177425438b06dabf64f44a7",
+      "asset": {
+        "sha256": "f7972b4596e65d861eb33e141690571bf2002c2af0dc2ba2eee5ae2100f4a5bd",
+        "size": 20034
+      },
+      "asset.meta": {
+        "sha256": "b539248d12cace86cfa7e344a64a6fea353cdadab61fc9fb749a8b7f82a7639f",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/basic-config.png\n00"
+    },
+    {
+      "guid": "128d6655c9b7beb409e7ff62fe4617c9",
+      "asset": {
+        "sha256": "bc5a16d1c922d1233c41375b45f65db07d2e964e46aa5591f9325487b076febd",
+        "size": 17525
+      },
+      "asset.meta": {
+        "sha256": "392c3227234babb29b1a075e4272cbab8d4cc336c82d12e29f97b5dbf8000141",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/browser_warning.png\n00"
+    },
+    {
+      "guid": "0ed34a30d500b449bb09bf8c165734d0",
+      "asset": {
+        "sha256": "c4f2c0bd25cc011c5f4f3c1219bc2003824e6421b1c11e8938d51a6865694a98",
+        "size": 5624
+      },
+      "asset.meta": {
+        "sha256": "fcbd27c90911b4daef62a41c3a90b3bf63836cc780c901d48fc7d9efaad01a7a",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/buttons.html\n00"
+    },
+    {
+      "guid": "ff21eba6381d51342b8e45ea028b8561",
+      "asset": {
+        "sha256": "cef7d8788d1ec57f55bc92291837e294e30405f7a4a6ce30f76c2576f601cdeb",
+        "size": 22074
+      },
+      "asset.meta": {
+        "sha256": "35107d0f377e15e7b1c813ea26cf3bbfa5ab2074d18148cb9112662d10f53a7f",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/connect-ui.png\n00"
+    },
+    {
+      "guid": "e02f0695fb5372343898f4bd4e0bf979",
+      "asset": {
+        "sha256": "f5ec516f64a9ef5440b20968733d3b23346ff6b7a48eedd8a6b55141b9755410",
+        "size": 8518
+      },
+      "asset.meta": {
+        "sha256": "a97c29313979179de7a710200e8e43cd44ea791cf29012e7b9817072e981879a",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/connect.html\n00"
+    },
+    {
+      "guid": "d770431d82d1df24c8c236c81ad3d451",
+      "asset": {
+        "sha256": "ea6f47ec5d051c056fae29bdc3c48deb420cc2ed9daad4870e51dfce1c9692b6",
+        "size": 23277
+      },
+      "asset.meta": {
+        "sha256": "27c92465cae1ce9b942e0eff92ecde1fac2407efce4a0e66cc57e9ce79e260e1",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/connect.png\n00"
+    },
+    {
+      "guid": "8fcdf6627a00623469e8bbe57390f5fe",
+      "asset": {
+        "sha256": "58db25c49fc74260105829f42567e906dc4e8af89b9aad45dd9ac80cc1ba3569",
+        "size": 9709
+      },
+      "asset.meta": {
+        "sha256": "9f672e9944864631a79301ab5e99855365da296d5e048758a78c8a5951e35046",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/console.html\n00"
+    },
+    {
+      "guid": "42a62eedd641c3e43af5e0d39886bc22",
+      "asset": {
+        "sha256": "fe016205a3098445dd2e4819d541ce6d329a09c55649adb06db544666bcc3014",
+        "size": 82616
+      },
+      "asset.meta": {
+        "sha256": "619eda750d3f9c3b7a461ece2d5be00362d0c0091241219b51b558d3ae2886c4",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/console.png\n00"
+    },
+    {
+      "guid": "d956d92be1b02d44c8d87fa255b3e689",
+      "asset": {
+        "sha256": "b5aa23120a58ab6256d4c58835e9ffec31d6091b18d03fe2adb4fdc382f5af23",
+        "size": 18973
+      },
+      "asset.meta": {
+        "sha256": "604b871b583e55c1bea595eac7bb979080ff3b87f0d419a1f5880c83a57171f4",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/console_built_in.html\n00"
+    },
+    {
+      "guid": "83c38fc2f0b168e489bb5118333ee97c",
+      "asset": {
+        "sha256": "10723ec7de1f2ec0a85d3024e8e28a237c361c3442f39657b97273807c46a9d5",
+        "size": 11312
+      },
+      "asset.meta": {
+        "sha256": "495d5a5e1378990ddc5b6f3c3d52e9de1d2da74312272683a9f85e31dfcb2485",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/console_custom.html\n00"
+    },
+    {
+      "guid": "844576d597f144ae0a2184f9ef68b223",
+      "asset": {
+        "sha256": "20ca9c548d62490e1be30b845b1b36be11740f2a5f3a4f9e4e467176ea2b8e2a",
+        "size": 6592
+      },
+      "asset.meta": {
+        "sha256": "32026a5cf4220cef38677b9260a6c352d010071b0907fed690220beac8694406",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/deeplinks.html\n00"
+    },
+    {
+      "guid": "3bdee37772784b44798feaccd4e13fcd",
+      "asset": {
+        "sha256": "399b5c90631065e867475afb21fb9b3a85ec00352211df16281249a75358a135",
+        "size": 23631
+      },
+      "asset.meta": {
+        "sha256": "db0038a6aa073f2cfc3e91d60433b3dd2e3dde57a70732d412463a82f9025602",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/device-config.png\n00"
+    },
+    {
+      "guid": "a357ca48b25c5744f8a3e484b2d8cf16",
+      "asset": {
+        "sha256": "bdcdb96d5dd7dea145c5b20900654e801077c21be89648ec41b1273c8db388e6",
+        "size": 11092
+      },
+      "asset.meta": {
+        "sha256": "d722472e65e6238b3a4035280c92d21a708a2f8fddb099bfe0acaf34392a5985",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/faq.html\n00"
+    },
+    {
+      "guid": "d129a0acfa95e2a468333fb7f3138c50",
+      "asset": {
+        "sha256": "59926f6b80781554dd9e2169de2e47196edf99354783cc2e66fc14a131580836",
+        "size": 5515
+      },
+      "asset.meta": {
+        "sha256": "9b81d090936f70b7d20d2fcce45c797b92e3bf61cd2121562725f40470ff979d",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/features.html\n00"
+    },
+    {
+      "guid": "3fafd92a98320374ba634c32bcd3df2b",
+      "asset": {
+        "sha256": "f62a7a8cd20a0b4703e0b06fd0f84a52fa915aed7096726b6435c9d4b08f8517",
+        "size": 4835
+      },
+      "asset.meta": {
+        "sha256": "17be15c3967513fb65e0376924ad7a6f5677699fa6c9e9d9d6ca605cc831f786",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/gameobjectsearch.png\n00"
+    },
+    {
+      "guid": "d0ff2e8c5fe0494438e152f3b3e2eda6",
+      "asset": {
+        "sha256": "67d6d422bb8ada5c53e5e4af8aca8ceb8132216b6a3a9c7d2568e2baba196048",
+        "size": 7307
+      },
+      "asset.meta": {
+        "sha256": "b4d5d835fc51ea114d76090c7ad52cf5f21be1b4e2e83e93309dfd7a5f4c0e6e",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/inspector.html\n00"
+    },
+    {
+      "guid": "5a5da6e76a3e76245b1a980870652617",
+      "asset": {
+        "sha256": "e6a593a85e94f9a1ae56feebe624084250522a46f50f4b69999c48ef1c117679",
+        "size": 155633
+      },
+      "asset.meta": {
+        "sha256": "85de88fc47e1cd614ef5867f7e5928e558f9dde987e637a86299c8041ab9f8fd",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/inspector.png\n00"
+    },
+    {
+      "guid": "d47e5a200492f814289d5c7666c7c966",
+      "asset": {
+        "sha256": "f58fe7aa13453088cebfd76f3590c22b7b43eb8307285e182ce573ebaa7e11c7",
+        "size": 4252
+      },
+      "asset.meta": {
+        "sha256": "bb1caf133679386b4636804061c24282f1292ed8d3e41554e6e7ddd2767e9a62",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/log-controls.png\n00"
+    },
+    {
+      "guid": "87ce81e82190821459e35627e688930f",
+      "asset": {
+        "sha256": "3912d54af992405c3b65c29fd5b5f608a5d7dd87257694569a33213133fccd3c",
+        "size": 6013
+      },
+      "asset.meta": {
+        "sha256": "20abd4cc02d3da821c5c27c62002f58ebba8eb1258744fe64ceba20ab49c4e2b",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/logs.html\n00"
+    },
+    {
+      "guid": "e782a82ba05af5a478d3072d84772ee5",
+      "asset": {
+        "sha256": "fbba317d3792fe9229a861b00831dadb44c885086098b2c8ae17a5149231c8be",
+        "size": 101448
+      },
+      "asset.meta": {
+        "sha256": "01a1785df1ab5cb1bc7f7361b4dcabc4f77cfdfd542b4fc1eacffd6cc46384b8",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/logs.png\n00"
+    },
+    {
+      "guid": "8f9e2bbb4b83ffa4eb19aba1ee22bf34",
+      "asset": {
+        "sha256": "33b156c10104d5b18dd15fe0398dab587abb96de54a5a54815604c6cfe4e597d",
+        "size": 8198
+      },
+      "asset.meta": {
+        "sha256": "d0a24277a76188b460c4ee50eab73a83a454604bd6b0322fa0089ac9367b37cc",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/password-warning.png\n00"
+    },
+    {
+      "guid": "060e78b3f414d2c499a081ebeddc8fbf",
+      "asset": {
+        "sha256": "65dd670366d17382751b04aaf62af57b3b98c0f345aead88146763c8cb75cb9d",
+        "size": 43594
+      },
+      "asset.meta": {
+        "sha256": "a78bf252f06f4e394059868488754db0df045927933cd855a6cc9c335dd2fe64",
+        "size": 3675
+      },
+      "path": "Assets/Proxima/Documentation/docs/run-script.png\n00"
+    },
+    {
+      "guid": "1f819dedfa86808429961506ceca924b",
+      "asset": {
+        "sha256": "8ecc135c6f6def6d2b165c8642668d6f177454d2c6341d4388108b68d1de78e6",
+        "size": 19753
+      },
+      "asset.meta": {
+        "sha256": "9c7986dc566e6df552e330d96c9e07cb4a6e8b5a701eec794dadf8cd40931be8",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/secure-config.png\n00"
+    },
+    {
+      "guid": "ff14e6eadcc72a9489ff77cdf43539c5",
+      "asset": {
+        "sha256": "2a35940f8d73b23f600818798b32dc2f21e638990d929e22753fbfb7ecde6efb",
+        "size": 8342
+      },
+      "asset.meta": {
+        "sha256": "45e8a58505a3dd3de4a4516a43a0416a374b1e78d0ab3d765d5f0766c60dc182",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/security.html\n00"
+    },
+    {
+      "guid": "a43070c5d120db04db1131b43874a843",
+      "asset": {
+        "sha256": "df18b6f7fb9521ea8a3d5fbbfe13d839607cc72a8f99287f23fa72eba3861744",
+        "size": 7966
+      },
+      "asset.meta": {
+        "sha256": "c0639263942b447bd141ce48e437ebc5214b78676ff141b3b6609f6f1e4ba403",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/docs/status-ui.png\n00"
+    },
+    {
+      "guid": "8be6fd4993b157444994cf1a979a101c",
+      "asset": {
+        "sha256": "ff15f4ad43db4ea767179316f45482084fe9234fbef0bb64c590f9c8a91aefd2",
+        "size": 13133
+      },
+      "asset.meta": {
+        "sha256": "65f493ec6ed06b9d78f1adc5bbca02f7a78ffd3bc6796d6c035e3492a1807988",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/supported_platforms.html\n00"
+    },
+    {
+      "guid": "5c9b2406965117149b215540242658d0",
+      "asset": {
+        "sha256": "f88fb736b18985ed3ed07930b4aafed7e9bc92366703dac6d4389a0158b9ea9c",
+        "size": 6841
+      },
+      "asset.meta": {
+        "sha256": "27bb6cb316a3f8f9a196405b6ab8033162c985bdc6bdc5bb62a5bec479ad492f",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Documentation/docs/viewing_logs_offline.html\n00"
+    },
+    {
+      "guid": "a065057dd605d614eabc28778c7351d1",
+      "asset": {
+        "sha256": "918b7dc3e2e2d015c16ce08b57bcb64d2253bafc1707658f361e72865498e537",
+        "size": 23580
+      },
+      "asset.meta": {
+        "sha256": "6f7df1a98fdaf7300a5e7b0212f966f708791bc103eb4652f934557421f6f474",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/fonts/S6uyw4BMUTPHjx4wXg.woff2\n00"
+    },
+    {
+      "guid": "1679bafd2fb413a4da1ade76c5ee003c",
+      "asset": {
+        "sha256": "1c2fc265baaeba4f3f5b8c7285b93343aead25590f08be73d3056718b376c5d7",
+        "size": 5472
+      },
+      "asset.meta": {
+        "sha256": "e4618a96e2fe410124e19cc562cb48ae9be43144de162c382a40a1a770a2800b",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/fonts/S6uyw4BMUTPHjxAwXjeu.woff2\n00"
+    },
+    {
+      "guid": "60d0f14b7864c484f9c636bae1cb0f4f",
+      "asset": {
+        "sha256": "bcf86d95e543e9748b28362562cdbce0c7be01b48dd54191912e15f820daf4aa",
+        "size": 20636
+      },
+      "asset.meta": {
+        "sha256": "f0c1f0dbd41db9fa205b2e81311bf4d9aa330ce5ae83c6574b45eef9545520dc",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfp8uP.woff2\n00"
+    },
+    {
+      "guid": "be3ef2326fe5c4c4a903f31b5a74ec40",
+      "asset": {
+        "sha256": "f1c141779d63c816a1bd935cb11f5237829011756dd6c62d7e2778cbd6f7bf99",
+        "size": 6536
+      },
+      "asset.meta": {
+        "sha256": "23020a5a4ab7ec49f2a3e07aa12c7562f0e1d773af76a735e4f526d836ffeb23",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfpcuPP9g.woff2\n00"
+    },
+    {
+      "guid": "41318e31369d9f04ea6fcca337249fa9",
+      "asset": {
+        "sha256": "270ed0ff480f75e88f159cb7a0e70b05fe84510437ba850ac83930256e114af8",
+        "size": 7408
+      },
+      "asset.meta": {
+        "sha256": "40850d383e219f0903cea6e42ec8a64c8f2517eac2606bfbc82b8d894712f3c6",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfqMuPP9g.woff2\n00"
+    },
+    {
+      "guid": "a386a394812e3684d8b2b85e0f5bf43f",
+      "asset": {
+        "sha256": "da3ecceb14ba4fdb3518500c71055ca10cb17c8fcdc34eb594e57b6ae9ba7539",
+        "size": 18808
+      },
+      "asset.meta": {
+        "sha256": "c02920ee98eb2729cdb6bef3427bd9ef5d1c7150b3227a6709597858a682021d",
+        "size": 162
+      },
+      "path": "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfqcuPP9g.woff2\n00"
+    },
+    {
+      "guid": "658f8cd9194dcdc418a571e983734c99",
+      "asset": {
+        "sha256": "5e8d7b9e8b878d08cef5864209419c58b7dca9cc5236fe19ed0aa0155c95eb51",
+        "size": 266
+      },
+      "asset.meta": {
+        "sha256": "60ab237e9088785b89db3b753a8b96ed70539e7bf8af47081ce83972ad3ab349",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/icons/arrow.png\n00"
+    },
+    {
+      "guid": "ef8987d79a1a57c49810904c1334a1c2",
+      "asset": {
+        "sha256": "19b5a3fa4cffac513be768aa47e16a5a5c29c81eb75db1086ada8dbff1cb5706",
+        "size": 27964
+      },
+      "asset.meta": {
+        "sha256": "304872e5097c1b81d67c183411df31dbd6a958785a153394b5271fe3eab0fcd4",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/icons/discord.png\n00"
+    },
+    {
+      "guid": "0f3bffd932a3e1b4e875fa0bdbe4dd3f",
+      "asset": {
+        "sha256": "6a411274daad43af93e6164e541182794327ca3c193b32c21f138d349cc84ba3",
+        "size": 388
+      },
+      "asset.meta": {
+        "sha256": "c0117775e1c8aa9f201f621d136b54eac65da1b9b61054aa1d356cd3c0dccb1e",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/icons/menu.png\n00"
+    },
+    {
+      "guid": "dc7068221cf34f149ab30e7b4e3f7566",
+      "asset": {
+        "sha256": "8cb7b18b569b6322fb66aba232b7e97013afcbb65e0ae9b737f49506b243ddb0",
+        "size": 979
+      },
+      "asset.meta": {
+        "sha256": "1363b12a8917d3e25e0cc422674bae87031075fe034d802bba98811427e339d7",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/icons/proxima_icon_32x32.png\n00"
+    },
+    {
+      "guid": "4375202eac2734388b077d0bd92995d4",
+      "asset": {
+        "sha256": "8bcaf52826cf7bc442cbf7e8eec8e2f4f8d7e2169c3d17e1345069dcc5b58320",
+        "size": 775161
+      },
+      "asset.meta": {
+        "sha256": "e04d1aea158f1d6852e647b1207c31c91b96f0f092c1f307729c0836637a03cc",
+        "size": 2145
+      },
+      "path": "Assets/Proxima/Documentation/images/proxima-1200x630.png\n00"
+    },
+    {
+      "guid": "189924640337d194095f06e2a09525ec",
+      "asset": {
+        "sha256": "82db756344f88af870c5194670fbd04c8f43986f42ae3beaadee94b2a753759b",
+        "size": 18350
+      },
+      "asset.meta": {
+        "sha256": "dd5724f77502b2e6a0c0238fe43c0a76974bf941f5cadf2712c67516723f87f3",
+        "size": 2268
+      },
+      "path": "Assets/Proxima/Documentation/images/proxima_logo.png\n00"
+    },
+    {
+      "guid": "1f0da27eff826494b99f5e680d9acda9",
+      "asset": {
+        "sha256": "9e5a88e686c1fd68db9718d72549a8e90a0e0b3bd9c80eabe69351c15cfb9e12",
+        "size": 608
+      },
+      "asset.meta": {
+        "sha256": "68dc0907bbdc05bb1d2d11b86d8215988bcee9c3df94cdee502166c55c4a9b44",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Editor/PfxImporter.cs\n00"
+    },
+    {
+      "guid": "010050a2d18c3794e8e2eecb897114c0",
+      "asset": {
+        "sha256": "d0ed34c8a7a60ae42df74a4243bfb66877ae9580b83ea07eec4a5ac8257cfdb0",
+        "size": 1236
+      },
+      "asset.meta": {
+        "sha256": "7643c096bcdc7843690c8bafad08e34a378f3c4e071eaf62dfc1b99413fb3588",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Editor/ProxiaWebGLBuildStep.cs\n00"
+    },
+    {
+      "guid": "d9a53cfb75d04be4bba086eb50ffed06",
+      "asset": {
+        "sha256": "886d84cfd88b9d9d1db5ecb30078549b13f22690cd4ae7d6bfd83398bb0575f6",
+        "size": 715
+      },
+      "asset.meta": {
+        "sha256": "80a6cfaa812d002105f896f2ded248fda3bd95582141ce65a2be596b94e3e5fc",
+        "size": 173
+      },
+      "path": "Assets/Proxima/Editor/Proxima.Editor.asmdef\n00"
+    },
+    {
+      "guid": "39ebdb5539d4c48449766b47ac62b913",
+      "asset": {
+        "sha256": "857a8d20f27f5c7f15afb25b34e8a63edd49190dcb7e805bd300a568d0ed3c9d",
+        "size": 7032
+      },
+      "asset.meta": {
+        "sha256": "7fe5ed3b46c5f04f754a65b6291596864c3652147095783485cebbc68b23d6de",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Editor/ProximaCodeGen.cs\n00"
+    },
+    {
+      "guid": "67056c62379d7d2459900cf537f23666",
+      "asset": {
+        "sha256": "00ea43f74a7a64f6f155b46d30847a73783d958f20e0569f459658326bd04d43",
+        "size": 4948
+      },
+      "asset.meta": {
+        "sha256": "ddc3fcc4dd2498b3b27cfa17e63c306aa96d81a3a5f184215905296f108be7aa",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Editor/ProximaInspectorEditor.cs\n00"
+    },
+    {
+      "guid": "0adebfc0bc2e0894cb1c428bc9e0901b",
+      "asset": {
+        "sha256": "0a912ebb32a7250ae28f1a70e3368fc0661be4d6493d9ff3b4ba3677ff9fb0d4",
+        "size": 15519
+      },
+      "asset.meta": {
+        "sha256": "6e76216b706497eaa28e62cdb8ad11c8614170f59afcb968da6f338e42f727c2",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Editor/ProximaMenu.cs\n00"
+    },
+    {
+      "guid": "6516416497f676b4aba8328116af0c65",
+      "asset": {
+        "sha256": "648cb833c1000bf368f0ad938e8a48be0a2e9ecdb12520552563c6df1de1e33f",
+        "size": 3091
+      },
+      "asset.meta": {
+        "sha256": "2a5a118f593897e7bba0679fdd9b5e65fc7d8cbcf813608014a79c3f5d5a6e0d",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Editor/ProximaStaticImporter.cs\n00"
+    },
+    {
+      "guid": "a4f11a266676b874baaa1a04f3d9b57d",
+      "asset": {
+        "sha256": "a7b42990bc849f4eec4507a3890ac55ef4fc1cb5f868fff7188b98d4c5e1f785",
+        "size": 10620
+      },
+      "asset.meta": {
+        "sha256": "4edf0b812f7b6e2946ed8f2b70f20ddd446107006e2b7ffeb8bff37e2bbda06f",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Editor/ProximaSurvey.cs\n00"
+    },
+    {
+      "guid": "3938d245b831a7c4a9387134609a6c95",
+      "asset": {
+        "sha256": "e81661f6c94cd1b69dd1bb080177fd827e6961b0300c604c5ce40eb02dace23a",
+        "size": 274
+      },
+      "asset.meta": {
+        "sha256": "0f4114f23c19370ecc1b00299f06856b546990931f85e93c37dc851d10304cc2",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Editor/ProximaTrial.cs\n00"
+    },
+    {
+      "guid": "defbb05a48417014db7a3b648301589f",
+      "asset": {
+        "sha256": "7b7f4efba19a47aa8c1984954613e25bf6b76731166053ac6ebcd31b286bf7f8",
+        "size": 2206
+      },
+      "asset.meta": {
+        "sha256": "ff2440d47a5864b8139a3ff4e774c4e8ac3cccad3e9f7e36358be66e198eafb7",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Editor/WindowUtil.cs\n00"
+    },
+    {
+      "guid": "9beaa43c2246f3c429af1bd9e5657284",
+      "asset": {
+        "sha256": "7f6b4b337f9463809cad3fb4ba02f1809cffc0611b2d6f5cfadc564737c04d65",
+        "size": 107361
+      },
+      "asset.meta": {
+        "sha256": "62c40b1f411029be8cf9b90aaaf7a9b9b6b6b9bbe5ceb85957deeeeecda6ecca",
+        "size": 161
+      },
+      "path": "Assets/Proxima/Resources/Proxima/ProximaConnectUI.prefab\n00"
+    },
+    {
+      "guid": "6e3c283c1c02ed346bf0d4d327715b4b",
+      "asset": {
+        "sha256": "377b7ef3d097c75518aa723e8fece57f52293a64482d6335ba23aa4490ea0883",
+        "size": 2710
+      },
+      "asset.meta": {
+        "sha256": "87afcbd37a493234d0d15d4c1b9f1796cfb4eb4b513e79190d3cd079530ec065",
+        "size": 285
+      },
+      "path": "Assets/Proxima/Resources/Proxima/ProximaEmbeddedCert.pfx\n00"
+    },
+    {
+      "guid": "936ae2105fa77a7448151fea10fa110f",
+      "asset": {
+        "sha256": "a96719d33e7cb6e49d8de2395ef6f0d4d1564ef12eb9823ef287262772c0c2d7",
+        "size": 25175
+      },
+      "asset.meta": {
+        "sha256": "63324c146c97a14ae825c9ae4d3a8a2e67eb5600c261a36ca4a4f568b821becb",
+        "size": 154
+      },
+      "path": "Assets/Proxima/Resources/Proxima/ProximaStatusUI.prefab\n00"
+    },
+    {
+      "guid": "c93ac46350ab2f14ba1ea87cd2d9e3ba",
+      "asset": {
+        "sha256": "93167d46ddaa2fb8d2f935518ba0c6de57a1b5263594fa03d49574fdfa745251",
+        "size": 202459
+      },
+      "asset.meta": {
+        "sha256": "6d7a8f60fa965284f54bf65ac45b4154ac81f586eef378403f50ce62cd46bf8c",
+        "size": 285
+      },
+      "path": "Assets/Proxima/Resources/Proxima/web.proximastatic\n00"
+    },
+    {
+      "guid": "b3a424b5724df2440982f5f059d8ab12",
+      "asset": {
+        "sha256": "d4fae9590aba21c2276a1f80ae8b34434b9c5bf5d862295c7273ea2ce93cf353",
+        "size": 7152
+      },
+      "asset.meta": {
+        "sha256": "766e55505d8fc40b1815b66fd204ac3654025a266aa3713a1f0a8766071a4197",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ArrayOrList.cs\n00"
+    },
+    {
+      "guid": "1433e3911ce61f54783a44faae88c010",
+      "asset": {
+        "sha256": "79a2b3b192f686f6c8d010e63ed24cabdd913c616f003de50ca1392e907a0614",
+        "size": 192
+      },
+      "asset.meta": {
+        "sha256": "40ca5098a8f13afd46b31ff6d3c7d4e309ab105597ba37011f73119373740647",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/AssemblyInfo.cs\n00"
+    },
+    {
+      "guid": "2cc8e31c1a399ed4e8c4cf72c2abfc5e",
+      "asset": {
+        "sha256": "e87ea53c7a7ceebcc4a5b7b387a43a6bd1192ce1358af82c4f6b407ac21b296c",
+        "size": 1171
+      },
+      "asset.meta": {
+        "sha256": "da07ffa66a0a19d815b57628b214ea6e3d42cfc2fb44767248e53bf558e98b7a",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/CircularList.cs\n00"
+    },
+    {
+      "guid": "ec8f0b0fcb7462a43a5b930004717228",
+      "asset": {
+        "sha256": "7438e239baad7ef69b27958362e24daafc75211b8db439dbfed2459e55705623",
+        "size": 17986
+      },
+      "asset.meta": {
+        "sha256": "8acd456428732f882e7642b6519176e1cacdc01fa7ae6af083dea5b533302382",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/Embedded/HttpDateParse.cs\n00"
+    },
+    {
+      "guid": "3d9389e3e4f6e9c42b5b1a635c8eb849",
+      "asset": {
+        "sha256": "aa70acb7fa455aab22209cd4567f1ce3e6387a1999b5f10504189283d059ee1f",
+        "size": 135
+      },
+      "asset.meta": {
+        "sha256": "67488adf9f47c31e10f3fac7a2b44c810ed7209e9933bc45e93f19941203c175",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/Embedded/PfxAsset.cs\n00"
+    },
+    {
+      "guid": "2bd3c2ee267f5b04fb056dceb506920a",
+      "asset": {
+        "sha256": "b2e80bf3862a55d5b42cc787521911011e7b825fb121394762879394355efc07",
+        "size": 4633
+      },
+      "asset.meta": {
+        "sha256": "43999ad542adc7a13491500e89c81c62b79964be3b93f189be369d60d15389a5",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/Embedded/ProximaEmbeddedConnection.cs\n00"
+    },
+    {
+      "guid": "886fa013fd1b21f4d9e70f837e19dd45",
+      "asset": {
+        "sha256": "78a7c1b763cb1bfaf3c2c647786389729f02d208e13617b04a0b4cbb5726371e",
+        "size": 6659
+      },
+      "asset.meta": {
+        "sha256": "675442ed98b46063575c8a0c7da69bd5cd1b84e99b21bad47a506d29b6d844c2",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/Embedded/ProximaEmbeddedServer.cs\n00"
+    },
+    {
+      "guid": "43c0651e2177f7b42846248f4ee5d1b6",
+      "asset": {
+        "sha256": "08937509b54ca7643fa549464465d315e7c486776be27920c2d49b977f5be52c",
+        "size": 388
+      },
+      "asset.meta": {
+        "sha256": "5cee33bbabeb8c18a0f38f002af05332f0a9565571ba5550aa91b47a237247ef",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/Embedded/ProximaStatic.cs\n00"
+    },
+    {
+      "guid": "ea1dc8830e236d145a577c7f26fd36d4",
+      "asset": {
+        "sha256": "ae9a113c2df104da6654fb008a6d1b4cbd803a662c1b90fbe81894b397079162",
+        "size": 19474
+      },
+      "asset.meta": {
+        "sha256": "f4d6c07aef094efb745ed6fb3842450c15b81e15c91308e528af69580725d43a",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/FastJson.cs\n00"
+    },
+    {
+      "guid": "195ceee437781954394800fb2b18ed2e",
+      "asset": {
+        "sha256": "3f0c318425951f77068ce7905447e1ebf288f0975231e9176bf620949beb2007",
+        "size": 465891
+      },
+      "asset.meta": {
+        "sha256": "bd11c902875d94b0b2fe7748c43b3a439c812d0490090e45ee9495761d813974",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/Generated/ProximaReflection.Generated.cs\n00"
+    },
+    {
+      "guid": "b4fde9a24ee322043a11937afe647590",
+      "asset": {
+        "sha256": "13b4bf715abef1bad6243e9ca3eb6387bce9e962a80f4168a195bc9c91278fdf",
+        "size": 384
+      },
+      "asset.meta": {
+        "sha256": "a066dd78437c8c67cc1bd2e883e5e2c6b1b3c68e5ad953a266905fadd6c1b044",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/Generated/ProximaReflection.Template.cs\n00"
+    },
+    {
+      "guid": "104c6d5c798130c44ad9e4c98ae18a5c",
+      "asset": {
+        "sha256": "896a87205d8283d90e40085d889a332c80d4281d7e82087e11c9fed4236f423a",
+        "size": 325
+      },
+      "asset.meta": {
+        "sha256": "3d1614cc68094a1735538f26381c61be96b1f22ccc393120e96e03c16ca5f061",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/Pro/ProximaButton.cs\n00"
+    },
+    {
+      "guid": "a1c56ebccc207bc4fa262a73cc6263e8",
+      "asset": {
+        "sha256": "3d6a55cb05cce324ed8e81dcce8fb9fd31031f112dd8d998f7bb22d39762f5dc",
+        "size": 15552
+      },
+      "asset.meta": {
+        "sha256": "d2f91e700c802a682282ef58427e5cd05cd530d59957329fc706a711562a446d",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/Pro/ProximaConsoleCommands.cs\n00"
+    },
+    {
+      "guid": "b10b70cc79dd76e4c844a44059769223",
+      "asset": {
+        "sha256": "6bd9ef033beca273924e51722c4bd73cefe769c98fd3f421ff3a477d3342fb49",
+        "size": 8174
+      },
+      "asset.meta": {
+        "sha256": "b0736164568f1b5e91aad05496525ef55bc05655e1925149c6274905fc769973",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/Pro/ProximaProComponentCommands.cs\n00"
+    },
+    {
+      "guid": "5aecca43f8b5ec34dbb52f863bdf0e59",
+      "asset": {
+        "sha256": "ce235b3e3a9ea8d4b8a6b5b20e7ca4f3997f00802aeeaa1c1b226f7f432cfabc",
+        "size": 2858
+      },
+      "asset.meta": {
+        "sha256": "8cedb05d76476992f808168bc5f5f3f4cc613b6db893945bcee5081cad05a9a5",
+        "size": 173
+      },
+      "path": "Assets/Proxima/Runtime/Proxima.asmdef\n00"
+    },
+    {
+      "guid": "99574471972d90040a8d9e1fd8bc45da",
+      "asset": {
+        "sha256": "c4e846e8dc30121cddb47391a2256644fc3ef41be1712bcbaf566c27216e0e48",
+        "size": 735
+      },
+      "asset.meta": {
+        "sha256": "bb5b83b6d7f3639dfc12a639f2d47e3366b2a87971ce44143c0d81a1ea43ad98",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaCommand.cs\n00"
+    },
+    {
+      "guid": "1e0f703866146ad4d9d9ef9f598eb95f",
+      "asset": {
+        "sha256": "c1057989d67242d1f9c01c3d2ca66b7f5b8f504e23cae28e47d67a54e3808ee5",
+        "size": 11133
+      },
+      "asset.meta": {
+        "sha256": "c228a1af7ffbfc96faa12b9b768963f3fe6c79c6ac52e0ab6170939982e527f0",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaCommandHelpers.cs\n00"
+    },
+    {
+      "guid": "0f7284d77cab99b45a8412399566627f",
+      "asset": {
+        "sha256": "567698815f30509fad9c04987bfd0578db05e115f437180cbc147e368ac15008",
+        "size": 29102
+      },
+      "asset.meta": {
+        "sha256": "60011a250fe367d2c226113a6af69262dc0cc97e4d7f0daa11a1641cfba4f623",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaComponentCommands.cs\n00"
+    },
+    {
+      "guid": "d20fb960dcd6aee4c91d76796c4e489a",
+      "asset": {
+        "sha256": "bc77f81255dd9af4984bb0855bc22fc0d7e9dce957057fbe4914b9f91f8a7323",
+        "size": 6878
+      },
+      "asset.meta": {
+        "sha256": "c8fa11e1930a6ef9191f125c4ca22dd69552716c527d7a36e9ae0980644ef4e1",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaConnectUI.cs\n00"
+    },
+    {
+      "guid": "191b8b0b4ac76204b84195265c432cd3",
+      "asset": {
+        "sha256": "90317d13c134fd411be9a22ce2e45ee8dfd8422fbff2ba91050053e61fcb5a5c",
+        "size": 173
+      },
+      "asset.meta": {
+        "sha256": "059f7f2f1511640f8ce4d6bb9a3ed13c949df5b0cb06a6d80b60fc22b3482bbd",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaConnection.cs\n00"
+    },
+    {
+      "guid": "eada919c535fd264ab8d40736ba71513",
+      "asset": {
+        "sha256": "6488668dbd88e6458da17098eedb3f5eacc87781724b705fdf1a5ecf3439041a",
+        "size": 1106
+      },
+      "asset.meta": {
+        "sha256": "6d22a44b9accbd7c0b80128bd4ddf41af36af3d4718447f8c4caec911cf4a233",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaDispatcher.cs\n00"
+    },
+    {
+      "guid": "04e66cb66bc0fa94995a4e0fd4c81ef1",
+      "asset": {
+        "sha256": "db5b4d0e955db8049a5d732e966ea43d1a04add50c1e5a21d81a129eb5a7ffef",
+        "size": 1553
+      },
+      "asset.meta": {
+        "sha256": "6b8d9c90ddf314b67942fdf0c5b6db400ee5b6bded81bdbf57283976bc7a1130",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaFeatures.cs\n00"
+    },
+    {
+      "guid": "f423de30373ae9147ad4d6f2b9a13a6f",
+      "asset": {
+        "sha256": "39a8648da7f3bbc59061a998f616643c9b46aded33c62c6f048f49c0ffbcecf9",
+        "size": 17540
+      },
+      "asset.meta": {
+        "sha256": "6487e9ef9955082ecb790a5c460fe3b9450fe8621785b3c8d3e1412562ce4c98",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaGameObjectCommands.cs\n00"
+    },
+    {
+      "guid": "d0bb0da2a2865e54f8fa5372774fc723",
+      "asset": {
+        "sha256": "184c59c6c1dca3b649fdbf1ce016672d39d339fdaa4a067ed95d6441cee6da9a",
+        "size": 328
+      },
+      "asset.meta": {
+        "sha256": "532ac12bdc1f540b536458c4497d0c4ac3a00ab280e2e96c14e955efabe0d7b8",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaInitialize.cs\n00"
+    },
+    {
+      "guid": "e277581af68d4604da056e460b819656",
+      "asset": {
+        "sha256": "98a8520690b6d01b14178d0b1cc7a966fa9ce4a7f11678421b8f5bb26701ba3c",
+        "size": 25560
+      },
+      "asset.meta": {
+        "sha256": "e680d61246e46394f03eb85d5e24f41090fb24e1fa8062a3d6ab071e09db8f87",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaInspector.cs\n00"
+    },
+    {
+      "guid": "5631c2ba32970104590d7fa32d88dd45",
+      "asset": {
+        "sha256": "5460a494288cfc7abd5ebb14b753a89ea2b6a07304edb69cb2cdfba4ac044a3c",
+        "size": 9397
+      },
+      "asset.meta": {
+        "sha256": "1376e9a963b3e773471ec3ddc9548c3a62f358689e326545f2f524fecd783d0a",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaInternalCommands.cs\n00"
+    },
+    {
+      "guid": "02714c12f1904514a8b943bb91117463",
+      "asset": {
+        "sha256": "f97cc29b700a7f3576fb055e92307995b6f0ff78e87f44086cb75c9f9ea82c67",
+        "size": 792
+      },
+      "asset.meta": {
+        "sha256": "ec8229e2b25e5f224780adfc3dca0d202b8e3317054f8d32ef573458a41fab67",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaLog.cs\n00"
+    },
+    {
+      "guid": "cd9d69ce3bb609948a7a44e254094c6d",
+      "asset": {
+        "sha256": "07ff77f3bc2e2ffc579f2eff791cfba8556ed3393429eef6badb4c7923c645ff",
+        "size": 4680
+      },
+      "asset.meta": {
+        "sha256": "91e73e7e6a24f72b269c8439e67cabb3de3c031718265c673d499e55ccbfeba9",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaLogCommands.cs\n00"
+    },
+    {
+      "guid": "515a81d2e925f9c4ca6315349af8e00b",
+      "asset": {
+        "sha256": "1e11edc6b419d1c482a680c05afe0a6d1cffb4d564dae8d3c8b02329bd778a3c",
+        "size": 4045
+      },
+      "asset.meta": {
+        "sha256": "0e99eac4c2efaea700f5db65ae997b197d6b05d2ecb6ce4189f34a15dafe038d",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaMimeTypes.cs\n00"
+    },
+    {
+      "guid": "201053f9f6c9b184a90c145b9e3733cd",
+      "asset": {
+        "sha256": "eb49705572793a74ed5e9cd5a73088fd1bf8272278b993ac1daa5ae0ee2be8bb",
+        "size": 19068
+      },
+      "asset.meta": {
+        "sha256": "edf53657506601903da4a1b5d10a3b8fd3cf5f0cb4d588124700ac3307cfff89",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaSerialization.cs\n00"
+    },
+    {
+      "guid": "d0eba2327bf45a14ca7165f1058269b1",
+      "asset": {
+        "sha256": "cb45bd123b5cb02d41a9b1387b0bd91b68d583c91732e16dcc42412c119e4040",
+        "size": 225
+      },
+      "asset.meta": {
+        "sha256": "c15950d75e47b31ebc821b3009a8b7a656d2c02ae23f7018b523adb8eaad7efb",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaServer.cs\n00"
+    },
+    {
+      "guid": "99dc7c2f70983554c864c7aaac5267dd",
+      "asset": {
+        "sha256": "eb08d69b93fe9c28b46088ed0ada44e665517a4ec487ed5e3d0f612ab422eb15",
+        "size": 1944
+      },
+      "asset.meta": {
+        "sha256": "1ff9dd1379931a98cf2aa9ea646e34f7f06dbf3701c7ab1bc2d73c754c874735",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaStatus.cs\n00"
+    },
+    {
+      "guid": "f8a779904589bf645b974624adf18491",
+      "asset": {
+        "sha256": "3133e4883d219645f599475b0b709d3e21cbfa2820d515009c76546602826b61",
+        "size": 3420
+      },
+      "asset.meta": {
+        "sha256": "97397d5ee6523b5793902d4403006ac8617262b26d63f7655f8a649dc0919390",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/ProximaStatusUI.cs\n00"
+    },
+    {
+      "guid": "52a8003bd3ff1f74ca735d2b68d69135",
+      "asset": {
+        "sha256": "0b5cec11dd272866998127db6fa0089c30f6879ea75ef3a29444863d6ad7243f",
+        "size": 934
+      },
+      "asset.meta": {
+        "sha256": "6fd9af8ca5ea908aed8b81d36a05180588659161409f6828d332b8b7153639b8",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/ProximaStream.cs\n00"
+    },
+    {
+      "guid": "d6f93b674e30e4fc0bfa22e0880c4c87",
+      "asset": {
+        "sha256": "87c660673c39168a7705c15ccdac4fca278c00b741495af5f2aaf52db9c36d8e",
+        "size": 22804
+      },
+      "asset.meta": {
+        "sha256": "05c38fd92866f4182455595a84409df033f84f865787e374bb4271ca719ae2e9",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Runtime/UnityComponents.json\n00"
+    },
+    {
+      "guid": "0a66e2f15d6d7b441ba16ebb86095440",
+      "asset": {
+        "sha256": "148298753567726ab42ec34a9bfca336dd5dce84e8ffcd70a31c81518c97fa5b",
+        "size": 3889
+      },
+      "asset.meta": {
+        "sha256": "6f04bc9086f21b492bca3787e1ca1d8b8bc3dd13ee021baf75ecf913b42bf17a",
+        "size": 636
+      },
+      "path": "Assets/Proxima/Runtime/WebGL/ProximaWebGL.jslib\n00"
+    },
+    {
+      "guid": "86c13c40d96ce6c4ebd1ef78ca0ec678",
+      "asset": {
+        "sha256": "2e73ce60f1fdbcc061745aed05d79b4813245129a0359ca8b85834c94e83a1fc",
+        "size": 6456
+      },
+      "asset.meta": {
+        "sha256": "0f844b6bc3bbbdc744ddd7dad2cd5fe71877bff465b0f9d7780994bb40de731c",
+        "size": 243
+      },
+      "path": "Assets/Proxima/Runtime/WebGL/ProximaWebGLConnection.cs\n00"
+    },
+    {
+      "guid": "f38bbfdc4fcaa7448bdbaf5c6eb4c6fd",
+      "asset": {
+        "sha256": "f0d2cbfbaeebe1256a53afeb7c259723b8343c64f928ba859773faab07f3c87a",
+        "size": 3901
+      },
+      "asset.meta": {
+        "sha256": "f4e7024e9daa89f078947395acb79fe85d36d9d61ac5af8b3e07922429fab766",
+        "size": 254
+      },
+      "path": "Assets/Proxima/Runtime/WebGL/ProximaWebGLServer.cs\n00"
+    },
+    {
+      "guid": "65378d4b1a0f3004082b228aa7a3dca1",
+      "asset": {
+        "sha256": "d64ad4948c6c7c99505ab68c783f71bd26b3222a24ac27124c2fbc69db93b0c6",
+        "size": 17
+      },
+      "asset.meta": {
+        "sha256": "6f2612db318f7c222b6c6416db37b525ffd953d7be31c6befec8b0c10c03fd26",
+        "size": 155
+      },
+      "path": "Assets/Proxima/Runtime/csc.rsp\n00"
+    },
+    {
+      "guid": "8f5fd60ea70bf0243ac3e32c81becef6",
+      "asset": {
+        "sha256": "410e2ccdcead8a9b82356194199b1e6a2c5696a4e1e8a65ff88d0d9e9ef20cb5",
+        "size": 16888
+      },
+      "asset.meta": {
+        "sha256": "1400128ee82f9a443d778ac598db1e47fafefc4f1285986b9363649a53d6837d",
+        "size": 155
+      },
+      "path": "Assets/Proxima/Scenes/BasicProximaSetup.unity\n00"
+    },
+    {
+      "guid": "9c4086f38f8e37949978f4861eee5e47",
+      "asset": {
+        "sha256": "01acb73c91fcccf73b0bc727d583dcd2f7463a2132d042be9d968368b872021a",
+        "size": 37322
+      },
+      "asset.meta": {
+        "sha256": "28a7e1ce15fd1ffa8c230baba5ea4f83a3bd09765a491f96e5dd837849770e25",
+        "size": 3853
+      },
+      "path": "Assets/Proxima/Sprites/flexalon-logo.png\n00"
+    },
+    {
+      "guid": "84dd31c6b1180460789ddc5fc0620856",
+      "asset": {
+        "sha256": "8cb7b18b569b6322fb66aba232b7e97013afcbb65e0ae9b737f49506b243ddb0",
+        "size": 979
+      },
+      "asset.meta": {
+        "sha256": "3448a39bf86ae92a906dea58f87ce55283dc7e57952955c98e3389173eacac08",
+        "size": 3659
+      },
+      "path": "Assets/Proxima/Sprites/proxima_icon_32x32.png\n00"
+    },
+    {
+      "guid": "834e6e3f5b2f6fd479051cdddf01f4b1",
+      "asset": {
+        "sha256": "82db756344f88af870c5194670fbd04c8f43986f42ae3beaadee94b2a753759b",
+        "size": 18350
+      },
+      "asset.meta": {
+        "sha256": "b1f1b817a9f63907311391046f75e2d59d0e6ef2de8f1e0b70074df335de3c25",
+        "size": 3999
+      },
+      "path": "Assets/Proxima/Sprites/proxima_logo.png\n00"
+    },
+    {
+      "guid": "665ad43a4b3704868b3ad4406c5c3d5b",
+      "asset": {
+        "sha256": "cf4d601ab02a55eda87af92a09cea19d018d6ff33101015f4b99d0a71be82de2",
+        "size": 410
+      },
+      "asset.meta": {
+        "sha256": "125543f577b5c4b22ace4b7829e398e39db4f97903ccdfd0d39d2aa631d6734b",
+        "size": 165
+      },
+      "path": "Assets/Proxima/Third-Party Notices.txt\n00"
+    },
+    {
+      "guid": "3adce1a9bc62b4515979022e003e9e6b",
+      "asset": {
+        "sha256": "cec4773b027b0d8d76a315d2be2c4f91005ab0c61324fcf4328af1b84b4c2b40",
+        "size": 1104
+      },
+      "asset.meta": {
+        "sha256": "632a3662b1f1d8701730b217f637db27f7f37719a53c177fafbe97916dd3fe79",
+        "size": 165
+      },
+      "path": "Assets/Proxima/WebSocketSharp/LICENSE.txt\n00"
+    },
+    {
+      "guid": "1a87c93370d624c58b4383aa0fa31ed7",
+      "asset": {
+        "sha256": "e78f638ebb11baac170d8f1c7bae0c0eb2267ab41b8b7240639913018b0213d5",
+        "size": 654
+      },
+      "asset.meta": {
+        "sha256": "9000e05695711c610379b54f441611ac143dea1100cf631657d8c29ef4b27d8e",
+        "size": 165
+      },
+      "path": "Assets/Proxima/WebSocketSharp/README.txt\n00"
+    },
+    {
+      "guid": "9baed5fd89595c948b35d6068d0764bf",
+      "asset": {
+        "sha256": "5ad0e382b7a6893010e28c851a682cb8243376b55a4931f3587844ffbab07adf",
+        "size": 246272
+      },
+      "asset.meta": {
+        "sha256": "03c34e8af66b85697589279a4a2972b6ed6d5b2817b068f487ded4a4561a8131",
+        "size": 678
+      },
+      "path": "Assets/Proxima/WebSocketSharp/proxima-websocket-sharp.dll\n00"
+    },
+    {
+      "guid": "cc0f737b215c72d4494952f595bd1ed3",
+      "asset": {
+        "sha256": "a9738e3f449a7d64f1c3783a809ec4af47e200bd7d5cbe57ea0a3ab0eddb29e3",
+        "size": 288
+      },
+      "asset.meta": {
+        "sha256": "bb3e871414fbbcf457aa3252a4a8cdadb20e00a123ab125282b12a6ab6570420",
+        "size": 158
+      },
+      "path": "Assets/Proxima/link.xml\n00"
+    },
+    {
+      "guid": "55a7fa332ffadb5489464312015b3ea8",
+      "asset": {
+        "sha256": "91e3a0738045413717768c3c773e35eca5b1a66d3b6bb1e3d761297b3fbb5bce",
+        "size": 269
+      },
+      "asset.meta": {
+        "sha256": "148e13bcaebc6bfa357820d6ac822d45780faa9c3c0a72ce07c57b2942f9063e",
+        "size": 165
+      },
+      "path": "Assets/Proxima/package.json\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "d8468925e4646c4ae5c4b13b46a3bd62fb7d5d006556b8a7f8bc00ebb61a3d43",
+      "size": 43128
+    }
+  ],
+  "control_character_paths": [
+    "Assets/Proxima/CHANGELOG.md\n00",
+    "Assets/Proxima/Documentation/_app/immutable/assets/_layout-1f0a7e97.css\n00",
+    "Assets/Proxima/Documentation/_app/immutable/assets/_layout-6847360b.css\n00",
+    "Assets/Proxima/Documentation/docs.html\n00",
+    "Assets/Proxima/Documentation/docs/all_config.html\n00",
+    "Assets/Proxima/Documentation/docs/basic-config.png\n00",
+    "Assets/Proxima/Documentation/docs/browser_warning.png\n00",
+    "Assets/Proxima/Documentation/docs/buttons.html\n00",
+    "Assets/Proxima/Documentation/docs/connect-ui.png\n00",
+    "Assets/Proxima/Documentation/docs/connect.html\n00",
+    "Assets/Proxima/Documentation/docs/connect.png\n00",
+    "Assets/Proxima/Documentation/docs/console.html\n00",
+    "Assets/Proxima/Documentation/docs/console.png\n00",
+    "Assets/Proxima/Documentation/docs/console_built_in.html\n00",
+    "Assets/Proxima/Documentation/docs/console_custom.html\n00",
+    "Assets/Proxima/Documentation/docs/deeplinks.html\n00",
+    "Assets/Proxima/Documentation/docs/device-config.png\n00",
+    "Assets/Proxima/Documentation/docs/faq.html\n00",
+    "Assets/Proxima/Documentation/docs/features.html\n00",
+    "Assets/Proxima/Documentation/docs/gameobjectsearch.png\n00",
+    "Assets/Proxima/Documentation/docs/inspector.html\n00",
+    "Assets/Proxima/Documentation/docs/inspector.png\n00",
+    "Assets/Proxima/Documentation/docs/log-controls.png\n00",
+    "Assets/Proxima/Documentation/docs/logs.html\n00",
+    "Assets/Proxima/Documentation/docs/logs.png\n00",
+    "Assets/Proxima/Documentation/docs/password-warning.png\n00",
+    "Assets/Proxima/Documentation/docs/run-script.png\n00",
+    "Assets/Proxima/Documentation/docs/secure-config.png\n00",
+    "Assets/Proxima/Documentation/docs/security.html\n00",
+    "Assets/Proxima/Documentation/docs/status-ui.png\n00",
+    "Assets/Proxima/Documentation/docs/supported_platforms.html\n00",
+    "Assets/Proxima/Documentation/docs/viewing_logs_offline.html\n00",
+    "Assets/Proxima/Documentation/fonts/S6uyw4BMUTPHjx4wXg.woff2\n00",
+    "Assets/Proxima/Documentation/fonts/S6uyw4BMUTPHjxAwXjeu.woff2\n00",
+    "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfp8uP.woff2\n00",
+    "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfpcuPP9g.woff2\n00",
+    "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfqMuPP9g.woff2\n00",
+    "Assets/Proxima/Documentation/fonts/w8gdH283Tvk__Lua32TysjIfqcuPP9g.woff2\n00",
+    "Assets/Proxima/Documentation/icons/arrow.png\n00",
+    "Assets/Proxima/Documentation/icons/discord.png\n00",
+    "Assets/Proxima/Documentation/icons/menu.png\n00",
+    "Assets/Proxima/Documentation/icons/proxima_icon_32x32.png\n00",
+    "Assets/Proxima/Documentation/images/proxima-1200x630.png\n00",
+    "Assets/Proxima/Documentation/images/proxima_logo.png\n00",
+    "Assets/Proxima/Editor/PfxImporter.cs\n00",
+    "Assets/Proxima/Editor/ProxiaWebGLBuildStep.cs\n00",
+    "Assets/Proxima/Editor/Proxima.Editor.asmdef\n00",
+    "Assets/Proxima/Editor/ProximaCodeGen.cs\n00",
+    "Assets/Proxima/Editor/ProximaInspectorEditor.cs\n00",
+    "Assets/Proxima/Editor/ProximaMenu.cs\n00",
+    "Assets/Proxima/Editor/ProximaStaticImporter.cs\n00",
+    "Assets/Proxima/Editor/ProximaSurvey.cs\n00",
+    "Assets/Proxima/Editor/ProximaTrial.cs\n00",
+    "Assets/Proxima/Editor/WindowUtil.cs\n00",
+    "Assets/Proxima/Resources/Proxima/ProximaConnectUI.prefab\n00",
+    "Assets/Proxima/Resources/Proxima/ProximaEmbeddedCert.pfx\n00",
+    "Assets/Proxima/Resources/Proxima/ProximaStatusUI.prefab\n00",
+    "Assets/Proxima/Resources/Proxima/web.proximastatic\n00",
+    "Assets/Proxima/Runtime/ArrayOrList.cs\n00",
+    "Assets/Proxima/Runtime/AssemblyInfo.cs\n00",
+    "Assets/Proxima/Runtime/CircularList.cs\n00",
+    "Assets/Proxima/Runtime/Embedded/HttpDateParse.cs\n00",
+    "Assets/Proxima/Runtime/Embedded/PfxAsset.cs\n00",
+    "Assets/Proxima/Runtime/Embedded/ProximaEmbeddedConnection.cs\n00",
+    "Assets/Proxima/Runtime/Embedded/ProximaEmbeddedServer.cs\n00",
+    "Assets/Proxima/Runtime/Embedded/ProximaStatic.cs\n00",
+    "Assets/Proxima/Runtime/FastJson.cs\n00",
+    "Assets/Proxima/Runtime/Generated/ProximaReflection.Generated.cs\n00",
+    "Assets/Proxima/Runtime/Generated/ProximaReflection.Template.cs\n00",
+    "Assets/Proxima/Runtime/Pro/ProximaButton.cs\n00",
+    "Assets/Proxima/Runtime/Pro/ProximaConsoleCommands.cs\n00",
+    "Assets/Proxima/Runtime/Pro/ProximaProComponentCommands.cs\n00",
+    "Assets/Proxima/Runtime/Proxima.asmdef\n00",
+    "Assets/Proxima/Runtime/ProximaCommand.cs\n00",
+    "Assets/Proxima/Runtime/ProximaCommandHelpers.cs\n00",
+    "Assets/Proxima/Runtime/ProximaComponentCommands.cs\n00",
+    "Assets/Proxima/Runtime/ProximaConnectUI.cs\n00",
+    "Assets/Proxima/Runtime/ProximaConnection.cs\n00",
+    "Assets/Proxima/Runtime/ProximaDispatcher.cs\n00",
+    "Assets/Proxima/Runtime/ProximaFeatures.cs\n00",
+    "Assets/Proxima/Runtime/ProximaGameObjectCommands.cs\n00",
+    "Assets/Proxima/Runtime/ProximaInitialize.cs\n00",
+    "Assets/Proxima/Runtime/ProximaInspector.cs\n00",
+    "Assets/Proxima/Runtime/ProximaInternalCommands.cs\n00",
+    "Assets/Proxima/Runtime/ProximaLog.cs\n00",
+    "Assets/Proxima/Runtime/ProximaLogCommands.cs\n00",
+    "Assets/Proxima/Runtime/ProximaMimeTypes.cs\n00",
+    "Assets/Proxima/Runtime/ProximaSerialization.cs\n00",
+    "Assets/Proxima/Runtime/ProximaServer.cs\n00",
+    "Assets/Proxima/Runtime/ProximaStatus.cs\n00",
+    "Assets/Proxima/Runtime/ProximaStatusUI.cs\n00",
+    "Assets/Proxima/Runtime/ProximaStream.cs\n00",
+    "Assets/Proxima/Runtime/UnityComponents.json\n00",
+    "Assets/Proxima/Runtime/WebGL/ProximaWebGL.jslib\n00",
+    "Assets/Proxima/Runtime/WebGL/ProximaWebGLConnection.cs\n00",
+    "Assets/Proxima/Runtime/WebGL/ProximaWebGLServer.cs\n00",
+    "Assets/Proxima/Runtime/csc.rsp\n00",
+    "Assets/Proxima/Scenes/BasicProximaSetup.unity\n00",
+    "Assets/Proxima/Sprites/flexalon-logo.png\n00",
+    "Assets/Proxima/Sprites/proxima_icon_32x32.png\n00",
+    "Assets/Proxima/Sprites/proxima_logo.png\n00",
+    "Assets/Proxima/Third-Party Notices.txt\n00",
+    "Assets/Proxima/WebSocketSharp/LICENSE.txt\n00",
+    "Assets/Proxima/WebSocketSharp/README.txt\n00",
+    "Assets/Proxima/WebSocketSharp/proxima-websocket-sharp.dll\n00",
+    "Assets/Proxima/link.xml\n00",
+    "Assets/Proxima/package.json\n00"
+  ]
+}

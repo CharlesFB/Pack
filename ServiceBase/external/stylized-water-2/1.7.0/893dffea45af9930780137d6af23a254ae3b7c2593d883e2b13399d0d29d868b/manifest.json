@@ -1,0 +1,3014 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-stylized-water-2-90c54509",
+  "build_id": "893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+  "artifact": "artifact.unitypackage",
+  "sha256": "893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+  "size": 40836698,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "f07fbdad38458814a87e9b627e287ccb",
+      "asset": {
+        "sha256": "334d518a9ed56098f0c0c3dfe883f5847a6f03dc9a990905a2aeb1595c643da6",
+        "size": 29819
+      },
+      "asset.meta": {
+        "sha256": "cc14c3c8fd47b9c76ce930887779165236530c7d1861cc4ca319d7c84f024d7a",
+        "size": 165
+      },
+      "path": "Assets/StylizedWater2/CHANGELOG.md\n00"
+    },
+    {
+      "guid": "69fb6414614e3ae498bcab4065b96842",
+      "asset": {
+        "sha256": "cbb0bd439f7bb269ac777621fb45bcfbaa82fac2307a4322cc648eccd95e9ed3",
+        "size": 153
+      },
+      "asset.meta": {
+        "sha256": "e05b63229de54598f81483451dca1dfc1b75382126d8d0d85448ff6e09eb67a9",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/Documentation.url\n00"
+    },
+    {
+      "guid": "d5972a1c9cddd9941aec37a3343647aa",
+      "asset": {
+        "sha256": "8d6764f199162f865a01241313dab08a177f6b5ada1f00db51e48e7f29604028",
+        "size": 19517
+      },
+      "asset.meta": {
+        "sha256": "e009162b3b574ebdf8b7d633071f9d4dbb2c3ccd047e75923a36e75774aa7e20",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/AssetInfo.cs\n00"
+    },
+    {
+      "guid": "9423877ce002b024984ae85461230da7",
+      "asset": {
+        "sha256": "7e393d002d58fbe2cfba272f55d5b8ea0ea41711470eeab77feaf213fd60fc10",
+        "size": 121673
+      },
+      "asset.meta": {
+        "sha256": "1c84378ce8f460bd1c0efd29cd9aa36b1b6e12d9b35c01520bb75d38be3483b6",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/HelpWindow.cs\n00"
+    },
+    {
+      "guid": "6551d287f84686b47a644eabc2efd2c8",
+      "asset": {
+        "sha256": "969de4a001ce064fc20baa839d0554d04355689df0e09590b6027cf64e95b212",
+        "size": 10926
+      },
+      "asset.meta": {
+        "sha256": "25e091a98560d53eda021a9c24d0679ccbd4ddaf6251cd5eec31233e1d14125a",
+        "size": 316
+      },
+      "path": "Assets/StylizedWater2/Editor/Inspectors/AlignToWavesInspector.cs\n00"
+    },
+    {
+      "guid": "e169bca08efce694eab8006b53ed91c1",
+      "asset": {
+        "sha256": "a573afd78fb57a4c39aba50684cab3aa4adc2aa0bfaab1aea509309744652714",
+        "size": 13665
+      },
+      "asset.meta": {
+        "sha256": "d8ee0daa3ff7f023b78dcc1c250189c44dea72aad0bb439722afd822cdaf9977",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/Inspectors/PlanarReflectionRendererInspector.cs\n00"
+    },
+    {
+      "guid": "b1e12468f8ea4290a886e4706e800a98",
+      "asset": {
+        "sha256": "d959aec361d6c06587071e582e8eecb86347432b7b1818cf12fa6b034b486618",
+        "size": 2845
+      },
+      "asset.meta": {
+        "sha256": "5c5a8da25a1231db478cbafdfa29b8a145d12b9b7e382ca1bf0d03a94ee85e86",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Editor/Inspectors/RenderFeatureEditor.cs\n00"
+    },
+    {
+      "guid": "55b547e4881242f4af120838d3e9e6d6",
+      "asset": {
+        "sha256": "840cad81b82ce9730b74a70c20ab469dc5a2b2b892861c79fe8027bdb54302b4",
+        "size": 4999
+      },
+      "asset.meta": {
+        "sha256": "6a565a5f799d901660602c094deb66c7c64d3edb1d2d985c780664aefff3c109",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Editor/Inspectors/WaterGridInspector.cs\n00"
+    },
+    {
+      "guid": "24c4c7f693f04a3893891169c1f864d8",
+      "asset": {
+        "sha256": "7cf93601f2b7e3151780cdd3925a5088bc7e73168afafc91a8715ff7f7140289",
+        "size": 5402
+      },
+      "asset.meta": {
+        "sha256": "c2db3a9424c82e060a8ba8dd4c2ed45c16a67fa09005fcd118ac218c14849a1a",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Editor/Inspectors/WaterObjectInspector.cs\n00"
+    },
+    {
+      "guid": "81c37dbe6c244dcca9bde0e9c0f64171",
+      "asset": {
+        "sha256": "abbc91c12a355c20aef9faca35c1dba9218e0d496ec08add13dd64beae0e1085",
+        "size": 14629
+      },
+      "asset.meta": {
+        "sha256": "28d57c3dda3444c995fedfbd9a01102be01d6f1afba0efdc9a217e041df6c74c",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Editor/Inspectors/WaterShaderImporterEditor.cs\n00"
+    },
+    {
+      "guid": "ab427f26bc4a58a4d982a32fcf593b66",
+      "asset": {
+        "sha256": "02d0d22bae616409702596c7795b90d424866f6241572b9204db7f72bce3d0d5",
+        "size": 98476
+      },
+      "asset.meta": {
+        "sha256": "42462e95fc4f00f94bb023314bc6654890a5f96c60f6c8e56dbf62fcc9311617",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/MaterialUI.cs\n00"
+    },
+    {
+      "guid": "83548767ebe1791409159648329da97d",
+      "asset": {
+        "sha256": "522c37f085017abea81a2369c7f36b5f3b4d9809f30d4410ea696efad7af73b4",
+        "size": 2253
+      },
+      "asset.meta": {
+        "sha256": "a272f56cacf68c906beea87b99877dbe7b7e98dab789ff7b42a33e069e824505",
+        "size": 3650
+      },
+      "path": "Assets/StylizedWater2/Editor/Resources/water-object-icon.png\n00"
+    },
+    {
+      "guid": "8b93d3698aa42dd4382e180b61a3f224",
+      "asset": {
+        "sha256": "a2b18f256e31178b16348cba2b4fb6447b9158d365238449378cfdc932b47241",
+        "size": 4180
+      },
+      "asset.meta": {
+        "sha256": "751efe2ae7b2cab8c92d457e4ddc3de0eccb4e08c1fa53010e208eb46e6922b2",
+        "size": 3650
+      },
+      "path": "Assets/StylizedWater2/Editor/Resources/water-shader-icon.png\n00"
+    },
+    {
+      "guid": "026e0b49a81c6b047b5b159b73908933",
+      "asset": {
+        "sha256": "f926fb48c50b97b60cca038b71394baa46780a3ef68609ae756045c9696104ca",
+        "size": 279686
+      },
+      "asset.meta": {
+        "sha256": "9a2ab1ad6bb4183a934a9ed954cf725f6eb501170d73c0ba883d2b97673b53b4",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/ShaderConfigurator.cs\n00"
+    },
+    {
+      "guid": "23fe47c78f2c84d4db3765a2a5466f68",
+      "asset": {
+        "sha256": "5bff7684d5846d99504a1e89beff1324e593092fbae5145727daa425fc1dabf6",
+        "size": 10865
+      },
+      "asset.meta": {
+        "sha256": "596240934e9fe3efff84a700e442ef235f38d6f493681bbc1267c65b227117a4",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/StylizedWaterEditor.cs\n00"
+    },
+    {
+      "guid": "c3ec5d4ce2810a8428fc54db383a4386",
+      "asset": {
+        "sha256": "94e4696a051ded250e3dbd0d4dfc055ddcf9616f9adfb19a56ee84f8f9e233ff",
+        "size": 179111
+      },
+      "asset.meta": {
+        "sha256": "4cb17335cc48254257c977bb22b12476a193325cc4f47f78bdfcf51ebd84f812",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/UI.cs\n00"
+    },
+    {
+      "guid": "5b8903faabaa4d64bbf306b8787d2d67",
+      "asset": {
+        "sha256": "942d8585b456c4992b263174875a813201402acdfabd13a4ca33779b35d667d1",
+        "size": 7563
+      },
+      "asset.meta": {
+        "sha256": "8619d15b520af086845acab92fb90aa559ac5ac3856b7a7943d0ee157c081116",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Editor/WaterMeshImporter.cs\n00"
+    },
+    {
+      "guid": "531a3ff0802e4acbaef16e2b9d97fd66",
+      "asset": {
+        "sha256": "cb3c70b77739b6604103e8538eb68ba5c576d23da262d437eb4a289ab593930b",
+        "size": 13363
+      },
+      "asset.meta": {
+        "sha256": "1bf862cd6d658551e0b337d901fedd329af1997055b07cf4ecaf47dca2ce0728",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Editor/WaterShaderImporter.cs\n00"
+    },
+    {
+      "guid": "b0d7a190570d98a42893c25d592fe760",
+      "asset": {
+        "sha256": "b69fa6ea3db94fc505dfd7d9c3914dd2f814b8218dd7e1c3999083e89bc67e8d",
+        "size": 1371
+      },
+      "asset.meta": {
+        "sha256": "c0164ae8f8d61afa5f2b1c8977a94dd7ad3d4a117d19ea3d9a527d11d07259a8",
+        "size": 173
+      },
+      "path": "Assets/StylizedWater2/Editor/sc.stylizedwater2.editor.asmdef\n00"
+    },
+    {
+      "guid": "36b83f0b942f0634187136771c93c7b8",
+      "asset": {
+        "sha256": "7ff7529ef9b7292f1de7dc73eb168d9547595970379853109d65f7e6fa04ba2a",
+        "size": 3534
+      },
+      "asset.meta": {
+        "sha256": "d000c691d7310a82ab1a7fe6187b8169dd1ac1cc4ec761977f6370a3296175bb",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/SplashParticle.mat\n00"
+    },
+    {
+      "guid": "850f3ddaf22381d4188a875811f0cf42",
+      "asset": {
+        "sha256": "12f2ed8c893f0a049e5068ef201eeaf3f64b9e8e0657c684b410089fc8f3a38e",
+        "size": 3692
+      },
+      "asset.meta": {
+        "sha256": "80fd3fafba3bd5b2d56305d00a3e3323f24b032133463cbfbcaa20823a35b1d6",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/SplashParticle_Up.mat\n00"
+    },
+    {
+      "guid": "fdf3b141001fcc4409bab4a5885c4bc6",
+      "asset": {
+        "sha256": "9ceef31af24d065a7e78a286a9db2ef3a751bb25218f5c62d4299b0261908521",
+        "size": 237731
+      },
+      "asset.meta": {
+        "sha256": "eede684e164c9115f57f6818b9618ff83b7809fdb20c5d44d7f4988358f6c3d0",
+        "size": 3650
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/CrestSplash_AlbedoAlpha.png\n00"
+    },
+    {
+      "guid": "613a9115f0d3ba147be1bab79fb09436",
+      "asset": {
+        "sha256": "291229430d017c28505f0de93993e04eaf84745abf5249a5f5bce50c7cc4dc3f",
+        "size": 531900
+      },
+      "asset.meta": {
+        "sha256": "101d21ce25585b9cc51191fb947cdd19466c80a71fef13c9abc68bbf386a0370",
+        "size": 3312
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/CrestSplash_Normals.png\n00"
+    },
+    {
+      "guid": "c49e969dfb39ed24b865b5ea73ea901b",
+      "asset": {
+        "sha256": "4c773e3ffb892c906549cd0101c499c380c65ddf5cda08b63ceb5fde1ec75a75",
+        "size": 468222
+      },
+      "asset.meta": {
+        "sha256": "562fa4e13c70024c47657cdc71a0cf6105217af1a24c180a0d53255a73529c55",
+        "size": 3523
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterMist_5x5.png\n00"
+    },
+    {
+      "guid": "44f9dbe54fbc12d47b885d677aec1c42",
+      "asset": {
+        "sha256": "ad7f5f45440d5e7ab1efc8404b799e33341f6ed685fa2ef3a04d763fd4ebf08c",
+        "size": 168124
+      },
+      "asset.meta": {
+        "sha256": "7cdf622ef160b28d8f21ab52db633687ced3baae27488737a684f3028d21d7c8",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterMist_5x5_normals.png\n00"
+    },
+    {
+      "guid": "12a8a0e9cb1136a4e8896157fee235c5",
+      "asset": {
+        "sha256": "d4378f364d4633c9fa8aeef2d13340d2a62dbb3d53ab864830ccaf991f1cc0be",
+        "size": 44114
+      },
+      "asset.meta": {
+        "sha256": "7cf0ea28217ccfa10d4d0f5d13931f647539b9f11aa143a55e55e37374f6380a",
+        "size": 2832
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterRipple.png\n00"
+    },
+    {
+      "guid": "b235492afd682b14fa330a36bf8539af",
+      "asset": {
+        "sha256": "7d89353c64ba5ee99f1817a78f6d29cdb3288218abfccc26cb3e0b63fcf831eb",
+        "size": 106165
+      },
+      "asset.meta": {
+        "sha256": "968c5fb3c5f9fd07fd3e011a05a50dcba77aa37b20a43e1639223ef36a5b9002",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterRipple_normal.png\n00"
+    },
+    {
+      "guid": "7a216b9dc9c30094c8447fd44417e6cb",
+      "asset": {
+        "sha256": "28955961ec11fb2cb5b81129552b0a3911f5146d25c4a84ec08a46f1c264eb1f",
+        "size": 670249
+      },
+      "asset.meta": {
+        "sha256": "ff05e57bea742c29c073bf31675b3631a18e5807da7c2dd6ccbf6bae29453063",
+        "size": 3172
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashCircle_5x5.png\n00"
+    },
+    {
+      "guid": "89ca8e9e9df9e3746a6d9e7339fc5cf9",
+      "asset": {
+        "sha256": "f4252ceeb30343c3a986d53fe5a36b5613b33e482c772372657bc71b6855012c",
+        "size": 240554
+      },
+      "asset.meta": {
+        "sha256": "7cd1e36fef636a41c60fc05dd929564e4bd8e72146cc14280945f7da2a7a8c61",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashCircle_5x5_normals.png\n00"
+    },
+    {
+      "guid": "b25bdd89afb6d1e42a291d08a2a51b43",
+      "asset": {
+        "sha256": "a1d8aa15d9e1bb99c7fe607df19855486c3c22e7b06c752d9f7fdba7dfc83f40",
+        "size": 401156
+      },
+      "asset.meta": {
+        "sha256": "3fae10411a2c9ae32381ae1ef5ad60655738c7c1380d8d4883a4f1589f2ba7af",
+        "size": 3172
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashUp_6x6.png\n00"
+    },
+    {
+      "guid": "cf59cfe0d17ff9d41ad4a68623e95d16",
+      "asset": {
+        "sha256": "6fc8ef846bfa742a4bb43db32f88b3797f48c1d82ac0283117894019fdc27f86",
+        "size": 229161
+      },
+      "asset.meta": {
+        "sha256": "722cea60bcb3c0eefb0cb9d2b8da66954b25be934d7422de27b5268252921e45",
+        "size": 3176
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashUp_6x6_normals.png\n00"
+    },
+    {
+      "guid": "d148cb788e2a65248a11186344e26334",
+      "asset": {
+        "sha256": "b15b68be03778209269bf60b4c4076380c53af828ae10ea7fd78f1aeb0503f7f",
+        "size": 667453
+      },
+      "asset.meta": {
+        "sha256": "ebba7cb86de7e3964172ea60363601bf7f699119c1140f2c38eda6d39af37841",
+        "size": 3523
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplash_6x6.png\n00"
+    },
+    {
+      "guid": "c75a2b6518a6b804389f10ae86232a9b",
+      "asset": {
+        "sha256": "a95e40d348230eb6275a8e53c60392d59867e94ad6491aef82abb3f42aa75fd0",
+        "size": 232155
+      },
+      "asset.meta": {
+        "sha256": "1e5affe53d30792d4789404da815589e7a2714e724e58e6f8bdc21f72b046817",
+        "size": 3527
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplash_6x6_normals.png\n00"
+    },
+    {
+      "guid": "1ec39eae9e109aa4d8c70c77ca06ffa8",
+      "asset": {
+        "sha256": "74c1d75bcfcc5e90b648658db67e7902066786f49266a8badd4974ef1b02321f",
+        "size": 546955
+      },
+      "asset.meta": {
+        "sha256": "eeabb37d008a15560bc11314472e0620c8917b46aab7d5b2beec6be1974a5944",
+        "size": 3523
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterfallSplash_5x5.png\n00"
+    },
+    {
+      "guid": "26a40374c0f319448be12fc2d9d06595",
+      "asset": {
+        "sha256": "5d6e03b82877f64610edcd8ba996fceb8ce340d0bd4d899f84b3de82547925cd",
+        "size": 183788
+      },
+      "asset.meta": {
+        "sha256": "851272ef5ab395f221e043e44deee6af878d9e036e47519d5b41467538dc9f03",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/Textures/WaterfallSplash_5x5_normals.png\n00"
+    },
+    {
+      "guid": "e1496308c2bd85a4a857bc219fe9cc7e",
+      "asset": {
+        "sha256": "c1c8eedeb98cf6f3a099d59487562a21cdb964f573564f45d627be0897fa528d",
+        "size": 3685
+      },
+      "asset.meta": {
+        "sha256": "bb89d5cc04f7f0c11e8e5c0ecccce7fd3057b05373dc6e13bbb195647b9c533c",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/WaterCircle.mat\n00"
+    },
+    {
+      "guid": "0a53b1cf91a82c342acb93348cbdf42f",
+      "asset": {
+        "sha256": "5fb14925369f048e3d52aac2b5376b3730c5c47181b25771dfba3dd27c219daf",
+        "size": 3686
+      },
+      "asset.meta": {
+        "sha256": "56870943b97099f283346f625932a3513b5dcc2a1aa3c53ddac2e845d7e90de0",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/WaterMistParticle.mat\n00"
+    },
+    {
+      "guid": "a247ea74a33eb6546a6b9602f5150c35",
+      "asset": {
+        "sha256": "4cfa2988b3049c9b4107bbc715c892633843edde826815cfb1b8b49d68f4b390",
+        "size": 3710
+      },
+      "asset.meta": {
+        "sha256": "e90ec9c5e0e46299fae6dbd6da233e78793e6ac1b47fac386204fe90a7382906",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/WaterRipple.mat\n00"
+    },
+    {
+      "guid": "c6b2ebf8de66bc344847a82469612dd8",
+      "asset": {
+        "sha256": "3ff8e73f8ff4d0c29888f0264e36693f9b5699e0a178b562c914469a68a4058a",
+        "size": 3692
+      },
+      "asset.meta": {
+        "sha256": "98d4f6c5bea75cb6c0ad04e11f6ab588d89c246f71c0a68939decff30769da8c",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/WaterfallSplashParticle.mat\n00"
+    },
+    {
+      "guid": "9037e6ba95d968b4985f5ab7f403b0e6",
+      "asset": {
+        "sha256": "be5803c27fc5a4cf5ac0b3159e0267e97fd8573f04481c392fd53ac9bb22fba8",
+        "size": 3561
+      },
+      "asset.meta": {
+        "sha256": "7c23734044f503822599ced4b217c7306c9b32c641aed7552fe4f2dc47699410",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/Effects/WaveCrestSplash.mat\n00"
+    },
+    {
+      "guid": "43b3db0cf9471a247b8feae47691828e",
+      "asset": {
+        "sha256": "62fa4ec28b909870e36b16795dbc1c10a218dc0f07855f8e9ec10ac450ed3fc7",
+        "size": 9703
+      },
+      "asset.meta": {
+        "sha256": "b1509c7b848783800f319ba61fa9049d55ec883c040d1f393acd9d753060f05b",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Clear.mat\n00"
+    },
+    {
+      "guid": "fbb04271505a76f40b984e38071e86f3",
+      "asset": {
+        "sha256": "180a7dead86f5b45783e05db22a97dd842a90614c10056294e42d4e0562bb93b",
+        "size": 9831
+      },
+      "asset.meta": {
+        "sha256": "68f7dd41e084657e97c3bcab7381cee610fc18230fd434e6f03f84ccfe1dd179",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Desktop.mat\n00"
+    },
+    {
+      "guid": "595d2aa3b53d78644a010ea17c45d43f",
+      "asset": {
+        "sha256": "3e779867438265c74f00289ebb45088674994c264031c13858b23d8b1a687c81",
+        "size": 9606
+      },
+      "asset.meta": {
+        "sha256": "991d9f6666f451fed6de8eebc7194ac6ed31894faf041fa86692a652e4e29125",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Frozen.mat\n00"
+    },
+    {
+      "guid": "ee48693f3f703a140b228f9f89d0214d",
+      "asset": {
+        "sha256": "37491bdd38ec5c4dea07a0b139c5b5c1064e38781db669c6cabda8609fc584f1",
+        "size": 9559
+      },
+      "asset.meta": {
+        "sha256": "9437737ba361916248c0d04a409f352a81eec1b9ed6c258484e960964f5daab0",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Lava.mat\n00"
+    },
+    {
+      "guid": "0aea8ee0b119e02469e0303f06ac266b",
+      "asset": {
+        "sha256": "c6b2432b3c0a831b378d5626189d7707768de489cf06f6258bd3a24f25729228",
+        "size": 8054
+      },
+      "asset.meta": {
+        "sha256": "a32c7a9983a89f9e03ef957cb762763c7c9fd9bb76fe9235dd9820c130711d87",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_LavaFlow.mat\n00"
+    },
+    {
+      "guid": "a0b5f77a73da34b4aa3402decf70e1c7",
+      "asset": {
+        "sha256": "f1f22d518773c70d9053f5d04ed1a49381c916321f6c1863c4c61337794d85c7",
+        "size": 8283
+      },
+      "asset.meta": {
+        "sha256": "2a675f41ce19e86d747bc28641f68235b3efa9450ac2235f2a6f2079d92c1dc4",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Lowpoly.mat\n00"
+    },
+    {
+      "guid": "9e73dc93ef929ba46ae79f13b165b3dc",
+      "asset": {
+        "sha256": "338d8039c6bebf7d4a48c119ca73f4709d2f151af60754c93295f61da0591d69",
+        "size": 9644
+      },
+      "asset.meta": {
+        "sha256": "c76b5d95e34612ce6d9c41cd50facef7c73857929f23919d83553836f2bf1acb",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Mobile.mat\n00"
+    },
+    {
+      "guid": "78d33cda959931f4db256379748288f3",
+      "asset": {
+        "sha256": "28154d78508132827a4f98475d2fdf41d95c2656d0e92c72ce8abdf0d6a1e129",
+        "size": 9897
+      },
+      "asset.meta": {
+        "sha256": "febc0ad02572ca49574a98f632c4d5f152d234688d9e2e6d847f678d1e8a07ee",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Murky.mat\n00"
+    },
+    {
+      "guid": "d53e2a245a2e389439504202541600e4",
+      "asset": {
+        "sha256": "98358a5cd63e056ad58c7fe76a5c80781df35016021638e206792b73bf3c3705",
+        "size": 9783
+      },
+      "asset.meta": {
+        "sha256": "61ad0b53bb61371781dd3f7d8d54215eaf3fcfd929e6ceae48180227bfdff21e",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Ocean.mat\n00"
+    },
+    {
+      "guid": "cdb5a16f31ee9ca43b20ee76fcbdffbf",
+      "asset": {
+        "sha256": "f0d2cd087fc7d0a6261d80cb60fc0b7afeebd109d76589f7d9a4531f201476b1",
+        "size": 9897
+      },
+      "asset.meta": {
+        "sha256": "8048c7b3cd672fd1c3ed2fc356b868d8e0bb6ddad54b65c1cbde5be6210077b2",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Realistic.mat\n00"
+    },
+    {
+      "guid": "befd35ed3bbfbef418af6a4754907fab",
+      "asset": {
+        "sha256": "acd5f9aceacc16579661e49452217ad939ec151a887bad6e74775b4da24efb82",
+        "size": 8291
+      },
+      "asset.meta": {
+        "sha256": "048fc3e5563ba0734ae03bcd4dd9864f6d1f9e0360cb03cf285081ef13793f1b",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_River.mat\n00"
+    },
+    {
+      "guid": "43d96a934a341b447a6bf76c6248e5ee",
+      "asset": {
+        "sha256": "ed598a14b44b177ac21d53716d10636e4ff6e35fe923ce2affd0a4e73fbfe30f",
+        "size": 9782
+      },
+      "asset.meta": {
+        "sha256": "c0e72ce35fc8ab85906225eab24b98facdfa1fafd925b20bae256baa9a9e948e",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Smooth.mat\n00"
+    },
+    {
+      "guid": "ec6c4bae9e4b0034da8d5b17090748b4",
+      "asset": {
+        "sha256": "f64cd41871d8b243820b18bd0d5e48d8c06b7f76efa786931c387473aace1b0d",
+        "size": 9690
+      },
+      "asset.meta": {
+        "sha256": "0a4e1dc6428303885a7269b5e12262acd8cf9c9d31d84a905aad994fa4d6637f",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Swamp.mat\n00"
+    },
+    {
+      "guid": "21d5d3b63a3f53f4bb29e5de315cd701",
+      "asset": {
+        "sha256": "3c65365b4a103356adcdfe86d8bbeaccc3b3fd45105e0e5a924cbbf388582c47",
+        "size": 9542
+      },
+      "asset.meta": {
+        "sha256": "72b09813843b7df2a372afb2a436b342fd354ae3b9515a3cac3ef2e0afa7f856",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_Toon.mat\n00"
+    },
+    {
+      "guid": "6b46a672ce40a574c9318ac48298d644",
+      "asset": {
+        "sha256": "50118a80cac5a881b5d55105b1d32df9cd6d1c66958e5bfab7f7bcdd8fc526f1",
+        "size": 9617
+      },
+      "asset.meta": {
+        "sha256": "8700c8227f661fbd22c3cf5647c72e427e83f23ade94c7f64499809bbf3b15f8",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/StylizedWater2_ToxicGoop.mat\n00"
+    },
+    {
+      "guid": "36b7496f7c0078b49a44468d3e120e62",
+      "asset": {
+        "sha256": "80d7cc9947e2c6ee9d8f86cd4e9096a2aa04a953ed5f2a808ed2e18c960e5baa",
+        "size": 892206
+      },
+      "asset.meta": {
+        "sha256": "c49d2c5f8a490146cddd7ff7a4718fd42d229badbaa70f37a9e38d5d02186064",
+        "size": 3650
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Caustics/Caustics_1.png\n00"
+    },
+    {
+      "guid": "322b6bd662eaca34a861d5fb347b5552",
+      "asset": {
+        "sha256": "7c050ea512406becc1f21c6398d671fb7940429c45411241b8f945ad5e703fac",
+        "size": 766988
+      },
+      "asset.meta": {
+        "sha256": "a90dddda39d5f88b336c63429d5be99c76e082193a6086e6b274a7f6f57a7545",
+        "size": 3650
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Caustics/Caustics_2.png\n00"
+    },
+    {
+      "guid": "6a4aa5aa1ed7b9e4e9204a95f56f4d29",
+      "asset": {
+        "sha256": "f75f9ac860bff2c2ad0e480bea5f7bedee842ca06535a02f64f89dfae598692d",
+        "size": 558337
+      },
+      "asset.meta": {
+        "sha256": "32d856d91882c1834d93c412501fcec76bc3b3654b0f071d7252de260ba88630",
+        "size": 2120
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Foam/Foam1.png\n00"
+    },
+    {
+      "guid": "0ff9da63433ff044ba94d59ff31bbe11",
+      "asset": {
+        "sha256": "e66f627f1f92ab6bc3cb3f062fe2674314ec7559e7840f9266e06c3e5673cf9e",
+        "size": 235073
+      },
+      "asset.meta": {
+        "sha256": "628c31bd9602fafaa4936764f724a5e3ed114ed4a735f971f6c27a0af0eacb2a",
+        "size": 3175
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Foam/Foam2.png\n00"
+    },
+    {
+      "guid": "e91f048fea6b6b94eb864b2124843ce9",
+      "asset": {
+        "sha256": "64a135a2fcbe37b1990e7a5b8324944a2d5ba71fcd0bfa07772d4ed2d2b7f4e5",
+        "size": 616241
+      },
+      "asset.meta": {
+        "sha256": "6ba9bb50a0d340723eaf2585ba52d214acffeb425acd7711bbb14babe61630fd",
+        "size": 3528
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Foam/FoamSea.png\n00"
+    },
+    {
+      "guid": "5ea3d632911c4b648893c5f9eb4b46a0",
+      "asset": {
+        "sha256": "65f0c80fc83051ea9ab8b2b948cd0fa7603519383b2e62285216601261dd5df0",
+        "size": 744442
+      },
+      "asset.meta": {
+        "sha256": "cfe0d1c1b442e1be2bde070d0db265e954cb4ffe7e606f52a23978fc14034d2b",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Foam/Intersection_Foam.png\n00"
+    },
+    {
+      "guid": "60e64a9271ad91943ba6c4dd53f4f01d",
+      "asset": {
+        "sha256": "db689d3092a65387239247782d49864ecbc26bc05c0baf3344624ca1bf827aa3",
+        "size": 582937
+      },
+      "asset.meta": {
+        "sha256": "68b4f424a0b2e0a0d27246c88990997c207e423aa6493c68c3b311571869a8a2",
+        "size": 3290
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Foam/WaterfallFoam.png\n00"
+    },
+    {
+      "guid": "2e10c404ec8e1ff41bff06b82e5569df",
+      "asset": {
+        "sha256": "2c47f853f06b372c6ce4b06543e9d62f47a9755e4370bf58d670c876c2fb4899",
+        "size": 295340
+      },
+      "asset.meta": {
+        "sha256": "8c62f6e87b2bb083d66cabf0ba8f2848556b2e0891c9269a2d3cb5268dbc302b",
+        "size": 3588
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Foam/WindwakerFoam.png\n00"
+    },
+    {
+      "guid": "b8850342fb8b1e846ac3807e35ec1685",
+      "asset": {
+        "sha256": "451267b89684405511cdcac2eda4d82a99117ad318c642099dd7a2f33d845ca3",
+        "size": 61550
+      },
+      "asset.meta": {
+        "sha256": "6a84ce6a7a13ebf23e90ca7138c1b73ecd5aecd2d933228095c4a614fd6b9f1b",
+        "size": 3176
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/IntersectionNoise.png\n00"
+    },
+    {
+      "guid": "88908a7c7a1f0ed418d1048378c17411",
+      "asset": {
+        "sha256": "d61ccc7c32ed7c2f66a09cd22cf9c12b9315a18a7553f9a24b5adc7fa0490462",
+        "size": 1167802
+      },
+      "asset.meta": {
+        "sha256": "69bd82c2eccc78ce9aed156d85f532e60f93da8f280098c33caed0d5af064a1e",
+        "size": 2902
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Normals/RoughWaves.png\n00"
+    },
+    {
+      "guid": "b8b8d6f606fb01f4d85ec095b78f8c32",
+      "asset": {
+        "sha256": "e389dddb2af77d88ca038bf14867be67319ae128abecd024421fe6f1f28941e9",
+        "size": 747418
+      },
+      "asset.meta": {
+        "sha256": "0a80099c0491ed32c1bb1a6d2fb66cda1706efbeba23bcbab4fe205527cdb1e1",
+        "size": 2902
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Normals/SharpWaves.png\n00"
+    },
+    {
+      "guid": "ec6f0adef15b52448a82f3f183525d84",
+      "asset": {
+        "sha256": "3fe63002b7f87c275045d03cd241752ec81b3f14b71777c4d59b43fa1cd273d1",
+        "size": 622344
+      },
+      "asset.meta": {
+        "sha256": "356e25545625de88678ea33401199911b97171c8768762ea2d6106c7dfb0671e",
+        "size": 3246
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Normals/SmoothWaves.png\n00"
+    },
+    {
+      "guid": "b747df9784233eb42a14a0f6604324b5",
+      "asset": {
+        "sha256": "c27d2209b2ec7c6502b6967da0956e6e689b66e5914c1af0f13c5fc9453b13e1",
+        "size": 759444
+      },
+      "asset.meta": {
+        "sha256": "7ac8ba539aeb04a9ff69d32f8ff1f6feeec757aaae34f4ddb69481a3823ac772",
+        "size": 2902
+      },
+      "path": "Assets/StylizedWater2/Materials/Textures/Normals/StreamWaves.png\n00"
+    },
+    {
+      "guid": "3e6c8c11caedc6141bb87f848d6f8cd1",
+      "asset": {
+        "sha256": "5c89c036b0e86b5afe977ff091b17e739b892a37accf3d921c797ee76386a1b3",
+        "size": 619
+      },
+      "asset.meta": {
+        "sha256": "0f9ec5cefccaf881910f5bddd4f26085a1fd5e4aca87af97fa917a19cdbefc85",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/Materials/WaterTransparencyMask.mat\n00"
+    },
+    {
+      "guid": "1ab718e1f8990cc4982762d0d4450410",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "24b8891cf6780c155284a7cc92d344527d09c566b107c26f04dfba0b82cd71b9",
+        "size": 506
+      },
+      "path": "Assets/StylizedWater2/Models/HighPoly_Circle.watermesh\n00"
+    },
+    {
+      "guid": "1e01d80fdc2155d4692276500db33fc9",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "e75dd8cfce461b53542616c0fa4c98dfaf9c8a74ba7d92ec062a9461e6de3e47",
+        "size": 482
+      },
+      "path": "Assets/StylizedWater2/Models/HighPoly_Plane.watermesh\n00"
+    },
+    {
+      "guid": "b54af1ae652e1924b8d1be61ad384093",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "c6f2ecf3b6db0152bd732ea01812912c00bfd5384f9d7cda56ee418dbb3266e6",
+        "size": 486
+      },
+      "path": "Assets/StylizedWater2/Models/HighPoly_Plane_wNoise.watermesh\n00"
+    },
+    {
+      "guid": "c7c578b97a755b242b2801cb4b39c88a",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "fd507e976d800ea8d886ef9710d7a0e22c5b8f73b4b766128b429f0adf59068c",
+        "size": 483
+      },
+      "path": "Assets/StylizedWater2/Models/LowPoly_Plane.watermesh\n00"
+    },
+    {
+      "guid": "e7d2e0caafd217548ab6148cc0ee804a",
+      "asset": {
+        "sha256": "81c584d484d2a32de958bff97130fce65440bdd79757a3e47c2c8f2abe10f640",
+        "size": 31056
+      },
+      "asset.meta": {
+        "sha256": "4051c9292c5233966eb12cc475af2e8053b13e8a1d3629297edd7b7b0dfb7287",
+        "size": 2498
+      },
+      "path": "Assets/StylizedWater2/Models/SW2_ParticleMeshes.fbx\n00"
+    },
+    {
+      "guid": "6b76a0875a63f5b49b9e65317f0605c2",
+      "asset": {
+        "sha256": "bf3763cbd43fc2726d9594152330d6c3fceb901f1f9bc6b787b44a7ae7700412",
+        "size": 141146
+      },
+      "asset.meta": {
+        "sha256": "955b794b7d7995936c8ac75fd48123764a2309d9b7646b55cf48171711050504",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/BigSplash.prefab\n00"
+    },
+    {
+      "guid": "aa9f23faa6bd08a4cbf65dcd9efb0f9f",
+      "asset": {
+        "sha256": "0c5ba95b4c508fd4251f4ded1bf181f7b1ba5db070061ac586cff4bb671253e7",
+        "size": 121263
+      },
+      "asset.meta": {
+        "sha256": "92abe2661251d0007e44bdfb8f97fdf13694ab7a56b7faef702c8261f287e6e9",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/RiverMouth.prefab\n00"
+    },
+    {
+      "guid": "80bca475e2653584bbce994c1c05b884",
+      "asset": {
+        "sha256": "04236b0fe74873319b2df4be9a87004ddc02d4fe8f0ec0219d60d736ed51090c",
+        "size": 121485
+      },
+      "asset.meta": {
+        "sha256": "655dfc0cf201e6196b53dd5453ee486d733a585a94954703041c760d051e3289",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Stationairy.prefab\n00"
+    },
+    {
+      "guid": "63656e13f1f71ae49900cb61fa7cd47e",
+      "asset": {
+        "sha256": "c2eb379a4b0abb115d998bb3632030dc70e5bf8abe496f9f166654beac379b6e",
+        "size": 119817
+      },
+      "asset.meta": {
+        "sha256": "c819cc8666e5872255bde30e0801c200667b1bb0a0bd13fa8ba7781581565400",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Trail.prefab\n00"
+    },
+    {
+      "guid": "7910ad3d8376cdc4eb35254d53a2c9ba",
+      "asset": {
+        "sha256": "cfaeabc67fe35eaf8f9a5c5bd298ef4f1735da46facf03b9b74c4eb89f5dd4ba",
+        "size": 122969
+      },
+      "asset.meta": {
+        "sha256": "32c0ba940a0552646a13ff7d52bbe1e17c088326312b97d593ca5c8d9f0ef0da",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Collision.prefab\n00"
+    },
+    {
+      "guid": "739d56770abfc6c41b86831a901b2325",
+      "asset": {
+        "sha256": "bf7c64b4a2c26de43d147a4dc5efc715ed3e23a2e18036f908d5847bef83197b",
+        "size": 123041
+      },
+      "asset.meta": {
+        "sha256": "e68f0d78f72ed45d1abdd931e02c2baf8b29c87c801b84c9f7c242db43d7f3a8",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Ring.prefab\n00"
+    },
+    {
+      "guid": "c0ca9dbc625aae34ca8937a6fd01398d",
+      "asset": {
+        "sha256": "ff3624a67a848049daccb2d48224d13efeab77b2f156bfe4840b1004dfde2bfc",
+        "size": 122996
+      },
+      "asset.meta": {
+        "sha256": "bafdd33d60488178744b6d08012abe294b7b7b2e9b784fc7f0949169312bde54",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_SeaCliffCollision.prefab\n00"
+    },
+    {
+      "guid": "e1321677b0533be469d492149e1b1d8d",
+      "asset": {
+        "sha256": "899b4fc29c8729bdfc7e01d5b45e3558f8cda6257e67d44f2a009abbfbfdbb22",
+        "size": 122058
+      },
+      "asset.meta": {
+        "sha256": "a08a3180f82eabfa9d560b942f262a0732d6483f6921a0dc6eb200b0810ed99a",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Trail.prefab\n00"
+    },
+    {
+      "guid": "1f58020111bdca64098e62c1be7abc89",
+      "asset": {
+        "sha256": "670a8a40ab2aad5616563dc9296a2dbff27744aa062577764a2b460efb74c496",
+        "size": 122948
+      },
+      "asset.meta": {
+        "sha256": "f854b5504f8ef0001dd979fd94de30aa3ef772e26a9c3101c6d8e2d4a6340601",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Up.prefab\n00"
+    },
+    {
+      "guid": "4c3d2ec178b3ae4439db4347ff67b7ee",
+      "asset": {
+        "sha256": "0d36e3f1f03216d7862f8cb1212f4cf30978c822b17bcc874bdfb0dc0d1f0032",
+        "size": 121522
+      },
+      "asset.meta": {
+        "sha256": "0f76e4084af46368777371e425894a03ab2dcdad094bbef421bc562384f3097c",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterfallMist.prefab\n00"
+    },
+    {
+      "guid": "7cb03607def783441a79b90a503d372d",
+      "asset": {
+        "sha256": "114c8c431affa322462610e25b9992278f96b78021c9bb5a99a9526932f7116a",
+        "size": 121504
+      },
+      "asset.meta": {
+        "sha256": "5490dae470996bd032deb5703c2a41a3975344d2f2148195052a16220b4b7815",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/WaterfallSplash.prefab\n00"
+    },
+    {
+      "guid": "ba7423467677dd4419f734e5813b0e04",
+      "asset": {
+        "sha256": "ab2aa7e784e2c5d176c4fd8080410627d0fc76c1e43843397b6be2fadae6f3f1",
+        "size": 123269
+      },
+      "asset.meta": {
+        "sha256": "792d18003abdf47d388b4f59f070859738e75fdd05b1a3b728d93a1cd886eaa5",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/Effects/Wave Crest Splash.prefab\n00"
+    },
+    {
+      "guid": "915defc4859ebad4789c339184a60ebf",
+      "asset": {
+        "sha256": "7c79d94c2866188c24872cb430c5696e6ddb37028dcbe48b5bcfb2af43d76124",
+        "size": 2957
+      },
+      "asset.meta": {
+        "sha256": "c85d3b16d0cd6c382649ab6ab44dd16e8c2865cf3a7dba2d6dc135b0a3c7a3d4",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/StylizedWater2_Ocean.prefab\n00"
+    },
+    {
+      "guid": "6d38f28c8f53eb64383bc1dc0b9c8fe4",
+      "asset": {
+        "sha256": "7dc5037f553e87e000ee71c78f00623dba87301c258f347f564ecf15ac79772b",
+        "size": 2958
+      },
+      "asset.meta": {
+        "sha256": "182553dad483c6334c3d9f14b6c64ebaa1d7b5ee8e4c8e5ccff2978b9eb3d197",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/StylizedWater_Desktop.prefab\n00"
+    },
+    {
+      "guid": "0188e8e4d666f9245860a6b3dfeb4f35",
+      "asset": {
+        "sha256": "364afd765c440197a4aa607bf78442fef22cb8798b03bd7343f47e84ce4eaea0",
+        "size": 2958
+      },
+      "asset.meta": {
+        "sha256": "f21cbb53128d67925c3b55454f7b49184145286f2f839ebc21623cbb70f1586a",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/StylizedWater_Lowpoly.prefab\n00"
+    },
+    {
+      "guid": "dc629dc53bccd7f4db193a1813466e9a",
+      "asset": {
+        "sha256": "f71a40de6141c6779e8a207c65c744798d49cccf979ce9e4af218365847cd188",
+        "size": 2957
+      },
+      "asset.meta": {
+        "sha256": "98ffe1cf60125172c26add19f532720142341f8f28cf7a43f3bde1252c8f2b09",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/StylizedWater_Mobile.prefab\n00"
+    },
+    {
+      "guid": "1a327dcbc1bee1b42848752cd8540c9c",
+      "asset": {
+        "sha256": "c955037b170734c6a375b879aa3ca59e555ce829929124c371c383c05350cfde",
+        "size": 2955
+      },
+      "asset.meta": {
+        "sha256": "3ff808531af94f7ee10c48a6d1d593c7d02a6208c8777541686c907ffc28c93a",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/Prefabs/StylizedWater_Toon.prefab\n00"
+    },
+    {
+      "guid": "0ed677062fe80e645b990863ab31ebce",
+      "asset": {
+        "sha256": "a61919d035aae1d290e03aa38d3641d1b35fa4c9d8c46bfbb72e7c00d547a5b0",
+        "size": 282796
+      },
+      "asset.meta": {
+        "sha256": "a1cfe25ad9e57a49dee63a9bbe02a19a7ef121da1d91fed343b19507043778f5",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/Quickstart.pdf\n00"
+    },
+    {
+      "guid": "75215afeb99f1fc48aacad291a415f32",
+      "asset": {
+        "sha256": "4948857925ef750d304ee230d309c094a0e7a89ec939fb7950b69e0e5d975bdf",
+        "size": 5250
+      },
+      "asset.meta": {
+        "sha256": "61cb80aff92c2dc4b6b055b15ffceeb9f94f0fe572835f431f10f58682cb8817",
+        "size": 316
+      },
+      "path": "Assets/StylizedWater2/Runtime/AlignToWaves.cs\n00"
+    },
+    {
+      "guid": "c7991692bea09cb4f9aae01639d1d1e6",
+      "asset": {
+        "sha256": "4bb4a163c534f1c461d395aeef8c4d4f194efeda247b012fca35df0a290f4c3b",
+        "size": 13404
+      },
+      "asset.meta": {
+        "sha256": "1cde81bcbf270d4a75e80276e2239f852d00784c07b82455c1e55443e5f239dc",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Runtime/Buoyancy.cs\n00"
+    },
+    {
+      "guid": "004552901932ac14d889d7b07cc104f2",
+      "asset": {
+        "sha256": "ac0c75754c61b5a3b0f8450ddf596decc2ccecd14df558650c11e6f3b4b1b94b",
+        "size": 27678
+      },
+      "asset.meta": {
+        "sha256": "c44f56c611fe10264370d5dacb336dbb66d08d7eb513e48e240a71367b8e680e",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Runtime/PipelineUtilities.cs\n00"
+    },
+    {
+      "guid": "c08ec7d2563d4bea89aa3509298f8bf4",
+      "asset": {
+        "sha256": "6ace24497994dc04bc719f56768d4ae65878f22b76ed18af57e51b38c3ecd54a",
+        "size": 8344
+      },
+      "asset.meta": {
+        "sha256": "48e667565bfb851f01ea9f81f0f612aba848f440860bc7ab0414ff3334f450d6",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Runtime/Rendering/DisplacementPrePass.cs\n00"
+    },
+    {
+      "guid": "569d0b097a6f78843bff90729cbe4ef1",
+      "asset": {
+        "sha256": "b0c001bab0bc2255d4c7d81a7620a5bd454ec2d23838066a7fec572767cd634f",
+        "size": 26235
+      },
+      "asset.meta": {
+        "sha256": "0d3093c7b95e562c8269b5725967b17c31311b5bcd93ed810f0364337883fefd",
+        "size": 318
+      },
+      "path": "Assets/StylizedWater2/Runtime/Rendering/PlanarReflectionRenderer.cs\n00"
+    },
+    {
+      "guid": "fb6834bcc3854bbca9142a4bc547b968",
+      "asset": {
+        "sha256": "770a1a211611b873297be5a267f6bc6da9238dc85f704c2f089a14ba800ad7fb",
+        "size": 4832
+      },
+      "asset.meta": {
+        "sha256": "a065bf609740196937ade3584f97c94b9bb19088f6d9a5ec28af467fe7f4441a",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Runtime/Rendering/SetupConstants.cs\n00"
+    },
+    {
+      "guid": "2086e3e143e14a2abcd3b0dbc77a10ac",
+      "asset": {
+        "sha256": "6893242ff26a3936fd8f757468d9a50cfe6c91fc50b511aa07d33d988461e239",
+        "size": 2480
+      },
+      "asset.meta": {
+        "sha256": "fda6f7886279707378f5e88817f22ba4c76580b33621a05cf55256e3b01b59d8",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Runtime/Rendering/StylizedWaterRenderFeature.cs\n00"
+    },
+    {
+      "guid": "1f6878d8c33f6d147918f802eec4ddbf",
+      "asset": {
+        "sha256": "a36038ee6eba2e1e1d6ad1ac41fab7b4b66f0c362ab1d7c11b576be2fffecd6e",
+        "size": 5733
+      },
+      "asset.meta": {
+        "sha256": "b2adfe60eed4131f931485a5ac07ca2173807c7e7a9a0c1a4c298703b4645290",
+        "size": 305
+      },
+      "path": "Assets/StylizedWater2/Runtime/StylizedWaterDataProvider.cs\n00"
+    },
+    {
+      "guid": "6265ced51cdf0b94bb311b507ea5c6b6",
+      "asset": {
+        "sha256": "c1d15a13aee3fb08b0afb3509f08fcba5edc5d16eb7c61944c09b1319c4ea6f9",
+        "size": 7741
+      },
+      "asset.meta": {
+        "sha256": "aa578b65b529ceb8f67fdb23c030d26bd5641cd8eb9d1507d1132c7d45e26e52",
+        "size": 431
+      },
+      "path": "Assets/StylizedWater2/Runtime/WaterGrid.cs\n00"
+    },
+    {
+      "guid": "3f4d8d3a5060ac547a2664e9e46d2c4a",
+      "asset": {
+        "sha256": "97a3371282998904b92fea5ca91a88a415c7d31466cbfac16583f573b88cb110",
+        "size": 10142
+      },
+      "asset.meta": {
+        "sha256": "727c22afa49748b7c98cde1736e4c0e6c0264c0e1351c9cc8cd1adac4b0cf69f",
+        "size": 254
+      },
+      "path": "Assets/StylizedWater2/Runtime/WaterMesh.cs\n00"
+    },
+    {
+      "guid": "52480f6baf9b7b0428c75481cb3d5a6d",
+      "asset": {
+        "sha256": "6ca8ee3234e7911f0fcea2252c0862fbc3815272e856b5bd6406358aa8a1f3aa",
+        "size": 7718
+      },
+      "asset.meta": {
+        "sha256": "bd867dddae053832ef1e1c488373d1907befbd7a61a0cbff220a0475747f9dd6",
+        "size": 305
+      },
+      "path": "Assets/StylizedWater2/Runtime/WaterObject.cs\n00"
+    },
+    {
+      "guid": "99230946af6b43d59e5588b131421f2d",
+      "asset": {
+        "sha256": "7e8272912de86cbb6eb27721ee6b7c7fe757fc98e36fc2af5ba4ae7a12d6b0ca",
+        "size": 3190
+      },
+      "asset.meta": {
+        "sha256": "c47e968266845dc890f07d0df54eefe0c4bde4d99086cd15c8b2d2caeb0e1357",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Runtime/WaveParameters.cs\n00"
+    },
+    {
+      "guid": "93226a8cd37f67d4a996a525146f6f09",
+      "asset": {
+        "sha256": "a2e2470abea743aae933e067e95c941f6751e360ba2ad69720eb74e81613cc20",
+        "size": 1400
+      },
+      "asset.meta": {
+        "sha256": "f8073c3e0f02c1ebf193b9315b4fbfd8c422719b90f11ee8a713a408f0acfa13",
+        "size": 173
+      },
+      "path": "Assets/StylizedWater2/Runtime/sc.stylizedwater2.runtime.asmdef\n00"
+    },
+    {
+      "guid": "083a1df0137b41ca9e48f080418edca7",
+      "asset": {
+        "sha256": "064581e2a783aa5a1b27c5ba8b6a48431269d6eaef8c1882ebee18df0ffa49f4",
+        "size": 1900
+      },
+      "asset.meta": {
+        "sha256": "811522d94985c9fd8203293baeb4be8c59eb9305249660563e483dbb1a1b7df2",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Caustics.hlsl\n00"
+    },
+    {
+      "guid": "83975c0577d21ad4fb923060bab6981e",
+      "asset": {
+        "sha256": "0f410d6dcc2523a2b018739abdf8bc606e98ff23ee6757c9b8f6a9fcc0e5982c",
+        "size": 6372
+      },
+      "asset.meta": {
+        "sha256": "9e8044eacc3a28e39d126f3956915a4a4e7ff80f3f763343b5389500d8f2dc5f",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Common.hlsl\n00"
+    },
+    {
+      "guid": "1318138c4ac146af86a745a7082ac2a8",
+      "asset": {
+        "sha256": "eae62478b907616b55dd477a281f3618ce48e261eac89894a1c051255769a045",
+        "size": 2438
+      },
+      "asset.meta": {
+        "sha256": "0938c6f2c1a5a13075d2f830a92b34923a35fec1101e9718890cc92461d0918d",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Displacement.hlsl\n00"
+    },
+    {
+      "guid": "e07d48b24ec0e5841b5fc7f6a2d15054",
+      "asset": {
+        "sha256": "77261e03b436c9973a38ca9f00c98eb33dc9ebd80810cbde8b0ba76b13af1ad4",
+        "size": 5573
+      },
+      "asset.meta": {
+        "sha256": "4ebc38513d12d41a32c284bdb798b9ed20a5ac3e9c58c3db6ee671a985aeb670",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Features.hlsl\n00"
+    },
+    {
+      "guid": "bc44ed7be80a4457ab68b36746675546",
+      "asset": {
+        "sha256": "35b66f983dd63b624857e2745f7428aadc2e8476d74ca1b38d98953017e66595",
+        "size": 1885
+      },
+      "asset.meta": {
+        "sha256": "51504bbe06dbfa6dd1ff2796d9885f533f81788e9996274e7d76dbafb6009036",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Foam.hlsl\n00"
+    },
+    {
+      "guid": "8427feba489ff354ab7b22c82a15ba03",
+      "asset": {
+        "sha256": "0ce3d9e5aff49d5c7cb60fbb767467fed42260333bc867b3dcf470a8682279ea",
+        "size": 2981
+      },
+      "asset.meta": {
+        "sha256": "fdbe19b42a82e18e6bf4b507b93dc7197846ff3c07f228a9f62ba221645cb0bc",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Fog.hlsl\n00"
+    },
+    {
+      "guid": "73145541a34a4904fb2181d58d90c0b0",
+      "asset": {
+        "sha256": "220714371f7a7b7589daecd077b44e6c576e29d2ec5c0b23b070424e6e266914",
+        "size": 32868
+      },
+      "asset.meta": {
+        "sha256": "9f7935b92f9821b9a736a29aa62e1fe6251d1136d4b61e59cc790a0efa486edb",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/ForwardPass.hlsl\n00"
+    },
+    {
+      "guid": "28f313ebadfa00948936ae63724fb92c",
+      "asset": {
+        "sha256": "0f88c462c34f75ce05c1121a3c4c3a56434970499dd8bdbe2c0ed44d3f5046c3",
+        "size": 2922
+      },
+      "asset.meta": {
+        "sha256": "fe1af831f5cc621d8b6ab6a65da33f3df824be8647fab5088fa219345dcf3db7",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Input.hlsl\n00"
+    },
+    {
+      "guid": "b00528185b78b1847970f677dd2f6b64",
+      "asset": {
+        "sha256": "77ef982ac8b8747dbad9da07b5740e0d3d489788ae23ff3cd937cf63d4efb881",
+        "size": 11012
+      },
+      "asset.meta": {
+        "sha256": "2155df888a157ba8d412a0ccbd07c7ab2ddfb800a63acd040c53d30c20a0ae69",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Lighting.hlsl\n00"
+    },
+    {
+      "guid": "514aea7da9c74dce94cd9b7e39204796",
+      "asset": {
+        "sha256": "232a46cbe6b519bad8db981d7402cc09ff704fc20cf64f31a3caa7cd1f0b1f75",
+        "size": 4420
+      },
+      "asset.meta": {
+        "sha256": "384d141146b000f7242079d5d89e5af3d56c9ef5a84365a41d7593bdaa72a304",
+        "size": 88
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Reflections.hlsl\n00"
+    },
+    {
+      "guid": "83f5ec8d7ddc76f48aa74737ebb32082",
+      "asset": {
+        "sha256": "81aad5a038a4ab1694a90a2f3a7548b70e2969c2c1eac031700f5dc62f387be0",
+        "size": 5753
+      },
+      "asset.meta": {
+        "sha256": "18347b8af68d01e9e9b0b447dd92358977135cd357f7ffc30796403785e44951",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Tesselation.hlsl\n00"
+    },
+    {
+      "guid": "ef61e0415f55fd54b8d11ca946597330",
+      "asset": {
+        "sha256": "1b94550fbaf8d421af2d64f50ee3241139bc7c1cd72a1d13a7baad7ff954fceb",
+        "size": 3028
+      },
+      "asset.meta": {
+        "sha256": "393fa08d31e4d97a559db10159eb01bb01eba63b5b9b63c042ab2ed1793ac345",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/URP.hlsl\n00"
+    },
+    {
+      "guid": "d9350adeb5309174e8998330f5bc90b2",
+      "asset": {
+        "sha256": "c35d4a0c5f580bc9a1835dd2ab1b1207351367dd065e3933395fd8d6c5368ed0",
+        "size": 5232
+      },
+      "asset.meta": {
+        "sha256": "1cbb3214401f706314da9d75ccc6302d27729e73146c4f02ec96b1df7f899284",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Vertex.hlsl\n00"
+    },
+    {
+      "guid": "0e6f483902e4602438fa139ed0ae575b",
+      "asset": {
+        "sha256": "e15aa4e2f70dc4883daad92c6d29e336b5e15aebcb8122899ea63fbc9de416d8",
+        "size": 3848
+      },
+      "asset.meta": {
+        "sha256": "ccf0a239f99065b708b21d0764da523b28450e9f9fc8d3f1cb22a6a08f9a9208",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/Libraries/Waves.hlsl\n00"
+    },
+    {
+      "guid": "d7b0192b9bf19c949900035fa781fdc4",
+      "asset": {
+        "sha256": "e606d4a60adf8204a81472184e6c1061a28ede6e8a7fcb6b0d5cc707285ad9e6",
+        "size": 19210
+      },
+      "asset.meta": {
+        "sha256": "e8cb44706ce51ef212339ae7f6aa72a21715164d8c0cc2c0864f49b0907dfa12",
+        "size": 1794
+      },
+      "path": "Assets/StylizedWater2/Shaders/StylizedWater2_Standard.watershader\n00"
+    },
+    {
+      "guid": "3bbcc008d31f4e54498c850c47e3a275",
+      "asset": {
+        "sha256": "1c2cc49efa583f884793cd449cef890e402d7c449c108b2aee48a2bc063e2e20",
+        "size": 559
+      },
+      "asset.meta": {
+        "sha256": "76a11d45a650e0682f3a5a0bd900e26e9bbc89b4e148e3a240fd6f8dbe5952da",
+        "size": 165
+      },
+      "path": "Assets/StylizedWater2/Shaders/SubGraphs/Readme.txt\n00"
+    },
+    {
+      "guid": "dd22fdca3349c96428d4bdb4219a1210",
+      "asset": {
+        "sha256": "b78698d8db2940c4dd6206426f66f4cbbdfcd09ae3ec4b9cc30be4b92fada031",
+        "size": 8391
+      },
+      "asset.meta": {
+        "sha256": "d88ac416e70c80d8f7a9b3ad0c59e7280316fa38480cd20f3f0dda6e92b98763",
+        "size": 295
+      },
+      "path": "Assets/StylizedWater2/Shaders/SubGraphs/Sample Water Height.shadersubgraph\n00"
+    },
+    {
+      "guid": "2ac006053d67aba4b9fff5fd992fe5cc",
+      "asset": {
+        "sha256": "9c5b5496d712fa6fe0e314848071fcd3790933efca41edaf2e7a91c97a61b52d",
+        "size": 11858
+      },
+      "asset.meta": {
+        "sha256": "4e8d22f1b075cca3bad4cd679edeb9baa07bcd415138e34b06eeee38d0b52c12",
+        "size": 295
+      },
+      "path": "Assets/StylizedWater2/Shaders/SubGraphs/Sample Water Normal.shadersubgraph\n00"
+    },
+    {
+      "guid": "e514f2e4744b19b4391655cd17b5db89",
+      "asset": {
+        "sha256": "002186a41daae097923f5cba512e8246e3e57f29eb1740b28877ee036dd71c1c",
+        "size": 1822
+      },
+      "asset.meta": {
+        "sha256": "b6cfec13bd9600a43f795a6adf9eb3c967e2a4a83dfe438d3b5fc18b34dcabf9",
+        "size": 213
+      },
+      "path": "Assets/StylizedWater2/Shaders/WaterCutoutMask.shader\n00"
+    },
+    {
+      "guid": "bcc47b10e75343346a0ee045450ed282",
+      "asset": {
+        "sha256": "0b4452369d29a5c25e2d478cecc37198c7db729c74cce0d0e575dfbb20c488f7",
+        "size": 3922
+      },
+      "asset.meta": {
+        "sha256": "d5a2d9c09cfb478b6dca939173c090a101bdf6be406fcfa0f3e49955c7b1a0f1",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Barrel.mat\n00"
+    },
+    {
+      "guid": "910c08acdf344d74e980b10a9ae4bb5b",
+      "asset": {
+        "sha256": "c03f810acd76d11e54a5e771c651e6aceea77dbd5066c25fb7e856d83753a0a9",
+        "size": 4823
+      },
+      "asset.meta": {
+        "sha256": "3a0a7ed3bd1a9113546a691ba550ea520d017de78b37a51ad97427ca5aef4a53",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/FagaceaeBillboard.mat\n00"
+    },
+    {
+      "guid": "c67ab9c0600020045879f77b95db6671",
+      "asset": {
+        "sha256": "ecf074522f0e84eedcd667459e3063a92619a0e8b1e025debaed62493f5e9f6a",
+        "size": 3798
+      },
+      "asset.meta": {
+        "sha256": "778ca2415cf73b486d41ea5347c1e6dbe42399bfc57d7c188da3ff1a87ce2fe6",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SW2_BackdropTerrain.mat\n00"
+    },
+    {
+      "guid": "1eba1af33ba2de84e8faed0bbea23b80",
+      "asset": {
+        "sha256": "d077cc96b02c47523b0ef4b044ecb3da8adc81beb665fad7e0c17acbb07a77ac",
+        "size": 3497
+      },
+      "asset.meta": {
+        "sha256": "6c890c55ee03362b40c9dcc48551f2ea602e31f5c013c6affd6e50e7f71613d9",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoCliff.mat\n00"
+    },
+    {
+      "guid": "df3dd745f894a0342944a46877b23697",
+      "asset": {
+        "sha256": "4d2bce55d6753812a33aab0b6f2d7a603ba4480399b160ccabf02dfa708ce258",
+        "size": 3903
+      },
+      "asset.meta": {
+        "sha256": "9ba295cdcc8e52e6a8514810b9517e370a59b2c45931a0c5633c43db60014f58",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoCrate.mat\n00"
+    },
+    {
+      "guid": "e2335271dc0537147af5dbcb5f4ece06",
+      "asset": {
+        "sha256": "a10c2901293ed3bcfb0b5042c969f6e2f31e242a96757790d57effaa492010af",
+        "size": 139721
+      },
+      "asset.meta": {
+        "sha256": "92d33d4ca504d0ea11a81349e6145fbe054df8c34e5e6960d9ea444592a64156",
+        "size": 295
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoFoliageShader.shadergraph\n00"
+    },
+    {
+      "guid": "5a401ae221e41f945bac19aa46d1d14a",
+      "asset": {
+        "sha256": "91fcbae351cc2d34958fb016377e33288987c95618c07c9f5f006f727833d5de",
+        "size": 3903
+      },
+      "asset.meta": {
+        "sha256": "e6ed747877a104d80e83ac903fe1f720802a95934e995fb5026ce0cecdf25678",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoGrass.mat\n00"
+    },
+    {
+      "guid": "84af71b6556345d49a5be268f6d5f0f7",
+      "asset": {
+        "sha256": "cf025f10eda7d6827b89e90421cfa0efa5aba0bb53d05ad840f5b232b461a577",
+        "size": 2886
+      },
+      "asset.meta": {
+        "sha256": "88b5b9f8aeaf05cb873d03611f81d0b4dc52c80c3e4bc2d73541833904651a04",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoLogRaft.mat\n00"
+    },
+    {
+      "guid": "1ed81e3b1c8cb2642847227bd832c87b",
+      "asset": {
+        "sha256": "1079921d86fab00a533577ddd69a030b07e6d42b94922c02f147667dc21bdcd6",
+        "size": 4748
+      },
+      "asset.meta": {
+        "sha256": "026e97fe098a322c2f006dffa52c4623473861f42639679aec36fad853146b98",
+        "size": 189
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPalmBaby.mat\n00"
+    },
+    {
+      "guid": "9d0310f1f03060e4eb6315f553e5f772",
+      "asset": {
+        "sha256": "62396f772b9cd54602fcf5c2da9d1a6382766b611d48fab9cef1a4e59302bfd9",
+        "size": 4215
+      },
+      "asset.meta": {
+        "sha256": "d9285b37cd8012cd118fc39f96449497721b8a9da3b93c3297c557be5c27fbb3",
+        "size": 189
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPalmBark.mat\n00"
+    },
+    {
+      "guid": "d026f406da3d8aa47bf469a5cbbf80b0",
+      "asset": {
+        "sha256": "778a166e2f6098ec24fba69a725aa035075482b563731d20e3a3e45489852895",
+        "size": 4856
+      },
+      "asset.meta": {
+        "sha256": "369ef4e19d1932cc9899de75d49ca73a511a057b1bee36a9a3a5bb6ffce6956c",
+        "size": 189
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPalmBranch.mat\n00"
+    },
+    {
+      "guid": "74ba3e11d75e35942989d33a6488a6a2",
+      "asset": {
+        "sha256": "83fd8a007814af7eadecb21ac874ebba2010b1a57a8dbb593a49699224dc0004",
+        "size": 3867
+      },
+      "asset.meta": {
+        "sha256": "4e15c9406fe38cb3e798f31a9f797a01552608f3fb4d9dd87c04c2b35ec9bd8c",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPier.mat\n00"
+    },
+    {
+      "guid": "6840efd7b9c00d941b4b703089021546",
+      "asset": {
+        "sha256": "0b8158e88c5493b68dbc0d4a2a5e8ffd9d8d11778565f47bf1f2cb45e2b6be0f",
+        "size": 3394
+      },
+      "asset.meta": {
+        "sha256": "da46ae6b7e7a53d1f58ca66089f7d133f26f2af377046ca326433a4df9743626",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoRock.mat\n00"
+    },
+    {
+      "guid": "e50fc5ffa8471d8489c03e53184d5b0f",
+      "asset": {
+        "sha256": "0e08e7cd97579a472d2099a310a064c4b1d9ef6efc3c375b8c4f03f1d0d06215",
+        "size": 4628
+      },
+      "asset.meta": {
+        "sha256": "121103f336d5791f0fe4a4e8d9f6eb8b0431c2c8373346835088806a987991b9",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoTerrain.mat\n00"
+    },
+    {
+      "guid": "abe2ddb842ff3a8469c209b1246e0c66",
+      "asset": {
+        "sha256": "eb4f8452a79ebcee8521f06f3faf8cbcb664bd109e5115af36387c421fc58291",
+        "size": 3964
+      },
+      "asset.meta": {
+        "sha256": "95a34c109cb7ca33100c310a664cf473885ccbb7ab619620d9e0356e0a0ed30a",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_Shrub.mat\n00"
+    },
+    {
+      "guid": "ed0416582c0e8af4c95f12cde52ed507",
+      "asset": {
+        "sha256": "2d26c343623b881f0f1c56602d41561291b2401111a845d0e842d7187a3951c9",
+        "size": 9799
+      },
+      "asset.meta": {
+        "sha256": "6b98587aef09271d4a2e32fbb4ab4ea813ff005db1fad73a9ab44d3d822a5dd6",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_Demo.mat\n00"
+    },
+    {
+      "guid": "3d48ebb64507a6e43bba7a5ef43f06ec",
+      "asset": {
+        "sha256": "40a8b7e8bd815e6834cd6909ca8cb1582473efa8ea6a9d60d6992f07d32f8652",
+        "size": 2816
+      },
+      "asset.meta": {
+        "sha256": "b9667cb9868698b34533b8bbadde9b435ca0c11bacc6c694c25f328b93e7c829",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox Noon.mat\n00"
+    },
+    {
+      "guid": "5e614a9a291e1124191021c605720ba4",
+      "asset": {
+        "sha256": "a0f421f092f748a304e14db875fdeaca653ded315cfbda838827241474a0cf45",
+        "size": 16793931
+      },
+      "asset.meta": {
+        "sha256": "7aa26aeae0e951bdb4d00a05fe34b2b37e80f85d8f5ec29328d4c7813d0338e3",
+        "size": 3290
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox Sunset.exr\n00"
+    },
+    {
+      "guid": "554147b0f0707404b83ba2a46ae35520",
+      "asset": {
+        "sha256": "30a4b85ac8d3c2ea2ade7a8bfc9bf895b9ef344f69d00bf1568172f367903328",
+        "size": 2818
+      },
+      "asset.meta": {
+        "sha256": "a6e166aed87926d23b6f074bc55b5bd447195e1974ec80b31df0ce3db5964f7c",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox Sunset.mat\n00"
+    },
+    {
+      "guid": "46ed839cd90f8014d9830faa90674018",
+      "asset": {
+        "sha256": "b031fd755c50dcbd1488b1a16004ff454d31bd7b3ba1189905b90320fd3c3a60",
+        "size": 16793931
+      },
+      "asset.meta": {
+        "sha256": "6b45b931876b0797241c969de3937cb15d1e1d9eb4382b191a629142f600f937",
+        "size": 3650
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox.exr\n00"
+    },
+    {
+      "guid": "2e162aee088f289458a45f73dbcf96cc",
+      "asset": {
+        "sha256": "49d63cea2501d0566d24a984b06946561940cdcec877a064f8536e3501f6214d",
+        "size": 8228
+      },
+      "asset.meta": {
+        "sha256": "ef88cb37af389b5f3f266827fc3e42dcb780bb75c7cd8e35c84b110ed5427219",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_Demo_DioramaSide.mat\n00"
+    },
+    {
+      "guid": "5d1cfa4460784ae44a9e468087b75c22",
+      "asset": {
+        "sha256": "3c9e05249df6bcd34b1098a2d5a74cebeefe61bf63a9eae6dfb4bff0212a2bd3",
+        "size": 9492
+      },
+      "asset.meta": {
+        "sha256": "de320d1a5183c7f923210f5e6df4f1be9d0afdfdedb48b1591c662806ebaa233",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_Demo_DioramaTop.mat\n00"
+    },
+    {
+      "guid": "8535ee83d7d2e124a8c7b55c21b3a1ba",
+      "asset": {
+        "sha256": "2245652b9230d99f3b3794c3b6e8f9c8c18d69116ccebe709b75cf3187b62f11",
+        "size": 8034
+      },
+      "asset.meta": {
+        "sha256": "ccb6c04445ebd8b2ed07649dd23b43651447aa1b98527291af5af4d814f31e9a",
+        "size": 196
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_RiverDemo.mat\n00"
+    },
+    {
+      "guid": "07f1da3557a27ee4b8b2c0d97800a1ba",
+      "asset": {
+        "sha256": "7681a807d22293560124c6865d83f8db1a4160d699b6e71323dfb1e178ff7523",
+        "size": 55560
+      },
+      "asset.meta": {
+        "sha256": "09c41cd6622836033daad8cf5dadbb3b792b482bf0eac988654f37f1a3dc3816",
+        "size": 3290
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/FagaceaeImpostor_Albedo.png\n00"
+    },
+    {
+      "guid": "2db72d7f12486ee4393cf2db8de3f156",
+      "asset": {
+        "sha256": "ba6726f2808d44cbb59652aafc648717e8bebf4353ac897db23d865a668e929f",
+        "size": 78501
+      },
+      "asset.meta": {
+        "sha256": "3070e0907343244ac119c6d38fac55a6c3936a0efbfebd0935ab9ee199958230",
+        "size": 2268
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/FagaceaeImpostor_Normals.png\n00"
+    },
+    {
+      "guid": "30fd814816d861e4b8de1a2489667395",
+      "asset": {
+        "sha256": "731a4a42bd1fbb6bed02c42732e42d441b0c3fb551d4d03d3a2497b08de0ad51",
+        "size": 38348
+      },
+      "asset.meta": {
+        "sha256": "71fc3da3a61d87e96af8b9827619a7ab05c1c96d94db4bcab3389147a231eb49",
+        "size": 3638
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/GrassBillboard.png\n00"
+    },
+    {
+      "guid": "02ffb48a61924e24d8132bf86baef6b5",
+      "asset": {
+        "sha256": "7e7f826d1cc5f13fa3d0a7127c98fbbaf36a320d1bfe03bbd4153edc7ad26aee",
+        "size": 95703
+      },
+      "asset.meta": {
+        "sha256": "d0b4f8729a2df8897e31262fe8467af6b1bbc56411d1c966868578efae8c8e1a",
+        "size": 2268
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SW2_BackdropTerrain Albedo.png\n00"
+    },
+    {
+      "guid": "4308f1ccae5695f4c89f930f8fb924dc",
+      "asset": {
+        "sha256": "7001d3588a09a8facc7b61ff63e1f679c2b414853a97e7b85b0d13a8b0316529",
+        "size": 850906
+      },
+      "asset.meta": {
+        "sha256": "4073b176e5d6e84721d6e2252340defcd43c2503ba9891db47a4b96f15cee962",
+        "size": 3176
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Cliff_Albedo.png\n00"
+    },
+    {
+      "guid": "4f470112619c00b4a871fba51c907bca",
+      "asset": {
+        "sha256": "1621004012e65992fd82c52a30fb4830b4e4ae2b0de159b49e26d7fb956a3d11",
+        "size": 809496
+      },
+      "asset.meta": {
+        "sha256": "3960d4ab9b8670b6e83468c8ff6ea3e620e9dcfeee86b8ee584be46f8233635e",
+        "size": 3865
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Cliff_Normals.png\n00"
+    },
+    {
+      "guid": "ead12393b02b18e4390dffc4f355fa51",
+      "asset": {
+        "sha256": "bd0bfb78b5a99e8edade33364c1ccb20c12d401aab80910576091066cd3c4d83",
+        "size": 151885
+      },
+      "asset.meta": {
+        "sha256": "a6e78b6c6c7b986aa7c81f0c5500f561a42f413f04968387a8bbf16d2745909b",
+        "size": 2120
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoBarrelDiffuse.png\n00"
+    },
+    {
+      "guid": "c5fc952321ec0c04a82fd6fa7f692685",
+      "asset": {
+        "sha256": "b5f30046f14b7ba9dbc2acbf3a54e2cd20cc7c41096cc97ad0b0d6e1dff2abc1",
+        "size": 137807
+      },
+      "asset.meta": {
+        "sha256": "c02bc311e138061bf6f114598a69b7df74aeecaf99a7bba94138697d448d5676",
+        "size": 1322
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalmBranch.png\n00"
+    },
+    {
+      "guid": "acb4d6783cb4e8e429fd4af90e01b996",
+      "asset": {
+        "sha256": "55d95f39e6dedd8ae8f81153baceedd8d00541983af583b2c696e4d2f2ef380f",
+        "size": 126467
+      },
+      "asset.meta": {
+        "sha256": "87d444a7cd3fad4b639967b21a9ec5920518661946dc0e203bea480526eea373",
+        "size": 3865
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalmBranch_Normal.png\n00"
+    },
+    {
+      "guid": "5042d259206b1154f873a7cdbf388cdf",
+      "asset": {
+        "sha256": "a34423a4b1dce071f512dc3c8fad96a52adcade7183789022d8b67b3352d8bb4",
+        "size": 24712
+      },
+      "asset.meta": {
+        "sha256": "ce6f65fb394acf9eda4b03dcaa19fc26cc95c82e25e21c75402fe686414d6c48",
+        "size": 1322
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalm_Bark.png\n00"
+    },
+    {
+      "guid": "31af1477df574fe449ab2f6255b2fc1f",
+      "asset": {
+        "sha256": "22c4bb3f72ec773bce99d70a675bc396dee3ae28f4c8589ae631a0cd239ca3ee",
+        "size": 224435
+      },
+      "asset.meta": {
+        "sha256": "798fcbc73ebdba65b363c5c2434312eacfcccf98a648396ebff38c3f39a6d5b5",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalm_Bark_Normal.png\n00"
+    },
+    {
+      "guid": "97488ae44b350d34c91f98d54c358dc7",
+      "asset": {
+        "sha256": "bb4b4fbdf74393af06fb07f4a497a95648ef40c2ee3d37346e5ae1b2428a09c0",
+        "size": 534688
+      },
+      "asset.meta": {
+        "sha256": "5fe787d15699d5f0e47acfa4144978ed50dbe7151f7e5557d7f156db4fe7ca45",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_LogRaft_Diffuse.png\n00"
+    },
+    {
+      "guid": "87a8255832743d74696879a46abfd098",
+      "asset": {
+        "sha256": "6c8e30acd69da621f9e93d7b7b3248638125f57e00da35551a35f1f42b7a5b33",
+        "size": 670898
+      },
+      "asset.meta": {
+        "sha256": "a8fc8438df131557d1e09b9d8fc268e785b4bad28cc1a4fbc443c964e0084f99",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_LogRaft_Normals.png\n00"
+    },
+    {
+      "guid": "2c36790f4544d0e4a9d04ca6b9728eb3",
+      "asset": {
+        "sha256": "7c052fc84a7aba2d364dcb1b06e3bf37cf7a67202e2f42535bf835c827bd61ed",
+        "size": 398260
+      },
+      "asset.meta": {
+        "sha256": "d1b1707510c336c11825845766b2acdd1476bdea2d8e35f610cc9013d92155cf",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_PierAlbedo.png\n00"
+    },
+    {
+      "guid": "4e5a1b6c145030143bfa7717531891c5",
+      "asset": {
+        "sha256": "0b73ad46d304a273bf001f564ff7907f522f1b2cd11ec7ea092907d39d028f44",
+        "size": 221022
+      },
+      "asset.meta": {
+        "sha256": "3fa65d6861165292fa517653cec5c8d34db94cf1b37e729edf213491f51e4830",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_PierNormals.png\n00"
+    },
+    {
+      "guid": "908671be8f9e2654db9223e64463bad7",
+      "asset": {
+        "sha256": "d4a5ed9ba304d5b96b8a5f6fc719398b610562139b41e8f720b038dffdd8337b",
+        "size": 97528
+      },
+      "asset.meta": {
+        "sha256": "5b05658eeb2f265cbe6b4bfaba0c86ff908b3022fb6a591901f059c915611747",
+        "size": 1322
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Rocks_diffuse.png\n00"
+    },
+    {
+      "guid": "ceb3db53a2b2d31498e0c9ab62b78ca7",
+      "asset": {
+        "sha256": "2e3d2ad3eda738427e9495fc7e5a80d75a87f19a6a22da6046b13dab02ac08e5",
+        "size": 410620
+      },
+      "asset.meta": {
+        "sha256": "175177b89b4057c15241e0d6425c64e59fb0b993a6e1300ac4651072821c138d",
+        "size": 1322
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Rocks_normal.png\n00"
+    },
+    {
+      "guid": "33dc52a60d3fe9544b76f01c646c63d3",
+      "asset": {
+        "sha256": "59b8fdd1d87bb08482fc032db18913f6e51795176f0df67e3e0a573a5e6320cd",
+        "size": 83146
+      },
+      "asset.meta": {
+        "sha256": "c3bb12afe3e088f9364d63d5c7497f6d7f80d1883248a838df619503a770e09d",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_WoodenCrate.png\n00"
+    },
+    {
+      "guid": "4409ba6255cc9ec49a73df0413762698",
+      "asset": {
+        "sha256": "39d976a78e31fcadf1def2564fdfc31a12a9082d237c7d424ba34d336bbebd1b",
+        "size": 1722
+      },
+      "asset.meta": {
+        "sha256": "7d60eaa61969bbfe23a94a6896293aa6fc46f7ddab88f3c40acc9fce99b5edd9",
+        "size": 2903
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/Shrub_BranchCluster.png\n00"
+    },
+    {
+      "guid": "258f889d40299e44b8b21a487fe8ac01",
+      "asset": {
+        "sha256": "c41a77ef83a3fc89555f25ff42a676e49b792f8e16de16a595412895f705c22c",
+        "size": 88176
+      },
+      "asset.meta": {
+        "sha256": "468e13af3460933170efda406420e769c11c45d6a856fad759de40b85e2c0508",
+        "size": 2498
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/DioramaWater.fbx\n00"
+    },
+    {
+      "guid": "0c3874a6e6468fd4496bf266be5b0c48",
+      "asset": {
+        "sha256": "e8003503cb3e9548cc549ab1cde579ebcc455efe4162cbb4174d52ec06d0d84c",
+        "size": 123552
+      },
+      "asset.meta": {
+        "sha256": "43047ff0a73b012ce07fb98ee4e504a26a7ff07d097fafeddaee183a9f013040",
+        "size": 2705
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SGS_DemoCliff.fbx\n00"
+    },
+    {
+      "guid": "984a2c00dc1b98949b78ad66592535fc",
+      "asset": {
+        "sha256": "67d796fe23b35994b4ded70b2c0048e14fb40055e195cf7ae8c2ad6bc2112580",
+        "size": 46320
+      },
+      "asset.meta": {
+        "sha256": "c10055538095b0690090eab3737e22c1f5563c82c137c7dae834b61cbf240bb7",
+        "size": 2498
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SGS_DemoRock.fbx\n00"
+    },
+    {
+      "guid": "e2de64ddab96584479f60037611b1620",
+      "asset": {
+        "sha256": "4042736d57de0a1932553b7099fb418783d6835d8dbbb63126428e3a1bb9de56",
+        "size": 23088965
+      },
+      "asset.meta": {
+        "sha256": "a8ae3fcea15b6394e55523b98f04a2173bec66cf75bfc799caa2d5ec126ab68d",
+        "size": 2795
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SW2_BackgroundTerrain.fbx\n00"
+    },
+    {
+      "guid": "06e99113eeb05d744a4ad35939491870",
+      "asset": {
+        "sha256": "a0a28ca39dbeb928c9c3fce51d9bcdbeb55b494eca6c367cb7920504aefd5dbb",
+        "size": 34304
+      },
+      "asset.meta": {
+        "sha256": "1b60663007769737dc07bf51aec22d6290a8a2952a17b7c6ee1877c2787fe013",
+        "size": 2795
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SW2_GrassPatch.fbx\n00"
+    },
+    {
+      "guid": "f4a600076193cb84bbae81c165961e1c",
+      "asset": {
+        "sha256": "fee537c51101e94bcf3873d68f7534a6287d4b3ed70984838d27678b7341aa15",
+        "size": 53040
+      },
+      "asset.meta": {
+        "sha256": "9cdf94ee13462da16b9d94c0ce0f599d554bbe5e44743fdc4a1e51da773283c3",
+        "size": 2498
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_DemoPalmBaby.fbx\n00"
+    },
+    {
+      "guid": "feb9a05d0c213d04c8d45a48646254a7",
+      "asset": {
+        "sha256": "4fbc2071d40a7f491436743bfcac6e18df14658a25e2f97f887e11aa81b7fd17",
+        "size": 129808
+      },
+      "asset.meta": {
+        "sha256": "bf08869999b8e11ef85384767ba2dd2831fc826953d9f7e90ac5ea6f9ac6696b",
+        "size": 2834
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_DemoPalmTree.fbx\n00"
+    },
+    {
+      "guid": "6f99470cb1949c74f926d0f9bbc50b8e",
+      "asset": {
+        "sha256": "18fddbda18339ddd75fe1d41667e8af74968abf1696575c95178f76cc441578f",
+        "size": 254384
+      },
+      "asset.meta": {
+        "sha256": "b6f720f8827e78296271a5def6c83b83c9efd2b85f229cb07e4cc1ebe884ee02",
+        "size": 2498
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_DemoProps.fbx\n00"
+    },
+    {
+      "guid": "fd593d3546d165d4c8a85f9e914c0a39",
+      "asset": {
+        "sha256": "e0a1180aa41adf9cfe858aa84a0d681cf304afd0a2edce87bb07b2141ab4ab48",
+        "size": 117168
+      },
+      "asset.meta": {
+        "sha256": "0e59e83fbfb2383f46f50340acecbd1512f174054b0e3309860944bc02819fb1",
+        "size": 2498
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_Shrub.fbx\n00"
+    },
+    {
+      "guid": "8640f19b7bdf5f14f8f119e5b8e645e6",
+      "asset": {
+        "sha256": "cbc9d0081244b887473b4cb49f1d946e0ca6225f026d2a3753e621afc730732e",
+        "size": 2520
+      },
+      "asset.meta": {
+        "sha256": "874ca1105439c45df15b5a576911df9f15405979835e3d7b330de5d98cfb5595",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SW2_GrassPatch.prefab\n00"
+    },
+    {
+      "guid": "51488f1a6ee261f499079f4cbbb31c77",
+      "asset": {
+        "sha256": "71586f6042f4729d0a2cdcdc919b1126cf4473de46fc5d97d2271e737c97c04b",
+        "size": 3563
+      },
+      "asset.meta": {
+        "sha256": "c6daf0547ea7c6fe1207f297316f33947dba05475ff52f7f2e56258eb75df280",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_Barrel.prefab\n00"
+    },
+    {
+      "guid": "c0e783d3458b6c340b95648897321979",
+      "asset": {
+        "sha256": "9c930a2dca00bdffa7925d68a5112f36bea1e50f42b2ace68212e155ab17e729",
+        "size": 3276
+      },
+      "asset.meta": {
+        "sha256": "1c0c2fa7278ef29f1c70af0654168bbe41336e5c6bf3b8f782eb237b6ee99849",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_Cliff.prefab\n00"
+    },
+    {
+      "guid": "175f97697861e0542bfae6297f6ca8ce",
+      "asset": {
+        "sha256": "1ee0c5f5233b8f4708d409c2749729766cf162f9a2c0ce059482531c1add4425",
+        "size": 3921
+      },
+      "asset.meta": {
+        "sha256": "a32cd454e8815b22afbf0e5c3ddc609c6448324da039cb364ca0f25fc104ca78",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoPalmBaby.prefab\n00"
+    },
+    {
+      "guid": "77bf9ac5bb35cca4f8489250bc585079",
+      "asset": {
+        "sha256": "0defe1f243706e76af83bac8c64584d092b60e059efb711d6fab1143cb86cf11",
+        "size": 4377
+      },
+      "asset.meta": {
+        "sha256": "4b0aaa0f32a5c7f8fd1dede2ef25fe0a36ab4a18541c244f97e59bc2022209b6",
+        "size": 189
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoPalmTree.prefab\n00"
+    },
+    {
+      "guid": "b6f0a12a63a5ab74cb32e22e7120f53b",
+      "asset": {
+        "sha256": "221fb36f51122327ab275cba9cbdcea84ee61dac8b57b3f04454690d870b0895",
+        "size": 3000
+      },
+      "asset.meta": {
+        "sha256": "e70700e3486d5b471d373a1a2cb4f1c3112e419c66cd9bd5d41e42fbaacbb592",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoPier.prefab\n00"
+    },
+    {
+      "guid": "402116231069f8f408462fbe36f02c9d",
+      "asset": {
+        "sha256": "5b65fe0ce445d718a47a3bbbe8ef2231c83d57eb47fd90630bb1992acb56c4d4",
+        "size": 4285
+      },
+      "asset.meta": {
+        "sha256": "7d5dd05d18fb84399cb4395e951b27617824c94eae0412e78484159f73d4255c",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoRock.prefab\n00"
+    },
+    {
+      "guid": "eab33a4ef44730148be8f7ce502d7679",
+      "asset": {
+        "sha256": "ce57aa1bcb2a67b164fd4a0be149967fefa9da56f006ecd30c5cbcf49a32e50b",
+        "size": 2835
+      },
+      "asset.meta": {
+        "sha256": "f4949e0dd8c22b7b5f356f0bb4aea1a460bda7140d41832acd18512702c3c765",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_LogRaft.prefab\n00"
+    },
+    {
+      "guid": "eed1bb5cc0d71e2448ba262b66f147d0",
+      "asset": {
+        "sha256": "ccb2f6a0b78d19d639cf8f37922f5c23810f7afd13df1a7d9f03fa068846ad0b",
+        "size": 3911
+      },
+      "asset.meta": {
+        "sha256": "bde12d60c7911ada0827e1538ddaac1647db095142c48ce0c42fed6e060b44e7",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_Shrub.prefab\n00"
+    },
+    {
+      "guid": "0c1709a42e1fe324fa71fd23ece81e87",
+      "asset": {
+        "sha256": "020c17bc3787a1052f7500cd14e6a0b21e27e10242e3bb19a661e486cc913251",
+        "size": 2954
+      },
+      "asset.meta": {
+        "sha256": "e53748e815f2c640d59714c7d482ec21c4e549f0f6696e9ffed07b3631cd8de4",
+        "size": 161
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_WoodenCrate.prefab\n00"
+    },
+    {
+      "guid": "dfdd87309859333458232217f76fc455",
+      "asset": {
+        "sha256": "08c487d50e49bb97b582070e08d45300a0dc2c8a1b5287115f1f5be170d145be",
+        "size": 254306
+      },
+      "asset.meta": {
+        "sha256": "f3445a4cc18bac36cbe4e9883edaeefd6721f0379aa2c31e5a2b6f2ece97c281",
+        "size": 2797
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/SWS_LUT_v2.psd\n00"
+    },
+    {
+      "guid": "27dd6a104ca0c584097786eb06c01755",
+      "asset": {
+        "sha256": "81a6a78d834851a4e0a0d0972594f0912307e80cd56a911f59527cee2af39ee2",
+        "size": 3843
+      },
+      "asset.meta": {
+        "sha256": "c842b45b1bdbd60bf94443b0ec8e84867a96825a28c4872de2c4b04a4a19209a",
+        "size": 197
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/SWS_PostProcessingProfile_URP.asset\n00"
+    },
+    {
+      "guid": "d19b180459ae08a4eb78845b24b8f973",
+      "asset": {
+        "sha256": "ec643d9220ea15bfb7a3c897b1565d502122736cc7fa8c469f668a21b0cc9c14",
+        "size": 810
+      },
+      "asset.meta": {
+        "sha256": "0e6e38fb7c9e16bc78c10b4cf7e35a0975ea600ef05e35eb47fca7954a3b1618",
+        "size": 190
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_DemoRiverBed.terrainlayer\n00"
+    },
+    {
+      "guid": "fb10c5ba31482e44c97ef49a902d5170",
+      "asset": {
+        "sha256": "45033d4a4d8eede0dac9d80c4ae60939d7d47b0f592df640ce83904a7db7cf97",
+        "size": 863
+      },
+      "asset.meta": {
+        "sha256": "ae803a9f92094cbea96beb7127f81e53d5e817cf16e44525a42814359aa08dc5",
+        "size": 190
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_DemoRock.terrainlayer\n00"
+    },
+    {
+      "guid": "ba9d148503605aa488995df4b6cd4b2c",
+      "asset": {
+        "sha256": "1780e2937ce3dd8a299c2d8f70b307ca25ed3d9929d7d42ae69893ec62e5d5d7",
+        "size": 748
+      },
+      "asset.meta": {
+        "sha256": "c49cab2980b8cb177c7c0d171f5d227fb76094044e08d98b97b83287d6ca5537",
+        "size": 208
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_Grass.terrainlayer\n00"
+    },
+    {
+      "guid": "1349924bb24b512499d766944910b6b8",
+      "asset": {
+        "sha256": "75f45c72cfed1b0d08bf1d4cf66138c231e1a78246dbfcae57b7dff87f173794",
+        "size": 863
+      },
+      "asset.meta": {
+        "sha256": "7ed6d929bb5b09dc98640e51bb33b8d86728d437a5697f5b0f6825946e38d2ac",
+        "size": 190
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_OceanFloor.terrainlayer\n00"
+    },
+    {
+      "guid": "0a91496b0c3de2e49a580f98003c6146",
+      "asset": {
+        "sha256": "8bc6635c65e13a66507ec420cc4ca91ba792de232b76c2e541fbc80feef34463",
+        "size": 814
+      },
+      "asset.meta": {
+        "sha256": "e0116262e6bd83e1b0eb2451d4886285fd57efee048e01249160f2bfdaff1556",
+        "size": 190
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_OceanFloorSmooth.terrainlayer\n00"
+    },
+    {
+      "guid": "4e22988483dec4149974aaebc4f4c362",
+      "asset": {
+        "sha256": "478bee744b528cc9fb8446ff6e12f569c2ec7cec0e39b66cc9b3515336ce37e7",
+        "size": 807
+      },
+      "asset.meta": {
+        "sha256": "c3d83eb3e35d3be652dba4120cfa1f8ffbbd9775fc36c54c3990e0a07d4ab8c1",
+        "size": 208
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_SandRough.terrainlayer\n00"
+    },
+    {
+      "guid": "596bb289376bebc45bfb44e514781840",
+      "asset": {
+        "sha256": "9da6c5cdf1ff45d60e8273cda72ebed2d4c4a36bcdb2f0bc0d3ffdd934214bd6",
+        "size": 777
+      },
+      "asset.meta": {
+        "sha256": "f3e4d778ce2cf30fa58ba592ca1c0b287af149eb840b2fbf1f410f91f805565b",
+        "size": 208
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_SandWet.terrainlayer\n00"
+    },
+    {
+      "guid": "e10e46033aca09a4b8f983fde1c28361",
+      "asset": {
+        "sha256": "1c922710925b2ab86a775b16f96a65932962569f5ac04ade9fc8f75385cf582d",
+        "size": 860
+      },
+      "asset.meta": {
+        "sha256": "43977f7b65ce01a1e437acf706037c1022913aad6c0587eeda4806444dd9797c",
+        "size": 208
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_Seaweed.terrainlayer\n00"
+    },
+    {
+      "guid": "895a882de93815b449eadf074b4e6a4d",
+      "asset": {
+        "sha256": "699dbbf5cffda0eada678856db265b48df31570fc8fd98a4113d376bff826fdf",
+        "size": 86375
+      },
+      "asset.meta": {
+        "sha256": "7bd591a21e2bc851c2141bf48918d19e0fdaac29d86939a475076e973f211dd0",
+        "size": 1323
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoGrass.png\n00"
+    },
+    {
+      "guid": "181914f2fd5bdd845a84c010d458dac0",
+      "asset": {
+        "sha256": "a3d869d3c0156f45f9dabaab0c1b76acdad656e670f53c27a1d91d693b01c427",
+        "size": 179085
+      },
+      "asset.meta": {
+        "sha256": "8afc7d40f9f22cb585d796b37b2505c9053df31c0ece508d34a413d996693e97",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRiverBed.png\n00"
+    },
+    {
+      "guid": "d03ea46acdfe7b044a215a7178787e3c",
+      "asset": {
+        "sha256": "1220c56a2a7fddaaea58f1fec5aec90f51b6272d9512ec9fc2fd674a64cfd1c6",
+        "size": 1284054
+      },
+      "asset.meta": {
+        "sha256": "17f6aee44e8034d31be97ce034c54b37e3328261571e7f9de279be61e9ee7249",
+        "size": 3527
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRiverBed_Normals.png\n00"
+    },
+    {
+      "guid": "b78f7e646c20df44080c0b79a047bf01",
+      "asset": {
+        "sha256": "0fa1436e270e7fcff8d13a10899000f3797541de6223e069a79a749081941601",
+        "size": 725440
+      },
+      "asset.meta": {
+        "sha256": "8c1242bedca2c6be0a47b7954420a08a3f6d31d3e985d0a712d28e43f773c07e",
+        "size": 197
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRiverTerrain.asset\n00"
+    },
+    {
+      "guid": "5f5d1d3e71df62f45b0855bce5cfd35a",
+      "asset": {
+        "sha256": "4ea3a2e03718ae4de70904888e1964e1de2e405def2f0ad739b93c82115df128",
+        "size": 124440
+      },
+      "asset.meta": {
+        "sha256": "4f5e384c8782a029c51419e63688b0f58855172cf540268dd5a3d1806e2457c0",
+        "size": 1323
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRock.png\n00"
+    },
+    {
+      "guid": "0ce3f2228ad6082459b03d7793631d6e",
+      "asset": {
+        "sha256": "432746b2da6925a2f5b43d13197c449b1aa438122c0beab68b93740ee13cf3a8",
+        "size": 971090
+      },
+      "asset.meta": {
+        "sha256": "0aaee3e6f543ccfc8c971a1a002217bdbfabe73bef9516ada04022a0aab3fafe",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRock_MaskMap.png\n00"
+    },
+    {
+      "guid": "8684ed27e15d2f243a478c3f9b955ace",
+      "asset": {
+        "sha256": "a5561244249304de8497f458213996ccac5c7cdd72ba40dacfbb3e6028f45c90",
+        "size": 1149855
+      },
+      "asset.meta": {
+        "sha256": "100db5143426b3228c8a186a5ad5c592b39477defc574a09c03bd0583f9269e6",
+        "size": 2803
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRock_Normals.png\n00"
+    },
+    {
+      "guid": "7f44820bdfbfb424cae4398c7cdf2a36",
+      "asset": {
+        "sha256": "a9b9e85381b27585367c0672184c1fc7776afeac052cdcaf352efca03f0417ad",
+        "size": 114568
+      },
+      "asset.meta": {
+        "sha256": "08224c1b22165695f5cc23949c655ea74be59c0eb415b0aa01ab82cf1355c5dc",
+        "size": 1322
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSand.png\n00"
+    },
+    {
+      "guid": "5545ac16cc3c78c42af6f52b426c83fe",
+      "asset": {
+        "sha256": "5404a6213385488f48723dfd8d32e1305e85428124a3b18f3fa1c2be70e67689",
+        "size": 92353
+      },
+      "asset.meta": {
+        "sha256": "72cdfa835afef407fee1fbfae68e21b5bc4d50d5e358843fb96b60e7a85972f3",
+        "size": 2803
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSand_Normals.png\n00"
+    },
+    {
+      "guid": "28c23876801095c43b09be0c71ad7ddf",
+      "asset": {
+        "sha256": "6c2f03231d8d3fa807fae1d93ea5cfbeab5f1d7a4077911f027436b348d5c9ae",
+        "size": 317293
+      },
+      "asset.meta": {
+        "sha256": "5e6a3577f03389544a67cfc9bcfe325e6f6c6176306df14c9381cb86717e2168",
+        "size": 2120
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSeaweed.png\n00"
+    },
+    {
+      "guid": "548cb0687b9705d47a7a2a4846203837",
+      "asset": {
+        "sha256": "f2b68258ff304ef929bac7babcb54c6277ec57f51fe10a8994bb7dcadb0d7576",
+        "size": 145755
+      },
+      "asset.meta": {
+        "sha256": "ff436b24b020016e02297e668dc98b932287576527b7a4195cac9c10cb21f392",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSeaweed_MaskMap.png\n00"
+    },
+    {
+      "guid": "d4628f0edf50fef40b2b840fc4428382",
+      "asset": {
+        "sha256": "b3fe9996457ffd08528ebe2fa3e6aab9cdddb2f74c9f0bbb28890a624a5f551e",
+        "size": 452993
+      },
+      "asset.meta": {
+        "sha256": "0d8e8501b9a08c9ad0fa7ac628bb109495c712858c7e23e4e4981bbea8e9365b",
+        "size": 3527
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSeaweed_Normals.png\n00"
+    },
+    {
+      "guid": "27e552baeb4249546b83bc7a3a4b2bc6",
+      "asset": {
+        "sha256": "17e12a7391d80c17b2f24e5141d0fa478574d3cc34cc416721593d01fab6d20a",
+        "size": 708632
+      },
+      "asset.meta": {
+        "sha256": "859c1e470bd67e63d93ae01bc1deb77934b3bcf9be0e34b9ffb60ed1c2fcb694",
+        "size": 197
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoTerrain.asset\n00"
+    },
+    {
+      "guid": "d56208fea8f572d4f981074cd734c6b5",
+      "asset": {
+        "sha256": "875f53af975713209546a74ddadccb42cafa773bfd6a56fef38794c3a3911b90",
+        "size": 1983556
+      },
+      "asset.meta": {
+        "sha256": "75ea34b3333afb075b8722e7ddad7f9aea3ed14c05919c8eacc9816fcb95b585",
+        "size": 197
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DioramaTerrain.asset\n00"
+    },
+    {
+      "guid": "1dbe0f4dc60235749a1efd0f355210f0",
+      "asset": {
+        "sha256": "130cd76511b6a35eb658298f2935273820b858d58b5cdb7731a25c7f4e478139",
+        "size": 1037367
+      },
+      "asset.meta": {
+        "sha256": "86ba9acfd6a8288c982f789941f6608b3e696fb20131f0053a41048c21c1edfa",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Diffuse.png\n00"
+    },
+    {
+      "guid": "3d435e1e6edd62b4ebcd9cfa6c64cb65",
+      "asset": {
+        "sha256": "d6efe0ecba0e6dc4eb4628d7ff6606107fdd67e9aad3ab9b49d5becb04935f86",
+        "size": 49330
+      },
+      "asset.meta": {
+        "sha256": "d7197e1cbab1cea4a0e4a6eadce7eccf414e2d3af9779cf7140e3a3725958128",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_MaskMap.png\n00"
+    },
+    {
+      "guid": "e099b2b6335e5a842873d4b3d42a3ba7",
+      "asset": {
+        "sha256": "e2f1dd5762465a31bd68c2981c93d02d07ccbe6ec10af646e3cdd118720843c6",
+        "size": 282701
+      },
+      "asset.meta": {
+        "sha256": "6d6e41d3fe043834a8a60465622fae170cdcd7e33039d927124314d35a96ff93",
+        "size": 3527
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Normal.png\n00"
+    },
+    {
+      "guid": "293e386d7f495eb41aa7ae2b977525ef",
+      "asset": {
+        "sha256": "e3c0f2c8c752ed1aba898798c3eeec26bea5d7424b4ead96c58259b0040c853d",
+        "size": 892556
+      },
+      "asset.meta": {
+        "sha256": "e532c566483ddf692cdd6a29fbaacb1df8a6a153f5755fdce98c4b6af552087b",
+        "size": 2145
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Smooth_Diffuse.png\n00"
+    },
+    {
+      "guid": "27587d6a3187ded4fb0f1cf903314f36",
+      "asset": {
+        "sha256": "d12643d2a0fdcf29c5923d890f660f4f56b712f5e33a682378576bdfe18ebcbf",
+        "size": 300836
+      },
+      "asset.meta": {
+        "sha256": "f9b63483bf0a1fd9915d379ba953a2aff01f0aa6048f067eb584b29ad9e7118c",
+        "size": 3527
+      },
+      "path": "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Smooth_Normal.png\n00"
+    },
+    {
+      "guid": "8fc702386a902044baccac39c7259277",
+      "asset": {
+        "sha256": "dabe01a5be7f83e299c8124e37c7773a05fcebf64cfb794794f75deae66bf876",
+        "size": 49381
+      },
+      "asset.meta": {
+        "sha256": "5708e86bfc659c3eab210b68298062c4ab58521bee47d99500d2c5fad14c7b20",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/_Demo/Diorama.unity\n00"
+    },
+    {
+      "guid": "45e92860884cc7a4998c815e4df78497",
+      "asset": {
+        "sha256": "8ae6b5fa2892b2a926573fdc9b911e4097bd4ad84de4b7aa96363d8677a63374",
+        "size": 17721
+      },
+      "asset.meta": {
+        "sha256": "f22a463e696b48cefdb1f1672b512eca887d526bb8d4fabce46ffaf758e27cda",
+        "size": 198
+      },
+      "path": "Assets/StylizedWater2/_Demo/Diorama/LightingData.asset\n00"
+    },
+    {
+      "guid": "70d36081346f63e46b926a02b76297f6",
+      "asset": {
+        "sha256": "3fa8087c295856573f5f7e1ad3987a206d2fda82b62ecfde7066e0b4c784269d",
+        "size": 52063
+      },
+      "asset.meta": {
+        "sha256": "f5ff8ce42201995cc7281caf85eb0caefb0f135d2f0b16c4995839e2f18de666",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/_Demo/ParticleShowcase.unity\n00"
+    },
+    {
+      "guid": "4cbbf08b6c5dca543a2c81811ddd53fe",
+      "asset": {
+        "sha256": "1f45bfb0b4d5dfccb74db1b9ae8fec3c53e803880b157f66e80928cb46501910",
+        "size": 17721
+      },
+      "asset.meta": {
+        "sha256": "78e4cd527d7d312d91fbab515b728ff903ce131ca3657846a3bd2cfbe8929eb8",
+        "size": 198
+      },
+      "path": "Assets/StylizedWater2/_Demo/ParticleShowcase/LightingData.asset\n00"
+    },
+    {
+      "guid": "7f6a5d9010bc63a4db202102091ab329",
+      "asset": {
+        "sha256": "fcbf83d6335d5fb7a6d9b07dc4a77aa1763b08aaba71e9cf69aaff0231299f8f",
+        "size": 141596
+      },
+      "asset.meta": {
+        "sha256": "edfab1eb93838e0fd5888de2d6d3c822b45001a5d523f80dadf2735990d695fb",
+        "size": 2724
+      },
+      "path": "Assets/StylizedWater2/_Demo/ParticleShowcase/ReflectionProbe-0.exr\n00"
+    },
+    {
+      "guid": "79e4a25f666bb4b4db875688ece67899",
+      "asset": {
+        "sha256": "51ff0c65f3ed5658de154d010da7acb08a381f8ff4d2fea55409ee16cad0650c",
+        "size": 457145
+      },
+      "asset.meta": {
+        "sha256": "3259ec256c8956786394648b05cba21d61d36e96b2c32e15a1fe11990e79ce7c",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/_Demo/RiverDemo.unity\n00"
+    },
+    {
+      "guid": "e407010053bbb024e854196c5d9a7bf3",
+      "asset": {
+        "sha256": "8ddedad9514a6af58e0cef9f126a7a3605fcb16b14c6a804b3fe739a54f916eb",
+        "size": 17769
+      },
+      "asset.meta": {
+        "sha256": "36417a8c1eb39402f03b5777a89eea91ff03d1bb8bd977bc9194cb45b485a41b",
+        "size": 198
+      },
+      "path": "Assets/StylizedWater2/_Demo/RiverDemo/LightingData.asset\n00"
+    },
+    {
+      "guid": "b1b2a1c549dc83742ac392ae2c412141",
+      "asset": {
+        "sha256": "f978a4230406ee1b79c6edd23e6a4f7f02700ab1a8e447a79d30ecba0b2e3704",
+        "size": 148775
+      },
+      "asset.meta": {
+        "sha256": "6b5d826e132352427a95ee048a20d3b9e135a4f2ff5983040bf9792f3f3f7eb4",
+        "size": 2724
+      },
+      "path": "Assets/StylizedWater2/_Demo/RiverDemo/ReflectionProbe-0.png\n00"
+    },
+    {
+      "guid": "8685a86f03957e84da8b86245e25f185",
+      "asset": {
+        "sha256": "0c6edce343210c7907a249855f1cd802e0665eb6e13602f4edb9914d73c06df3",
+        "size": 162659
+      },
+      "asset.meta": {
+        "sha256": "ef912f5b883e3bbe16b0d2ec03c0ce814b5c107a49cac813b113d56f94972036",
+        "size": 2724
+      },
+      "path": "Assets/StylizedWater2/_Demo/RiverDemo/ReflectionProbe-1.exr\n00"
+    },
+    {
+      "guid": "a5038591c0ad967448d7dd84f554169e",
+      "asset": {
+        "sha256": "b1f10b72aa782bf89428bcd40b8ca423da0f3e3793bf3bf78064807020ceea8d",
+        "size": 1045467
+      },
+      "asset.meta": {
+        "sha256": "033764c7b9b92d0449c555d1f02bb5f5f0340624bb6857ee950d77c38b16e789",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/_Demo/StylizedWaterDemo.unity\n00"
+    },
+    {
+      "guid": "3dc8bc759650f2b42b1c6fb0220d6028",
+      "asset": {
+        "sha256": "abef66a0bea0a6778f9b8b29a851b010c9840744bddcb27e3ddf1e7c18473ebe",
+        "size": 17769
+      },
+      "asset.meta": {
+        "sha256": "2d6ce9ce493b96a8b6f81cdd225c46f58d4425dd83404c1b357d726d4514a786",
+        "size": 198
+      },
+      "path": "Assets/StylizedWater2/_Demo/StylizedWaterDemo/LightingData.asset\n00"
+    },
+    {
+      "guid": "3e9a3fff7357003448842ce7cfb18edd",
+      "asset": {
+        "sha256": "78d8bdb1ea209ff7c7b3ef99cf5210cc83c74f651d15ad91b3f9894b64e6be6b",
+        "size": 1879
+      },
+      "asset.meta": {
+        "sha256": "5db76e48d93e8eb0e36f8e7500a11673747c373414272765c0bd8e3cc1b24b8e",
+        "size": 208
+      },
+      "path": "Assets/StylizedWater2/_Demo/StylizedWaterDemo/StylizedWaterDemo Lighting Settings.lighting\n00"
+    },
+    {
+      "guid": "fa17db9327e1c48428a5dd79735795a2",
+      "asset": {
+        "sha256": "2450d958af55145b6ab30953e521d562f112e2821694508e18e56b15e92e1f8d",
+        "size": 52275
+      },
+      "asset.meta": {
+        "sha256": "92d8fa1ce39579c3ca3490e6c60df7ffe284da562e43e50d9b850341fc04e638",
+        "size": 162
+      },
+      "path": "Assets/StylizedWater2/_Demo/WavesExample.unity\n00"
+    },
+    {
+      "guid": "74977b983a3967547822866b7b995a39",
+      "asset": {
+        "sha256": "5bfc6eed03124ccd10d8d19fec75c7f2c0281485b0f855e14d1a169d15769c00",
+        "size": 17721
+      },
+      "asset.meta": {
+        "sha256": "ad99c41ac3a34172897bfd438d1430c67aeed7e1811c37a8d58b93af7462ae03",
+        "size": 198
+      },
+      "path": "Assets/StylizedWater2/_Demo/WavesExample/LightingData.asset\n00"
+    },
+    {
+      "guid": "a91e73f6d8fa9314c9abfd295fc8d61f",
+      "asset": {
+        "sha256": "afa80dfd2a809f7fea1b2fbfd79e70a1a165a762b1d76d90c1767955b7d26e3c",
+        "size": 207359
+      },
+      "asset.meta": {
+        "sha256": "71b0e02cb7fbcf80dc89b5521afdbb17ae0e80bb21f24ca237519c8568e8e80d",
+        "size": 2724
+      },
+      "path": "Assets/StylizedWater2/_Demo/WavesExample/ReflectionProbe-0.exr\n00"
+    },
+    {
+      "guid": "f5f375eef06e8f8488ff5ffafbaf5ee0",
+      "asset": {
+        "sha256": "62acc7edea07031a3d88dd7d37e990791f530a1c5b7a0c3112a0c8c1d08ea773",
+        "size": 587
+      },
+      "asset.meta": {
+        "sha256": "dad3d2059c3d95e591c25ba2d875597d3f860f289b36bf11908737b2cdd785eb",
+        "size": 165
+      },
+      "path": "Assets/StylizedWater2/package.json\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "b0bb4a93eeb6bda1a1c30efb478a881b3d8d907ca19bd57406559288f2f716c5",
+      "size": 36019
+    }
+  ],
+  "control_character_paths": [
+    "Assets/StylizedWater2/CHANGELOG.md\n00",
+    "Assets/StylizedWater2/Documentation.url\n00",
+    "Assets/StylizedWater2/Editor/AssetInfo.cs\n00",
+    "Assets/StylizedWater2/Editor/HelpWindow.cs\n00",
+    "Assets/StylizedWater2/Editor/Inspectors/AlignToWavesInspector.cs\n00",
+    "Assets/StylizedWater2/Editor/Inspectors/PlanarReflectionRendererInspector.cs\n00",
+    "Assets/StylizedWater2/Editor/Inspectors/RenderFeatureEditor.cs\n00",
+    "Assets/StylizedWater2/Editor/Inspectors/WaterGridInspector.cs\n00",
+    "Assets/StylizedWater2/Editor/Inspectors/WaterObjectInspector.cs\n00",
+    "Assets/StylizedWater2/Editor/Inspectors/WaterShaderImporterEditor.cs\n00",
+    "Assets/StylizedWater2/Editor/MaterialUI.cs\n00",
+    "Assets/StylizedWater2/Editor/Resources/water-object-icon.png\n00",
+    "Assets/StylizedWater2/Editor/Resources/water-shader-icon.png\n00",
+    "Assets/StylizedWater2/Editor/ShaderConfigurator.cs\n00",
+    "Assets/StylizedWater2/Editor/StylizedWaterEditor.cs\n00",
+    "Assets/StylizedWater2/Editor/UI.cs\n00",
+    "Assets/StylizedWater2/Editor/WaterMeshImporter.cs\n00",
+    "Assets/StylizedWater2/Editor/WaterShaderImporter.cs\n00",
+    "Assets/StylizedWater2/Editor/sc.stylizedwater2.editor.asmdef\n00",
+    "Assets/StylizedWater2/Materials/Effects/SplashParticle.mat\n00",
+    "Assets/StylizedWater2/Materials/Effects/SplashParticle_Up.mat\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/CrestSplash_AlbedoAlpha.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/CrestSplash_Normals.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterMist_5x5.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterMist_5x5_normals.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterRipple.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterRipple_normal.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashCircle_5x5.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashCircle_5x5_normals.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashUp_6x6.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplashUp_6x6_normals.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplash_6x6.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterSplash_6x6_normals.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterfallSplash_5x5.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/Textures/WaterfallSplash_5x5_normals.png\n00",
+    "Assets/StylizedWater2/Materials/Effects/WaterCircle.mat\n00",
+    "Assets/StylizedWater2/Materials/Effects/WaterMistParticle.mat\n00",
+    "Assets/StylizedWater2/Materials/Effects/WaterRipple.mat\n00",
+    "Assets/StylizedWater2/Materials/Effects/WaterfallSplashParticle.mat\n00",
+    "Assets/StylizedWater2/Materials/Effects/WaveCrestSplash.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Clear.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Desktop.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Frozen.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Lava.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_LavaFlow.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Lowpoly.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Mobile.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Murky.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Ocean.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Realistic.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_River.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Smooth.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Swamp.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_Toon.mat\n00",
+    "Assets/StylizedWater2/Materials/StylizedWater2_ToxicGoop.mat\n00",
+    "Assets/StylizedWater2/Materials/Textures/Caustics/Caustics_1.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Caustics/Caustics_2.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Foam/Foam1.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Foam/Foam2.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Foam/FoamSea.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Foam/Intersection_Foam.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Foam/WaterfallFoam.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Foam/WindwakerFoam.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/IntersectionNoise.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Normals/RoughWaves.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Normals/SharpWaves.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Normals/SmoothWaves.png\n00",
+    "Assets/StylizedWater2/Materials/Textures/Normals/StreamWaves.png\n00",
+    "Assets/StylizedWater2/Materials/WaterTransparencyMask.mat\n00",
+    "Assets/StylizedWater2/Models/HighPoly_Circle.watermesh\n00",
+    "Assets/StylizedWater2/Models/HighPoly_Plane.watermesh\n00",
+    "Assets/StylizedWater2/Models/HighPoly_Plane_wNoise.watermesh\n00",
+    "Assets/StylizedWater2/Models/LowPoly_Plane.watermesh\n00",
+    "Assets/StylizedWater2/Models/SW2_ParticleMeshes.fbx\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/BigSplash.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/RiverMouth.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Stationairy.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Trail.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Collision.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Ring.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_SeaCliffCollision.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Trail.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Up.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterfallMist.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/WaterfallSplash.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/Effects/Wave Crest Splash.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/StylizedWater2_Ocean.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/StylizedWater_Desktop.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/StylizedWater_Lowpoly.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/StylizedWater_Mobile.prefab\n00",
+    "Assets/StylizedWater2/Prefabs/StylizedWater_Toon.prefab\n00",
+    "Assets/StylizedWater2/Quickstart.pdf\n00",
+    "Assets/StylizedWater2/Runtime/AlignToWaves.cs\n00",
+    "Assets/StylizedWater2/Runtime/Buoyancy.cs\n00",
+    "Assets/StylizedWater2/Runtime/PipelineUtilities.cs\n00",
+    "Assets/StylizedWater2/Runtime/Rendering/DisplacementPrePass.cs\n00",
+    "Assets/StylizedWater2/Runtime/Rendering/PlanarReflectionRenderer.cs\n00",
+    "Assets/StylizedWater2/Runtime/Rendering/SetupConstants.cs\n00",
+    "Assets/StylizedWater2/Runtime/Rendering/StylizedWaterRenderFeature.cs\n00",
+    "Assets/StylizedWater2/Runtime/StylizedWaterDataProvider.cs\n00",
+    "Assets/StylizedWater2/Runtime/WaterGrid.cs\n00",
+    "Assets/StylizedWater2/Runtime/WaterMesh.cs\n00",
+    "Assets/StylizedWater2/Runtime/WaterObject.cs\n00",
+    "Assets/StylizedWater2/Runtime/WaveParameters.cs\n00",
+    "Assets/StylizedWater2/Runtime/sc.stylizedwater2.runtime.asmdef\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Caustics.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Common.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Displacement.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Features.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Foam.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Fog.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/ForwardPass.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Input.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Lighting.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Reflections.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Tesselation.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/URP.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Vertex.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/Libraries/Waves.hlsl\n00",
+    "Assets/StylizedWater2/Shaders/StylizedWater2_Standard.watershader\n00",
+    "Assets/StylizedWater2/Shaders/SubGraphs/Readme.txt\n00",
+    "Assets/StylizedWater2/Shaders/SubGraphs/Sample Water Height.shadersubgraph\n00",
+    "Assets/StylizedWater2/Shaders/SubGraphs/Sample Water Normal.shadersubgraph\n00",
+    "Assets/StylizedWater2/Shaders/WaterCutoutMask.shader\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Barrel.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/FagaceaeBillboard.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SW2_BackdropTerrain.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoCliff.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoCrate.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoFoliageShader.shadergraph\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoGrass.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoLogRaft.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPalmBaby.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPalmBark.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPalmBranch.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoPier.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoRock.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_DemoTerrain.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/SWS_Shrub.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_Demo.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox Noon.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox Sunset.exr\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox Sunset.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_DemoSkybox.exr\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_Demo_DioramaSide.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_Demo_DioramaTop.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/StylizedWater2_RiverDemo.mat\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/FagaceaeImpostor_Albedo.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/FagaceaeImpostor_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/GrassBillboard.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SW2_BackdropTerrain Albedo.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Cliff_Albedo.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Cliff_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoBarrelDiffuse.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalmBranch.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalmBranch_Normal.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalm_Bark.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_DemoPalm_Bark_Normal.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_LogRaft_Diffuse.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_LogRaft_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_PierAlbedo.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_PierNormals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Rocks_diffuse.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_Rocks_normal.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/SWS_WoodenCrate.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Materials/Textures/Shrub_BranchCluster.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/DioramaWater.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SGS_DemoCliff.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SGS_DemoRock.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SW2_BackgroundTerrain.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SW2_GrassPatch.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_DemoPalmBaby.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_DemoPalmTree.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_DemoProps.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Models/SWS_Shrub.fbx\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SW2_GrassPatch.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_Barrel.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_Cliff.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoPalmBaby.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoPalmTree.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoPier.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_DemoRock.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_LogRaft.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_Shrub.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Prefabs/SWS_WoodenCrate.prefab\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/SWS_LUT_v2.psd\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/SWS_PostProcessingProfile_URP.asset\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_DemoRiverBed.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_DemoRock.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_Grass.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_OceanFloor.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_OceanFloorSmooth.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_SandRough.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_SandWet.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/Layers/SWS_Seaweed.terrainlayer\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoGrass.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRiverBed.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRiverBed_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRiverTerrain.asset\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRock.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRock_MaskMap.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoRock_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSand.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSand_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSeaweed.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSeaweed_MaskMap.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoSeaweed_Normals.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DemoTerrain.asset\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_DioramaTerrain.asset\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Diffuse.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_MaskMap.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Normal.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Smooth_Diffuse.png\n00",
+    "Assets/StylizedWater2/_Demo/DemoAssets/Terrain/SWS_OceanFloor_Smooth_Normal.png\n00",
+    "Assets/StylizedWater2/_Demo/Diorama.unity\n00",
+    "Assets/StylizedWater2/_Demo/Diorama/LightingData.asset\n00",
+    "Assets/StylizedWater2/_Demo/ParticleShowcase.unity\n00",
+    "Assets/StylizedWater2/_Demo/ParticleShowcase/LightingData.asset\n00",
+    "Assets/StylizedWater2/_Demo/ParticleShowcase/ReflectionProbe-0.exr\n00",
+    "Assets/StylizedWater2/_Demo/RiverDemo.unity\n00",
+    "Assets/StylizedWater2/_Demo/RiverDemo/LightingData.asset\n00",
+    "Assets/StylizedWater2/_Demo/RiverDemo/ReflectionProbe-0.png\n00",
+    "Assets/StylizedWater2/_Demo/RiverDemo/ReflectionProbe-1.exr\n00",
+    "Assets/StylizedWater2/_Demo/StylizedWaterDemo.unity\n00",
+    "Assets/StylizedWater2/_Demo/StylizedWaterDemo/LightingData.asset\n00",
+    "Assets/StylizedWater2/_Demo/StylizedWaterDemo/StylizedWaterDemo Lighting Settings.lighting\n00",
+    "Assets/StylizedWater2/_Demo/WavesExample.unity\n00",
+    "Assets/StylizedWater2/_Demo/WavesExample/LightingData.asset\n00",
+    "Assets/StylizedWater2/_Demo/WavesExample/ReflectionProbe-0.exr\n00",
+    "Assets/StylizedWater2/package.json\n00"
+  ]
+}

@@ -1,0 +1,15 @@
+.account-panel { max-width:720px; margin:48px auto; padding:32px; background:var(--surface); border:1px solid var(--border); border-radius:16px; }
+.account-panel h1 { font-size:28px; }
+.account-panel p { line-height:1.65; }
+.account-panel form p { margin:20px 0; }
+.account-panel label { display:block; font-weight:600; margin-bottom:6px; }
+.account-panel input:not([type=checkbox]), .account-panel textarea { box-sizing:border-box; width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:8px; font:inherit; }
+.account-panel .helptext { display:block; color:var(--text-muted); font-size:13px; margin-top:5px; }
+.errorlist { color:#b42318; }
+.account-success { color:#137547; background:#e9f8ef; padding:12px; border-radius:8px; }
+header { gap:20px; } header a { color:inherit; }
+@media(max-width:760px) { .account-panel { margin:20px 12px; padding:20px; } }
+
+.account-panel { box-shadow: 0 8px 32px rgba(88, 56, 122, .05); }
+.account-panel input, .account-panel textarea { background:var(--surface-soft); color:var(--text-primary); }
+.account-panel input:focus, .account-panel textarea:focus { border-color:var(--accent); outline:2px solid var(--accent-soft); }

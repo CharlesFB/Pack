@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "source": "User manual inventory checked against highest non-debug numeric-suffix release tags",
+  "normalizations": {
+    "DOTween.unitypacakge": "DOTween.unitypackage",
+    "escaped_underscore": "literal underscore"
+  },
+  "expected_files": [
+    "Adjust_v5.0.6.unitypackage",
+    "external-dependency-manager-1.2.175.unitypackage",
+    "external-dependency-manager-1.2.170.unitypackage",
+    "AppLovin-MAX-Unity-Plugin-8.0.1-Android-13.0.1-iOS-13.0.1.unitypackage",
+    "DotweenPro.unitypackage",
+    "DOTween.unitypackage",
+    "Demigiant.zip",
+    "Odin Inspector 3.1.10.0.unitypackage",
+    "Odin Inspector_ConfigTool.unitypackage",
+    "helpshiftX-plugin-unity-v10.2.1.unitypackage",
+    "spine-unity-4.1-2023-05-16.unitypackage",
+    "com.esotericsoftware.spine.timeline-4.1-2023-05-16.zip",
+    "facebook-unity-sdk-16.0.2.unitypackage",
+    "google-signin-plugin-1.0.4.12.unitypackage",
+    "googleplay-games.unitypackage",
+    "NiceVibrations-v-3-9-0.unitypackage",
+    "BuildConfig.zip"
+  ],
+  "missing_files": [],
+  "additional_files": [
+    "Animations.unitypackage",
+    "Demigiant.unitypackage"
+  ],
+  "references": {
+    "Adjust_v5.0.6.unitypackage": 1,
+    "Animations.unitypackage": 1,
+    "AppLovin-MAX-Unity-Plugin-8.0.1-Android-13.0.1-iOS-13.0.1.unitypackage": 1,
+    "BuildConfig.zip": 1,
+    "DOTween.unitypackage": 1,
+    "Demigiant.unitypackage": 1,
+    "Demigiant.zip": 1,
+    "DotweenPro.unitypackage": 1,
+    "NiceVibrations-v-3-9-0.unitypackage": 1,
+    "Odin Inspector 3.1.10.0.unitypackage": 1,
+    "Odin Inspector_ConfigTool.unitypackage": 1,
+    "com.esotericsoftware.spine.timeline-4.1-2023-05-16.zip": 1,
+    "external-dependency-manager-1.2.170.unitypackage": 1,
+    "external-dependency-manager-1.2.175.unitypackage": 2,
+    "facebook-unity-sdk-16.0.2.unitypackage": 1,
+    "google-signin-plugin-1.0.4.12.unitypackage": 1,
+    "googleplay-games.unitypackage": 1,
+    "helpshiftX-plugin-unity-v10.2.1.unitypackage": 1,
+    "spine-unity-4.1-2023-05-16.unitypackage": 1
+  }
+}

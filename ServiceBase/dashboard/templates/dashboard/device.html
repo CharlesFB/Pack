@@ -1,0 +1,26 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>本机设备 · ServiceBase</title>
+    <link rel="stylesheet" href="{% static 'dashboard/app.css' %}?v=lavender-1">
+    <link rel="stylesheet" href="{% static 'dashboard/account.css' %}?v=lavender-1">
+</head>
+
+<body>
+    <header><a href="/">返回工程列表</a></header>
+    <main class="account-panel">
+        <h1>绑定本机设备</h1>
+        <p>填写本机 Unity 的 ServiceBase 设备 Token。登录账号和设备归属必须一致；每台电脑应使用独立的设备 Token。</p>
+        <p>绑定仅对当前浏览器登录会话生效。退出登录后需重新绑定。管理员可以直接查看全部工程。</p>
+        {% if device %}<p>当前设备：{{ device.name }}</p>
+        <form method="post">{% csrf_token %}<input type="hidden" name="action" value="unbind"><button
+                type="submit">解除绑定</button></form>{% endif %}
+        <form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">绑定并查看工程</button></form>
+    </main>
+</body>
+
+</html>

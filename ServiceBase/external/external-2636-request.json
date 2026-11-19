@@ -1,0 +1,389 @@
+{
+  "RefreshTime": "08/31/2026 10:25:39",
+  "Packages": [
+    {
+      "PackageName": "A PathFinding Project Pro",
+      "ProjectId": 2636,
+      "Versions": [
+        "5.3.1"
+      ],
+      "Tags": [
+        "5.3.1"
+      ],
+      "PluginFileNames": [
+        "A Pathfinding Project Pro[5.3.1].unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Adjust SDK",
+      "ProjectId": 2636,
+      "Versions": [
+        "5.0.6",
+        "4.37.1",
+        "4.30.0"
+      ],
+      "Tags": [
+        "5.0.6",
+        "4.37.1",
+        "4.30.0"
+      ],
+      "PluginFileNames": [
+        "Adjust_v5.0.6.unitypackage",
+        "Adjust_v4.37.1.unitypackage",
+        "Adjust_v4.30.0.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Anti Cheat ToolKit",
+      "ProjectId": 2636,
+      "Versions": [
+        "2024.0.0"
+      ],
+      "Tags": [
+        "2024.0.0"
+      ],
+      "PluginFileNames": [
+        "Anti-Cheat Toolkit 2024.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Applovin MAX SDK",
+      "ProjectId": 2636,
+      "Versions": [
+        "6.1.1",
+        "5.4.4",
+        "5.11.5"
+      ],
+      "Tags": [
+        "6.1.1",
+        "5.4.4",
+        "5.11.5"
+      ],
+      "PluginFileNames": [
+        "AppLovin-MAX-Unity-Plugin-6.1.1-Android-12.1.0-iOS-12.1.0.unitypackage",
+        "AppLovin-MAX-Unity-Plugin-5.4.4-Android-11.4.4-iOS-11.4.3.unitypackage",
+        "AppLovin-MAX-Unity-Plugin-5.11.5-Android-11.11.3-iOS-11.11.4.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Behavior Designer Behavior Trees for Everyone",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.7.11"
+      ],
+      "Tags": [
+        "1.7.11"
+      ],
+      "PluginFileNames": [
+        "Behavior Designer - Behavior Trees for Everyone 1.7.11.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Corgi Engine - 2D + 2.5D Platformer",
+      "ProjectId": 2636,
+      "Versions": [
+        "9.3-Unity6000",
+        "9.1-Unity2022"
+      ],
+      "Tags": [
+        "9.3-Unity6000",
+        "9.1-Unity2022"
+      ],
+      "PluginFileNames": [
+        "Corgi Engine - 2D 25D Platformer 9.3.unitypackage",
+        "Corgi Engine - 2D 25D Platformer [9.1].unitypackage"
+      ]
+    },
+    {
+      "PackageName": "DOTween Pro",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.0.335"
+      ],
+      "Tags": [
+        "1.0.335"
+      ],
+      "PluginFileNames": [
+        "DOTween Pro.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "EDMU",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.2.177",
+        "1.2.176"
+      ],
+      "Tags": [
+        "1.2.177",
+        "1.2.176"
+      ],
+      "PluginFileNames": [
+        "external-dependency-manager-1.2.177.unitypackage",
+        "external-dependency-manager-1.2.176.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Easy Collider Editor",
+      "ProjectId": 2636,
+      "Versions": [
+        "6.16.4"
+      ],
+      "Tags": [
+        "6.16.4"
+      ],
+      "PluginFileNames": [
+        "Easy Collider Editor 6.16.4.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Epic Toon FX",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.82 - unity6000"
+      ],
+      "Tags": [
+        "1.82 - unity6000"
+      ],
+      "PluginFileNames": [
+        "Epic Toon FX 1.82 u6000.0.11.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Epic Toon VFX3",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.1"
+      ],
+      "Tags": [
+        "1.1"
+      ],
+      "PluginFileNames": [
+        "Epic Toon VFX 3 1.1.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Feel",
+      "ProjectId": 2636,
+      "Versions": [
+        "5.3-Unity6",
+        "4.3-Unity2022",
+        "3.7.1"
+      ],
+      "Tags": [
+        "5.3-Unity6",
+        "4.3-Unity2022",
+        "3.7.1"
+      ],
+      "PluginFileNames": [
+        "Feel Unity6 v5.3.unitypackage",
+        "Feel 2022[4.3].unitypackage",
+        "Feel 3.7.1.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Fmod Studio",
+      "ProjectId": 2636,
+      "Versions": [
+        "2.0.2.26",
+        "2.0.2.19"
+      ],
+      "Tags": [
+        "2.0.2.26",
+        "2.0.2.19"
+      ],
+      "PluginFileNames": [
+        "fmodstudio20226.unitypackage",
+        "fmodstudio20219.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Log Viewer",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.8"
+      ],
+      "Tags": [
+        "1.8"
+      ],
+      "PluginFileNames": [
+        "Log Viewer.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Magica Cloth",
+      "ProjectId": 2636,
+      "Versions": [
+        "2.13.1"
+      ],
+      "Tags": [
+        "2.13.1"
+      ],
+      "PluginFileNames": [
+        "Magica Cloth 2.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Map Graph",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.26.2"
+      ],
+      "Tags": [
+        "1.26.2"
+      ],
+      "PluginFileNames": [
+        "Map Graph 1.26.2.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "NiceVibrations",
+      "ProjectId": 2636,
+      "Versions": [
+        "3.9.0"
+      ],
+      "Tags": [
+        "3.9.0"
+      ],
+      "PluginFileNames": [
+        "NiceVibrations-v-3-9-0.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "NugetForUnity",
+      "ProjectId": 2636,
+      "Versions": [
+        "3.0.4"
+      ],
+      "Tags": [
+        "3.0.4"
+      ],
+      "PluginFileNames": [
+        "NugetForUnity.3.0.4.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Odin Inspector and Serializer",
+      "ProjectId": 2636,
+      "Versions": [
+        "3.1.10.0"
+      ],
+      "Tags": [
+        "3.1.10.0"
+      ],
+      "PluginFileNames": [
+        "Odin Inspector 3.1.10.0.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Pixel Art Full GUI UI Kit",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.2.0"
+      ],
+      "Tags": [
+        "1.2.0"
+      ],
+      "PluginFileNames": [
+        "Pixel Art Full GUI UI Kit 151 icons 1.2.0.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Proxima",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.2.1"
+      ],
+      "Tags": [
+        "1.2.1"
+      ],
+      "PluginFileNames": [
+        "Proxima Runtime Inspector Console.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Spine",
+      "ProjectId": 2636,
+      "Versions": [
+        "4.1",
+        "4.1 with example",
+        "3.8"
+      ],
+      "Tags": [
+        "4.1",
+        "4.1 with example",
+        "3.8"
+      ],
+      "PluginFileNames": [
+        "spine-unity-4.1-2023-06-27.unitypackage",
+        "spine4.1-withexample.unitypackage",
+        "spine-unity-3.8-2021-11-10.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "StatsMonitor",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.0.0"
+      ],
+      "Tags": [
+        "1.0.0"
+      ],
+      "PluginFileNames": [
+        "StatsMonitor.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Stylized Water 2",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.7.0"
+      ],
+      "Tags": [
+        "1.7.0"
+      ],
+      "PluginFileNames": [
+        "Stylized Water 2 1.7.0.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Task Invoker - Mobile Background Tasks",
+      "ProjectId": 2636,
+      "Versions": [
+        "1.0.2"
+      ],
+      "Tags": [
+        "1.0.2"
+      ],
+      "PluginFileNames": [
+        "Task Invoker - Mobile Background Tasks [1.0.2].unitypackage"
+      ]
+    },
+    {
+      "PackageName": "Text Animator for Unity",
+      "ProjectId": 2636,
+      "Versions": [
+        "2.1.0"
+      ],
+      "Tags": [
+        "2.1.0"
+      ],
+      "PluginFileNames": [
+        "Text Animator for Unity v2.1.0.unitypackage"
+      ]
+    },
+    {
+      "PackageName": "UniWebView",
+      "ProjectId": 2636,
+      "Versions": [
+        "5.12.0"
+      ],
+      "Tags": [
+        "5.12.0"
+      ],
+      "PluginFileNames": [
+        "UniWebView 5.unitypackage"
+      ]
+    }
+  ]
+}

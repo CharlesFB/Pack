@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "plugin_id": "test-readme-archive",
+  "build_id": "0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502",
+  "artifact": "artifact.zip",
+  "sha256": "0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502",
+  "size": 265,
+  "metadata_status": "needs_review",
+  "layout": "unconfirmed",
+  "files": [
+    {
+      "path": "READMEτÜäσë»µ£¼.md",
+      "sha256": "639ab6c7aa19546aa9d3febd8917329f119c14bf507d719db5d11afdbdbc4eb4",
+      "size": 46
+    }
+  ]
+}

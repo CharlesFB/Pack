@@ -1,0 +1,24 @@
+{% load static %}
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录引擎中台服务</title>
+    <link rel="stylesheet" href="{% static 'dashboard/app.css' %}?v=lavender-1">
+    <link rel="stylesheet" href="{% static 'dashboard/account.css' %}?v=lavender-1">
+</head>
+
+<body>
+    <header><a class="brand" href="/">ServiceBase</a><span>账户登录</span></header>
+    <main class="account-panel">
+        <h1>登录引擎中台服务</h1>
+        <p>管理员登录后，可通过工程页面的“设置”配置 GitLab 与黑名单。</p>
+        <form method="post">{% csrf_token %}{{ form.as_p }}<input type="hidden" name="next" value="{{ next }}"><button
+                type="submit">登录</button></form>
+        <p>首次使用：在服务器终端运行 <code>python manage.py createsuperuser</code> 创建管理员。</p><a href="/">返回工程列表</a>
+    </main>
+</body>
+
+</html>

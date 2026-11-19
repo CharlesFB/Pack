@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.runtime/
+.DS_Store
+
+.env
+staticfiles/
+external/.repository.lock
+external/.staging-*/
+external/**/artifact.zip
+external/**/artifact.unitypackage

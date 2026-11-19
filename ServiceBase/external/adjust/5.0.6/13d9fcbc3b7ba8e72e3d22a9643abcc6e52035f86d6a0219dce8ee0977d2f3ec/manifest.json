@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+  "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+  "artifact": "artifact.unitypackage",
+  "sha256": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+  "size": 68043,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "b7941c48bfc3e44aea0300ced4d12b47",
+      "asset.meta": {
+        "sha256": "37b8c0a96bcf8f7e2b45db7b1f491304f4c6d41789076d6397568c0c5f89d875",
+        "size": 172
+      },
+      "path": "Assets/Adjust"
+    },
+    {
+      "guid": "48d8fb88fe43540d48dd33b18a151507",
+      "asset.meta": {
+        "sha256": "652d70866a1b42fa720d9879dd7677fd23320c6a771ec35eb7ca97d26cb9a730",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Native"
+    },
+    {
+      "guid": "99903aebed26d46a2aa9f9aa2b17a339",
+      "asset.meta": {
+        "sha256": "763fb718a1c75b12609bb3387d4621ba842dc5e6aa70520a8d87d4b926cf3db1",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Native/Android"
+    },
+    {
+      "guid": "a13ef442648c346a79f9ff24875c037a",
+      "asset.meta": {
+        "sha256": "0125feaa68fcb0d981f82e08221bdfd8d33caa096ebf29c56f08316de29f87f2",
+        "size": 93
+      },
+      "asset": {
+        "sha256": "1a69c82b8abc060a583badb54300e7b8e410b213e1289df61160d95f2aa1d7ea",
+        "size": 2222
+      },
+      "path": "Assets/Adjust/Native/Android/AdjustAndroidManifest.xml"
+    },
+    {
+      "guid": "c11a8a7fc7bfd4937bac95b31f1fb273",
+      "asset.meta": {
+        "sha256": "988d47af36750b7e644649941165b1d1da2e3ae4f7f4685dac7f04d7c4cf3f9a",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Native/Editor"
+    },
+    {
+      "guid": "d4241857b233d46ee874c8f80bb65fdb",
+      "asset.meta": {
+        "sha256": "3b15e6fd93fdf4c12720b6c7291206243797e9647328ed29976e4ca0be8e54b8",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "2b3a8c1d8b78c76dce1a5d79bfa6f67dbc44fdf9b571955e7613a88d12fed474",
+        "size": 429
+      },
+      "path": "Assets/Adjust/Native/Editor/Dependencies.xml"
+    },
+    {
+      "guid": "c8400ff077d6c4583b0f85a46cd1d50b",
+      "asset.meta": {
+        "sha256": "6531fdb28a22013436e361c901bc8af12e250064af3dbade86823a8406229e2f",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Native/iOS"
+    },
+    {
+      "guid": "9ffff8839c6ab418b983add4c597fb87",
+      "asset.meta": {
+        "sha256": "53af1d489bcacb64599e574f7e9289a10190a6852555cd16421b187705110d67",
+        "size": 1997
+      },
+      "asset": {
+        "sha256": "ca9b26a1253d06c14790315e260bebf1318e41c27bf29dcfddb5296258529a1d",
+        "size": 1728
+      },
+      "path": "Assets/Adjust/Native/iOS/AdjustUnity.h"
+    },
+    {
+      "guid": "3e17e20d987e4449489d9e3accbd8602",
+      "asset.meta": {
+        "sha256": "7a5ec9f04aa459beaa6a8718969c3081aba268c0001e1020d419e0ce5ced0fb6",
+        "size": 2374
+      },
+      "asset": {
+        "sha256": "bcd307499e4aab728947e65afcd59b4bcd180fed021cf655b3c3d9db90fdc23e",
+        "size": 37054
+      },
+      "path": "Assets/Adjust/Native/iOS/AdjustUnity.mm"
+    },
+    {
+      "guid": "ac4b0b80967dd499b94e6bd430ac6662",
+      "asset.meta": {
+        "sha256": "99de7baa566673fc07aa5e5bc66af941e87e32561e0ac99e28a7b1b86a10051c",
+        "size": 2075
+      },
+      "asset": {
+        "sha256": "5cbd1df8c462a70feba47e7c8d7cacf821628f09f1cfefdb4b164f60bd5889cf",
+        "size": 378
+      },
+      "path": "Assets/Adjust/Native/iOS/AdjustUnityAppDelegate.h"
+    },
+    {
+      "guid": "ea1bc374f78b747f8a81fcc82cd77d96",
+      "asset.meta": {
+        "sha256": "755ef621345de1a52ac6c33f43903ffb8940edf413eefbbbfe27e7950acfa111",
+        "size": 1757
+      },
+      "asset": {
+        "sha256": "fe57c8637909747ebfaa01abc27fa4bbaa4e062a1be9abad223158b48ebe2a94",
+        "size": 3691
+      },
+      "path": "Assets/Adjust/Native/iOS/AdjustUnityAppDelegate.m"
+    },
+    {
+      "guid": "5d2beef19c617f74fbca612cc97e3c60",
+      "asset.meta": {
+        "sha256": "ce9211ca59e3a51c5b9c17130c7167d25d38632502c5e820a84a8f93aeafa0ae",
+        "size": 2374
+      },
+      "asset": {
+        "sha256": "930effe0fcd5ce298ae82d3deca23a13f88fed66552e72308a7ae53608e4d9ff",
+        "size": 3274
+      },
+      "path": "Assets/Adjust/Native/iOS/AdjustUnityDelegate.h"
+    },
+    {
+      "guid": "81438eed05b2e4b489f13efc94d5476a",
+      "asset.meta": {
+        "sha256": "893ad05205c11228a5c0ecf07a12cab70f3f1fed17fb8fe7eb6fbf1b1dc6e736",
+        "size": 2336
+      },
+      "asset": {
+        "sha256": "c4b7a5fed9e46b084f1693146ef3f89f931fa5981a39ff3bf59a1ed50afd3f33",
+        "size": 15657
+      },
+      "path": "Assets/Adjust/Native/iOS/AdjustUnityDelegate.mm"
+    },
+    {
+      "guid": "0acdd227ad1b8d147ade044242671e15",
+      "asset.meta": {
+        "sha256": "60902972f032cd5a6770dc61b6abb5ee236e07b89e2957666a1ec52bc8729ce6",
+        "size": 191
+      },
+      "path": "Assets/Adjust/Prefab"
+    },
+    {
+      "guid": "a3267720e82aa41c1a05ab29824902b4",
+      "asset.meta": {
+        "sha256": "7accc5d60577497b8262557955311ac365bc53fa38bc0b6265e395276f94b211",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "5b86794dfe773304095396af1df3ba4cceecb56d9b6f8b309da689e99394a298",
+        "size": 1838
+      },
+      "path": "Assets/Adjust/Prefab/Adjust.prefab"
+    },
+    {
+      "guid": "0e5ecfef4e691483199f0cdae3eebff2",
+      "asset.meta": {
+        "sha256": "e2e1fec5a456aa79b8d2e84e0be3ee01749d77bd223b8af90268b6048cfac76c",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Scripts"
+    },
+    {
+      "guid": "525ece82a472e4dea837e1ef938fd15d",
+      "asset.meta": {
+        "sha256": "e995fb57507bcd7ecb3704172eac5c2d54723290c6b8d7c7419e3756578f565a",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "2a8c941e760db8643903592fb904ff35a9f62361c4d789d4bf741a0b8ba58fdc",
+        "size": 19695
+      },
+      "path": "Assets/Adjust/Scripts/Adjust.cs"
+    },
+    {
+      "guid": "776a9d4b715bc44c68724248a5a75cb9",
+      "asset.meta": {
+        "sha256": "d15752c9550c0b222e12668f042e14f09602fbe87201390657498129afc9cbcd",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "208a54d4188c2b7954645daa90aefa4c505c81adb372b5e61c3507fcc6863f36",
+        "size": 2293
+      },
+      "path": "Assets/Adjust/Scripts/AdjustAdRevenue.cs"
+    },
+    {
+      "guid": "04f57a99ef137445992d048a89c36788",
+      "asset.meta": {
+        "sha256": "54eaa9b3205492647bc9f919ba16398bea3976a76272e5bc7e765ab4cdff3e3e",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4be8a87a3e067db50c0100faaa7f5cd6f5fba86a0da9b4a4d8bd1b052358f4f5",
+        "size": 54347
+      },
+      "path": "Assets/Adjust/Scripts/AdjustAndroid.cs"
+    },
+    {
+      "guid": "828a981c8c96741afa5d16ccb679e5af",
+      "asset.meta": {
+        "sha256": "cd8edace9d1b0504493a4b6b996520b6f5d2894aaae369b19ad63ba05548a0ba",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "86f9b77dd670a52bb38fa6145749d9a7d53da05e906772d7a23aba3665ac4f79",
+        "size": 413
+      },
+      "path": "Assets/Adjust/Scripts/AdjustAppStorePurchase.cs"
+    },
+    {
+      "guid": "7e2d69221b1124370a4c016edce5a95a",
+      "asset.meta": {
+        "sha256": "8ec050a890b9a2f13f0c7d2e7bca62a60120382773cf9b8132dcfdf9770713b9",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "7459b8010fb7c79f56ec23d146851508739c0a57657bf91db9a47781809ca842",
+        "size": 2171
+      },
+      "path": "Assets/Adjust/Scripts/AdjustAppStoreSubscription.cs"
+    },
+    {
+      "guid": "cc46748ad0e664f6d839a4f1a23d9f47",
+      "asset.meta": {
+        "sha256": "6e34db0ae4d01099fd8d8e03634ded96b945dffd9b85f92d34be0cbdcbc8f23e",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "aabef5a030bd2233e7eff2c654d7fcc9cc4307eeb1876f9ed9391c9e1f40aa17",
+        "size": 3939
+      },
+      "path": "Assets/Adjust/Scripts/AdjustAttribution.cs"
+    },
+    {
+      "guid": "02d4cad14fc094b17afde3b685897e5e",
+      "asset.meta": {
+        "sha256": "041859bbca0561d2216c1fa70fe75220b470b3f84ecd7515f51e4e1ea93494be",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "3011910b18835b49a875362acb907d6e6c2bd58369f53daef3635b347f64a186",
+        "size": 2949
+      },
+      "path": "Assets/Adjust/Scripts/AdjustConfig.cs"
+    },
+    {
+      "guid": "40e25efef61754d66a47cd3e62a7f6bc",
+      "asset.meta": {
+        "sha256": "a77ef5d7968349cde8527f2d8d31cef4ce44fd558c55a50f0e551ea2c14b5233",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4080d2231713cc55c75ce7068463fa458ac93a3019431e232960af218195acb5",
+        "size": 245
+      },
+      "path": "Assets/Adjust/Scripts/AdjustDeeplink.cs"
+    },
+    {
+      "guid": "633f6fa279b2244fdb999db0441f9aac",
+      "asset.meta": {
+        "sha256": "98a4f1169695a1b1df5ff63dc817fd101ff7219699b75b71834f9251aa6923dc",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "5e4f57be83320a2afd20891904c8315f950f1d1ac3be613adc1b68c541546e6e",
+        "size": 616
+      },
+      "path": "Assets/Adjust/Scripts/AdjustEnvironment.cs"
+    },
+    {
+      "guid": "cd89f7713977f497a862f1a1b6f60933",
+      "asset.meta": {
+        "sha256": "184849bff80553aac5e2a0045524e54fac5c58622f2262c72374036476d3eb64",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "4f13385dad1056f9f3fe5ffd0fa5a1eb09a458bbe41cf2517a99750ab1e3f116",
+        "size": 2372
+      },
+      "path": "Assets/Adjust/Scripts/AdjustEvent.cs"
+    },
+    {
+      "guid": "ea86cd4e1c6d0496397920902d0f0b5f",
+      "asset.meta": {
+        "sha256": "fca7c8e10f08e37568906c53f6dd967d6c7064c72f0449bf8dfadb88b633b2c4",
+        "size": 263
+      },
+      "asset": {
+        "sha256": "22547dea399df9f4251fe46a146843ef4c323652ed75ffa153ed130442f9ff4f",
+        "size": 3613
+      },
+      "path": "Assets/Adjust/Scripts/AdjustEventFailure.cs"
+    },
+    {
+      "guid": "1957a0e6e9aa14f0e8adefa2120f1e02",
+      "asset.meta": {
+        "sha256": "0ac3221ac4fdd605df857cf0cb253fe4b080b9df79701fc468bd3d2558631f2a",
+        "size": 263
+      },
+      "asset": {
+        "sha256": "7314de2fd55f7cda1fe35976e428aff18993edbb8961db1341683f23536cfa3a",
+        "size": 3239
+      },
+      "path": "Assets/Adjust/Scripts/AdjustEventSuccess.cs"
+    },
+    {
+      "guid": "428ab44990df24973902248a9d2b43dd",
+      "asset.meta": {
+        "sha256": "02e556e0a266bc1c97a44c0175dd076098cf8ba59f293c3249fb5c231008a5e9",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "a215f7f92a1bad95182820d8971a7f2ef160bb5906581b82565f2c32bf7b8877",
+        "size": 1852
+      },
+      "path": "Assets/Adjust/Scripts/AdjustLogLevel.cs"
+    },
+    {
+      "guid": "d875a71a5aeb1496d93afac749ab17f6",
+      "asset.meta": {
+        "sha256": "8c2bb44c8d6cc40d0075e0f78fe56679d1514b373c88b47d476e2f28ba4d2d24",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "efe253605263a86e64bb3f87aefc430a8b26fa6036e504109a1be5896bd4124d",
+        "size": 415
+      },
+      "path": "Assets/Adjust/Scripts/AdjustPlayStorePurchase.cs"
+    },
+    {
+      "guid": "69e7a4074abb44758b3f011d8352a57a",
+      "asset.meta": {
+        "sha256": "1511898f886fc4b58ed510e54a6ee42214d835d831135254cc5a3acae71e1133",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "3bb48207d73654a82ad07a93bbcbc3b55893cc5349ba8b03708442a814c5e8b9",
+        "size": 2523
+      },
+      "path": "Assets/Adjust/Scripts/AdjustPlayStoreSubscription.cs"
+    },
+    {
+      "guid": "cbd451b59ec374fa7b72f226b1cef0b4",
+      "asset.meta": {
+        "sha256": "4cec73104d3c5c19fbc7e122f3fed4fd377951a0d267071bad40392362ef4729",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "1b8e68cc5aad8ba4f025159e96144d6333d026eacc838485b671dd00cb6d79a7",
+        "size": 870
+      },
+      "path": "Assets/Adjust/Scripts/AdjustPurchaseVerificationResult.cs"
+    },
+    {
+      "guid": "7d8924c6e6beb44e18f19e8c0b5068cd",
+      "asset.meta": {
+        "sha256": "c5e4c94f5c31ed2fbcab03cb58b8dbf3e7c23ac4f245aaf44ede3c94cf9156ab",
+        "size": 166
+      },
+      "asset": {
+        "sha256": "26b8b32a2c43b380f0450f6ab4c1daf96dc1b777e4dd8cfa80c28e045daec16c",
+        "size": 113
+      },
+      "path": "Assets/Adjust/Scripts/AdjustSdk.Scripts.asmdef"
+    },
+    {
+      "guid": "b4de268ab985448a594fb82264190742",
+      "asset.meta": {
+        "sha256": "35321fb6d2084a230742e198d3cb44399aaf38d0fb8616fecff01cb31afc71e1",
+        "size": 263
+      },
+      "asset": {
+        "sha256": "c5b3ed9639d6cbd159c39a9af5c5c0819fadaa00325928228a1f340c762a3d40",
+        "size": 3139
+      },
+      "path": "Assets/Adjust/Scripts/AdjustSessionFailure.cs"
+    },
+    {
+      "guid": "c23847e7a1f464d7a8c7f9b35829af17",
+      "asset.meta": {
+        "sha256": "be80799e0ebf18a862a9969885d222693068257918470d2529148a346250043e",
+        "size": 263
+      },
+      "asset": {
+        "sha256": "e459bfb120b13c295baa725c0c3c34d508fafbe12d2caac6992288877c1a3c1a",
+        "size": 2749
+      },
+      "path": "Assets/Adjust/Scripts/AdjustSessionSuccess.cs"
+    },
+    {
+      "guid": "dcb2591dfab904327904b8879af699ca",
+      "asset.meta": {
+        "sha256": "249b0859cb3c49015390a8a31316ab3b14fa2b5c3e797d0b18deaa5f1e2c298a",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "73bf3bc2c3f5a684bafc7ceb282cf163f1a36452ac8669b4061cad791deed01e",
+        "size": 2029
+      },
+      "path": "Assets/Adjust/Scripts/AdjustThirdPartySharing.cs"
+    },
+    {
+      "guid": "98e51a1481cc24ddebf93f61f6c1eb9d",
+      "asset.meta": {
+        "sha256": "05e8b06b705d5cb924530d5508b878f480075c8198ce5c32886ba99ad6c60458",
+        "size": 263
+      },
+      "asset": {
+        "sha256": "872bcb76ed8b067ef73f753a602ec470911ac6c199391a4b016db2f12899fccd",
+        "size": 17444
+      },
+      "path": "Assets/Adjust/Scripts/AdjustUtils.cs"
+    },
+    {
+      "guid": "1b9e944cddaba4b74b96cf2c01f5aee3",
+      "asset.meta": {
+        "sha256": "5b370dab40bd7f997c81d8e9b9b340c400625170c2c803d27d108c418a761c50",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4a001f9efd2e8b838f9674185c4743f81611745a9464b0132df599e8ac50cefb",
+        "size": 37354
+      },
+      "path": "Assets/Adjust/Scripts/AdjustiOS.cs"
+    },
+    {
+      "guid": "fd79158f62f184079b58f414302dd242",
+      "asset.meta": {
+        "sha256": "b4f48aa0dff672d34e0fc8175f65cbd505b70a7819f4294a4f7367f916afd70a",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Scripts/Editor"
+    },
+    {
+      "guid": "1772b9461c24c4df0ad55f51f81c7345",
+      "asset.meta": {
+        "sha256": "67ab2f0f632569a01d752944f6c5a497abe0ef6790f237951cdc9fd66364e866",
+        "size": 285
+      },
+      "asset": {
+        "sha256": "a33cfe60ae40d738aea95bad74c47affef634dbd7d248c0771e376237235e9e8",
+        "size": 3664
+      },
+      "path": "Assets/Adjust/Scripts/Editor/AdjustCustomEditor.cs"
+    },
+    {
+      "guid": "fc5962e0096e9495bbad76934c842619",
+      "asset.meta": {
+        "sha256": "05a5ebe05f3d048a13fc3649e70a55330f886c1c896fbdb0149ca9103d9e1f7f",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "dac5455b25b38a0ad992eb5a676f566d7df14d8742db8c9cee277f8f24200de8",
+        "size": 15974
+      },
+      "path": "Assets/Adjust/Scripts/Editor/AdjustEditor.cs"
+    },
+    {
+      "guid": "c88a79442bb9342b6956c7d59705f982",
+      "asset.meta": {
+        "sha256": "56176a189fd0a1776b7dab67e7a16c289de5eac3c2377129ab0f805f0e64792e",
+        "size": 285
+      },
+      "asset": {
+        "sha256": "72d27e0813e916bc1e1460e0559502df61a055e4b92cc9705a12618bcc6ea68a",
+        "size": 17429
+      },
+      "path": "Assets/Adjust/Scripts/Editor/AdjustEditorPreprocessor.cs"
+    },
+    {
+      "guid": "afc3483c5bcfe43c4a7a6b7f99b52a07",
+      "asset.meta": {
+        "sha256": "5a4591e20db174780f390299f66c022a5087029875119f81395878f8c1f1d90d",
+        "size": 166
+      },
+      "asset": {
+        "sha256": "776839b0adf69034a62736589a72b9871aeaa978b8f52c62a98338df6ea64215",
+        "size": 167
+      },
+      "path": "Assets/Adjust/Scripts/Editor/AdjustSdk.Editor.asmdef"
+    },
+    {
+      "guid": "ea4d495dc6d5ba64b90db7afda6a48a4",
+      "asset.meta": {
+        "sha256": "48d70c807229687b163b047c085d584284ebcd85a6770ca56d017ab4b645278e",
+        "size": 284
+      },
+      "asset": {
+        "sha256": "cd8837433eba82b1c490aee295830d2eefb2f70c808f94cb5b8ec142336c2b80",
+        "size": 7001
+      },
+      "path": "Assets/Adjust/Scripts/Editor/AdjustSettings.cs"
+    },
+    {
+      "guid": "e957ffb3938e94bcaab247e46bd9804c",
+      "asset.meta": {
+        "sha256": "85fe4231d61e12b4d585a4bb32477f07bcfc15a7c8772c2e4bbb9a3e4048c6a9",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "41af37a9e06261eb6defae3c32e16b956eafe94f30a0551a0deddb07f278c21a",
+        "size": 7184
+      },
+      "path": "Assets/Adjust/Scripts/Editor/AdjustSettingsEditor.cs"
+    },
+    {
+      "guid": "638019d211e7141b7a78db997a91d582",
+      "asset.meta": {
+        "sha256": "c73b9754fff9efe9a444b3ef9c5d1bff11b0947a6180a21893e1901b058cc174",
+        "size": 172
+      },
+      "path": "Assets/Adjust/Scripts/ThirdParty"
+    },
+    {
+      "guid": "9c780c17852614618be5ffd9cc43a75f",
+      "asset.meta": {
+        "sha256": "f1e021ef874b725864d4e940ce103f330b626df37b61f137efac378f3476d6ec",
+        "size": 178
+      },
+      "asset": {
+        "sha256": "ecea7b523c2247bb800cc60ba23127058fe01f29472560b794589783018de7dd",
+        "size": 32282
+      },
+      "path": "Assets/Adjust/Scripts/ThirdParty/SimpleJSON.cs"
+    },
+    {
+      "guid": "e70aaf9215a0244c1b2675cd72030bbe",
+      "asset.meta": {
+        "sha256": "27e33f2271dfd372b34f0ab572236babce608e8ecb06916e34d23b1e2da83167",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "58830e6c019310c2ab098f67582d54289fd2f6ad5c05dbd341faef86c9ebfa82",
+        "size": 275
+      },
+      "path": "Assets/Adjust/package.json"
+    }
+  ],
+  "ignored_appledouble_entries": 184,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

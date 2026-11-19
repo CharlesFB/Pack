@@ -1,0 +1,35 @@
+#!/bin/bash
+set -euo pipefail
+TASK_ROOT="$(cd "$(dirname "$0")/../.." && pwd)" # 根据脚本位置定位工程，避免依赖调用目录。
+export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
+# 将所有运维命令固定到本工程的生产环境文件和 Mac Compose 配置。
+# 参数：$@ 为传给 docker compose 的子命令及选项。
+compose() { docker compose --env-file "$TASK_ROOT/.env" -f "$TASK_ROOT/deploy/macos/compose.yaml" "$@"; }
+case "${1:-help}" in
+  init)
+    test -f "$TASK_ROOT/.env" || { echo '先从 .env.example 创建 .env 并填写域名和密码。'; exit 1; }
+    compose build web maintenance
+    compose up -d db redis
+    compose run --rm web python manage.py migrate
+    compose run --rm --user 0 web chown 10001:10001 /app/staticfiles
+    compose run --rm web python manage.py collectstatic --noinput
+    compose run --rm web python manage.py check --deploy
+    ;;
+  start)
+    test -s "$TASK_ROOT/.runtime/tunnel-token" || { echo '缺少 .runtime/tunnel-token'; exit 1; }
+    compose up -d
+    ;;
+  stop) compose stop ;;
+  status) compose ps ;;
+  logs) compose logs --tail 100 -f ;;
+  admin) compose run --rm web python manage.py createsuperuser ;;
+  backup)
+    umask 077
+    mkdir -p "$TASK_ROOT/.runtime/backups"
+    TASK_BACKUP="$TASK_ROOT/.runtime/backups/servicebase-$(date +%Y%m%d-%H%M%S).dump"
+    compose exec -T db pg_dump -U servicebase -d servicebase -Fc > "$TASK_BACKUP.tmp"
+    mv "$TASK_BACKUP.tmp" "$TASK_BACKUP"
+    echo "备份已保存：$TASK_BACKUP"
+    ;;
+  *) echo '用法：deploy/macos/servicectl {init|start|stop|status|logs|admin|backup}' ;;
+esac

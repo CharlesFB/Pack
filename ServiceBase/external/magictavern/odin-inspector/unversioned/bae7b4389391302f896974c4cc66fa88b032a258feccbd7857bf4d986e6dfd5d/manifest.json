@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "plugin_id": "odin-inspector",
+  "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+  "artifact": "artifact.unitypackage",
+  "sha256": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+  "size": 5098797,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "d19f2de3fbfbc3b4d91a927f606b3dea",
+      "asset.meta": {
+        "sha256": "9d69327aa59b228b785569a0dbf72e3e3d2ec65d0848a9a1e93ea5b5bef17b5f",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Sirenix"
+    },
+    {
+      "guid": "364aac9b041ef46cb850ed0099829112",
+      "asset.meta": {
+        "sha256": "35478d797f010a4fce3aa09dc570c34c51d56c0a83e9097c1c12413217164966",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies"
+    },
+    {
+      "guid": "0396fa3c532654eb9b893ab3d8cfe554",
+      "asset.meta": {
+        "sha256": "02e3b69cfe21a1cda4c0265ba2b66900d55f87d63945e241a2ee4cb45cbc4c81",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/NoEditor"
+    },
+    {
+      "guid": "5651992cdad94894a3af7dc3f1da9170",
+      "asset": {
+        "sha256": "cae015d3969315098eb5cbd63b639bb02519702a9ebbff4086db5637126347d7",
+        "size": 363520
+      },
+      "asset.meta": {
+        "sha256": "78b15ba17c488f63c72acd18c73d51593a71452e088a683c468faabf7026f726",
+        "size": 2050
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll"
+    },
+    {
+      "guid": "5978f8f3dd274e848fbb7a123bde1fb9",
+      "asset": {
+        "sha256": "e717870f8f230d0c34e5602148c6f1cfa15e8bdb2840de55b00f916972fbbcf6",
+        "size": 156160
+      },
+      "asset.meta": {
+        "sha256": "2c7fb8af54c4fee285156f6880065757d2c123491d4d739b04921f9b46b34679",
+        "size": 2050
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll"
+    },
+    {
+      "guid": "16ebba3d2128e40d89cdd8e594462fc7",
+      "asset.meta": {
+        "sha256": "82b58d2cabd66a7d622dbe283580326161ef763b702f6b1668d251f3482eb6c5",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor"
+    },
+    {
+      "guid": "d2a8f0021d6b47c5923d8972dfb81ef1",
+      "asset": {
+        "sha256": "e0477d3d65311d6be7359bf1eed2f074022f28f91950a1079be1af9428fd4782",
+        "size": 346624
+      },
+      "asset.meta": {
+        "sha256": "eb4f4e65fea8177c4637989bfcb11784a0808979d6bdbc1ba80d3d39343c3e46",
+        "size": 2148
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll"
+    },
+    {
+      "guid": "1e0a9643dc0d4b46bf2321f72c4e503e",
+      "asset": {
+        "sha256": "84fea28d900bdff303f38a06033b8493fa30afaae6abca4ccd1b21887cd373aa",
+        "size": 147456
+      },
+      "asset.meta": {
+        "sha256": "a9b1cbbef991987376a4982f85de41dffcdfbf16a891411d6556b7071e325ecb",
+        "size": 2148
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll"
+    },
+    {
+      "guid": "47a84ebde4ec47fabb620b30cc7a3e5c",
+      "asset": {
+        "sha256": "7ae3d868b14e4b9adcacc92f145a95e1c859ac4f578fe97c5e9e65b36fc20c44",
+        "size": 92672
+      },
+      "asset.meta": {
+        "sha256": "7e533e76bf9da0ef7ea22d502231c544a6d58b04a7728a630c5a5f1cae668fdf",
+        "size": 1096
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"
+    },
+    {
+      "guid": "47a84ebde4ec47fabb620b30cc7a096f",
+      "asset": {
+        "sha256": "5e37dccbf286b24b33505fb10a7f50240179b62f97c7fa60e40843057437fdc1",
+        "size": 297816
+      },
+      "asset.meta": {
+        "sha256": "4df4647aa12aca5f4474ff9d2845bf4d184d484c1204bf0080a8672588adfa8f",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml"
+    },
+    {
+      "guid": "a4865f1ab4504ed8a368670db22f409c",
+      "asset": {
+        "sha256": "c89ecee501aa8b34470ef944460600eaf7765efa26e0a4831452c3b351542bcb",
+        "size": 2897920
+      },
+      "asset.meta": {
+        "sha256": "4f8a844a01682edb9e5342fea2c3d21ee9d1a0109f23f1e93d799607f292c068",
+        "size": 1096
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll"
+    },
+    {
+      "guid": "a4865f1ab4504ed8a368670db22f096f",
+      "asset": {
+        "sha256": "12d0bec44a3dbfd9481b0c0dee6d051bd72aff52b704de7ea8c48018feeb0e77",
+        "size": 637313
+      },
+      "asset.meta": {
+        "sha256": "c34e6ead77c67e9dfa38f3355f800519c2526c44367fb374e8350844a4713a40",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml"
+    },
+    {
+      "guid": "74721b9f0af448f5ae2e91102a1a5edd",
+      "asset": {
+        "sha256": "1e85eecc22d079cce74180d8fe3dacab70b694d3d39d30c6ddf5eededfdb74b8",
+        "size": 17920
+      },
+      "asset.meta": {
+        "sha256": "ae0f63369b10f2518afbce198939d6687ae65123e45f1c82a497445d312ecb16",
+        "size": 1096
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll"
+    },
+    {
+      "guid": "74721b9f0af448f5ae2e91102a1a096f",
+      "asset": {
+        "sha256": "92ca359fd1b52f5566f60e31dbddc388c94d7568e984fda3e9f30b588589669e",
+        "size": 8895
+      },
+      "asset.meta": {
+        "sha256": "0dd7f3068b94dbb0c60cbbea6175026ae2d61dc6e65a5fd78182e3af2ae17acb",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml"
+    },
+    {
+      "guid": "5f3147f7af4c49739579b966c458f5e4",
+      "asset": {
+        "sha256": "e92ff0c94d1819a33dc1ea2f994b3cade2c3435c6a98dcd180698dd515944b8b",
+        "size": 410112
+      },
+      "asset.meta": {
+        "sha256": "f6bd7edc6b8eff92126a6488bc5f8cb45a7f0a41b00a85d97ae67c96db624f12",
+        "size": 1096
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll"
+    },
+    {
+      "guid": "5f3147f7af4c49739579b966c458096f",
+      "asset": {
+        "sha256": "fd06281ff60d048ae7f562d294145d7dc46a7ad95bcdb83fcda8cc3f3386df52",
+        "size": 594634
+      },
+      "asset.meta": {
+        "sha256": "6b91f098f31b1ceb94ce1b49bb8fa84422bd4d44e76edd8e076f05657e7b7ab2",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml"
+    },
+    {
+      "guid": "5c65184932ff4fd48a343e2360256baf",
+      "asset": {
+        "sha256": "afa9e96a107076bdaec50e37936bab32d107af7e0a1e500bbb38ddeb93b6105f",
+        "size": 1146880
+      },
+      "asset.meta": {
+        "sha256": "a6c51337c7cd97f99c6662742204c4eee9e829ea4a0f74ff651fdacccd87eb7a",
+        "size": 1096
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll"
+    },
+    {
+      "guid": "5c65184932ff4fd48a343e236025096f",
+      "asset": {
+        "sha256": "ebc2aacb1ef63ab870079cb0e1531af8003325b7d570dfba8b00016be8e62af0",
+        "size": 446700
+      },
+      "asset.meta": {
+        "sha256": "225151d31255b6ba4fc9cfe239f0a1d40a96bb3429ee2836e3b396674197a58c",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml"
+    },
+    {
+      "guid": "4873f2a8bdae42baa0406e8a61366ca1",
+      "asset": {
+        "sha256": "6cad65d35a4db876759ca1ba007b6e882ccfdaaf2333d5bb419be974621cd7cc",
+        "size": 165888
+      },
+      "asset.meta": {
+        "sha256": "953f410d7aebd1d8e1f3a797be7c029a5e1f11be2bde2bee1857fe8e46895ccb",
+        "size": 1096
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll"
+    },
+    {
+      "guid": "4873f2a8bdae42baa0406e8a6136096f",
+      "asset": {
+        "sha256": "4e5380c2643f5a9248c743af9505d4588ffa6122cdb86d4ad0de349549c42b35",
+        "size": 200656
+      },
+      "asset.meta": {
+        "sha256": "bc92d74c69bf86d0e291bd6827b92bb50fe698a4bc977bf654212a2bff0c4d58",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml"
+    },
+    {
+      "guid": "1bec01331befdea4d9ed9033eabd68f8",
+      "asset": {
+        "sha256": "7289adf34c492e2b1ca4ac339e6cd24ee0e409656c046862d466175d62bb1c74",
+        "size": 305
+      },
+      "asset.meta": {
+        "sha256": "3cd478d03dc04c65fc3e73a71f878b4f5be1c8d7384d9ae5ddfe1f4cc69777f1",
+        "size": 167
+      },
+      "path": "Assets/Plugins/Sirenix/Assemblies/link.xml"
+    },
+    {
+      "guid": "5e719f3a35ce7419a83e9b8039784a47",
+      "asset.meta": {
+        "sha256": "2aeee4f9e6ea843d5da777c8e0e461e6a2a493bdae4e63dd22b1ab69fd1a9693",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Demos"
+    },
+    {
+      "guid": "f597f19f656ba56eae4f6a3a7cc528f4",
+      "asset": {
+        "sha256": "9268ae5409e12cbdc5190d2e62641519cc6713d6d1f317e778afa9f446f341dc",
+        "size": 6497
+      },
+      "asset.meta": {
+        "sha256": "217888ecfc357d9a38aeb12ffd0f5a33c83363563ac582b68cc0df5f43dde311",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage"
+    },
+    {
+      "guid": "48e08dc33330d11e9d4a1b246c52e4f6",
+      "asset": {
+        "sha256": "399c9e8d7346efeb8855cf45b4ec4b8c3744230c6920deb788890c013eaee1d6",
+        "size": 13341
+      },
+      "asset.meta": {
+        "sha256": "2c1d16f2a34ee4f402971fefc8d332fa4dae25a375b0e0ca2ccb02d044409a92",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage"
+    },
+    {
+      "guid": "ed09910c0094cb27be8f3ca264680da3",
+      "asset": {
+        "sha256": "4c2e6bae3018d272e6560926bbf189f09c964776c28a78af8ba3a7565678612e",
+        "size": 5018
+      },
+      "asset.meta": {
+        "sha256": "a7ae71ac4c729209ad97e87fb2854f6468ae877caecac592880418a538e2e7c8",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage"
+    },
+    {
+      "guid": "cc355dd4cf1e6173beaeb22c2858cbe1",
+      "asset": {
+        "sha256": "69fb599509d9e79c558921757b589a5e47d2ac63fa37e81f35ecf98fb10b7903",
+        "size": 921729
+      },
+      "asset.meta": {
+        "sha256": "8b982f69db740d5a6abeceb2b153505756fdbb8143db90f0b266b07979289f61",
+        "size": 164
+      },
+      "path": "Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage"
+    },
+    {
+      "guid": "c546f71b14e594520bc28683bfea5ab8",
+      "asset.meta": {
+        "sha256": "37c987d3ad5a24442ef6303a22fe56d61faeb1459840b801c1fd064e5df9d109",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector"
+    },
+    {
+      "guid": "f529d1d21051441b1b12dbff289cbd5d",
+      "asset.meta": {
+        "sha256": "48b143f37cb87804fdb0acb180c7e48a4853f7c60a67c8e273665a776d328e1f",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Assets"
+    },
+    {
+      "guid": "936ec4b5ff9c84d078641352f8f93552",
+      "asset.meta": {
+        "sha256": "7d1cc07299b8f696c78aa065b995bc6c6dcab0d780566fbbd508b69a65d1f981",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor"
+    },
+    {
+      "guid": "3fdc67fad3e362e47b5dd365a0bbdd7f",
+      "asset": {
+        "sha256": "ca2f68f2235c1c30ae8f13ede3cace086e112d333d179684d18397c525b3c832",
+        "size": 1346
+      },
+      "asset.meta": {
+        "sha256": "3b5a81c26b74de367fde87b8171aa517cebf3c608d37a48ebd6b252188fa4f1d",
+        "size": 165
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt"
+    },
+    {
+      "guid": "90eaa0dc28c1934408dc1c02e13a507f",
+      "asset": {
+        "sha256": "ae6eb3dfb5237a84c852ab39a91a9b76e72f9d6d0af0ca811a90d3952e0c8b86",
+        "size": 1616
+      },
+      "asset.meta": {
+        "sha256": "899f73b634701fbf1a38aa6a6363700631258df7d490235f42c4547961c74775",
+        "size": 186
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes"
+    },
+    {
+      "guid": "08379ccefc05200459f90a1c0711a340",
+      "asset": {
+        "sha256": "1d15d0e8bc7890d222ebf24cfc1c751bea92b4a231fbd6ec6de377e1d7146c00",
+        "size": 380
+      },
+      "asset.meta": {
+        "sha256": "b43735886cedc9c15c50bd934714aba5607aec3b74e1e9217fdf83ef565708a5",
+        "size": 190
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset"
+    },
+    {
+      "guid": "2a0112a98875dfd488b5d10bdb8a4903",
+      "asset": {
+        "sha256": "a673e5dbf89a1ffc4fb195af574962e9d3ebc7e86298cf6f9a19339b838d8fc2",
+        "size": 1834055
+      },
+      "asset.meta": {
+        "sha256": "7a6fe89fb5d544e8f70e277b58f3b391a06b8ca89c6c3ca1965e654f2de1e70b",
+        "size": 3161
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png"
+    },
+    {
+      "guid": "6f9d2fbd960874ad4b1acaafa53e587f",
+      "asset.meta": {
+        "sha256": "c70d79bf7fb2177e10d64e9468ac2d4f2701bee74bdaba0c2395c861ec0d93ad",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config"
+    },
+    {
+      "guid": "1caba35f68a0548b4a8d56d495369596",
+      "asset.meta": {
+        "sha256": "5fea9cbd70ffaf961c2892f932f41db8a74fe198d365c60e971448d9ab6aff53",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config/Editor"
+    },
+    {
+      "guid": "a3a50efea29de490785e53411c0019c5",
+      "asset": {
+        "sha256": "1079c808e163bf07b0035dc776943a56eb3f32ad181d1c29d54eed8c9dfc3281",
+        "size": 598
+      },
+      "asset.meta": {
+        "sha256": "d355e94f1703f10630bde73f743014e563e79c55dfb53e1e2f1ccb0a853cad12",
+        "size": 197
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset"
+    },
+    {
+      "guid": "c6d26f1996996448cb9e6e1f933e1dbc",
+      "asset": {
+        "sha256": "88d2db902fc434a62e992adb467e6d0560b80176603ce68c145fd7f32006412f",
+        "size": 424
+      },
+      "asset.meta": {
+        "sha256": "678956a8ff9f46cb65aa37b7d37577206631e3eb5531b2e3ad332c3ab9c3551e",
+        "size": 197
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset"
+    },
+    {
+      "guid": "bea65a51df2034c72b91cdfd5d601730",
+      "asset": {
+        "sha256": "45949347d2b216a584962a05dd588113f5d7cdd5f861a980f095a76ed9a46ad1",
+        "size": 450
+      },
+      "asset.meta": {
+        "sha256": "223cb2a4f0dc9c245100ec5e75be3bb5b713afec309aaa7412c15592d0ff4595",
+        "size": 197
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/ImportSettingsConfig.asset"
+    },
+    {
+      "guid": "1d97806bad3d24246822d5934e5b7bd9",
+      "asset": {
+        "sha256": "07bdd5026120024586ea2b1b1639a4973324547d2658a1bc770e8075279c0bc2",
+        "size": 547
+      },
+      "asset.meta": {
+        "sha256": "66aed42259292607497fbd56dbb42a430466236ce36c5fc021c0bcb9e75e9847",
+        "size": 197
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset"
+    },
+    {
+      "guid": "dc9e4b86640f94897908793f4036778a",
+      "asset": {
+        "sha256": "eeae6252f6629242fed85d3a096455e9b7e50d32f1a513b39879be5c98c797de",
+        "size": 499
+      },
+      "asset.meta": {
+        "sha256": "aaa8ff048dfbafce3c78c9b6e596d54437ce5815d6f07e616062c5e137b79a0c",
+        "size": 197
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset"
+    },
+    {
+      "guid": "e0ba229a5c77444d69e8331363bbb09b",
+      "asset.meta": {
+        "sha256": "f4d37f382d53bd2548abe5cd0f5385b90d0aefaf6f642e3294ec27ca614c35fa",
+        "size": 180
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules"
+    },
+    {
+      "guid": "728df0e3465c1a148b83053a3f31d489",
+      "asset": {
+        "sha256": "22c1da2f10af056a7fe07e5d6cf7351e00fe210473bbf795656413fe9c185081",
+        "size": 41801
+      },
+      "asset.meta": {
+        "sha256": "dcc190c33602401eb520cfee94f72488ee2e266c94d5b89ea36750097642ba30",
+        "size": 183
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data"
+    },
+    {
+      "guid": "5a1693d73a4f6e34d955789129c71e11",
+      "asset": {
+        "sha256": "15a402c9fac0f1e560143dfedbc8ace502be1205684108f1589ef9c8158f6e35",
+        "size": 8567
+      },
+      "asset.meta": {
+        "sha256": "70c3049a3de5c07b6bc3b511ebd7f73f3c501e124796d125d9e449940a9331c3",
+        "size": 137
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data"
+    },
+    {
+      "guid": "5a40ce690978c4e13905a095234a1987",
+      "asset.meta": {
+        "sha256": "9a5d6286fc3233dd23886e594b6877d80cc4b8e7712762e93e2b77460d952023",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics"
+    },
+    {
+      "guid": "4866e740a22eb1e49b1603b051e4d92c",
+      "asset": {
+        "sha256": "2b4fb136d47a688950c250ba2b26dc2e25a2532cb5e0a514071e41e525483f02",
+        "size": 46862
+      },
+      "asset.meta": {
+        "sha256": "e22857d58eb41b4e1c74ae49e7dfbed82e8bc2fe16315d88f2b413c20e8fa6d4",
+        "size": 183
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data"
+    },
+    {
+      "guid": "74718b273a32d874a9dc3c58269c36b3",
+      "asset": {
+        "sha256": "637e9c2e5c2df978f6248e197c35cdca121ce4975ee428945f14dfecd08b5c39",
+        "size": 43506
+      },
+      "asset.meta": {
+        "sha256": "8739fce69ea52a4c471e20edb4ce3bedebe4447d80aaa70f3c3138426900486d",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/MathematicsDrawers.cs"
+    },
+    {
+      "guid": "ad968d605628d06499b62cdc30f11cf8",
+      "asset": {
+        "sha256": "6226f60e9ce8e88f632cdeb2645cf6cf71c0eb99b55048db93e397a74a695499",
+        "size": 614
+      },
+      "asset.meta": {
+        "sha256": "ec775bac5450cd61b78992c7324eb9a6c4240598b88c388e3d9b49709aa4465c",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/Sirenix.OdinInspector.Modules.UnityMathematics.asmdef"
+    },
+    {
+      "guid": "5b9b04fa65c3b4870b99dc5acd229368",
+      "asset": {
+        "sha256": "876d974de14f0c5ad0da460258a3a6080b71fe515f8113d3a780c7c2327235bb",
+        "size": 261
+      },
+      "asset.meta": {
+        "sha256": "4c5b19bbba07fb752c6b26521d0f604b49a4e95041064de586c85b79adec76e9",
+        "size": 158
+      },
+      "path": "Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics/manifest.txt"
+    },
+    {
+      "guid": "e957a9e8b4f4bce4b8a34e504a8c39d7",
+      "asset": {
+        "sha256": "bd370df3cde38ade5d91cc9586e3aa319369a1da81d03e582e12fa75821c4474",
+        "size": 1403
+      },
+      "asset.meta": {
+        "sha256": "c437c9e0e3efd165fc5e0d2a6036c5ff3458a970cb8a47733642398583981d60",
+        "size": 186
+      },
+      "path": "Assets/Plugins/Sirenix/Readme.txt"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

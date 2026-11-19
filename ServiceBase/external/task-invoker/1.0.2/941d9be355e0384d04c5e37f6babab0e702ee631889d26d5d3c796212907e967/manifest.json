@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-task-invoker-mobile-background-tasks-5a618738",
+  "build_id": "941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+  "artifact": "artifact.unitypackage",
+  "sha256": "941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+  "size": 136943,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "9bca36ca3e8344471aec510df360561c",
+      "asset.meta": {
+        "sha256": "55304c2d164dd85c91034d1c687e49a91d3093afb3615cc0646b3adad006256f",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja\n00"
+    },
+    {
+      "guid": "4a76c8ab610444b4da63903c1c97613c",
+      "asset.meta": {
+        "sha256": "1b5542cdc8b319e089f70fd567f0682b483da8e8d53842121939fbdecc2953a8",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker\n00"
+    },
+    {
+      "guid": "978376cc4d6c949dfa7a2733b6d8e7b2",
+      "asset.meta": {
+        "sha256": "b15be08eaf95bf47a0716a6fd1696ced263ff8e23c8ad5d4b14c334d629f5c38",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Documentation\n00"
+    },
+    {
+      "guid": "31dd02efe2d8a42f1a4292ca8bf69357",
+      "asset": {
+        "sha256": "e7eb93e95f4d808a91c6550ed56c0d14ab6c8fc0b3336738602768ca3338e277",
+        "size": 102786
+      },
+      "asset.meta": {
+        "sha256": "ce2714ef980bf4e7306c78aed39dadd546214f32d86fdab019af9008858ae116",
+        "size": 155
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Documentation/Documentation.pdf\n00"
+    },
+    {
+      "guid": "8fa9ab335f007427fa27155ee49224fd",
+      "asset.meta": {
+        "sha256": "7d072c8897a1d22ce4ab8eda41b4bdce4717397c599c474e0480cd4fb32e164e",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/ExampleScenes\n00"
+    },
+    {
+      "guid": "06733fed72131419cb17c3dc3db6abc9",
+      "asset": {
+        "sha256": "425a142bc5e4e105cb0847164bccde82a22ac6f31c8b581ec7ca79b3f11636b1",
+        "size": 14593
+      },
+      "asset.meta": {
+        "sha256": "4c7cb515adf5d299ab533245c1fd605128bfddab7c66bee33f052058df9900cb",
+        "size": 155
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/ExampleScenes/TaskStarterExample.unity\n00"
+    },
+    {
+      "guid": "8ede89f6cb00646a285eece05a7446ad",
+      "asset": {
+        "sha256": "4bb50a10b145c1ea90c6feff7d59962fa8c59fb3d7e81ff491949e8a1f8d79c9",
+        "size": 27041
+      },
+      "asset.meta": {
+        "sha256": "fb9bd6e1a5299403f15431ce3e33de08c0f6b46e5113051524e4ab5af95b6586",
+        "size": 155
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/ExampleScenes/WebRequestWrapperExample.unity\n00"
+    },
+    {
+      "guid": "1c96b243f91e64dd7aa11266a53f7725",
+      "asset.meta": {
+        "sha256": "16b7206de9edd2d91a8db019e83ca7be179a7986d9d1eedf7186ac09bae2d1ae",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins\n00"
+    },
+    {
+      "guid": "7dc31440532554190a9b216989669fdd",
+      "asset.meta": {
+        "sha256": "493f731bad33281b127bf848dc6cd92f90da43b521042fda2083af59e5bec680",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/Android\n00"
+    },
+    {
+      "guid": "22f745536214743c09359427bfa0eeab",
+      "asset.meta": {
+        "sha256": "1a6e99ac126343def824668d7685445b8c5c99287f04954bd74e8908f067313c",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources\n00"
+    },
+    {
+      "guid": "6e415cb81ae4c4f39ab5d671c4cbe38d",
+      "asset": {
+        "sha256": "2ef9df0e16223b04b8fa8243ee5a3a0c1b9b62136b1188f2c5e4b9d5a31f7858",
+        "size": 247
+      },
+      "asset.meta": {
+        "sha256": "0d43bfc49c268e881f7e6246c1cb6f00b3abb8b4610562e146ae812870dbc348",
+        "size": 158
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources/Task.txt\n00"
+    },
+    {
+      "guid": "30f8a521430fe45ab9cc5f1382c7c5fc",
+      "asset": {
+        "sha256": "fa1ecfdc8cf5183524c9699e48788a240e829ee866f50f0e8f8e4a7221bda357",
+        "size": 106
+      },
+      "asset.meta": {
+        "sha256": "234d4ab119acc244d434712ca3bcef626afaf15da4e07ebd4423a19966278bca",
+        "size": 158
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources/TaskCallback.txt\n00"
+    },
+    {
+      "guid": "8c549bb8e1f284270b838a92229c4138",
+      "asset": {
+        "sha256": "a0178bd3c51edbee1d283f9b3a95be189c6d40b790ac767adc4a4297e3082f90",
+        "size": 3431
+      },
+      "asset.meta": {
+        "sha256": "72d88893c792be985601ea4cace8b8d453ff33aa4fd2dad7d80ba77e10b4b963",
+        "size": 158
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources/TaskInvoker.txt\n00"
+    },
+    {
+      "guid": "07be4a33afb644898b6d2e82c3a8ed2e",
+      "asset": {
+        "sha256": "fbabec481e4f7ec7cf75112216efc436b3d0c89eed2004533002d2d548ebf777",
+        "size": 18740
+      },
+      "asset.meta": {
+        "sha256": "a1677a939c30c7a9e368234a07b5d470231b7588e642b565880aed357e38ad22",
+        "size": 608
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/Android/TaskInvoker.aar\n00"
+    },
+    {
+      "guid": "ffda104aa01624227981f14535686ecb",
+      "asset.meta": {
+        "sha256": "91d17a81456b24a83e4cb7eb0e8cc403d9a562bfc94343d34292840a9b9530c3",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/iOS\n00"
+    },
+    {
+      "guid": "956c3c64038194d029f59ddb7ec62033",
+      "asset": {
+        "sha256": "41f0dedec838051380b7516c0a689d548c529af7fd0ce59bfdaea2c3785a7987",
+        "size": 4311
+      },
+      "asset.meta": {
+        "sha256": "1c0f962dd1a45a24b8d462c9735865e87119dcf146292402b291e93ba409e400",
+        "size": 1863
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Plugins/iOS/TaskInvoker.mm\n00"
+    },
+    {
+      "guid": "081c2d12139664288abe5f23cbd87945",
+      "asset.meta": {
+        "sha256": "a90077d4976510d80294a0116a2af5b92919dce451b329db4a3209df4789543a",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts\n00"
+    },
+    {
+      "guid": "4b839395b9c0e47dd94739a71ea2b4d2",
+      "asset": {
+        "sha256": "2a040e3087e3fcd623ed53f5d076943469f36238b7a97682ac0e2f8425247583",
+        "size": 1399
+      },
+      "asset.meta": {
+        "sha256": "bb1ce127b3d0a6b50c50c0191e4bf85a31f970a41a01b49d7ad134858c018cae",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/AndroidTaskInvoker.cs\n00"
+    },
+    {
+      "guid": "db7bee83b7eb24265acadbf089b87380",
+      "asset": {
+        "sha256": "80461c993547804c18fa6b467e1d5e46182250a4b873c20510679ce52a9629c9",
+        "size": 2599
+      },
+      "asset.meta": {
+        "sha256": "11ba9ed8d7cd6969c0ce54f037df632db2d8fd6a0b524d48ebf4e215241c209b",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/EditorTaskInvoker.cs\n00"
+    },
+    {
+      "guid": "22b13c46b0ffb4ee8b51b900c5a79963",
+      "asset.meta": {
+        "sha256": "84b7df8e331982f7d36f628527556a6fdbc5bc3273f63847acb2740a3b838c27",
+        "size": 172
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/Examples\n00"
+    },
+    {
+      "guid": "4f9ee1b643d994ef09bcb3e0eecfe7ed",
+      "asset": {
+        "sha256": "03f6aefc830160a069cb635220e2fd9be4c7460c33c1ffe5ae29ebc5062a63a6",
+        "size": 1886
+      },
+      "asset.meta": {
+        "sha256": "0f65c36eb113ce4934c7c559a25d8fcbaa68a087de57d60007a0a8d986c6ee1f",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/Examples/TaskStarterExample.cs\n00"
+    },
+    {
+      "guid": "739bb19d79ae142c4a235b44a8a49e5d",
+      "asset": {
+        "sha256": "4f792e00820c88f473d5d10c59a0b825b83d1c07ac62c68a1bb04ee910d04580",
+        "size": 2863
+      },
+      "asset.meta": {
+        "sha256": "7a6af006af4bd2d5d19392d0e0e1b9db7b94885645e9928e82563ca5072d01c7",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/Examples/WebRequestWrapperExample.cs\n00"
+    },
+    {
+      "guid": "bd2252bb642e441daa809b9fd9ad8ea6",
+      "asset": {
+        "sha256": "6009ed86a3eeae35e2a2d14e21cc02cfc5227b1dec190915b6f43d37aba3f223",
+        "size": 2339
+      },
+      "asset.meta": {
+        "sha256": "00eb2e1ff37d62d17e603a285acb44f9ae3d0421b4185dc35a5c1c240b7e4b3e",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/IOSTaskInvoker.cs\n00"
+    },
+    {
+      "guid": "ae908eb8c8f1743e7b67575a0cfbbb79",
+      "asset": {
+        "sha256": "c92b8cbcceaada5121632c5d44a0acca715d9729aabb787e4c311d836d547fba",
+        "size": 415
+      },
+      "asset.meta": {
+        "sha256": "bdf5dd10791da0501e4938e9c4b4c152d2911d23c3951d587134a6c7649cd967",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/ITaskInvokerPlugin.cs\n00"
+    },
+    {
+      "guid": "0b83fc552460044459df38d59793e566",
+      "asset": {
+        "sha256": "f3cb74af9a69c11c0c04a40e5ae00fcc1d179bf825b80837258229e46e4bd37e",
+        "size": 3207
+      },
+      "asset.meta": {
+        "sha256": "30bb70c8bdfea3b82e748b4e66a62c36789f288f76865b07c06d4be7f46c3f6e",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/TaskInvoker.cs\n00"
+    },
+    {
+      "guid": "029c1672019574f5c9a28d0087a72b41",
+      "asset": {
+        "sha256": "e796d5368c95676d24d94172e576ba1bbd779e2a22374871791cef178389703d",
+        "size": 2915
+      },
+      "asset.meta": {
+        "sha256": "43fa46750086eee96e9c265917e13a745dcb8d1a79393ef1ed67c6b9f4858b14",
+        "size": 243
+      },
+      "path": "Assets/Vuopaja/TaskInvoker/Scripts/WebRequestWrapper.cs\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "9b9a47a8ad4835d6721d4fae4240d534def419df4894a98f9fff4d6b6b094e87",
+      "size": 4634
+    }
+  ],
+  "control_character_paths": [
+    "Assets/Vuopaja\n00",
+    "Assets/Vuopaja/TaskInvoker\n00",
+    "Assets/Vuopaja/TaskInvoker/Documentation\n00",
+    "Assets/Vuopaja/TaskInvoker/Documentation/Documentation.pdf\n00",
+    "Assets/Vuopaja/TaskInvoker/ExampleScenes\n00",
+    "Assets/Vuopaja/TaskInvoker/ExampleScenes/TaskStarterExample.unity\n00",
+    "Assets/Vuopaja/TaskInvoker/ExampleScenes/WebRequestWrapperExample.unity\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/Android\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources/Task.txt\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources/TaskCallback.txt\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/Android/Sources/TaskInvoker.txt\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/Android/TaskInvoker.aar\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/iOS\n00",
+    "Assets/Vuopaja/TaskInvoker/Plugins/iOS/TaskInvoker.mm\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/AndroidTaskInvoker.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/EditorTaskInvoker.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/Examples\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/Examples/TaskStarterExample.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/Examples/WebRequestWrapperExample.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/IOSTaskInvoker.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/ITaskInvokerPlugin.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/TaskInvoker.cs\n00",
+    "Assets/Vuopaja/TaskInvoker/Scripts/WebRequestWrapper.cs\n00"
+  ]
+}

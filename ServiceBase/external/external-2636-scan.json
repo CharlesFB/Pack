@@ -1,0 +1,686 @@
+{
+  "project_id": 2636,
+  "ref": "main",
+  "commit": "2839140968b075e39ae9aa281c2d393296cf09b1",
+  "files": [
+    {
+      "id": "b7e57bd75c1ef011c65d024f1492a52e8620eb12",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/2DDL Pro/1.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "b7e57bd75c1ef011c65d024f1492a52e8620eb12",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/2DDL Pro/2.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "f61e29d9b19ac43cb961eb54a0625a0d81f0cc6e",
+      "name": "A Pathfinding Project Pro[5.3.1].unitypackage",
+      "type": "blob",
+      "path": "plugins/A PathFinding Project Pro/5.3.1/A Pathfinding Project Pro[5.3.1].unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "c211b027f90392b22a551b12f43edb399e656951",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/A PathFinding Project Pro/5.3.1/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "33bb1c1bf6d2040b17b232fc238f635a787ca40e",
+      "name": "Adjust_v4.30.0.unitypackage",
+      "type": "blob",
+      "path": "plugins/Adjust SDK/4.30.0/Adjust_v4.30.0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "dc9237827da76c303c628fbadb33377d80f193af",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Adjust SDK/4.30.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "bc481fcedec7dec848e68c3f82b5c6e4e085f07a",
+      "name": "Adjust_v4.37.1.unitypackage",
+      "type": "blob",
+      "path": "plugins/Adjust SDK/4.37.1/Adjust_v4.37.1.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "dc9237827da76c303c628fbadb33377d80f193af",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Adjust SDK/4.37.1/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "15f4b9e5e172170cd2f39d2e7d929b7fd1b6a1e9",
+      "name": "Adjust_v5.0.6.unitypackage",
+      "type": "blob",
+      "path": "plugins/Adjust SDK/5.0.6/Adjust_v5.0.6.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "dc9237827da76c303c628fbadb33377d80f193af",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Adjust SDK/5.0.6/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "00c5b9244171cef833daf346e15401bc470ea183",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Alpha Mask/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "6b786b0c745a680afa9fa18ce20ccce3f36df866",
+      "name": "Anti-Cheat Toolkit 2024.unitypackage",
+      "type": "blob",
+      "path": "plugins/Anti Cheat ToolKit/2024.0.0/Anti-Cheat Toolkit 2024.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "22ca5355c1432fa2ac66572cc7b3dd4590c648f3",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Anti Cheat ToolKit/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "64010f846e4b7b6ecf6671f4cf54570bf55c824f",
+      "name": "AppLovin-MAX-Unity-Plugin-5.11.5-Android-11.11.3-iOS-11.11.4.unitypackage",
+      "type": "blob",
+      "path": "plugins/Applovin MAX SDK/5.11.5/AppLovin-MAX-Unity-Plugin-5.11.5-Android-11.11.3-iOS-11.11.4.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "50c268176599fd80d0d196fd3dd8d85f5b10fc3c",
+      "name": "AppLovin-MAX-Unity-Plugin-5.4.4-Android-11.4.4-iOS-11.4.3.unitypackage",
+      "type": "blob",
+      "path": "plugins/Applovin MAX SDK/5.4.4/AppLovin-MAX-Unity-Plugin-5.4.4-Android-11.4.4-iOS-11.4.3.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "11bfaad7cb7c87c5989fb2d374ad1f4f3c658be0",
+      "name": "AppLovin-MAX-Unity-Plugin-6.1.1-Android-12.1.0-iOS-12.1.0.unitypackage",
+      "type": "blob",
+      "path": "plugins/Applovin MAX SDK/6.1.1/AppLovin-MAX-Unity-Plugin-6.1.1-Android-12.1.0-iOS-12.1.0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/AssetBundle Redundancy Checker/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "88c9cf251ef2dd0975a6ea59f01570d4129344b8",
+      "name": "Behavior Designer - Behavior Trees for Everyone 1.7.11.unitypackage",
+      "type": "blob",
+      "path": "plugins/Behavior Designer Behavior Trees for Everyone/1.7.11/Behavior Designer - Behavior Trees for Everyone 1.7.11.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "561ecb40b807a50242a9f76339d1e546b94c506e",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Behavior Designer Behavior Trees for Everyone/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/CRI ADX Plugin AssetStore/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Cartoon BigHead Starter/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Compiling Indicator/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "0e83552e6a0ccd67e47695b3c043e9a164333520",
+      "name": "Corgi Engine - 2D 25D Platformer [9.1].unitypackage",
+      "type": "blob",
+      "path": "plugins/Corgi Engine - 2D + 2.5D Platformer/9.1-Unity2022/Corgi Engine - 2D 25D Platformer [9.1].unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "4334ec1b40b2e4ea4fdd607da0b3f71969d2b0eb",
+      "name": "Corgi Engine - 2D 25D Platformer 9.3.unitypackage",
+      "type": "blob",
+      "path": "plugins/Corgi Engine - 2D + 2.5D Platformer/9.3-Unity6000/Corgi Engine - 2D 25D Platformer 9.3.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Corgi Engine - 2D + 2.5D Platformer/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Cross Platform Native Plugins - Ultra Pack/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "404c9252eab72fd4bcc265640896b7f764af2654",
+      "name": "DOTween Pro.unitypackage",
+      "type": "blob",
+      "path": "plugins/DOTween Pro/1.0.335/DOTween Pro.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "d08ad2314b4a2e5591852ff25149d3e82fff00ed",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/DOTween Pro/1.0.335/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/DoozyUI - Complete UI Management System v2/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "7ceee4fdc82044f12484f3dd25f431a13b8aefe1",
+      "name": "external-dependency-manager-1.2.176.unitypackage",
+      "type": "blob",
+      "path": "plugins/EDMU/1.2.176/external-dependency-manager-1.2.176.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "7f9c1d80bdea15ac5250377cf93508137adc9f93",
+      "name": "external-dependency-manager-1.2.177.unitypackage",
+      "type": "blob",
+      "path": "plugins/EDMU/1.2.177/external-dependency-manager-1.2.177.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "6cf819d6ffb3c85ece2cccadac7022837ea407d6",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/EDMU/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Easy Alphabet Arabic/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "4e3087afa93a0105d0ae57ca5251b766581c3f6d",
+      "name": "Easy Collider Editor 6.16.4.unitypackage",
+      "type": "blob",
+      "path": "plugins/Easy Collider Editor/6.16.4/Easy Collider Editor 6.16.4.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "f06489a78eb4251bc9c97e81615a2eb29b9a3a6b",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Easy Collider Editor/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Editor Console Pro/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "9acab10398a18117b26d456d38ae4b90f1fc1310",
+      "name": "Epic Toon FX 1.82 u6000.0.11.unitypackage",
+      "type": "blob",
+      "path": "plugins/Epic Toon FX/1.82 - unity6000/Epic Toon FX 1.82 u6000.0.11.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "e85a1381003211d5cf49bff319e3a2bc3e9e3fb0",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Epic Toon FX/1.82 - unity6000/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "524b4cfcebab42cf636a9ba3cbc67c9e8c171498",
+      "name": "Epic Toon VFX 3 1.1.unitypackage",
+      "type": "blob",
+      "path": "plugins/Epic Toon VFX3/1.1/Epic Toon VFX 3 1.1.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "c2b866be9b44dd9e36836590c976b28f1eaeeaf0",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Epic Toon VFX3/1.1/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Fast Shadow Projector/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "cebd78e711f956c273a23231e1b7910777206679",
+      "name": "Feel 3.7.1.unitypackage",
+      "type": "blob",
+      "path": "plugins/Feel/3.7.1/Feel 3.7.1.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "0f790c55c8bae74ef51ff5397a7f7e2517f23014",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Feel/3.7.1/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "0649b0e61f50d1c1ddf6aeb20a9164a817d398ed",
+      "name": "Feel 2022[4.3].unitypackage",
+      "type": "blob",
+      "path": "plugins/Feel/4.3-Unity2022/Feel 2022[4.3].unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "0f790c55c8bae74ef51ff5397a7f7e2517f23014",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Feel/4.3-Unity2022/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "5636367128df56fe06ba6170c95303b0d9e9ceb2",
+      "name": "Feel Unity6 v5.3.unitypackage",
+      "type": "blob",
+      "path": "plugins/Feel/5.3-Unity6/Feel Unity6 v5.3.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "0f790c55c8bae74ef51ff5397a7f7e2517f23014",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Feel/5.3-Unity6/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "27958a64760403cb829d5b8cd10e6f8c1ffae8ed",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Fingers/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "01993a13661a9ce923a1bf7ada91f1820ab202f3",
+      "name": "fmodstudio20219.unitypackage",
+      "type": "blob",
+      "path": "plugins/Fmod Studio/2.0.2.19/fmodstudio20219.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "ebca06074b1082184afd57fcc8aa7ac0581f261c",
+      "name": "fmodstudio20226.unitypackage",
+      "type": "blob",
+      "path": "plugins/Fmod Studio/2.0.2.26/fmodstudio20226.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "c52451481c564b7325161b2abceb20a786f862ae",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Fmod Studio/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Localized App Name for iOS and Android/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "ebdaca3e2ba501c201e974c9785a3582b9c78112",
+      "name": "Log Viewer.unitypackage",
+      "type": "blob",
+      "path": "plugins/Log Viewer/1.8/Log Viewer.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "73f6fe6fb6f6f52f9d89ac059e5b0d52e0000d6d",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Log Viewer/1.8/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Log Viewer/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Mad Compile Time Optimizer/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "ff07ba00bed580b6e0b94db4c443f8ca3880a7a5",
+      "name": "Magica Cloth 2.unitypackage",
+      "type": "blob",
+      "path": "plugins/Magica Cloth/2.13.1/Magica Cloth 2.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Magica Cloth/2.13.1/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Magica Cloth/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "eb4e476927e98f6c3235c91c3bc3631ae293c20c",
+      "name": "Map Graph 1.26.2.unitypackage",
+      "type": "blob",
+      "path": "plugins/Map Graph/1.26.2/Map Graph 1.26.2.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "ba6cbf39db15c6537818f3366d850263e3f923dc",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Map Graph/1.26.2/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Mesh Baker/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Missing Push Notification Entitlement Remover/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Mobile Power Ups Vol.1/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Next-Gen Soft-Shadows/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "1f602d1ee8a938fba47c0db836f2264653a4ebfe",
+      "name": "NiceVibrations-v-3-9-0.unitypackage",
+      "type": "blob",
+      "path": "plugins/NiceVibrations/3.9.0/NiceVibrations-v-3-9-0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "26eb8a291f5c538c3a43c96f2c25419ab3624d50",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/NiceVibrations/3.9.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "d2f41350ff69308814fcc2f87403c05cca79ea39",
+      "name": "NugetForUnity.3.0.4.unitypackage",
+      "type": "blob",
+      "path": "plugins/NugetForUnity/3.0.4/NugetForUnity.3.0.4.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "267ba345f80da04dbed9a4896288ee2065887004",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/NugetForUnity/3.0.4/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "12295185084427ae91573722ae5fa4cc7a68397c",
+      "name": "Odin Inspector 3.1.10.0.unitypackage",
+      "type": "blob",
+      "path": "plugins/Odin Inspector and Serializer/3.1.10.0/Odin Inspector 3.1.10.0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "7aa1e31d9dffae19da11ff1a67f731466fce937a",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Odin Inspector and Serializer/3.1.10.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Odin Inspector and Serializer/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "8fb8a268f51aece045fa8fa7d99e06b8d1dd1a57",
+      "name": "Pixel Art Full GUI UI Kit 151 icons 1.2.0.unitypackage",
+      "type": "blob",
+      "path": "plugins/Pixel Art Full GUI UI Kit/1.2.0/Pixel Art Full GUI UI Kit 151 icons 1.2.0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "b729ab03b898b0f2894dd7bac72aab05dde9768e",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Pixel Art Full GUI UI Kit/1.2.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "35c2657ee102fe1e853316a51544d512054e6ec4",
+      "name": "Proxima Runtime Inspector Console.unitypackage",
+      "type": "blob",
+      "path": "plugins/Proxima/1.2.1/Proxima Runtime Inspector Console.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Purple Space Nebula Skybox/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Skybox/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Snow Mesh Trail Renderer/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Space Shooter Tutorial [LEGACY]/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "8d4da36548eb9160e3f9cba969b8c8c74070c8c7",
+      "name": "spine-unity-3.8-2021-11-10.unitypackage",
+      "type": "blob",
+      "path": "plugins/Spine/3.8/spine-unity-3.8-2021-11-10.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "db538220c29923bb6ad4b9607d84173564aa837b",
+      "name": "spine4.1-withexample.unitypackage",
+      "type": "blob",
+      "path": "plugins/Spine/4.1 with example/spine4.1-withexample.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "a66bae9fcad21180c995190a747569391d23818b",
+      "name": "spine-unity-4.1-2023-06-27.unitypackage",
+      "type": "blob",
+      "path": "plugins/Spine/4.1/spine-unity-4.1-2023-06-27.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "852f25c781f2cd1c3403f1689d2dc639209ee510",
+      "name": "StatsMonitor.unitypackage",
+      "type": "blob",
+      "path": "plugins/StatsMonitor/1.0.0/StatsMonitor.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "549b7df5a9182c7493f5e3d868845b4778363241",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/StatsMonitor/1.0.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "6a6b2100125c2062d9fc781155e22965e2d97bcc",
+      "name": "Stylized Water 2 1.7.0.unitypackage",
+      "type": "blob",
+      "path": "plugins/Stylized Water 2/1.7.0/Stylized Water 2 1.7.0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "5f384fdd08469bd178a82368f59048cd0af29523",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Stylized Water 2/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Super Text Mesh/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "3a2d7a336fc65ffa10a0c2996ce39f48dc8f3526",
+      "name": "Task Invoker - Mobile Background Tasks [1.0.2].unitypackage",
+      "type": "blob",
+      "path": "plugins/Task Invoker - Mobile Background Tasks/1.0.2/Task Invoker - Mobile Background Tasks [1.0.2].unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "c9c59417181f6ff731154b2f431aa1d9dc35ba45",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Task Invoker - Mobile Background Tasks/1.0.2/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "549ae0f6a59bacdf18e38f2e50a244e0b220e413",
+      "name": "Text Animator for Unity v2.1.0.unitypackage",
+      "type": "blob",
+      "path": "plugins/Text Animator for Unity/2.1.0/Text Animator for Unity v2.1.0.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "eee0f709efd6accff56bb1b2e130535b5ead6fa0",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Text Animator for Unity/2.1.0/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Time-cheat prevention/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Toon Knight/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/Tutorial Factory/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/URP - Glass Shaders/package.json",
+      "mode": "100644"
+    },
+    {
+      "id": "9a368006e247afa5f62a8a56371578a727c5c48b",
+      "name": "UniWebView 5.unitypackage",
+      "type": "blob",
+      "path": "plugins/UniWebView/5.12.0/UniWebView 5.unitypackage",
+      "mode": "100644"
+    },
+    {
+      "id": "771aa9de415ceaa409eb2da83d175b2395faf758",
+      "name": "package.json",
+      "type": "blob",
+      "path": "plugins/UniWebView/package.json",
+      "mode": "100644"
+    }
+  ]
+}

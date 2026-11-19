@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "plugin_id": "google-signin",
+  "build_id": "b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf",
+  "artifact": "artifact.unitypackage",
+  "sha256": "b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf",
+  "size": 345937,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "a089c79cc334748a5a29c5f219b7cfd4",
+      "asset.meta": {
+        "sha256": "3c524b687fa87d3a8afd5d7ee1ef558fe7e0aff7b945b260e56ddea38864523b",
+        "size": 200
+      },
+      "path": "Assets/GoogleSignIn"
+    },
+    {
+      "guid": "a7e77ece57ef34772969fad4915b1a4c",
+      "asset.meta": {
+        "sha256": "52e6a806dbd6504de484b4325c60e3f8e861765513905d59e032a31fbea96be6",
+        "size": 200
+      },
+      "path": "Assets/GoogleSignIn/Editor"
+    },
+    {
+      "guid": "938014c9994164100b26d82840a88fbb",
+      "asset": {
+        "sha256": "5812d896b97c63a10714f670810f16c6996515a2880547064ae214ef850179f3",
+        "size": 697
+      },
+      "asset.meta": {
+        "sha256": "9762797edce138de8d3c8d61ab7814b9b97632b45ab6a8b988aa964fa399d318",
+        "size": 217
+      },
+      "path": "Assets/GoogleSignIn/Editor/GoogleSignInDependencies.xml"
+    },
+    {
+      "guid": "e8689106c65f445c19cec6044d615c19",
+      "asset": {
+        "sha256": "dc9a8b949c3c15704c0d9d7dc055bd1de687c5478aeaf2154bceb23b94810b65",
+        "size": 389
+      },
+      "asset.meta": {
+        "sha256": "1e642e3e6b48136d25588cc5a083144d89635144e223b3bc42ec65b9b653efef",
+        "size": 217
+      },
+      "path": "Assets/GoogleSignIn/Editor/GoogleSignInSupportDependencies.xml"
+    },
+    {
+      "guid": "ca932999723384cdc86087c8423332bb",
+      "asset": {
+        "sha256": "9f6423f1bca1262265aa4338c2b6882ba2df7b6cfbfd3b9cd653d460e7aa6e17",
+        "size": 1066
+      },
+      "asset.meta": {
+        "sha256": "5059dfaf3eaea31258921d15bab4ec731eb667a7d7529f6a7858be0fb071537a",
+        "size": 257
+      },
+      "path": "Assets/GoogleSignIn/Editor/google-signin-plugin_v1.0.0.txt"
+    },
+    {
+      "guid": "ca644678b0cca9f4490ebe287da7ec74",
+      "asset": {
+        "sha256": "4d518f44b8729c31bc7c18104d5bb0894926ed757e80060532b33c66b98b0b67",
+        "size": 1798
+      },
+      "asset.meta": {
+        "sha256": "466141ca5b6496ff8f45d1a09d7f9f97427ac10d92d42bea42f8e058ea1a0322",
+        "size": 257
+      },
+      "path": "Assets/GoogleSignIn/Editor/google-signin-plugin_v1.0.1.txt"
+    },
+    {
+      "guid": "817a6673340324b8ca85e24466f60953",
+      "asset": {
+        "sha256": "450242a364924b7bb8c97a8b736a0f06c6a218f0b6e4a250e0b74cf5024d26fd",
+        "size": 5537
+      },
+      "asset.meta": {
+        "sha256": "e3d7ead93719656431103fbaab0a32d56fb2c982bc8558d4ae51f101ff2b3590",
+        "size": 241
+      },
+      "path": "Assets/GoogleSignIn/Editor/google-signin-plugin_v1.0.4.12.txt"
+    },
+    {
+      "guid": "eefc3dc8b56e545998952bd59ab36247",
+      "asset.meta": {
+        "sha256": "b2142de35420341480de70c77a8ef89d91366219abf633276e54e7799c6b82d3",
+        "size": 224
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository"
+    },
+    {
+      "guid": "ade49ef91c70440a0baeac322ecaa2d7",
+      "asset.meta": {
+        "sha256": "be4e26ffd936e984e5fa0869a521572bd9771ad72bbc8c1fc6a326eee8b1335a",
+        "size": 224
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com"
+    },
+    {
+      "guid": "707de6ade212a46b1ab4bf4d42325176",
+      "asset.meta": {
+        "sha256": "e7f00ffbcbfc8dbbc3d809a7f32b00b6b125e386a11eca18f575f26274ef37f8",
+        "size": 224
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google"
+    },
+    {
+      "guid": "34b86fc2e934d482ea5f9d1f5354b0f9",
+      "asset.meta": {
+        "sha256": "79872ee9586dd8d4be711ac06a9c704c9cafaf3555099f25a74dc33af591ebb3",
+        "size": 224
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin"
+    },
+    {
+      "guid": "e3becceb8680148d59e5bb93e5eb5a24",
+      "asset.meta": {
+        "sha256": "108117018d153cdb0c88e48200c17f70cb4d1b8b351df729855102786b5a96d3",
+        "size": 224
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support"
+    },
+    {
+      "guid": "0185ae1dfdc126d4199290e95e5d55e0",
+      "asset.meta": {
+        "sha256": "44bef34ee905fe38d22dccd3227627e5daaf3d25d17991c9b5bfc1395f9704d1",
+        "size": 172
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12"
+    },
+    {
+      "guid": "56a80a7e419e4e24386959447b768daa",
+      "asset": {
+        "sha256": "1421983010808321ae4ed83957aa794b5f8b2c37de6a1ba37031042c6fe35c9f",
+        "size": 455
+      },
+      "asset.meta": {
+        "sha256": "5a06e1e5cc707f79a02e2fbea8c3c3071464353a778343b57a425d33460ce3a5",
+        "size": 179
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12/google-signin-support-1.0.4.12.pom"
+    },
+    {
+      "guid": "b6134582c3afb654792362fe4d7168ca",
+      "asset": {
+        "sha256": "564c1af34fc1c215ffdc17f922dfa327fe25d8bd45576defc682c7822f9373ab",
+        "size": 32
+      },
+      "asset.meta": {
+        "sha256": "9127350da0046b05ad1a3440a0828b8f660603b0606f61b673f1d3cceecc2f58",
+        "size": 179
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12/google-signin-support-1.0.4.12.pom.md5"
+    },
+    {
+      "guid": "64020456630f3504d94cf7f106878ea5",
+      "asset": {
+        "sha256": "190b3c594139bbe535dd04fabf1d4ec6175b1f4d4c0a216472e1e2e172409031",
+        "size": 40
+      },
+      "asset.meta": {
+        "sha256": "302cc4bbaf8ec0506942846a6120adefcfa1797c01ebffef65da80395a8be980",
+        "size": 179
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12/google-signin-support-1.0.4.12.pom.sha1"
+    },
+    {
+      "guid": "bade73ee37429b94f82648f83a480d98",
+      "asset": {
+        "sha256": "57208152f2b40983b4e2f1ecefa57aba24688f1debedc76e52c0f60d4241615a",
+        "size": 328453
+      },
+      "asset.meta": {
+        "sha256": "2c97f92514b5a2f93c35cd7effc2df639db797897bf42df64e0196d1846d8b36",
+        "size": 179
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12/google-signin-support-1.0.4.12.srcaar"
+    },
+    {
+      "guid": "6741c0d0975b07e439c7c4ac29560e12",
+      "asset": {
+        "sha256": "33c9d569cfde2a98ca84c50bbdd5fc002e73ff9de492337ae1dc28d44e7ddbe1",
+        "size": 32
+      },
+      "asset.meta": {
+        "sha256": "4e5cd439e655560d89690c3506be1361da628a7c24064c15e61f0c02331cef97",
+        "size": 179
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12/google-signin-support-1.0.4.12.srcaar.md5"
+    },
+    {
+      "guid": "038ed16d764f8304fa831f18420a498c",
+      "asset": {
+        "sha256": "a32ec45da9cf4b531ed816af3cd6cf2ff61110920417390d7d3520df7e31150d",
+        "size": 40
+      },
+      "asset.meta": {
+        "sha256": "9f1f51f9366563f8bcb3f6b0f2b40cd12f806c639753c59b84ac075a5977792f",
+        "size": 179
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/1.0.4.12/google-signin-support-1.0.4.12.srcaar.sha1"
+    },
+    {
+      "guid": "f3911d467587242978192a8723c68395",
+      "asset": {
+        "sha256": "99e4758159bde86828354bd9d2f9bf0cd48cd1b11f42c18d03bd9583f0232bb5",
+        "size": 324
+      },
+      "asset.meta": {
+        "sha256": "ceb67144c3c9114f8ff6366455762366253ae9eb8fa24f92752dc44bf6df9d88",
+        "size": 241
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml"
+    },
+    {
+      "guid": "c020582c1a85d47c7934908f00a0bd37",
+      "asset": {
+        "sha256": "77b5611fe06c9343db7d640ed38d5571d686160230b4b6959f261e45574b3be6",
+        "size": 32
+      },
+      "asset.meta": {
+        "sha256": "f20a2886dad503098845bf75716fdc22c6d5604512758d15855af7a7cd2daeb2",
+        "size": 238
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml.md5"
+    },
+    {
+      "guid": "16b8065a143bb4277af08381a56157dd",
+      "asset": {
+        "sha256": "4913ca50a002061f548c06e0941ea7472e9d06b33ceca752bf5f5568563240e1",
+        "size": 40
+      },
+      "asset.meta": {
+        "sha256": "636a3e847f4030c0f613cda06c81b7ed52ee8ac9c162c39c098c33b0d953e495",
+        "size": 238
+      },
+      "path": "Assets/GoogleSignIn/Editor/m2repository/com/google/signin/google-signin-support/maven-metadata.xml.sha1"
+    },
+    {
+      "guid": "ad3b09fb652fb4ff0a68d1966f13160e",
+      "asset": {
+        "sha256": "ff37954f4b87c07b17e8bea1a9c39e3dfd77630eee3f72ef17e37b3527885119",
+        "size": 2987
+      },
+      "asset.meta": {
+        "sha256": "57251cce8380b0f3d9e0723025592cd45a832b8ef86f7d99a46dd5c82bc51215",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/Future.cs"
+    },
+    {
+      "guid": "138b984208e394be797ce8905a44fd54",
+      "asset": {
+        "sha256": "9760989ba9b18b8b32aa78d409474a5c99db908a9415ffd20932b580e555f21f",
+        "size": 7342
+      },
+      "asset.meta": {
+        "sha256": "3463924dab147453194847a20348ec74bf808c1d71671717a4a5776d3ef38d45",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/GoogleSignIn.cs"
+    },
+    {
+      "guid": "0c3999c0f68f04ae08f04fb3bf2a2050",
+      "asset": {
+        "sha256": "06cfe31883052ea4bd9dcad42c3619759098ea64f0412e52816f1e1d95637ada",
+        "size": 2811
+      },
+      "asset.meta": {
+        "sha256": "85196762f6598680e6409d9e2886d7d5e853baf1606c4d029f7722b7770b27db",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/GoogleSignInConfiguration.cs"
+    },
+    {
+      "guid": "077933fcaedac412d9762bf3e0a3be68",
+      "asset": {
+        "sha256": "81d500758b4fe6755ae8d8ae44c932582c5fe43ef6059d362d1ce29b4fd00643",
+        "size": 2484
+      },
+      "asset.meta": {
+        "sha256": "76fe1de16774ddd2ee125ee0e353ef3eaa5e962aa7c7819080fa8e28f5b2efa9",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/GoogleSignInStatusCode.cs"
+    },
+    {
+      "guid": "c56b92217d0144af5907627d1235e0a5",
+      "asset": {
+        "sha256": "cebc450ca9d03520867b27b864fdebf34d078acccf79628310a1c037bc9d4091",
+        "size": 2142
+      },
+      "asset.meta": {
+        "sha256": "b6e95b1995695a2b9954959c1dd8ea2ccb2390154586bb840fb251ff2b44a06f",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/GoogleSignInUser.cs"
+    },
+    {
+      "guid": "2fbe4f3ec9db4415e849f9bb89e63a92",
+      "asset.meta": {
+        "sha256": "80d25419126da79a6d3e7dcc77eb3da67ab4ad31c5b9b228141705142ae32408",
+        "size": 200
+      },
+      "path": "Assets/GoogleSignIn/Impl"
+    },
+    {
+      "guid": "fe250cda690a44cb08f8f7d26c9723b4",
+      "asset": {
+        "sha256": "347688d0e8f2eaec09c924b647d1d5b993b479e55b40f92ca6122b0a54c298ca",
+        "size": 2355
+      },
+      "asset.meta": {
+        "sha256": "4aa9021eb75a3f106e417c744add08c5cc7da9bf2e40b99d3de36d7653ab475d",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/Impl/BaseObject.cs"
+    },
+    {
+      "guid": "9ae1f008f9f994b9c96c1a14067d7b48",
+      "asset": {
+        "sha256": "0515284094faea47f4ca65fa1fa43c2df13d54fac41ff932085ed0a61b76c070",
+        "size": 7044
+      },
+      "asset.meta": {
+        "sha256": "8f156cc4fc7f90b51481cbdee8a94f8c0fbe7aaf871bfa8b3de85e8b3897bd52",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs"
+    },
+    {
+      "guid": "5f1aae79b1ca4432d9d8ec382c54bf46",
+      "asset": {
+        "sha256": "4b9ae990b73137182d2c52897b0ae06c0b8cc1578da14a6b5fcc79676f5a1bb4",
+        "size": 4117
+      },
+      "asset.meta": {
+        "sha256": "94b974d8b0e791a56627628fff5adc0e34229788030d0f47de7aca275bde889c",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/Impl/NativeFuture.cs"
+    },
+    {
+      "guid": "ad98e5b48888e44eb81dd5884d3a1754",
+      "asset": {
+        "sha256": "ea1ee83e0dddb92775ad7e6cd844ef936fc7a23dc32ddc82708b92a0bde890e0",
+        "size": 1551
+      },
+      "asset.meta": {
+        "sha256": "ebe331bdfcda7a7cb0dc19ebe802710852360986314140c45a15e5ae6633db31",
+        "size": 306
+      },
+      "path": "Assets/GoogleSignIn/Impl/SignInHelperObject.cs"
+    },
+    {
+      "guid": "d1a8f2ea2fc954f4db9d55a59d097a7d",
+      "asset.meta": {
+        "sha256": "b1e3a122aa8250e1c0540e5d15e430d6679aeb9bfdc6d1d2f9aa9be2d0ea2a91",
+        "size": 200
+      },
+      "path": "Assets/Parse"
+    },
+    {
+      "guid": "7981c52a42f2a3342a7dd3d51d8cf64d",
+      "asset.meta": {
+        "sha256": "c6dec7dbbb891b36bf2f1385caa7b265f9d96b2103078406934f7bd04df51c7b",
+        "size": 172
+      },
+      "path": "Assets/PlayServicesResolver"
+    },
+    {
+      "guid": "ad6f25451876af64f92ef6ad24941433",
+      "asset.meta": {
+        "sha256": "f168d95b39324aed5f22b3d8b2356a5c792bf9e7eb093b7b7efec6ee72640841",
+        "size": 172
+      },
+      "path": "Assets/PlayServicesResolver/Editor"
+    },
+    {
+      "guid": "ba6f911c6f9d4d9ea269756e9dafb641",
+      "asset": {
+        "sha256": "9746742f6f187698a449657be32d14ca7b3a0fa7e783b45c7894e5733eba0f15",
+        "size": 126
+      },
+      "asset.meta": {
+        "sha256": "5ee844f6507a1d873ce6529ac4beb21a3baed4ba11b2159a304b262d916378e8",
+        "size": 333
+      },
+      "path": "Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt"
+    },
+    {
+      "guid": "11bf9545a722341b6ba971705a514a4b",
+      "asset.meta": {
+        "sha256": "1476ba92a393f95fb98e6343f190e6067f91cad1a6039fce39868264a8214397",
+        "size": 200
+      },
+      "path": "Assets/Plugins"
+    },
+    {
+      "guid": "7e4ce092146284b2ab8d322170972a45",
+      "asset.meta": {
+        "sha256": "7667bfe21b0f53107658132d9f090b1d9bda05cf21b827a781ec122a11e9b9d6",
+        "size": 200
+      },
+      "path": "Assets/Plugins/Android"
+    },
+    {
+      "guid": "367a2849a95b040e2ab7533314f868f4",
+      "asset.meta": {
+        "sha256": "f95bb198646fb87e5b7d9f1ffeef12afb6a219abfdaad91106c1a700f14c7dfe",
+        "size": 200
+      },
+      "path": "Assets/Plugins/iOS"
+    },
+    {
+      "guid": "07c86a3f84f494e589218ed67d10255a",
+      "asset.meta": {
+        "sha256": "60fd6679856e6dd74bcf62b753f355663fe763fba74e057fbd1152cd5f916edb",
+        "size": 200
+      },
+      "path": "Assets/Plugins/iOS/GoogleSignIn"
+    },
+    {
+      "guid": "62c129704e1ec48179ba285e1af154b8",
+      "asset": {
+        "sha256": "eac8c359d9013c21328ff45993176a59455928e4aeae6821707587c872b18a1a",
+        "size": 1296
+      },
+      "asset.meta": {
+        "sha256": "69edccf332d5b8be53680dbb7d0f605158472a7453221fa9dbcced6db6f23dd2",
+        "size": 673
+      },
+      "path": "Assets/Plugins/iOS/GoogleSignIn/GoogleSignIn.h"
+    },
+    {
+      "guid": "521784ee6b2184e0e947a8fd1508afbc",
+      "asset": {
+        "sha256": "cccba2bfc66505daad18b17a7a5a09ced08e1ce1e692dbe9733a82492d3c8626",
+        "size": 12220
+      },
+      "asset.meta": {
+        "sha256": "ee3d14e73b4ae0d396496f8a6548cbfb57833615d606fe129064678f7cffa22a",
+        "size": 673
+      },
+      "path": "Assets/Plugins/iOS/GoogleSignIn/GoogleSignIn.mm"
+    },
+    {
+      "guid": "ce40e3e7b37a54617a4683dfc0479c71",
+      "asset": {
+        "sha256": "ed064a1d2f2d867dd5e748ce1cef4bea659776da58864384c5911bce7741bc03",
+        "size": 1474
+      },
+      "asset.meta": {
+        "sha256": "94ee507c04582ba7a209c5e766c921dd0e0f26a0d47ba096afbdfa9a30c67704",
+        "size": 512
+      },
+      "path": "Assets/Plugins/iOS/GoogleSignIn/GoogleSignInAppController.h"
+    },
+    {
+      "guid": "50b2e1c9319e4446e9dbd9b183790472",
+      "asset": {
+        "sha256": "94805ae720e6174527eec1068e71c0638c79afdca121eedf9f7e90530d796ad6",
+        "size": 3504
+      },
+      "asset.meta": {
+        "sha256": "b813fcbc8bd898beb32b27ef223522b3301d6a007413a7caebbd6f7b91cbccbe",
+        "size": 512
+      },
+      "path": "Assets/Plugins/iOS/GoogleSignIn/GoogleSignInAppController.mm"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "non_assets_paths": [],
+  "missing_meta_paths": []
+}

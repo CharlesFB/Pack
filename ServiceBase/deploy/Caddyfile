@@ -1,0 +1,13 @@
+{$DOMAIN} {
+    encode gzip
+    request_body {
+        max_size 3MB
+    }
+    handle_path /static/* {
+        root * /srv/static
+        file_server
+    }
+    handle {
+        reverse_proxy web:8000
+    }
+}

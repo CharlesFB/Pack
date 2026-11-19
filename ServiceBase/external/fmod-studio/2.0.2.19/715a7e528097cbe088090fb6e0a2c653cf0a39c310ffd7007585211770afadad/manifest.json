@@ -1,0 +1,2727 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-fmod-studio-755279a6",
+  "build_id": "715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+  "artifact": "artifact.unitypackage",
+  "sha256": "715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+  "size": 76891027,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "06ae579381df01a4a87bb149dec89954",
+      "asset.meta": {
+        "sha256": "3c766e55a7acb73a2c117cdde9e9b4ba41b9da2eb50662f0f357fdd8516765fa",
+        "size": 200
+      },
+      "path": "Assets/Plugins/FMOD"
+    },
+    {
+      "guid": "0c752da273b17c547ae705acf0f2adf2",
+      "asset": {
+        "sha256": "fcb7f5ba6c345cd258fcc59b2acabbc1356e6b171b9fecd4cb8bef2a3e2b7a10",
+        "size": 1047
+      },
+      "asset.meta": {
+        "sha256": "554e7f9c5989de6f36f9f3164a405786210f4814bd3e06822dc8d826e0f7ec06",
+        "size": 173
+      },
+      "path": "Assets/Plugins/FMOD/FMODUnity.asmdef"
+    },
+    {
+      "guid": "5ce2e36f162425b46bc152ac35dc774d",
+      "asset": {
+        "sha256": "298bb7be796203ef73cfe25b0d16cebf4e40491de228ed69724ad32947c769b2",
+        "size": 7106
+      },
+      "asset.meta": {
+        "sha256": "ec42e9e3ea73375efb813d8dbd9c2e98196c3be782f0634fc148a4c595c6e0bd",
+        "size": 158
+      },
+      "path": "Assets/Plugins/FMOD/LICENSE.TXT"
+    },
+    {
+      "guid": "081074d1d9d6ab448b88688c3730e8a1",
+      "asset": {
+        "sha256": "8ca22a2a70e13862afa26a7bf1e4009d35a12b35b81d3a450d0b6eb4cd7fe34a",
+        "size": 476
+      },
+      "asset.meta": {
+        "sha256": "6cd4cd1e5c8102440c1f4108126f090e27b6e305392af8cd7925c38bd02b1c8b",
+        "size": 165
+      },
+      "path": "Assets/Plugins/FMOD/README.txt"
+    },
+    {
+      "guid": "850b7bf08237b964b8b005fe703774f9",
+      "asset.meta": {
+        "sha256": "33a1a72bf9cdb3ad488763fe123d1648dc1fc6877ca5026d8bc9731900bd51eb",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/addons"
+    },
+    {
+      "guid": "ce39533effc93ba409e337ba540bf789",
+      "asset.meta": {
+        "sha256": "3178f781d60b452db4d3b3d41758e668a96f68dbd42b43e9b3067ad69b86b2b6",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio"
+    },
+    {
+      "guid": "93923a20291353a40809350917bab197",
+      "asset.meta": {
+        "sha256": "a630788835b9c7d8198bbc17afaf76e70f125d6a912e822e7ce86ec76d1cd793",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Editor"
+    },
+    {
+      "guid": "194213485063a984b98ce9410892267a",
+      "asset": {
+        "sha256": "d07ad0545bea9d8391348305d4dcb8706259ad09179cd2a0f8e048796fd85541",
+        "size": 404
+      },
+      "asset.meta": {
+        "sha256": "70b27c5f307d3efe8ba50974be0fb77310ac5c04df51ac2dd87dfe136abb4b70",
+        "size": 173
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FMODUnityResonanceEditor.asmdef"
+    },
+    {
+      "guid": "935c6716e27bd481e97897dd9e1de595",
+      "asset": {
+        "sha256": "e8ca3b6cc50f95c33a1bcbafe0602f16c6e9388213343a11aa20512783505f3b",
+        "size": 6005
+      },
+      "asset.meta": {
+        "sha256": "fb0d77883265ea3e274c8f8ffae941ce85ddb6baaff64f98c8ff9d6cec14b8a5",
+        "size": 274
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs"
+    },
+    {
+      "guid": "05a6a02c28ee77a49b6fcadf67aff3b7",
+      "asset.meta": {
+        "sha256": "4952f17e345920ba522921f35e38155ea6e430e526401877d915833a501fed7e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts"
+    },
+    {
+      "guid": "44d09cf463b68274884d8a3c8a94e528",
+      "asset": {
+        "sha256": "9d5acf28016b130a301b0a9d3826323b6f99bc5952feb5960c5af514c68bbc75",
+        "size": 365
+      },
+      "asset.meta": {
+        "sha256": "f47d47146a9f1a70e96077140e74b47a1c3d0772f3a954ac1045b3e6a2dca14f",
+        "size": 173
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FMODUnityResonance.asmdef"
+    },
+    {
+      "guid": "6794e6301575a445d8588930a0752568",
+      "asset": {
+        "sha256": "13162b09f1dd431e8974b67806466a7f81d3e35764c2a9d7780e86c9946bff1e",
+        "size": 13657
+      },
+      "asset.meta": {
+        "sha256": "2c03f0d23b1845f594e7eba3f8667a3aff12fb73bf0fb817036673870a6a0a9b",
+        "size": 274
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs"
+    },
+    {
+      "guid": "6b0c5e63920ee4f55b7ec5248525af4b",
+      "asset": {
+        "sha256": "c800bd20590d7832f6cc98200311b6752fd524063eb36d1b0bc2fa03cf28f903",
+        "size": 5212
+      },
+      "asset.meta": {
+        "sha256": "7dd7f3175c51c78c0c0adc24321e43f3cdfadda34871e98d4dbe320a5562fbd8",
+        "size": 274
+      },
+      "path": "Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs"
+    },
+    {
+      "guid": "27e5eef2bd66ffe429eebdc4579b7231",
+      "asset.meta": {
+        "sha256": "260d7c9e8a43a7f049e09ab0811a8102a639ccdbd79091aff0df5693c6b6f46f",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/images"
+    },
+    {
+      "guid": "3300e81f02e64924eb7cb7782713b126",
+      "asset": {
+        "sha256": "860e3a60f97b4f9961eda80617e922ceffeb67aa145077ba0599863ca306a467",
+        "size": 380
+      },
+      "asset.meta": {
+        "sha256": "762e503a04deaa7d112f2b2856448e772323dc136ffc6c4e9c4803d09a6bae75",
+        "size": 1262
+      },
+      "path": "Assets/Plugins/FMOD/images/AddIcon.png"
+    },
+    {
+      "guid": "01c0101f357b9da4ba78b8f58c290f86",
+      "asset": {
+        "sha256": "7ad41545295b579cf3d262f069c5b9ec48b03bd5a1f64a465b7af44272f66cb7",
+        "size": 292
+      },
+      "asset.meta": {
+        "sha256": "cd7834bf23b71c0cf2a241d3ce4609b31630a47bedf15af974c816770e879e12",
+        "size": 1262
+      },
+      "path": "Assets/Plugins/FMOD/images/ArrowIcon.png"
+    },
+    {
+      "guid": "a7e06068a7215854a84bf5ed8280ed15",
+      "asset": {
+        "sha256": "057c16f44a3725bb4228401150c905b384ce1e1dfde6902ab074b8405c05b7c7",
+        "size": 3699
+      },
+      "asset.meta": {
+        "sha256": "4bc0294d374653ac446384d83966a191cfcee5f39fbb86cd048bc75c933dd187",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/BankIcon.png"
+    },
+    {
+      "guid": "40848578d1961334d820821bec6175a4",
+      "asset": {
+        "sha256": "fe700034ded2e2586d707689971698310ce5964018d1a774fb6c6ed9f9060d27",
+        "size": 179
+      },
+      "asset.meta": {
+        "sha256": "193af2f6294306854038c09346b95580e435cbd21afaef17a6ab4a548346bc3f",
+        "size": 1262
+      },
+      "path": "Assets/Plugins/FMOD/images/Border.png"
+    },
+    {
+      "guid": "c783b763d12874147876e070661b66ab",
+      "asset": {
+        "sha256": "e45e42c47b7bf4214d50dcdca6ee7c7b47cce163eb948f8ffcdbf99837fe504c",
+        "size": 3194
+      },
+      "asset.meta": {
+        "sha256": "19d1eef7e2fb0e43fd0db3e3909162a2a103f782a69fb96ef8a4a36a998e552e",
+        "size": 1262
+      },
+      "path": "Assets/Plugins/FMOD/images/BrowserIcon.png"
+    },
+    {
+      "guid": "b92803770616fc747bc3c40ffaec0a42",
+      "asset": {
+        "sha256": "765322a24dd9be4feda19b5338f83cfdb4250a329c7ddd6e784b4205cb9e5f40",
+        "size": 3234
+      },
+      "asset.meta": {
+        "sha256": "7ea001d3b27b4569b27f4e190f98eb4ed005ef79c38c040d14ac9c286ed31e9b",
+        "size": 2145
+      },
+      "path": "Assets/Plugins/FMOD/images/ContinuousParameterIcon.png"
+    },
+    {
+      "guid": "6e164dcb85fc8ad4b9ab2f1e883862d2",
+      "asset": {
+        "sha256": "d2b04ee62fd5d8072051bce97cf0edb1465ed43e71ac14485869297157ea05a9",
+        "size": 552
+      },
+      "asset.meta": {
+        "sha256": "d1a7cbc13334d4d976df02ee6227c8d067664a0c670ab3c8ae7f9639a6716f94",
+        "size": 1265
+      },
+      "path": "Assets/Plugins/FMOD/images/CopyIcon.png"
+    },
+    {
+      "guid": "348d2265b48c67342a4db2a7062813fa",
+      "asset": {
+        "sha256": "76090493a60a8bf675e1ab27c5183fc0c1624c889ca6dfe64a703cde2187e88d",
+        "size": 278
+      },
+      "asset.meta": {
+        "sha256": "16d766482c2a7e56c4fde912ff04f37a85668c6dcef88ce66d8a46e6ee6237ed",
+        "size": 2023
+      },
+      "path": "Assets/Plugins/FMOD/images/CrossYellow.png"
+    },
+    {
+      "guid": "196080340db65c44883dd3f599556fb9",
+      "asset": {
+        "sha256": "4ca01b263c0395dce602ba7ff5a836d7f461216d860427a0e3df55a7ab71efa6",
+        "size": 221
+      },
+      "asset.meta": {
+        "sha256": "058b989879307ccb9a090a8b885dbf26943cb9c6dd65adcc9e51c35029ff3ada",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/Delete.png"
+    },
+    {
+      "guid": "509563e7079a6ed4cbf3b3240327e702",
+      "asset": {
+        "sha256": "bae2b164cbe65ba21d1d509da1f6861c82256a1e8402a7d6d265e7f98d5ebc11",
+        "size": 3041
+      },
+      "asset.meta": {
+        "sha256": "022183ec9fa882fb584baa4e5c28ce51e28926af6963616c9da15f632c2102d4",
+        "size": 2145
+      },
+      "path": "Assets/Plugins/FMOD/images/DiscreteParameterIcon.png"
+    },
+    {
+      "guid": "a602f206f9cb31f439c79a2fe23687c5",
+      "asset": {
+        "sha256": "846f36969a9193bb47cde4c12d2b39c76d3eaa9db4d8ba8b16eb76d21225f24b",
+        "size": 705
+      },
+      "asset.meta": {
+        "sha256": "e67733a631096923c7710da2d1be5ee5d806b900c88c06b138672fca64db746c",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/EventIcon.png"
+    },
+    {
+      "guid": "36e46b3c334e47e41a0b4ff2f26905ea",
+      "asset": {
+        "sha256": "5cece587e055d82ea2776b0ebff697ce32e024f301ed62077a573e851c75dcab",
+        "size": 9688
+      },
+      "asset.meta": {
+        "sha256": "3dbb091996ee8f6535e08a4f2bf4cf39d0faf8e0c98becfda51a626924c253fb",
+        "size": 3565
+      },
+      "path": "Assets/Plugins/FMOD/images/FMODLogoBlack.png"
+    },
+    {
+      "guid": "8fd8ccb8d7e81d943b28ea7975c7185d",
+      "asset": {
+        "sha256": "b766d70460bfa442ede86dcdaeac016650552c511be711319c94b74554a7fd9f",
+        "size": 8803
+      },
+      "asset.meta": {
+        "sha256": "cd1dc1e54694e0894dea4efaf1053273bf6a20f980278e0a8538be4ca20ca88b",
+        "size": 3565
+      },
+      "path": "Assets/Plugins/FMOD/images/FMODLogoWhite.png"
+    },
+    {
+      "guid": "70efeb6d97126f843b30b8ed62d18a4f",
+      "asset": {
+        "sha256": "2e0e2cfe75a26e20382f957b843f704ce604a0b24e5152470ebd28208cfac212",
+        "size": 2963
+      },
+      "asset.meta": {
+        "sha256": "1ca06d41904c03b11157fed1d3438172b39c51448ab979110204bb316cd1c237",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/FolderIconClosed.png"
+    },
+    {
+      "guid": "d2b54e4f7f80b9448a41d3c5985f5672",
+      "asset": {
+        "sha256": "8a5f22962370823cae68458fcc089dd0759636aff6d1e2f45bd701d740aa5598",
+        "size": 3221
+      },
+      "asset.meta": {
+        "sha256": "62a95fee0e06e2e2063cf85b222a47a5f23a9768ee71c16917d4ecb3722129d2",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/FolderIconOpen.png"
+    },
+    {
+      "guid": "b4d696e5c0be6f44bb2f02aa41320656",
+      "asset": {
+        "sha256": "929ddbd86aad8bc5ae3b466bb2f5f36ed953da22b04cbf4dd8ab8166e4ef91b4",
+        "size": 3101
+      },
+      "asset.meta": {
+        "sha256": "8d87a231d659a094aeb5f7da3de5107ed7986c9abbcb18cc48a5eb362753ab0b",
+        "size": 2145
+      },
+      "path": "Assets/Plugins/FMOD/images/LabeledParameterIcon.png"
+    },
+    {
+      "guid": "21e7a3d41a926364a8b9a6704ebe80d8",
+      "asset": {
+        "sha256": "bf765236491fd508c50e16b64a19b8f27e79f2174d94c61dd2399dd39ebf8d88",
+        "size": 2685
+      },
+      "asset.meta": {
+        "sha256": "7946c5138e28e35e50176e1b72f3dee6c04d17141adec4abd0613d698bed9823",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/LevelMeter.png"
+    },
+    {
+      "guid": "48dc5470d93f669419f294fcd33f7b7c",
+      "asset": {
+        "sha256": "7e162e74d2e9c71d12514bd3199c46cb79046e2e2df315aa8bf5587f61bbd6cd",
+        "size": 2194
+      },
+      "asset.meta": {
+        "sha256": "c65495e83ce16c69880a800703b7c01932631a1821b88e9d4b8863a81e62e5d2",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/LevelMeterOff.png"
+    },
+    {
+      "guid": "1138ab068176f29499337d7a73dfecd9",
+      "asset": {
+        "sha256": "5ae518102dd2ae8fab1a9bd2f526c8897de491f55f28ceb72ac3a4e0365d330d",
+        "size": 3139
+      },
+      "asset.meta": {
+        "sha256": "ce87ac7c00df7eb592af979fbbd0ac866577528f4a6b270cc5f447dd2ac8b974",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/NotFound.png"
+    },
+    {
+      "guid": "0793eda432fc5df4ab1291e6baacd771",
+      "asset": {
+        "sha256": "5442882e67f6bd03f05d5cdaf38b12ab53099e2fc002c17ff9d75fe74d917ad1",
+        "size": 17576
+      },
+      "asset.meta": {
+        "sha256": "0c013ccc87532145a06292c666d91f33c82fd503fe268715ddc437cde77a8dba",
+        "size": 1241
+      },
+      "path": "Assets/Plugins/FMOD/images/Preview.png"
+    },
+    {
+      "guid": "9519043db3741934fa01455c47683e8c",
+      "asset": {
+        "sha256": "d555a49c7381486bc846b226dbaedf52ae4bf3206e7f150c07756641b3228e88",
+        "size": 278
+      },
+      "asset.meta": {
+        "sha256": "80d66a8409ef61a9894357e1edd3b143b9f6bc9ceb226c24944caf46b2d282b0",
+        "size": 1218
+      },
+      "path": "Assets/Plugins/FMOD/images/PreviewEmitter.png"
+    },
+    {
+      "guid": "99471facfde9fb84dbe4a81ad570ebce",
+      "asset": {
+        "sha256": "17a08ec9844a6c30a78346c21d4ea627645fa217d8e1e6ef8225885e80c663ef",
+        "size": 3025
+      },
+      "asset.meta": {
+        "sha256": "1b60940c1a152b4982bce95571391a0efe2869ac9a67ce26174c9b4356c9f03d",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/SearchIconBlack.png"
+    },
+    {
+      "guid": "8ce9b717b1bc7564cbe35664f2f178a7",
+      "asset": {
+        "sha256": "9450a6d1836697cc7b196df8d9b829c66dc9e38400cd00e78abc0fa0d4290b84",
+        "size": 170
+      },
+      "asset.meta": {
+        "sha256": "27eb6d0f97ba4a9d4b99b80c9022c1e951b412a7a6c8dddd1a2e9062e33e9798",
+        "size": 1262
+      },
+      "path": "Assets/Plugins/FMOD/images/SelectedAlt.png"
+    },
+    {
+      "guid": "cf2bba5fb8be7e64ca39979f18eb372a",
+      "asset": {
+        "sha256": "a64f883f76eec0a308b9af0607394b4030b3c0b25e22afaae48779b7525c2ef9",
+        "size": 737
+      },
+      "asset.meta": {
+        "sha256": "9a0cfa325a401103e8d91aabac578c37eb628fa4471822c01b22ace31d03ae0c",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/SnapshotIcon.png"
+    },
+    {
+      "guid": "a4edfa5854cdec34b98b1c55f0562bdd",
+      "asset": {
+        "sha256": "adb4854cc54817bc18bab8f51b6b9f5dd49220f7019877e596cb02fddf009dd8",
+        "size": 3581
+      },
+      "asset.meta": {
+        "sha256": "0a645bba6dda220fa9bd40b31c97cc09c395a20b81691c2398f06abf60c0bb2b",
+        "size": 1215
+      },
+      "path": "Assets/Plugins/FMOD/images/StudioIcon.png"
+    },
+    {
+      "guid": "27533226416c4f549b9bec9c024100f7",
+      "asset": {
+        "sha256": "e6d253361b6878408e62b8aa8da4edb6167fa97c038748f18ebad22292cb6e65",
+        "size": 244
+      },
+      "asset.meta": {
+        "sha256": "fb9311e0ff7cab9b58f6d7ffdb57c88f9a9114c14083ddec009918befe88c7b0",
+        "size": 2023
+      },
+      "path": "Assets/Plugins/FMOD/images/TickGreen.png"
+    },
+    {
+      "guid": "b0fb832e401d1514a9611735d8d340b1",
+      "asset": {
+        "sha256": "09901dc10713d986ef1df3b28d6d637d978263f86eebd18fddb57b8d7d3cf472",
+        "size": 4234
+      },
+      "asset.meta": {
+        "sha256": "b5c0f734054ad09d3be2056f2c70687629d369d27d5df960a53caebea6ed6e3c",
+        "size": 1262
+      },
+      "path": "Assets/Plugins/FMOD/images/TransportOpen.png"
+    },
+    {
+      "guid": "29258b1336a580946bc144df00b74ac1",
+      "asset": {
+        "sha256": "7235df4b7a8cc331595984bae5f2f11f18a2da8808a92cbc268454ad7836999d",
+        "size": 3525
+      },
+      "asset.meta": {
+        "sha256": "2826aea0bac169c8121829f64041a43464bcb1f678536a1010bf7c41ba5fb612",
+        "size": 1261
+      },
+      "path": "Assets/Plugins/FMOD/images/TransportPlayButtonOff.png"
+    },
+    {
+      "guid": "2d777c9a14189d241aea1afeeeff448c",
+      "asset": {
+        "sha256": "6b3ef1497d5583fc59777d3e32b7f0841a1b40cad462f6c7b76e02b600cbe7d2",
+        "size": 3715
+      },
+      "asset.meta": {
+        "sha256": "c58ccf92ca37573adf6c5e15cbf1f2897368b66453eed4e90c1670407380b983",
+        "size": 1261
+      },
+      "path": "Assets/Plugins/FMOD/images/TransportPlayButtonOn.png"
+    },
+    {
+      "guid": "cafa069c15865d543a07375373f0a18e",
+      "asset": {
+        "sha256": "b3813b737ddf9a4c4ccbad813498d029e168f5d2bdb55ac4940f380f0ef34b9b",
+        "size": 3290
+      },
+      "asset.meta": {
+        "sha256": "9a9bef2ffc6fd7eb4543a3d61e2b72a4e3cb532c390e5f80262455ed773aa9a8",
+        "size": 1261
+      },
+      "path": "Assets/Plugins/FMOD/images/TransportStopButtonOff.png"
+    },
+    {
+      "guid": "eab53cb0959d1244aadeacf8b76c755c",
+      "asset": {
+        "sha256": "b575ed82986cacca2633358315b4ff642d81fd277825afd54f4ddc5d97880b32",
+        "size": 3463
+      },
+      "asset.meta": {
+        "sha256": "05ed1528e2f92fd949788344867e756a45693668613fdd635849a9d2fd307a33",
+        "size": 1261
+      },
+      "path": "Assets/Plugins/FMOD/images/TransportStopButtonOn.png"
+    },
+    {
+      "guid": "507cd805ad331e54cb9e9cab5a9270b5",
+      "asset": {
+        "sha256": "4d6b8c5858c1ee781c129bd611fe94412088d7198285766ce88433901f85a22f",
+        "size": 521
+      },
+      "asset.meta": {
+        "sha256": "6a8131e5d459afd99e6cf0270eeaad8451cd7d3cabe0d3401d3ec3ee11d77b53",
+        "size": 2020
+      },
+      "path": "Assets/Plugins/FMOD/images/Wrench.png"
+    },
+    {
+      "guid": "05934ae51e4011749ad82fedf49249ca",
+      "asset.meta": {
+        "sha256": "c2b827bede6cc0e91d092b36ca0c63bbdb568ed2b8fcb25df98282dffa9e52e3",
+        "size": 172
+      },
+      "path": "Assets/Plugins/FMOD/obsolete"
+    },
+    {
+      "guid": "4ec66fcbb19699c4085ef9d55e5cb2cd",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "ff8a0c3c63d1985f7cdb2e1fd404a4d9ac16eccae424aeb9446fa8003246d3e3",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/FMODMigrationUtil.cs"
+    },
+    {
+      "guid": "349b3ec0598db0842afd177249982c71",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "e748caa73f2ad6e8c7e25c4f2521c0c7c6a7e37371a2be7c009d575ee51e6829",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/FmodGvrAudio.cs"
+    },
+    {
+      "guid": "182a610a347ba9c4486398ad1e7b186c",
+      "asset": {
+        "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+        "size": 5
+      },
+      "asset.meta": {
+        "sha256": "51db9d1fb96c900396cd16530e67b9f9ada796be49ec244c1d9a99f39a464e40",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/FmodGvrAudioRoom.cs"
+    },
+    {
+      "guid": "41e95c18b9f4c2c4096488003e0461ae",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "5202bc9d4d545cd7db057a031c8f7ef76e92e0e58c8cf896d040313a37e7f577",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/FmodGvrAudioRoomEditor.cs"
+    },
+    {
+      "guid": "255133e2dd4fbd9449ba729ddbb2f77f",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "465fe983500697b00c2d91bb73d816e606c6b4d2daf535184960d9ff053cf85e",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/LogViewer.cs"
+    },
+    {
+      "guid": "913a31310db178d4c834141ad50879e4",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "b82b128479b056f5abcfc88715caa43fbec5b08ba0570a204078857c253af89c",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/OneshotList.cs"
+    },
+    {
+      "guid": "f8a3d4f9470d7ad40b876135404b3bbd",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "62da02892d254715dbc0c321a0532afb9388f111a07bbe01a9d86e5045321b5a",
+        "size": 2505
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/fmod_static_plugin_support.h"
+    },
+    {
+      "guid": "b609b2636c3bd40b6baa2df2e77d015e",
+      "asset": {
+        "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+        "size": 2
+      },
+      "asset.meta": {
+        "sha256": "293ca628227cc1f00385633d69f446d7ccadb983333aa5cf8955dd628db7b77c",
+        "size": 1068
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/fmodplugins.cpp"
+    },
+    {
+      "guid": "4495168029c64a340a80fbfa8e0f1209",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "128c58c6d4f1307d71773b258acb6b9bc014aa1961cea780b5cba470283b2979",
+        "size": 1489
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/libfmodstudio.so"
+    },
+    {
+      "guid": "b5bb2bbafe40e404f8b9d40da6187c54",
+      "asset": {
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "asset.meta": {
+        "sha256": "1737c7e74e06a433a00d1a18fa1f344c8d318823450b2acafae7247906ce0075",
+        "size": 2404
+      },
+      "path": "Assets/Plugins/FMOD/obsolete/libfmodstudioL.so"
+    },
+    {
+      "guid": "fc7eb3c9194584004bdf04921e5cb057",
+      "asset": {
+        "sha256": "cc6bfc15c98ceba61a522451be0a1de7fb41d43aa8eb484f0a388cf96e64701a",
+        "size": 2182
+      },
+      "asset.meta": {
+        "sha256": "6b8d7905aa4dee5389fdb1ae1758e78fe35154470d572d3c9879c3520a908e36",
+        "size": 1991
+      },
+      "path": "Assets/Plugins/FMOD/platform_ios.mm"
+    },
+    {
+      "guid": "8b617f082dd1f0645bde3b4ff3cbc25a",
+      "asset.meta": {
+        "sha256": "4be7ea68538c4214c882ff24c6476fd0f713b8c07fca3964b6faf498d10026f0",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms"
+    },
+    {
+      "guid": "ca9461535f8115a4fb8293c748bcd2e1",
+      "asset.meta": {
+        "sha256": "712a7d25bdfec672fb748bb2510792adc227cf27b0212eb222357402997713c5",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android"
+    },
+    {
+      "guid": "328160e4bc4e8b74296f830386ae016b",
+      "asset.meta": {
+        "sha256": "b2442167ad6d846467883e7ef3e899c6876a6a415151c9ec15e11911471e6692",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib"
+    },
+    {
+      "guid": "54305e5cd6046514181f9b21fb0c44ed",
+      "asset.meta": {
+        "sha256": "6c469ca35022663cc96a7c4d10b7e9ddd9ce335d7c78778157c797d12da4dd2b",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a"
+    },
+    {
+      "guid": "159cb3726937c6c498fa49eb627b0d96",
+      "asset": {
+        "sha256": "8e5e5e2ef340a832a5d241788844862e1a24f6fd711604e3c668b425e9336205",
+        "size": 1159088
+      },
+      "asset.meta": {
+        "sha256": "20b2afbc6f97c87570111b70a3934e5409eb60626c2bef5843512fa81febed7f",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmod.so"
+    },
+    {
+      "guid": "6f74d8321b529d948a7672da4ca54356",
+      "asset": {
+        "sha256": "e26b5e1dd65bf55532490cacaab10d24cfdeaabe161fbcacbe810f5e35e8254c",
+        "size": 1573808
+      },
+      "asset.meta": {
+        "sha256": "fdd64509ef58b23ac13f34ee0365188498b1f9a476b9b969d135f29ac61c1bcd",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so"
+    },
+    {
+      "guid": "e4d6c68823f34e440bfe4e4ecba4c113",
+      "asset": {
+        "sha256": "c41a1c312add2738fb8242f019937b3807ea2c90d178ebcd00f339392477b940",
+        "size": 1116200
+      },
+      "asset.meta": {
+        "sha256": "1ac59545127666fd972aac58f98a0e7a601acf663b3f22df02839f09cdf6e79c",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so"
+    },
+    {
+      "guid": "85af50ee41bfd9c4fbd8107aee814c50",
+      "asset": {
+        "sha256": "3d260aad9a9dbd2644c7d74f7fda8e0e0145ee384fe0abacdb269ab1df4b64a3",
+        "size": 2222272
+      },
+      "asset.meta": {
+        "sha256": "edd665923bda47281d83acbee5091a8b6b84b6094d690b0a56a0373f75f68654",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so"
+    },
+    {
+      "guid": "2bd9aca31d63ca248bf159e7562a3609",
+      "asset": {
+        "sha256": "98a4152eabdb47e265f1cac9884aa5b7ebbe1f4b7dc42ebbd8c151fa669bcb23",
+        "size": 831152
+      },
+      "asset.meta": {
+        "sha256": "5e8c001c79717158cab92769d47256ebe065e1ad6081d1086f08cef600cb9ee8",
+        "size": 632
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libresonanceaudio.so"
+    },
+    {
+      "guid": "49cc70c20e469a541a7974182c9f588a",
+      "asset.meta": {
+        "sha256": "05e3abfdd95331ef0046ec1d99464a0504e1468253af39f6a62d0ef8fc3074c6",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a"
+    },
+    {
+      "guid": "f71c8f89be7646142baed6d482d5e89c",
+      "asset": {
+        "sha256": "118017e5c9491eca1929a9e71e81a33420e17cbdbab183cf15aed43ae1301cb2",
+        "size": 985744
+      },
+      "asset.meta": {
+        "sha256": "45d3c666c4e2cc2d94d727ee4b4badf84f1a7cd4adb298d29ab8682f1f2b14a7",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmod.so"
+    },
+    {
+      "guid": "0e95029f987dfa248934eaa63745b504",
+      "asset": {
+        "sha256": "e01e67d1719d529e15015aad1e94a6bc22e80bb3b4232ca3ee6584277df17a05",
+        "size": 1199248
+      },
+      "asset.meta": {
+        "sha256": "4ff1c4af5c69e07846aef750215a3834e87b43a10b85f148e537ebc4ee8d81e3",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodL.so"
+    },
+    {
+      "guid": "cf01ad74bd6e5df46996c61b81ba590c",
+      "asset": {
+        "sha256": "84a0799e3eda586d9349a2de996eea9ea650b4de66b235a93319d4974be6fd30",
+        "size": 734828
+      },
+      "asset.meta": {
+        "sha256": "5690e733579195aad4c225bb313e6ad55ef5379a388a00c2c7b3d7b14f7631b1",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so"
+    },
+    {
+      "guid": "8de47c7524234f64fb6a7d661154b1a3",
+      "asset": {
+        "sha256": "cc702c537cefab11738a98f96352ae183e7eb1280e5c6231e36265f5b254311e",
+        "size": 1447584
+      },
+      "asset.meta": {
+        "sha256": "8a8472738afa384d34a1a5cb81d4c631466000c6ebbc15db123cd70278795b66",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudioL.so"
+    },
+    {
+      "guid": "fb0aabfc61c4c1548ac6990286c84327",
+      "asset": {
+        "sha256": "11e0fd7feb23460ec5143086cd970b5d27eff58f783dd7b71a9e478e8a4e6565",
+        "size": 531956
+      },
+      "asset.meta": {
+        "sha256": "fe7a6c28d9eb579276a701c6847349b7c8944f9d04e212124f145b8a8d137b56",
+        "size": 458
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libresonanceaudio.so"
+    },
+    {
+      "guid": "cba124c31f7e10640bc2ff9464f8ac15",
+      "asset": {
+        "sha256": "1350510d9aec9c440b43fdb6da713dce47ff199a16499409115c1621cd5c485c",
+        "size": 10053
+      },
+      "asset.meta": {
+        "sha256": "3501909960d6457e0346aef5585ee89da309b40eaf674d3e463f1345dfe5db9a",
+        "size": 640
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/fmod.jar"
+    },
+    {
+      "guid": "95bcdcdca315ef640bec049de80ee3eb",
+      "asset.meta": {
+        "sha256": "7cc3455f9f2b076d6fcb9cc01fe245e247838400fb5c0a53502779b34f2be6fc",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86"
+    },
+    {
+      "guid": "099e80baee62d0c439475fae45e69f4e",
+      "asset": {
+        "sha256": "f1f3f6c47244e8da83315ac3a14b187e77c01c6f34c628dbb8c30e55932b2bae",
+        "size": 1317380
+      },
+      "asset.meta": {
+        "sha256": "3890e10b6ae19e1cd22e4683f1da2a670910104e8488322ec79f742ce49877df",
+        "size": 456
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so"
+    },
+    {
+      "guid": "54236e4c5b88f494598efb4d226b44f0",
+      "asset": {
+        "sha256": "81415a43ddaaa45bee3aa966ca97734150f6434c498ac874d7353d7af86cd7d1",
+        "size": 1690628
+      },
+      "asset.meta": {
+        "sha256": "e22a884d0991dedef86ca8c30d4207f5d52b02257230bef49e3583d9ca885dcc",
+        "size": 456
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so"
+    },
+    {
+      "guid": "a20d361b085100b4997c4e5b0b83af31",
+      "asset": {
+        "sha256": "dcab0f6524221e52c2237c437bd95b22977eb573382ebcaec52204b42fa55025",
+        "size": 1197628
+      },
+      "asset.meta": {
+        "sha256": "458e6e78eda41985cc4be72712ba237ea9218dac7a84c4bed51dd7050b0dde81",
+        "size": 456
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so"
+    },
+    {
+      "guid": "0975b093811db4e4e9e67bc483ad2299",
+      "asset": {
+        "sha256": "50bcc6c0ddf1906371fe94e0392245165db5faf08f23d4f5dbce9638f665d57a",
+        "size": 2389564
+      },
+      "asset.meta": {
+        "sha256": "dc8d73cbcd96ae478af718e6bde4706a1413681bfd85161ff7c811f393b4dbc7",
+        "size": 456
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so"
+    },
+    {
+      "guid": "5c35d7fa6769b114aa63172aaf1fd782",
+      "asset": {
+        "sha256": "fc0717008fc81d7b125f2d159446a210f8648a65a50018ad84db0e9dc1edd984",
+        "size": 863240
+      },
+      "asset.meta": {
+        "sha256": "8f92ec5c814685e9e6faa6eeb94826151b79aa3f8deffcb976076a3843a57499",
+        "size": 456
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86/libresonanceaudio.so"
+    },
+    {
+      "guid": "de5f3bd6373f9af40a118f67ec94f0ae",
+      "asset.meta": {
+        "sha256": "8a6f602557a5b034790cb891e58d53fca6395e4402733231264c20a0e287ada4",
+        "size": 172
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86_64"
+    },
+    {
+      "guid": "7b1a5b0e7617bcf49885fb2dd09d7085",
+      "asset": {
+        "sha256": "2c18940433cf4116c24cebceb59076effcd7dfda38f6b9cd6130e67117d2a1be",
+        "size": 1237104
+      },
+      "asset.meta": {
+        "sha256": "79a71ab153656b7388803ebe06643acbae5981cff3872ff07e2d0a573674ebd3",
+        "size": 459
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so"
+    },
+    {
+      "guid": "51dea0d403c47f345a6efe70b23fe6e3",
+      "asset": {
+        "sha256": "8990e5eefc38a0882b727df89409411eaa416b2abf8440a0216ab956acdaa1f3",
+        "size": 1672304
+      },
+      "asset.meta": {
+        "sha256": "a04abff1e9c246c362fe0c6c71e9c2452d4c29662317af60d664ee953a4fe55d",
+        "size": 459
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodL.so"
+    },
+    {
+      "guid": "8c078c4748d95c2489bb3b82aa144194",
+      "asset": {
+        "sha256": "d85b343b059a96c96a1e3d7685a62ce4c5da8419a72753f613b89201d22486b0",
+        "size": 985280
+      },
+      "asset.meta": {
+        "sha256": "9a73ad7dd10db652a5cc3f18d4416ac3d57c9471c360da90c681f7128299e37b",
+        "size": 459
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudio.so"
+    },
+    {
+      "guid": "9a5fc9953c8c261488bf0cb6c202e04b",
+      "asset": {
+        "sha256": "85ea923aa7a483473d9c500de0da96604a2b79b24cafb4e5e3efc5738356b482",
+        "size": 2209984
+      },
+      "asset.meta": {
+        "sha256": "9e05791d6fe3c2a9e17b29833907f7a10584a17a096146cc86a2b5909c521fc9",
+        "size": 459
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so"
+    },
+    {
+      "guid": "295b4c80a560c81409d44c273128b743",
+      "asset": {
+        "sha256": "c0ea62e1ffaba5f095bc1fe786046f21be15ca97af61ff65fb409dc537546d80",
+        "size": 920464
+      },
+      "asset.meta": {
+        "sha256": "e7e91fa85bab92a45422c86628448b58a169c5250c717f1cae01b418dd7d2107",
+        "size": 459
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/lib/x86_64/libresonanceaudio.so"
+    },
+    {
+      "guid": "03be3f097a522854dbe1d585023925fb",
+      "asset.meta": {
+        "sha256": "e4d0ce2200a0f4d1343903891887bc45da034cc5dda00116d024aafce81b3301",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/src"
+    },
+    {
+      "guid": "97ba6cc2660c0ca498540d254701057a",
+      "asset": {
+        "sha256": "a4c0f7a726654d4af44075950de4002634a649da4ca04135f0b1d610e95e5280",
+        "size": 4234
+      },
+      "asset.meta": {
+        "sha256": "d38792ef03ac1da0b654ba2057213bef91cd218bb5e5b4666db8f732f64c47e0",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/android/src/PlatformAndroid.cs"
+    },
+    {
+      "guid": "2e8b0cce3730fcf4e996e9cd562a9858",
+      "asset.meta": {
+        "sha256": "5b59ea7a95b685c3b3cf81e982726a53c1633effc00c931f3ee321eb53e21be7",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5"
+    },
+    {
+      "guid": "b177b3448f6e68e4b9f8c04bee3914aa",
+      "asset.meta": {
+        "sha256": "4fe799475e3cbf7a891aa977c9436d3bdc7843b413e9ccd628c167dba01998c6",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/lib"
+    },
+    {
+      "guid": "54847690d6c23734ca89652cb5ad8efb",
+      "asset.meta": {
+        "sha256": "75e9fa2552284ccf3893434bf39745a942852eed4acfa8bf199146d46578840f",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/lib/2.0.19"
+    },
+    {
+      "guid": "18569240b868e8b44a20d32b2df12f5c",
+      "asset": {
+        "sha256": "3ec98b6d08ed9753fd5173d0078a780c696f1e3b1d46653ec828cea9f74ff878",
+        "size": 13658542
+      },
+      "asset.meta": {
+        "sha256": "ec03f1e3a5eedecd3ca13bb8379fab5ce89a3432ef93db204cd2c3d9ac1d5cd5",
+        "size": 636
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a"
+    },
+    {
+      "guid": "072de5b62d53c944fa2bae4cc3cd1754",
+      "asset": {
+        "sha256": "033c99944c19b5b6fa998837a91e2667928fd0759f11441f498cfa3f1f2a5de9",
+        "size": 15940458
+      },
+      "asset.meta": {
+        "sha256": "b44aeff09c557e3ca41f6572ca32454de55b2f199b558aae4d61ae78d473594a",
+        "size": 636
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudioL.a"
+    },
+    {
+      "guid": "254f6ee9df4d3024d9c550104ea5feaf",
+      "asset": {
+        "sha256": "b9cfef33ae56b4cddccfc3bc4b3c6a84c4bd4340d877e53c8b112948bfc6146c",
+        "size": 9792084
+      },
+      "asset.meta": {
+        "sha256": "4976572e0de655ad6dc9506688b3c656a2aa6a133dab7d0909eed717cf749362",
+        "size": 463
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc"
+    },
+    {
+      "guid": "2dab3dda051681d4a9ea3ed67cb9877f",
+      "asset": {
+        "sha256": "5eb7595a4bc5b63731990cabd3baf46eaabe837b2cbab8601839456f981c7ea8",
+        "size": 12271560
+      },
+      "asset.meta": {
+        "sha256": "8f527abf252140da8c733669dc7273b2ceb9f27b3bf8d4c76f4ab7deb1108b55",
+        "size": 463
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc"
+    },
+    {
+      "guid": "21a9406360b210946b0f52e8bf5ca333",
+      "asset.meta": {
+        "sha256": "becccd1a1d749a3f29af4ebda8d12030578765f7e565f8bf738d6bf41db4ad13",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/src"
+    },
+    {
+      "guid": "b87314b32fbe18943af496e4b47136c6",
+      "asset": {
+        "sha256": "d30ba975107f93fa2338613252759716b55073b72794462f628c7181f8265e86",
+        "size": 2844
+      },
+      "asset.meta": {
+        "sha256": "a8706a2a6e69d2141e56a445b6dfe5829891a5045b1c2508766b0e8ba08d17a8",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/html5/src/PlatformWebGL.cs"
+    },
+    {
+      "guid": "56ef07f8e7caf5f4589a020791b532cd",
+      "asset.meta": {
+        "sha256": "ed73cacf516b742f2b870f3b4b6ff6de349824ed2ac979c8037a35af6400dd1e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios"
+    },
+    {
+      "guid": "bf8c331b8ccdb944fa925884d9ffa69c",
+      "asset.meta": {
+        "sha256": "97d3538b4e633d4c6c518ddc40c3c6b9645be4047ba7ea7c6960f43b7e9b6623",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib"
+    },
+    {
+      "guid": "79c89db1833831740aee981c0d90d2d4",
+      "asset": {
+        "sha256": "ee4da784df5eaaa594dce502a39634f897efcbc45f790f617f3dce0c22977f54",
+        "size": 7142304
+      },
+      "asset.meta": {
+        "sha256": "d2b1284b5a828644d4f60f4e7756b9463d5c18a85b441b1f62a70b8ca72556b0",
+        "size": 417
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a"
+    },
+    {
+      "guid": "5aa4057a8deee1c45a69677125e2c241",
+      "asset": {
+        "sha256": "14df596dfb8ad8626c288714b0b00002f12d58c7e213380d8a6d6ee20d3478d9",
+        "size": 11790152
+      },
+      "asset.meta": {
+        "sha256": "1ffeaf0c995d4c7dfd7ec83c12ae45e9bc55c1f759ec128c1599a381c79cffc5",
+        "size": 417
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a"
+    },
+    {
+      "guid": "26235204f425d41479c8e41c99e96f50",
+      "asset": {
+        "sha256": "6fcdaddf963ece22b73376bec81f69fa47e9efa916633436a6cad01318f17947",
+        "size": 8408720
+      },
+      "asset.meta": {
+        "sha256": "cb24722f0deef158c82e159763c7edda2f5cb7650a057e18e695802a0df753b4",
+        "size": 2210
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a"
+    },
+    {
+      "guid": "9aed261b7fbc24099a9b58cbbf374583",
+      "asset": {
+        "sha256": "7ec636079ee19599cd5ede7e6923e3d77834b6f424963ea09855a206d940ddf7",
+        "size": 12360808
+      },
+      "asset.meta": {
+        "sha256": "5bdcd4df8c8cb837845a5cc5df7edc85890958be1c01a0732d369e2f6348e65b",
+        "size": 2210
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulatorL.a"
+    },
+    {
+      "guid": "bc5d15d8f7607af478126b815040cbd2",
+      "asset": {
+        "sha256": "8f90f0b569e9769fc2543883c16f769142653c38b7f77c6b02cc34c8c187c042",
+        "size": 9661896
+      },
+      "asset.meta": {
+        "sha256": "eb037584442868acd0c67cabba833790ba71751075fb0807e44b7ca864afd64d",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudio.a"
+    },
+    {
+      "guid": "5ad1791b3b48a4ba39c30a2b4f438486",
+      "asset": {
+        "sha256": "571eecdd3d99e7cd281bf70ea35e601324c75d6d59d54ec540c5e35668bdfe5a",
+        "size": 6407784
+      },
+      "asset.meta": {
+        "sha256": "33138dd9fa64f3b4660cb5a889d93c15c4fc3c434233be0792e6dfdccfa7c9dc",
+        "size": 2210
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudiosimulator.a"
+    },
+    {
+      "guid": "eb7a0bd9281687744b74c40dd220a50f",
+      "asset.meta": {
+        "sha256": "906e1b6a629dd5f024991e3a49b499b250e1c4e42f9815ee3e30b28959eeacb3",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/src"
+    },
+    {
+      "guid": "bc1f51bc35d549941904cf062bae93a3",
+      "asset": {
+        "sha256": "9322a6d5dbe1ee48fd946f5d6f0431c074db01fee197455d1c6abc1b6d394706",
+        "size": 3792
+      },
+      "asset.meta": {
+        "sha256": "c9d56c2a9549920f317f63ebe92ba36a0e8c534866bfa006bd0f415db5619a85",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs"
+    },
+    {
+      "guid": "127a9ee57a2a27a439bf9e6b2d5731b6",
+      "asset.meta": {
+        "sha256": "2f6155be58a3bf3837f03c1567c6e8940503c2a1e4d45a42e46c290ef46a853e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux"
+    },
+    {
+      "guid": "b28687fd18577ce4c838b916a4ed5c54",
+      "asset.meta": {
+        "sha256": "f1d09b25a344137fb48a2ec1f2d2564adcd00c283bd7d3f3e2536aa353333703",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux/lib"
+    },
+    {
+      "guid": "f99f1bb123ca3b6449fc49fc745c0fed",
+      "asset.meta": {
+        "sha256": "19e4563339d254333fd825e916e7444597fcb16e26f9db39f69a847abe022da6",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux/lib/x86_64"
+    },
+    {
+      "guid": "9063aa11b1fcfcf4cb6030a076d14a30",
+      "asset": {
+        "sha256": "daf60d97141bf11a72e65272507811bd8485e9c3c5bbf73c142667a204817fad",
+        "size": 3159864
+      },
+      "asset.meta": {
+        "sha256": "83ffcffaf10c92127c618641527216702cb2a18444903cd835aa66d26690dce9",
+        "size": 1220
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so"
+    },
+    {
+      "guid": "bca6f630c310b4945b52486d2ed1da0a",
+      "asset": {
+        "sha256": "54f7b3ba0bfa2d9e9aebc0ab6b5d92c2dcda61c5880fb6570f65d6792b82c370",
+        "size": 938936
+      },
+      "asset.meta": {
+        "sha256": "fb882c40469e292b6817d2623eeddf9b1bd4577fe98e738918dc05aa4b6e2c14",
+        "size": 1301
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libresonanceaudio.so"
+    },
+    {
+      "guid": "fb8b6c816014ed44ebc2db5f8dc5e03e",
+      "asset.meta": {
+        "sha256": "0b9da9a76beda4f420a816251fc08bd9666a4f373844e00a26cd35d0c3c51d7e",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux/src"
+    },
+    {
+      "guid": "73549a74f689f0849a8271d9e908c514",
+      "asset": {
+        "sha256": "440aad2d904d4ff91b4bd7b7b8b9517a5ab6bf3d9ca30f79d1118af7bce310bb",
+        "size": 3466
+      },
+      "asset.meta": {
+        "sha256": "ccc935a31f63b3617df8cc235d74f60bc953ee2cb55c07e1ba3a02fd5496fbe4",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/linux/src/PlatformLinux.cs"
+    },
+    {
+      "guid": "5dd2bfa8b9eb6874b9e50b79490891a7",
+      "asset.meta": {
+        "sha256": "8af3e9c91bd739ad0e7649d0a9c5610585d075ac85c6caee4e52e8ced2b20ffd",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac"
+    },
+    {
+      "guid": "98f2ca7007fe2074d953e949a6fdf971",
+      "asset.meta": {
+        "sha256": "33d3a499793aa58474264e26547f3dd709e8fdc3810d41b2b3687548e10492b5",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib"
+    },
+    {
+      "guid": "4f94b6752a0d5ad489274786cbfbc6e5",
+      "asset.meta": {
+        "sha256": "ed83b9a64840a19b79aa237eb3bb1492ce991f0ddc16b800b83541de4019a29a",
+        "size": 1289
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle"
+    },
+    {
+      "guid": "2879b055c8551c44caa264ce7208ea17",
+      "asset.meta": {
+        "sha256": "f0abcd969d6acda289d7cc524b8f87e16aa56124fc3fd2e80a066950c4bbaa07",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents"
+    },
+    {
+      "guid": "fdf09afde87e8e440a6e331d1850add6",
+      "asset": {
+        "sha256": "bc4c67f71b92fa0d026dd07f76f616bbc8b95b380d29b3524e6727ca81de7cc8",
+        "size": 996
+      },
+      "asset.meta": {
+        "sha256": "b1c9bc4857d79e34604b04f9e71c0f14522b2a3f1a7cb6435581c9bd80d5ff58",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/Info.plist"
+    },
+    {
+      "guid": "4c7ef954631945d4981884adcc603e81",
+      "asset.meta": {
+        "sha256": "821ac4aa4d34613ed51ec9f2e545d99ec73f062586c64b778ab5f9ec3c701454",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/MacOS"
+    },
+    {
+      "guid": "c5e926e235023354fb6b94bc154a8d2c",
+      "asset": {
+        "sha256": "f482941f7c17e1e478335576ffec01675db09f40e3b4367d4b0a870c6eb50516",
+        "size": 4640560
+      },
+      "asset.meta": {
+        "sha256": "2fa1d4be6716f5c2e11ebac00e4854d90ed54b2008ae10c54a5f5ea0e3dab5cd",
+        "size": 139
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/MacOS/fmodstudio"
+    },
+    {
+      "guid": "0731b3df0eb593f4ebe376b7a4fe7b96",
+      "asset.meta": {
+        "sha256": "34f1182fd380b3539ac8ea2e1bc00e4dc83e75b2d96c0d2091cd0d54eb7314a4",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/_CodeSignature"
+    },
+    {
+      "guid": "a7e866ce49bf582479f3675646324389",
+      "asset": {
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+        "size": 2200
+      },
+      "asset.meta": {
+        "sha256": "7fb48b3ab97b19999d7fef0ef6cf8e58a3a76cd36449a3ca4e2abb0c435415cd",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/_CodeSignature/CodeResources"
+    },
+    {
+      "guid": "04e20ff877bea8747ae257229c720dcc",
+      "asset.meta": {
+        "sha256": "8a4e7c135bc4466b6138e844ba2c9211d5a9b4c38001eb76611ba49b2e72e6b2",
+        "size": 1104
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle"
+    },
+    {
+      "guid": "a5e43a852000e2443a14695f63ceffd7",
+      "asset.meta": {
+        "sha256": "321edd8ae2f28b5bc496e6d550a629528e188573e891ab70fcbb620903ab36e4",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents"
+    },
+    {
+      "guid": "ea043299abb5407419ae750dbbee6564",
+      "asset": {
+        "sha256": "0c318a7dc343425ee97c57ee03af2cea16d34729ab4e2db626a64e96f8d21e74",
+        "size": 1004
+      },
+      "asset.meta": {
+        "sha256": "7e5b75149267c822bb2469b7ae3a1055cd1606d0e4dbd55be48b9ae3ae036653",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/Info.plist"
+    },
+    {
+      "guid": "242a6e2e6d91dcf45a7ef7bdd7bfe227",
+      "asset.meta": {
+        "sha256": "5695d8a77d4fcf2ed27ffc79e4da405955f3e17e7bc3fc4d6cd8d8110e25fa84",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/MacOS"
+    },
+    {
+      "guid": "2e2968e9faea7be4ea2b24d5bd144749",
+      "asset": {
+        "sha256": "16fb1d8d513ae716bb95ec7e99365283a5948fb5c2b5ec69cafcd331bda3bfe0",
+        "size": 1434256
+      },
+      "asset.meta": {
+        "sha256": "20d18b518b884b4a84dda79021ec03b7be8ac3a6511216a3600060f7e02f9d68",
+        "size": 183
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/MacOS/resonanceaudio"
+    },
+    {
+      "guid": "5ff1efee5fe0cee4d969f44cbce4294f",
+      "asset.meta": {
+        "sha256": "d92fa055a50054c483168d354335f2f1d510490792b85ba709c6f35b2d1dd64c",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/_CodeSignature"
+    },
+    {
+      "guid": "e84a173ce5cfbbe4b8d3cf667e97df31",
+      "asset": {
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+        "size": 2200
+      },
+      "asset.meta": {
+        "sha256": "4512f6429dc0bb2a38976deec4d32bde99afbd0f56ab076d597c3ffa22b68518",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/_CodeSignature/CodeResources"
+    },
+    {
+      "guid": "29af24c23c3906b44bbaeaa0c832f235",
+      "asset.meta": {
+        "sha256": "b97094cc31667274d026f3cecddd8a509adbeae05c9be863f77d456bddb596a9",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/src"
+    },
+    {
+      "guid": "d92d0baf34dae0e4ea032a42bd6107c0",
+      "asset": {
+        "sha256": "690c93a5fca6228ff452ed2f5d7de347d77d77b617ddfae833de9bf2377f6bf5",
+        "size": 3297
+      },
+      "asset.meta": {
+        "sha256": "e757f857b6699145d00bdbb8d348d6b44ac2932624f511201cc658e0e159f3ac",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/mac/src/PlatformMac.cs"
+    },
+    {
+      "guid": "b878fb13ea2d16a40b79b4400b5149ba",
+      "asset.meta": {
+        "sha256": "303f295bee93019efb5f87cf08b5a3dee480b31306fb9dea4c8e558ac6161b9a",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos"
+    },
+    {
+      "guid": "3ba8f748d2f09ff46a33e76a54eb551f",
+      "asset.meta": {
+        "sha256": "e94a568c6d696d555bf72dbb193cc42957acf32ed184df68af0dc066b5e8c2f0",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/lib"
+    },
+    {
+      "guid": "4abc247d0f34143ec95396c7b6bec6a8",
+      "asset": {
+        "sha256": "48593f40fac0abcafd1b41850eb5d0abc7fb188839174550774768cc82a130bb",
+        "size": 7142272
+      },
+      "asset.meta": {
+        "sha256": "c23a4189ee08d38bd8dc13a964502bcf1599cd254b471c52e25602b34703a8ef",
+        "size": 370
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a"
+    },
+    {
+      "guid": "982978af662f9ea43b7979c7f61bbad3",
+      "asset": {
+        "sha256": "b7b2eb29d0558cba76a8d18970489bfb4bb4b983ddc13bc8ed2f14a00a21c442",
+        "size": 11790072
+      },
+      "asset.meta": {
+        "sha256": "fbe89982e7f669ed700633faa42ce52ea43e20d6b9316454dd6ae25a0647a529",
+        "size": 413
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a"
+    },
+    {
+      "guid": "86d28a38815714041bf19dc4cc59ce65",
+      "asset": {
+        "sha256": "e048dfe8649ef0e1271f30c232ed86deb0c154de0de83931f0e8231ed1525c30",
+        "size": 8408720
+      },
+      "asset.meta": {
+        "sha256": "a384644d645512c62168f4648ba605468d74211934bb7aeea8a2cacf8610f373",
+        "size": 2210
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a"
+    },
+    {
+      "guid": "649598f6abf894e128aa33102756da99",
+      "asset": {
+        "sha256": "747ce4bfad4c8e967784e38c3a12c2d3c7b3510cb316f83cab636d4119a7b381",
+        "size": 12360816
+      },
+      "asset.meta": {
+        "sha256": "68150bc96309cd9aa33b5644728acabd7cf6396393d3aafac77aa2c50dac9276",
+        "size": 2210
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a"
+    },
+    {
+      "guid": "a36cddbc75870b64e98ebaac7424553e",
+      "asset.meta": {
+        "sha256": "0c8c43f890533559e734e70205a5d1cbd06641ea39949064bcd5fe6102696ceb",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/src"
+    },
+    {
+      "guid": "17eea195bdfbf014e91ba7620ee491f8",
+      "asset": {
+        "sha256": "38f2ce9c538b219ad577336df43e02acf27ec8b19012705e81f378e1c98488dd",
+        "size": 2791
+      },
+      "asset.meta": {
+        "sha256": "750041bf21a9e3fe5c433f03c1db9ca8a551d2a38236b9162d8e10d551e0a9bb",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/tvos/src/PlatformAppleTV.cs"
+    },
+    {
+      "guid": "76cc08b21e1f3d04e9cc8fdf3cef9eda",
+      "asset.meta": {
+        "sha256": "ef7f932d6f9c15c975581d1b5695e2aff099b7fe990eca4a9610d2409cb8d0ed",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp"
+    },
+    {
+      "guid": "faacb4351a5f83845b1cea9370b4d244",
+      "asset.meta": {
+        "sha256": "3d7f8218ef39a99edd3a0a51c359d53189c13d644fafa98bfa4e1bde4fbd82b2",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib"
+    },
+    {
+      "guid": "0cddbb9418c24f44d87fc49581769340",
+      "asset.meta": {
+        "sha256": "aa2a7e18653a66c6be14c3b4c0f93fd829235b541debbddd055c8c183e4ddf3e",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/arm"
+    },
+    {
+      "guid": "907f4331811d73442b58d50627a775d4",
+      "asset": {
+        "sha256": "256c04713167c63f853ad21af279e7d58529c7a97654aa474efc0a72da06538c",
+        "size": 1102848
+      },
+      "asset.meta": {
+        "sha256": "e39aac873efb19814fd362ca29413df5ddcf4030aa7663da1f42d17fc4444f70",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll"
+    },
+    {
+      "guid": "82bacb4b0f3cc85418d2a1aa2ca57df6",
+      "asset": {
+        "sha256": "1d88cc0d44e3e21462b51a32c1ea7424921694d1072ab2b66bd13f7fa45f505b",
+        "size": 1278976
+      },
+      "asset.meta": {
+        "sha256": "437610e3ecefa8c34e014d68a7b99a53fd32d84a915c76b0621ecb524501115f",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll"
+    },
+    {
+      "guid": "a7c1eb40b6cc0b8468c161b5ba9a6df6",
+      "asset": {
+        "sha256": "37f057fa32343ddf7d4d465ddefdb2a6912266b3d82a09c6a8c5232d45d1c43a",
+        "size": 698880
+      },
+      "asset.meta": {
+        "sha256": "ec256266899874529d85ec5473e5aee3970f279647c8f6a57848b44aace79d30",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudio.dll"
+    },
+    {
+      "guid": "5476dd86ee3260f4bb2283aef1d9a883",
+      "asset": {
+        "sha256": "77f31a8ab82f3df8baf139bbddc953abbc1fe009f3a63ab655dd9d5b68232cfd",
+        "size": 1202176
+      },
+      "asset.meta": {
+        "sha256": "7d9b16c1a93b3bc5450632d551b7d559e9ce19b1b8a28a8b0315f20b3df77904",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll"
+    },
+    {
+      "guid": "81189b2e21a815647a28e3437c86beb2",
+      "asset.meta": {
+        "sha256": "f90863160c62b4be4a2ac5b0d50c964f4d66fcb57666d2e028044d03833a4902",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x64"
+    },
+    {
+      "guid": "68f9a982a926833498d438319388a455",
+      "asset": {
+        "sha256": "91d19b1b0fafd7166d6437be6b49a29b858f05980dcd6c3e14ebdcd0108444d7",
+        "size": 1604096
+      },
+      "asset.meta": {
+        "sha256": "cb01efef40992bb79a711f295e7f12011481f6a5e13a0313222bcb685bcb365f",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmod.dll"
+    },
+    {
+      "guid": "d15f9d3e1089b114a8f625e994fea839",
+      "asset": {
+        "sha256": "4152a7dadd0f33b9e1a52f3654cbe1aa486a54818c6585ba9152eb9f5ac8bb19",
+        "size": 1802240
+      },
+      "asset.meta": {
+        "sha256": "a78edfbce9b21bad334c7c6c603b0cbb9668e735f7df2ad0ab47f3bc1d7859db",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll"
+    },
+    {
+      "guid": "29800d7cce1a5fc46ae163c8a68d8346",
+      "asset": {
+        "sha256": "4af41b3c73c961f22edf9e723b07628add9d6bbb051cecc44e14c7e158b42d65",
+        "size": 1019392
+      },
+      "asset.meta": {
+        "sha256": "4f761717d245a850b9c8f983b17280318bf7eb98210cd642d77ecb7c02f16d93",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudio.dll"
+    },
+    {
+      "guid": "813ca429588de5d40b5c8a184a15bcd9",
+      "asset": {
+        "sha256": "826aaef70ce2833888d19e45d33fcb6acd3f64b719fceebb0d7e4f4adc0356b4",
+        "size": 1543168
+      },
+      "asset.meta": {
+        "sha256": "2dee8e48d9b51a4323968df8e18f0c9444ede9ad76126abbf8e71996a4f21da9",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll"
+    },
+    {
+      "guid": "fa5c1a42d40246b4a83af1e8192b6bdf",
+      "asset.meta": {
+        "sha256": "44758df77c2cf609736a84b5103b10918ca51cf8220196ac403c0b1bab6ed13c",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x86"
+    },
+    {
+      "guid": "39f9a761a2a032045a853a069db31081",
+      "asset": {
+        "sha256": "545a517e111640e368597eb6a6fa19796530707fd7af7d42be1d5f398a37e12b",
+        "size": 1353728
+      },
+      "asset.meta": {
+        "sha256": "78d0e2ee0bed889c2f7ff85e564fab882d6c6f1cfadeca9fe78efdf9111221b5",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmod.dll"
+    },
+    {
+      "guid": "243e8fba07980f74b8d49ef345dadd64",
+      "asset": {
+        "sha256": "c989439e24e5c71412a5075fee7388f00d3bae7c92f4c3efeb6876ada56deec9",
+        "size": 1531904
+      },
+      "asset.meta": {
+        "sha256": "87d1873839de76013c1ea1ce96a1253c18dd1fa728e73e7cfa5370652835a096",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodL.dll"
+    },
+    {
+      "guid": "ecb0cc0019197154b9baeef623b6ec0a",
+      "asset": {
+        "sha256": "b6ce338f851bf728a1485acc327f169ad37674d102c7c62d5c0192777fa2da10",
+        "size": 805888
+      },
+      "asset.meta": {
+        "sha256": "2e060004ca1605e137373c14fe9a8accaa568be84bc6aad100a1bb0057852848",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll"
+    },
+    {
+      "guid": "43ab9a198caf2d841b813eb81e02486d",
+      "asset": {
+        "sha256": "dfcf81c13eb9baa1af49982161e6e65d427e77c358d3733a591c8e4c1becc732",
+        "size": 1260544
+      },
+      "asset.meta": {
+        "sha256": "7211d9d1a0b976278c691d911c050d79539c2ba932c719ad48e74bab5a9bb574",
+        "size": 1132
+      },
+      "path": "Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll"
+    },
+    {
+      "guid": "c66754bc90bcdd74dbacaa9bc9adf48b",
+      "asset.meta": {
+        "sha256": "8c52801eba57430eef3d70b199089509f457a13b623e82464c724b0d8f696f5f",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win"
+    },
+    {
+      "guid": "4ad89dfcd36045640a8e902f16b09363",
+      "asset.meta": {
+        "sha256": "31acef0075aa2e15ecf311a10ccd334b0d30ab2f13821f61f8196028940e9d8c",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib"
+    },
+    {
+      "guid": "03f590b69e4afe14fa1c73f89a98a203",
+      "asset.meta": {
+        "sha256": "2b4d388ecdfbdc5183cfd6c50362f2f234ba0e6af8867368a5931ff4d5c45487",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib/x86"
+    },
+    {
+      "guid": "1550e5c882b8c2445a1f14f8b1b23d41",
+      "asset": {
+        "sha256": "c4f33ff0a4db473bc2dd87f31b23e197d4749e301a0c78114882245e8aadcfa9",
+        "size": 2544640
+      },
+      "asset.meta": {
+        "sha256": "1ffcf1f0e19b92dca43d98d22a4d7ed9bf86c3b07b82809be9d8aa8a649890a2",
+        "size": 1498
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudio.dll"
+    },
+    {
+      "guid": "b2c11f1e03736f748bd861d7bf4f8952",
+      "asset": {
+        "sha256": "f6588e24d03237ee37e90cbcf8a8311daef3151b4db02d82ed9596ef4b11a84b",
+        "size": 694784
+      },
+      "asset.meta": {
+        "sha256": "cb5301186367541b5fdd9c7f1f856c209514e27e526812bca3a7ef9e47a1d0a7",
+        "size": 1035
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib/x86/resonanceaudio.dll"
+    },
+    {
+      "guid": "8105cca2fc4eb2e488e010278c3ea1bf",
+      "asset.meta": {
+        "sha256": "1c108bcb6639df8735c2b66aff28420b5d9b1636e08e84950c22dde39231ae71",
+        "size": 201
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib/x86_64"
+    },
+    {
+      "guid": "684d4d47a018ed14080e15f4c99b8e86",
+      "asset": {
+        "sha256": "44f7f502b39b9c6219e2d0c3d787f752bfa944b95647f55752a04f6cfece875d",
+        "size": 3161600
+      },
+      "asset.meta": {
+        "sha256": "a0e2a0cd944dce4b9a3ad389cdf45bc666c2dcfd0d21c0e3d78c025f56ba6c17",
+        "size": 1504
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll"
+    },
+    {
+      "guid": "4c8fb9b92ea2eae4f9112a3941c4f128",
+      "asset": {
+        "sha256": "e1667e5336ae067ab1d9aa04e7bcca9789ff5573ed4c7f6fa9305404d0485f99",
+        "size": 816640
+      },
+      "asset.meta": {
+        "sha256": "16f70b546ad6f8e5433d7610a80c901d783eace46b1be57c9f405b0ee9585a28",
+        "size": 934
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll"
+    },
+    {
+      "guid": "e3438d4d60981a7489133b13b11958ec",
+      "asset.meta": {
+        "sha256": "9e18f8f38db9e5bceba5f87c2494c9937ccdeb3277e31923ccee318d01bcbf39",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/src"
+    },
+    {
+      "guid": "9660e62d6232af242877f0cc2b90c63d",
+      "asset": {
+        "sha256": "49ffa05d33837c8561bac95ddd289ccb4c7c9fff0525e0ac9dd166c5706d042f",
+        "size": 6111
+      },
+      "asset.meta": {
+        "sha256": "9a7eeeb33b82d9ef2725a8d10835f4b5c8493d3241bd236f139d3bc13f57d05a",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/platforms/win/src/PlatformWindows.cs"
+    },
+    {
+      "guid": "2994e348941404549b266423c2ac329f",
+      "asset.meta": {
+        "sha256": "0cb39d02793b57ba59a5696a4c5374c9f4031a3d055b8a09dfb34eaea5a1ee3d",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/src"
+    },
+    {
+      "guid": "9c13d4e62f5f7b44bb33162cbf29a9f8",
+      "asset": {
+        "sha256": "98861c293c98396733eb0fa84ce4a41c1ba7eae15a2814abba199942d00f7977",
+        "size": 2573
+      },
+      "asset.meta": {
+        "sha256": "19ced7778f3d33c33f6e18b5db672bcb50ef257c70c8a610d2212b76759005b8",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/AutomatableSlots.cs"
+    },
+    {
+      "guid": "a8ab5f38e7776644297d8b3687c39b49",
+      "asset": {
+        "sha256": "303391d98e02b2a05698235b0dec25d0b13bda462d49ac901dc8e9c74776beb1",
+        "size": 121
+      },
+      "asset.meta": {
+        "sha256": "e2163672f8b13ed23e1190b80cdad4e6c57a0f5a1f78270d506cdd8afbc97371",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/BankRefAttribute.cs"
+    },
+    {
+      "guid": "bdb2bdc82b47a634b803bb658c6e312b",
+      "asset.meta": {
+        "sha256": "7020b4eb4a2365fd7b41457e5538d9837b93083ae4df9a76a0420c92783bef04",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor"
+    },
+    {
+      "guid": "49ebe6fea5e4bfc4bb492bba062b2afe",
+      "asset": {
+        "sha256": "53c30d25df7d079b02b7d583227f0582012c1f2095c439644193e91e023505f0",
+        "size": 2843
+      },
+      "asset.meta": {
+        "sha256": "9527a7d3a91a32a4ae73e367ad3bd61883a50e5eeff5e285b51c03dcd102f0af",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs"
+    },
+    {
+      "guid": "40a1ca322d08d704eacd449863718b31",
+      "asset": {
+        "sha256": "fa383ddb0d94d1d8f167c29da079f2ecb15b0727b7389f8aecb2086a3564c163",
+        "size": 7755
+      },
+      "asset.meta": {
+        "sha256": "6c808dc55c69572a667ac9e0210b196ae24d3627d3b1d79b2ba9b9c2a78876e4",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs"
+    },
+    {
+      "guid": "e564c074e96205b49b91ff80126983c5",
+      "asset": {
+        "sha256": "12ded88590433d6695fcbca9bfbff9bb95cd6fe7d3e9670db31bcc3d90c5eea8",
+        "size": 5261
+      },
+      "asset.meta": {
+        "sha256": "17b3cf5c223c19e089bc18c9f8a4baf3128dd02034a53a6e90ec342501e4275f",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/BankRefresher.cs"
+    },
+    {
+      "guid": "f876942dd549ef444a82ab923e75ccb1",
+      "asset": {
+        "sha256": "ff1dfc0afd4cf6fed6071c9c4338834b6c5491370e21a8562425cbbb8be8e303",
+        "size": 4931
+      },
+      "asset.meta": {
+        "sha256": "1ed6c43de0d57dfe0deb9173a2ab972d81011f9f7d78b08898ef39728f6537a5",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/BoltIntegration.cs"
+    },
+    {
+      "guid": "438155f6a2d689e45b5cc7701d412b80",
+      "asset": {
+        "sha256": "9ae7e1007940c246e4f4c1a42b3be60a2b20a3afe9810335b8e796446abc3cca",
+        "size": 4862
+      },
+      "asset.meta": {
+        "sha256": "b2e9ffbbcc866961001b14a854d2837fbc54d4ef66e7e75312cec75e2fe3d8e2",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs"
+    },
+    {
+      "guid": "9c9773a32ed4a2b429fd42645175c32b",
+      "asset": {
+        "sha256": "55b564dce622e89b821941e19bbc7319585803f5f645a0c809727e4326720f0d",
+        "size": 14964
+      },
+      "asset.meta": {
+        "sha256": "6542af5f6b104d0ec7a05d33257e36dbc00d0546fd47a439a9c7992499660c4f",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs"
+    },
+    {
+      "guid": "c18180ecb35941f4682ae60107b85b7c",
+      "asset": {
+        "sha256": "b7b7dad34a5c8801c11382630378245111d30ba417347061e64fec348909c683",
+        "size": 2173
+      },
+      "asset.meta": {
+        "sha256": "d607aacd8a5eccfab1bda3c8724d14e6b5394f4f03b82325c326c9a0d21d09de",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs"
+    },
+    {
+      "guid": "ceb653cd98e289a4e8697a1af55201f2",
+      "asset": {
+        "sha256": "e32fef4d89d8b668ab1cb02259c2c4f83cfebbd089a2dda9d8736d84fd012378",
+        "size": 1171
+      },
+      "asset.meta": {
+        "sha256": "f65e09af08bd314f64f675a65059041069c66bd534320a00ad3b01123d212027",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs"
+    },
+    {
+      "guid": "fecb8ef7f94ca804a8ab72049b86782e",
+      "asset": {
+        "sha256": "ee836be46f5b9779cfe07193d97034451a4d964cc6938fba688554e7c948377f",
+        "size": 1751
+      },
+      "asset.meta": {
+        "sha256": "76fad8cd020815a8733e64c71f720267faa8bec20b8ffe90739aa011866f20e0",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs"
+    },
+    {
+      "guid": "3c9e3e2137498d343a2e31906a12dec2",
+      "asset": {
+        "sha256": "8d663a4ca709061905b747e27ddf9f3140efc70e72dbab060b4604c2ce86999a",
+        "size": 28475
+      },
+      "asset.meta": {
+        "sha256": "ce5a7fcc6bf0e1970f3e65ceca56b94c437c32299217ce5e02cf51882b0a0133",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EditorSettings.cs"
+    },
+    {
+      "guid": "2bb4068641d1f71478f95a9b73533f51",
+      "asset": {
+        "sha256": "f4ae3b6469ff5ac3ae172af3722397a56a989bc2789f68825df15811c2378737",
+        "size": 70567
+      },
+      "asset.meta": {
+        "sha256": "4f122fdf8ed753ed2c76486ef4eefb2f2edf7a744f5206f1b89c62e6c889bb5f",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EditorUtils.cs"
+    },
+    {
+      "guid": "5332ad2baabb58844975479e906001c8",
+      "asset": {
+        "sha256": "9485bbc4f74a7066f6e7e5ef9b5f88f595b7ffc724f0d7ea032d650832ab64da",
+        "size": 66738
+      },
+      "asset.meta": {
+        "sha256": "30113ca97294aab4222dce8a235fcbd486b5d9ff8e697437dd89ff5b0962d0e2",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EventBrowser.cs"
+    },
+    {
+      "guid": "d32cf7c32a3ed8347bac48ef5ed56d82",
+      "asset": {
+        "sha256": "308d75359a4f5ace37d67b3a6ad28253995fb98c61cadb7363b71e7f7fdba55f",
+        "size": 1186
+      },
+      "asset.meta": {
+        "sha256": "83cec8718fa17fc7040afabb5365cc0aa97113eafa55e7891466bf8fbcc12bd0",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EventCache.cs"
+    },
+    {
+      "guid": "1fc38201a5edb994c874a4a61e96053b",
+      "asset": {
+        "sha256": "f53dd15620e62582dd0194fb4cbf5654b65d492ec6952a9655e8fa4c0374a510",
+        "size": 54776
+      },
+      "asset.meta": {
+        "sha256": "a95bf46a10953476d5ea0278cfcce9d75b3af14b2d99333c359e8e192ea26f1a",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EventManager.cs"
+    },
+    {
+      "guid": "29a86a77bf7568e499243d9b47b7e88e",
+      "asset": {
+        "sha256": "8f4c9584be18cdbf625a3aa645ce90d4b552649454fa689620bbc48631d1bb81",
+        "size": 21765
+      },
+      "asset.meta": {
+        "sha256": "8d2767fa0913bb069b10c6924b1f3a246a69860050b093f3879b36348d7634d0",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs"
+    },
+    {
+      "guid": "0b58df65bd3bb6649801b24a7a942ccb",
+      "asset": {
+        "sha256": "2717b1b188cdf7b5a7809abc094ea5ec1859b40624de5a3abc1e08e4d25e4cda",
+        "size": 90403
+      },
+      "asset.meta": {
+        "sha256": "3513e3c63956080ab08aabaafe506c5324e72d65b9470fbbcbb6695faeadd651",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs"
+    },
+    {
+      "guid": "fa325be8441506c4bb1462c8333ccce9",
+      "asset": {
+        "sha256": "82d46044499e0b76a2ca6d2253c9f8fccb8cdbba6a18a2c4c01506753c2daf14",
+        "size": 17531
+      },
+      "asset.meta": {
+        "sha256": "0125c7e7d52ea7434f61da210f6a84a6d0af5c39312520fb3fcd9e3d418d0dce",
+        "size": 298
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs"
+    },
+    {
+      "guid": "31e1c5e7d70e58f45ae86764f7c3ec2f",
+      "asset": {
+        "sha256": "d5d9223cb83dcaec9e261535d5c3d5c551c06dd5989837f178f2d9f6dd6b7e98",
+        "size": 1208
+      },
+      "asset.meta": {
+        "sha256": "98a9507a5b18e00da3306879a02336fb5e98062e9d56e7a11cddd6cbc9731d71",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs"
+    },
+    {
+      "guid": "aab3caaf43456d6449a3e035348ff798",
+      "asset": {
+        "sha256": "47edfe4188983a4dd6193b87c7bfe3b85c365dabccb88884b05b60e3973a917a",
+        "size": 1098
+      },
+      "asset.meta": {
+        "sha256": "a7d35425725dcdce13f353b0c7075b1f152ca1dc068661d294dae1663ae43545",
+        "size": 173
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/FMODUnityEditor.asmdef"
+    },
+    {
+      "guid": "3349615af02d64e4e8d1026e228c4a25",
+      "asset": {
+        "sha256": "d090b38bfbae18d18e1f9a2c5b7be6373811bca4078688050b1adbba75bf123e",
+        "size": 48154
+      },
+      "asset.meta": {
+        "sha256": "91f05b6896ae1a394cff294636b5cb47f8bed5645b15159ca441ea3bbf580de7",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs"
+    },
+    {
+      "guid": "a3d0ed60438564241a4e62b152836893",
+      "asset": {
+        "sha256": "d7b94cf85375b34dd747e8cb23b52220f70460a984984b192def9f900a2a5dee",
+        "size": 6558
+      },
+      "asset.meta": {
+        "sha256": "60d3745882479a32a5778941a9529db2429497f9acf8d7b1094ef76fe6f5222e",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs"
+    },
+    {
+      "guid": "1573bef36bd46e34f8f2b4dad628a461",
+      "asset": {
+        "sha256": "625c3cc6452441ba79ea2ff99d2e1ec8feebc55b5a66de6531903ae7d9c6d0a2",
+        "size": 1377
+      },
+      "asset.meta": {
+        "sha256": "ae00cb74bff8de17c263d62a5432eb425c11e5bb0dc2ac07ee767bdba39bad3b",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/ListView.cs"
+    },
+    {
+      "guid": "ea88808aa26cd614db1c5c1dcbb14d4e",
+      "asset": {
+        "sha256": "e9a8e7ad08f9e61a2c195503b0b9e71a01b77fb622f5d026e48a3b2281a6dddf",
+        "size": 3465
+      },
+      "asset.meta": {
+        "sha256": "440ae6f1faf653c2b9b55cb6490ed4092f776b28524e61e32f9c14f1ff83bbed",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs"
+    },
+    {
+      "guid": "353a9c870c318f74fa5fdcd475129bae",
+      "asset": {
+        "sha256": "1cb663fda70536a9c4ff9e3a1023cac4fa3edf7cfc072b5a48f000b21afe2feb",
+        "size": 103787
+      },
+      "asset.meta": {
+        "sha256": "a177e96403f99ce6e3914c88d85ad4ab91affaadce5b5e8f9b499e08d2adc1ef",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs"
+    },
+    {
+      "guid": "aa9a0c70fef01fb43b8eff668bfa0e9c",
+      "asset": {
+        "sha256": "62533b01a93286dddd14df7bdc0a274a795dea261a271cecb7a188fd39180125",
+        "size": 44437
+      },
+      "asset.meta": {
+        "sha256": "11ad8f934417ca578b7b13d1f3e1bd18e10e7c20930a599fa994b3454e59378b",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/SetupWizard.cs"
+    },
+    {
+      "guid": "f7f61e03a350e1e428dba6c562f3d64a",
+      "asset": {
+        "sha256": "47a6b8388e3bf02c0467ae08a6f1a7edad2db0a97757fb411287a7eee8765553",
+        "size": 4169
+      },
+      "asset.meta": {
+        "sha256": "f2a960bc480da9a425a87dc534581dc3e84370db3cdf1a0e7b3779436ce9a300",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/StudioBankLoaderEditor.cs"
+    },
+    {
+      "guid": "2b044fd4ebf2c42468e1f41d5e2b879c",
+      "asset": {
+        "sha256": "93de519292bb786a0b1cea56a7a62f4f005564aff4d64dd2a557f91496c87251",
+        "size": 23464
+      },
+      "asset.meta": {
+        "sha256": "51c5617b0ca59cda69a50a16ed5b5c09c1a4ada221835db1465823305ea72004",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs"
+    },
+    {
+      "guid": "f09ba26caab55e048a2e596ff75b3eab",
+      "asset": {
+        "sha256": "18592586c2f7ba2b7f69904b57f138e4ba63e5a0b95222ad0e8e74bfe12723e5",
+        "size": 471
+      },
+      "asset.meta": {
+        "sha256": "bef43736ebe7d24eeab030314bf5746fe25c378197d29e85c5468be8846d171c",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs"
+    },
+    {
+      "guid": "0a901681b5558f247b4c227fb425c010",
+      "asset": {
+        "sha256": "8b22c8b72ebeb48aff490cf9f22266bf2541436e7365b7e318a9f5cbfa0fa4bc",
+        "size": 2920
+      },
+      "asset.meta": {
+        "sha256": "650069efc6429eeb60a86edea3f432e13529c1700ea4b2b77b9abec9694bd991",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs"
+    },
+    {
+      "guid": "847f8505c25f5cf42adba68a26f2cda6",
+      "asset": {
+        "sha256": "65090aa6cd322dcf437281453063c1fe33f2627afb67f2531aa547399e70165e",
+        "size": 920
+      },
+      "asset.meta": {
+        "sha256": "fd0b96cdf983ec0a8bc6db5af5c612caf758ade37c34b3d6bf3ae7e04fcd27ee",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs"
+    },
+    {
+      "guid": "dc94d213814ef1a42b0ca8ee00dd4728",
+      "asset": {
+        "sha256": "9709e2a2f94e62ff34a431dac003ad580405f075ff18c7ccb0b9950b2dfaea2e",
+        "size": 6963
+      },
+      "asset.meta": {
+        "sha256": "41f5b526c808ac3cf3d598069625c1e7a9d01a3f668d925a1c36801eea934418",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs"
+    },
+    {
+      "guid": "a28d1e1a42561ed4f8d44293dab99079",
+      "asset": {
+        "sha256": "7814aa1ecf7db8f89fc4e263c59ff92c8a6d028d39a16d43c063167822d1da6e",
+        "size": 3752
+      },
+      "asset.meta": {
+        "sha256": "75fed9be2d28a02aef137431ca6d04bbe0e797a2341393a5e4b6a4e6709526d0",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/EventHandler.cs"
+    },
+    {
+      "guid": "1b29a1189268c3b47aa2ec4b96a9e7ef",
+      "asset": {
+        "sha256": "4c8fb869500714fa198bc5887762369cb112c2de8b138bee89ed925790ad8cf6",
+        "size": 235
+      },
+      "asset.meta": {
+        "sha256": "bd1ce98cd29c09ddd767cbb71c070418021af5d1789000b7e8d53a9d8f1177e6",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/EventRefAttribute.cs"
+    },
+    {
+      "guid": "1b1e4da3fb15e7a45a8f104b7d0fd6d9",
+      "asset": {
+        "sha256": "638f1cb8bca32070be13be1a7ca6dd3edb03f1062c62d0519b58d238052b22c3",
+        "size": 1194
+      },
+      "asset.meta": {
+        "sha256": "c19368a8be4b60025f2051cfa9435c2dd98db39a9002297143e3a9dfd05682b7",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/EventReference.cs"
+    },
+    {
+      "guid": "987a467495df9d942b56b1b51381d095",
+      "asset": {
+        "sha256": "1dd3f01db4b5af04b50eda6c4e0d5b198656d1ed85a011de117f90a10814c4c6",
+        "size": 11571
+      },
+      "asset.meta": {
+        "sha256": "82ef64f06e5b008b15575c9fde7d513678832d87b34d7d08af7b329c8834a1c9",
+        "size": 349
+      },
+      "path": "Assets/Plugins/FMOD/src/FMODEventPlayable.cs"
+    },
+    {
+      "guid": "133253f56854570409c222a87786b263",
+      "asset": {
+        "sha256": "719e3634fdf59841c70026f54cc65ef9f820630c22e7d2ca62615c31e29653b0",
+        "size": 2438
+      },
+      "asset.meta": {
+        "sha256": "c1cb9f4ecf1394c951bba29b8a4f66bd0dfaf23818b223bc4851690845c5de2b",
+        "size": 349
+      },
+      "path": "Assets/Plugins/FMOD/src/FMODEventTrack.cs"
+    },
+    {
+      "guid": "4417faacebce0de4fbde25ec23055cf4",
+      "asset": {
+        "sha256": "3928ae2a40cbe856248a6afd74f79f5d7b2f68f08b84509a2c1dc6c1e02332ac",
+        "size": 429
+      },
+      "asset.meta": {
+        "sha256": "f8281c916d99538b96e2e2ede80775255da49e192329d3812db09f2422990520",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/FMODRuntimeManagerOnGUIHelper.cs"
+    },
+    {
+      "guid": "00e1a9817a5d9844796d7c313b1ab197",
+      "asset": {
+        "sha256": "265bee103937ef6fa8e0c144ee5017b932a06fd86b1f381189e4e70d6d6ee51f",
+        "size": 211
+      },
+      "asset.meta": {
+        "sha256": "3316ad6893a6f0fdbd6d10755e101833d8237409ffbb27a10cfe854ff836445c",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/ParamRef.cs"
+    },
+    {
+      "guid": "7ae6224668d1647429723f89e10d593f",
+      "asset": {
+        "sha256": "50cbe7f760014171d6341b53d63151d5e25af4f2bb021151e106ea2506207ff6",
+        "size": 122
+      },
+      "asset.meta": {
+        "sha256": "136b0af5efa78d7635b65a5f45791f7efdcceeed3a6c810389fd79cb40228308",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/ParamRefAttribute.cs"
+    },
+    {
+      "guid": "e7df340ba8041134888b271ea2124fcd",
+      "asset": {
+        "sha256": "41fdd02b44da1fa9410cdf22eebbde8d9b4b30b84de36cc64feb5545b7ca7564",
+        "size": 37901
+      },
+      "asset.meta": {
+        "sha256": "ff0abb965346d72c8bedf7bc783bf8579df05a90867a9980b5f03a93e8175cc1",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/Platform.cs"
+    },
+    {
+      "guid": "9587379c972e4a54da1949613f11e1c6",
+      "asset": {
+        "sha256": "c440b4cbb99aaeaa15dcf45602c20eaf7b85838617edbbc6b8f63c02b32cafb8",
+        "size": 1891
+      },
+      "asset.meta": {
+        "sha256": "e41c03439ad4dbf7ed02c6bcaabb6480f4ae438a370350590d223b0844e4f44b",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/PlatformDefault.cs"
+    },
+    {
+      "guid": "6d049eb0281db9c4abd635ba1c79cb7b",
+      "asset": {
+        "sha256": "7d0a6e0a88fbbeb21f306a0b830c17b4b543bd255c8a5ee48384d3cfa2c69ef1",
+        "size": 1561
+      },
+      "asset.meta": {
+        "sha256": "35833c62333eab536cb8479b85b65896f97a14938b547c8275acf5fa9771c115",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/PlatformGroup.cs"
+    },
+    {
+      "guid": "93a382382f106584e8f8f62412fee177",
+      "asset": {
+        "sha256": "8ab14a2889b73f5e009c2401ebda9f5dd88c8b2bb4f40245b0633a207171aef4",
+        "size": 3109
+      },
+      "asset.meta": {
+        "sha256": "88b285ff9d00cc7d5f0968b3fb55058ac26c56f2499ca1e8703d0f6069841b7b",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/PlatformMobileHigh.cs"
+    },
+    {
+      "guid": "3abeb1429547a134480f4f2f1efc7e21",
+      "asset": {
+        "sha256": "853be3e971e60c270f977718f5045378c0cc123ccc4b7a5189e709663886ddc5",
+        "size": 2578
+      },
+      "asset.meta": {
+        "sha256": "608c63dc49a9c5303f11cbf2ca7595dbc25b5e7f81d5b2d49d9eeffb4fdb17e3",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/PlatformMobileLow.cs"
+    },
+    {
+      "guid": "335f0a4b26fb46942858ea029e030d2a",
+      "asset": {
+        "sha256": "1dabd817c8bae78f38199d21e03c8b6c13b053966f9c3ac821d91d1865a734ee",
+        "size": 4732
+      },
+      "asset.meta": {
+        "sha256": "5e7bcc7548db6e7777d65ed44baa6754d252a4fc765ab0af216980777d5314d9",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs"
+    },
+    {
+      "guid": "5e5fb8ce07f0ce84b9d1852869527ea5",
+      "asset": {
+        "sha256": "49a5194febdfd8306d8f0b7846145f26e8e0845b501c6214a360fa868ec75d5b",
+        "size": 55040
+      },
+      "asset.meta": {
+        "sha256": "8b89935070a245b7b21d94719c1e9164911d645bd3306aa93d4a7f46338b9cb7",
+        "size": 277
+      },
+      "path": "Assets/Plugins/FMOD/src/RuntimeManager.cs"
+    },
+    {
+      "guid": "6e349601408e423499e7b9f75216091d",
+      "asset": {
+        "sha256": "9f369a7be9b34c1abf3fd089b2b1e71f407b5cb1e3fe953638a483327aac100a",
+        "size": 19279
+      },
+      "asset.meta": {
+        "sha256": "2bcf04fa082e56be07659bcaac11fd3e0a254f487c88544fb016056983d7a09c",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/RuntimeUtils.cs"
+    },
+    {
+      "guid": "eef8d824ea7b63742966aaa0e94ac383",
+      "asset": {
+        "sha256": "13abd715e93af67704079408a017e4eb8fd8db0ae00504165b7f3b07af6a03e4",
+        "size": 32849
+      },
+      "asset.meta": {
+        "sha256": "6d726177100c9429f68ef2b19951cfdbc3553aa0f9dc4c213ad2f0cbb407f1a6",
+        "size": 278
+      },
+      "path": "Assets/Plugins/FMOD/src/Settings.cs"
+    },
+    {
+      "guid": "b9468c5f457ace64f8d4df6d642b107f",
+      "asset": {
+        "sha256": "8a2e435d10b26a4e1b0a6e2eb9483ec6d3a1a87a51b4e8e3aa81aed6f9527905",
+        "size": 3169
+      },
+      "asset.meta": {
+        "sha256": "bed4d22a4e686fed4998f88e6560f871625069f9252c6b466b941f29b0cee868",
+        "size": 278
+      },
+      "path": "Assets/Plugins/FMOD/src/StudioBankLoader.cs"
+    },
+    {
+      "guid": "9a6610d2e704f1648819acc8d7460285",
+      "asset": {
+        "sha256": "615c95c6f449934ea567cbd9668acca5b03de2f5ba48a4c0bde9f8c066b63a05",
+        "size": 12280
+      },
+      "asset.meta": {
+        "sha256": "a980b03efc8e620033a923983297c79fd2d32340f14eb686814088046984a8c7",
+        "size": 278
+      },
+      "path": "Assets/Plugins/FMOD/src/StudioEventEmitter.cs"
+    },
+    {
+      "guid": "9b0e04e2572f9a940a47465f6f3c2f00",
+      "asset": {
+        "sha256": "4732bfca033f1e4c0b0be9fb6c17df353e4a84b67cb386a623e110273eba8684",
+        "size": 2119
+      },
+      "asset.meta": {
+        "sha256": "190ae061f839699b76b0a1e95a5d656a1ff855fa38a58887f37a1c9f26d3c205",
+        "size": 254
+      },
+      "path": "Assets/Plugins/FMOD/src/StudioGlobalParameterTrigger.cs"
+    },
+    {
+      "guid": "86c6556701af9e04380698b89f691b6e",
+      "asset": {
+        "sha256": "1d7c773fb9531bb01f50a0c8e859d72673665a63574cf272ae6517abbe18b072",
+        "size": 3914
+      },
+      "asset.meta": {
+        "sha256": "3119b0bd6b4e8f49a4c16c1034d40933854997f4fb00e131ab54c33cc533e126",
+        "size": 276
+      },
+      "path": "Assets/Plugins/FMOD/src/StudioListener.cs"
+    },
+    {
+      "guid": "744a208c85da6d04c861d81b992e4ead",
+      "asset": {
+        "sha256": "36ff3bb88fe3c74a7e28f144f4fcc15932623fea7f2cc642c5be6c5b922f6e78",
+        "size": 2138
+      },
+      "asset.meta": {
+        "sha256": "280bc689ddb5c49f7e31310bc44fdea0f87ef2b4a0f9af8175f600d1fa151f2e",
+        "size": 275
+      },
+      "path": "Assets/Plugins/FMOD/src/StudioParameterTrigger.cs"
+    },
+    {
+      "guid": "bd0d0c955caff8940ac1667ee36dd4c9",
+      "asset": {
+        "sha256": "be6ff60508ddef995e803d268af716245017771f97888e357848688bb9bfe4e4",
+        "size": 196291
+      },
+      "asset.meta": {
+        "sha256": "c6e182cfe2439a38a7eaf812e6bedeaae0e513ccd11e26aa3f235d8736e330c6",
+        "size": 231
+      },
+      "path": "Assets/Plugins/FMOD/src/fmod.cs"
+    },
+    {
+      "guid": "b7b10c26cf550794183b926ffae615a7",
+      "asset": {
+        "sha256": "c32c938cdd9a199c948a82ef56fd588afbcf42d52fed4014732aa4f7dc9abbe5",
+        "size": 26687
+      },
+      "asset.meta": {
+        "sha256": "3a7bae48782d7d28fea3956a4b8652060bea5d6ca0c248f279946ddddbb1bdde",
+        "size": 231
+      },
+      "path": "Assets/Plugins/FMOD/src/fmod_dsp.cs"
+    },
+    {
+      "guid": "6e0992509b0077e479d2da05c8f52eb0",
+      "asset": {
+        "sha256": "68a5eb481e936eb5fb88aa2c9123cc31890052c0e96a8fa4af56630942db2df7",
+        "size": 13622
+      },
+      "asset.meta": {
+        "sha256": "6a07c0196ea0530c32e96d4c422a8d3a0d026074ec5c066dcc92ff37b98eae92",
+        "size": 231
+      },
+      "path": "Assets/Plugins/FMOD/src/fmod_errors.cs"
+    },
+    {
+      "guid": "ae7eb0b6a2bff364b9c1fae52173e74c",
+      "asset": {
+        "sha256": "a6e4d707e87b2edd5be02192a6e63e0d9d6afac4f7737a596f9cabaa25ffeb96",
+        "size": 103976
+      },
+      "asset.meta": {
+        "sha256": "834b77c27f79e46262abea4c14584c9005e49a616694c72b03cbf896b9993c38",
+        "size": 231
+      },
+      "path": "Assets/Plugins/FMOD/src/fmod_studio.cs"
+    },
+    {
+      "guid": "e2f4c39daee258d4788426534396f26a",
+      "asset.meta": {
+        "sha256": "76a438237dde526300bc54d5d36b6c133cfe7215513a0121276ac6184046503c",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging"
+    },
+    {
+      "guid": "346eba0c865a0d14182346d089f5ba6b",
+      "asset.meta": {
+        "sha256": "4441a93acb67856af596900e35af8892142257e54bd88befb1823ba0b08826a2",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/linux"
+    },
+    {
+      "guid": "15c75dcf3c1667d4bb467ae7ba7762e3",
+      "asset.meta": {
+        "sha256": "3360b7b27cd260dcc7679aab51abe44f77d291f6b10c3a223c05849e503fe391",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/linux/lib"
+    },
+    {
+      "guid": "ff93396378eee5b469ab54b8b67bb7be",
+      "asset.meta": {
+        "sha256": "bf5318fb8794573638d15e45ef2e3a2993fc26e22839b855503d2dd25f1022fb",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/linux/lib/x86_64"
+    },
+    {
+      "guid": "0fea1097d88bf9e438d935677e0de1dd",
+      "asset": {
+        "sha256": "60bb2a7de0ba1bf0f5d98115894b9e7b7ba2ac230aa9ffcaa41c2233690069a8",
+        "size": 4134600
+      },
+      "asset.meta": {
+        "sha256": "b05086632fb9ccb51b510181234acdb858b7c2b4c22e61e83fbef3e90e70f13e",
+        "size": 2404
+      },
+      "path": "Assets/Plugins/FMOD/staging/linux/lib/x86_64/libfmodstudioL.so"
+    },
+    {
+      "guid": "237790f8dd9c2754ba1b128889eb1374",
+      "asset.meta": {
+        "sha256": "c45929ec7203bfc23368a994b2b94be138e36a3653ba5f4bc0c962238e4954b6",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac"
+    },
+    {
+      "guid": "e9d37e885e0870047bbf0920bb2f64f4",
+      "asset.meta": {
+        "sha256": "234b514a9db80e992b18ec7fdfc06dcd9d5d6141a9ce37956351923147ac50f9",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib"
+    },
+    {
+      "guid": "1e77d17a05fd7b34e9306c3281200271",
+      "asset.meta": {
+        "sha256": "1ec97f47faadb671befe3b59a749d9d83b40209e39b4b5b78c29062dd45ee9a6",
+        "size": 666
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle"
+    },
+    {
+      "guid": "99d82b6758d211244a26db33da5df6ae",
+      "asset.meta": {
+        "sha256": "e178385079227ddc5b595e7a59095f07bcd3aafb3f2ce7e6b9784c8625e04139",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle/Contents"
+    },
+    {
+      "guid": "28bc99f6ddbcf4149a24dfd29409a5cc",
+      "asset": {
+        "sha256": "a54ce4787216cfac2fbd0614f78aef3218e8773c9d9872586f3b9bfa951e0c48",
+        "size": 998
+      },
+      "asset.meta": {
+        "sha256": "62c72773b6351c00fc2cf2ac6ab7bcc812fcc3e81741bef3b4db5d05e3ff33a6",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle/Contents/Info.plist"
+    },
+    {
+      "guid": "5bcb432be37dff04297a06a32bdaf5a8",
+      "asset.meta": {
+        "sha256": "fd74bb800954385e39723497ce1b2b5f41d2c43b0a0f008802930eb7be3901a2",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle/Contents/MacOS"
+    },
+    {
+      "guid": "a298d76594bb27a4b839b827b7ccc56b",
+      "asset": {
+        "sha256": "f7a0126d90dceaa9e57a6c784141d79c900ece0a1c710d8cb75a573c39b4aef6",
+        "size": 6290528
+      },
+      "asset.meta": {
+        "sha256": "7cc4b6fd51abf39b61d0adf96fd75af52e633cc8ad28f4f402cf2a938651e90f",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL"
+    },
+    {
+      "guid": "7d1a5963d0d6bca41983f249e84c6d82",
+      "asset.meta": {
+        "sha256": "b82bd77dae0c3658584a5a0f16625b9eb9a755d3e9bfb65f37ecc4fb928750e2",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle/Contents/_CodeSignature"
+    },
+    {
+      "guid": "6f4387888d43e8e459737087caf63eeb",
+      "asset": {
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+        "size": 2200
+      },
+      "asset.meta": {
+        "sha256": "dbf8832cb5c99d470b5399706ed92cc58624e99179227764ce2e5aee6b55bac3",
+        "size": 162
+      },
+      "path": "Assets/Plugins/FMOD/staging/mac/lib/fmodstudioL.bundle/Contents/_CodeSignature/CodeResources"
+    },
+    {
+      "guid": "2241d630bdbdd0e40afd954fd937cbd6",
+      "asset.meta": {
+        "sha256": "1a243c5b4f3c6de21a039b25fddb4d6394739f709800aafdea9f67b907a65aa0",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/win"
+    },
+    {
+      "guid": "2fdf6db79a3c0594b8496041ae8773ac",
+      "asset.meta": {
+        "sha256": "aba0eac233a393ea7c9bd56a61e0ae09b945c6b210808359ae4c60ea3dd9ab73",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/win/lib"
+    },
+    {
+      "guid": "17c47bd3afa8ac64085bab480a459790",
+      "asset.meta": {
+        "sha256": "a27c8acdbf980e7bed30f024f6b44c9f3084b1ca0f7b93cef7ef889f02f7ca4f",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/win/lib/x86"
+    },
+    {
+      "guid": "9b14f0b03192c8b418164dabb996a620",
+      "asset": {
+        "sha256": "313972f452eedd335ea7bb5abfa71cf3d9b31d9e97b13d68caf5b2670dbb2cb7",
+        "size": 3352576
+      },
+      "asset.meta": {
+        "sha256": "2522955f80cd28910d7db4a11a74644d289f459fca481984c9ce3f7fab0a6f37",
+        "size": 2487
+      },
+      "path": "Assets/Plugins/FMOD/staging/win/lib/x86/fmodstudioL.dll"
+    },
+    {
+      "guid": "cc93a58c07169604e9edf75d3757265b",
+      "asset.meta": {
+        "sha256": "e966245801456ee94dd100885dd515f90498db73ecde33ff8a62ba22402696c7",
+        "size": 180
+      },
+      "path": "Assets/Plugins/FMOD/staging/win/lib/x86_64"
+    },
+    {
+      "guid": "a5b20e5cddf68ce4f8061b9269db1090",
+      "asset": {
+        "sha256": "979d3d7a69c883b8aba2b0f6919ab1c94150c2bf4d9db047a1854497f80dd3f8",
+        "size": 4148736
+      },
+      "asset.meta": {
+        "sha256": "a8fa71b2eb7f3880a72a54948973ea5432457455bf45c5245c950bb6a8454dd4",
+        "size": 2487
+      },
+      "path": "Assets/Plugins/FMOD/staging/win/lib/x86_64/fmodstudioL.dll"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

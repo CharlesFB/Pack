@@ -1,0 +1,4777 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-magica-cloth-f971aa59",
+  "build_id": "0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+  "artifact": "artifact.unitypackage",
+  "sha256": "0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+  "size": 86670574,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "f31820b1e966ca049a982e2a30795d24",
+      "asset.meta": {
+        "sha256": "5a1c66788ad663eb7e574089cd088b835f7ce07a589cdec43c91f79c1fc2943d",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2\n00"
+    },
+    {
+      "guid": "b13ad20384f6dd8459a0ee155e8181f1",
+      "asset.meta": {
+        "sha256": "c1ee5f994c4d943dc8567be258109915da1671fdfec5b7d3f302eee9b2494cc5",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)\n00"
+    },
+    {
+      "guid": "791ca5043c61c164093a43f6e1134756",
+      "asset.meta": {
+        "sha256": "de3b3adf3ea589d9889cb239399fd6e20f914b4a0a913867652ac28251fb52b4",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common\n00"
+    },
+    {
+      "guid": "319509eb5d501a04f8a0d2e3a8f5b0a0",
+      "asset.meta": {
+        "sha256": "c3111afd25f27e05d096afc503d59c4f631b080d7d6d2ed27b8bce224f61ac09",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials\n00"
+    },
+    {
+      "guid": "1a8d0a0ce31bbbd49ad39beb17ee9326",
+      "asset": {
+        "sha256": "79d6ebfa88b883ffff577cfc79ff8ac053a8ca609b816d5a53023bc0f3e8d78c",
+        "size": 5595
+      },
+      "asset.meta": {
+        "sha256": "1f15feba7dbda20b76b8a8513435fbd5b57e1c772120338c071582a4bfb16ee0",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_Floor.mat\n00"
+    },
+    {
+      "guid": "586d53852ab2fac4cba5cac70300497d",
+      "asset": {
+        "sha256": "f332e7831463ef3ffa83297d285aab378f869ddb463568d1235af00bc45dacf2",
+        "size": 5564
+      },
+      "asset.meta": {
+        "sha256": "be38a59d69a5584fa164cabaeb7ebede8038c8449b24383f8a0c90ba668bee62",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_Test_Back.mat\n00"
+    },
+    {
+      "guid": "e668c51d0e0125e4dbae8a37cb0d45e4",
+      "asset": {
+        "sha256": "aa307f57d0163c89a107f496bd6f9c230f473da113c40f3f072a102913bcb76d",
+        "size": 5567
+      },
+      "asset.meta": {
+        "sha256": "37aedd7e114a6dc802a0ed746ad9c38ce192d415485b3d37396bfa263275b716",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_Test_Front.mat\n00"
+    },
+    {
+      "guid": "9dc80f717b8cf0f44a1328de60c05a87",
+      "asset": {
+        "sha256": "ba75ee8a4a011337d1e693fa9536e6bba20a46eb7e4f7f86259fcb89b2c77f96",
+        "size": 2742
+      },
+      "asset.meta": {
+        "sha256": "5ae28b08fe42abf4202f4f1b86dcb54e9b05e6da4bad11a565dc1cba7ef5caec",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_White.mat\n00"
+    },
+    {
+      "guid": "174ae74532988144eaa22b5d3ce3b54b",
+      "asset.meta": {
+        "sha256": "12069311b51380cde17cccb6235de1e381ba712798fc6fa329297ac30a57d675",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model\n00"
+    },
+    {
+      "guid": "e22374f5956c7fe49ba058092885078b",
+      "asset.meta": {
+        "sha256": "2bf95204e90e2ad0a36e5d9af1c5c322d19930af942582808187db912abdb4a4",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model/Materials\n00"
+    },
+    {
+      "guid": "9d8e9d2536fe10f448a1440c26ec0bc3",
+      "asset": {
+        "sha256": "79d7e4ffb7da8e0633591cad244fe7dba1027854657b9ce87d1301048fe8739f",
+        "size": 4031
+      },
+      "asset.meta": {
+        "sha256": "b0ae51be4d7523b1104265acded56ddb00e05649c5f7286d5f58d79951cd1ec7",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model/Materials/Arrow.mat\n00"
+    },
+    {
+      "guid": "40f00d3ed65180f4ab14accca4d78735",
+      "asset": {
+        "sha256": "0160532033ab082715b7fe34c4ba00fb5ecd59ba77dc1e5b3c308cd31c440f29",
+        "size": 15660
+      },
+      "asset.meta": {
+        "sha256": "789afdcb223cd9589721cc4c0ddc0945140e603c95fc5dc0e9c464b713668047",
+        "size": 2410
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model/arrow_b.fbx\n00"
+    },
+    {
+      "guid": "f43ab23790f02b24aa62d451e140d7ce",
+      "asset.meta": {
+        "sha256": "49ae7a3f6797593e592ba73f99bfe8a0aeddbcc7743da33c57ed5addfc4b5e11",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs\n00"
+    },
+    {
+      "guid": "baaebd372fee4154e9b08570bc3a230e",
+      "asset": {
+        "sha256": "f169efee1513b12061019e163775bfa5128f163f53cffdbc2ad4317d77cd323a",
+        "size": 2413
+      },
+      "asset.meta": {
+        "sha256": "34b06908f1d45dd2e4fdb207ce4311b43edd1814d4adccf642deebf79266b9a2",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Cube.prefab\n00"
+    },
+    {
+      "guid": "1950e99f479bef04581d5185a7cf27b3",
+      "asset": {
+        "sha256": "48f133160179ee92b5499d778694740cee7a65369989f324edfa48ceabeaef38",
+        "size": 6748
+      },
+      "asset.meta": {
+        "sha256": "dcce5b62df66461dd6317dd73e56e69eb77fd0315b986f131eb2cbb4e5f1e301",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/CubeRoup.prefab\n00"
+    },
+    {
+      "guid": "b5bac44e9cdf69541b2d1de75e68a9ba",
+      "asset": {
+        "sha256": "0bebc9776e0c8f10f095ccb8df1145d85a5414ddb60092d02ed3d359aa5a7696",
+        "size": 10022
+      },
+      "asset.meta": {
+        "sha256": "150bf24ab28e66142ece54c9802aab887fd67b2c27689f8d86c313e67b1a67ce",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Env.prefab\n00"
+    },
+    {
+      "guid": "f6e49ec628143df48a1d0a213fc770af",
+      "asset": {
+        "sha256": "9a52573145ff1845f29be4d642fc0d6a85c56b125d12fa5e14305fec633c2837",
+        "size": 2971
+      },
+      "asset.meta": {
+        "sha256": "195a882de0c54d23cd6f22d2402b28da593949fb489e7054431f2928d01eeb46",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Plane.prefab\n00"
+    },
+    {
+      "guid": "57eb8094dff10c34f8fae441c280e0f8",
+      "asset": {
+        "sha256": "1e5c3bbfbf58e8a2cf2384c8a9ff89dc3377eb13c2289fc5408d7ca569bc5efc",
+        "size": 10344
+      },
+      "asset.meta": {
+        "sha256": "b3309df61cf79ac09ec07c8b64e4bf576fd4e38e27f92a0e8a167bc24dc284bc",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/RuntimeBuildDemo.prefab\n00"
+    },
+    {
+      "guid": "bca76fc2423c0a14db7d44f7745ab286",
+      "asset": {
+        "sha256": "94aef92a3877c5d4a8e01acdd68e46d24d1551f56d5eed3cc97e413d6501e235",
+        "size": 1562
+      },
+      "asset.meta": {
+        "sha256": "d6b59de6deb50d4c738617f6d6be4984302067038e454808f5f5cddabe1917fb",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/RuntimeDressUpDemo.prefab\n00"
+    },
+    {
+      "guid": "e35153ae4a19fa24289b796a4290d4db",
+      "asset": {
+        "sha256": "7d6989df41742a524342d6919406b12184f9d7a275bc7ed6ddb17aef647ba949",
+        "size": 1413
+      },
+      "asset.meta": {
+        "sha256": "fae238defe3aef9905e6a165023c197edd0e95d07db2c587fd1bbec50baf2f3e",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/SimpleImputManager.prefab\n00"
+    },
+    {
+      "guid": "23be23f56fcb4ac48ac4de26c111e332",
+      "asset": {
+        "sha256": "0feb9a444464642b7c2a97b665826895f45a8445ab81c50f9ab4cf7a60e61c40",
+        "size": 3315
+      },
+      "asset.meta": {
+        "sha256": "bc47ea3819558b3c5b090a8972c6c6139ca068e7cca39377348c55af016a2a86",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Stage.prefab\n00"
+    },
+    {
+      "guid": "94ed6a8f5c3a2ba4d8c93972af7467f0",
+      "asset": {
+        "sha256": "d406b0102a79ef332a057c5373ccb315b28a62ec079ab27d6b10abae72abf574",
+        "size": 27331
+      },
+      "asset.meta": {
+        "sha256": "86693c3ebe202694a076c803e1c6d8cfb03efb8b099ed0699e3ad42818896757",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_KAGURA.prefab\n00"
+    },
+    {
+      "guid": "0b388bd66f5736b4891ceafcaee539a4",
+      "asset": {
+        "sha256": "e510f1ce5738c1442c35dadec46ad2ee5fdee57038071fc3cbbee7ee631c1f34",
+        "size": 20859
+      },
+      "asset.meta": {
+        "sha256": "e41c0f907a463b4ce12713db97f577ab9901bbe7874c04ab2e5db7927c59df39",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_RuntimeBuild.prefab\n00"
+    },
+    {
+      "guid": "228b0487b4c6f43448267a8277251bc6",
+      "asset": {
+        "sha256": "f8d9e6093648d2e3e36cca00d6fe8133bbc784153337b6949dd2c0fddeab86f0",
+        "size": 20875
+      },
+      "asset.meta": {
+        "sha256": "a1f280a9cd2d4bb14fef97e0793d40a4cc610b96e2568e1b0204e933da1b8450",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_RuntimeDressUp.prefab\n00"
+    },
+    {
+      "guid": "b10f69e1744a07942843e8c00f85501e",
+      "asset": {
+        "sha256": "ee28a2d280ad07702182810894d644650133f08a698f7029956bd426e036e2ce",
+        "size": 67305
+      },
+      "asset.meta": {
+        "sha256": "700f21417c590bc769eb36046e1522fd5b8384b4a9d2fb81c32d1be47b5fc23c",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_Wind.prefab\n00"
+    },
+    {
+      "guid": "c421f5fd48afe284da1a2c74a043723b",
+      "asset": {
+        "sha256": "5e4b4d9c97ef008f5dc573b06f70fcc7c47ffd660604490e3f9f6a19f7d10877",
+        "size": 12894
+      },
+      "asset.meta": {
+        "sha256": "28c92091b7913e9c825d6e097ed8eae31e1ad97658eb7c428dbf0df18b0abca6",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/WindDemo.prefab\n00"
+    },
+    {
+      "guid": "9f50911cfd816e840860425faa5cec57",
+      "asset": {
+        "sha256": "9c31a916d60d0e0e6a7d520e4272f764f7236b029afd83aad90a7869335e9fd7",
+        "size": 116665
+      },
+      "asset.meta": {
+        "sha256": "ed4fb655b85c4b06b28c77f71a7f9f3d5fadf630e0553ad596178ef6cecc7880",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/WindParticle.prefab\n00"
+    },
+    {
+      "guid": "983f0ab2563c0d34eb966719207674dc",
+      "asset.meta": {
+        "sha256": "8915f91864cd70104f22527574d043800058fb7a6fd355e86813c68263078ca2",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Resources\n00"
+    },
+    {
+      "guid": "9cb18a57f012d144480f025bca639032",
+      "asset": {
+        "sha256": "c0e1661c4e7d7033adb070e333662681edf360ce0d795fceff6fe4e54a8587ee",
+        "size": 4995
+      },
+      "asset.meta": {
+        "sha256": "b3f9b12ba66bbd4c42410c07ccef62e3234d6193674aa12e928854943fa08391",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Resources/MC2_BoneCloth_Ribbon_Demo.json\n00"
+    },
+    {
+      "guid": "2ccf7a2872d9e554ea3511882b07a3e7",
+      "asset.meta": {
+        "sha256": "e130777780b6ecd54531c036fb444f13576c7e937fee265c9c5aa7f1452b9487",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts\n00"
+    },
+    {
+      "guid": "4124c59241137374c9cae45d25683042",
+      "asset": {
+        "sha256": "7f829f3fb2138254f4f98f11eb0fcb4f5808dc28cba3b5b90da983ca871cd56a",
+        "size": 1471
+      },
+      "asset.meta": {
+        "sha256": "f67edd9bd2a0626d3e556edecc5f3fbd5693c542eb65e680b6ce22f5237a6658",
+        "size": 264
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/AutoRotate.cs\n00"
+    },
+    {
+      "guid": "1fd18111ed866534a92d0a2a59d1608d",
+      "asset": {
+        "sha256": "f8bbeb224fe4c0bd2af44e14b557d6763bd8209b85f1bfef0d393d2218123369",
+        "size": 8005
+      },
+      "asset.meta": {
+        "sha256": "5aafb208471b451d83c9e25e2ad7c24be2db023a8939ede267220884d5fd54bc",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/CameraOrbit.cs\n00"
+    },
+    {
+      "guid": "0d1b801c369005647ae0e5a315e0bdaf",
+      "asset": {
+        "sha256": "be39aeeaf22f901f52f61f3b7f11191c7bd85d1640e9322a62f52081953cf531",
+        "size": 4134
+      },
+      "asset.meta": {
+        "sha256": "d03572ec4529224a6eacbbebab5f99d1df8a626316453fc59519fbd469e12641",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/CreateSingleton.cs\n00"
+    },
+    {
+      "guid": "776d5a1b173ef154c9bef26d30c53fcc",
+      "asset.meta": {
+        "sha256": "1489282a8252623cb489f95d998f1ec0193a226abb7906700d836a5a818afb2b",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor\n00"
+    },
+    {
+      "guid": "347fb6ccc378d9442a92b5316d0ff7c9",
+      "asset.meta": {
+        "sha256": "1cbc87985bb9b95683278c7a1771a93c2f925e53cc708a8b26c74a53ece54459",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor/ShaderGraph\n00"
+    },
+    {
+      "guid": "34d2974f64e7a9f49a48b400abf046ff",
+      "asset": {
+        "sha256": "5c89c2261de1a824b1c7d78ccb33ff38548714f686b38ee7a27db7ede8393b3f",
+        "size": 567
+      },
+      "asset.meta": {
+        "sha256": "d606d0c3e997cd4e5d9c1d3a5abe7aa939dcd3c2efd955dc48378bcafe056c2b",
+        "size": 166
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor/ShaderGraph/MagicaCloth2UPMImporterShaderGraph.asmdef\n00"
+    },
+    {
+      "guid": "dd5d6386919360640adca6564193a8f5",
+      "asset": {
+        "sha256": "602e41b2b6bea3b6abf445a8e7a926341ac3fd7cbde058431df855e46404a8b2",
+        "size": 798
+      },
+      "asset.meta": {
+        "sha256": "e45ee45c2c72e918dda82927d5bd06ac89c9281be380648795d925532a8001c5",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor/ShaderGraph/UnityPackageImporter.cs\n00"
+    },
+    {
+      "guid": "4357444b3effcf149a7c0557d3c4ddc5",
+      "asset": {
+        "sha256": "2742bbee17a234ad76106a80c13f97d27398daa8c833a3bdf7b9fc73a7d705bb",
+        "size": 1080
+      },
+      "asset.meta": {
+        "sha256": "61ac9a2c6d3ed80f1db3d7542102242bda1ab125be7d2a1e3c557b9731193587",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/GameObjectContainer.cs\n00"
+    },
+    {
+      "guid": "49572a6b5327127438636ad59bdb9226",
+      "asset": {
+        "sha256": "896e28d63373f6655b4f005bcbe83ab47a344928cba2e0f817bfc3eb6bfd83a2",
+        "size": 2162
+      },
+      "asset.meta": {
+        "sha256": "c5b9827343f441fe07f97195f406a2fd9e334088aa79533e13c9ca043c2bb3e3",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/ModelController.cs\n00"
+    },
+    {
+      "guid": "d0126e2925cecdf4a933c28a27f415ac",
+      "asset": {
+        "sha256": "8722616852f1bcbd4878ecab62012c0cc8d9b2aa8ceac2e9dcb966506814ba57",
+        "size": 9948
+      },
+      "asset.meta": {
+        "sha256": "537031a4ac77d90d9b45dca6c76743fdf3905bbb2b123ad9eee4f8473da236b4",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/RuntimeBuildDemo.cs\n00"
+    },
+    {
+      "guid": "e72f8cfc2a22d184e86b4e1905cdf3ec",
+      "asset": {
+        "sha256": "3c9ccee9d55f22c60d0a30081192ba4f111bb0f3c29d7af93f8fec3fc5e4150a",
+        "size": 7743
+      },
+      "asset.meta": {
+        "sha256": "5655c176737c50cce40808c662e65462cc576877f8302d2af0f68cf1225e6a50",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/RuntimeDressUpDemo.cs\n00"
+    },
+    {
+      "guid": "08208c43232950a4f8b6eae1f7919c13",
+      "asset": {
+        "sha256": "c8ca212a3d66b495a8ba0961d200cc94bfabd38854ce704438f21021926d9ec7",
+        "size": 23539
+      },
+      "asset.meta": {
+        "sha256": "fac7675089c7de374747be9ed75e22ac16982e63ada2cd2ba47f3ac191c88185",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/SimpleInputManager.cs\n00"
+    },
+    {
+      "guid": "37e7fecf2cf6fff42800da6e57c20d5d",
+      "asset": {
+        "sha256": "a555f911bb41fdcbac4cc57c3c3ec01f322c5868d7ba298d308fa3426ac9aaea",
+        "size": 1002
+      },
+      "asset.meta": {
+        "sha256": "c488afb75fa2ca2e00590432c6c54555bc68a8e03616e2127d0c14c8f7840fa2",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/SliderText.cs\n00"
+    },
+    {
+      "guid": "70abefeafa131dd428880b40bd4c183c",
+      "asset": {
+        "sha256": "d7209b48ccf2178d8c80886027b7592f6206ec68b1a0c0bf5b1a8da58d9cd699",
+        "size": 425
+      },
+      "asset.meta": {
+        "sha256": "587ff578704b94a56bc1c40c9980c49bfce5ba077e3dadb01bb12179e5767ebb",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/TargetFPS.cs\n00"
+    },
+    {
+      "guid": "13f11cb1bd01c684b9a48fd075e6a541",
+      "asset": {
+        "sha256": "e2d058d2ae20f2dbc82b5b8ce35aa508359ea66783a1f278e890d3b413968f34",
+        "size": 2567
+      },
+      "asset.meta": {
+        "sha256": "e302bcda99d44aa33ce592f51229808301ac0345d891aec14bb0126592a8d085",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/WindDemo.cs\n00"
+    },
+    {
+      "guid": "399b9b712612aee4895e5d0c4dd98d3d",
+      "asset.meta": {
+        "sha256": "8d98c9de2fc833293feb4ff68194fb312bf5dcbb3ae267f25dc9da0461427d9a",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Shaders\n00"
+    },
+    {
+      "guid": "b969454d26657854a8fe82c813fb0876",
+      "asset": {
+        "sha256": "f769d203f7f8dfa75804a6c15e6c9526edf4074a8282ee3956504b1918c6eb6c",
+        "size": 55256
+      },
+      "asset.meta": {
+        "sha256": "163d677268ba7be7a03d9df16e2d879a70a21c312818db2a9736f29b02f82e53",
+        "size": 285
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Shaders/MC2_Common_Lit_Back.shadergraph\n00"
+    },
+    {
+      "guid": "e0b73429f84a56840ba17b216237f806",
+      "asset": {
+        "sha256": "cfb6e67d602295672f2e350ce3d126cca5bb4ce875b0b5bfd0a1d59d55f2d6eb",
+        "size": 44923
+      },
+      "asset.meta": {
+        "sha256": "16c5d2670992c1747f8bce4ce6349370b6d8c0e7f370fcd2a10781ec2341e0d4",
+        "size": 285
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Shaders/MC2_Common_Lit_Front.shadergraph\n00"
+    },
+    {
+      "guid": "2233c08f69efaa348b41487c7aece386",
+      "asset.meta": {
+        "sha256": "8fc7f3321b12796ac917afa246f48ddf103012adb199b801294feabf4c797f6d",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Textures\n00"
+    },
+    {
+      "guid": "00d6a209303f1804a81aee79794da3a4",
+      "asset": {
+        "sha256": "7b523a0fd463fba6d3398a9d7bf0b5540e2a2927f35f0e44d43975eef6d4f612",
+        "size": 4676
+      },
+      "asset.meta": {
+        "sha256": "857da3f86cefd427de2bb66178932f186f0d3c67ae2f65a33f25738384b3ced5",
+        "size": 3176
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/Common/Textures/SD_UnityChan_Skirt_PaintMap.png\n00"
+    },
+    {
+      "guid": "ec893c380aa139943a8cb29f3a934540",
+      "asset.meta": {
+        "sha256": "11c70fa6c39065a75197796efa8068d159ed80eaeb111625c72962e8207989a5",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes\n00"
+    },
+    {
+      "guid": "34a0a79e78943c44b8e0dbdbb3f7ab58",
+      "asset.meta": {
+        "sha256": "70a948be300822a5b6e44f6d1b621553a11ad1d198bee56e3fd25bf52fdc1def",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP\n00"
+    },
+    {
+      "guid": "93948452698a73449bbea353e91d29c7",
+      "asset": {
+        "sha256": "860b4833c5b666c3c0e8f7eedf41f0a72f5dd521ecc966ea4f0e4360ea1f0c36",
+        "size": 21524
+      },
+      "asset.meta": {
+        "sha256": "c457275d2bc32d37a8b69075180c60f0c80a8a6f74937b394393bdd50bfa834c",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/RuntimeBuild_CoreRP.unity\n00"
+    },
+    {
+      "guid": "f270683cd8624d64d8d14af230cc8463",
+      "asset": {
+        "sha256": "afb28bb52e03d0d30504ec4dadf0d1a5dc422ceaa0b06bd6242e44a16bf788e1",
+        "size": 24859
+      },
+      "asset.meta": {
+        "sha256": "43060919b5f86a88422af795d8f2d8582731dd67d72abc09efe4646ae7b4ba0c",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/RuntimeDressUp_CoreRP.unity\n00"
+    },
+    {
+      "guid": "e4876628e0b615548a27a4e96ec1f4fe",
+      "asset": {
+        "sha256": "6fe3dc5720a8c5fad181a0d26496c40a37ac6d36d4adaa54682a75eaf87a33c9",
+        "size": 22305
+      },
+      "asset.meta": {
+        "sha256": "80a30264641e6a7a7cfde4dda33bb64e1cb241831ee00228d4e6c33fdf829388",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/UnityChanKAGURA_CoreRP.unity\n00"
+    },
+    {
+      "guid": "267e0138a7a8ede409cd7c4e4381c7c8",
+      "asset": {
+        "sha256": "9723c6dc99330cb05555cceb18cccfe1ce42d8ac6c07ac82c6da31c69e899737",
+        "size": 32250
+      },
+      "asset.meta": {
+        "sha256": "ada622da2fe94016eefdfbda414a96246b853cdadbae4e8bac4ae67ae8886054",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/Wind_CoreRP.unity\n00"
+    },
+    {
+      "guid": "23d215c402a80c14bac570f542a2b396",
+      "asset.meta": {
+        "sha256": "8dd10d855910ae2d4e1cb76fe0e3b4fc32cf72b66fe644e77d78576e7690cde6",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP\n00"
+    },
+    {
+      "guid": "b1b25245d5b864343a133fabb2dc80f7",
+      "asset": {
+        "sha256": "76065a65cfc41247023e102f0b33db175791727ec7cf7bc7fc7275f757a45898",
+        "size": 13446
+      },
+      "asset.meta": {
+        "sha256": "958080c39c2749597daf72ed286e7836e6c6cf2aadfa4b0ec7aab85c13fff595",
+        "size": 189
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/MC2_SkyandFogSettingsProfile.asset\n00"
+    },
+    {
+      "guid": "36ece2ce79b44ae45a27a708761e0f07",
+      "asset": {
+        "sha256": "7fea7725e8efb1b47c7a169ca2bab7c8e6e94b2f0212e92cabb97976ad0db966",
+        "size": 32248
+      },
+      "asset.meta": {
+        "sha256": "f2d93371892059b9fa549ed715004c6ef062b1b6da6565e2919574e84bc9dc9a",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/RuntimeBuild_HDRP.unity\n00"
+    },
+    {
+      "guid": "94497b725e0bd3c4f9c615f7162394ce",
+      "asset": {
+        "sha256": "ec09c465c007e7870e26e30432253206ef5b9f32e7ea80f3f4dabf3956fce4bd",
+        "size": 35251
+      },
+      "asset.meta": {
+        "sha256": "dc65d67281bef9048275494768645bad642272bb1bc79cbe32869009437bae2f",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/RuntimeDressUp_HDRP.unity\n00"
+    },
+    {
+      "guid": "bf9e8cbc74c20384b9a7d2a354ddde18",
+      "asset": {
+        "sha256": "7a4bb6799f0716f2084e18d45ccea9d4863cd0005e0a2e38dd9d886609fb4059",
+        "size": 31077
+      },
+      "asset.meta": {
+        "sha256": "fe179c4f883c75e2a4de598ad023c3a4ba88beb26580bdd9e7a3aed7a314c2f9",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/UnityChanKAGURA_HDRP.unity\n00"
+    },
+    {
+      "guid": "cceffaba687d4f54c9223904abae4103",
+      "asset": {
+        "sha256": "99cce3af172187c84045b975c0b30a2f58a206250d982ec647d0277c3d83f27d",
+        "size": 42992
+      },
+      "asset.meta": {
+        "sha256": "8c8b3eca4468bdfd4a340bda9a89ca6768c070052b8a20d91c137081a22ad581",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/Wind_HDRP.unity\n00"
+    },
+    {
+      "guid": "47028f8811dde3346914715fcf46e622",
+      "asset.meta": {
+        "sha256": "a41477884c2696ce82b2e95cae920a0bbe3adb64aafeafe9cceea99b8441a8a3",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP\n00"
+    },
+    {
+      "guid": "92dcb0677c9b85043b57cf704d41960b",
+      "asset": {
+        "sha256": "ce17c28cce82a3330d1a68ef3ddbd31c1a0d41f5e0d80e22d26cd200565e7fca",
+        "size": 24160
+      },
+      "asset.meta": {
+        "sha256": "8f422dac8db7286f3355298b243339e8a0f4877e88da29991fe4d1cac8f99e12",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/RuntimeBuild_URP.unity\n00"
+    },
+    {
+      "guid": "f4b046e16bdc56641bf93aa9cb3bb0f1",
+      "asset": {
+        "sha256": "091135f278c3d1a33b2674c4dc57076599bb9b882c71bb03cf5dad6cfec09dd6",
+        "size": 27146
+      },
+      "asset.meta": {
+        "sha256": "881b40912eaff3526d7b8b42c40af02a47e3bdb597bef4e9c00448477411b8b5",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/RuntimeDressUp_URP.unity\n00"
+    },
+    {
+      "guid": "4912343a4ca12104c85e528a3f53cf36",
+      "asset": {
+        "sha256": "af0e36ae0b62065438bd0cb146c47337c36c77875c4677b602ac9dff422a71dc",
+        "size": 21908
+      },
+      "asset.meta": {
+        "sha256": "63e2fc34f8e9194090d21ac0394ab194d0f5aa1b6b75b3cdc25c0abf203a481c",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/UnityChanKAGURA_URP.unity\n00"
+    },
+    {
+      "guid": "c9634d62ab15660448216ecd2d46d7a7",
+      "asset": {
+        "sha256": "e04238994ca5748524d1d0145a243edbb8b478215317eed413b665398967b485",
+        "size": 33251
+      },
+      "asset.meta": {
+        "sha256": "15f160954b40bd9c96633d4c3ceef8ae7997b33a8098a1649f376393437c92bf",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/Wind_URP.unity\n00"
+    },
+    {
+      "guid": "9a72e6cc61880e442925c90b4d716ed9",
+      "asset.meta": {
+        "sha256": "630be76b79459ca53188e4e3c01b2a83db280f1e49d0f65926e38b8cf27cc79f",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan\n00"
+    },
+    {
+      "guid": "363d8d90514d2954fb7650c0d002a4c9",
+      "asset.meta": {
+        "sha256": "4befbf8e4671abac321ea0351b9a16ef54f80fd11f2fd5babf186a93ad854e53",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/Logo\n00"
+    },
+    {
+      "guid": "3563c26f39220f4409514929be083788",
+      "asset": {
+        "sha256": "d5d7e2941aeec38349c36dfdac07022cdcbb09ff6925c6195f819dacd956df19",
+        "size": 45873
+      },
+      "asset.meta": {
+        "sha256": "80a4f470cc2d8ee3c95d6404a96acaa766a196ab1cd5ab745ee676c4025576aa",
+        "size": 3209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/Logo/Dark_Silhouette.png\n00"
+    },
+    {
+      "guid": "d33cde9a16d475d45a6eb80526380702",
+      "asset.meta": {
+        "sha256": "e3a85d10657a7815351e4abe0cc599ebb0edf2c65f2bcb3d0ecc84499961e42d",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz\n00"
+    },
+    {
+      "guid": "4191a0e9ba79553429f9c9409c0326b0",
+      "asset.meta": {
+        "sha256": "e1441795c28808ed648cd3c800c11d614f7934ee19fca7acc28c7632a73fcad2",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials\n00"
+    },
+    {
+      "guid": "59f12daf366f95d4984b921d3b5fb893",
+      "asset": {
+        "sha256": "dbc84b62484f72da18ccae65ef786dbf477c6c37baa9e93a694ab73c482aea38",
+        "size": 2798
+      },
+      "asset.meta": {
+        "sha256": "58dda01e2b131f1886d59841a022464be6a08278b48056ccef903c2cb8dcb8ae",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/SB_def_mat.mat\n00"
+    },
+    {
+      "guid": "bbcadcb4bdd67154bbd0f71cc5a89cb1",
+      "asset": {
+        "sha256": "08956e0c9c157a80802851d4d21dcefd7490d7e566dd38ee0526c11c4687a773",
+        "size": 2797
+      },
+      "asset.meta": {
+        "sha256": "341bc9b4dcaab638e5d6ca9dbc5250fde6a825ac1b0f4e61f1d2a59695d88282",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/SB_nol_mat.mat\n00"
+    },
+    {
+      "guid": "cdced10803944d84ca8836a329489c09",
+      "asset": {
+        "sha256": "458ceb35b8537a53cb108e3a08d02b6aa083cfc4e87ef470ab5550e73a58bc53",
+        "size": 2799
+      },
+      "asset.meta": {
+        "sha256": "f400d892053e1b94d145e929b11747787394a81d581467eb6f7b1fc5f0b00c34",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/SB_skin_mat.mat\n00"
+    },
+    {
+      "guid": "163929bef874a5a47b9eeaa1af0d9409",
+      "asset": {
+        "sha256": "82e2b66e576b045159fccffdf501f891af63be1904933f19860d1089afb3b650",
+        "size": 2795
+      },
+      "asset.meta": {
+        "sha256": "8c2c399e2d826d225134ddb0cc891d451cdd06d52df0a00443bf40e860393875",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/def_mat.mat\n00"
+    },
+    {
+      "guid": "4a800f51326d0df4a89423faffd109e6",
+      "asset": {
+        "sha256": "c4651782b8c1928b3744fc69f76019120aedcd5c6b7da7bdf74a721a0052f5ff",
+        "size": 2796
+      },
+      "asset.meta": {
+        "sha256": "d4fe918d8c6dc21f75aec26e22a759ed86e562ca8c5fcc3b39c197e9655c391e",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/hair_mat.mat\n00"
+    },
+    {
+      "guid": "463c6f29901dda148bc86247837ca2b7",
+      "asset": {
+        "sha256": "ff7a3ad7211f6544e33b025e97f5199629303b7a96e6f139ea1542f8bb5b5aac",
+        "size": 2795
+      },
+      "asset.meta": {
+        "sha256": "cc9e72b0be79300ea370cae37bef7f068a425f2f1a386f80f42fd23d95d66539",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/mouth_mat.mat\n00"
+    },
+    {
+      "guid": "7f9e816ced8528d49a5302b7c88ad155",
+      "asset": {
+        "sha256": "fe09eda95ab097db7ee076283d09ad680759bd7f3f03857d236c6eb2f1b1c7f7",
+        "size": 2794
+      },
+      "asset.meta": {
+        "sha256": "a68dbd46558c7e57892734ae82a7d6d35bd01efbfae1d10f4b21833345c585b3",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/nol_mat.mat\n00"
+    },
+    {
+      "guid": "b2196d7da1a53294aae46258e3d23d51",
+      "asset": {
+        "sha256": "c837b65639e3b7cd7dca4c1c5793fed58fa12175a778671d3875905031461224",
+        "size": 2795
+      },
+      "asset.meta": {
+        "sha256": "25d0878109321d4e42747212136e3e0d4226c05e24660bd27dc9e0633579df43",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/skin_mat.mat\n00"
+    },
+    {
+      "guid": "4ba06a656e1b0f94f996f86d809f5362",
+      "asset": {
+        "sha256": "6d55213ccd2d69ba46aad99dbae40f9f09ba91e5db7aaf85058561973582340c",
+        "size": 4410
+      },
+      "asset.meta": {
+        "sha256": "33fbe882b999f35d3886c0206771079bcc979c400aae9ab9bffdcbff3b3d4508",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/SD_UnityChan.controller\n00"
+    },
+    {
+      "guid": "a8ab178aa3b1f574c95414d151171d2c",
+      "asset.meta": {
+        "sha256": "e48df540b4b3dd4987e02a229f525fb4bd7c31bb224f9b757f45906a729378db",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures\n00"
+    },
+    {
+      "guid": "27570a5ee19caed4d9a04e5b88b3fb55",
+      "asset": {
+        "sha256": "ed4b4f7765ea8e9dbde76eef051ff7c9c1e0cd4c263e76a1532e8be77f181d27",
+        "size": 217430
+      },
+      "asset.meta": {
+        "sha256": "b7344c5e6efb785fcf06916372d4324bc1c06b2a2908631ba62a3f4bf08a8acd",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/body_sum.png\n00"
+    },
+    {
+      "guid": "6e7b3359dea6deb4591905e4c01daaaa",
+      "asset": {
+        "sha256": "65c3797b70c6d0109d2457811e305c2753fba7ddd4298cc7bbc70409cfae543b",
+        "size": 209966
+      },
+      "asset.meta": {
+        "sha256": "48000e26accadd923aaa4ee73d36d4e8a5d17d43efaf224ccaa62dc32132cd73",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/body_win.png\n00"
+    },
+    {
+      "guid": "f3b3d2d3302bfcd429625b8601f356ae",
+      "asset": {
+        "sha256": "f3283df0153df1c612a03f707570414d59549ed9db2edc218f7953133e68d3ba",
+        "size": 214354
+      },
+      "asset.meta": {
+        "sha256": "f210408423f50e427c2d5564b9a13fc296fcd7636184f8b7c5b93990924e6f9f",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/misaki_head.png\n00"
+    },
+    {
+      "guid": "e3db91f76893de24ca17abe2afcd3672",
+      "asset": {
+        "sha256": "b01c21a0e020d09b752499ceaa94e1ae8a5a06a55cf1b113f9ec77d86b824c4b",
+        "size": 338399
+      },
+      "asset.meta": {
+        "sha256": "157047c7bf4cb33f603e97d4cc2a4bb4f2267ade680e90b2b8de3b748d728822",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/utc_all2.png\n00"
+    },
+    {
+      "guid": "683728d077857944cbe122f32302a197",
+      "asset": {
+        "sha256": "b0eeeacc934ffc4667276f4eb0e50b84388da940b0c3562ee180f79aa85becc8",
+        "size": 211031
+      },
+      "asset.meta": {
+        "sha256": "87a2f1f6c264ad021c0d4e0925d5d7d9b3e1af4d1d2d12f9d665979b02ace469",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/yuko_head.png\n00"
+    },
+    {
+      "guid": "f7b297d5cbbb2ae49a5b986f90674b9e",
+      "asset": {
+        "sha256": "037894ef54fa2665ca209669f0784dd750c6bc5a803c4e331919c10e74b5126d",
+        "size": 231813
+      },
+      "asset.meta": {
+        "sha256": "aa7c615d4e4cf2565eb189c778eb045ed521f852964447638999a56a2535cae1",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Body).prefab\n00"
+    },
+    {
+      "guid": "0769e110b29a40b4fa617aadaa1e2ea6",
+      "asset": {
+        "sha256": "f1d1e9c1b01e53284c9e76f151987e27c12bd36e7fcadb114ea5b7b69a379bd4",
+        "size": 185523
+      },
+      "asset.meta": {
+        "sha256": "c30e562b21de6fabb1a598cabaee0534d9ad50327ff743cc4762519fe0676473",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Hair).prefab\n00"
+    },
+    {
+      "guid": "4e3c7d56d063a904c9dad4bf2ccea5ad",
+      "asset": {
+        "sha256": "c27f2b3acc151f1a180ec201a41716983749c0a480b80462757faf38b0e0aa95",
+        "size": 122005
+      },
+      "asset.meta": {
+        "sha256": "d12bafccdc84c9da108259413a2b59641b83601a3d301421a8477a046c1e8479",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Skeleton).prefab\n00"
+    },
+    {
+      "guid": "2e7240c8003a64b478effd2a812f4d31",
+      "asset": {
+        "sha256": "11c5d79daa8cee4834ef3b561be2356d191430df92badc590b3421c9e7a48005",
+        "size": 11819
+      },
+      "asset.meta": {
+        "sha256": "7310045ee816f3fd2db4cbf50d85d74d8384b0b17101604fbbfe3b2de0b59ae4",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid Variant.prefab\n00"
+    },
+    {
+      "guid": "5c78fba67bb448b42b8dc9ef978170e0",
+      "asset": {
+        "sha256": "c7f9d4d3d86ae5f7e903ba2c8e1a3a687d105d5d36b91adfd48412136cce31c4",
+        "size": 822048
+      },
+      "asset.meta": {
+        "sha256": "5967574ffe93f6af47664f15768c02445f1e7abcce4c13755382d84fd2633529",
+        "size": 43225
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid.fbx\n00"
+    },
+    {
+      "guid": "47c03d36119db17499adc298abd98858",
+      "asset.meta": {
+        "sha256": "fcc544eed5f0a773fdda254134403145476dbd3cb47453c0b1b07d7ccd899726",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0\n00"
+    },
+    {
+      "guid": "8c8a0c5fda6952146b147b03cd881920",
+      "asset.meta": {
+        "sha256": "2a6fbd7ec79ca76fd5e0b8cc720c4cd79f8e68ec9c54c9755642c6d09fcf2ec3",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English\n00"
+    },
+    {
+      "guid": "e1a0622442b06c949aaca91bb8151c74",
+      "asset": {
+        "sha256": "cddf37e09b03fefb43f659932b6035078cadc2b38c52ea08f3b15fcd25b929e6",
+        "size": 80324
+      },
+      "asset.meta": {
+        "sha256": "04af815d2c8db190e3952983c1c83bea032a4caccf1cdbddf1261d4f7b494b75",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English/01Unity-Chan License Terms and Condition_EN_UCL2.0.pdf\n00"
+    },
+    {
+      "guid": "e534652dc977c9848b6c4c54586507c4",
+      "asset": {
+        "sha256": "4d36e4b0b89737f22153f66dda501c589f0fe4c9e0071146059f129563bb77f5",
+        "size": 136809
+      },
+      "asset.meta": {
+        "sha256": "efc2d5a4f23bb13a02a381e01ae960bbdff7e41ef5117134d7a1d7d4bddd169b",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English/02Unity-Chan License Terms and Condition_Summary_EN_UCL2.0.pdf\n00"
+    },
+    {
+      "guid": "a6382741dc950ac40a8170412014620a",
+      "asset": {
+        "sha256": "8979542ada869149067e2452c964931f56a34929659b5a2ac7c42e40f09226ac",
+        "size": 138089
+      },
+      "asset.meta": {
+        "sha256": "393a433e4d4ee8bab12f9f504cc5a4f1a81a1f65ed58bbf37a436244b0aa794a",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English/03Indication of License_EN_UCL2.0.pdf\n00"
+    },
+    {
+      "guid": "a8dc8df451dda2c47ba136a8f8c09e11",
+      "asset.meta": {
+        "sha256": "a1fed80ef89228d15cd2d0c3a8d6c67f72ebfd9540286a3a8e6d8469b033eb8a",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese\n00"
+    },
+    {
+      "guid": "8dc3224c2a02525478fb6fe5cc1a4b56",
+      "asset": {
+        "sha256": "8f0005b9e84c73e803f7d32b216d5318970fd32e8545183a9b13c9afb4303d8e",
+        "size": 130507
+      },
+      "asset.meta": {
+        "sha256": "cf1471b1bb47843c627c8c496eb7f713be902e3f6a3ae86f4fd6ece4092cdda7",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese/01Unity-Chan License Terms and Condition_JP_UCL2.0.pdf\n00"
+    },
+    {
+      "guid": "5cd0c7ea8d999e94e916266891ae8e1b",
+      "asset": {
+        "sha256": "b384fd009be74be506bd44c7c9cde335cdab775ed41641011b4cf827b4746ef3",
+        "size": 162142
+      },
+      "asset.meta": {
+        "sha256": "f626ff5a4073dd71d12cda4982dbf95c9020a03029604393937e77fe2ba38c26",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese/02Unity-Chan License Terms and Condition_Summary_JP_UCL2.0.pdf\n00"
+    },
+    {
+      "guid": "e6d5edea9833d1f4d8b0ee91b8c75fca",
+      "asset": {
+        "sha256": "aae2bb2fb1560166e6bd0dc3655844d6f9c19012dd62a8aea2cc67372ac81703",
+        "size": 139414
+      },
+      "asset.meta": {
+        "sha256": "cceb8649656772f705d1a6c5bc91e94df0c31649d1ea4a115eec0cdf036fe7e1",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese/03Indication of License_JP_UCL2.0.pdf\n00"
+    },
+    {
+      "guid": "6312541dd95342f499d6cc3ab68a2a19",
+      "asset.meta": {
+        "sha256": "610a8d8fb1fddd1c7565ab4f99a4c92de48702a6a108a0c9a4cdb790b920959e",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo\n00"
+    },
+    {
+      "guid": "1617c1395163ac64bae61a3ff56a3bcf",
+      "asset": {
+        "sha256": "29e3496972cbf7427bb73f5aa29ad33ac76e145eab947f969f606ab2f0e5b1d3",
+        "size": 203502
+      },
+      "asset.meta": {
+        "sha256": "74e1c5f54d5bb7f436308e3b8d58776ce0a2cfc9d44ed484287162f621d2f603",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_LOGO_rules02.ai\n00"
+    },
+    {
+      "guid": "06a4adb20e6561b4a9e89e59f9722b6b",
+      "asset": {
+        "sha256": "79bf93338777bcd70b3fe49367c8676626b651c300c98b7188a65ab29e51eced",
+        "size": 390557
+      },
+      "asset.meta": {
+        "sha256": "ca610b4ba11781008ab280fefb195b09ab43dbec6071b3d4e5b3a62096c45254",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_LOGO_rules02.psd\n00"
+    },
+    {
+      "guid": "12e168b41c4c4aa4f814e627039cf805",
+      "asset": {
+        "sha256": "3ff94c47d633f8b8b13ec34633c90570b014b2a25f32bef79449ebd6c04b24dd",
+        "size": 2444810
+      },
+      "asset.meta": {
+        "sha256": "e515e0b525eeb794150e3f657eb46d23eeba4ad1db7f275ea61e9ea25363e7cb",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_logo-guideline.pdf\n00"
+    },
+    {
+      "guid": "8749e0bd2469ebf45b4b27bc3492eca5",
+      "asset": {
+        "sha256": "670599e9287b3b325ae177e7b82f4d1a792dd239fb065c27acbb430222f96281",
+        "size": 3229950
+      },
+      "asset.meta": {
+        "sha256": "544c19d7efb54cd226031e58ba55737ba1341f13a6e69f0cf2fb576d65b67869",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_logo-guideline_en.pdf\n00"
+    },
+    {
+      "guid": "503574da3b90e8c49a6727c11d6ab22f",
+      "asset.meta": {
+        "sha256": "b8656b6a6418a3981bcad184effa40b6ca32f9fc2b4eaa58751d9a4922d9d462",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others\n00"
+    },
+    {
+      "guid": "d829eb4a497a68c49a76e37c06e4ab72",
+      "asset.meta": {
+        "sha256": "252eacd5e99f82d01c3f88675f7cdf0ac1afa0665926328e3c23879764e6d62a",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/jpg\n00"
+    },
+    {
+      "guid": "497d11b1c639389469a4e171337e4c33",
+      "asset": {
+        "sha256": "9d9dfccc7f5e239ce865ebd4a3b002696536af7ec0b6ad734084047f08a1c32f",
+        "size": 13704
+      },
+      "asset.meta": {
+        "sha256": "97221a279057066d1923b225cb6b4e498604dd932de01c0b7b52b1940130198b",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/jpg/Dark_Silhouette.jpg\n00"
+    },
+    {
+      "guid": "bac27a6732cd46a4bb51a28a3419820b",
+      "asset": {
+        "sha256": "6e512059ffc94c07f8b6ade9ef17ee53308d558819679a9d4e39008d0e802f51",
+        "size": 13700
+      },
+      "asset.meta": {
+        "sha256": "9676a7087084695530808becc83f5d0b423e58ac5953408790c087053224f679",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/jpg/Light_Silhouette.jpg\n00"
+    },
+    {
+      "guid": "cf8a994e76d5df04e978a66a2a1c945a",
+      "asset.meta": {
+        "sha256": "d9c34d9ba525fc5ac90b570c045a4d30b01c74558dd8d4e822f7be3d3f9f008b",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png\n00"
+    },
+    {
+      "guid": "6b5e4d02329861a47a0dc02fddd443fc",
+      "asset": {
+        "sha256": "a6553d5a928b34067f40a7775218c88c26d61df750974c165cac873599697b80",
+        "size": 9251
+      },
+      "asset.meta": {
+        "sha256": "e47664b5d577fbc64f3d312ee5ba741805297e0cb75b24dda5b34bb067a856a4",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png/Dark_Silhouette.png\n00"
+    },
+    {
+      "guid": "76d945996802d79408a971d78e8b6769",
+      "asset": {
+        "sha256": "e347a9f3d48a61a42a2b1d24da81cfe604a0595187c128f930ba1bc43618768d",
+        "size": 12620
+      },
+      "asset.meta": {
+        "sha256": "9ebbb7a71bb4b75ffc878906c257cee3fd5c11a0eaea1f55982c6d415973f030",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png/Light_Frame.png\n00"
+    },
+    {
+      "guid": "86eefddfd681aba4f8b1381d34f2d086",
+      "asset": {
+        "sha256": "e8d36c6c34c264a14a4bef08580b363ef0b2a12f0c69d28f9081ca065629e00c",
+        "size": 9102
+      },
+      "asset.meta": {
+        "sha256": "9fdc9bb265c7d799af801593c7e94a5ffb0c7f30ef46be768aad5904a6cb55dd",
+        "size": 3177
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png/Light_Silhouette.png\n00"
+    },
+    {
+      "guid": "28c4ee9e1f450cb4689aa7de7a021340",
+      "asset.meta": {
+        "sha256": "19f536b8809072cecbae73f355c5060c7ee235cb6100e236e8511367ec7ef541",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg\n00"
+    },
+    {
+      "guid": "149180168381eb44d947d82ed4e54d91",
+      "asset": {
+        "sha256": "ac4c3ffa5c8351e644dc855e3ca2c8b133ba3d3ad5e7115fc68e1d0f39eb2637",
+        "size": 15060
+      },
+      "asset.meta": {
+        "sha256": "f3120daa7a71d847d2eeaa71244b4b041831f4cab9f2a7258cebbadf01942855",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg/Dark_Silhouette.svg\n00"
+    },
+    {
+      "guid": "62e7de5702ca2f34bbe1af809b3ba3c4",
+      "asset": {
+        "sha256": "50c69d51c1222bf50d68d929a67a15f55cd1758f1ace911737519da230abe077",
+        "size": 15096
+      },
+      "asset.meta": {
+        "sha256": "b8df3b4301e20a18332e85f544139307c7717c407d8bcf114f996eb4cc353f14",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg/Light_Frame.svg\n00"
+    },
+    {
+      "guid": "cfdb094a636fe3d4499b2563b44b02cb",
+      "asset": {
+        "sha256": "857769e48980fbad028fb625479bbb4e67a1a9d2543991519875feef72a9a0a9",
+        "size": 14189
+      },
+      "asset.meta": {
+        "sha256": "a6695e66dbbfb34a39bfd7009c34622d20bbaeff5d970838651127462829e8fc",
+        "size": 155
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg/Light_Silhouette.svg\n00"
+    },
+    {
+      "guid": "d113a5a2048656542ac2af56b09ec186",
+      "asset": {
+        "sha256": "3c8a14d4f99927b2fe4ae057195dc317ebad41d5d478cf1419d7b4fa93352f05",
+        "size": 779
+      },
+      "asset.meta": {
+        "sha256": "2b7659c18b2571cfafda10fcee337efb0da83b7377db90797cf0f2245c6fc048",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/Unity-Chan License.txt\n00"
+    },
+    {
+      "guid": "a80f50620f244964096eade0620fa59e",
+      "asset.meta": {
+        "sha256": "75290f5f641673ec59e6a340a8f5743e426eb5dabc1695eea8e95195251fc6e0",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA\n00"
+    },
+    {
+      "guid": "5e25e364af1d1754e9b3493961e9cc6f",
+      "asset.meta": {
+        "sha256": "f2f416997bb5bd7a1d2edd16a0cf32b4a0e1951346b6059851bb6a095247726d",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation\n00"
+    },
+    {
+      "guid": "d57512b99bc2cc84f92c873f858d9714",
+      "asset": {
+        "sha256": "ec5187d084d6cfaea06084cd27748ae750bbbda84527d5d07b7d53fd676c00aa",
+        "size": 2721173
+      },
+      "asset.meta": {
+        "sha256": "da48e861b29a6a644d19a0046bc5f1aadf48d6b071753d7b2d48d59c6277dcd9",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/RUN00_F.anim\n00"
+    },
+    {
+      "guid": "6f7e0371a1f07ea49b5d6fe4d634ae6c",
+      "asset": {
+        "sha256": "587ae56d783c5e7b4e2957853d20f4a0e804c6c22d3e43dd39db52ed1f68ed46",
+        "size": 31696400
+      },
+      "asset.meta": {
+        "sha256": "194bc5595ecc3e1929aa7c8bc2722eeb987305d980ffd25cadefb85884ac5893",
+        "size": 33395
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/UC01_001_UniteInTheSky -WA-.fbx\n00"
+    },
+    {
+      "guid": "2a7cc8d66d3c2fc46a54cbf3d95e3b2d",
+      "asset": {
+        "sha256": "7827af0acb04f7f5f6b8569a0fbc708dff4b0e381f031f8605bf3a607161333d",
+        "size": 25064552
+      },
+      "asset.meta": {
+        "sha256": "147562eb702d6cc07e0038569520bd951d944e42500634fbc4adace5bf5bdd25",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WAIT02.anim\n00"
+    },
+    {
+      "guid": "3a954c05a2f94004eaff3df94a45c3ed",
+      "asset": {
+        "sha256": "ccd5c7d567c916601ee4d0e3d8506d44fdc4e4cd2b64d7a628283b3b0d2b5a30",
+        "size": 16168563
+      },
+      "asset.meta": {
+        "sha256": "9625bb34850c56b3f70993c6efcd78b0f5e79ae3321c17eba740693e24311ba4",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WAIT04.anim\n00"
+    },
+    {
+      "guid": "be35c3e99cdcca3439901f433aab54b2",
+      "asset": {
+        "sha256": "286cfc46c72ddda7671fdcba313066d07983320aff1729689c88df33779065a8",
+        "size": 4192184
+      },
+      "asset.meta": {
+        "sha256": "e96e3d942f36b39c7211b4b6aff43d6da716daa70819e2be5f7c437af9862982",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WALK00_F.anim\n00"
+    },
+    {
+      "guid": "b5c22dfc5073c0c4f8c6d57c904f221e",
+      "asset": {
+        "sha256": "e46057c115918c40c09aba4424a69ff8582e34c3cefbfebc010ec0f743a9d2e8",
+        "size": 9027442
+      },
+      "asset.meta": {
+        "sha256": "7b3cd84797f973b680b9efcd3cc1c68e8ad89ad1327b7f9bc3da1e72b4c158fe",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WIN00.anim\n00"
+    },
+    {
+      "guid": "5d11ee2c7b51931438dd5531964bf875",
+      "asset.meta": {
+        "sha256": "9b76200f7ab307fc2285716b0977400cfd02f2a3e2bdb28d880090c08c5512bb",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials\n00"
+    },
+    {
+      "guid": "20a9ba0b540ef7841a222d3574fad507",
+      "asset": {
+        "sha256": "5d3a1d6022c269957e2cdb2d93e816cd326383a739bfa0ff9a3bf68932846dfd",
+        "size": 2198
+      },
+      "asset.meta": {
+        "sha256": "77806b72706ae9a3011c43096ce2cdc0b61752d6dba02e8996e97d2e9d263ff8",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Albedo.mat\n00"
+    },
+    {
+      "guid": "77f776792836777419e18b9aa061fb0b",
+      "asset": {
+        "sha256": "456fe0d7fabb57f6dc5659de251ec66263c8afbf0f20e98555519defce4925c2",
+        "size": 11980
+      },
+      "asset.meta": {
+        "sha256": "ba965218fce0045b08d023ce309a7dc84d1c384560e24903342bd7252eee40ca",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Body Back.mat\n00"
+    },
+    {
+      "guid": "2f1752b96ee4af7438efa446bf057ee1",
+      "asset": {
+        "sha256": "652fff564c98e4a1fcb22722ae56da43495a74ad50bda1a03887556620a5c454",
+        "size": 11975
+      },
+      "asset.meta": {
+        "sha256": "4e19616b5291ce90cc0996e150002d31e5061753da7d716d87cd30dde6efdb1e",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Body.mat\n00"
+    },
+    {
+      "guid": "f72ba1415e9cdcf4eb6a64dd69cc4b31",
+      "asset": {
+        "sha256": "4037c739a5bce608ee9386868c2fc60e2acb5e49c1ea80522de34d15e9eb5077",
+        "size": 12046
+      },
+      "asset.meta": {
+        "sha256": "9c264590488bf63bfaf6962e12e66d1662e6e10f0dc15d7e0dd55c8afb1de608",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Eyes.mat\n00"
+    },
+    {
+      "guid": "b252b15c283524a45afa12c94b5a2853",
+      "asset": {
+        "sha256": "6f4b96b06fc835c3b2447fbde1a33f6d938da3045ffd4eefa76803ebbb68c48f",
+        "size": 11689
+      },
+      "asset.meta": {
+        "sha256": "e9935b3430690b250518bbbfff5378a7bcea0001c12891e583a9844136889e14",
+        "size": 182
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Eyes_HL.mat\n00"
+    },
+    {
+      "guid": "4bfb8e345eea4574ea3848039a393243",
+      "asset": {
+        "sha256": "5817a0cf602cf4cbf9425512940638be486c5f8e9af9b3b394f3ac09b135b3d1",
+        "size": 12009
+      },
+      "asset.meta": {
+        "sha256": "54753b54b6be8805a1bb59f4114265953faa776025aaeec21b2fe0ca64911b57",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Face.mat\n00"
+    },
+    {
+      "guid": "8d079bda1b056ab40aa9dc79da22441f",
+      "asset": {
+        "sha256": "e7f347dee3d409c98d396f743efb35b16ac58a5f3f3653c5043d291b930f8e71",
+        "size": 11664
+      },
+      "asset.meta": {
+        "sha256": "32e62ecb8955da4951fe43ea947dee9b74cd30598ab720ff9e7bd9a015f5cb8d",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Hair.mat\n00"
+    },
+    {
+      "guid": "3ef43a7ac036e284a87d9da91a23d66d",
+      "asset": {
+        "sha256": "1824a07ed42c83659c4b2c693fbc0b5571e2aeaf2aceb29cd6bdeb30bc273bd6",
+        "size": 11676
+      },
+      "asset.meta": {
+        "sha256": "f8dc4f71b8e7ddcb273d435e457bac9d9ece875ad6079d900f0b2a915367b361",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/HairPony.mat\n00"
+    },
+    {
+      "guid": "c16b248a968fde5488f78283549588ca",
+      "asset": {
+        "sha256": "01289e61daf2506a901a02bbb7836100ed226f008a8d78c25b67bdab6e1be07e",
+        "size": 11725
+      },
+      "asset.meta": {
+        "sha256": "5cce0b5bc5af7447489c0f9bd6cf77e29ad1a5683d9fddac17b4d2c4fb405177",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Headgear.mat\n00"
+    },
+    {
+      "guid": "1f9555b9b84a8db44b796ecf62912b2a",
+      "asset": {
+        "sha256": "6daf0e670f411bb4b1e284693977b3874a106b10d9585f0430b38afea5fd5ec5",
+        "size": 11940
+      },
+      "asset.meta": {
+        "sha256": "a0c6bc54956c3b353269b6d3afcb8ea19adedb291ddc5e2a0be68f001ac7ad76",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/LongSleeve Back.mat\n00"
+    },
+    {
+      "guid": "002064652c69eba4699de7e0319b02dc",
+      "asset": {
+        "sha256": "9e0e4cff78188dcfd346a15c2d1df4fe4c1ff9e6ed55b30700376c5d5da83493",
+        "size": 11990
+      },
+      "asset.meta": {
+        "sha256": "9048826ac3b96aeee231de60501e90785afbddf2d7471d12c48e9b7b3c7704d1",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/LongSleeve.mat\n00"
+    },
+    {
+      "guid": "cc28b9ef0843c9746a5a8276ed0f876a",
+      "asset": {
+        "sha256": "eb99f0ccc69c148d11945d86b9ed419bf063a8644a0225674630df59f1a82888",
+        "size": 12044
+      },
+      "asset.meta": {
+        "sha256": "192cbf3de1169bdde840d14839f08b97abf931017f10c576a05a6bd04db558da",
+        "size": 209
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Skin.mat\n00"
+    },
+    {
+      "guid": "efacb57bb1f8f0340a7d27ddde68f694",
+      "asset.meta": {
+        "sha256": "576719c7b88e2cb97b0493c4d573f5661472a09c16d8e83408f4b27661fcb2c9",
+        "size": 193
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX\n00"
+    },
+    {
+      "guid": "6b19b3993b4a0e14096972aa4c5b57ce",
+      "asset.meta": {
+        "sha256": "26905db4999b4f6e8b2e4b57d0bdd2c0aca885e361a424ed7d9015b2197adceb",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG\n00"
+    },
+    {
+      "guid": "d1e50199c6f08ed46bf2d136ab225409",
+      "asset": {
+        "sha256": "413d2b06b45982532a23fced5cc6f47bf645e42edccf7ff163d9c273772fef47",
+        "size": 9543528
+      },
+      "asset.meta": {
+        "sha256": "5ad034145b5f1771babe70f8d03953801bf75fd389cf84f2c25a99483fbe4285",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Base.png\n00"
+    },
+    {
+      "guid": "dc71d88ff73488f45ac239b21f552745",
+      "asset": {
+        "sha256": "c262520fd86d46d5c8726347171b20f1a10691eee57f973aa2fbd5e4e1b93488",
+        "size": 3170257
+      },
+      "asset.meta": {
+        "sha256": "4cf7e5719267e709cfd6f9b2970bacb8a14e36bce8b3f2a7d1166f19f53010ca",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Emi.png\n00"
+    },
+    {
+      "guid": "7c75a3dfe8927774ea56a0777d1edcf1",
+      "asset": {
+        "sha256": "5eb3b34acefe0e43f3b499bb679b91eb322daf963ea63b4cb4e09c9a1679eb17",
+        "size": 1765521
+      },
+      "asset.meta": {
+        "sha256": "e8b70aa1b00496259279a5910f44324ed7eb56dd0bc574500eadced2dfce402d",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_SGM.png\n00"
+    },
+    {
+      "guid": "f180dfef53ad0924882657e28833a60b",
+      "asset": {
+        "sha256": "da051ffea3268e6d3bd8baaca33a02bfee336169b5d9493d2f2a76b433e4cb48",
+        "size": 10374433
+      },
+      "asset.meta": {
+        "sha256": "a445bcd7d8e63b7b851d7d9cad6be80adf01b24cc9c0fc0dbe1662414d2a6dda",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Shd1.png\n00"
+    },
+    {
+      "guid": "9cd90983043e3974e971a6c8d66cc42d",
+      "asset": {
+        "sha256": "6a7b180ce3ca5e3546920c1293a9a46d5e7d51122437161d7309e5721e2c51b2",
+        "size": 9765866
+      },
+      "asset.meta": {
+        "sha256": "e871103ca7d47733db7526bf3b4c3bb2230af9c8830fac2dc10dd24d972e5b67",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Shd2.png\n00"
+    },
+    {
+      "guid": "a01adb17bdc53ba4da348b3cba074154",
+      "asset": {
+        "sha256": "e47f968aa338e0b9701d6e4fec1ec6a6103e5e4c2a3582f2b120f297cc14375f",
+        "size": 321265
+      },
+      "asset.meta": {
+        "sha256": "46ff521ffbf2d2816a9285e547d6fa831dda31c76b17b8582ed20777ef4efdbd",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Spc.png\n00"
+    },
+    {
+      "guid": "7275e6b9fb5d06847b114e33f0ab8ca6",
+      "asset": {
+        "sha256": "5cf66c73c477e167c528d4c8ee309d2f511ea08a7fa729dbb1355a153b4ddc75",
+        "size": 260026
+      },
+      "asset.meta": {
+        "sha256": "9a9bcea098aa002d304cd34a77008dd8cadabe9c101dd3652a66639470231a16",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Base.png\n00"
+    },
+    {
+      "guid": "5a8dc6b89c866b546a4b2beebade28a1",
+      "asset": {
+        "sha256": "7158ee0b8947b690d57c7ebe365d43ceed951af27de4ede5465f08a0d8b4d32e",
+        "size": 230512
+      },
+      "asset.meta": {
+        "sha256": "2c763fa3b6e7cd30219f8d43e85ae7f2496f090c1e6bf5ae307167f9522d9dbc",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Emi.png\n00"
+    },
+    {
+      "guid": "c5acb3acbd64e734b838b254bb0ee4d8",
+      "asset": {
+        "sha256": "bf12eabc1da69ba191742a44d0f6f6e1b96b63087688a8783f3acca29d42aa81",
+        "size": 102715
+      },
+      "asset.meta": {
+        "sha256": "b9a36dd833e085cf88be55c07eb506718d28d71c6a1442b5da275e37fe404e57",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_LSM.png\n00"
+    },
+    {
+      "guid": "b925033b206f79942b43d77ac699fc72",
+      "asset": {
+        "sha256": "b9c68db6072ad182cea54cca38a6a4a25b49cd87ec952c5ed2dcabf05ff05b65",
+        "size": 86398
+      },
+      "asset.meta": {
+        "sha256": "b743024c2dfe347ac7591e455f9b6613cf6c9c3841fa1c8d10e704e7c6ea1a33",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Rim.png\n00"
+    },
+    {
+      "guid": "ec3cb3dfef7e49a4eb0c10040e9733df",
+      "asset": {
+        "sha256": "3b9ac40f88f5bf17e0b2ef428ff3312d1f447d1815fc2444973e30cb6b5f7841",
+        "size": 98781
+      },
+      "asset.meta": {
+        "sha256": "1ea46ba70cce98fabc49a54b5986d9d6856b5e7eaef3e33533c2c1073b244ea0",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_SGM.png\n00"
+    },
+    {
+      "guid": "6ff07624f73f6184f84deb5ba5242590",
+      "asset": {
+        "sha256": "8db3560c1424d3ba10c2ba06f19819eb0462425810d71bc6a55d788ea9479859",
+        "size": 268553
+      },
+      "asset.meta": {
+        "sha256": "1ce65e9c2fd9d8ac79dac49271a092ea1fffd97ba7a1aedfffd1762071123511",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Shd1.png\n00"
+    },
+    {
+      "guid": "7d84fa1a7f8997342ba010124f77b1e8",
+      "asset": {
+        "sha256": "dd28c03f9d89091ee7a82bfa4a9e5d230421dcb1aba9caf75e743337c2adf609",
+        "size": 268629
+      },
+      "asset.meta": {
+        "sha256": "6672034c2b348f2668b21fb6a72acb7f77320872a9ae402497b6f8a6ad95a757",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Shd2.png\n00"
+    },
+    {
+      "guid": "0620c25d224d4d543936ec89321802b6",
+      "asset": {
+        "sha256": "4d8620f39fbaad23dc56ec31df23f3f4d46c9be6c1a8ff19d080e84d66882f35",
+        "size": 372684
+      },
+      "asset.meta": {
+        "sha256": "61f2ca9c64a971b5c509922f44e3d2f0e995358272fe857a95def090a26393ce",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Hair_SGM.png\n00"
+    },
+    {
+      "guid": "a4a14922fc4479241aef660b68c498f5",
+      "asset": {
+        "sha256": "da00d9d928e847d49fe1ec22263432932153c05ec68349b39db07340c6255a2a",
+        "size": 2521344
+      },
+      "asset.meta": {
+        "sha256": "ab66cfc171fa509a066a1494b3f374e0cea33be1e2c8971df006f52c36996bbd",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Headfgear_Base.png\n00"
+    },
+    {
+      "guid": "415a7cc21eec4e94fa9ae0b2078f352c",
+      "asset": {
+        "sha256": "10e54eebda12bc8de706e629932a2b1d241da9e9d8a4fad33a0ea821ce7447f5",
+        "size": 406064
+      },
+      "asset.meta": {
+        "sha256": "2215215c7f291db53c8594ca01f0f41d36bb8b19c64bb47a21c914846efdd31e",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Base.png\n00"
+    },
+    {
+      "guid": "5ca59e98250004241ac83aa8c82eecd3",
+      "asset": {
+        "sha256": "1242757658345a7c7bfaddfec2a9944c61daa1f794fbe465a8dbea653768f457",
+        "size": 293959
+      },
+      "asset.meta": {
+        "sha256": "2cbdf38941e82a7b0c70208358616be4bea2b720c1333fccaf1516c242710346",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Emi.png\n00"
+    },
+    {
+      "guid": "4d07b49e5565791478554cb770c6f8d2",
+      "asset": {
+        "sha256": "aabf7397cffbbf5e209157f5ec1c47717f14370a392d9afa8cd18638db6a0fa9",
+        "size": 608907
+      },
+      "asset.meta": {
+        "sha256": "374ef329da3455fa4198a7301971acfcdb1d87afaa5e44f1cc3bad6bc3893d81",
+        "size": 3375
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Nrm.png\n00"
+    },
+    {
+      "guid": "55e006481a55b4947b38566992e7bfd0",
+      "asset": {
+        "sha256": "774a8fe5d58bf0a48898206672ac24ca0f0ae40dd422f5af225e189c18bf9fa0",
+        "size": 286855
+      },
+      "asset.meta": {
+        "sha256": "18aabe87084a9c2331b5b42438afd6b47b6b06cfe3af0f63044542b8a78901da",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Rim.png\n00"
+    },
+    {
+      "guid": "98574cca734649441bf1127cbec80f76",
+      "asset": {
+        "sha256": "f0d13bdf956f09705154514a3f861e3cea51bf7776a7718834993c084f161118",
+        "size": 537789
+      },
+      "asset.meta": {
+        "sha256": "6bcb08ec0fe097ce7055a7d18c75daa27e0215dc44474f1356487d0595469dac",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_SGM.png\n00"
+    },
+    {
+      "guid": "3f05059980aad7443bb782b29a2af1c3",
+      "asset": {
+        "sha256": "0b47f16c94dc4b99d7d6907669db8cef8917c79897a713ff5f3ee935960b65e5",
+        "size": 444876
+      },
+      "asset.meta": {
+        "sha256": "0c51f025727b4991baeac4820eab827e74f12315246a12cd091177d1df822584",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Spc.png\n00"
+    },
+    {
+      "guid": "b992e82399d98b44e85ee1318110377d",
+      "asset": {
+        "sha256": "ca028916e819332ed16de576c9c89d3b871b92139faeb9fe6d31ac4fdb5ed1aa",
+        "size": 350979
+      },
+      "asset.meta": {
+        "sha256": "a6409e31c288a8968486381473b2b0af75c16d4837b302d38f70dfcf67eea422",
+        "size": 3374
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_SpcCol.png\n00"
+    },
+    {
+      "guid": "4eea2ba65c52fad4b88ac8e9d67c594f",
+      "asset": {
+        "sha256": "7ae8eb82dacb63e8df4b8a419f116d5aa3442258737b1d627c275697830b5394",
+        "size": 5482
+      },
+      "asset.meta": {
+        "sha256": "8dfb5b9af81af488e4b33da4b7e448fd48f33bdcc39bcf2acdf2268963cf986b",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/face3_main.mat\n00"
+    },
+    {
+      "guid": "2907c0cac24ed4b4c93075f883200c46",
+      "asset": {
+        "sha256": "9b08ed62d045e6f6e3230de75d3c40d9800e08d22bd6e392d0b1e2e1b3b22153",
+        "size": 5489
+      },
+      "asset.meta": {
+        "sha256": "76a09b30f215d2141952d5114e647d0540587b7acd4bd42b5260789463d1e7a4",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/headExt.mat\n00"
+    },
+    {
+      "guid": "5d5603d7af037e1498d1f99450574dca",
+      "asset": {
+        "sha256": "d98c65ab05dcfa728e9656172a86c2553c9f5628c2e08906425b3a0ae376393f",
+        "size": 12133
+      },
+      "asset.meta": {
+        "sha256": "9c1064054d07f0bb29cc8063756eb3babf5aa4dd5eb4b795873149fefd86e0dd",
+        "size": 188
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UniteInTheSky.controller\n00"
+    },
+    {
+      "guid": "13d8e3dd1da9f6845b5d673e9ac54ecf",
+      "asset": {
+        "sha256": "0b3e2eb35233f716fa175d5da35f8ae55c4e20e92025bb12f45f819e404b03f1",
+        "size": 7144380
+      },
+      "asset.meta": {
+        "sha256": "b7a8773c75eb8c4432391bbc74a7526a1469d351bcf8cca065404967badd1b97",
+        "size": 97437
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UnityCHanKAGURA.fbx\n00"
+    },
+    {
+      "guid": "c221ca113bd2c6847887aae336c65708",
+      "asset": {
+        "sha256": "cf2ace95aad5ab142fd7d5293bc05aee10a1d5fe0f6e7cec26e66d594df0c4b2",
+        "size": 1055651
+      },
+      "asset.meta": {
+        "sha256": "85b162bdd5f10287ce3bff25e29228a5043627280cd34cc762d04a5d672a4a5a",
+        "size": 154
+      },
+      "path": "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UnityCHanKAGURA_MC2.prefab\n00"
+    },
+    {
+      "guid": "406190ab8ee569c46bc05a890e5127a0",
+      "asset": {
+        "sha256": "f611c4c1a0f1cbceb7426c550978e8b8b864791ce37014dfa0d23210cae47633",
+        "size": 901
+      },
+      "asset.meta": {
+        "sha256": "31c242c9e6cb641b3caeae8c92cf9e01ebfe758511be29a1cc0fa8ebf9d56d66",
+        "size": 166
+      },
+      "path": "Assets/MagicaCloth2/MagicaCloth2.asmdef\n00"
+    },
+    {
+      "guid": "c7df889e086412e46a2da4fb58d8fd0b",
+      "asset": {
+        "sha256": "7cfa881acaba23f4019ac24095084eb82aeae666a0fb6f22fceac3c7290b8abe",
+        "size": 1720
+      },
+      "asset.meta": {
+        "sha256": "95842787e82286da0d6f42391a7ce6e6830b1dfa0f4348d57d8a0b9b63ba1dd2",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Readme.txt\n00"
+    },
+    {
+      "guid": "73816f2cd0da25345afb170423318b5d",
+      "asset": {
+        "sha256": "a4a2b7a41f0fc3b15af0a344a9765c69eb1780f2c6406d3ba1e50bc3a1bdcaaa",
+        "size": 2110
+      },
+      "asset.meta": {
+        "sha256": "47c4378d5f0711a3dc891af1b57d41f89b1d98b7c35d675e9f2150238b771ac8",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Readme_jpn.txt\n00"
+    },
+    {
+      "guid": "d6123dfb6786202488da533186450913",
+      "asset.meta": {
+        "sha256": "99a67e7d5d12695c25d19476d685af4b509f9eb7b3839f8590759d149ccf10c4",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Res\n00"
+    },
+    {
+      "guid": "b423dff8e87989b4a97592892c3a6df4",
+      "asset.meta": {
+        "sha256": "576d80f1c7834e94a0818117868d7afd3279156a24e7a6ddaa8407e5add0bcd0",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Res/Icon\n00"
+    },
+    {
+      "guid": "cf7e3400035e987478c3a19e57b4cf75",
+      "asset": {
+        "sha256": "0f8369c86b1695a0a80f25375715200b922a2c20ec6f3292be71ce23d6923421",
+        "size": 931
+      },
+      "asset.meta": {
+        "sha256": "621b18c223e47a5421fcebfa7fafeb365e8eb4499d1d818ba2194ee0ca4e2652",
+        "size": 2860
+      },
+      "path": "Assets/MagicaCloth2/Res/Icon/icon-cloth.png\n00"
+    },
+    {
+      "guid": "db1f683d4db92254e93d234d88f6cd1d",
+      "asset": {
+        "sha256": "9c87f0c91057a13f60265155b0b340f5535c6fc210f5a8dc80883e4ca2c819ef",
+        "size": 4475
+      },
+      "asset.meta": {
+        "sha256": "641442258161320e8ce71a53366ded1068198ed0d2eef1b4c5d71a3c431fba46",
+        "size": 3188
+      },
+      "path": "Assets/MagicaCloth2/Res/Icon/icon-collider.png\n00"
+    },
+    {
+      "guid": "4b0d1adb21ff82e4e8e9ea02f486a85f",
+      "asset": {
+        "sha256": "fe828b360d4c32e569f13e8919d4b6a0a1a4de8d12d2b47bb99f5d361023f02e",
+        "size": 3507
+      },
+      "asset.meta": {
+        "sha256": "ca7d9c60753819372a1c60ef6cd515039ecf1edf1e26487bc66444dd0e220829",
+        "size": 3174
+      },
+      "path": "Assets/MagicaCloth2/Res/Icon/icon-settings.png\n00"
+    },
+    {
+      "guid": "28008cd7b4b7bb24482a4260fbe8c25e",
+      "asset": {
+        "sha256": "573222aa068255bd58533a19e667a3a1f941a32589fd5961ff11658aba507892",
+        "size": 10349
+      },
+      "asset.meta": {
+        "sha256": "44622d8484976634aa3325daf5cec787c31694e131719619759976cd050ed078",
+        "size": 3174
+      },
+      "path": "Assets/MagicaCloth2/Res/Icon/icon-wind.png\n00"
+    },
+    {
+      "guid": "1855ce0df2330234dbaf3ab95ef26ba6",
+      "asset.meta": {
+        "sha256": "5c6269d11b6fd22bb980fd97c847f8d37b31caf62bab6ee066fcb54df12ec086",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset\n00"
+    },
+    {
+      "guid": "42bb4454dd53bc541be9d7166cbbf61e",
+      "asset": {
+        "sha256": "9230b1b99e7f2a1a4792abd4aa390a94944a620e166e3b5268f64106f17f07d6",
+        "size": 6293
+      },
+      "asset.meta": {
+        "sha256": "db396fa72257a97875c43d2bc2dfd01a0a7c43bcb0ef22f1ecf7ed6d3070d2e3",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Accessory.json\n00"
+    },
+    {
+      "guid": "72735c72edd9bb340b389ee4f7ccc363",
+      "asset": {
+        "sha256": "e9d58113a22f6e8405a83f620ffc94255740d6d2f47515f921f30dbf2a6d21a9",
+        "size": 6288
+      },
+      "asset.meta": {
+        "sha256": "aa8a7009acb13e1ebe4fb70b263e1ecf8f76f09cb5430b9e4ecdaf7d6b75cf8a",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Cape.json\n00"
+    },
+    {
+      "guid": "59cdb0fe679574d4fbd4caba5eef451b",
+      "asset": {
+        "sha256": "c4525fcb0d6edbdf1cb9be2320e0183d2b16c0431174a7bfbf77d7b1045477ff",
+        "size": 6304
+      },
+      "asset.meta": {
+        "sha256": "6661141fd3b252f8c1badeb04c0bce52ce84dfef687784c0221908016fa29601",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_FrontHair.json\n00"
+    },
+    {
+      "guid": "7c6ab357392efc7428b1f002db37b9f2",
+      "asset": {
+        "sha256": "547af0e1cd8f916d6157753c9558eabd5c1b1a605aac76e82014afb828ab9a45",
+        "size": 6151
+      },
+      "asset.meta": {
+        "sha256": "b5a4b615fb4299707599ff248c7a1e5a154d55d314c1fdd5deb56885688bf2b3",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_HardSpring.json\n00"
+    },
+    {
+      "guid": "b688db48dba7a4b4f8c485ce7bd853aa",
+      "asset": {
+        "sha256": "bca2069de6a5b90981188c4f1292c6ad78b2cd3e090f35373c4d14dc36418703",
+        "size": 6485
+      },
+      "asset.meta": {
+        "sha256": "8c9bd6b2dcede50d55c9fee2a512a6e3951118c57691386ba84386b0000d71ac",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_LongHair.json\n00"
+    },
+    {
+      "guid": "68a74e7b24d750e498085ac9fe297e4f",
+      "asset": {
+        "sha256": "88480173e4c0cf1c93b6ac45231c3469d338b381ff862666572b69075a49f2cd",
+        "size": 6152
+      },
+      "asset.meta": {
+        "sha256": "f712f57f2c64df49e2cea5d66b2e325f632f420a17f013768735a324f6f7072f",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_MiddleSpring.json\n00"
+    },
+    {
+      "guid": "60b35931200639b4a834d868c78aef6a",
+      "asset": {
+        "sha256": "f1a20e0284bd5a7aa34d85d7dbc87b3117037d415d24b931066cec8b15143010",
+        "size": 6414
+      },
+      "asset.meta": {
+        "sha256": "24f6762aef00514ca0533c8fbdb93146474c7827794fce4e96fbd7b7f74af469",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_ShortHair.json\n00"
+    },
+    {
+      "guid": "b94503c65e3e33243bd3dc5b47960b64",
+      "asset": {
+        "sha256": "ce17b1e7c8ec0e0a7e64828384d05c13da8efc0e7abdbb9f0bcb08c8eea2eb87",
+        "size": 6508
+      },
+      "asset.meta": {
+        "sha256": "495ba4c677bd55de48e8508d5b3f7f55accc3194685eacc5744020340607be3a",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Skirt.json\n00"
+    },
+    {
+      "guid": "95115815f2f656045acda9f116a05915",
+      "asset": {
+        "sha256": "08cc9455ecf800a606e73203f9c84603701e66a20348127da80a97a40420c9c7",
+        "size": 6575
+      },
+      "asset.meta": {
+        "sha256": "5d914baa338c362b731b9b3ada982ac3e51565a32a1c0b1fdf63a4072074fefd",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_SoftSkirt.json\n00"
+    },
+    {
+      "guid": "a53c4836c458cc34bbe7fc971a0e8198",
+      "asset": {
+        "sha256": "6ac65e79b165e423c680750ec4a5b3cd30b77b4755dc4b9e378823e17ee6149a",
+        "size": 6152
+      },
+      "asset.meta": {
+        "sha256": "2eb0199b0c7427488cd39a8214aec1c9fc7cf3d0849cceca79ee3c86d5e63c73",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_SoftSpring.json\n00"
+    },
+    {
+      "guid": "7caaf9c3e9b56af468785ce6ca87d2bc",
+      "asset": {
+        "sha256": "84399b8b65a155eadda37d373a27d89e268dfd987dbdb8f4cef21a194cf39dcf",
+        "size": 6343
+      },
+      "asset.meta": {
+        "sha256": "01ac56fea77f52dd71a042e3a84a182f5015dfbe34fd3398f67ef1dc1d79b6de",
+        "size": 158
+      },
+      "path": "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Tail.json\n00"
+    },
+    {
+      "guid": "4bcf05bcd5b995944867a92f1bc9e86d",
+      "asset.meta": {
+        "sha256": "107e0cde298b50505d1888366800a6af311b3fb0e8ad19dbce9e4fbc46430cab",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts\n00"
+    },
+    {
+      "guid": "59a207b400ba60d4781d33fac21726f1",
+      "asset.meta": {
+        "sha256": "a3d1e2c7e8a4a9961d042c6bdd5dca57ba7cc807f338b78a4eccc527109a7b6d",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core\n00"
+    },
+    {
+      "guid": "ab3867f2676a64143aaab90a3ac67059",
+      "asset.meta": {
+        "sha256": "d4cf8457de29b87568e004e81c5cc951ac29268b8df2a7d5a616ce716236ce05",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth\n00"
+    },
+    {
+      "guid": "ffc5377e82b4dda4e9276efa83bcd59e",
+      "asset": {
+        "sha256": "f8ae6511b802307e419044b7cacf3eec32b3ff71a57f2b718c94a025869d1dd8",
+        "size": 1213
+      },
+      "asset.meta": {
+        "sha256": "b97c0cf7cffd3e717d83bd220855e19a2ecf21db7c709d356a424266125d9174",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/CheckSliderSerializeData.cs\n00"
+    },
+    {
+      "guid": "ad3b3cf159e43e1489f421d5b1f49fad",
+      "asset": {
+        "sha256": "6426e3d3e16d501c4f8c8eff90bd0b91cee904fc83d8c0c1b5aaf124dc84b188",
+        "size": 777
+      },
+      "asset.meta": {
+        "sha256": "8634a715bbfabc2b7e4ef9f651796ec1de4bf1d26c1ef61b6302566435d22418",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothBehaviour.cs\n00"
+    },
+    {
+      "guid": "f572ed4fa93dcd444a44e59253bd3913",
+      "asset": {
+        "sha256": "e3a080969ea15d97eb7719f577d3b382765248395f972f66e8546df819b42680",
+        "size": 874
+      },
+      "asset.meta": {
+        "sha256": "e68c35589ff1e8d65b2e7f14e518f9148cf839be5065a31a36dc633ad470ddfa",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothForceMode.cs\n00"
+    },
+    {
+      "guid": "87cb8cdfb6686334d904a1e0c0536944",
+      "asset": {
+        "sha256": "83c3c50944da66da9bca3bf06aa8a71d40b1fab341d295d6b067406e462ca708",
+        "size": 9108
+      },
+      "asset.meta": {
+        "sha256": "d48592feabe774be98f8323600cfef9ab9c6536f65b6cdfac0cd08837f7371ba",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothInitSerializeData.cs\n00"
+    },
+    {
+      "guid": "c89429b06b0fde045af1104d0fe4d6b9",
+      "asset": {
+        "sha256": "fd812efe00d0770ae45a442d2fff9e42c3d9b400144c759af1e728d3f6da407f",
+        "size": 560
+      },
+      "asset.meta": {
+        "sha256": "d5ef0e526557ab61e40b1888ec41f9aa385d828c2fe81ea1ec7353a99fecb89b",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothMeshWriteMode.cs\n00"
+    },
+    {
+      "guid": "78c44c48c8886814eac01297e0df1b61",
+      "asset": {
+        "sha256": "f6997fc4c27b3aa35aba2bc478bf7deff19f96eb8a9c233c3ce4cc87ccb9085e",
+        "size": 674
+      },
+      "asset.meta": {
+        "sha256": "4f4ada66765409931ff6a4b2f5353ec69329d9490320628e22cb2332b99e4e7e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothNormalAxis.cs\n00"
+    },
+    {
+      "guid": "26334216fdc5aaa4ca50312fbad62c97",
+      "asset": {
+        "sha256": "ef26d0fb0f135d51e3c003651d4d800a9a87d840f97f59132290d53b8160b567",
+        "size": 3206
+      },
+      "asset.meta": {
+        "sha256": "3ffa2fb3aac4cfe49efe60a73907747e63c483077f463541617181070ea1982a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothParameters.cs\n00"
+    },
+    {
+      "guid": "704c6153c380ba94f8548d02490cfaf6",
+      "asset": {
+        "sha256": "d59e4037d6f860353bcdbc7e013dc3d256a3712d69d5e9cb87565430a2d495a5",
+        "size": 71569
+      },
+      "asset.meta": {
+        "sha256": "74d6d3ce83a2245baa6e479148d9da1ba5dedc6800b41ceb138a16151c4dddd9",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothProcess.cs\n00"
+    },
+    {
+      "guid": "cd76571c8c560a348bedf4b213ae34c2",
+      "asset": {
+        "sha256": "e9c02a0f3c10477dc0d48933f11ed631ee018c500b67bbe4a8c7ed92cf5db741",
+        "size": 18595
+      },
+      "asset.meta": {
+        "sha256": "f330dbd45083bad0b37fec792dc66bdd0ecf1e471fd369e67a9141365fd88083",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothProcessData.cs\n00"
+    },
+    {
+      "guid": "31501f387a912624eb66d16ddab79f29",
+      "asset": {
+        "sha256": "0a27ccaa5fefb9cf79a200ba1f54382d6771c2bbd833c2c9de756c9d770960f4",
+        "size": 4504
+      },
+      "asset.meta": {
+        "sha256": "4c702e52338d094292362cc8462566657144d956bd28f9af422c616039debdfb",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothProcessGeneration.cs\n00"
+    },
+    {
+      "guid": "ffd56578b2bf3574b91062060c05a6c2",
+      "asset": {
+        "sha256": "9cbc26193d44a0bea053db3033f15b10fd77b3fa6d80f4496496b652b2b4fc05",
+        "size": 8934
+      },
+      "asset.meta": {
+        "sha256": "e979568057fe281cb8d35aff28d9b1355c344bbede1aff4289a25523b78e0e98",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothSerializeData.cs\n00"
+    },
+    {
+      "guid": "02e311e7737a90a43a9a3d615e6b436e",
+      "asset": {
+        "sha256": "e0c52b9511efbf0509132ba0e052a663dc24f3a43930bfd0b35920cc2f4db01b",
+        "size": 3612
+      },
+      "asset.meta": {
+        "sha256": "10e2dce5b40d2145b095d92e62e510790961114a6fa51d791104475a7e7abe03",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothSerializeData2.cs\n00"
+    },
+    {
+      "guid": "8ef74f0c0b959154991c96c397b2ad52",
+      "asset": {
+        "sha256": "19c8b584a31724951c81039455ddbd9ca5ac4e0cc35da74d9503de25a918962b",
+        "size": 17702
+      },
+      "asset.meta": {
+        "sha256": "91c86176989e7c8dbb625d9c77c494bc944116a3abe24a666acb9ae37d6bd6ce",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothSerializeDataFunction.cs\n00"
+    },
+    {
+      "guid": "1377357dedc9a3344b49a8aa397d220d",
+      "asset": {
+        "sha256": "a11bbc0867cbe61b715ef1c5467c3f41f930a5cc91a7e79ec5af3ff9f8c3f088",
+        "size": 1033
+      },
+      "asset.meta": {
+        "sha256": "be60cb2efc8a70fc24a68affec2f70d1d6633225922b465a987cb54e583fcc31",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothUpdateMode.cs\n00"
+    },
+    {
+      "guid": "40021b99aa72bb340a13cdf419aa3226",
+      "asset.meta": {
+        "sha256": "08174da7f13069ec54a7fecef74b99e158950397451d4438b57f4eb892463e81",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider\n00"
+    },
+    {
+      "guid": "ce7d80df3961a0449ba9ba73c0038b88",
+      "asset": {
+        "sha256": "d72a7dc0d5d96233d5e7d869693120040b52e8171e4d96dba9caf0085c09fac7",
+        "size": 4677
+      },
+      "asset.meta": {
+        "sha256": "ce7bb49826e6ba907418af9a9ad0e610afb050ef10a6588b3ae1502efc86c6ae",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/ColliderComponent.cs\n00"
+    },
+    {
+      "guid": "e6f5338a96461264fb9a1132c8509672",
+      "asset": {
+        "sha256": "49555917656f209c041f112fa7c5fb60f13baa21d99bcc99c620a42df6e54178",
+        "size": 4052
+      },
+      "asset.meta": {
+        "sha256": "57bb2b14246fb463075cdd8a9d07bfce011313aeceea0dab92baaa19ca11e5f4",
+        "size": 294
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/MagicaCapsuleCollider.cs\n00"
+    },
+    {
+      "guid": "1771fb5869b59304e82522e24e85fd40",
+      "asset": {
+        "sha256": "5289fb3bbd9f851324d77e91aaabebb5b5af8cf20265b6bc36b52f29605983ea",
+        "size": 741
+      },
+      "asset.meta": {
+        "sha256": "b1b1cd526884331b00fde13e6cafd94a959ae651edd032a1cc6b59c1643d878a",
+        "size": 294
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/MagicaPlaneCollider.cs\n00"
+    },
+    {
+      "guid": "f2b68b2c7953ebb479b78627f19a6ccb",
+      "asset": {
+        "sha256": "791bb3dcccae8a12ab4559b8ea36cb7c0598222a7c76a3119040e33a307d47c9",
+        "size": 885
+      },
+      "asset.meta": {
+        "sha256": "51e530e3a0d345278be3a28a292f18e221ebd13bf370875a5db7a398087041cf",
+        "size": 294
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/MagicaSphereCollider.cs\n00"
+    },
+    {
+      "guid": "b697bf7b265fa5e4a92ce1e2e9f3c449",
+      "asset.meta": {
+        "sha256": "d449eeda1d4935a579f137c085673e9704891fe866211c3ef4dff6095c0cac35",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints\n00"
+    },
+    {
+      "guid": "ee1ebe8cef869d6439a8152a540713c4",
+      "asset": {
+        "sha256": "d4739191e5d17a654777e9dfbd4b9971e9d561e81d531396f3472384982c7b9b",
+        "size": 28443
+      },
+      "asset.meta": {
+        "sha256": "02e9a985de8420ddfa0bf4dc5ec12621f945a9d2ed96fdddbe84d659491e9f06",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/AngleConstraint.cs\n00"
+    },
+    {
+      "guid": "2fd00990cb70cd54d99a32756b3ccc84",
+      "asset": {
+        "sha256": "41c7e393e0adcece7a891b7d1444ac66b781bcbcd8a3c6f4ecfaa5229e86158b",
+        "size": 52581
+      },
+      "asset.meta": {
+        "sha256": "181fecb4d29074bfb3604e411428ea95a935f6b7798ff293235f7b7e260d86b2",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/ColliderCollisionConstraint.cs\n00"
+    },
+    {
+      "guid": "78c9fce0ef596d444be169932d9e9b6d",
+      "asset": {
+        "sha256": "cff9a27a9040161f6fc063512675407c9c8fc6f8e1964dd78e6c43fd4bac12c6",
+        "size": 24886
+      },
+      "asset.meta": {
+        "sha256": "b97ed8e3a547707bb0fa6ab5c6a334bb077617dc1db544d722e2a2b0fcef3453",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/DistanceConstraint.cs\n00"
+    },
+    {
+      "guid": "ac7ce6c753c84f24ca87c6d1b2f7efd8",
+      "asset": {
+        "sha256": "4676f0e390dc8b26aa0739e939c3ba97032bfb50a173f6538070a79de2b3c9dd",
+        "size": 24006
+      },
+      "asset.meta": {
+        "sha256": "7ba4d17678ce27ad2293e860bac6513bd1f0ddc8c36803eae495f16b3d1a33f7",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/InertiaConstraint.cs\n00"
+    },
+    {
+      "guid": "659973f118f2eb64295ac6e523fdafff",
+      "asset": {
+        "sha256": "26289bcdbf6b62e928ed6c31e838b96a251d4e2e136403f9a647a4f96c7d89eb",
+        "size": 13918
+      },
+      "asset.meta": {
+        "sha256": "1a641dd9782b214c53679f24acf4a451c23a82285001d116f7a9338f7dbe086e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/MotionConstraint.cs\n00"
+    },
+    {
+      "guid": "b72668632a29f4f4687108fdf55561cc",
+      "asset": {
+        "sha256": "1fbce5df5529c25c6d5778ccd6a38783b916b9962f8d686432dcdd705f2c0f78",
+        "size": 107627
+      },
+      "asset.meta": {
+        "sha256": "b8a9f675662b6d5bd7d2303e054464531700e8270a26b42371c7aed075765b88",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/SelfCollisionConstraint.cs\n00"
+    },
+    {
+      "guid": "890580bb4f2b4c742a2c1b491e9a9e07",
+      "asset": {
+        "sha256": "ca57ef5008a67763decbece9c9ec48c506496677dfa95a3a0695a7c2520f4d94",
+        "size": 4410
+      },
+      "asset.meta": {
+        "sha256": "6c777c33e33535d45ce39e326b972d541ed5e7764ee23a48131352922e700fc7",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/SpringConstraint.cs\n00"
+    },
+    {
+      "guid": "c071eb1b529a69546be39d4575fffd86",
+      "asset": {
+        "sha256": "2f051f6c35b2bbbda1f313dc67a41291c2257f89281b18df4e92d93ba882d95e",
+        "size": 10260
+      },
+      "asset.meta": {
+        "sha256": "30af44acf8845ee66c7dd0d2e307a4d29ea207e85a58b692ef497675e19c6342",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/TetherConstraint.cs\n00"
+    },
+    {
+      "guid": "8932223289542744aa07b8c5b25852ad",
+      "asset": {
+        "sha256": "14c4aae2868360afbba1a22d4c652455596cf4b4f9cd1d430ef8f33b7152c7ba",
+        "size": 35906
+      },
+      "asset.meta": {
+        "sha256": "12e1ccbba4ee3edad01c8cb0e61446bf5fa7d65ef0bb9209e4d970b7f0fb9c18",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/TriangleBendingConstraint.cs\n00"
+    },
+    {
+      "guid": "701eba9d7e8713a4da1b475eb5d89a76",
+      "asset": {
+        "sha256": "5c1bd122fbba84a5716ff14257375c3e0dbf634ce97a791ab04f61e771c63064",
+        "size": 5804
+      },
+      "asset.meta": {
+        "sha256": "a2ecd04b8606598edb22035f0f65fcb05c592a8be8458621e3b292c6ab23e359",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/CullingSettings.cs\n00"
+    },
+    {
+      "guid": "9f7735bfb35f7314db881831c265ae81",
+      "asset": {
+        "sha256": "1fcee37cf697626a6361be741e2eef15629fc8708a5f587e373d30cdc3abcdde",
+        "size": 3391
+      },
+      "asset.meta": {
+        "sha256": "166ef752a7d9c813119e3237983b92e6da60ed1029c5c224d45c829f63ad07a7",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/CurveSerializeData.cs\n00"
+    },
+    {
+      "guid": "93141a4088f5d094b95f02f4d362ea4f",
+      "asset": {
+        "sha256": "5371f125a0cc3e33097257fed75a8248bafb1af3822b9320f2b5df12aee720e4",
+        "size": 2978
+      },
+      "asset.meta": {
+        "sha256": "4f3b8654801a9f070aa0e4312cc2c59c91e3c6b23b913dd3620415cf230ab797",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/CustomSkinningSettings.cs\n00"
+    },
+    {
+      "guid": "599ae32263dff354aa87f60fe8748dd8",
+      "asset": {
+        "sha256": "24173766223460ec96adbae402eed3e05ccc2793e4ea1920ea4753e805ccbf6a",
+        "size": 986
+      },
+      "asset.meta": {
+        "sha256": "b3d260342072b474ed03c4eb6cf6edadd2d414d212470c8e178f4f2b773de7d7",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/GizmoSerializeData.cs\n00"
+    },
+    {
+      "guid": "bdbd3ce05f5b45942b56ede5c9b38364",
+      "asset": {
+        "sha256": "d018bbd235ca513d2e3308425a56cab24c30f6546f092c1dd1adb475d50ef4ed",
+        "size": 4187
+      },
+      "asset.meta": {
+        "sha256": "0ffc04701498c149961861216faae31e755e958ad3fef679292f0b1f357c9821",
+        "size": 294
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/MagicaCloth.cs\n00"
+    },
+    {
+      "guid": "ebbf2c9c05a3200438a0a1f7b352d81f",
+      "asset": {
+        "sha256": "3ad0627c7bb7100d88e111f35c8abc2b47cf8855b825aae17067a40fdb27221c",
+        "size": 10720
+      },
+      "asset.meta": {
+        "sha256": "0e5f1db8155222cae82d390f1a64ba0a1a9d890aacf6d27e1a5a7ec1638adef3",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/MagicaClothAPI.cs\n00"
+    },
+    {
+      "guid": "fea7c53425d793a44b3d484072c68bde",
+      "asset": {
+        "sha256": "d44f51c2152a19e60bfc545ec41b5b2dc5e4ac223e8bd1da78d7165541275dbd",
+        "size": 4602
+      },
+      "asset.meta": {
+        "sha256": "ae4441d41ef35f70c41da507cc604b721e6b819b79d7e91583141da995718c97",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/MagicaClothAnimationProperty.cs\n00"
+    },
+    {
+      "guid": "558afbac4118e4c4da1657e02a653e3d",
+      "asset": {
+        "sha256": "6b7b9d87af27a8fcfe60296d81520ccb52b56485c66ace569b55e446596b4fc2",
+        "size": 3050
+      },
+      "asset.meta": {
+        "sha256": "5f5b2762956673b2b24abf245a9680a280f34d80ffadd13941a01cd755a714f5",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/NormalAlignmentSettings.cs\n00"
+    },
+    {
+      "guid": "c35ca9ed7221ef445843e9c21428c27d",
+      "asset": {
+        "sha256": "06ed4d325e4bdd03c86857255d4a776d631dfdf6de3b2404fd71ef94d470e317",
+        "size": 15643
+      },
+      "asset.meta": {
+        "sha256": "b809ecb1f59d05d94f6702f5b633ccbb52cdc4423e7f294c38d5f5615858ffbc",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/SelectionData.cs\n00"
+    },
+    {
+      "guid": "e487ff1775b55bb4897455a2b4a5123a",
+      "asset.meta": {
+        "sha256": "2549f14a731ee6a8da0f3ea9d1eae15c09b4ce45d8a3049445a50f7e3699a2b1",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind\n00"
+    },
+    {
+      "guid": "c2e01f3f330fcf34eb7f2aa7b311cee5",
+      "asset": {
+        "sha256": "6ba3e4cabf0cee2d8b26a1b19137d273499e17ccbd9271c1cdfff2eecf396e85",
+        "size": 6332
+      },
+      "asset.meta": {
+        "sha256": "46e67922ddfd901bd16fbaf588e8ed6cc9c97d0d4f3f6df5146ab2a9b82c6dd6",
+        "size": 294
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind/MagicaWindZone.cs\n00"
+    },
+    {
+      "guid": "7aeb50197bc0c754d953e215c45b7c34",
+      "asset": {
+        "sha256": "d93d9314a0407ebb4b3b92f0ef236c0ecb31fe01c6d9b102f791c78585ea3996",
+        "size": 972
+      },
+      "asset.meta": {
+        "sha256": "44a598cb28751b03cf522b36e967ad70d822c93350ae94c63a94e3d9e93c2f0b",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind/WindParams.cs\n00"
+    },
+    {
+      "guid": "ebacab05b884faa4886e2d90ca2f7d48",
+      "asset": {
+        "sha256": "37164a925f80c20e0ac31daed58a93aded7060efb266ce0805366c3db6db37e2",
+        "size": 3428
+      },
+      "asset.meta": {
+        "sha256": "22329ea09ff4454d21c06fecd0e8ead9b52394bb747cd2e35694eb87a419268c",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind/WindSettings.cs\n00"
+    },
+    {
+      "guid": "719b7a2fc5935ff438c1e1e6528027b9",
+      "asset.meta": {
+        "sha256": "663a824b4242f29f1dc54b9684a5cda6280a51e4c94b5bba573897c6d0b7bffd",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Define\n00"
+    },
+    {
+      "guid": "6565f8ffcbde83c40a754caa20db861a",
+      "asset": {
+        "sha256": "3e0d0e1593824ee16bb3855ff39035b9823b2676f0c1c7652ad0f300c65aa0ab",
+        "size": 6310
+      },
+      "asset.meta": {
+        "sha256": "b76ad82d834b649988826cfd52d338a997bdc3458555ab1f06d1196160186b15",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Define/ResultDefine.cs\n00"
+    },
+    {
+      "guid": "3b695911c4ac0604d93d387125306f9c",
+      "asset": {
+        "sha256": "48f57af63f89a543fc4d1fe68c22a31791f7d0941722ac9e97cf25a9a36b343b",
+        "size": 14580
+      },
+      "asset.meta": {
+        "sha256": "706425e5496a4328cc293e7f74233f7e4d0738138c4aff7e9f3d0584c61bf52f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Define/SystemDefine.cs\n00"
+    },
+    {
+      "guid": "d7576f015bd32cb42aae4c953bd8dcc0",
+      "asset.meta": {
+        "sha256": "52e9e53f39241ca9c23b1b97f3805ad64a8f4278879b97f17a1d5e46b7058f1c",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Interface\n00"
+    },
+    {
+      "guid": "8ec05c78959350f489fd922165a79ad1",
+      "asset": {
+        "sha256": "8a12d252a9631a3a93ff4bafc15928ff3f10f31a058eb41f44bc28a8612df843",
+        "size": 263
+      },
+      "asset.meta": {
+        "sha256": "6b3f0d70815ff689f1e024cc56a690e264266f4fca89c7945e747063418ce3d4",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Interface/ICount.cs\n00"
+    },
+    {
+      "guid": "2aed426981579da48863288c708602e1",
+      "asset": {
+        "sha256": "73fa40bff2a458c85e88f8274047e63ad29c5a12aee7ee3a38b0a400707b4379",
+        "size": 281
+      },
+      "asset.meta": {
+        "sha256": "73108718ec236d168e3b07fd7ad4f0a8f1d5f1619f144cce2f27967f88f1182c",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Interface/IDataValidate.cs\n00"
+    },
+    {
+      "guid": "858cfe74dc6869c45a9b36ce74ac38fd",
+      "asset": {
+        "sha256": "551a19ff89042775dc8803a59a3574b6ca500da197b97ab042e6a76f5a85391d",
+        "size": 821
+      },
+      "asset.meta": {
+        "sha256": "5ad0108a546f3d273ecf045e0a77aed093d988bf3f4296ac06b855c6e1736753",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Interface/ITransform.cs\n00"
+    },
+    {
+      "guid": "eb1ee379472ac3645b05adb8c510f7d5",
+      "asset": {
+        "sha256": "b12fc27e58baf0c969be816ee6130bbe35d2620cddf847a76e85f8e3896308f2",
+        "size": 263
+      },
+      "asset.meta": {
+        "sha256": "07f2eb9740e25710a03c69610d2dd3eea77d410c73ef6986f7cd1acb9c05a43f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Interface/IValid.cs\n00"
+    },
+    {
+      "guid": "492826d943669524b9276f8ff4cd1229",
+      "asset.meta": {
+        "sha256": "ed752473490e643240bfb2fe2da0d35d1079852f1cb62dc3d8c8504139d8febe",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager\n00"
+    },
+    {
+      "guid": "db324c6d33cc19149bd3825ccfe7d94a",
+      "asset.meta": {
+        "sha256": "0cb0afe0bdc8dede3d2983b71dd78fa89112f4fd7a4a929f562e8ab1c14383eb",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Cloth\n00"
+    },
+    {
+      "guid": "8dec4d0537176214d8a66dccf5860cee",
+      "asset": {
+        "sha256": "3bca10dd7107bbee9b854e37d81dfb549eee021a0f0a58ad0b417089524fb49b",
+        "size": 15049
+      },
+      "asset.meta": {
+        "sha256": "76553d0e702639087256440cee6b6e03c29f8ea3a20b0669cbd0658f520baade",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Cloth/ClothManager.cs\n00"
+    },
+    {
+      "guid": "800b8846d5572fe438974d4af951c076",
+      "asset": {
+        "sha256": "6d6d7024b2b9546201fe78dcdf312e9e9a4a2066890d928b04d6757730d10350",
+        "size": 10082
+      },
+      "asset.meta": {
+        "sha256": "bd704de4d9c92d6cb3cf0e88b7ab8b83b574e3ba483738cefeea7717139019db",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Cloth/PreBuildManager.cs\n00"
+    },
+    {
+      "guid": "3c48e53d99f78f84c894c528fea63af5",
+      "asset": {
+        "sha256": "36e4a88221788e432a95712876a7e92b2f539ec70800fea18f7d1da3912f5848",
+        "size": 701
+      },
+      "asset.meta": {
+        "sha256": "fd9bd02d7bc2b9f1fb478aa9e87763bb5fde7d37d7d3a16ac294f5fd65ac54e1",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/IManager.cs\n00"
+    },
+    {
+      "guid": "8bdae5377302cd04ab0a69a465d06991",
+      "asset": {
+        "sha256": "6df8c27e62c062d9a3d7c0b0271beaafe44fb3cf55be11bdabfada8e43371755",
+        "size": 17357
+      },
+      "asset.meta": {
+        "sha256": "ff9253536d9117a73e29e8af3226fe4fc0927df4229a94b10bc0671e264b978e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/MagicaManager.cs\n00"
+    },
+    {
+      "guid": "5303b9f714439aa46a30b236862f8278",
+      "asset": {
+        "sha256": "d87108ac93d348106e9e2b93332c45fb1c4a73d4c15be9e37c4d02381320bc0d",
+        "size": 7616
+      },
+      "asset.meta": {
+        "sha256": "2f0b531f4100072c60ba0d6aa9691ec58b831a2229ce49e7f4d77341cd823416",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/MagicaManagerAPI.cs\n00"
+    },
+    {
+      "guid": "9f2ecd6e147dc7c4f8f3c75ebc705f6b",
+      "asset": {
+        "sha256": "dbbbc0f92c811fb3b88aed163af8d4b2317160f410bc119a9a947c87f3615c15",
+        "size": 7733
+      },
+      "asset.meta": {
+        "sha256": "2059087bdcc6d41951b76e0b910619e3df3327215da55698ded2ff354f47acfa",
+        "size": 296
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/MagicaSettings.cs\n00"
+    },
+    {
+      "guid": "d727233c727c4354e940f901aea4a9f7",
+      "asset.meta": {
+        "sha256": "74a3df25e4716be902df45df960d106924e36cfc26272f06972a7543acae1749",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Render\n00"
+    },
+    {
+      "guid": "e66794d18ed5f514ebae30c42e05a9f1",
+      "asset": {
+        "sha256": "4647c23f505b8fba98a5c1c8121aee161d50246e498cf1c9bea2597882231d8c",
+        "size": 25575
+      },
+      "asset.meta": {
+        "sha256": "12377667ae8fad17206bacf8919bb5350ffcc75675509736f06110e4cb8fbe61",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderData.cs\n00"
+    },
+    {
+      "guid": "99868f3bace6c8d4fa0de07238d7b777",
+      "asset": {
+        "sha256": "44d990df76b2160a2a5d41342d669c71c99cb508fc7a047f590316b037c384cb",
+        "size": 5745
+      },
+      "asset.meta": {
+        "sha256": "714ca4ad6a2db112964bd24ea866946f48675b3557494139c357bb6a411aa6d7",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderManager.cs\n00"
+    },
+    {
+      "guid": "617681c5418abb546afd305310ef7cb9",
+      "asset": {
+        "sha256": "4e5b32b6a7f337c841396ac3a2d4f6b25183337dc89c95af32f475cb402b143e",
+        "size": 36966
+      },
+      "asset.meta": {
+        "sha256": "50af977c46a6fd4118842f4c72186b75d21b7903d656c5e0729498626355ded0",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderSetupData.cs\n00"
+    },
+    {
+      "guid": "15097613d7348214ca528d3986504ece",
+      "asset": {
+        "sha256": "42dd0f98b4f6fea61d5b6dba5ae18de5415b988e72948b804ef9fbd5f39ff79f",
+        "size": 7517
+      },
+      "asset.meta": {
+        "sha256": "2b23a84bea7c0de573477f8f03e98417e978bbaa6b4ce232afdf81167b98b881",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderSetupDataSerialization.cs\n00"
+    },
+    {
+      "guid": "98f83594b09a8c5469b78d1d22047ecd",
+      "asset": {
+        "sha256": "9682b85f2c45e3a2eed8ec2692fa7cfe046c51aa2c4010f06f787d245ed02b0d",
+        "size": 12415
+      },
+      "asset.meta": {
+        "sha256": "b68c329845de3e5cd3ae2c84d212cedd0543fc7ad47325c0e9ee3104b0420250",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderSetupSerializeData.cs\n00"
+    },
+    {
+      "guid": "3103c5a568f55db44a99370d1e982fd5",
+      "asset.meta": {
+        "sha256": "050359fa079a35ab0776045d5a6f16869ef98e25e88da53783371cb5d3592f50",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation\n00"
+    },
+    {
+      "guid": "423ad2b7aa4749f4b88eac13b3b21d54",
+      "asset": {
+        "sha256": "0a845ce3c13d3af009d0783c2bbfd6331aa0b0b7b2f094cb536ef87f6602777e",
+        "size": 53507
+      },
+      "asset.meta": {
+        "sha256": "4a16d3319d5dc2bb15e87b039c3b829dcdfa3d04f5a2b0cd8075dcca5ab0d098",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/ColliderManager.cs\n00"
+    },
+    {
+      "guid": "5b7ca58a6015eba4e83341a9e6f3473e",
+      "asset": {
+        "sha256": "856fc98029d561d24618e6ea691f087baec62dd36130de8f3ee8412ae092cc20",
+        "size": 93914
+      },
+      "asset.meta": {
+        "sha256": "8e245d2542632326cd06dd9724c60b2df1cb3aa36dfb89f1cd090c9a7249b2fd",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/SimulationManager.cs\n00"
+    },
+    {
+      "guid": "e34158b4ab7aaea4b804388730e4f309",
+      "asset": {
+        "sha256": "99b89cb2c16bca9759699ab83cb7b033d33205b31968b71ac8f6577e253eec2d",
+        "size": 5627
+      },
+      "asset.meta": {
+        "sha256": "a250c2221bc8f85e6ff643180960480104f1455a7688bc0bc0d545627189a9f8",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/TimeManager.cs\n00"
+    },
+    {
+      "guid": "410a565210adcf54b96e6427d86b73c1",
+      "asset": {
+        "sha256": "f20e0509e7e2a7afed77fe2481581327fabdc5613d3dff6459b9a2b2e198859d",
+        "size": 7348
+      },
+      "asset.meta": {
+        "sha256": "e35c921b089ac61087395db09b4432fc90419feba392afdb6fe0d0f8f37de559",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/WindManager.cs\n00"
+    },
+    {
+      "guid": "324a054fc120e7940ab9c3d891b57338",
+      "asset.meta": {
+        "sha256": "d512cdd59399489a979323125501118bb7770398bea4476b2ca1fb434e7cde50",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Team\n00"
+    },
+    {
+      "guid": "3a759ca7f68f34f49b63e9bb8551c699",
+      "asset": {
+        "sha256": "1dcece19d44819478f4656ae4eac41ccb7a5cd433c303be1d0df590836bb08b1",
+        "size": 142292
+      },
+      "asset.meta": {
+        "sha256": "4a426f216eed4150bcba44e2990386362a75e7c0b411fca1331e9f65b1cdcde8",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Team/TeamManager.cs\n00"
+    },
+    {
+      "guid": "a3aa95cb25a154343ba918a4fa7f4e26",
+      "asset": {
+        "sha256": "74b85d9f8c22e758726087837532e7e5117bf903c1e6718f313e96bcb974dd28",
+        "size": 2574
+      },
+      "asset.meta": {
+        "sha256": "d26c74edb99591e62b4c27b51149254feaa68cceee574f6b8fca7cce89d42adc",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/Team/TeamWindData.cs\n00"
+    },
+    {
+      "guid": "f7a265c09484f0d4d88e3798b515b83f",
+      "asset.meta": {
+        "sha256": "b6a7b36a9a8be9a50f853cf0d1970a4fb5dc424cf2f72578f1defc01d526c405",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager\n00"
+    },
+    {
+      "guid": "4b71aff9fe4f3ef4bb756f57709e11a0",
+      "asset": {
+        "sha256": "7eae9fcaddd08b24c003da6aeb0db22e99b9f47f996c068e83129b041f7e930f",
+        "size": 38377
+      },
+      "asset.meta": {
+        "sha256": "5c2a088e0f9b559cc584d12f50547c8bdade69b4269b9a178348270a670ce8fd",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformData.cs\n00"
+    },
+    {
+      "guid": "7ae8000d77bdbae4b86315fcc83b2518",
+      "asset": {
+        "sha256": "eb288a1664e232e3b78db5309689e78f85e8140f56a76f8483c576ea07141fe5",
+        "size": 3740
+      },
+      "asset.meta": {
+        "sha256": "a4cea9e7b7d17bd9879e9474f58574314882e9b80c00eb1fb80e94622bdc92f3",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformDataSerialization.cs\n00"
+    },
+    {
+      "guid": "ecc01c078ba26454fb4fd62290d2a22d",
+      "asset": {
+        "sha256": "b9336a6f731d009a098863fe8edfbd778b90950646bb15b72226a8b2c6bc7f9a",
+        "size": 33227
+      },
+      "asset.meta": {
+        "sha256": "6e449e2ed1b181c470708e7d38acc28c13e4f4d6643485bab2420450d538161a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformManager.cs\n00"
+    },
+    {
+      "guid": "8baf80aea87ff80448fd14763a3a6a94",
+      "asset": {
+        "sha256": "f3eba6df22258c9a3dfbb522465178dd423098afd83fc3bbde002a17033e72a2",
+        "size": 2182
+      },
+      "asset.meta": {
+        "sha256": "971fef75eaf33bf6ce5d843e33798f698150b3514b7d46c5ca3c26e0f526ebd0",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformRecord.cs\n00"
+    },
+    {
+      "guid": "f4930f42a38b269439caa19e9603c9aa",
+      "asset": {
+        "sha256": "b59e93407930c4f5f5efade63448551a8d2d2f0de159ee46e4b7ec62508dd55c",
+        "size": 2330
+      },
+      "asset.meta": {
+        "sha256": "f740a77b94fcb7eb368b642bbb833229f365f208e6a096e0bb8cfbe37936844b",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformRecordSerializeData.cs\n00"
+    },
+    {
+      "guid": "0a9459f4f30fe9a4582cc311664181d4",
+      "asset.meta": {
+        "sha256": "565e905dbcfa06f3e132a99ecf87bede5bfe2d50e82e3b4a501aabc396ff235f",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/VirtualMesh\n00"
+    },
+    {
+      "guid": "ae2cd7d531771f9438f7fb94e886ee25",
+      "asset": {
+        "sha256": "966d0047e010e0c4276e4bdbe5822f3fd38437b684314f0dcb0ebb09cd4e5674",
+        "size": 89789
+      },
+      "asset.meta": {
+        "sha256": "5734a8db4dc9025d348a8bca6b7d903872a9e8750d631fb3f813ebdb769bcd79",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Manager/VirtualMesh/VirtualMeshManager.cs\n00"
+    },
+    {
+      "guid": "1f85ba9270154ec4ea99adc777266a0f",
+      "asset.meta": {
+        "sha256": "bf2e8211d6b3c00a6289de9ebf41b5e8ce8b68e93cb4c3deec03021ea1d9f9d6",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/PreBuild\n00"
+    },
+    {
+      "guid": "45b12b58fd27b9a4bae4f50db55b4459",
+      "asset": {
+        "sha256": "bd136fdefa55a91c04fdc0dba8e445b4e16db2804ae140c891ac1014fa11f790",
+        "size": 2294
+      },
+      "asset.meta": {
+        "sha256": "de27aeff4c4e8338599e4229bcc89425bac5f7888693021f7be028d319b6bfcd",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/PreBuild/PreBuildScriptableObject.cs\n00"
+    },
+    {
+      "guid": "5c7522d5a2a34f84c9588683c5574fa9",
+      "asset": {
+        "sha256": "ba2712ad3fb66f8ad9145a61882d91f0aa91c178ab7e3c15cce02031f5ce7803",
+        "size": 3024
+      },
+      "asset.meta": {
+        "sha256": "738ed57783be1887fa36f4a32cdd5b00b84eacb96fa75fe89408d29e36b3741f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/PreBuild/PreBuildSerializeData.cs\n00"
+    },
+    {
+      "guid": "280185e34f035f44d999fc83fffe8ab9",
+      "asset": {
+        "sha256": "ce6243197b67e093a5cab7374d1473e9ab87dbe0ff1362e35aace68c50ebe5ec",
+        "size": 2394
+      },
+      "asset.meta": {
+        "sha256": "4c4a05bc8b31baa53a7776c00c458d415f661a8fd4c9397f64d7f18da3a2d36e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/PreBuild/SharePreBuildData.cs\n00"
+    },
+    {
+      "guid": "0cee094d81395864ba3ef342016a8de6",
+      "asset": {
+        "sha256": "43bbc09d3c576403e225e6d1a8ef5f5ddb221a481807e91caf584ff475c7be6b",
+        "size": 1752
+      },
+      "asset.meta": {
+        "sha256": "7186f81567e8f9b08e5a4404355281380382f9da834dcdf488f126efc724cffd",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/PreBuild/UniquePreBuildData.cs\n00"
+    },
+    {
+      "guid": "ca42d530d97d6bf40aa8379befc72777",
+      "asset.meta": {
+        "sha256": "43bb7401d4a8e445105bb707e1829a11ffaa53e4f9861b36a5e53109488ce3d0",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction\n00"
+    },
+    {
+      "guid": "143de5f6b100ea74a87486d4d796dd38",
+      "asset": {
+        "sha256": "b51e103cc11f2a2420e0ebd82d431f72514e1c8182d8c00496ebd2d06e77c744",
+        "size": 2588
+      },
+      "asset.meta": {
+        "sha256": "b7d592c919acab947fbb458d94fc8e6994621a3e0da53dc81e96a58f7120d66a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction/ReductionSettings.cs\n00"
+    },
+    {
+      "guid": "96acdb752b9af6746a6eb571598ca2dd",
+      "asset": {
+        "sha256": "9631e5bd1d61723d7f06541730a1f6f4151757844893f96aa1e14868eb793682",
+        "size": 5422
+      },
+      "asset.meta": {
+        "sha256": "e3f9e7ba378de12ba05cc8be8389db74f695f943db43b10cb1b8fd369df334c8",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction/ReductionWorkData.cs\n00"
+    },
+    {
+      "guid": "9a8f11c168bca19409d6e7cec1de9fc8",
+      "asset": {
+        "sha256": "f195e5f06bd52710d40b54ceca58ed30b95b81091c132cacbe39b13a207226d5",
+        "size": 21791
+      },
+      "asset.meta": {
+        "sha256": "4ddec7fe74066c5cd4ebdf782688ad11e92f42f9050c45dcca6289838fe17232",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction/SameDistanceReduction.cs\n00"
+    },
+    {
+      "guid": "2b8b32d329a0b2541afe170d131c5f76",
+      "asset": {
+        "sha256": "4b490473fbb2d8336a0bdeb693456bd163788449e2f9346a1c0292d0c8e30e1f",
+        "size": 5523
+      },
+      "asset.meta": {
+        "sha256": "e68ebaf60038f260726550a2f9b8b8b7112813a4b4f4f61204be52a2f22b2fa9",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction/ShapeDistanceReduction.cs\n00"
+    },
+    {
+      "guid": "b244c982dfa4761478be41f4a264d73e",
+      "asset": {
+        "sha256": "6c2317f332d6ddee6407df6d48e1cac96b5baa41eb89ee6bff2091f40ed8ee2e",
+        "size": 6507
+      },
+      "asset.meta": {
+        "sha256": "9da29f296b3325b82b1215e7628c05496b0afcad540124c79b592ced847c91c0",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction/SimpleDistanceReduction.cs\n00"
+    },
+    {
+      "guid": "facec8b9837c5ca4d8d05ccc7f1ca6a9",
+      "asset": {
+        "sha256": "4a953dfbb14249ae355909d8f5945b4599e80f41fed625255916cd9e5f605046",
+        "size": 29853
+      },
+      "asset.meta": {
+        "sha256": "5d6bafa61cd4e4ead39d296a723318fef070e674fa5fa7915fac7328c507f3f6",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Reduction/StepReductionBase.cs\n00"
+    },
+    {
+      "guid": "a4f9ed180f9a7b14093bd9e1104e33ea",
+      "asset.meta": {
+        "sha256": "fa112253cc6917a3e1ac8c10186429ccbf355add5adf4bad43a2fecf8dbdc065",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Settings\n00"
+    },
+    {
+      "guid": "376c4b12fa90b6e429730e7ff5424c71",
+      "asset": {
+        "sha256": "deb3596197725fd3fb9f9e4d5334a617cb2d029ffdeed7f4f7a4e4058042d19d",
+        "size": 3359
+      },
+      "asset.meta": {
+        "sha256": "732ae9b90bce0d9ddfcf8a64926dc3f051f67a034451bf60995dc89d355f34ea",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Settings/ClothDebugSettings.cs\n00"
+    },
+    {
+      "guid": "531c6af0cb86f0e40b49ae9f19e2f83d",
+      "asset": {
+        "sha256": "97deafbdf28ebd55de1ce216c413720e4ac818dcc534f588c066f07fe68c5418",
+        "size": 1533
+      },
+      "asset.meta": {
+        "sha256": "aecf2639c018e6bbd9510b206787d94dba7096f3b1706d00c398d3410d30c242",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Settings/VirtualMeshDebugSettings.cs\n00"
+    },
+    {
+      "guid": "1751485edafdc6c41b324979e75d0a46",
+      "asset.meta": {
+        "sha256": "7782f652676cfb39e75acd6e6c92fe5020583b652854072dda3c213efac8c768",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility\n00"
+    },
+    {
+      "guid": "95fa82dc80bceb64688ab606c9212a14",
+      "asset.meta": {
+        "sha256": "9fafb93ab1f427ea5a70fd9dec9a9afa37b9e7763d98dbdefb8fa954b3d35dcc",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Data\n00"
+    },
+    {
+      "guid": "5749112885888a44fa11de392614144a",
+      "asset": {
+        "sha256": "da451964e32f156798b97b117fa47237cb100312db1382a2da73750c4089fd6a",
+        "size": 16656
+      },
+      "asset.meta": {
+        "sha256": "a46362f19d98ab19d65c09ec4c5acf49c0eb1e0b54e700bc536819877e039817",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Data/DataUtility.cs\n00"
+    },
+    {
+      "guid": "437001a616042194796b2fa354bebbb3",
+      "asset": {
+        "sha256": "f4f91f5cb8462a87cc6dc0cbfaeee40a2faf3c5c53dd1a0f92edda0757c0df16",
+        "size": 4512
+      },
+      "asset.meta": {
+        "sha256": "7cd7250cfecdd849be8f8fde1daef70fd239d57481891aa6226b46a643fafa24",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Data/MultiDataBuilder.cs\n00"
+    },
+    {
+      "guid": "a4a34e42bc2ef104fb3237f69dbdd2f0",
+      "asset.meta": {
+        "sha256": "ee13d612bee9db2b9e202f1a0924c785f654464426f0ca71f10a477b5588622d",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Grid\n00"
+    },
+    {
+      "guid": "f11ea30bdf2932444ae39633749006cb",
+      "asset": {
+        "sha256": "14922e677eb32b4d79af18c36d8d77d4a1d34d2aae02a179ffca394bf6078e2e",
+        "size": 8095
+      },
+      "asset.meta": {
+        "sha256": "84de2081df8bd3abdd242ed4246c89e75a9d15feab062d2495825b404305e84d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Grid/GridMap.cs\n00"
+    },
+    {
+      "guid": "a2f52f64422b8ad49ae673c135e28e9e",
+      "asset.meta": {
+        "sha256": "06d67c2694bf0e935b6f5a29d6ea5bdd9123d3c7f04594d76b69795458b4477f",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Jobs\n00"
+    },
+    {
+      "guid": "a2fbf5e2678edef418b3d95dd46af37b",
+      "asset": {
+        "sha256": "9af2b05304881213002095f4f89da80b34ed1987a1c3c3c02d6beaa7491d08d8",
+        "size": 16245
+      },
+      "asset.meta": {
+        "sha256": "ca5a01d7f5e5f436472ae5b829b948c665d1d12b6b758ac7324a81b6b503dd09",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Jobs/InterlockUtility.cs\n00"
+    },
+    {
+      "guid": "d429f1aa0fb37ca4d9eedbec119474ea",
+      "asset": {
+        "sha256": "e7b64d4dd9d4d6a1f135331b43b6064708b0f0813e21fc7efb11451adfdfa0b9",
+        "size": 26095
+      },
+      "asset.meta": {
+        "sha256": "685468ddab2c6df29b4f9b770ec1d5c93fdfa93639054d86d31b06e3eea660ff",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Jobs/JobUtility.cs\n00"
+    },
+    {
+      "guid": "5abf9b52a60ea9843b4f61eee44d06f7",
+      "asset.meta": {
+        "sha256": "43dc7f4350b9309434fcd6bc83ba2c49ad3ce863c8f978ab86d0f2d68eddad96",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Math\n00"
+    },
+    {
+      "guid": "ae15307e07485a447aa84cda0ddb05e1",
+      "asset": {
+        "sha256": "d7aeadb210058689f4d04e6bc32f49b914dc84e8dd8fea2e06d18398d7651b22",
+        "size": 9086
+      },
+      "asset.meta": {
+        "sha256": "ca75b0305ef7b6789699d3fc3ed566793551fd1f4845159fbd22cf123f9ac03d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Math/AABB.cs\n00"
+    },
+    {
+      "guid": "93dbd06f10c49dd4b9ae88b2a9c4c099",
+      "asset": {
+        "sha256": "303efca8b2007f6c351002b16c03c6a6f6b2767dda92d70dfa5fb6b6f785ccd5",
+        "size": 5781
+      },
+      "asset.meta": {
+        "sha256": "dc55ea60ce923e61d349d220105be48c42e133613fb5af10c42d3fe537ea883e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Math/IntAABB.cs\n00"
+    },
+    {
+      "guid": "ae8fc4e69ea083a4081671c5eff29606",
+      "asset": {
+        "sha256": "eee7f89ae1a9cd2c81c4cc200990eb34f36e74892630e94ad065471fa9976df4",
+        "size": 2132
+      },
+      "asset.meta": {
+        "sha256": "b6060c3fa96d72129c969466d5c73c094d7f5ec7cd6544fa15e537ec68038520",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Math/MathExtensions.cs\n00"
+    },
+    {
+      "guid": "7ad45eb87d191fb4890da353d511a024",
+      "asset": {
+        "sha256": "a69a071a4a90c44ba2debc1aca303303b5c5dff59f047a9c9ed4acbbedb0fe57",
+        "size": 62303
+      },
+      "asset.meta": {
+        "sha256": "1522adc44a801e66268f6c8023f0320f7ac68f5639b7bc552ad1866cc8379103",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Math/MathUtility.cs\n00"
+    },
+    {
+      "guid": "334bdeb060898f14f811bc5b01ac3f19",
+      "asset": {
+        "sha256": "6007d9824609d774afd0e323a2293d2c4186d891e90ea1cb22e0c1a6686c0068",
+        "size": 1522
+      },
+      "asset.meta": {
+        "sha256": "49e2d9215038f76290b275c1c0ead329466002a24ef4bb5719714cc06340fdeb",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Math/MinimumData.cs\n00"
+    },
+    {
+      "guid": "e1339b9964cd3cc4db9e724b185506c2",
+      "asset.meta": {
+        "sha256": "8bad55b17173a97888c6bf435c07424eff40aa9bed24537baebe0322f02f288e",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Mesh\n00"
+    },
+    {
+      "guid": "b4de31f1b32056a4d868784716d5ff27",
+      "asset": {
+        "sha256": "bbe3fa800b619b913016d7a1e812d1874354d41e522b40f9cb56134618429dfb",
+        "size": 2760
+      },
+      "asset.meta": {
+        "sha256": "f84c0504734ab8f63d88e2cf040fb0b3e763a3c5d7ad43a4e4f1196a6ab5ab36",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Mesh/MeshUtility.cs\n00"
+    },
+    {
+      "guid": "881419a3fff203d4b9c3bdaa61adf5c7",
+      "asset.meta": {
+        "sha256": "6cc531b07706bc513c2e5703c20b6f56e2cf6f992b7fed5b429121d58a5b1615",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Misc\n00"
+    },
+    {
+      "guid": "e02e1cb346cdf1d4babc2bf1470dac90",
+      "asset": {
+        "sha256": "a41d9950f2e84309ac53e4d63f08bb32a50310ab3310f73c893fd8cd1f077f45",
+        "size": 1361
+      },
+      "asset.meta": {
+        "sha256": "ebcfa1a7389fdfaf44e9c547edcefd2ec1584fc4cafac9c3380d9878044447b8",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Misc/Develop.cs\n00"
+    },
+    {
+      "guid": "4d925c104701fe242b9f070700e73997",
+      "asset": {
+        "sha256": "956a9e710d41bead20e953b7cdb6b51f4d163f01affe2e77a872c8ebc47f45da",
+        "size": 2629
+      },
+      "asset.meta": {
+        "sha256": "9a561b7369bc7daa222e216fc969d087b544954844f628fb4e6c6356af46a650",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Misc/StaticStringBuilder.cs\n00"
+    },
+    {
+      "guid": "05c459b696cc77144b66c9cfc2a404b6",
+      "asset.meta": {
+        "sha256": "8bce619d97883b9d46063567cd5ef198624d00762dccccbad91efc234f5b0549",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection\n00"
+    },
+    {
+      "guid": "1da73ff56787abd45804252538471bf6",
+      "asset": {
+        "sha256": "9106aaf23b07ca4dfba27c619c1a7447c5a7e0ffa49faa45511875e000191b18",
+        "size": 1128
+      },
+      "asset.meta": {
+        "sha256": "24fbc26f5018fe04dfe96601f83104ccd57c04f40fd83e4cac311bf10c85cc07",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/DataChunk.cs\n00"
+    },
+    {
+      "guid": "82468a45671e5e1498d4df5c19611f32",
+      "asset": {
+        "sha256": "57cc47b4542d0047e168a8efc2de744fdcdb4d0340bc0b66942062471b87a07b",
+        "size": 1240
+      },
+      "asset.meta": {
+        "sha256": "8ee5742d6d87d1e49f14f65b315c4f83b45790fbd5fb3f50ba8efaf0cf7e785d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExBitFlag16.cs\n00"
+    },
+    {
+      "guid": "eb16200a6206d394d9e12963263352b0",
+      "asset": {
+        "sha256": "6de70c00f6f054477005a165a1bf6f86a835e0f9af0a08d90945181100f9fc95",
+        "size": 1240
+      },
+      "asset.meta": {
+        "sha256": "4f1efc1abc90a525964d5d8556f9f86ede700027c7a8b383cd05a133811b5e6f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExBitFlag8.cs\n00"
+    },
+    {
+      "guid": "b8b3cd069c36d174ea801cadc4d95919",
+      "asset": {
+        "sha256": "a383f2b121184be9a45d8abf6a2c02af4419e995f3c981b27f6eac68d81a9746",
+        "size": 1994
+      },
+      "asset.meta": {
+        "sha256": "a0d19733d87515a0d6c0809351143955c5ebf79ee0ced6a92d58d4349c279b5a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExCostSortedList1.cs\n00"
+    },
+    {
+      "guid": "117c9e1f7003d1b418193a8ee6f8a850",
+      "asset": {
+        "sha256": "71eadfb0fede3ac60fec93572b5eb16f428b5c060e25a61bd9b5e65848f076de",
+        "size": 5159
+      },
+      "asset.meta": {
+        "sha256": "1ba313eefb2464af13f437857a2b0664ae3cde5c8e2d525e730612950c5fa2df",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExCostSortedList4.cs\n00"
+    },
+    {
+      "guid": "10d8d6da3ac2b13489c729db68ef39ec",
+      "asset": {
+        "sha256": "26266753671d2afdb9ebcaef51742aa10ff61688ab1ecd05d382fd4d45b8f071",
+        "size": 23403
+      },
+      "asset.meta": {
+        "sha256": "49334f2f1252579321168262d4013ae44a91ddece28895a8d649251e8bd5e829",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExNativeArray.cs\n00"
+    },
+    {
+      "guid": "5a3ca7c202548c1439db91f92cc30790",
+      "asset": {
+        "sha256": "d954467a96148e62df5b9863bff51a409e5a712abbb67bab87aeefa153d45a78",
+        "size": 2773
+      },
+      "asset.meta": {
+        "sha256": "5c7cbd6c16d1370e0148e5962d7717116b215317a9336515bd75ad5a7e2ee259",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExProcessingList.cs\n00"
+    },
+    {
+      "guid": "5184cf224e308d044a655a8da0580401",
+      "asset": {
+        "sha256": "efa419d164b1ed9357e81d4e7cc9c40c7b82570cce4feca1785f3a49e5e49425",
+        "size": 19866
+      },
+      "asset.meta": {
+        "sha256": "f5e2aea8718fd7c4ace7a4041c1ff7f82e3f6a38dba6d5527033c31a2a97d62f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExSimpleNativeArray.cs\n00"
+    },
+    {
+      "guid": "01fb00afd02fc7f48bfe4f6519f7d358",
+      "asset": {
+        "sha256": "e3303f93b5ff249caf949222e399f148a3bd0aa2f8b79bb90454b2e9970afa2b",
+        "size": 6101
+      },
+      "asset.meta": {
+        "sha256": "5a211034287e63133df5d0c4857b95a846957c2fce14a95db144c36f00403543",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExTransformAccessArray.cs\n00"
+    },
+    {
+      "guid": "a5001a2e03a42e64cade535d198c1e91",
+      "asset": {
+        "sha256": "f8e6e9106114f01ccf58ee6f88b129e3ac909183bee24e4405ef232d1d250b4d",
+        "size": 4545
+      },
+      "asset.meta": {
+        "sha256": "ccbd9092d2a2cd56a18964b9a25cf29c3434f0955db471aa1d5fe5e5b4b34c2a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList128BytesExtensions.cs\n00"
+    },
+    {
+      "guid": "5876be4e9da8a2943b26b98bbeb9cb22",
+      "asset": {
+        "sha256": "80cee61b1a8d98f26f9bd786615622b021f1b91c5d744b307ab1b4120f84042b",
+        "size": 4575
+      },
+      "asset.meta": {
+        "sha256": "90376cfa46dac6789b9d295e06bb006b503064b9e1f788f7d3da4455a8124d5e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList32BytesExtensions.cs\n00"
+    },
+    {
+      "guid": "a672a8e0e07ce1344817a15060cd375f",
+      "asset": {
+        "sha256": "5917e557dd80048289c7614b85b9972c4bb6e6dfcdf350fe1f467d788ed0bd4e",
+        "size": 4555
+      },
+      "asset.meta": {
+        "sha256": "541173ee8d72defd06f22c7e62ffc5537e7d19dd339921cfd01f08618d26da76",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList4096BytesExtensions.cs\n00"
+    },
+    {
+      "guid": "844ad8e2dd5bec94c8684bd46b5ae53b",
+      "asset": {
+        "sha256": "9d054cedfe850dc3baf333a29de70755a69e17a5588fe865febdd9308699d254",
+        "size": 4545
+      },
+      "asset.meta": {
+        "sha256": "5617bce3c56569240bc5f160213f49c38956b49e02e4a8f46f98238a5e10ce47",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList512BytesExtensions.cs\n00"
+    },
+    {
+      "guid": "29fde9f6ce7d36a449d5ed4e3d952f35",
+      "asset": {
+        "sha256": "d7961fcd93ac581469325ff7ca83265fa60438ce068772cbe186939ff3b26ed3",
+        "size": 4535
+      },
+      "asset.meta": {
+        "sha256": "5b4fc01cf064da60f72abd5db7dcff416c69e26458f0b1bc366d0510deede93d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList64BytesExtensions.cs\n00"
+    },
+    {
+      "guid": "93d2b52144a75c64b91e75d4f974d74a",
+      "asset": {
+        "sha256": "87e111d605db485df227be8b0bb905c34046c2a8138cce5c00b13e8ab20a1a3f",
+        "size": 3228
+      },
+      "asset.meta": {
+        "sha256": "9f4fef41042189483a273e0dc216c392c1c5d2d897744fcc0f05eea78e925914",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeArrayExtensions.cs\n00"
+    },
+    {
+      "guid": "b133d9becc3f7ce46b4504e63586056b",
+      "asset": {
+        "sha256": "7780eb5889e6abba5c6a6b72ad7d80fe6115705668d72f5442ea0f335d762031",
+        "size": 9853
+      },
+      "asset.meta": {
+        "sha256": "11993d24730c611efbfc7cda9f4c8e120bc085ef19f6db91ed632bf419e1f12e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeMultiHashMapExtensions.cs\n00"
+    },
+    {
+      "guid": "f6dcd839c56f63b42af8231ec3cb1841",
+      "asset": {
+        "sha256": "09003eaa1da1357d7bc73fe3cd92c00eb2e25f6a85b3657f1d25e3f7cc0837eb",
+        "size": 1063
+      },
+      "asset.meta": {
+        "sha256": "e11c385d9adac048e788e04110b7dc7c058a5e1bd4bfb7144bb683978fc4d995",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeParallelHashMapExtensions.cs\n00"
+    },
+    {
+      "guid": "a86bf182de69e9b4b8b212407378a96a",
+      "asset": {
+        "sha256": "9d62a311a429e88db83c74ee2160cff8ee762fd21c7b0809cccab180c920348e",
+        "size": 973
+      },
+      "asset.meta": {
+        "sha256": "b1ed9333d6aea168c5384c367d3d0172aeb77483fe908199f152fad67b5de6e6",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeReferenceExtensions.cs\n00"
+    },
+    {
+      "guid": "d7a14441047ec414c86b093b4a7940ed",
+      "asset.meta": {
+        "sha256": "06b0765d3f28a7a08559d432930f9d50704d6721c42c4eb42080387e21c2b926",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/ResultCode\n00"
+    },
+    {
+      "guid": "ab191ee61f2d8e14598d1adc5359890d",
+      "asset": {
+        "sha256": "68d840de6a9e0e86ab5f01c3e6d55e4a893b179398f73c879ec363872a3031dc",
+        "size": 1086
+      },
+      "asset.meta": {
+        "sha256": "b108fa99414ccc0cbf214fd1759f2c0492d9ed20d4acb4ddb12fd8ef39713543",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/ResultCode/Exception.cs\n00"
+    },
+    {
+      "guid": "f7830dff664b1ff409e8ae3d8456371a",
+      "asset": {
+        "sha256": "166303989fe663cf24558a7c28c605ca304b7d3cafc798d5634780a03de4a211",
+        "size": 5250
+      },
+      "asset.meta": {
+        "sha256": "ca62d000aec9ef0bc63a37a6c27d12a77ec0cbd76f0c15c853b1e23e5cdc9a76",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/ResultCode/ResultCode.cs\n00"
+    },
+    {
+      "guid": "87fbdda2219d11649892645df5504b0d",
+      "asset.meta": {
+        "sha256": "9f7290368d8f19e7ce505f9a5bbd6b519138ce0313800c2187bd53c3997f0299",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Time\n00"
+    },
+    {
+      "guid": "37c049d9587e21243b12c35054b5582b",
+      "asset": {
+        "sha256": "6715634b115e58d11336ffb3fc8d498b788dd87bcafc9c75f822c4d388fb43c4",
+        "size": 1432
+      },
+      "asset.meta": {
+        "sha256": "c1cea31b1fab28c2fc63664a1460400e273693f04f34e127bb6a50f74b771b0b",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Time/TimeSpan.cs\n00"
+    },
+    {
+      "guid": "60bc0f15f2991074f9db6ecacf0eb4bd",
+      "asset": {
+        "sha256": "7c2b089cc9213916d7a6064bf09c79da54386ec32825a572c4d8bce9a5c16131",
+        "size": 1239
+      },
+      "asset.meta": {
+        "sha256": "fa68cdf28637cbc3df06871f3a46cc5b559ff78594a5b9930eb3feacb2641115",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/Utility/Time/UnityTimeSpan.cs\n00"
+    },
+    {
+      "guid": "e445d9f5e13ea1b4dbbec70883e9ef2c",
+      "asset.meta": {
+        "sha256": "2e3acaa27a4d9322c7f697519d17798fba6c642c3d4be871127d64d10c262596",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh\n00"
+    },
+    {
+      "guid": "50f98a3f39e39d24fbd368941ed7dc51",
+      "asset.meta": {
+        "sha256": "181556c855728acd350bf127b2d12dfd078bc79225c82b49469ad0dba6daa0bd",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function\n00"
+    },
+    {
+      "guid": "3acc8678caf149b42977b7b3d3e8079b",
+      "asset": {
+        "sha256": "562ba2a5e1898ed7767d396958797cd2f1292a900756f0dbf24a9c0c107b395e",
+        "size": 80828
+      },
+      "asset.meta": {
+        "sha256": "e30a331e09e0e32b57e5e61dcf1b8396be50064d9501039580566dc87ca8bdbb",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshInputOutput.cs\n00"
+    },
+    {
+      "guid": "9f5b40e8547616f4eb331cc9fd5c5e1c",
+      "asset": {
+        "sha256": "9d47c896ee8c9d8376b4d9129bf1079812e4f3bd8929016b10f86d3d9311c37b",
+        "size": 30642
+      },
+      "asset.meta": {
+        "sha256": "1079068db6ee4a5cf10522589cb0aac50e51ff6f488b1aa80d4323fff468df0c",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshMapping.cs\n00"
+    },
+    {
+      "guid": "a5ea1d28ce226d74bb733f6c9a5a08e0",
+      "asset": {
+        "sha256": "29468f451cc31874268c4462c0c6c76b8255772b3d14efe9265aefeb8e9cba0b",
+        "size": 9815
+      },
+      "asset.meta": {
+        "sha256": "7c237a407ea6cbf5e125a37d513bfbbe0e258d3d9068c6c6e1f30c36bd8bb90f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshOptimization.cs\n00"
+    },
+    {
+      "guid": "f23f05fdc7b93ce40beda3969f3012e6",
+      "asset": {
+        "sha256": "e8fe73b890099ad74847cd18fe6c907fd5b9e94f2f8724054f057b8b5f693cef",
+        "size": 98429
+      },
+      "asset.meta": {
+        "sha256": "56e9daa555914bf25677f41fd8b839443571437727d9e5e0fd9a79628b7d4c0c",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshProxy.cs\n00"
+    },
+    {
+      "guid": "90031fc5a00f3f045b88eac913436848",
+      "asset": {
+        "sha256": "28fd30f0ab3709187745fcfb9cab80cd0472a57dafb2cacd9ba89482c1f880fd",
+        "size": 37494
+      },
+      "asset.meta": {
+        "sha256": "ed18ebd554205573aebff205b04d873d415b694a95c674e4efad83dac90e343c",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshReduction.cs\n00"
+    },
+    {
+      "guid": "0d0b2768c9c7600468b9f1a7b39dd80d",
+      "asset": {
+        "sha256": "d8e40ae68381e9ff66833ac741e403f8e4393f0dc04420fdca926224b5920562",
+        "size": 15162
+      },
+      "asset.meta": {
+        "sha256": "fe296f097709f08142a7ba6f8c3c770068121c6eee34a65873210519f15fc6b4",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshSerialization.cs\n00"
+    },
+    {
+      "guid": "7547f9437ec9b1f45bb3c8305bb8aadc",
+      "asset": {
+        "sha256": "8bad91fb3c7976690b54929448a96d1ba9f5e6af8949847fd583c5fa5212a2a5",
+        "size": 17043
+      },
+      "asset.meta": {
+        "sha256": "62d19b2c521ffe60d0647f2e712b5765fb938729f8486908fedd44d1f49b5f56",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshWork.cs\n00"
+    },
+    {
+      "guid": "bd2250d458ce5eb4f9fbb2ad312b5762",
+      "asset": {
+        "sha256": "6c303029394e17013eebb8f7c6185a7a57423259b643928581bd2da0c2ccd9b1",
+        "size": 6109
+      },
+      "asset.meta": {
+        "sha256": "1a2c5f3ea28f7a3612fc5d3c4d063b3f466f14825d32471ba18d1365d8d8ce4b",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VertexAttribute.cs\n00"
+    },
+    {
+      "guid": "12b26397b658837409cd78bc3343ac9f",
+      "asset": {
+        "sha256": "493f5558d10652ea57f49f143fab9929d6d2e2d33ebbd96da69ab2c2d3948238",
+        "size": 21302
+      },
+      "asset.meta": {
+        "sha256": "201c8703c29c6394b13ad5283e6a7030830b2625bdb2ef1f6432a2516117937f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMesh.cs\n00"
+    },
+    {
+      "guid": "9bd87b7656af7404ca81798fb1180cea",
+      "asset": {
+        "sha256": "5ee945fe0c76d8b24a8be99891c4408fdd2b864a2da06f282db8019e8d079aaf",
+        "size": 3969
+      },
+      "asset.meta": {
+        "sha256": "eae78be2b5840875d3b600c1342a9f9d7541e459d7849a30b4188106c61e1f2f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshBoneWeight.cs\n00"
+    },
+    {
+      "guid": "bac7915dc7b0bda49baed15536766603",
+      "asset": {
+        "sha256": "d25d319e45ab0cbaf494de55067610507f2df44ad690a4c5806703812336e9b3",
+        "size": 1782
+      },
+      "asset.meta": {
+        "sha256": "f63314c2aa5f4bf5c35a3a55fa54d08fd37428d28f8a774cc71490762d974ee3",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshContainer.cs\n00"
+    },
+    {
+      "guid": "28eb005f383ff844d9d7b674cefb6113",
+      "asset": {
+        "sha256": "e77ba9fe01fac1c0266d57b22b6ddc1165927aeeb2ca8a37cb26541092b16b60",
+        "size": 235
+      },
+      "asset.meta": {
+        "sha256": "1aad613cb89b412b502e6cbdcc46823dd8a4b7171e5f98b2bcffb0378529f8ea",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshPrimitive.cs\n00"
+    },
+    {
+      "guid": "b1630263613d8714dbfb6f464c6e27eb",
+      "asset": {
+        "sha256": "160ab4c88bbe709a87b2ca96a0532ebae0ad27366f515266ad967e51e16c853a",
+        "size": 885
+      },
+      "asset.meta": {
+        "sha256": "b6ebe6ab8fa5d4bc4b9f10d64cc1455e93fc9c076bc55cbf1680ea76aa7ce0ef",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshRaycastHit.cs\n00"
+    },
+    {
+      "guid": "f1ab03195c884cd40a4bf12a2c22217c",
+      "asset": {
+        "sha256": "971de24488bb562c60fdb89fb42570e64039f8a72a56fdab948c97e470589cb3",
+        "size": 5436
+      },
+      "asset.meta": {
+        "sha256": "d679ee2dddcee556e4c5216f7582ff2446799d974dc41013fe330a304d7e34c4",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshTransform.cs\n00"
+    },
+    {
+      "guid": "56cddc7b23443aa4e82bc4a6fa59ccff",
+      "asset.meta": {
+        "sha256": "e91aeff0043384f4b8c09fc89b79f95cb489d72a216adf7dcffcf820032e19b9",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor\n00"
+    },
+    {
+      "guid": "497187e4db74fa043afca4179151e148",
+      "asset.meta": {
+        "sha256": "49cb1a960adafbf6d3a080e2c2f32c2421043627b6ef635001b6fdeab63175f5",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth\n00"
+    },
+    {
+      "guid": "62851d07720bcd84f89c596c9a32c8a6",
+      "asset": {
+        "sha256": "87a87a34511a23431f59bb1f96a67416bc62a63adaa632ad7fcbfec0f33c7171",
+        "size": 1480
+      },
+      "asset.meta": {
+        "sha256": "412a90311f57d678cb666e12649e2d911f2f9ba7d7528b5239ae905b81611635",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothAssetPostprocessor.cs\n00"
+    },
+    {
+      "guid": "905d98a228d9c6c4eb4d5e240f30378a",
+      "asset": {
+        "sha256": "21fdaa974ce7a021566f7ba7b7bd6e8290b6c9203e6baec07aabb432b9ebeaae",
+        "size": 46117
+      },
+      "asset.meta": {
+        "sha256": "b472ae66355dd7c9262b7edbfed8afb533b19bd7f89e9d0a3e56af07407f2035",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothEditorManager.cs\n00"
+    },
+    {
+      "guid": "f11b17a94f5361246b6c56a0fb52570e",
+      "asset": {
+        "sha256": "bd68980bff4ed455f625e213ff5282c7d6198ab0e331733f3e6bf3c59f50701f",
+        "size": 48251
+      },
+      "asset.meta": {
+        "sha256": "2c2acf9803fab3bbf37b3de9fccbd2376721060a685590dc68594e821fd607f9",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothEditorUtility.cs\n00"
+    },
+    {
+      "guid": "434cdfa441f5efc49954b9ba7d8bb241",
+      "asset": {
+        "sha256": "24623bc196abbb83c129453eefb2bc7fdc280605ee35a0bb58c86e81189a9f66",
+        "size": 2614
+      },
+      "asset.meta": {
+        "sha256": "5740e55b6c5f9600c49e3e3525a6b79ee1179444f6dc615096aed7e550cf9b9f",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothInspectorUtility.cs\n00"
+    },
+    {
+      "guid": "3d9ac74274185454f8b6f05bc4f2825e",
+      "asset": {
+        "sha256": "34ad67a2f967b6e16c97694cf9f4b688aedefa0c3743ef917599106e5413d76b",
+        "size": 36975
+      },
+      "asset.meta": {
+        "sha256": "915e9c27dba9c391d859bbc44fca1885913adc0446df3c3cae82a917fae7bdc4",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothPainter.cs\n00"
+    },
+    {
+      "guid": "92b2c2c365167f34e90c74c01638b1eb",
+      "asset": {
+        "sha256": "72067e341bf682419c17ddddbb612e06dae18dc3507715ad0a3fcec47b2c3300",
+        "size": 7934
+      },
+      "asset.meta": {
+        "sha256": "59b30a14c3b310f20fe0e066f0d082cb566da781ebb18d683dec8404fa4e4e89",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothPresetUtility.cs\n00"
+    },
+    {
+      "guid": "89239f89e837c394ca8ebe2515680a5e",
+      "asset": {
+        "sha256": "28ffce455baa80cd18d4e00abed4f84b708db4db1e9596ce42577a592cc8347a",
+        "size": 4564
+      },
+      "asset.meta": {
+        "sha256": "df75cbdef08ea6f9943b428466f9783db6de24c944b58344af263fe55c2b223d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaCapsuleColliderEditor.cs\n00"
+    },
+    {
+      "guid": "a43a416802744754899e8dc139f244c7",
+      "asset": {
+        "sha256": "1e31c8cee133ffff7a5c6aa8ee86ee2437634cd7a8c0054aca16f7d2a8f6ad27",
+        "size": 46064
+      },
+      "asset.meta": {
+        "sha256": "0e92eae3f0cdf20667e240bbf8493ec810b7a65e6fac9ba8b1ea4cbb9f4a6489",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaClothEditor.cs\n00"
+    },
+    {
+      "guid": "3126cd1eb42b4af4aa38cea3c3836c3e",
+      "asset": {
+        "sha256": "08698de673d202eb66acaf6afd89b8dac6c1db6346b253ca29b764300f9102f6",
+        "size": 984
+      },
+      "asset.meta": {
+        "sha256": "780787d7f113291484b0ef9b5e07c77910278833034019d4f07f31a3834757f0",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaEditorBase.cs\n00"
+    },
+    {
+      "guid": "7c2eaf60c91e70a4198cb71bbaf68678",
+      "asset": {
+        "sha256": "10e06f1b1f1f8509312b904f35a98331b88de733b389ef840cc1d5b54ae0fd12",
+        "size": 744
+      },
+      "asset.meta": {
+        "sha256": "e36f863d67de936f37127fefa98c85802b22d2f65e12844eb45a8a7852d8e2aa",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaPlaneColliderEditor.cs\n00"
+    },
+    {
+      "guid": "53b8f563506b5fa4691d2d29c3d3c185",
+      "asset": {
+        "sha256": "8cd181cb57d83d8ae4a12381e088c78c756f28accd47518b22544a4f49e7f032",
+        "size": 1381
+      },
+      "asset.meta": {
+        "sha256": "3f90f12f81fd8e94e6b8020861ac1570fda9f41d998823dbd238facd78160675",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaSettingsEditor.cs\n00"
+    },
+    {
+      "guid": "d26018c2091e9054ea0bf517157ca1c6",
+      "asset": {
+        "sha256": "03510ca2491094843c3e2802e7eb1d0baa087a5e95ef5eabc021b5604827b7ab",
+        "size": 1372
+      },
+      "asset.meta": {
+        "sha256": "de2fcd3825cf848fd1b7c57fb07d2e281f10102bbb9cc6ca45fbd5c8a4174392",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaSphereColliderEditor.cs\n00"
+    },
+    {
+      "guid": "56e75137613813345a058b4bb6748854",
+      "asset": {
+        "sha256": "36ea7c0d8781aef9e1f9ae555f0bf56e39ce3c84f7e7276fb5988a6018b688e5",
+        "size": 2811
+      },
+      "asset.meta": {
+        "sha256": "58f66aa2a06df4496b72d0dbf0b09c6e062d4bb612c66dbba8a91ac0ab096857",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaWindZoneEditor.cs\n00"
+    },
+    {
+      "guid": "2e052cf3e2e3eca4f9c71f84cb7712ab",
+      "asset": {
+        "sha256": "191ef32413cda8cc230a61f9ff77cf46da34479e7bbb8e70c57b219c310a64de",
+        "size": 22976
+      },
+      "asset.meta": {
+        "sha256": "c88256c112b531b224d0cc8b77a5b8b1e4b42d54b8094587c546073a2b7d6640",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Cloth/VirtualMeshEditorUtility.cs\n00"
+    },
+    {
+      "guid": "f7c6c164b13cbbe43afc71f44eaac1e2",
+      "asset.meta": {
+        "sha256": "87e6a0171297d784115a935d2e80bf504c10056eaff9f3e36ef7cdc171c045ac",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension\n00"
+    },
+    {
+      "guid": "059c4023f8428864e994f30573930854",
+      "asset": {
+        "sha256": "b21c55b65fa22eb9c45cb16a12d15eda7ced1b82741145c3cc67b9f758fb383e",
+        "size": 3265
+      },
+      "asset.meta": {
+        "sha256": "3f9e72a42687e2561f2e9a836c6e98d27cdc259f0cc65baf8c82f0454910e0e2",
+        "size": 360
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/AboutMenu.cs\n00"
+    },
+    {
+      "guid": "b3fa2fcfdd75dbb48b7566213e81bb9a",
+      "asset": {
+        "sha256": "5fc989de4f95c2128a64ceaaab641d9dd97dac076e325c7d8be4d61f1ca5abf6",
+        "size": 2267
+      },
+      "asset.meta": {
+        "sha256": "c1405162e109b2571878db1a56f08d3bd489d81c3f744e9bd418a474ec558280",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/CheckSliderSerializeDataDrawer.cs\n00"
+    },
+    {
+      "guid": "a43f33abae2910246b917331abff6706",
+      "asset": {
+        "sha256": "2e0bc8a1e523023450cf615465998f07337bd32158045288dc4f4c7b5935c24f",
+        "size": 3064
+      },
+      "asset.meta": {
+        "sha256": "224872fe0386d6cba73ae25f11fd2aca2d2a833cbd31ee324e36107c8fb7d2ab",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/CurveSerializeDataDrawer.cs\n00"
+    },
+    {
+      "guid": "3c7a0c2cbd41e2a4b93ab9b238dfcf08",
+      "asset": {
+        "sha256": "c8b03ad9acce1b7e0cc190cbff82e1987328ae37cd42223d904118c937f7acf8",
+        "size": 1840
+      },
+      "asset.meta": {
+        "sha256": "6a60c908708a746c3ff99925c569c89cc402793ab510eb47cc4be0ae94dffab2",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/DrawIconInHierarchy.cs\n00"
+    },
+    {
+      "guid": "160a2e4af5a88d34695643fc38100749",
+      "asset": {
+        "sha256": "ace72ed1639593b45ac6ce35909b389e072c5760dbce95ce573e6d6d4a032ae0",
+        "size": 7720
+      },
+      "asset.meta": {
+        "sha256": "c57dd7ed3fd4ec8a12a093629df9a7b460d8c00f2162bbbb1ad4e84f496b7f5a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/MenuItemScript.cs\n00"
+    },
+    {
+      "guid": "c6706416db7bdd14cb7ed3f5195d6498",
+      "asset": {
+        "sha256": "a2563b530502a7f7423a9036d0869a38d2d39215c539f6c74ce6c5db321b918e",
+        "size": 2753
+      },
+      "asset.meta": {
+        "sha256": "baae1f2e550bf1115440cceb5502f1dbed0a2408bc744bdd61f7d6de9cb352fa",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/SharePreBuildDataDrawer.cs\n00"
+    },
+    {
+      "guid": "babc161c3f4373948b6d24be361d41e2",
+      "asset.meta": {
+        "sha256": "ce684ff91a7d3db1c496a80d6479a676993ca7adff4731e482d6966e63f5814c",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos\n00"
+    },
+    {
+      "guid": "d09127cc59c08ae44aeeee33f206f227",
+      "asset": {
+        "sha256": "65363aa222df9ebda85edb162e8ade27bee629346a5901fc7fc8ed7f62ae00ac",
+        "size": 23593
+      },
+      "asset.meta": {
+        "sha256": "f26aad806436c35051c5c83361edf594636c67b52c0d1bab0177f89e3f65243d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos/GizmoUtility.cs\n00"
+    },
+    {
+      "guid": "7b1758b936826f64fbd4ccf459e1b4dd",
+      "asset": {
+        "sha256": "51ac849c8df2e20b4d343036d747229b3c83fbf85852eeb62c93399c2daf359f",
+        "size": 534
+      },
+      "asset.meta": {
+        "sha256": "ad39c2a82871cea71da19c208a6d93e944ed88b96fe07e4f5db6be311724fd8e",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaCapsuleColliderGizmoDrawer.cs\n00"
+    },
+    {
+      "guid": "74bd6289c38f5474b8b019772117a679",
+      "asset": {
+        "sha256": "7794e85655362c6fa7a9dbd726e4e86190bf462c6860b735054ed1c844a63ae0",
+        "size": 529
+      },
+      "asset.meta": {
+        "sha256": "a26ceefc4c282846f750391e603526fe352220d6e3a98f0bf1ead0a1cde970c6",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaClothGizmoDrawer.cs\n00"
+    },
+    {
+      "guid": "4ca64167845464543866cbfb4e1bfede",
+      "asset": {
+        "sha256": "27250ac579fcf7dbfd98fcc5db3d910cfb04910d80a44534e41ddad4a9259acd",
+        "size": 528
+      },
+      "asset.meta": {
+        "sha256": "23c2cd01cf79d3ca684bb5414283e0153861578ae702359f9d23cd5d4c1e874b",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaPlaneColliderGizmoDrawer.cs\n00"
+    },
+    {
+      "guid": "0200526b5666bc94bb5b3f16765a1b96",
+      "asset": {
+        "sha256": "02de5c430c079e87d31b2e7afedd94783462448c4cdaba56870acc7224f806dc",
+        "size": 531
+      },
+      "asset.meta": {
+        "sha256": "d09000d20bedb24ae997cf435a37d1a25ee038a783fcf22a2176085a9c2f6605",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaSphereColliderGizmoDrawer.cs\n00"
+    },
+    {
+      "guid": "4ad4eda344968ea4ab9b9f512b8c7278",
+      "asset": {
+        "sha256": "67c73144a8a16ae7c10f3738831c5280c42a08eac7abdf266a2a651a355aca08",
+        "size": 435
+      },
+      "asset.meta": {
+        "sha256": "9f4e4109fa44be753a25517380982006ef4a42297d9547611ee573bb78ca16ad",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaWindZoneGizmoDrawer.cs\n00"
+    },
+    {
+      "guid": "4c01641db757d0e4f85a4358c823601a",
+      "asset": {
+        "sha256": "8539f01081e80b3dd12881f85d764cf801f4855077cbbe0bf801133149a32eff",
+        "size": 811
+      },
+      "asset.meta": {
+        "sha256": "3a966bee97038f773607f90689cac17a868c6db2f3daa2cf838dcad143415160",
+        "size": 166
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/MagicaCloth2.Editor.asmdef\n00"
+    },
+    {
+      "guid": "d09f86fb6833fb048935d02b3254e292",
+      "asset.meta": {
+        "sha256": "48a21dde422f0585f53ee39f881ca0b7bb1d7948a388a35171bfdc7686f59cf2",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/PreBuild\n00"
+    },
+    {
+      "guid": "d37ab6d9c5e31034a9503a7cedd96ee3",
+      "asset": {
+        "sha256": "5e0fe7abc23d143f53c7d3c290850c451957e92f11b97a7fe0b2b8a6e2089674",
+        "size": 24658
+      },
+      "asset.meta": {
+        "sha256": "5bc8b44d5e19df2c0616eb1375cba2d8f922c13a4c125a402868323dc6d8dee8",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/PreBuild/PreBuildDataCreation.cs\n00"
+    },
+    {
+      "guid": "b220f0001485e184bb3dd8e27c9854b0",
+      "asset.meta": {
+        "sha256": "403562f84a7c78119d0f028d529c58074222663b287d0c3b21ba395c27e38879",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter\n00"
+    },
+    {
+      "guid": "232f688d5a1b6c04e91d6dca950b394e",
+      "asset.meta": {
+        "sha256": "63c7e6622f4cc35e04cd65b04e8692d7de679944dec1926377feee035ddd3786",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Burst\n00"
+    },
+    {
+      "guid": "3a07ec506f9f4a6488a05f2691638ef3",
+      "asset": {
+        "sha256": "970ac0d70fe6b48c97b0f01d727709253627534cae75daf96c12024abd77b6bb",
+        "size": 543
+      },
+      "asset.meta": {
+        "sha256": "2bc78a02a26d14b9fe5fd4fe1c14da0e47c45dde3f1243e2c2db6c3810cd6812",
+        "size": 166
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Burst/MagicaCloth2UPMImporterBurst.asmdef\n00"
+    },
+    {
+      "guid": "0303ccf5b5b37f24783c499f80d88363",
+      "asset": {
+        "sha256": "e3e4bdf645d312178f663321ce324b5a3350c3cfe449b3362d5bfbc3d5f2d8c2",
+        "size": 927
+      },
+      "asset.meta": {
+        "sha256": "8bdfaee93a966049f0952bf370580dfe0ec186ac1d0eb7d3be45a26d939fd90a",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Burst/UnityPackageImporter.cs\n00"
+    },
+    {
+      "guid": "22dca49adfb21a644b1bed79da0080a7",
+      "asset.meta": {
+        "sha256": "fc09f06e7851510eace3e5fa9ec7e7899e916e74d9a22ac170ee38c540c14d0f",
+        "size": 172
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Collections\n00"
+    },
+    {
+      "guid": "084a8eed0c5e5a84fa6a7cd543c50d8a",
+      "asset": {
+        "sha256": "a63539cd4a666de04b220bacc6d962c74a09523931ba5043110e7d99cb106897",
+        "size": 567
+      },
+      "asset.meta": {
+        "sha256": "31dcc062b38563ee903e12a633847f96eebe34715e78c129a2aa32d737ceec44",
+        "size": 166
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Collections/MagicaCloth2UPMImporterCollections.asmdef\n00"
+    },
+    {
+      "guid": "c49cd9494a8e6374eb04a10242c258e3",
+      "asset": {
+        "sha256": "9d4af8fd2683da0cbb2bae69da1eff93d9a16dc6e7a2e37b93ce8f2025f1d334",
+        "size": 933
+      },
+      "asset.meta": {
+        "sha256": "5a7bc6b4506105299daf1e9ce63c964942594912318830db666b608d2ee9b02d",
+        "size": 243
+      },
+      "path": "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Collections/UnityPackageImporter.cs\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "db29dc3767380a7b84e006781d1ed48bd032216268ab34a3c3d91075baf9a2cd",
+      "size": 45920
+    }
+  ],
+  "control_character_paths": [
+    "Assets/MagicaCloth2\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_Floor.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_Test_Back.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_Test_Front.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Materials/MC2_White.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model/Materials\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model/Materials/Arrow.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Model/arrow_b.fbx\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Cube.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/CubeRoup.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Env.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Plane.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/RuntimeBuildDemo.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/RuntimeDressUpDemo.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/SimpleImputManager.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Stage.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_KAGURA.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_RuntimeBuild.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_RuntimeDressUp.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_Wind.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/WindDemo.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/WindParticle.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Resources\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Resources/MC2_BoneCloth_Ribbon_Demo.json\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/AutoRotate.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/CameraOrbit.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/CreateSingleton.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor/ShaderGraph\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor/ShaderGraph/MagicaCloth2UPMImporterShaderGraph.asmdef\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/Editor/ShaderGraph/UnityPackageImporter.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/GameObjectContainer.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/ModelController.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/RuntimeBuildDemo.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/RuntimeDressUpDemo.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/SimpleInputManager.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/SliderText.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/TargetFPS.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Scripts/WindDemo.cs\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Shaders\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Shaders/MC2_Common_Lit_Back.shadergraph\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Shaders/MC2_Common_Lit_Front.shadergraph\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Textures\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/Common/Textures/SD_UnityChan_Skirt_PaintMap.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/RuntimeBuild_CoreRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/RuntimeDressUp_CoreRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/UnityChanKAGURA_CoreRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/CoreRP/Wind_CoreRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/MC2_SkyandFogSettingsProfile.asset\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/RuntimeBuild_HDRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/RuntimeDressUp_HDRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/UnityChanKAGURA_HDRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/HDRP/Wind_HDRP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/RuntimeBuild_URP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/RuntimeDressUp_URP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/UnityChanKAGURA_URP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/DemoScenes/URP/Wind_URP.unity\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/Logo\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/Logo/Dark_Silhouette.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/SB_def_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/SB_nol_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/SB_skin_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/def_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/hair_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/mouth_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/nol_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Materials/skin_mat.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/SD_UnityChan.controller\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/body_sum.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/body_win.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/misaki_head.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/utc_all2.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Textures/yuko_head.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Body).prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Hair).prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Skeleton).prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid Variant.prefab\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid.fbx\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English/01Unity-Chan License Terms and Condition_EN_UCL2.0.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English/02Unity-Chan License Terms and Condition_Summary_EN_UCL2.0.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/English/03Indication of License_EN_UCL2.0.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese/01Unity-Chan License Terms and Condition_JP_UCL2.0.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese/02Unity-Chan License Terms and Condition_Summary_JP_UCL2.0.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/Japanese/03Indication of License_JP_UCL2.0.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_LOGO_rules02.ai\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_LOGO_rules02.psd\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_logo-guideline.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/LUUL_logo-guideline_en.pdf\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/jpg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/jpg/Dark_Silhouette.jpg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/jpg/Light_Silhouette.jpg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png/Dark_Silhouette.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png/Light_Frame.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/png/Light_Silhouette.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg/Dark_Silhouette.svg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg/Light_Frame.svg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UCL2.0/License Logo/Others/svg/Light_Silhouette.svg\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/Unity-Chan License.txt\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/RUN00_F.anim\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/UC01_001_UniteInTheSky -WA-.fbx\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WAIT02.anim\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WAIT04.anim\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WALK00_F.anim\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/WIN00.anim\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Albedo.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Body Back.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Body.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Eyes.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Eyes_HL.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Face.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Hair.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/HairPony.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Headgear.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/LongSleeve Back.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/LongSleeve.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/Skin.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Base.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Emi.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_SGM.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Shd1.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Shd2.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Body_Spc.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Base.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Emi.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_LSM.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Rim.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_SGM.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Shd1.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Face_Shd2.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Hair_SGM.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Headfgear_Base.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Base.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Emi.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Nrm.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Rim.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_SGM.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_Spc.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/TEX/PNG/Skin_SpcCol.png\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/face3_main.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Materials/headExt.mat\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UniteInTheSky.controller\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UnityCHanKAGURA.fbx\n00",
+    "Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UnityCHanKAGURA_MC2.prefab\n00",
+    "Assets/MagicaCloth2/MagicaCloth2.asmdef\n00",
+    "Assets/MagicaCloth2/Readme.txt\n00",
+    "Assets/MagicaCloth2/Readme_jpn.txt\n00",
+    "Assets/MagicaCloth2/Res\n00",
+    "Assets/MagicaCloth2/Res/Icon\n00",
+    "Assets/MagicaCloth2/Res/Icon/icon-cloth.png\n00",
+    "Assets/MagicaCloth2/Res/Icon/icon-collider.png\n00",
+    "Assets/MagicaCloth2/Res/Icon/icon-settings.png\n00",
+    "Assets/MagicaCloth2/Res/Icon/icon-wind.png\n00",
+    "Assets/MagicaCloth2/Res/Preset\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Accessory.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Cape.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_FrontHair.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_HardSpring.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_LongHair.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_MiddleSpring.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_ShortHair.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Skirt.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_SoftSkirt.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_SoftSpring.json\n00",
+    "Assets/MagicaCloth2/Res/Preset/MC2_Preset_Tail.json\n00",
+    "Assets/MagicaCloth2/Scripts\n00",
+    "Assets/MagicaCloth2/Scripts/Core\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/CheckSliderSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothBehaviour.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothForceMode.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothInitSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothMeshWriteMode.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothNormalAxis.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothParameters.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothProcess.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothProcessData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothProcessGeneration.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothSerializeData2.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothSerializeDataFunction.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/ClothUpdateMode.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/ColliderComponent.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/MagicaCapsuleCollider.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/MagicaPlaneCollider.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Collider/MagicaSphereCollider.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/AngleConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/ColliderCollisionConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/DistanceConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/InertiaConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/MotionConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/SelfCollisionConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/SpringConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/TetherConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Constraints/TriangleBendingConstraint.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/CullingSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/CurveSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/CustomSkinningSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/GizmoSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/MagicaCloth.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/MagicaClothAPI.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/MagicaClothAnimationProperty.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/NormalAlignmentSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/SelectionData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind/MagicaWindZone.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind/WindParams.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Cloth/Wind/WindSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Define\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Define/ResultDefine.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Define/SystemDefine.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Interface\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Interface/ICount.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Interface/IDataValidate.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Interface/ITransform.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Interface/IValid.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Cloth\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Cloth/ClothManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Cloth/PreBuildManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/IManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/MagicaManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/MagicaManagerAPI.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/MagicaSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Render\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderSetupData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderSetupDataSerialization.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Render/RenderSetupSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/ColliderManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/SimulationManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/TimeManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Simulation/WindManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Team\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Team/TeamManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/Team/TeamWindData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformDataSerialization.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformRecord.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/TransformManager/TransformRecordSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/VirtualMesh\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Manager/VirtualMesh/VirtualMeshManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/PreBuild\n00",
+    "Assets/MagicaCloth2/Scripts/Core/PreBuild/PreBuildScriptableObject.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/PreBuild/PreBuildSerializeData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/PreBuild/SharePreBuildData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/PreBuild/UniquePreBuildData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction/ReductionSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction/ReductionWorkData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction/SameDistanceReduction.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction/ShapeDistanceReduction.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction/SimpleDistanceReduction.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Reduction/StepReductionBase.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Settings\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Settings/ClothDebugSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Settings/VirtualMeshDebugSettings.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Data\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Data/DataUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Data/MultiDataBuilder.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Grid\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Grid/GridMap.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Jobs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Jobs/InterlockUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Jobs/JobUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Math\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Math/AABB.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Math/IntAABB.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Math/MathExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Math/MathUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Math/MinimumData.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Mesh\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Mesh/MeshUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Misc\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Misc/Develop.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Misc/StaticStringBuilder.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/DataChunk.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExBitFlag16.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExBitFlag8.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExCostSortedList1.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExCostSortedList4.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExNativeArray.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExProcessingList.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExSimpleNativeArray.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/ExTransformAccessArray.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList128BytesExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList32BytesExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList4096BytesExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList512BytesExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/FixedList64BytesExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeArrayExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeMultiHashMapExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeParallelHashMapExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/NativeCollection/NativeReferenceExtensions.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/ResultCode\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/ResultCode/Exception.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/ResultCode/ResultCode.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Time\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Time/TimeSpan.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/Utility/Time/UnityTimeSpan.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshInputOutput.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshMapping.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshOptimization.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshProxy.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshReduction.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshSerialization.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/Function/VirtualMeshWork.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VertexAttribute.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMesh.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshBoneWeight.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshContainer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshPrimitive.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshRaycastHit.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Core/VirtualMesh/VirtualMeshTransform.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothAssetPostprocessor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothEditorManager.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothEditorUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothInspectorUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothPainter.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/ClothPresetUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaCapsuleColliderEditor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaClothEditor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaEditorBase.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaPlaneColliderEditor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaSettingsEditor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaSphereColliderEditor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/MagicaWindZoneEditor.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Cloth/VirtualMeshEditorUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/AboutMenu.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/CheckSliderSerializeDataDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/CurveSerializeDataDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/DrawIconInHierarchy.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/MenuItemScript.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/EditorExtension/SharePreBuildDataDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos/GizmoUtility.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaCapsuleColliderGizmoDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaClothGizmoDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaPlaneColliderGizmoDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaSphereColliderGizmoDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/Gizmos/MagicaWindZoneGizmoDrawer.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/MagicaCloth2.Editor.asmdef\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/PreBuild\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/PreBuild/PreBuildDataCreation.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Burst\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Burst/MagicaCloth2UPMImporterBurst.asmdef\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Burst/UnityPackageImporter.cs\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Collections\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Collections/MagicaCloth2UPMImporterCollections.asmdef\n00",
+    "Assets/MagicaCloth2/Scripts/Editor/UnityPackageImporter/Collections/UnityPackageImporter.cs\n00"
+  ]
+}

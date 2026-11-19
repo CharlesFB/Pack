@@ -1,0 +1,9 @@
+.venv
+.runtime
+.git
+.env
+*.sqlite3
+__pycache__
+staticfiles
+reports
+external

@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "layout_version": 2,
+  "note": "Physical storage categories; provenance and stable plugin IDs remain in index.json.",
+  "groups": [
+    {
+      "id": "magictavern",
+      "directory": "magictavern",
+      "name": "MagicTavern",
+      "plugin_ids": [
+        "adjust",
+        "applovin-max",
+        "build-config",
+        "demigiant-bundle",
+        "dotween",
+        "dotween-pro",
+        "edm4u",
+        "facebook-unity-sdk",
+        "google-signin",
+        "googleplay-games",
+        "helpshift-x",
+        "nice-vibrations",
+        "odin-inspector",
+        "odin-inspector-configtool",
+        "spine-timeline",
+        "spine-unity",
+        "test-readme-archive",
+        "ui-animations"
+      ],
+      "builds": [
+        {
+          "plugin_id": "adjust",
+          "version": "",
+          "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+          "directory": "magictavern/adjust/unversioned/13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec"
+        },
+        {
+          "plugin_id": "applovin-max",
+          "version": "",
+          "build_id": "2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579",
+          "directory": "magictavern/applovin-max/unversioned/2045a9779f5dbe203e33393e00e42113480f3875f727f21a48f6d1232506d579"
+        },
+        {
+          "plugin_id": "build-config",
+          "version": "",
+          "build_id": "6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975",
+          "directory": "magictavern/build-config/unversioned/6710c11d79552b5e695af57882f4da20c544ff25edcc45ec31d98425d95b6975"
+        },
+        {
+          "plugin_id": "demigiant-bundle",
+          "version": "",
+          "build_id": "37df0c3514bccb777cff78573060c74041cdb81cd1a4cdffd9bfe75da1a0e9ce",
+          "directory": "magictavern/demigiant-bundle/unversioned/37df0c3514bccb777cff78573060c74041cdb81cd1a4cdffd9bfe75da1a0e9ce"
+        },
+        {
+          "plugin_id": "demigiant-bundle",
+          "version": "",
+          "build_id": "b5b456700cf35e540d3234f2543c6b113f8c0b55f10e27d13fe9c87714e125d7",
+          "directory": "magictavern/demigiant-bundle/unversioned/b5b456700cf35e540d3234f2543c6b113f8c0b55f10e27d13fe9c87714e125d7"
+        },
+        {
+          "plugin_id": "dotween",
+          "version": "",
+          "build_id": "f22c0d425232de759cbd42b8059e57ea0955dee97ce77c76fa0243ab304331ee",
+          "directory": "magictavern/dotween/unversioned/f22c0d425232de759cbd42b8059e57ea0955dee97ce77c76fa0243ab304331ee"
+        },
+        {
+          "plugin_id": "dotween-pro",
+          "version": "",
+          "build_id": "b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237",
+          "directory": "magictavern/dotween-pro/unversioned/b907630bd705487f5fc679b870de0ff653169a0d61659117971f39b2612c4237"
+        },
+        {
+          "plugin_id": "edm4u",
+          "version": "",
+          "build_id": "6db6b031d4fbd18a73e8b56455245b24355a9cfc558b7ae042326503bb01bc2a",
+          "directory": "magictavern/edm4u/unversioned/6db6b031d4fbd18a73e8b56455245b24355a9cfc558b7ae042326503bb01bc2a"
+        },
+        {
+          "plugin_id": "edm4u",
+          "version": "",
+          "build_id": "dadb3728349f95e6786504322dc8a3014064581b7503c2023757ee2d2ea4b2a5",
+          "directory": "magictavern/edm4u/unversioned/dadb3728349f95e6786504322dc8a3014064581b7503c2023757ee2d2ea4b2a5"
+        },
+        {
+          "plugin_id": "facebook-unity-sdk",
+          "version": "",
+          "build_id": "6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf",
+          "directory": "magictavern/facebook-unity-sdk/unversioned/6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf"
+        },
+        {
+          "plugin_id": "google-signin",
+          "version": "",
+          "build_id": "b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf",
+          "directory": "magictavern/google-signin/unversioned/b813cef740063f665c0037b39ea25b4ca56733ddfecf1497c24db6e1828106bf"
+        },
+        {
+          "plugin_id": "googleplay-games",
+          "version": "",
+          "build_id": "778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac",
+          "directory": "magictavern/googleplay-games/unversioned/778526aea2ae4858dc82890894a227708fc24b82ccb3a783629932f918258eac"
+        },
+        {
+          "plugin_id": "helpshift-x",
+          "version": "",
+          "build_id": "0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f",
+          "directory": "magictavern/helpshift-x/unversioned/0215be0b0b6baa985a9dd438509ed40ba81cb0e46a9a179bbde5aeab2cae185f"
+        },
+        {
+          "plugin_id": "nice-vibrations",
+          "version": "",
+          "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+          "directory": "magictavern/nice-vibrations/unversioned/0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4"
+        },
+        {
+          "plugin_id": "odin-inspector",
+          "version": "",
+          "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+          "directory": "magictavern/odin-inspector/unversioned/bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d"
+        },
+        {
+          "plugin_id": "odin-inspector-configtool",
+          "version": "",
+          "build_id": "c297d2cf833edebbc099436510bbc0ed1f72555b055e19135a11942081b5bc7e",
+          "directory": "magictavern/odin-inspector-configtool/unversioned/c297d2cf833edebbc099436510bbc0ed1f72555b055e19135a11942081b5bc7e"
+        },
+        {
+          "plugin_id": "spine-timeline",
+          "version": "",
+          "build_id": "51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4",
+          "directory": "magictavern/spine-timeline/unversioned/51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4"
+        },
+        {
+          "plugin_id": "spine-unity",
+          "version": "",
+          "build_id": "0ec86d76e453a99a661335f2e4508d7d59a636ce0ab60197c9458eac2b37753c",
+          "directory": "magictavern/spine-unity/unversioned/0ec86d76e453a99a661335f2e4508d7d59a636ce0ab60197c9458eac2b37753c"
+        },
+        {
+          "plugin_id": "test-readme-archive",
+          "version": "",
+          "build_id": "0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502",
+          "directory": "magictavern/test-readme-archive/unversioned/0cafb5041ad22527aa44a464859a23194b1788cb4bb12dc716aafd6f3e446502"
+        },
+        {
+          "plugin_id": "ui-animations",
+          "version": "",
+          "build_id": "386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb",
+          "directory": "magictavern/ui-animations/unversioned/386f5f1093b1d0fc96bad80af19a78665444ce217d7ed910f24348ed6984a6eb"
+        }
+      ]
+    },
+    {
+      "id": "adjust",
+      "directory": "adjust",
+      "name": "Adjust SDK",
+      "plugin_ids": [
+        "external2636-adjust-sdk-dcbb7d32"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+          "version": "4.30.0",
+          "build_id": "e9021ea4746d4940ce0fe5281345418741b351ba3ea59c8464ca118aaa35156e",
+          "directory": "adjust/4.30.0/e9021ea4746d4940ce0fe5281345418741b351ba3ea59c8464ca118aaa35156e"
+        },
+        {
+          "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+          "version": "4.37.1",
+          "build_id": "d3b1faee0ad25643e7c3ca660a4e0d25b16ce576d52f658a974ee9c96e924c88",
+          "directory": "adjust/4.37.1/d3b1faee0ad25643e7c3ca660a4e0d25b16ce576d52f658a974ee9c96e924c88"
+        },
+        {
+          "plugin_id": "external2636-adjust-sdk-dcbb7d32",
+          "version": "5.0.6",
+          "build_id": "13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec",
+          "directory": "adjust/5.0.6/13d9fcbc3b7ba8e72e3d22a9643abcc6e52035f86d6a0219dce8ee0977d2f3ec"
+        }
+      ]
+    },
+    {
+      "id": "anti-cheat-toolkit",
+      "directory": "anti-cheat-toolkit",
+      "name": "Anti Cheat ToolKit",
+      "plugin_ids": [
+        "external2636-anti-cheat-toolkit-e264d82c"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-anti-cheat-toolkit-e264d82c",
+          "version": "2024.0.0",
+          "build_id": "5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426",
+          "directory": "anti-cheat-toolkit/2024.0.0/5dd92a6071fe564bf3065173bac47ad023ce4b80f44f6fcd5450376d039b3426"
+        }
+      ]
+    },
+    {
+      "id": "applovin-max",
+      "directory": "applovin-max",
+      "name": "Applovin MAX SDK",
+      "plugin_ids": [
+        "external2636-applovin-max-sdk-8ade2fe2"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+          "version": "5.11.5",
+          "build_id": "92bdf51ac2925019426f5bba672a114b8e502d83e760c99c1cab764ebc49a4cf",
+          "directory": "applovin-max/5.11.5/92bdf51ac2925019426f5bba672a114b8e502d83e760c99c1cab764ebc49a4cf"
+        },
+        {
+          "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+          "version": "5.4.4",
+          "build_id": "95964d6835497d28410ef6054d5adb7732b5c75f99a368d893110f3ec29f3481",
+          "directory": "applovin-max/5.4.4/95964d6835497d28410ef6054d5adb7732b5c75f99a368d893110f3ec29f3481"
+        },
+        {
+          "plugin_id": "external2636-applovin-max-sdk-8ade2fe2",
+          "version": "6.1.1",
+          "build_id": "bb64f982fc6dc8a3b06f52e92d25fedf588fbe66098d5a2d6c31135a00478e75",
+          "directory": "applovin-max/6.1.1/bb64f982fc6dc8a3b06f52e92d25fedf588fbe66098d5a2d6c31135a00478e75"
+        }
+      ]
+    },
+    {
+      "id": "astar-pathfinding-pro",
+      "directory": "astar-pathfinding-pro",
+      "name": "A PathFinding Project Pro",
+      "plugin_ids": [
+        "external2636-a-pathfinding-project-pro-dbf3cd71"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-a-pathfinding-project-pro-dbf3cd71",
+          "version": "5.3.1",
+          "build_id": "6866ba46ca15b57506ca64ccc7f7f24b462d49c59c799cdc59dddd60b6dd5118",
+          "directory": "astar-pathfinding-pro/5.3.1/6866ba46ca15b57506ca64ccc7f7f24b462d49c59c799cdc59dddd60b6dd5118"
+        }
+      ]
+    },
+    {
+      "id": "behavior-designer",
+      "directory": "behavior-designer",
+      "name": "Behavior Designer Behavior Trees for Everyone",
+      "plugin_ids": [
+        "external2636-behavior-designer-behavior-trees-for-everyone-0745505c"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-behavior-designer-behavior-trees-for-everyone-0745505c",
+          "version": "1.7.11",
+          "build_id": "99913b6066a4b4a36b812fae9172672b171ea9905ab38be6290d8d95b13657fd",
+          "directory": "behavior-designer/1.7.11/99913b6066a4b4a36b812fae9172672b171ea9905ab38be6290d8d95b13657fd"
+        }
+      ]
+    },
+    {
+      "id": "corgi-engine",
+      "directory": "corgi-engine",
+      "name": "Corgi Engine - 2D + 2.5D Platformer",
+      "plugin_ids": [
+        "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6",
+          "version": "9.1-Unity2022",
+          "build_id": "990b43e087c073cb1963d7fedb9e92cc1b98f2e2a393e22f5caeaef439adeb54",
+          "directory": "corgi-engine/9.1-Unity2022/990b43e087c073cb1963d7fedb9e92cc1b98f2e2a393e22f5caeaef439adeb54"
+        },
+        {
+          "plugin_id": "external2636-corgi-engine-2d-2-5d-platformer-1f6d2ef6",
+          "version": "9.3-Unity6000",
+          "build_id": "96145f931a096a6286da7a35288e6e15b9a242d5d39c9138c48dac1ad641df0c",
+          "directory": "corgi-engine/9.3-Unity6000/96145f931a096a6286da7a35288e6e15b9a242d5d39c9138c48dac1ad641df0c"
+        }
+      ]
+    },
+    {
+      "id": "dotween-pro",
+      "directory": "dotween-pro",
+      "name": "DOTween Pro",
+      "plugin_ids": [
+        "external2636-dotween-pro-7c368136"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-dotween-pro-7c368136",
+          "version": "1.0.335",
+          "build_id": "6917a1f1def4cbdb30e66596bdc1626ae822e81ab9745fbe09462ab3855df3b4",
+          "directory": "dotween-pro/1.0.335/6917a1f1def4cbdb30e66596bdc1626ae822e81ab9745fbe09462ab3855df3b4"
+        }
+      ]
+    },
+    {
+      "id": "easy-collider-editor",
+      "directory": "easy-collider-editor",
+      "name": "Easy Collider Editor",
+      "plugin_ids": [
+        "external2636-easy-collider-editor-9649192d"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-easy-collider-editor-9649192d",
+          "version": "6.16.4",
+          "build_id": "c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+          "directory": "easy-collider-editor/6.16.4/c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501"
+        }
+      ]
+    },
+    {
+      "id": "edm4u",
+      "directory": "edm4u",
+      "name": "EDMU",
+      "plugin_ids": [
+        "external2636-edmu-08d7c817"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-edmu-08d7c817",
+          "version": "1.2.176",
+          "build_id": "71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121",
+          "directory": "edm4u/1.2.176/71370d20229d7b8fe8da96fa2675434eff2b99fb913574fbc944eaeebb3f8121"
+        },
+        {
+          "plugin_id": "external2636-edmu-08d7c817",
+          "version": "1.2.177",
+          "build_id": "f6128a08533deee0cf5f324378cd18d17f255e606187cfd07c71bb0b4ed8116e",
+          "directory": "edm4u/1.2.177/f6128a08533deee0cf5f324378cd18d17f255e606187cfd07c71bb0b4ed8116e"
+        }
+      ]
+    },
+    {
+      "id": "epic-toon-fx",
+      "directory": "epic-toon-fx",
+      "name": "Epic Toon FX",
+      "plugin_ids": [
+        "external2636-epic-toon-fx-634730ba"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-epic-toon-fx-634730ba",
+          "version": "1.82 - unity6000",
+          "build_id": "2338237895359e6f7d2f3c1435a96ee754c74c75aaf36a4123aa54936ff6404b",
+          "directory": "epic-toon-fx/1.82---unity6000-3a1122490ac1/2338237895359e6f7d2f3c1435a96ee754c74c75aaf36a4123aa54936ff6404b"
+        }
+      ]
+    },
+    {
+      "id": "epic-toon-vfx3",
+      "directory": "epic-toon-vfx3",
+      "name": "Epic Toon VFX3",
+      "plugin_ids": [
+        "external2636-epic-toon-vfx3-b45e8e1d"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-epic-toon-vfx3-b45e8e1d",
+          "version": "1.1",
+          "build_id": "127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+          "directory": "epic-toon-vfx3/1.1/127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0"
+        }
+      ]
+    },
+    {
+      "id": "feel",
+      "directory": "feel",
+      "name": "Feel",
+      "plugin_ids": [
+        "external2636-feel-cd1e2387"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-feel-cd1e2387",
+          "version": "3.7.1",
+          "build_id": "340413083e6c8095c8b886a1304eee69b3b0b3ea09e757d359a5bf9a8a75a4fe",
+          "directory": "feel/3.7.1/340413083e6c8095c8b886a1304eee69b3b0b3ea09e757d359a5bf9a8a75a4fe"
+        },
+        {
+          "plugin_id": "external2636-feel-cd1e2387",
+          "version": "4.3-Unity2022",
+          "build_id": "ba862b9e7d351f370344a47070b677e1314aa32e85961c5575d3ce04d3644107",
+          "directory": "feel/4.3-Unity2022/ba862b9e7d351f370344a47070b677e1314aa32e85961c5575d3ce04d3644107"
+        },
+        {
+          "plugin_id": "external2636-feel-cd1e2387",
+          "version": "5.3-Unity6",
+          "build_id": "906cf3fb4818db5ff4c1d3c8e50bde20b0cd4f19539dc57cd48ec48f27028c88",
+          "directory": "feel/5.3-Unity6/906cf3fb4818db5ff4c1d3c8e50bde20b0cd4f19539dc57cd48ec48f27028c88"
+        }
+      ]
+    },
+    {
+      "id": "fmod-studio",
+      "directory": "fmod-studio",
+      "name": "Fmod Studio",
+      "plugin_ids": [
+        "external2636-fmod-studio-755279a6"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-fmod-studio-755279a6",
+          "version": "2.0.2.19",
+          "build_id": "715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad",
+          "directory": "fmod-studio/2.0.2.19/715a7e528097cbe088090fb6e0a2c653cf0a39c310ffd7007585211770afadad"
+        },
+        {
+          "plugin_id": "external2636-fmod-studio-755279a6",
+          "version": "2.0.2.26",
+          "build_id": "2a3276a809292aa00ddaeb6cc6926999ebde417ba81c78308276fefb92d6e31c",
+          "directory": "fmod-studio/2.0.2.26/2a3276a809292aa00ddaeb6cc6926999ebde417ba81c78308276fefb92d6e31c"
+        }
+      ]
+    },
+    {
+      "id": "log-viewer",
+      "directory": "log-viewer",
+      "name": "Log Viewer",
+      "plugin_ids": [
+        "external2636-log-viewer-b26528cf"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-log-viewer-b26528cf",
+          "version": "1.8",
+          "build_id": "e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c",
+          "directory": "log-viewer/1.8/e312068661d39c027e229ab4f702d9871cb58e1b3b17b8b8c1d616409c81550c"
+        }
+      ]
+    },
+    {
+      "id": "magica-cloth",
+      "directory": "magica-cloth",
+      "name": "Magica Cloth",
+      "plugin_ids": [
+        "external2636-magica-cloth-f971aa59"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-magica-cloth-f971aa59",
+          "version": "2.13.1",
+          "build_id": "0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002",
+          "directory": "magica-cloth/2.13.1/0af680523f1b1cfb30ed228dae2b54cc2f77ad58c515658fab44ea89df0e9002"
+        }
+      ]
+    },
+    {
+      "id": "map-graph",
+      "directory": "map-graph",
+      "name": "Map Graph",
+      "plugin_ids": [
+        "external2636-map-graph-53789fa8"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-map-graph-53789fa8",
+          "version": "1.26.2",
+          "build_id": "645de9f47126d647414c0e945b6a15b5e84353bf924154dd6da2385a22bb26c8",
+          "directory": "map-graph/1.26.2/645de9f47126d647414c0e945b6a15b5e84353bf924154dd6da2385a22bb26c8"
+        }
+      ]
+    },
+    {
+      "id": "nice-vibrations",
+      "directory": "nice-vibrations",
+      "name": "NiceVibrations",
+      "plugin_ids": [
+        "external2636-nicevibrations-a97fc6fd"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-nicevibrations-a97fc6fd",
+          "version": "3.9.0",
+          "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+          "directory": "nice-vibrations/3.9.0/0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4"
+        }
+      ]
+    },
+    {
+      "id": "nugetforunity",
+      "directory": "nugetforunity",
+      "name": "NugetForUnity",
+      "plugin_ids": [
+        "external2636-nugetforunity-d17a20b9"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-nugetforunity-d17a20b9",
+          "version": "3.0.4",
+          "build_id": "47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+          "directory": "nugetforunity/3.0.4/47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c"
+        }
+      ]
+    },
+    {
+      "id": "odin-inspector",
+      "directory": "odin-inspector",
+      "name": "Odin Inspector and Serializer",
+      "plugin_ids": [
+        "external2636-odin-inspector-and-serializer-7a65c84f"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-odin-inspector-and-serializer-7a65c84f",
+          "version": "3.1.10.0",
+          "build_id": "bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d",
+          "directory": "odin-inspector/3.1.10.0/bae7b4389391302f896974c4cc66fa88b032a258feccbd7857bf4d986e6dfd5d"
+        }
+      ]
+    },
+    {
+      "id": "pixel-art-full-gui-ui-kit",
+      "directory": "pixel-art-full-gui-ui-kit",
+      "name": "Pixel Art Full GUI UI Kit",
+      "plugin_ids": [
+        "external2636-pixel-art-full-gui-ui-kit-f3e1d86c"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-pixel-art-full-gui-ui-kit-f3e1d86c",
+          "version": "1.2.0",
+          "build_id": "99b368037398a28176b8ffd85216998ae2bdd9c1dfc11ef5f5a648f38aee8754",
+          "directory": "pixel-art-full-gui-ui-kit/1.2.0/99b368037398a28176b8ffd85216998ae2bdd9c1dfc11ef5f5a648f38aee8754"
+        }
+      ]
+    },
+    {
+      "id": "proxima",
+      "directory": "proxima",
+      "name": "Proxima",
+      "plugin_ids": [
+        "external2636-proxima-5f634d1a"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-proxima-5f634d1a",
+          "version": "1.2.1",
+          "build_id": "6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952",
+          "directory": "proxima/1.2.1/6b49ca629219c1ab50e271617e5141065dc01b61f4dd9bc6320a0c5a6626e952"
+        }
+      ]
+    },
+    {
+      "id": "spine",
+      "directory": "spine",
+      "name": "Spine",
+      "plugin_ids": [
+        "external2636-spine-36682557"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-spine-36682557",
+          "version": "3.8",
+          "build_id": "ebec10123b018ba9a4c7f4023ac0602a98674e57465657e0b190acd29c923108",
+          "directory": "spine/3.8/ebec10123b018ba9a4c7f4023ac0602a98674e57465657e0b190acd29c923108"
+        },
+        {
+          "plugin_id": "external2636-spine-36682557",
+          "version": "4.1",
+          "build_id": "785c14dcf9c2744f9de1b4512b0e2a060fa6b18adfcd1e407c36a59b6a0d0e31",
+          "directory": "spine/4.1/785c14dcf9c2744f9de1b4512b0e2a060fa6b18adfcd1e407c36a59b6a0d0e31"
+        },
+        {
+          "plugin_id": "external2636-spine-36682557",
+          "version": "4.1 with example",
+          "build_id": "8416f5bd99c61247302131761e4c8aef96ddbef90e81d34e8d28356bb4ba140b",
+          "directory": "spine/4.1-with-example-83a4361ad5af/8416f5bd99c61247302131761e4c8aef96ddbef90e81d34e8d28356bb4ba140b"
+        }
+      ]
+    },
+    {
+      "id": "statsmonitor",
+      "directory": "statsmonitor",
+      "name": "StatsMonitor",
+      "plugin_ids": [
+        "external2636-statsmonitor-16a8b28e"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-statsmonitor-16a8b28e",
+          "version": "1.0.0",
+          "build_id": "e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+          "directory": "statsmonitor/1.0.0/e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74"
+        }
+      ]
+    },
+    {
+      "id": "stylized-water-2",
+      "directory": "stylized-water-2",
+      "name": "Stylized Water 2",
+      "plugin_ids": [
+        "external2636-stylized-water-2-90c54509"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-stylized-water-2-90c54509",
+          "version": "1.7.0",
+          "build_id": "893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b",
+          "directory": "stylized-water-2/1.7.0/893dffea45af9930780137d6af23a254ae3b7c2593d883e2b13399d0d29d868b"
+        }
+      ]
+    },
+    {
+      "id": "task-invoker",
+      "directory": "task-invoker",
+      "name": "Task Invoker - Mobile Background Tasks",
+      "plugin_ids": [
+        "external2636-task-invoker-mobile-background-tasks-5a618738"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-task-invoker-mobile-background-tasks-5a618738",
+          "version": "1.0.2",
+          "build_id": "941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967",
+          "directory": "task-invoker/1.0.2/941d9be355e0384d04c5e37f6babab0e702ee631889d26d5d3c796212907e967"
+        }
+      ]
+    },
+    {
+      "id": "text-animator",
+      "directory": "text-animator",
+      "name": "Text Animator for Unity",
+      "plugin_ids": [
+        "external2636-text-animator-for-unity-d050710a"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-text-animator-for-unity-d050710a",
+          "version": "2.1.0",
+          "build_id": "7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+          "directory": "text-animator/2.1.0/7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2"
+        }
+      ]
+    },
+    {
+      "id": "uniwebview",
+      "directory": "uniwebview",
+      "name": "UniWebView",
+      "plugin_ids": [
+        "external2636-uniwebview-743d2f34"
+      ],
+      "builds": [
+        {
+          "plugin_id": "external2636-uniwebview-743d2f34",
+          "version": "5.12.0",
+          "build_id": "2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+          "directory": "uniwebview/5.12.0/2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c"
+        }
+      ]
+    }
+  ]
+}

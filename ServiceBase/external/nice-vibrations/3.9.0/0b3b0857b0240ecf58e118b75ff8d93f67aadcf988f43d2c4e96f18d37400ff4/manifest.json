@@ -1,0 +1,2599 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-nicevibrations-a97fc6fd",
+  "build_id": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+  "artifact": "artifact.unitypackage",
+  "sha256": "0b3b0857b0240ecf58e118b75ff8d93f67aadcf988f43d2c4e96f18d37400ff4",
+  "size": 5202638,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "b2a7a75b612c44dfda046f3fc1165373",
+      "asset.meta": {
+        "sha256": "55d60a0a0c56ff1240beb509d8e6f98452aa7dbd42c7a709844af60cd7b21978",
+        "size": 172
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9"
+    },
+    {
+      "guid": "61adcba369637416c847869ffc1682c4",
+      "asset.meta": {
+        "sha256": "d1e95bb8d254efa8d3902c943298ea8250d077d677c248c7fadcfd8ab6b75bfc",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common"
+    },
+    {
+      "guid": "4e9d703017b5f42b0825088b0ae3136e",
+      "asset.meta": {
+        "sha256": "b1d9e157b9864e8c594434093220c52cddec61cfffcd3494132da85c74624a50",
+        "size": 225
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins"
+    },
+    {
+      "guid": "7a37cd71dcc3d44f9a58950626844491",
+      "asset.meta": {
+        "sha256": "b365a309a65c9a592b3234989f2027c0a13333fdaae1136cc10a1e396bab5f99",
+        "size": 225
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/Android"
+    },
+    {
+      "guid": "381a7af7ed6ac314db34d78323925e29",
+      "asset.meta": {
+        "sha256": "45069e4aae7f19f7542265c69d650504863ebfd0199daff3dc68202fc129a504",
+        "size": 210
+      },
+      "asset": {
+        "sha256": "e078ddc5d08b2215bc01e6a2c0699e9cb8a1dce220dea269ee31b1cef835e9a5",
+        "size": 1220
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/Android/AndroidManifest.xml"
+    },
+    {
+      "guid": "bcb572eaa9464459d81c4473feb4b43f",
+      "asset.meta": {
+        "sha256": "9acfd1cf7f457be156d2fea92728ba75b83504d2cba474377eb987e8dacb2302",
+        "size": 202
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS"
+    },
+    {
+      "guid": "60b2a35a0cfd04a85a26522b005847f1",
+      "asset.meta": {
+        "sha256": "f2bd562e4a6a24b16485c900285f4867a2c7b37c00d3abbb1617a5aecbcb192a",
+        "size": 635
+      },
+      "asset": {
+        "sha256": "6e2e9749a59c51f001b7f6a548b738bd81a7e6cd0c71259ada2fa27b954a2f20",
+        "size": 4669
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS/MMNViOSHapticsInterface.m"
+    },
+    {
+      "guid": "1d9d8907be3d34a778808103de04f4f6",
+      "asset.meta": {
+        "sha256": "0753392e86042335a04a6a311e8005877e19276f9dd006215445683c8fc8a1f4",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS/Swift"
+    },
+    {
+      "guid": "19540685ad72e463791cb3726a1d2f58",
+      "asset.meta": {
+        "sha256": "05e189f42de3c8f3af793ac80c07664b6cdadbb9ca7adaccafc816c1b4f4ac7a",
+        "size": 716
+      },
+      "asset": {
+        "sha256": "a4b4062f5d4d6ddf7d7f2dbfb17b575b2724507eb54279fdf9179cd66f1fb10f",
+        "size": 2832
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS/Swift/MMNViOSCoreHapticsInterface.mm"
+    },
+    {
+      "guid": "a7f3be31fd9b2488f8dd1351850f9204",
+      "asset.meta": {
+        "sha256": "d8451c8b4f5cd18f79fe5ad7a56847680ecfd2d990d9f62ec793994339227a56",
+        "size": 716
+      },
+      "asset": {
+        "sha256": "249909a2c98c8adbc7cfe02b8c2192281ed64e4b492f3f7172c1a3a6fe353c08",
+        "size": 13714
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS/Swift/MMNViOSCoreHapticsInterface.swift"
+    },
+    {
+      "guid": "88b4979ff1a0248bfb77546e7e843696",
+      "asset.meta": {
+        "sha256": "345359ba8da56f91e6da2a75bf13e05a4f5538fee21dcb8fa166223389a943c0",
+        "size": 1604
+      },
+      "asset": {
+        "sha256": "70549704fa8e06cabd9b69a04f6dd312abb2432a669673ea6577d99c82275c3d",
+        "size": 137
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS/Swift/UnitySwift-Bridging-Header.h"
+    },
+    {
+      "guid": "6cc9b30fec8fd462cb317c9735b5bec5",
+      "asset.meta": {
+        "sha256": "01058cfc2aaf768ca8fb8440c412109c3fe71b03a51836a59ed81659f30adcfd",
+        "size": 162
+      },
+      "asset": {
+        "sha256": "225a9a3e0144d5af58d4bc02f6ef5f38ab0732ae6b86c915d5f80f61fcafa98e",
+        "size": 107
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Plugins/iOS/Swift/module.modulemap"
+    },
+    {
+      "guid": "89067a09c7a21d243a9a1c9059761fd2",
+      "asset.meta": {
+        "sha256": "81cc3c48f52d08b9d502f6d804398ddf3ef175741ff375d062d32da7567aaa1c",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Resources"
+    },
+    {
+      "guid": "26ed4a60d6c4b6b40b0f04a8c181d66b",
+      "asset.meta": {
+        "sha256": "a9ad293224558d3d673a48dcead512fd273f8b79eaaa93f792381e8aac30eab6",
+        "size": 190
+      },
+      "asset": {
+        "sha256": "f8350e7a831919bb6d56706d45f8522a444a1611f33a2e6eb1065a1329083cf9",
+        "size": 711
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Resources/MMNVPathDefinition.asset"
+    },
+    {
+      "guid": "42f03fcbaf27f4e0b8661f490cdd8754",
+      "asset.meta": {
+        "sha256": "48a5df71457c3900757b4dbd33ad9d9f019ac08578c277fbebb5ed7a57b0beed",
+        "size": 225
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts"
+    },
+    {
+      "guid": "4772e47ea134fe94dba7fe9d9daa153b",
+      "asset.meta": {
+        "sha256": "b7e8aead3ce4c02a77a8dec2a1925f5c52055bf186c0cf12383d132fc47c2fc4",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor"
+    },
+    {
+      "guid": "aafe8fb128f742e40a8413c8c7ea17b2",
+      "asset.meta": {
+        "sha256": "a36b688ec097f6f339a5ebcab618c4a852d95bb042d414f8bce15f6e083db606",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/DefineSymbols"
+    },
+    {
+      "guid": "6b2b51febacf4564ab92a1a04d6cd1ec",
+      "asset.meta": {
+        "sha256": "df4d997deeda1563b2566ff382b370494471971f7b6a47a52d0f5dd723b53e13",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "be085eba91062bf4208c9276eae511890c99928dad7be0f42033e6d6812543bd",
+        "size": 1486
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/DefineSymbols/NiceVibrationsDefineSymbols.cs"
+    },
+    {
+      "guid": "b384fa36cd33d1d40a8f635f1c648176",
+      "asset.meta": {
+        "sha256": "6a4f472eb139a8e35aa960697e183535588d2e11385c3d7fd52e8e0cee774c02",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "30ed68dabc436147b9f8952e3813b26b9d9b6b0a75bd919f4f908bba6aa9032a",
+        "size": 1442
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/MMNVAndroidWaveFormAssetEditor.cs"
+    },
+    {
+      "guid": "433967178997d39458757004d883d804",
+      "asset.meta": {
+        "sha256": "17098acc271be1f1519ae7398e6f7ec533826a68ecf83376f6cff27c203b374f",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "f3008d4d739914eefe159f036b190a69e5d646d230068303e0344a35caf8c4bf",
+        "size": 930
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/MMNVAssetPostProcessor.cs"
+    },
+    {
+      "guid": "d7bb09ebd427b4bf69534887e7899e55",
+      "asset.meta": {
+        "sha256": "8eeb4d46fe1287991738051a5f3f77f628e1dc19a40ecef229b944933f01ef93",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "effa757c1ae4dc0b84278063a536d5c8586417520888d1043a28f4653194e45e",
+        "size": 11354
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/MMNVBuildPostProcessor.cs"
+    },
+    {
+      "guid": "e845c46b827ec3044a72829bd9e6f00c",
+      "asset.meta": {
+        "sha256": "9feff27f173c4ae43071733d8767ac7f922e421e9de142aa4c7bf7c0ed7abbf4",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "6ac16d72bef785437dc5aa15514ab4c536aba0096366a7f86d9170cb2bc2dd56",
+        "size": 1556
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/MMNVRumbleWaveFormAssetEditor.cs"
+    },
+    {
+      "guid": "4d05703db82581d42ac13a6e1edd0ba2",
+      "asset.meta": {
+        "sha256": "e4bdbb2b43e6c1ce6cb57223c491e29bb9587a94ba9fcd6670cdb3cc0ca4c386",
+        "size": 173
+      },
+      "asset": {
+        "sha256": "89c3a6e91d546e5a33cffa9afa35c1acb0695184ee426be092abf9e1b959490c",
+        "size": 450
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Editor/MoreMountains.NiceVibrations.Editor.asmdef"
+    },
+    {
+      "guid": "b20a45af8a7ea4f4bbb2941cfdf61140",
+      "asset.meta": {
+        "sha256": "b8ff60d97295a6f4580d4309da252141df3198fccb0aad239cfebf6dcf39b925",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics"
+    },
+    {
+      "guid": "9fc7a58b1a8c38c4abfc83bab4224a24",
+      "asset.meta": {
+        "sha256": "1b70ad26f1f91462bd8e2ebc9d38da93a95251832228673728ffd6ac8cfe74cf",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "ea175d40ab5702959d73e8cc482879c9caa74b7b55d8e015bf0bb9ef20d65f06",
+        "size": 7488
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVAHAP.cs"
+    },
+    {
+      "guid": "51d32af772c9e2e4384bb5271eaedba8",
+      "asset.meta": {
+        "sha256": "d9d9a0f88eb36bf7af096dfd08d605f56f7c7129dc346797dae12135ff734d7d",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "a831a1da945f0549ecaab826b29b475adf386c2e3bb3fa4abbbfcc2ffd8b1562",
+        "size": 1639
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVAltThread.cs"
+    },
+    {
+      "guid": "b922262d9e4809f4a8ce2b27988275fb",
+      "asset.meta": {
+        "sha256": "13d4cdf194e823ff9248b1b70f9e2aa7ca30846c00cb3c1ab14c6bce3c8dc34b",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "e6f90d708be9f2fb976f79c0c86fe4e80486d89ba5314cfe3ac44028505126dc",
+        "size": 11256
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVAndroid.cs"
+    },
+    {
+      "guid": "878a46a2e5200af4ca0b198530f29690",
+      "asset.meta": {
+        "sha256": "53d3576bda410149f7da31f8ef39beaa60c8f1c4235495385f028f24e7f6fbd4",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "7c05cd6de494236a6edfeae29695e9d5458a46323733a41e606a31862f315300",
+        "size": 960
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVAndroidWaveFormAsset.cs"
+    },
+    {
+      "guid": "eb05d5d3c4efbc14cb10fa6c533b57f3",
+      "asset.meta": {
+        "sha256": "e3b99318ccb235993930b6d6d81dba262c79abd3a50d3fac74ddd6bac430a081",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "bec3eff7b14a20ebe01554997a4ed221c295d4b9eaaa79512b6a0cb70a96cf13",
+        "size": 3542
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVEnumCondition.cs"
+    },
+    {
+      "guid": "cae0cc22a7febe642a01c40b2778d020",
+      "asset.meta": {
+        "sha256": "a634e28a38247398c0bb1e9a9b672749da6b3e31ad2e05cc12ec79288e5e5ec8",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "f235598ef6694c99b2a52cf8ed09560318d4eb884b8fd721d70b1d159077a7f0",
+        "size": 404
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVHapticTypes.cs"
+    },
+    {
+      "guid": "1d9bf2d53397a294eacdbab9b13bc653",
+      "asset.meta": {
+        "sha256": "3f02f3409a9135c9740ee44a23ad9220886eb49275b62c4be8cc47bdc058e6e5",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "72bcee8066aaa809977b1bec95e859e3897c8c18e721170bc9172cffd68066e7",
+        "size": 2027
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVInspectorButton.cs"
+    },
+    {
+      "guid": "b84b1c665a0538d498b5bb2d5cf7de06",
+      "asset.meta": {
+        "sha256": "b96f48d13f9d49a4facd39535e16bf4577303330cd60c9a0f6cc52e42bb9315e",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "a76b2eeb0f7a8c5e3f7398576b1c88a863ee463dd235bab0d13ede098baef81c",
+        "size": 839
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVPlatform.cs"
+    },
+    {
+      "guid": "293e87131443fc542ba7cdc54a7314f4",
+      "asset.meta": {
+        "sha256": "c2a36c2086897854f62ff2e946c5bed86b23faa659e59906bcfbce3609c9fcfe",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "3fa8fa668b3b420b51be863c5c2d1230411ae9d6f3feb7a145c4b813f03a9116",
+        "size": 1014
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNVRumbleWaveFormAsset.cs"
+    },
+    {
+      "guid": "170430725db1fd14585bf5445517f544",
+      "asset.meta": {
+        "sha256": "62acceb3c87282198cf72b71dbc6ec29f434ddacbcb9e4312f56c95ec27eeb52",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "b3ed86eaaf5e89d2293fb860524710f0c50de0dee8a7776912ebb720d2a96297",
+        "size": 9605
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNViOS.cs"
+    },
+    {
+      "guid": "17c60a018b5ca4d8489e2f3e7c767bb8",
+      "asset.meta": {
+        "sha256": "808cafb20e6b6f54b1aca5683104533122bcfd65f5081126eee9b68ad3901791",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "da624a99423b78a7d6ec83a7a2d959990f00b542f60fed304a914930e87ffd14",
+        "size": 11264
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MMNViOSCoreHaptics.cs"
+    },
+    {
+      "guid": "041029188fa88c54f9efffc039b6a1c9",
+      "asset.meta": {
+        "sha256": "a3b8f69a006a1ef16d75d45099178fda0d387ff353c2f95136b474e9ad42bb2a",
+        "size": 173
+      },
+      "asset": {
+        "sha256": "54d9ee91b164d42566a09c9f7109af2ab6b397ae72170e420878748efb70f9bb",
+        "size": 322
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Haptics/MoreMountains.NiceVibrations.Haptics.asmdef"
+    },
+    {
+      "guid": "8e41fcc8d7592d0478c7e3267a18ce79",
+      "asset.meta": {
+        "sha256": "07e6cccc26c4a33ca72d566f8ebd34dcbc9c6562dec0d364a902fef4272d1d14",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/NiceVibrations"
+    },
+    {
+      "guid": "258c36e07f5da5d438332fef965d7d8e",
+      "asset.meta": {
+        "sha256": "b35454038815c36b65d6e229fe4b228e7eb646c1f570eb7a0213c4f5fcb72814",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "b4c647b586e4ec640df8fabd0690cf7138c40fb094fcbe013bd347fb86b88427",
+        "size": 1104
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/NiceVibrations/MMNVPath.cs"
+    },
+    {
+      "guid": "20c4424cca8b44ea9aa36cd233abf0d8",
+      "asset.meta": {
+        "sha256": "dd59bc7d90e1a3867dd53c06008f6cec56d1f2c7227a6b100bcb7d2ef23c7915",
+        "size": 299
+      },
+      "asset": {
+        "sha256": "96582cf1fbbb46a2c4370b2b50a76e429d47dca5c512f6affa4364c999db08de",
+        "size": 29089
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/NiceVibrations/MMVibrationManager.cs"
+    },
+    {
+      "guid": "f1819f64dde59594ca91dd55ebc7cce0",
+      "asset.meta": {
+        "sha256": "40fac3f015a6e9e2915a22ce0d01b0c6f9dbec206e63f8f356c542bf584a4fa8",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "cbd802ba25ad9fad69dc22b2bb82f5ab176661c9ca7e8ba6f861ca249e2ab599",
+        "size": 8013
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/NiceVibrations/MMVibrationManagerTester.cs"
+    },
+    {
+      "guid": "865b414a121ed594e91db2e09f65d38c",
+      "asset.meta": {
+        "sha256": "1d5e45dcf208515290e57fbb7f80fc6352d0811d9adc16c79db3fe9ce250b731",
+        "size": 173
+      },
+      "asset": {
+        "sha256": "b4e84879047fd1d76a3c8f8947b29ac454ae7632fdbd2e0d040c52511c6c07a9",
+        "size": 419
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/NiceVibrations/MoreMountains.NiceVibrations.asmdef"
+    },
+    {
+      "guid": "e58da89edf2b4024096913db4cb82a54",
+      "asset.meta": {
+        "sha256": "f6874e87ce9fa5f7e8e36621aea1c5d9ec67105e9ac0f337a4f6dacd8698a633",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble"
+    },
+    {
+      "guid": "fa3136c0e2d9cfb4da6f56b05b809ebb",
+      "asset.meta": {
+        "sha256": "397473984dff36faa7038822cf789f5c9b11bf5d8793f233125581c1a3889157",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Editor"
+    },
+    {
+      "guid": "4925aa68bf342ca42a6edd9fddf1894a",
+      "asset.meta": {
+        "sha256": "1a20a66d717ed96331881bbb3df4ed7ce3a59dcd10b313116287953409218dad",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Editor/DefineSymbols"
+    },
+    {
+      "guid": "a1809e2ead76b7942b0053af685ef036",
+      "asset.meta": {
+        "sha256": "eb5df1f19fff7b6e06a3ce1d898d8f928789174547879fce181fa692be4fc849",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "8c1068776c0e14067f830acef293cf9e4c8bd6cec1e0b1d74debdcb7dc97a1d5",
+        "size": 1501
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Editor/DefineSymbols/NiceVibrationsRumbleDefineSymbols.cs"
+    },
+    {
+      "guid": "f67459fb0878e0b49ad2e16270f8b130",
+      "asset.meta": {
+        "sha256": "8f4e973f0baef7d1a0aad05ae797777a55be82adabfb589845ca23d2aaa889dd",
+        "size": 173
+      },
+      "asset": {
+        "sha256": "4b7a84119b99a939dd3fce79f39103ad9eae34263b7f422836f374a1b1cbaa22",
+        "size": 657
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Editor/MoreMountains.NiceVibrations.Rumble.Editor.asmdef"
+    },
+    {
+      "guid": "48d33dfedcb3f0e41820b1c1b114fc51",
+      "asset.meta": {
+        "sha256": "391bb8d21da7349629ef5bac8ce4ee027862b37e3b4a7c58439bf65dc0fdf522",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Scripts"
+    },
+    {
+      "guid": "bfe0f13b99e233d4181abce97b08e738",
+      "asset.meta": {
+        "sha256": "bcc036d8094274488997e1b7727bc01cc50f882a109d09b15a37c44409e58569",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "fd20a10d9d88d186f37f6bd355d738fb41ceeae05bc25cab78928aeebd9d362b",
+        "size": 7895
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Scripts/MMNVRumble.cs"
+    },
+    {
+      "guid": "426ad1839a76a3e4db8c1e4fde3eb745",
+      "asset.meta": {
+        "sha256": "e0d87df1839d50bc01390660496691edfb4ec0eb9c4eeaf0f675b46e2ce50f3f",
+        "size": 173
+      },
+      "asset": {
+        "sha256": "9bf0f9923af9d532baeb4ac7de35d418f5a4fa3d9312bdebe392549a80d2dfd9",
+        "size": 684
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Scripts/Rumble/Scripts/MoreMountains.NiceVibrations.Rumble.asmdef"
+    },
+    {
+      "guid": "7cdd6a8ec43092743a6a66b8ae053b61",
+      "asset.meta": {
+        "sha256": "a15f17d82ca2760c3066c633f1138450102e068b12dca9dd90cd3c26da8c954f",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Sounds"
+    },
+    {
+      "guid": "c0ab2419d02d5f54690ac6db3a5188cb",
+      "asset.meta": {
+        "sha256": "6be2babd243becd5c7315768edd94217c152615010e2bdb388a94449c1e31f9d",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "b566072ee7cec4e5b54eab76ea38e1637d423ee19085f53b3445ea4c99518049",
+        "size": 13148
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Sounds/NiceVibrationsContinuous.wav"
+    },
+    {
+      "guid": "4cb55e2084a872b4fa4051ba3320c8a7",
+      "asset.meta": {
+        "sha256": "393b7a2d58619330fff9d482231a8291935e82d6177a9ff48f82e43ce8765bfc",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "41419ed649cc2a536f9e84074972bf97ec9906cfd4b561ef6836fd785fd89cf1",
+        "size": 4348
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Common/Sounds/NiceVibrationsTransient.wav"
+    },
+    {
+      "guid": "af0d953bd30b94c52a1660732a7a7db0",
+      "asset.meta": {
+        "sha256": "7f7b09075026f8bfb159525e9b7ad51f4e878f25aaedac8515d30a3b62e3ef6d",
+        "size": 172
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos"
+    },
+    {
+      "guid": "ecedd83512752ca038900e42932b542e",
+      "asset.meta": {
+        "sha256": "00579d8149d9edb142d84c0e9a330fd7186c19e1aac65e932302a76183b5d534",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets"
+    },
+    {
+      "guid": "c6dc30f7e68808bb42f049e1c695188b",
+      "asset.meta": {
+        "sha256": "49faf3c2f3f2c0d7f2db1a53ac4a8243f6bb148bd7d7d7fd270b7499d2758f8b",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo"
+    },
+    {
+      "guid": "f4448f751ea651e27968ea986964716b",
+      "asset.meta": {
+        "sha256": "8b3c5823aa0354ba6b29a34a21b47f5f9c7ad4dd8e1da1936fb18ac3de0f65e1",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP"
+    },
+    {
+      "guid": "03ebc56b5c990a3cfbe1918f419853a8",
+      "asset.meta": {
+        "sha256": "c5683af3232555d9aca72c6ef902ba6520e02b15516dc20d987d6d80fcda97d3",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1"
+    },
+    {
+      "guid": "3134eb5a0d1caaeb8b052e83422ba74b",
+      "asset.meta": {
+        "sha256": "476ca0f1d7f080b3db16b67fbc6d2978dd25c91394d996eb627f0e45cd59eda0",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "e6fa17971c83cd6d01cf3e61ce29ba3afc106856bc6afe93f97e5cdd1e0cbb8c",
+        "size": 2006
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVBoing.json"
+    },
+    {
+      "guid": "38b359fb0743ae02fbcd0017095aa7da",
+      "asset.meta": {
+        "sha256": "2deaf115aa90e27b7a7781ec8c0fee3fc61038a37e1f8147f36f85ec637aa0d5",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "3397afbe415a2c1469af6b5330687a590ee6d49e38ed1bf3b091168d189c3c15",
+        "size": 4159
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVDrums.json"
+    },
+    {
+      "guid": "8dbfcea0e33b4c22d3c2e8f3ad1a4d12",
+      "asset.meta": {
+        "sha256": "ceb9732c018267cca55bfa93103df254be6f028a58e64902379293f94507d3f3",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "23f6a6aed94e7411eff34c5d3afc2e57a3d3a34c99b9fd90d08284f195f175bd",
+        "size": 56463
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVGravel.json"
+    },
+    {
+      "guid": "f90eba71b33c1722c36ac79c470f453e",
+      "asset.meta": {
+        "sha256": "a38f4b60636ed77f030d70b42ea831569eebde21459f0ce6632c29478699fcf7",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "70e684d8bef799d4b4a27f6380d4f2f650119f348419754caa8fbba4ebbdf3e6",
+        "size": 5033
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVHeartbeats.json"
+    },
+    {
+      "guid": "077ea3ad7a4870099fcd7b5ae7b2bd0b",
+      "asset.meta": {
+        "sha256": "938144cbed03e407fcf03db24b183ffb03feadb49f6dce60d1287d0bfe322e92",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "5508c9589133bd4b445c4634e706feb0083132b2a2e2055ed0ebbd8ac6bcd746",
+        "size": 1507
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVInflate.json"
+    },
+    {
+      "guid": "486a4b2e865a3420fd63874d4ad0f135",
+      "asset.meta": {
+        "sha256": "6736ca8c6ea0e2efff3224e5a72b9c7bbf8f015076c591edf6748a4b7cc496bf",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "c21d11819f3954c14116ec52959d3d1c6b7c8f66276e6b71482fa6d19f17edd5",
+        "size": 1615
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVOscillate.json"
+    },
+    {
+      "guid": "ef857604a32a9b80227014f8042a625f",
+      "asset.meta": {
+        "sha256": "b52f4c3cf96de160358bfdc2f0e69d05978fecafe41538f1e1607c2153a329ff",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "cb3a458268e500e85bf2c783d257007c8d3f4e6dde23205ba45ea7ad50781a96",
+        "size": 16122
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVRumble.json"
+    },
+    {
+      "guid": "6b1e8ddfe1c1c93ecc504fd7dc08d76c",
+      "asset.meta": {
+        "sha256": "4f688f00d86923135ef650d45f57437a125ddbfc127658b1e64d1c16a725ab36",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "e3f9cd36e85220b32ad4f63c4efd689bbe4415bd4628ad80fc4a05ff209a0bf9",
+        "size": 9939
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack1/NVSparkle.json"
+    },
+    {
+      "guid": "a14e9f9f625e9a9d2d48fb0335ce5e84",
+      "asset.meta": {
+        "sha256": "70576b1aed031f7105ae07c8297f7a85a88f387b5d3d8752a72bfd2cab7e4817",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2"
+    },
+    {
+      "guid": "b6928dca96a0837e69beb63781ff18db",
+      "asset.meta": {
+        "sha256": "56a0f03242944050d3ca2366d65df987b0b814facc4a50dd74a7bd9aba639647",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "a140331169708bdab2e2e9258b29145f3038fd9fcbf6cc5a7d8f2b834c6d3309",
+        "size": 8128
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVCaptainAHAP.json"
+    },
+    {
+      "guid": "385b58f27e410ae5facfdfa0cb53f850",
+      "asset.meta": {
+        "sha256": "b0d59661997b959f73c3acaeb0ca1e7f2723c70edd017458020e676824f83a15",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "7ccd035282b748aaae7b3ac22f1fdd804c90fb7667fdd0465bcbe8db85e29c77",
+        "size": 23083
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVCarillon.json"
+    },
+    {
+      "guid": "bc6b359da682a5fa107fb52a0b556980",
+      "asset.meta": {
+        "sha256": "58b2e37d086e1f5c67df321eb270a722af5aa550e8fb5fe96a5f5195248c9401",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "58bc4de38825a5429a90b6862de85896d54e8626d5fb559b25072ee7cd33f086",
+        "size": 10342
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVDice.json"
+    },
+    {
+      "guid": "cd4f6e1f178ec09799fbdabc6be15eab",
+      "asset.meta": {
+        "sha256": "c21de3fcb16c17abff46cc19ae5762fee6e7892973826db9df8d60fcfc229e84",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "e64c27cfd45dad741e4f15cb0608dfa9a28d94cf3f21b24c445340981c9878fc",
+        "size": 21681
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVDrumsLoop.json"
+    },
+    {
+      "guid": "c8fd64a05566c8847a85971dd6ff131a",
+      "asset.meta": {
+        "sha256": "cd7f90b42c07cc68469b5a51c729e2e2a1480478e38067f9dedf5607eabdd383",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "898996c744b78afb0bad9030d13fd15d56ba8ab7b7c2a096202fbfca5bbff36f",
+        "size": 15660
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVGameOver.json"
+    },
+    {
+      "guid": "e2419ced30cae1a96e861fc4f0f30b6c",
+      "asset.meta": {
+        "sha256": "23afad5f9881e1c40c0c55b1027d7a099031f1c04b81d968532124d3891137d4",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "94c64eb766e78f7bcd9bad1cb0ee35b91ac81137298a0c468c0b9abf862d3246",
+        "size": 10493
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVHeartbeats.json"
+    },
+    {
+      "guid": "37b49e00a2d8572e7e4bb0518ba80766",
+      "asset.meta": {
+        "sha256": "c0812adbd0bbbb2b0acf4279c046ab45903b69ce31850fe820cc4b82766f4b67",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "123d4d9702e2b6d6a5feb09d0e16d77c1f51fac8cdf7289bfa83f07011942618",
+        "size": 22637
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVLaser.json"
+    },
+    {
+      "guid": "45bf18d7505bdad84b3e13c793863f6c",
+      "asset.meta": {
+        "sha256": "3b95e817f1014a329770dc78864ed7dc90d4bfad913a97e91e6109729d52bee2",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "2507f87e0b5041c4f6c97c635f52d1cf27678e0c35570b833b7c495ff09ab290",
+        "size": 24647
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVPowerOff.json"
+    },
+    {
+      "guid": "2820e25997750419769f1615f787e75d",
+      "asset.meta": {
+        "sha256": "42339197afad3ca8aa395d05c92b46487b16417c84ec0b6a828805d92b018466",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "c54763977e5056432d68bd01a7d5dc51aa4e231c6852732769eea40c7364a917",
+        "size": 25146
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVReload.json"
+    },
+    {
+      "guid": "e8de6fd76bfe294a168815cb867fd742",
+      "asset.meta": {
+        "sha256": "594fb3f1a971f08bb992c6444217bb1bdb9b0e8181957c8cc98dfdd3613a47c6",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "fd559438f5cd6fef7cd91437d4aea1ce7842d017edd9049424acfc823b2d34db",
+        "size": 7435
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AHAP/AHAPPack2/NVTeleport.json"
+    },
+    {
+      "guid": "ff0ed019b663ce154e9dd782fa41ccaa",
+      "asset.meta": {
+        "sha256": "c1c1a298ea918528e048f6ea943a3e5820be5fe20563cdabd83de0ce426cda9f",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms"
+    },
+    {
+      "guid": "014e2ab2fc434d23e02c970ac9ef6886",
+      "asset.meta": {
+        "sha256": "342683842fdf75eb31fee53c96f3ff5fefea96961e4d92b252bd22387cd4be30",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "8d610591e7c101d07f2a23966af24df6659e5ad91d8d375154ab42a992ee181d",
+        "size": 3299
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVCarillon.asset"
+    },
+    {
+      "guid": "ba2c8b1a384bd64fd4560e24701dcde6",
+      "asset.meta": {
+        "sha256": "ac902020716c2e67e94f3271ec0061052996f50db170012ff9a5c52615b4004f",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "f46fee1dcdd01cbd7e057d83324a395bd2e515b2cf15107b1a93d7267a4745b2",
+        "size": 1735
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVDice.asset"
+    },
+    {
+      "guid": "9f78a70afb269be742d8839b80c83620",
+      "asset.meta": {
+        "sha256": "52eaefc47dcd764cb66d42f9429989a343fb209172160c0871e58f9a2e0f6758",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "1eece377d0df3ab9c497715fc4e9e4c4e316e0406e2eb928e5430b4c41193d44",
+        "size": 3132
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVDrumsLoop.asset"
+    },
+    {
+      "guid": "72baa9dd13ec6a46f7f7018b92749edd",
+      "asset.meta": {
+        "sha256": "4dd23b63547daf57cb5fab8bbb46c504b2c0e5216064746919745610ab14095b",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "68e9e9b668ab7f68717e47658c2854d1933b76c3414137e0a25aa461b1d41a82",
+        "size": 2387
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVGameOver.asset"
+    },
+    {
+      "guid": "ae18f886354230856276671c67198401",
+      "asset.meta": {
+        "sha256": "6e35c02f6577099ba5a7d39e4311685c22e736476db95c645b2fb4c756dd7c61",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "17a745bace8d7a417d276ea3c0f22c00984cd9e6bb9282deee1341478378d6c9",
+        "size": 1765
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVHeartbeats.asset"
+    },
+    {
+      "guid": "669c70aca3a8772591af3ae1f8298832",
+      "asset.meta": {
+        "sha256": "59fe6765b3626130057fdc4bde255a9bb51a5a9af50fe9fbba0c6c829a23679d",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "0838e25ec59f1505b58ba0b046b3af379883bd0631fc07fb806d5e08ecec3654",
+        "size": 3248
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVLaser.asset"
+    },
+    {
+      "guid": "e3e6222def878f2e13308f585bd205ad",
+      "asset.meta": {
+        "sha256": "52f8af121a28548fe95f0561d84e62738c04b8309266f814400c03ca43b661e7",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "e8b08e89ba74c905b25afc5c1281ffd184a49b51cddf37c521e45a6f3519f990",
+        "size": 3515
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVPowerOff.asset"
+    },
+    {
+      "guid": "1fa394c1c04d7683b6a3bb72580357ed",
+      "asset.meta": {
+        "sha256": "627c7db193e61dbb638ee9137d6047f76293bf046a9446d6f5b2afa538dcc024",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "c773d0ab5acbad30142c1013fa7d823a878fe3800fb530a954e04c933d51ae6b",
+        "size": 3585
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVReload.asset"
+    },
+    {
+      "guid": "986c18d375a2fe739c9fbf4d09f8eb3b",
+      "asset.meta": {
+        "sha256": "b73926af9a721415f7a19509be4e0b52033b90d909abb8262a1ea7065fbd55cb",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "8cbc69dd13455b4d2e6e385b90842f57e5e4f24612f2634eebafd044830e6f55",
+        "size": 1331
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/AndroidWaveforms/NVTeleport.asset"
+    },
+    {
+      "guid": "3ebc755ccc528f3b4ec036fb22dad3dc",
+      "asset.meta": {
+        "sha256": "4c435e4bfa39e425a812aac72b3e69cad47c8c41c147817af1b76e36126bc65c",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Animations"
+    },
+    {
+      "guid": "9ac154d1c66e0cb162b59b6915558d9d",
+      "asset.meta": {
+        "sha256": "fd9d3d75465df85768c990f01dd8e6ca9da03505d827eedd8c89473c794d50fc",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "eccd04002e0d2020d72ec644de6931f26369e1e06ea999c8135765b00c421380",
+        "size": 7840
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Animations/AHAPPresetIconAnimator.controller"
+    },
+    {
+      "guid": "318d2cc04fb652c89fe2e9b020043451",
+      "asset.meta": {
+        "sha256": "c5000261445615453759da36a8eddddf4b9b45a1b1d9f6edc2ff7fa54274e67a",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "754c1525d0ae64e1aa0a6fff98a503650093f206f59e78165495c6678acd80a3",
+        "size": 1354
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Animations/IdleAnimation.anim"
+    },
+    {
+      "guid": "aa92bd358e1ddd1f5a153c9ee25cc09e",
+      "asset.meta": {
+        "sha256": "27fbea151fbf31b8ad4d7d25507d218d86b2706eb6aae6bedf93e5cfff59d8e1",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "46632ad9a3d628f1fa33772a645003acf8d24cc4082917542a2e80134b210d9a",
+        "size": 5364
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Animations/ShakingAnimation.anim"
+    },
+    {
+      "guid": "c986c9654f328b652ed88e860c9bef03",
+      "asset.meta": {
+        "sha256": "22ca9fef50de08a0f022e447bfd9a2245b3506d1f27603ec8107c258b3c95a26",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "076a68ba6f1f9f2d689fd7a422557098f0f2c051772aacf2186bbb0fab463d6a",
+        "size": 21262
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Animations/SwapAnimation.anim"
+    },
+    {
+      "guid": "bca61e6501752cabc7851db77f39cd93",
+      "asset.meta": {
+        "sha256": "750badcd0e24c13f8252bc6e34f72f51ff60a2c8a7127f578677bdebae429fff",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms"
+    },
+    {
+      "guid": "ab6c7c54b5dd8cfa6571e740adb333a7",
+      "asset.meta": {
+        "sha256": "e456ea806fff786e0d62209a08356f70ad064c7efa6cf9ad5afe004611244c0f",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "9cc598d4edbee1a9bbfa1888db58b0bf3f32f489a238177a28d11672c637991b",
+        "size": 4711
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRCarillon.asset"
+    },
+    {
+      "guid": "a56135a7b666629358a7b9fdfb846da3",
+      "asset.meta": {
+        "sha256": "a8c4d0eb88a903bc9757fcbf7d564246a0abc67eee5a378997b13fb79ca78376",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "981f8a45ee79a811dafdeb5d2a42668a799ae5f8637dd92c6396fc69db8ec4df",
+        "size": 2355
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRDice.asset"
+    },
+    {
+      "guid": "edf6047c5e5fafdb9bec68e9ed8e17f8",
+      "asset.meta": {
+        "sha256": "c6205f976d54fa225d93e0fc103e557e88c1708eb63204f631795f2a9f963c9d",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "bc6d188e554ee7cc8f547106af1e3bce26b91a9f4ea0f9509f6730b9df2f423e",
+        "size": 4472
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRDrumsLoop.asset"
+    },
+    {
+      "guid": "97edcc1347b2ad278da26f63b1122002",
+      "asset.meta": {
+        "sha256": "1534bc61545f16334d6f9f563a3764feef9d2e622d78cc3fd77217fed8c4721b",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "afcfef3be96eecf6bdadc05e19f02d357c0523842123991f54352d6fc2ca9cb6",
+        "size": 3367
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRGameOver.asset"
+    },
+    {
+      "guid": "92c0fa69afde6c37cbe03c0fcea699d6",
+      "asset.meta": {
+        "sha256": "5e79b5e520a3b4f7a9ef8cdd547071c444928e8106276b988ea2728951bd87ad",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "d99bd4a4492d550ca94b566ac8af76fe80971649d3b815f890b5180167d91e59",
+        "size": 2409
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRHeartbeats.asset"
+    },
+    {
+      "guid": "82758bbba40d9a65ef5a18e00e351121",
+      "asset.meta": {
+        "sha256": "e4fbcab9bd96c3b192eda98074a38f34b250afd2e5156385c1de71f4b2fa57b7",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "184bfb003d3e11afa42cb92e85516835e77b2a9debb22b4471357ae0621ebc91",
+        "size": 4636
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRLaser.asset"
+    },
+    {
+      "guid": "c3730ac969198e35544c8e89253c66bb",
+      "asset.meta": {
+        "sha256": "de1d2bc617459ddb710b5e1fa459ff8f09a7e23203ccc776a8f97da14ae5088b",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "739d42d34d304dc789fa0b6c1d067f2ce59bb6fa8570ea6a6f4d68e4f7e8cf0a",
+        "size": 5047
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRPowerOff.asset"
+    },
+    {
+      "guid": "b9b0cd734561000981e4fbfa35eaf263",
+      "asset.meta": {
+        "sha256": "d99edb6ee7cee9ae9321b54f97c71eb92b41ab9775353c21ad42395527e20236",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "2ea17cbdb490a20f1b965b4d9bb186b0b017f80b0866cc60f7f0b1bfa427779f",
+        "size": 5141
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRReload.asset"
+    },
+    {
+      "guid": "e0685266c688f4bebfebe9bf0efc9383",
+      "asset.meta": {
+        "sha256": "e2b9f3a7fccd2dad1ec4e0a763a23cac61c1d9255f42c0dbf8b30294c0c165bc",
+        "size": 197
+      },
+      "asset": {
+        "sha256": "c089116865561b0187437231a698f7eaad6b5ea6ac6c94f0b3439e2142c5ca6a",
+        "size": 1807
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/RumbleWaveforms/NVRTeleport.asset"
+    },
+    {
+      "guid": "3a19e110e7f41f09b37f747d9c367c51",
+      "asset.meta": {
+        "sha256": "e314c2c9848db3fd11993bac0e522a2367385cd2719427e280b3d5c34b904d96",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Scripts"
+    },
+    {
+      "guid": "a8f2134b9a7ba66044bb3cef428d1b5c",
+      "asset.meta": {
+        "sha256": "70f796fa19bbcb51348b4648498aba5412d107dd9b6e6d7d03972fd486010b87",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "3043f8ea4f3928e937b6ccbcd376dad5bd8fb1d963d649f68f1fc216780d42e9",
+        "size": 5077
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Scripts/PresetDemoManager.cs"
+    },
+    {
+      "guid": "8ba7035cd6f2548f7ebfe5c70643841b",
+      "asset.meta": {
+        "sha256": "1467da503cdc1c4c72eaf4fa9c783f048dac7caa26e7407ec88128a240a12984",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "e87912e29e3f1acdc14479b62f285674cd9a73d302674bcaea2fdb21eb2849e0",
+        "size": 679
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Scripts/PresetDemoRotator.cs"
+    },
+    {
+      "guid": "5c74c26e86a57c3d1e624e7adb6b5cd9",
+      "asset.meta": {
+        "sha256": "8bfbd15142b1dd7298dcc2a4a5a1411ea7174783cf5730a4041ef32b3c1c78c2",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds"
+    },
+    {
+      "guid": "a931d4eb0e89cefc76d98233b3a3f42d",
+      "asset.meta": {
+        "sha256": "24b24d1abb7e4603a5426a9a5df0e017de9d3abd6492d03f5aa6ae1372e1c9ca",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "31e2fc0cfc9b3c63d5da03f82ad115d2955465bb4d13a5cf7f870a32f5c44de1",
+        "size": 450566
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVCarillon.wav"
+    },
+    {
+      "guid": "f3406a0fa7ec8057c3a82a71a05f8f76",
+      "asset.meta": {
+        "sha256": "226eb6c2ab55c370c21e857bfae3a661e8aee15b7b6fa858d75c20dab1c6cb7f",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "650adfee0667bdf9a218e65e26f6a2bbd83e58de8ef0a53eee1c940664c2386d",
+        "size": 170082
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVDice.wav"
+    },
+    {
+      "guid": "7deff2d588b6987749cbb5b125f71931",
+      "asset.meta": {
+        "sha256": "1ddaa374a6cefdfaba38bb1cc0b659a1d48f566c032a4464d13f1fdad7db64c7",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "3a1175f85fe8259a5d0943ae5e14758179efc1177a6b5a342bf9cb3b8fdaf2b3",
+        "size": 154214
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVDrumsLoop.wav"
+    },
+    {
+      "guid": "bfd563f7d61eab8482cf3dd14d1a3fb3",
+      "asset.meta": {
+        "sha256": "15d247d5587681a909608894a4598eda9d30bb6a3daa634199fef89964618306",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "deea63c4069ff635995c827d8360ecbc5be63b01f28fb0a93bd836841be6ee84",
+        "size": 365944
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVGameOver.wav"
+    },
+    {
+      "guid": "6f9ef336def9c60c493179ef0d98130d",
+      "asset.meta": {
+        "sha256": "949bea813172119e41919df4a5cad2daebc5680eb67a6b8bd326d942b4ad0c56",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "f33164e3131f0c99be499aee71ed5b7b78df55eb1202e6d8e298568a0f78420a",
+        "size": 317670
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVHeartbeats.wav"
+    },
+    {
+      "guid": "4419590efe5594ef513dcbfa90fb6496",
+      "asset.meta": {
+        "sha256": "e1d0e27a17a89c15044cae80f98965a0861781324786bf3864121e2ef6f2efd0",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "41e1cafcb5f532969cd123d606ba0921bebd0bcc9c7bfab717f424ba02a223d4",
+        "size": 414686
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVLaser.wav"
+    },
+    {
+      "guid": "442ac3cb25b2f26471afd7205024fb98",
+      "asset.meta": {
+        "sha256": "cbd5f8fbe421b8a5fc0505cb4822947eda69318bab3407faecf912b472c28cb2",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "707c2ab7853b46eb65704b2b66555822a48ae12331d6ac3d5e6ab92e537372da",
+        "size": 742834
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVPowerOff.wav"
+    },
+    {
+      "guid": "cf1d140ad5070d266f455f9828cd3559",
+      "asset.meta": {
+        "sha256": "4fe33d61f5ae671b805640a22cf0ca1460f60e0b91d173cc63a40197530b9c15",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "0499cf3857fb6571d2c30ed08707b6b58fa804bad2c4eaea38d62750cbb04ceb",
+        "size": 525950
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVReload.wav"
+    },
+    {
+      "guid": "606176da94ce16079f29f2084338cd6c",
+      "asset.meta": {
+        "sha256": "92331bf417c4ff39c6ae233a2ad9c20f98707080e5f9c2a0eb99e26ec8df8a89",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "cf1ccacf67eb9d0de71971bf44dbd81605fd0c037ac4af57a59004a3b97976e6",
+        "size": 46998
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sounds/NVTeleport.wav"
+    },
+    {
+      "guid": "ed31a761d8b523551fec986fbf6f78f5",
+      "asset.meta": {
+        "sha256": "45986c80df9b2b5fe95317ffba27cc97282055e0a1a9087ed56ec8ccdc782d04",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sprites"
+    },
+    {
+      "guid": "db477c855e6144957529e129d60d44b7",
+      "asset.meta": {
+        "sha256": "333f2dae10e4eb875f75f1d873e8f81abcc833302d43b5f91333537fcc58c327",
+        "size": 9406
+      },
+      "asset": {
+        "sha256": "5b5f0eb03ad67a472f8753b9c35d838be564f23f3621c6ebe854566b6b2572d8",
+        "size": 47767
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/AHAPPresetsDemo/Sprites/NVPresetsIcons.png"
+    },
+    {
+      "guid": "7015dc576d2fedab4d306183d66f2c3e",
+      "asset.meta": {
+        "sha256": "da635a8df930265a9cf0c5f425dd8bfcf746fb910cb0e2ca6a20affa50e14b41",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo"
+    },
+    {
+      "guid": "c6feeac51ebce5393feca3e1ebeb9a54",
+      "asset.meta": {
+        "sha256": "3222dd76a56ef113218c98592a46f7cca5c5efb96ab7ae0622f06c1567c926c5",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "07c925d1c451b00f97b49f9233009273cfae57a2c1f3bb6b3c91ff1f3bb139c0",
+        "size": 12850
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/HitAnimation.anim"
+    },
+    {
+      "guid": "d92f5ea4bddf97195e75f0b5c4b01bdc",
+      "asset.meta": {
+        "sha256": "8b11d83d78e913bb77166f4886bdf970f54f2c21ba972fdd1015e6008912cbbf",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "754c1525d0ae64e1aa0a6fff98a503650093f206f59e78165495c6678acd80a3",
+        "size": 1354
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/IdleAnimation.anim"
+    },
+    {
+      "guid": "7760bc7aabafbc67b4308ac7b4dbddba",
+      "asset.meta": {
+        "sha256": "21c590f807340b97c542c1fca1e15ae88531a1175d15256a96006b05d3a4adf6",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "9fc7abab5456cf1ff53a8e3f3b7c69d8f0749b6ac53687ca0f8b2233d08d9b00",
+        "size": 4343
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/NVBallAnimatorController.controller"
+    },
+    {
+      "guid": "e5c56a42eaa79022e336b00d4a2ada1e",
+      "asset.meta": {
+        "sha256": "8eced57b4b251810ea2afe0e941a325b58f3f1455a139e3f4dd86e50413f6592",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Physics2DMaterials"
+    },
+    {
+      "guid": "72feeeff6a1ae5641ad178d9a6f3b475",
+      "asset.meta": {
+        "sha256": "a632b25a717112b9dd1e59947bd1471dd7466f8380f5f106c605c5b3f0c147de",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "f5eba760d6ca1f6f970139b835cceec9a826606aca32617a04587e5882c855e6",
+        "size": 270
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Physics2DMaterials/NVBouncy.physicsMaterial2D"
+    },
+    {
+      "guid": "28d9d6150163358641b3bbf8c94c1da4",
+      "asset.meta": {
+        "sha256": "45803a802c1234fb6310ace13518be26273898287ebc08d0ab6c908d45b359c7",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Scripts"
+    },
+    {
+      "guid": "a87ff01da12c905e78f75866c05a9197",
+      "asset.meta": {
+        "sha256": "476e4892ed08804aa302ef5c150647ff474b6049713b29bb9a46a63d72458100",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "a1c7559ae025b71165f98b8d4303b3b3ab96c238389d658d6307eef4c184a802",
+        "size": 2803
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Scripts/BallDemoBall.cs"
+    },
+    {
+      "guid": "aaba6f229d9b50c58c968b0a22af93a6",
+      "asset.meta": {
+        "sha256": "95379c23a6460b9c8e95c73dd23472dc807799abbac2d9221307dbe340825732",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "90af524327fd2bf422c9cc0731adc7d60985d8b98b59a71e668895208d780996",
+        "size": 412
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Scripts/BallDemoManager.cs"
+    },
+    {
+      "guid": "906d79ef138a358be7557ee4a476ba0a",
+      "asset.meta": {
+        "sha256": "a000e5ce3020f02d5405c7045bd99e724078eb6f0700ac9cf5d20f3bdc681599",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "ea1b1af5b883e684b1adc990ed43b045b0402e39fecca8e18377f2d9a296263c",
+        "size": 629
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Scripts/BallDemoWall.cs"
+    },
+    {
+      "guid": "b65daf2a3039b0f179b5bc180e643266",
+      "asset.meta": {
+        "sha256": "71ba27b1570b151d60a82b1c8dde005b091ca01b8fe851159f610a9d66beb67f",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "de2cdeace1d9eea69e3952c603f6703a473d39eac87c0ff7fa030b23056535e6",
+        "size": 826
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Scripts/BallPusher.cs"
+    },
+    {
+      "guid": "7ed572b9cfe5519c34eb1caa5d457a8f",
+      "asset.meta": {
+        "sha256": "1196de61ad69063fc4443e67fcd53edee84de325525580ce7700929a194b5ef3",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "2ae42763f848c44ba5a9ce061a7adae12e95b8050f63c48b6d8d7eb07be8e814",
+        "size": 2211
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Scripts/BallTouchZone.cs"
+    },
+    {
+      "guid": "5844d6b63fa07099386b52d8f0322e47",
+      "asset.meta": {
+        "sha256": "ed5138c90a2098b729f8909dc3f285e1d93102d6c279699434252a9fbe6db559",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Sprites"
+    },
+    {
+      "guid": "cab80d31da33653f3f4dfbebf10cba76",
+      "asset.meta": {
+        "sha256": "74148fa2e31020f9a1339a90bbe616d75f139e7fb040d8d5991b97f57df92cc4",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "8944a45035988b1822e2233a8225c924df1fd82696a7bbccfc707280ad2dd1e3",
+        "size": 3230
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Sprites/NVBall.png"
+    },
+    {
+      "guid": "3acb5491b0a91a8800d60b21a8b4f688",
+      "asset.meta": {
+        "sha256": "ec260e2737c1ebb617eca400a5b7725c4ac5303f8e110cd483280c281b56ae5d",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "94243a81904001ccbfb679a1532aab02ee0406ba06320d562a9a86eb33d124d5",
+        "size": 2594
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Sprites/NVBallParticle.mat"
+    },
+    {
+      "guid": "55644e97225da39f53fcd356b940f536",
+      "asset.meta": {
+        "sha256": "fc71ff61b20c322a22d7b0ca772e4a67ca57d40880566a0a42c68d535480f727",
+        "size": 2120
+      },
+      "asset": {
+        "sha256": "16374628e410ea06420ee0cf1a9b64870f66c715c6e3990dddab666068221fe5",
+        "size": 14969
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/BallDemo/Sprites/NVBallParticle.png"
+    },
+    {
+      "guid": "411837cc7c8d6e754862443f1323fb3d",
+      "asset.meta": {
+        "sha256": "59f2afeae09e0da6ac5504eb5c2b2aed9a393dbf7654e014c8d5296bbcdfb9e1",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo"
+    },
+    {
+      "guid": "10b266c55b345c5830238fa90998b8f6",
+      "asset.meta": {
+        "sha256": "2799cd974b1602f6ed1ee9629324f8be8f437fbfd1be024abbe73c163f6bc820",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Scripts"
+    },
+    {
+      "guid": "2c95b62702ec8ab1f4c38d7f15c3f729",
+      "asset.meta": {
+        "sha256": "0bdafcf2a1efcd3348453d1c1ca0c8290e62e8b8a0eb07fd6c6339cbf0a9795b",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "64c6da45d3f29c4d9e789898a8be95101fca3266681a4e6c60b56e5dde9430a5",
+        "size": 7939
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Scripts/CarDemoManager.cs"
+    },
+    {
+      "guid": "12bae7375b9ba25aae3bec0fdccd0324",
+      "asset.meta": {
+        "sha256": "38260490e79d7afb5ec4de5cd46c20769f97d408b29b3d87683b1660f95f11a1",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "b0a8b24980a82c9e4a4f21dcd8938650b32ba978e64d224d13315681867bc10f",
+        "size": 1555
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Scripts/PowerBarElement.cs"
+    },
+    {
+      "guid": "0ce7eb59c1aeb44d1f5680a3fed88136",
+      "asset.meta": {
+        "sha256": "3d0295de01af75d6bf92680ee87a24a1f05aecee147cbf63ae75329e3ee4599d",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Sounds"
+    },
+    {
+      "guid": "b7b93bcfc84716e0a8f938aaafc4fdf1",
+      "asset.meta": {
+        "sha256": "167e9f9fc86c58c4962879a35280ebe215ed5609581ffaa2a196160554ccd18f",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "f53e615268104c854be93fc20febe11da22d096b716331589d60ce7bc60b89e7",
+        "size": 705644
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Sounds/NVCarEngine.wav"
+    },
+    {
+      "guid": "d7786ac19714493ee87b132e275cfe62",
+      "asset.meta": {
+        "sha256": "609a95fe400fa9af62e3548a4ef2b36c3d6f02711c72efc94ad635a05678224f",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Sprites"
+    },
+    {
+      "guid": "0a4c619be6a91dfe9e14f6ac83fc22a9",
+      "asset.meta": {
+        "sha256": "3488f5379e7a5e89d205c740981f2592e1d725a21ba59058f569f5a96a6bcf2b",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "f630dfae58c8423f0e8787bb7c325d182c56c4ab697361ecd06c1ce9727b1acf",
+        "size": 13093
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Sprites/NVCar.png"
+    },
+    {
+      "guid": "99490d1c59972a0de2526eac3d528541",
+      "asset.meta": {
+        "sha256": "ad844368a208df8cb8a7101e37edbe8ea6a5adfde60f3e0e426df43a6691263a",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "958f8c0c362fc718708f993445d1500bae3fe0625efe1dbd493b7a42c3538dda",
+        "size": 1254
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/CarDemo/Sprites/NVCarWheel.png"
+    },
+    {
+      "guid": "90fbb661e1c6d1646e936bb4702d8cc9",
+      "asset.meta": {
+        "sha256": "3c96c64a48b92aca71c15263fd1ee30d04756e7a8f057b9b9710eea90249683a",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/ContinuousDemo"
+    },
+    {
+      "guid": "945b13d424ca082e3a6fa607742e35bf",
+      "asset.meta": {
+        "sha256": "5c320dac3d3c41d37e68c15764376d25efdae9398baafa88ecd9e4bbc68b5c8d",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/ContinuousDemo/Scripts"
+    },
+    {
+      "guid": "0fb4f05000ad22bc04b64ecb9ae97691",
+      "asset.meta": {
+        "sha256": "5c4d18f731dddcdec51d8cf6d39cae5f114783a8f7cc28338b7bfdbdfb8c5b27",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "e89995e585a5d2256c66e842e4fbf64f70bf0b7e5435a57cb61b27b12c85a2ac",
+        "size": 7004
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/ContinuousDemo/Scripts/ContinuousHapticsDemoManager.cs"
+    },
+    {
+      "guid": "9f590426168ec80995be064c83922e8a",
+      "asset.meta": {
+        "sha256": "fb62a91aa286f86cf81da0c697201393912a6b54b1f7d8592aae1e980f81ea40",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/RegularPresetsDemo"
+    },
+    {
+      "guid": "fe9d4bc81831bb935167e7143a79354e",
+      "asset.meta": {
+        "sha256": "b0dab18e4069c0fd0deed7d921c3b77b15c880bed6b0a5789d433e3bcbf47b85",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "a982f4dac7a1dddbfe1750fa97ec1bd1c36ca18b1ec44b316f246786e102d56b",
+        "size": 3587
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/RegularPresetsDemo/RegularPresetsDemoManager.cs"
+    },
+    {
+      "guid": "930ba5f9912251eca080c3dbcdb48a5a",
+      "asset.meta": {
+        "sha256": "7296bb3c98fd1351baeead4b769243515391f34a651e217caafb7843d0ba8c21",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/RegularPresetsDemo/Sprites"
+    },
+    {
+      "guid": "231795df63350ec2d8a5cbf0f0bed923",
+      "asset.meta": {
+        "sha256": "c9905b6e0018f7c1767ba05ef0047a7be0d5f6c5eb324f1522c953394a9e6ee4",
+        "size": 9504
+      },
+      "asset": {
+        "sha256": "cc0bc1956549d6e0434dcbbfc3779fe56ea1511daf8c6346940ac65260100342",
+        "size": 61068
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/RegularPresetsDemo/Sprites/RegularPresetsIcons.png"
+    },
+    {
+      "guid": "8e93d6277b1aaa17702ff6595394171f",
+      "asset.meta": {
+        "sha256": "099dd2b8f192203409657fbb0f6ad753a2a25c16f4d82471e033b9f9c8b46d87",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/TransientDemo"
+    },
+    {
+      "guid": "0132de20f6383e7b0cb8327f06cc4f38",
+      "asset.meta": {
+        "sha256": "3255bc1df737f56ea75aac4ae377db5780844e0c04115dad7e6eb15e331ba930",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/TransientDemo/Scripts"
+    },
+    {
+      "guid": "5f23ca6caca01885d21f8370a47c662e",
+      "asset.meta": {
+        "sha256": "0040a04bade5a2878ee4644bef1f190a2e645c18f8b147d0187267339fd451f4",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "f83c6cc0aa4c23baebdc887d76c908e357b3deef9e30a546ba62033999de4ea5",
+        "size": 2528
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/TransientDemo/Scripts/TransientHapticsDemoManager.cs"
+    },
+    {
+      "guid": "47915d04f7db8ba3f8101418c8fee5bf",
+      "asset.meta": {
+        "sha256": "770114a4616c7be91c65298b338ab8ff61c9127853b84f40091d9f72c2250a0f",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo"
+    },
+    {
+      "guid": "056a559b02fd495d2b0bbf4225fd2bb0",
+      "asset.meta": {
+        "sha256": "aae7af2511b7bf2547e44dc4db680d9d6c0779360c32bdd4924fc8bfd1dbbb7b",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/AHAP"
+    },
+    {
+      "guid": "a2ffe676db935dfaa371985fa6087cd9",
+      "asset.meta": {
+        "sha256": "1636ac4d29dae9c6a2c43b6cdfb44ad6c8918eca9979765d487e37d4e19ea36f",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "309131a05c46367c90c1f52ed99ac2419ceb3254103982fd2f931561625b5ff2",
+        "size": 9088
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/AHAP/NVSpring.json"
+    },
+    {
+      "guid": "b653b14e1a4229ee18a99d83d286c4b3",
+      "asset.meta": {
+        "sha256": "59e470a517df889e30748c3f56ac1998dcfec94db14a94822d96f71379dc3367",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Animations"
+    },
+    {
+      "guid": "f1cb8ec5605e0196e6c991e6e26f9883",
+      "asset.meta": {
+        "sha256": "47c25c28c42627a1b4338d8f3d19c62992f475c9b57b232543ab82feccac8211",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "54e1ca9c08f63fa5ccac437195a8bc8e7110f9104d9dda77eb203948e7f55d0b",
+        "size": 4332
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Animations/WobbleButtonAnimator.controller"
+    },
+    {
+      "guid": "b82a2d3cc767a51ac8451db02ffe8a6b",
+      "asset.meta": {
+        "sha256": "c8d8dacd55203f9c69d38ebc839294f99459f55198c363df99cea12519a85fe6",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "38c561803165ff44c91ec0dede65cc15926b661e1a3ede71e71271ea7bdc08f6",
+        "size": 1351
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Animations/WobbleIdle.anim"
+    },
+    {
+      "guid": "7309a4d94113d2e5a76e43343f316299",
+      "asset.meta": {
+        "sha256": "15034dbba612b6af66497412ca60cf80cb9aa678ec8895e01242700e306df73f",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "498a1465c110ef90da8bf5575f0a627c83d3fb7a6141851a37bbcf8c0e30f2db",
+        "size": 13279
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Animations/WobbleSpark.anim"
+    },
+    {
+      "guid": "a814805b626f641de1e3acd3904931bd",
+      "asset.meta": {
+        "sha256": "744d10987f5dd039caad7da6ef71a294ea98da2fbe8fa35919c01d6cf23a2a81",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Prefabs"
+    },
+    {
+      "guid": "57fd9ec1fac164f95ef09cbc1f753c74",
+      "asset.meta": {
+        "sha256": "168bf7d842d807eb8272cc8358aadaa4fdbb298d6ef36e83e0237081e485f070",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "b71d108b01910c966e78d5de7c924f32d26acdefaa94a564db236bec8dcb8136",
+        "size": 11704
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Prefabs/WobbleButton.prefab"
+    },
+    {
+      "guid": "a59a8afd3552f9e7fa8b821815df13f0",
+      "asset.meta": {
+        "sha256": "5be70983d03f3e22793c17c21ec8d9be68091b2f3475f2f7027a8afaa95bbe51",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Scripts"
+    },
+    {
+      "guid": "173e224a2f0c4c16ffc49ae54800d04d",
+      "asset.meta": {
+        "sha256": "ede4d432806c72c6c783aa679897cef2df89a7ad4fd49955ff1d95fff0cd1f87",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "46af62363545215043c39c63452a0a4bbf8ed6ca4e4b35a8c128b992393e0f82",
+        "size": 6830
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Scripts/WobbleButton.cs"
+    },
+    {
+      "guid": "7953525f45fb09722452772f0fc1f8ab",
+      "asset.meta": {
+        "sha256": "7c6c8e368fce05ac9ad9bf5cd9e1c96a7507346b7e013bd01514e4e7750bd9c9",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "d86677bc955f11e19462aa55987fd8a91bae196a5306d124ec413f8fb3639770",
+        "size": 2794
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Scripts/WobbleDemoManager.cs"
+    },
+    {
+      "guid": "47749315a247954cce85800f71416f2f",
+      "asset.meta": {
+        "sha256": "7de32027ecdee39a359ca7475fe0e498f5f987428c016882dcdf028ab53c6110",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Sounds"
+    },
+    {
+      "guid": "97edb74c65e5860b9a6bd7ff2fbd556b",
+      "asset.meta": {
+        "sha256": "0f108e0ecdc36f4bd331f617039391e1af3f03c86e9c7cc64cb7f2ba3242ea64",
+        "size": 480
+      },
+      "asset": {
+        "sha256": "a21c2da226b3dc81a462971a0a693c4caa6d1d28c5bc457f7e5a20b6227466f8",
+        "size": 303368
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/DemoAssets/WobbleDemo/Sounds/NVWobbleSpring.wav"
+    },
+    {
+      "guid": "ffbae419a9db05d504ffc8c4262b4fa1",
+      "asset.meta": {
+        "sha256": "5f98af62f7713338dbc83bb0c5e416823411e320cc7d244360c33306a88d1b80",
+        "size": 173
+      },
+      "asset": {
+        "sha256": "d4842766ab22421760876621cef4ccb0d8610ad8d74b61f06d1a9a96ccf35ce6",
+        "size": 425
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/MoreMountains.NiceVibrations.Demos.asmdef"
+    },
+    {
+      "guid": "6aa85264864a50abe636414b850ef897",
+      "asset.meta": {
+        "sha256": "da0701f6d03ec410677d922316b1caecee5856b8a60420819c83ab84b7170054",
+        "size": 207
+      },
+      "asset": {
+        "sha256": "e572ada28e7c59b1b7d25f0f02d2ff26626cf4c9d6f03bd2b2061e628827f816",
+        "size": 1538244
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/NiceVibrationsDemo.unity"
+    },
+    {
+      "guid": "0022656f88249e18d40e7d53940ce239",
+      "asset.meta": {
+        "sha256": "9f4595e3fd172b4a36e9e9c9e0222290e4dfb2b104d582e42112626334dee4d0",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common"
+    },
+    {
+      "guid": "3c93e485e281a9b4b9642e46cb6370ac",
+      "asset.meta": {
+        "sha256": "4c12f6fbd397619ed1f86928adfc824341f92241f29145c461f0e98de42b2154",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Fonts"
+    },
+    {
+      "guid": "e61bac296299c1ceea9953a733858e3c",
+      "asset.meta": {
+        "sha256": "d5a7fe2a9ca93a64dc0948b77f6cce80c00ea7302241ac696ac62d1a7d57efeb",
+        "size": 516
+      },
+      "asset": {
+        "sha256": "4205412ed85dedc2da84e7d95b5e312d33d8c8c7ce3932a2137f83240f5db4ee",
+        "size": 10684
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Fonts/BIG JOHN.otf"
+    },
+    {
+      "guid": "decbae9fc868432443f0f358dcc2267e",
+      "asset.meta": {
+        "sha256": "c06487ede44c91efe91aa665a30359ee72ab83551bf4a6811d1075984339fbe0",
+        "size": 522
+      },
+      "asset": {
+        "sha256": "d580ebfd08b9b1bb637021ac9a34d30abdf3a1a731865886ec01e0c5859f29c8",
+        "size": 109500
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Fonts/RobotoMono-Bold.ttf"
+    },
+    {
+      "guid": "8cde8221b6d21cea2bb3fb6277bd3946",
+      "asset.meta": {
+        "sha256": "6a8be8608d251019a5a764e369b432aba4ee2bce9c8acf1a1482a265bc441eb0",
+        "size": 665
+      },
+      "asset": {
+        "sha256": "fcd6fe9fb554079661b04d652e8ee5a48b9158970c57c86e76ab915fe3efbcc0",
+        "size": 113488
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Fonts/RobotoMono-Light.ttf"
+    },
+    {
+      "guid": "e57f8ff4752c456cc5b07c85e5167eb3",
+      "asset.meta": {
+        "sha256": "88071e8cf9c23921131937095bed339ca07872cb89be59d932d9c937aea757be",
+        "size": 592
+      },
+      "asset": {
+        "sha256": "8e3fc643b30cff29c10e5f57534d2ffcf791f1319dff30c3e37c2b6b5e3d679f",
+        "size": 109292
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Fonts/RobotoMono-Medium.ttf"
+    },
+    {
+      "guid": "6b376561a0c0c53030819c79506863eb",
+      "asset.meta": {
+        "sha256": "3ecd51147aa356a63661b1aec52051344efa05d58fee4c4d3082a4d836df39ad",
+        "size": 738
+      },
+      "asset": {
+        "sha256": "c59ecb6c18e38d4194249b6e1c555eb55c8e809258cf6d9b624d19d9268253bf",
+        "size": 109212
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Fonts/RobotoMono-Regular.ttf"
+    },
+    {
+      "guid": "ea176c2cece4fa096b8dd90243aab94a",
+      "asset.meta": {
+        "sha256": "80372f4313fa2a7c50f4a5dc3bbbeb75664c85e446e4b0583639867519a11ee3",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Prefabs"
+    },
+    {
+      "guid": "578c01f5176849323aa63eff51040da0",
+      "asset.meta": {
+        "sha256": "89aa6c1c88375eb662879ad194d13aefcb4dfb68bfee829a29d29b0a8f82384c",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "a22b1b2a9c057e3522e98ca8a2bb864d1f8d08db09e08e18b30eb31077ed3423",
+        "size": 10662
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Prefabs/HorizontalSliderComponent.prefab"
+    },
+    {
+      "guid": "822934ab1103b09534c21374b1cac82d",
+      "asset.meta": {
+        "sha256": "883376405f6d2165fd1069bb31e4b53c855acb0c9eb0c19f860186eec5273230",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "d92e74d399898a2d1e48526bfb8d9b39bfa1373a26b8511db42eb83c98486ada",
+        "size": 2253
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Prefabs/PaginationDot.prefab"
+    },
+    {
+      "guid": "6454f0b2187d26b441665620a77a3b17",
+      "asset.meta": {
+        "sha256": "8c71c67ce8e5805fc0312392d4f5e49f8e0790a6be97ff7304f9ce5cc2f5b2d6",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "16c965881125b384f69d9cfba89cc5b65392759408d3e6831ed19c3117fdac8f",
+        "size": 9082
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Prefabs/VerticalProgressBar.prefab"
+    },
+    {
+      "guid": "d377250dfb49c150111d067e39ba77ac",
+      "asset.meta": {
+        "sha256": "e529d835a678c92f1e8fbbf7fd796fb6cb80111d5b7ee51c7f4fa795aedba525",
+        "size": 161
+      },
+      "asset": {
+        "sha256": "f92f29db8ef72b5b8a3439c5e1fcccd8bfdcc93943ad4306309d0dd7a73ee14e",
+        "size": 15240
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Prefabs/VerticalSliderComponent.prefab"
+    },
+    {
+      "guid": "ff8be40b7dcd6025b41aafb11224d88a",
+      "asset.meta": {
+        "sha256": "9b087edf3e8f4c026c780e32f3b3ba612614d52b6d20ce0d5d5cc73b7014d93a",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts"
+    },
+    {
+      "guid": "952881af661e901e4f03ffbf428e5ebc",
+      "asset.meta": {
+        "sha256": "373aa80337a43a6f6ddddfd7c41365324b783a67781d329bbe71a31b2397eb7e",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "7d69d6b381db974494080e7b015ed4f3e544ce0ddfa1a5c57d62272d7bee495c",
+        "size": 351
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/DemoManager.cs"
+    },
+    {
+      "guid": "b3a42a06225b984f77f7b5364855eb87",
+      "asset.meta": {
+        "sha256": "d85419450822fc68e21050a36a3e4d246b7a02dcd11d7d5d650ac6d2d9f12ea0",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "ed1eee24d80f1f276fd67ad06c7fe2905d4526b4dbe58fade6ec8d9dd8a2b726",
+        "size": 600
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/NiceVibrationsDemoHelpers.cs"
+    },
+    {
+      "guid": "5cb74f2eefa9e4d1ddfcda648df40612",
+      "asset.meta": {
+        "sha256": "8ca2de7a42d0e3881f485e93d55739481433279b8b6777a486c0d4317695cfcc",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "ff8b9bfed323c754a953925dac6d6038fa87f2de13fd0f89394010299091e19b",
+        "size": 836
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/SoundSwitch.cs"
+    },
+    {
+      "guid": "2f3223a0acf7ce3fb6083e0162537d9b",
+      "asset.meta": {
+        "sha256": "9717037c4a91e97ccada0d2270a1a60d54ce7f89653d4cf371942b460a76e3df",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI"
+    },
+    {
+      "guid": "c7f6c47e7086631ec3e01dc83c34ef77",
+      "asset.meta": {
+        "sha256": "40099d65ae93b033c74953ef68cff791935f018097c1baee9492f1f6a0d3f550",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "6f47bf9c3e322406b8be1765ee88c2eebab89cc365470c27163691c606697105",
+        "size": 3339
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/HapticCurve.cs"
+    },
+    {
+      "guid": "03b73b073fcc4a62849f6a9fa9241a01",
+      "asset.meta": {
+        "sha256": "2d01175c0c2ba5996f61747d809a69f3f8f40b7681dc1f05e4bfaf8fabf2607b",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "a64196c66f07d711e3ddf6b1488bbd2751848fe3baddb9a2dd20c955c3ef25e3",
+        "size": 4027
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMFPSCounter.cs"
+    },
+    {
+      "guid": "10e6d8a2845d9b988c24ea2b220a28e1",
+      "asset.meta": {
+        "sha256": "e9aef92d6148596cec3374a061f67d645cb82d2250a92e03b0df9f9c0f500f6d",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "835ac07a4d9b10bb38a69093bf1b52ada061f96b75408ad8dd5d2cb35d049c99",
+        "size": 1357
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMFPSUnlock.cs"
+    },
+    {
+      "guid": "e9a1afc650521ba8422af54cc9d79531",
+      "asset.meta": {
+        "sha256": "52657d99f09d7ff576abd87abf2e6fb01addd2ef22a676f53d4a0f77dc029d66",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "16f675f71d5cecc553a9788bf1216764b3395c2b945496b5692353736bc12817",
+        "size": 4099
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMKnob.cs"
+    },
+    {
+      "guid": "b58738458d6aef7b5c6d4605b03295b0",
+      "asset.meta": {
+        "sha256": "128f8fa55b948f41a3c7fce52427509299299cddcebaa5e5ca0ec5e0de5b7471",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "6e67a1d6b88936a1cede16031765751aa0fa5a727f97ac3c9fb1c66aabbca3e9",
+        "size": 14684
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMProgressBar.cs"
+    },
+    {
+      "guid": "6211dc13755e40428220f40e14b01b6f",
+      "asset.meta": {
+        "sha256": "e87495aa4b8626aa7024acd1e6409d5d270d5532dc729a224927fee5a3ea469e",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "6ed10fee5ea9e8df18c658b75b0553256fd37c05b52a14f5857c77114f38a56c",
+        "size": 2553
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMSignal.cs"
+    },
+    {
+      "guid": "10d2df202da7deaab2a06432a23953ac",
+      "asset.meta": {
+        "sha256": "a2ecbb535e57147aac90590b2cfd87595377607257298a830b48ebf2acf39c9e",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "c01ca873a609151b938bbd2007d947f069a32ef0bbcfc98915e92e884c1eb231",
+        "size": 4546
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMSpriteReplace.cs"
+    },
+    {
+      "guid": "da6e4fd7cfa61bf9e88df46f357fb181",
+      "asset.meta": {
+        "sha256": "c58722dd073e308db9210d95f7d821ae202e134aaee0c692d6e0482f838541e8",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "aa0b6314737a0a49190d741a34325cc79e3de26ac6b4aa2797b9b0ac9011b9ef",
+        "size": 4077
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMSwitch.cs"
+    },
+    {
+      "guid": "1f4060c76345219123d55b0b1787a4c2",
+      "asset.meta": {
+        "sha256": "0d03b4655b073d5514562f2c0d3515c8c6f11ae42be98c4edd7b19fa696e6535",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "d90bd5c2e42c17e3f31b0f4ffe76f1d89657d7945e537bbc56365f542bf655aa",
+        "size": 10575
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMTouchButton.cs"
+    },
+    {
+      "guid": "a045bf05f623406a17da1cae52770bfa",
+      "asset.meta": {
+        "sha256": "77cf643fb4b273183880fc9695c1893747bb5c1bc66e0599403c0f214cc5e89d",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "df727ab0c1636e7633493145aaa6937457621f87581a1ba9810b57d7a0712b1f",
+        "size": 1638
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/MMUIShaker.cs"
+    },
+    {
+      "guid": "fd6757d589f3851aad8670c2d0d89f18",
+      "asset.meta": {
+        "sha256": "3375fc07924fef2d619d3d5c7d0e7ad00ec0d5a56a9175c8cfaf493a255dd36f",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "93dfe2426f1961ca49548477dd4020c40d77fed44ba45f2a23cd38563b379f34",
+        "size": 1592
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/UI/Pagination.cs"
+    },
+    {
+      "guid": "0de7f47a383729c1cda14599e4eba12e",
+      "asset.meta": {
+        "sha256": "027db9ac0adbc3ddba63b73ba1c706d4835efaf47025ab3b659025baaa726495",
+        "size": 299
+      },
+      "asset": {
+        "sha256": "975e6a5a989c372fa86c030ca92274d6570aaeddf73c7985ab9316a0c48cdea3",
+        "size": 5671
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/V2DemoManager.cs"
+    },
+    {
+      "guid": "fd1ab0399db17e523cb027fe679c2a03",
+      "asset.meta": {
+        "sha256": "1028236a2ae3073fea9e41362787e2f325b8714f4d027e0a4605e0d84b7b7378",
+        "size": 254
+      },
+      "asset": {
+        "sha256": "ecd896af29cbadea01aa0f8a21fcd228ff28032e48ee742d01035f3c0549f4aa",
+        "size": 888
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Scripts/VersionNumber.cs"
+    },
+    {
+      "guid": "bc900f85356e6582e74433fb814aed85",
+      "asset.meta": {
+        "sha256": "3dadf7a4050f286228a2638b56525b6808f963565447e48e8fc625eb035c31af",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Shaders"
+    },
+    {
+      "guid": "3a78e1c8d8179845d25ba19c000aee0a",
+      "asset.meta": {
+        "sha256": "adeb02ba3b560980ab885dc05353617b02209005febd3f58f15ee2d41e617f7f",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "42821302291068088a148aefc03b331d8aebd8290064ada74bb1438a0255ccf5",
+        "size": 2134
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Shaders/CurveMaterial.mat"
+    },
+    {
+      "guid": "af2c3a1098d42103b2029c4df33e124c",
+      "asset.meta": {
+        "sha256": "e6f42fc1564ea400e38fc8f91f4dfd2b1b97f4d3562b6a9b0d6b7f41d1e5ff90",
+        "size": 196
+      },
+      "asset": {
+        "sha256": "de9e0d8b08b4f11ea70919a6b590bb0ecbf02fa27485ecd5c56170aa83ce83e8",
+        "size": 2896
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Shaders/MaskedUI.mat"
+    },
+    {
+      "guid": "f539821aad3c7c3b7a71d5c1b8dfb0ec",
+      "asset.meta": {
+        "sha256": "c00f5dfb2386740305f2284d3b4672a9729869e3709b559a506d42b1ef808f3a",
+        "size": 213
+      },
+      "asset": {
+        "sha256": "5a23b96291d3f5bbb50a83e5f5024e6c0e88c075ffb23f78942e0b3df640b1b8",
+        "size": 2327
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Shaders/MaskedUI.shader"
+    },
+    {
+      "guid": "f6262eb0ae8677694015fa11c21c6ab6",
+      "asset.meta": {
+        "sha256": "578f0359e9254a2ae2e701f5e5e4c38ba5f5aac247f5a0c981bbcf4cd6bc412a",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites"
+    },
+    {
+      "guid": "de2958c395f072f721e24435189ca009",
+      "asset.meta": {
+        "sha256": "9f6f1d788744834a7a832820d87fd8f1b611f4185a6f4f384d9b84a9f9950aaa",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "cdfd4c24a9663ea448629e7c80db4f403e3ee4ca3c8bc2b61c15dcaa26237a94",
+        "size": 927
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NV1x1White.png"
+    },
+    {
+      "guid": "c13b05cd3d2a2bbec02709a6d94ba61d",
+      "asset.meta": {
+        "sha256": "9afb4f5b5126e00cd32d8b3bec21465b52e712aa75743af74816747406b10f53",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "91d383b3545a6c37e759405a1c39aeb452ebc41481629e4678a66f4cd7032823",
+        "size": 1257
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NV3Cols.png"
+    },
+    {
+      "guid": "d8ccc29d0c727182b9325b07c86ec1c1",
+      "asset.meta": {
+        "sha256": "40e3051e8d9def0d8281d23bcaaa54dc6147004a0de5f28bbb9a92080fd58d86",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "cd61ed1d3273a5ca42b0685777ee45c853143fc11d8d4be2b18c8c9092fd5567",
+        "size": 1237
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NV3Dots.png"
+    },
+    {
+      "guid": "2030f83e0be2c1b352f588da563c8bde",
+      "asset.meta": {
+        "sha256": "dfe30ce92dd5cb72372961fb7e23eef24e45fc03e3421db34a8bd4ad6b44fa77",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "b3853cf0f2d4bb1e165ad5e4d37c994c2a6133d5d159dff61841996164ee8905",
+        "size": 1265
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NV7Dots.png"
+    },
+    {
+      "guid": "3a1f308daa161a5ab718b3d7ac9f33e8",
+      "asset.meta": {
+        "sha256": "502e8849de4ba1f706261f4021374c4c44d164c12945fe462e23a8cbd839913b",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "12c22897dde4662d73d63ebf1e5ff487afa3301b86687870b2256178d200916f",
+        "size": 1565
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVArrow.png"
+    },
+    {
+      "guid": "72e2278ce972af7b5819bad631028a5f",
+      "asset.meta": {
+        "sha256": "ef73ede33b82e9469188a726d571765f44b3e0226f5c61ab8b3c5e9b41414dc8",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "299211f5ecde02d1f6882b7e72630a94d019c909ba7d89b9aaf52057c9939292",
+        "size": 1680
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVDottedPattern.png"
+    },
+    {
+      "guid": "71056df3789c8ca0a33a92719d675dd1",
+      "asset.meta": {
+        "sha256": "64467744eea5868071fa29accb445894280ced8d1b21a1e895a3b045894f1386",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "060e06631d2eb17922d0a8bc88fa397f01154ca696b369928e827b3b04dbe672",
+        "size": 9268
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVKnob.png"
+    },
+    {
+      "guid": "c661396cb924028eb2e79f429911015e",
+      "asset.meta": {
+        "sha256": "0632c991b191f9b4c89212698d01a951932f92784a0a043f11967f2f68479831",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "3fccf38e634e9e38124c81025d4b9197a7536caf438552432956c77c1895b7f4",
+        "size": 3227
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVLogoNice.png"
+    },
+    {
+      "guid": "a258123557195fbc45aad9376bbf007d",
+      "asset.meta": {
+        "sha256": "ef1b1d86afeaa438e3be03ac116fdcff75c7c14e84020d45fd9521017bbdc46d",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "2fbe67f449245ee3511d95b0f29d61543a5e722089595f0ba8271ea2c5a5d367",
+        "size": 10450
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVLogoVibrations.png"
+    },
+    {
+      "guid": "88f134a928b2b38b3427b4bb9761d3b2",
+      "asset.meta": {
+        "sha256": "cb361dd757f461c0fb1a6fbc96b92f1000a2a69659e381a3eb016dac8d0bf6ac",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "a8ec15d36c4df6f3a906553d3837b99e280b7a430340ebb37ee926d7be1f77c0",
+        "size": 1268
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVPaginationDot.png"
+    },
+    {
+      "guid": "12e319efe012b2463235f3924f8f38a3",
+      "asset.meta": {
+        "sha256": "ca5c1da8b7f583b7c06ef340cd0c44ec01d536d044bb20a7b165f99a8b0c40ae",
+        "size": 3514
+      },
+      "asset": {
+        "sha256": "90cfaff4b5bfc4f0197d3f376ddb8d52c0e5db2dff0fa869c23df825b144bc09",
+        "size": 1741
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVRoundedCorners.png"
+    },
+    {
+      "guid": "4e66fddde79349252d136b8140749837",
+      "asset.meta": {
+        "sha256": "639551a02197c2511852cfeaacb878df588f085e8da90a8d4d5ad9f703a65384",
+        "size": 3514
+      },
+      "asset": {
+        "sha256": "4302455521fffe70757456d7b94c6d3f4403907060ae038cff6aae83fb3bc21b",
+        "size": 1989
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVRoundedCornersBig.png"
+    },
+    {
+      "guid": "b1fc396cdfcea840c4fdb196e88243f5",
+      "asset.meta": {
+        "sha256": "ed3bc9a24cf8393e0075d31215431c0a4617e1ef6d1a92bcedcbf75b6aea3e64",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "2333467811665d63df009d259d364f584fa6406e04c758a0bb76033dc0909f48",
+        "size": 1764
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVSwitchBackground.png"
+    },
+    {
+      "guid": "65716ac66d4c6e473289fa8052165b1e",
+      "asset.meta": {
+        "sha256": "a755019c859187067f7f29fd62cb47d1919076051865374214c866ff30cd5368",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "0217f18bc5dcdc48e0d7246f1d0c2271306e47e0930c37f9824b6106c0524b2d",
+        "size": 1441
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVSwitchIndicator.png"
+    },
+    {
+      "guid": "99083ed8f034e69429b4106a37ee677e",
+      "asset.meta": {
+        "sha256": "61a1ed05aa8da811e36dab464212155edb128a721d113997a0004a5e64fb60c1",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "2186b5f37b479373d85abbd34138d3068769613f499dfcf13c37cf2cbc6cbcc3",
+        "size": 1584
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVSwitchKnob.png"
+    },
+    {
+      "guid": "1533b350ae562177e4791a911c976748",
+      "asset.meta": {
+        "sha256": "f09247f42e3709064a738cb231578b8581be01e361207d9d3269a0e05b56eb24",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "4c3d6aa0dd25d0e27ea109e14e0d81155e079ea0532ae43fa8d264bdb653a91e",
+        "size": 1851
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_Common/Sprites/NVVerticalProgressBar.png"
+    },
+    {
+      "guid": "163b124dee41b8528de0b11afb4cf2f6",
+      "asset.meta": {
+        "sha256": "342188316a04e06a8fc1b0be4e57b130cdff81062e7db2bd8356c882ac24a247",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD"
+    },
+    {
+      "guid": "ed9c64b00173358f85ac6d639a916517",
+      "asset.meta": {
+        "sha256": "94c72edb30c5065e3240699528c05ce6820525074294c5604abb1f94bf97b349",
+        "size": 225
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo"
+    },
+    {
+      "guid": "a2d982097c0c34d1dba9ec2ac2bb8e6a",
+      "asset.meta": {
+        "sha256": "48f99bc1fe8ab9a0106418bc0c209f1b04731d265386a05a2c8432de53e54b88",
+        "size": 225
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Scripts"
+    },
+    {
+      "guid": "fcd3f7697c1efad657e76ab37601b81a",
+      "asset.meta": {
+        "sha256": "f75c75bc4db9daa3f4ffcadce60a1d8df3d729d07e0107ad49df8594afa8fc53",
+        "size": 299
+      },
+      "asset": {
+        "sha256": "f8008d69e4adafb7f43eedb70893636a071fd6fb3d477db47f832038bbc1ed59",
+        "size": 5135
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Scripts/NiceVibrationsDemoManager.cs"
+    },
+    {
+      "guid": "b31d3d3784b1b9764e08b052c190b529",
+      "asset.meta": {
+        "sha256": "a03c29e601a4813a0c6b10e3340016079b42fffb966e70ae5931ef599535d3f9",
+        "size": 225
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites"
+    },
+    {
+      "guid": "750934a019befa1201ecec4e32888a5a",
+      "asset.meta": {
+        "sha256": "509a623fe101c0acca13f54a9c173718423fbe354169b016cc81667ed9604613",
+        "size": 3510
+      },
+      "asset": {
+        "sha256": "8d0f23d1c5d01fdee6b64295067e0d4e95f7d74a62549b7639d59881c4752661",
+        "size": 343144
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites/DemoBackground.png"
+    },
+    {
+      "guid": "e21f3448253ead44535b6addf986dac9",
+      "asset.meta": {
+        "sha256": "1cd1aecc7dd396dee8d869e7acdd1d85739a0c368277088670ee069d8ee13cdf",
+        "size": 4037
+      },
+      "asset": {
+        "sha256": "34ca1995f10aaab30f338254ac9b21936f13f99d2195523d61b66de7d365c923",
+        "size": 87816
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites/MoreMountainsLogo.png"
+    },
+    {
+      "guid": "27435c39788799cd73fa1368d210a9ac",
+      "asset.meta": {
+        "sha256": "d49518703f113ab65ab39fb7b7efcbece77e772fadbdbd8a8130d55ec174ae6e",
+        "size": 3171
+      },
+      "asset": {
+        "sha256": "28843e6e641f2519ae928de3a2450b12896e120d2e35f3c778f64777d7ed56d2",
+        "size": 30013
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites/NiceVibrationsIcon.png"
+    },
+    {
+      "guid": "6f51903e9e8358399c3be651e65633a4",
+      "asset.meta": {
+        "sha256": "1e0d7b4d550caed58e8ca4f4f70aaa1449eb07b64099064f5beafdb2a293103a",
+        "size": 3171
+      },
+      "asset": {
+        "sha256": "a0df15ba3d7f98fcb891e2ad843486e40d207bfff3182f250cd9918ca15520ee",
+        "size": 18004
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites/NiceVibrationsLogo.png"
+    },
+    {
+      "guid": "c197a4ab21b1aa0b3766415cb60cc8fa",
+      "asset.meta": {
+        "sha256": "49f5f6ea31b4670906dc64282262d29eda7d20777784b61e4cf80fc8d3dbe5b5",
+        "size": 3175
+      },
+      "asset": {
+        "sha256": "da32f9e8708b0ccb53674bedcd8371bf791a1af6fcd1f1d756c83d26bb78fc98",
+        "size": 1156
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites/RoundedCorners10Stroke5.png"
+    },
+    {
+      "guid": "01db477e750a2f3d2f8b4c4966fa0686",
+      "asset.meta": {
+        "sha256": "2c8b9868c2252ccadfabe37e6ede636ef3d7ead53c87cf97a220b2531c3caaf6",
+        "size": 3171
+      },
+      "asset": {
+        "sha256": "bbf09dfa92cb8638942cb9fe26fa9878ad55fdef13fa8f151d4f7caada061c47",
+        "size": 22671
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/Sprites/icon-nice-vibrations.png"
+    },
+    {
+      "guid": "de1f0b10828193789e9e68c9cc43e9ff",
+      "asset.meta": {
+        "sha256": "86e7155fb1fb95b5c2a0db87f1f61f57ad88d86f8093808dab4074809c2d56fa",
+        "size": 207
+      },
+      "asset": {
+        "sha256": "9e76d3dc7663b9471f63b317c3d86ba0c0238e1c3f06edde978dd534e7755b7c",
+        "size": 85875
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/Demos/_OLD/v1Demo/v1Demo.unity"
+    },
+    {
+      "guid": "cd00241dcb56046c8972370ee9642044",
+      "asset.meta": {
+        "sha256": "0823c3dd82302119951033e925c7acef9e6a05242c671ac0375b90332a74838a",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/ThirdParty"
+    },
+    {
+      "guid": "c06c2ec429626904f80aef5052cb7d6b",
+      "asset.meta": {
+        "sha256": "d923e7ff0272d37337b5ec32aed3a8d9db5ff908fd258640e3c49c386244ee6d",
+        "size": 180
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/ThirdParty/Newtonsoft"
+    },
+    {
+      "guid": "9a520210f57f5b74491197b1bb1e9ca8",
+      "asset.meta": {
+        "sha256": "6d33eaae6b3491d3add5b8e165a91d2fc5566ee4fcc82ce8aeb0f9c94e1ce6d6",
+        "size": 1729
+      },
+      "asset": {
+        "sha256": "483780a04f8745e112bb9d93fe7b2941815840979ac87d2db76d3549aa4663a4",
+        "size": 505768
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/ThirdParty/Newtonsoft/Newtonsoft.Json.dll"
+    },
+    {
+      "guid": "950bdb2d97439ba4f8edde09a95ac08d",
+      "asset.meta": {
+        "sha256": "d2bc06997348772fbe19ad9109bd28df6d6fec70dc86a1d2bc7b896227234553",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "963c59f9165deeae5a69947e940a5b1caadfa054f23cc1727d853d52fea4ae1c",
+        "size": 1102
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/ThirdParty/Newtonsoft/NewtonsoftJsonLicense.txt"
+    },
+    {
+      "guid": "1cde0be9e180b4ab089472b1b1b90df5",
+      "asset.meta": {
+        "sha256": "1d7b2f0e74bbe01570266f1cc5ecd6816c51840a9f5bd1b0135d529a49bb9146",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "64ce5c8b034c4cdb361d4ca5c595df69d589c146fc67f359446826feafbceca8",
+        "size": 254
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/license.txt"
+    },
+    {
+      "guid": "0b1e9a9c91ac14b1b87e6e5813e8ec11",
+      "asset.meta": {
+        "sha256": "c6c8c1947636f85eb9457e560d014d8c913c11a24670d18a47ce4ea595f64092",
+        "size": 165
+      },
+      "asset": {
+        "sha256": "3c6852b26d936e8b0dec587cae420c18718af16e3dd82abd058186fac0c084db",
+        "size": 2363
+      },
+      "path": "Assets/NiceVibrations/OlderVersions/v3.9/readme.txt"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

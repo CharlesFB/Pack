@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-uniwebview-743d2f34",
+  "build_id": "2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+  "artifact": "artifact.unitypackage",
+  "sha256": "2cd28f66024d4deae0a7bf38b19f5bdc4034474170b7f06f0d3b72f3fcbf0d7c",
+  "size": 4238704,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "d3dad2b92748d439e851e10d4f4ecaf0",
+      "asset.meta": {
+        "sha256": "4dcba879cd30087b4569f2d07ec8be6118a7e709e2c0cbd749468afc61db4f4b",
+        "size": 193
+      },
+      "path": "Assets/Plugins\n00"
+    },
+    {
+      "guid": "3916a9bfa4fd449e2827f2f20897a7d7",
+      "asset.meta": {
+        "sha256": "d792faf0fc061f23d26fc0b88d1495bc1b29438a87ea5e67195938dee58a6642",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Android\n00"
+    },
+    {
+      "guid": "a70633e155d144f5da10d40c35d9c832",
+      "asset": {
+        "sha256": "1d3d45b648e781a24b301c3f879f4847a3b429006cb2edc1b5b5739f9513f69e",
+        "size": 185478
+      },
+      "asset.meta": {
+        "sha256": "e887f3a270a3893bbeae6d580071d4d62fa0809f3d14b49357513458f1601fe9",
+        "size": 608
+      },
+      "path": "Assets/Plugins/Android/UniWebView.aar\n00"
+    },
+    {
+      "guid": "db3f23043d1754d4b9c96ddb5ab457c9",
+      "asset.meta": {
+        "sha256": "793b47c30a2a4677cc8ebadccced062880db2e8a5fe477c2409f45d583475bff",
+        "size": 650
+      },
+      "path": "Assets/Plugins/UniWebView.bundle\n00"
+    },
+    {
+      "guid": "19150ffd969374afd9b181cd8c71f662",
+      "asset.meta": {
+        "sha256": "d97906c33ff06043ee6e3d71c9cc06a7c684d1ef864018a62ee1e24ae8e4aaf8",
+        "size": 172
+      },
+      "path": "Assets/Plugins/UniWebView.bundle/Contents\n00"
+    },
+    {
+      "guid": "6ed4d1ad77ba246f0aa50cb883ca2973",
+      "asset": {
+        "sha256": "2260347215830bed94fe79d56b188db2b903cd0e69a5c3c080978b97cced70b6",
+        "size": 1395
+      },
+      "asset.meta": {
+        "sha256": "c1c15058b89aef971be35c74c551204b1320d99b145abec5ae25a6235ce3521a",
+        "size": 155
+      },
+      "path": "Assets/Plugins/UniWebView.bundle/Contents/Info.plist\n00"
+    },
+    {
+      "guid": "495312126946747a3b197461eaff9687",
+      "asset.meta": {
+        "sha256": "3f2d14657658860bb79b24478ac213932df1718b4d4dde6f3cfa441b7e0248a0",
+        "size": 172
+      },
+      "path": "Assets/Plugins/UniWebView.bundle/Contents/MacOS\n00"
+    },
+    {
+      "guid": "0168f4971f50d488e959c40d05b94c59",
+      "asset": {
+        "sha256": "81e7f70d4fa0a9f9d170b92b05ac7fba794726407c126c269d017c2526fdebee",
+        "size": 655472
+      },
+      "asset.meta": {
+        "sha256": "ab9b95e58dda4b920ee780ad38df87f4d5420687053424ff5ff8bf28b4c458d2",
+        "size": 155
+      },
+      "path": "Assets/Plugins/UniWebView.bundle/Contents/MacOS/UniWebView\n00"
+    },
+    {
+      "guid": "80fcb824c01d44613803213f4b1ed096",
+      "asset.meta": {
+        "sha256": "18325554c4be2b11729b7230bda24c32ffe287f2ff0b08399976ae615004446b",
+        "size": 172
+      },
+      "path": "Assets/Plugins/UniWebView.bundle/Contents/_CodeSignature\n00"
+    },
+    {
+      "guid": "f0a1c562a4f234a5c80db8830befc067",
+      "asset": {
+        "sha256": "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b",
+        "size": 2200
+      },
+      "asset.meta": {
+        "sha256": "5daa7a166c8b359ad2a56b19249a7cb03df359efc20793437c8a57811bc42fbf",
+        "size": 155
+      },
+      "path": "Assets/Plugins/UniWebView.bundle/Contents/_CodeSignature/CodeResources\n00"
+    },
+    {
+      "guid": "10cf9bec133da4d3b836f29204deca1b",
+      "asset.meta": {
+        "sha256": "b14b906d9d37c67636363b950427dbf2b1893adfde7e7fd41ddc3c19c68f20b5",
+        "size": 172
+      },
+      "path": "Assets/Plugins/iOS\n00"
+    },
+    {
+      "guid": "060e1768692e941c2aa0f7c9f9f10e32",
+      "asset": {
+        "sha256": "1b0e05a2d21d43570e679972b99d7903db6f25ab860d82e181365d3c7b626f09",
+        "size": 10094352
+      },
+      "asset.meta": {
+        "sha256": "8f0eb209eb517b2fe701136f2b8e7a002713250b64d0f39c0433d3e7686fb90e",
+        "size": 637
+      },
+      "path": "Assets/Plugins/iOS/libUniWebView.a\n00"
+    },
+    {
+      "guid": "92454175c62504ab5bf7128917b56362",
+      "asset.meta": {
+        "sha256": "1a60cf0faafd2c76f1feeeaf3421a7bd29749dac9999e035ae196c26a858b3f2",
+        "size": 193
+      },
+      "path": "Assets/UniWebView\n00"
+    },
+    {
+      "guid": "f7ee8c3eb642344b08f4ceeb53d70cd1",
+      "asset": {
+        "sha256": "6418e7355c5891af284b0c0f781839fbb256a197aad0076d7c5ef4afe151cf8c",
+        "size": 72455
+      },
+      "asset.meta": {
+        "sha256": "f5da351c882bb20c4982abc7418399b784c1fd299f2b2496339e2d3fb52403a7",
+        "size": 176
+      },
+      "path": "Assets/UniWebView/CHANGELOG.md\n00"
+    },
+    {
+      "guid": "565d674726c3d499cade2709dd955ad0",
+      "asset.meta": {
+        "sha256": "89aea00c468466ee353605ea2c40af563fc7ceeebd8e3ff9e6832bf2f5bd1393",
+        "size": 193
+      },
+      "path": "Assets/UniWebView/Demo\n00"
+    },
+    {
+      "guid": "938c077f40a814d4584ce2ad17947cf3",
+      "asset": {
+        "sha256": "a3c1a6779fe7860e094de39501a558f8576e31a119e9ffe4a15b2d17547cf604",
+        "size": 7062
+      },
+      "asset.meta": {
+        "sha256": "781727df1e89928254e5e050278ce55f8f366eeb402af1cb947bc03313297215",
+        "size": 176
+      },
+      "path": "Assets/UniWebView/Demo/UniWebViewDemo.unity\n00"
+    },
+    {
+      "guid": "5f0047c1c8c8348de9d66b0496b353e1",
+      "asset.meta": {
+        "sha256": "abdda0deb4403ea6b55379576daa5c794e0216270aa430004a2a450bea677895",
+        "size": 172
+      },
+      "path": "Assets/UniWebView/Editor\n00"
+    },
+    {
+      "guid": "d09054fcc76964295a49868566075973",
+      "asset": {
+        "sha256": "ce389d488a67ee3c0a1dcd11ba0a2de46b016fca5fd1a0d5f67847204b34dc17",
+        "size": 10970
+      },
+      "asset.meta": {
+        "sha256": "6f0d93d968bffa0b2c625af3703f9a265eb1324bbe44ec32b388d15ac4999a41",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Editor/AndroidManifest.cs\n00"
+    },
+    {
+      "guid": "4a73a3268e19f44f7be818c5db9af457",
+      "asset": {
+        "sha256": "dae4e4c782dacde350317e9a16b81dc29e15db3171be4ca74a334cdf6dc9761d",
+        "size": 10178
+      },
+      "asset.meta": {
+        "sha256": "17f9a66f7c3621297c06e3520b343544d5a87d56ab40d9c6e2ba3c5e7301475f",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Editor/BuildGradle.cs\n00"
+    },
+    {
+      "guid": "62bf94600ac0f42c09fc261d7ab19e12",
+      "asset": {
+        "sha256": "7965c2679cdb27039aba30fa97a4daff96affb59f1b01237cfb5a2347fef63e5",
+        "size": 1367
+      },
+      "asset.meta": {
+        "sha256": "df95eedf62f443303592946cfb1bf09eef0d74549c6b63334854ee164da2dc89",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Editor/GradleProperty.cs\n00"
+    },
+    {
+      "guid": "b6d0e5b49a073436cbcd56804553ee20",
+      "asset": {
+        "sha256": "176a99df3f074a765900bb8e51c61767be9ac0946ab7797514cddb9485b9a4fd",
+        "size": 433
+      },
+      "asset.meta": {
+        "sha256": "535efa871a3af6076f54edacc7cbbca1b402fe6ab05a070127fd716b6423d0ea",
+        "size": 166
+      },
+      "path": "Assets/UniWebView/Editor/UniWebView-CSharp.Editor.asmdef\n00"
+    },
+    {
+      "guid": "a403a09e241a0480a957591ea60fb785",
+      "asset": {
+        "sha256": "24d26d27d5962417a567c537b75902d3c6394e95271a2ed50b93ef6ece5c14e6",
+        "size": 8816
+      },
+      "asset.meta": {
+        "sha256": "4fbd4b54aeaa58fe6cdf5874c790b92e009490ae2b290f1b7314aee0e00f93e7",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Editor/UniWebViewEditorSettings.cs\n00"
+    },
+    {
+      "guid": "fad245b203db64c21a4d1092e99ddc82",
+      "asset": {
+        "sha256": "ee55648beb76a7bd46c35f47ee3390b6f948e389da1d0f819699d787001c81b3",
+        "size": 14678
+      },
+      "asset.meta": {
+        "sha256": "ea215809fd335184ec63d0805505681e7c60fe407b23dc70fa23b356f4ad9de3",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Editor/UniWebViewPostBuildProcessor.Android.cs\n00"
+    },
+    {
+      "guid": "897910604e8514ad3b957c9039fd7531",
+      "asset": {
+        "sha256": "25c1e55fdb1d8c58e791cd2410a5ea84faab7eb3fd114d7bc40b12489a79ce76",
+        "size": 1912
+      },
+      "asset.meta": {
+        "sha256": "0f24ffa2191c0c8d3f22d455bd0e5ae47ded82cdcd2e1103c7bc9e5dd4a719a4",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Editor/UniWebViewPostBuildProcessor.iOS.cs\n00"
+    },
+    {
+      "guid": "dc0f52a2d219347b1a6390b753d6ac97",
+      "asset.meta": {
+        "sha256": "16c3dc0647426b3e2a422e196ea59493b060234e1059f2b24d919ef4336d560d",
+        "size": 193
+      },
+      "path": "Assets/UniWebView/Interface\n00"
+    },
+    {
+      "guid": "5a1d3cecc27d64565835e14b493c935b",
+      "asset": {
+        "sha256": "a1e494ab0facf9fb063fa7e106c3450a9e3ac2841633e66efcae68e643fd8ccd",
+        "size": 20655
+      },
+      "asset.meta": {
+        "sha256": "fb7de171dd8b0f18a6e4a46e14df2422d2ccb2b60789912fe24ae2092d057822",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Interface/UniWebViewAndroid.cs\n00"
+    },
+    {
+      "guid": "2704cf8e127d541f1888d96429308645",
+      "asset": {
+        "sha256": "e9f60f47bc16c685847085b3f7582036da8c79db56241238d4b1482efe497bcf",
+        "size": 1276
+      },
+      "asset.meta": {
+        "sha256": "ff11b7925007c2e8961c653e0039726c492b844656be1ba464c8f8edbad0b18b",
+        "size": 286
+      },
+      "path": "Assets/UniWebView/Interface/UniWebViewAndroidStaticListener.cs\n00"
+    },
+    {
+      "guid": "2e905ba0b47304f4cbf9e3e3345f84eb",
+      "asset": {
+        "sha256": "f6e79c43a0cdd6b8d6863636ac99635e35e5b646a9ae457a47c58d68fba6b181",
+        "size": 35967
+      },
+      "asset.meta": {
+        "sha256": "fe115fd59cf122201178eb3df6da94e2bea6732ef7e7bfd6710dc4165316c2d5",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Interface/UniWebViewCocoa.cs\n00"
+    },
+    {
+      "guid": "0b3bad20d12b1433ab8927c3effc605b",
+      "asset": {
+        "sha256": "abd87febfe6ab9044387903e1dd3edca0f06b9fbbef42246e9d8b303d8eadf2d",
+        "size": 10086
+      },
+      "asset.meta": {
+        "sha256": "e956ffb0dad8fada32895c155fbc5e8da94382d1f7c929d4f2d0f01a62e32cda",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Interface/UniWebViewPlaceholder.cs\n00"
+    },
+    {
+      "guid": "d5d657f2ee1114e20bccaace74235a99",
+      "asset.meta": {
+        "sha256": "b16957247d1dbc75eff69d7d6a855bc128becedefcf2d9f41903a31736a3b264",
+        "size": 193
+      },
+      "path": "Assets/UniWebView/Prefab\n00"
+    },
+    {
+      "guid": "7e3f16a6f6303419cbd9837f6c746de4",
+      "asset": {
+        "sha256": "c233c2b54462b070a60ee5f4d9621731d8646c147f67813505eae45a8e51e3a6",
+        "size": 1561
+      },
+      "asset.meta": {
+        "sha256": "0987945871a6114c8ca7dea1d971ac8fecaebe13c78b1faec83122d3be0be09f",
+        "size": 211
+      },
+      "path": "Assets/UniWebView/Prefab/UniWebView.prefab\n00"
+    },
+    {
+      "guid": "2d6c4899a63004f16bb4f791176f4ad3",
+      "asset": {
+        "sha256": "b19e5f45b267e3da4d7df626e334a564ffda9594b3239cf53038ee212732d63b",
+        "size": 1310
+      },
+      "asset.meta": {
+        "sha256": "81d19d9128b489074368ea6b3ca9c99a0daf95092cb0631fca6d2c6b6f291523",
+        "size": 154
+      },
+      "path": "Assets/UniWebView/Prefab/UniWebViewSafeBrowsing.prefab\n00"
+    },
+    {
+      "guid": "95440ce70c5e14d6e96e166c45f7cf6d",
+      "asset": {
+        "sha256": "5dd210c21cda510c709d9588ecaace707df7af91d25fdc090f1922bbd77fd7b6",
+        "size": 1530
+      },
+      "asset.meta": {
+        "sha256": "472a5402f6c55b0739b15388527ff79ba9084a2a508a8cfba00b73d9c89904cc",
+        "size": 179
+      },
+      "path": "Assets/UniWebView/README.txt\n00"
+    },
+    {
+      "guid": "b34f36f9836464e04893f632434d0862",
+      "asset.meta": {
+        "sha256": "cccf57520540bdfac7367c207379957a1903fb8a5e47c2dd3710790028f42ad5",
+        "size": 193
+      },
+      "path": "Assets/UniWebView/Script\n00"
+    },
+    {
+      "guid": "43c2ab2efc7244e0293d0a1cb0d869e8",
+      "asset.meta": {
+        "sha256": "22289237fcaa031d6624bd4253f0a25d2b6a50a90eb0e605cf311e6eed9cd39b",
+        "size": 172
+      },
+      "path": "Assets/UniWebView/Script/External\n00"
+    },
+    {
+      "guid": "f11796a30129b4c71aa6a52d59c6be19",
+      "asset": {
+        "sha256": "59be8e6c9d8e953157f707ad4eb6519f5e89c0a1bb352eddc5aeaabc354ead5d",
+        "size": 18098
+      },
+      "asset.meta": {
+        "sha256": "b376d11acfae12dea8c8916aa0417b8ae07582fb20653d9dd92f1e9a5246460e",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/External/MiniJSON.cs\n00"
+    },
+    {
+      "guid": "598e18fb001004a81960f552978ecf4e",
+      "asset": {
+        "sha256": "aa0d7ce1a48e8945dc2ae5a5fff51ee67a55bfb386e19cfc8d0a7c7b344949e6",
+        "size": 121195
+      },
+      "asset.meta": {
+        "sha256": "d2fc3e7e7b2e5726f2e92a1de3a4abfc5ce8051d8cb2f427c699132bad511e29",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebView.cs\n00"
+    },
+    {
+      "guid": "5b17dc622ffd649da85854192714e429",
+      "asset.meta": {
+        "sha256": "bd8da578da5dd0d497e8facfd71a25d1c52554c2e4a597d719d54ba67f8d385d",
+        "size": 172
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication\n00"
+    },
+    {
+      "guid": "6bfa5bb9dc237400298563d614b62705",
+      "asset": {
+        "sha256": "4345aeea4c3ed10b1cdb6a38c21104a68ae983747ff5f5a4cbd60d9853cd09e9",
+        "size": 4534
+      },
+      "asset.meta": {
+        "sha256": "1f949cdebd25a00395ceea8f8095f9168c40a2f9cae0825bc78ae7741ed89f90",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationCommonFlow.cs\n00"
+    },
+    {
+      "guid": "4add539e6d306455c9da09b069e248bd",
+      "asset": {
+        "sha256": "066215ec04820ba5416b25c0a33a4c16b2bbcc289881b01a5687e698c5e1dce9",
+        "size": 18451
+      },
+      "asset.meta": {
+        "sha256": "d7bc2a8b27bae8b467e037614068ecf1b4bc8fbc3336bd5a6ea0d45a77d17641",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlow.cs\n00"
+    },
+    {
+      "guid": "bfcc799dc1a0c4ef58bc3486a8af7afa",
+      "asset": {
+        "sha256": "21ae8a81ccdff8934ed13ec2b2d3707729fe7ce4932f5be1dddba551578cc925",
+        "size": 9843
+      },
+      "asset.meta": {
+        "sha256": "aeba95885f27743516e2407853bbdc7d85e2e53167209778b09e84c32b700281",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowCustomize.cs\n00"
+    },
+    {
+      "guid": "69ed5d1df2635470ca5c939d11d16924",
+      "asset": {
+        "sha256": "4bbf8340daa6a3c199cdb9973dde9b743f23e3806d8a787b5eb1f8c12b54bafd",
+        "size": 9352
+      },
+      "asset.meta": {
+        "sha256": "9b0e4029760bdc625aae2827d7f25b5e5c320f1ac3dddbf82e532350d577942b",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowDiscord.cs\n00"
+    },
+    {
+      "guid": "ba2d51a8adc8e42b4aaff50218dfe058",
+      "asset": {
+        "sha256": "70d8ac37f15e4742c9749797c140dfd770566a6c9f0f2c1da881b2720d8dee2d",
+        "size": 10163
+      },
+      "asset.meta": {
+        "sha256": "7ed5d681181a10eb6b50a05d60b1d6faf7226f999549830cd7bab6c86bea500f",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowFacebook.cs\n00"
+    },
+    {
+      "guid": "1925cdd8b9d284ec48146d7d03c41672",
+      "asset": {
+        "sha256": "f3282e5b6e9308d509bc308c87439d326c74a79848493f205a787d090eb7ede8",
+        "size": 11274
+      },
+      "asset.meta": {
+        "sha256": "4de5248bb35b5c8a12d1329657ad2459ea4bfd1b2e0a47da1c6b9161706a6a02",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowGitHub.cs\n00"
+    },
+    {
+      "guid": "9a51fd6394dc49ed954d995b9f7b0bbc",
+      "asset": {
+        "sha256": "75595a22022a5d0bfb7498ce168ed2958eb5c5f18fc853d2de760705ea628f38",
+        "size": 10364
+      },
+      "asset.meta": {
+        "sha256": "eab22d095cd81797e0484144bbc95df9902fb207d0c622fda28c5bbb592848e4",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowGoogle.cs\n00"
+    },
+    {
+      "guid": "69f3e0ea73db84403850bcdbc6531a62",
+      "asset": {
+        "sha256": "ff7fdbd841fcb0dbe37fd4ea9953f538cd35e4f454988a69bb1808cda3ba8847",
+        "size": 9776
+      },
+      "asset.meta": {
+        "sha256": "d73f46db2d70b63b2af386ca30785aa4a207f64f2adba8bcf7eae1ff2ac32f0e",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowLine.cs\n00"
+    },
+    {
+      "guid": "86840692470304a76b6d2ac73771b7af",
+      "asset": {
+        "sha256": "ec64c9191ebc62a3ee025666a707d085989213af97c6ca893b883deca6f6dffb",
+        "size": 9195
+      },
+      "asset.meta": {
+        "sha256": "2c4bc6a9ff858bb8e2adbc9c606c95e4381f5b1b94e6bed13eca58424a60dad0",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowTwitter.cs\n00"
+    },
+    {
+      "guid": "e5e52f46b3fba4e1c868230b0da9fd5f",
+      "asset": {
+        "sha256": "1642ce622009487a005756e2cc80aca52d19bd4428f2a0d558a87cf1229503c4",
+        "size": 8981
+      },
+      "asset.meta": {
+        "sha256": "9bce2f51df51fff978c1941b05546d15ef28b2191f0d6da9b7366abd08e15b8e",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationSession.cs\n00"
+    },
+    {
+      "guid": "bda3fe59d0bb48c890f1545b0b22dee4",
+      "asset": {
+        "sha256": "f624e0d2f6afbee4e7b7f4d13126c55ee8c9c0d626d866a53a7930637673c2fc",
+        "size": 5009
+      },
+      "asset.meta": {
+        "sha256": "8ae0c2664d2b100c6c2b76c981bf56e8004ea9969d8fb3d441c6ed0b8e5628e1",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationStandardToken.cs\n00"
+    },
+    {
+      "guid": "cb86a1823d1e54d558d6f77e3c36719b",
+      "asset": {
+        "sha256": "85d621fba706f3d1f93474748c54204b76f5e6ab4878d5de33fd8d3ae70384dd",
+        "size": 7399
+      },
+      "asset.meta": {
+        "sha256": "423974ff377896050103b55b85dfb0e45ee1b8ed0b732e7562c815d954770017",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationUtils.cs\n00"
+    },
+    {
+      "guid": "af9091341ad1451a88060e20c2dc953f",
+      "asset": {
+        "sha256": "66d0f38d14b7c6408bcae8b0a0afc18f87c400a75876e40b1bacb6994ee3ccde",
+        "size": 2016
+      },
+      "asset.meta": {
+        "sha256": "6f77baf719156d80fabb6fbc9413058b8a515564f8d72fd60a1ba36c1c7e0087",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewCacheMode.cs\n00"
+    },
+    {
+      "guid": "983375010eb44a88b27df35ee1eedc4f",
+      "asset.meta": {
+        "sha256": "30110acdd989b82d6cede11337e7e7ff69ac87c8629a4215ac28ec3555258daa",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewChannelMethod\n00"
+    },
+    {
+      "guid": "e1fb4e291b944fa8b8a114f076f06da9",
+      "asset": {
+        "sha256": "a408379fa97a8cb8ea0117bad8da0ac9db84d855571af334a3038a6beecd3147",
+        "size": 1277
+      },
+      "asset.meta": {
+        "sha256": "1c2713bf0159952876928b3155ee4c39d5b9d488a5c5e2efc70305633c0f6173",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewChannelMethodHandleRequest.cs\n00"
+    },
+    {
+      "guid": "f9415d08641d44ec97fdccd2799861e1",
+      "asset": {
+        "sha256": "ec54a926eb5c8c1c641ff43b6df2a2457088a21193f31f06897e6bdeb21b785a",
+        "size": 6160
+      },
+      "asset.meta": {
+        "sha256": "9ac0f2b8b5923d87d97e80f72b0d7f8b735a7aaeb32e0636035c32218d1434fa",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewChannelMethodManager.cs\n00"
+    },
+    {
+      "guid": "31347bc762ad46fda0634683da0201ac",
+      "asset": {
+        "sha256": "5bf61fb162202fab6a84fc5e57726443dcb91bdca07d8f415c539c059d104e5d",
+        "size": 2614
+      },
+      "asset.meta": {
+        "sha256": "377eaf0e7c8227978c725edafbbae24062ad4dbedd32e312157ee899351fed4d",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewChannelMethodMediaCapturePermission.cs\n00"
+    },
+    {
+      "guid": "325ac2081331446986f826bce9a5d62e",
+      "asset": {
+        "sha256": "59229cab1ccf3e24787fad94e4c1b1e453277004f23253496767069ee8e8f59e",
+        "size": 1746
+      },
+      "asset.meta": {
+        "sha256": "9724e512349ad46a627b63346fb079bf57692031471451859c89cdf24c976129",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewMediaCapturePermissionDecision.cs\n00"
+    },
+    {
+      "guid": "dc6b999829de442f2aa381a8ff78a917",
+      "asset": {
+        "sha256": "dbb4a6e1335085f44eb68f79d33c618450118b9b14fcc1946ea7282437260379",
+        "size": 1584
+      },
+      "asset.meta": {
+        "sha256": "bc35f97d2a9d92357fac46927b6b7abb555b08a59b8fe0dd5e0cd46f689c4622",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewContentInsetAdjustmentBehavior.cs\n00"
+    },
+    {
+      "guid": "0ba73f1cc351846878c5731b4e22b132",
+      "asset": {
+        "sha256": "224b8d3a57d6e9fdd781d8670080149e452f12b219bf50fb346f0a0021ee4e10",
+        "size": 1307
+      },
+      "asset.meta": {
+        "sha256": "f03c818c7f7dc16443c1de454c565aa6a778bc7a4f641e050b55cfbb2f5a0575",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewDownloadMatchingType.cs\n00"
+    },
+    {
+      "guid": "19945236afb94be88f39e5f6c566ce71",
+      "asset": {
+        "sha256": "20a3891437fc97e9c1a14a83b7fec4e2d88f7beab70fdff904db56a00b0bad67",
+        "size": 4891
+      },
+      "asset.meta": {
+        "sha256": "a18a4655b7c9cdbd9416ea2c37ca6535f71fe44ac8ff2c7ea45b94847f43c813",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewEmbeddedToolbar.cs\n00"
+    },
+    {
+      "guid": "824ddd9d1592945268d857265662a174",
+      "asset": {
+        "sha256": "e9d1b08817240e9415173fb4c9f332c02fe0a8cc34316fa3c33c011a46667276",
+        "size": 2995
+      },
+      "asset.meta": {
+        "sha256": "dde7e5f3df9303fd20660e4f6ba93dd9f472334390936c5f76f77dd73641b56a",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewHelper.cs\n00"
+    },
+    {
+      "guid": "06ca7a8564d9842ba99c77d43e9ce4f5",
+      "asset": {
+        "sha256": "b67625ff6f85c026483fb3e9009ab83b74fbaf97492e42beb8b097d9a9cc2eae",
+        "size": 4233
+      },
+      "asset.meta": {
+        "sha256": "f45c6686b2e438efc4be98cbb09f98fc63d1c6706973f237563e32fcd22134e8",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewLogger.cs\n00"
+    },
+    {
+      "guid": "0dbdb1ed01b9747a1ad6eb7bcc7b4014",
+      "asset": {
+        "sha256": "aac880f3f36ce5363fcf2c0b8add144333d6306a103cc497800fa583f41f5481",
+        "size": 4663
+      },
+      "asset.meta": {
+        "sha256": "359dca6aabb3c158d95b19d29cf9ba149c3c0d32a5cb3cdc834596df33c0eab3",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewMessage.cs\n00"
+    },
+    {
+      "guid": "5538b25d1713f4de994dacdc6eaacb95",
+      "asset": {
+        "sha256": "d499e40f67cb4605bc4e50c473bc515841cc104d9453d090117a3aabec65fe4c",
+        "size": 9766
+      },
+      "asset.meta": {
+        "sha256": "803e8faf0a1e19e09e0379d4836068106432f56078bde103a9d17d9eade2b178",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewNativeListener.cs\n00"
+    },
+    {
+      "guid": "5843488507315421aa0a7d92c0604d10",
+      "asset": {
+        "sha256": "0b574b2139e95cb8762c7b0a0951c39faa4cda3fee06100d6c3c2c57f368d6b2",
+        "size": 533
+      },
+      "asset.meta": {
+        "sha256": "88c08cb5116b419f6e04997b947f55908f00b49c5374579c31d124e907006202",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewSafeBrowingComponent.cs\n00"
+    },
+    {
+      "guid": "dca3ba926a98540d3a2bff6312899a75",
+      "asset": {
+        "sha256": "d9a0c833b532e6385de54cd9837cf8d74207733d5dfd86a26a4837bac4d87dcf",
+        "size": 8717
+      },
+      "asset.meta": {
+        "sha256": "90430909e713ee9bb5789cf68c77eef123f25924b325eece56f4477af3ad149e",
+        "size": 243
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewSafeBrowsing.cs\n00"
+    },
+    {
+      "guid": "17a82aa0398d47948eaf456b1c3f4716",
+      "asset": {
+        "sha256": "764978cad13c39ac6f7f601058961a5660dedd1c76263f7ac3e39182bc00e416",
+        "size": 1347
+      },
+      "asset.meta": {
+        "sha256": "239d377016706cd11618a50581b1c061ec388ac12b8241fc146a4ffea0b5b0c1",
+        "size": 83
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewStaticListener.cs\n00"
+    },
+    {
+      "guid": "9e4c706c92e5e4dc381385bf4edbd3dd",
+      "asset": {
+        "sha256": "f645c7edb2c979eb29db79a0a8a85ad0e06b74f71252d61fd4ccbd53f4c6866b",
+        "size": 1238
+      },
+      "asset.meta": {
+        "sha256": "7353d0b83a13dd886d5c8bd28ce772c992047a265d3b5bd73605e6a67aae91d1",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewToolbarPosition.cs\n00"
+    },
+    {
+      "guid": "1256e7eea8f184fae9b700f8f78e014c",
+      "asset": {
+        "sha256": "c9664ec8935a87e470375943ddc608e0252d4b05115ba7ae4954307da879af4d",
+        "size": 1605
+      },
+      "asset.meta": {
+        "sha256": "cc4498bb7ccdfb7e7d2e4d73feb6ba69741355ad9192b89e07409e72641b6b1c",
+        "size": 264
+      },
+      "path": "Assets/UniWebView/Script/UniWebViewTransitionEdge.cs\n00"
+    },
+    {
+      "guid": "4ca033ee547ec451c8a2d3c33d7620ad",
+      "asset": {
+        "sha256": "1fe1b9e57721b7011d92b23a0822ddb2e245e7ce1a475ec8c605cf3389d8a47e",
+        "size": 501
+      },
+      "asset.meta": {
+        "sha256": "56cae4b272492d71843c0bde3d66e836035cd89dbe3d35e12942b80d33e8608d",
+        "size": 166
+      },
+      "path": "Assets/UniWebView/UniWebView-CSharp.asmdef\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "170ad6c4e7aaefdb1fc64b7a4c97f2b7c8c009ede906c74ac76fde330cfd2ed8",
+      "size": 7004
+    }
+  ],
+  "control_character_paths": [
+    "Assets/Plugins\n00",
+    "Assets/Plugins/Android\n00",
+    "Assets/Plugins/Android/UniWebView.aar\n00",
+    "Assets/Plugins/UniWebView.bundle\n00",
+    "Assets/Plugins/UniWebView.bundle/Contents\n00",
+    "Assets/Plugins/UniWebView.bundle/Contents/Info.plist\n00",
+    "Assets/Plugins/UniWebView.bundle/Contents/MacOS\n00",
+    "Assets/Plugins/UniWebView.bundle/Contents/MacOS/UniWebView\n00",
+    "Assets/Plugins/UniWebView.bundle/Contents/_CodeSignature\n00",
+    "Assets/Plugins/UniWebView.bundle/Contents/_CodeSignature/CodeResources\n00",
+    "Assets/Plugins/iOS\n00",
+    "Assets/Plugins/iOS/libUniWebView.a\n00",
+    "Assets/UniWebView\n00",
+    "Assets/UniWebView/CHANGELOG.md\n00",
+    "Assets/UniWebView/Demo\n00",
+    "Assets/UniWebView/Demo/UniWebViewDemo.unity\n00",
+    "Assets/UniWebView/Editor\n00",
+    "Assets/UniWebView/Editor/AndroidManifest.cs\n00",
+    "Assets/UniWebView/Editor/BuildGradle.cs\n00",
+    "Assets/UniWebView/Editor/GradleProperty.cs\n00",
+    "Assets/UniWebView/Editor/UniWebView-CSharp.Editor.asmdef\n00",
+    "Assets/UniWebView/Editor/UniWebViewEditorSettings.cs\n00",
+    "Assets/UniWebView/Editor/UniWebViewPostBuildProcessor.Android.cs\n00",
+    "Assets/UniWebView/Editor/UniWebViewPostBuildProcessor.iOS.cs\n00",
+    "Assets/UniWebView/Interface\n00",
+    "Assets/UniWebView/Interface/UniWebViewAndroid.cs\n00",
+    "Assets/UniWebView/Interface/UniWebViewAndroidStaticListener.cs\n00",
+    "Assets/UniWebView/Interface/UniWebViewCocoa.cs\n00",
+    "Assets/UniWebView/Interface/UniWebViewPlaceholder.cs\n00",
+    "Assets/UniWebView/Prefab\n00",
+    "Assets/UniWebView/Prefab/UniWebView.prefab\n00",
+    "Assets/UniWebView/Prefab/UniWebViewSafeBrowsing.prefab\n00",
+    "Assets/UniWebView/README.txt\n00",
+    "Assets/UniWebView/Script\n00",
+    "Assets/UniWebView/Script/External\n00",
+    "Assets/UniWebView/Script/External/MiniJSON.cs\n00",
+    "Assets/UniWebView/Script/UniWebView.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationCommonFlow.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlow.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowCustomize.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowDiscord.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowFacebook.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowGitHub.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowGoogle.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowLine.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationFlowTwitter.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationSession.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationStandardToken.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewAuthentication/UniWebViewAuthenticationUtils.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewCacheMode.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewChannelMethod\n00",
+    "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewChannelMethodHandleRequest.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewChannelMethodManager.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewChannelMethodMediaCapturePermission.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewChannelMethod/UniWebViewMediaCapturePermissionDecision.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewContentInsetAdjustmentBehavior.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewDownloadMatchingType.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewEmbeddedToolbar.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewHelper.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewLogger.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewMessage.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewNativeListener.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewSafeBrowingComponent.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewSafeBrowsing.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewStaticListener.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewToolbarPosition.cs\n00",
+    "Assets/UniWebView/Script/UniWebViewTransitionEdge.cs\n00",
+    "Assets/UniWebView/UniWebView-CSharp.asmdef\n00"
+  ]
+}

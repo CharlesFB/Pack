@@ -1,0 +1,874 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-easy-collider-editor-9649192d",
+  "build_id": "c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+  "artifact": "artifact.unitypackage",
+  "sha256": "c1ad9d1d21709127f5fe0aa3a555b23b72920a007853e8d2e15bfc36dd7ee501",
+  "size": 5168734,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "4152f82672157b240a0eb0b802584254",
+      "asset.meta": {
+        "sha256": "57933869c3ba5281fe9539bad667af6d108260edeabb80a6ee54b3f9037c1043",
+        "size": 180
+      },
+      "path": "Assets/EasyColliderEditor\n00"
+    },
+    {
+      "guid": "e9e109fb49381c540b4a5108479c269e",
+      "asset.meta": {
+        "sha256": "cb0cfcdbeefc4d48b9a879f0d09ce9b3498e90004a0f3bb3072db5e0e8c07fea",
+        "size": 225
+      },
+      "path": "Assets/EasyColliderEditor/DOTS\n00"
+    },
+    {
+      "guid": "6459d1034e0abd045acdac4e1e515ccf",
+      "asset": {
+        "sha256": "075895ce8f874a2df6c9161f42d9f5bf34a2391f253d752ccbb726cbc27bab4a",
+        "size": 3634
+      },
+      "asset.meta": {
+        "sha256": "65bf4147efda9f74a59f1410e1a472730107cec66487b10c09e627700cf0d967",
+        "size": 207
+      },
+      "path": "Assets/EasyColliderEditor/DOTS/ECEDots.unitypackage\n00"
+    },
+    {
+      "guid": "078b33d3bbdbd3f478bca270510b58aa",
+      "asset": {
+        "sha256": "f159de6e672ca3a96214f5959b2764b767b47e5f995ff7e3f424a11877a33454",
+        "size": 82978
+      },
+      "asset.meta": {
+        "sha256": "a547e53c3573d9254faad68920c6d9ed42416a8a27a8f1f62f99c5bb75cc1acb",
+        "size": 207
+      },
+      "path": "Assets/EasyColliderEditor/DOTS/EasyDOTSDocumentation.pdf\n00"
+    },
+    {
+      "guid": "28e4c31123bcd614b910d5cfe5c82e2e",
+      "asset.meta": {
+        "sha256": "006a394d45a3b289cdfe4d307cee7fff0a8890c653d11a5f26908e9f99baef27",
+        "size": 225
+      },
+      "path": "Assets/EasyColliderEditor/DOTS/Scripts\n00"
+    },
+    {
+      "guid": "e230396c964eb92469ecb21529e1f10b",
+      "asset": {
+        "sha256": "cd91241babf16d72272f8b97c45925be9d293cf6a2148bd902a64c3d95c45bdd",
+        "size": 584
+      },
+      "asset.meta": {
+        "sha256": "757e53ec0c71d98b4a881ab2a9d729da45ab6300ba978efce97be28fb449d1aa",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/DOTS/Scripts/EasyColliderDOTS.cs\n00"
+    },
+    {
+      "guid": "b04cc4b7e03f58f46a6bd2a7b3fe4498",
+      "asset": {
+        "sha256": "08519f50c7d0bac04b5ad5dc74e2b77400075096a92cb0f4214d95ca5b97ced8",
+        "size": 4525058
+      },
+      "asset.meta": {
+        "sha256": "c86380ec7726607fb6378b69973cf63946e899deac63078294083b48f92daecb",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/EasyColliderEditorDocumentation.pdf\n00"
+    },
+    {
+      "guid": "723d55ae3f9555c42bcd3edb401a4613",
+      "asset.meta": {
+        "sha256": "b0ed786b455ba56a107d01f1c77527fea17ae14c2e931c8dccfb48a8c8f562e8",
+        "size": 180
+      },
+      "path": "Assets/EasyColliderEditor/Icons\n00"
+    },
+    {
+      "guid": "e998347e00b1629449691174d6ce75de",
+      "asset": {
+        "sha256": "f84a2424e992091f841f148dbf9f7698e17a4aec587d2265b88ef209f4517dc5",
+        "size": 19184
+      },
+      "asset.meta": {
+        "sha256": "591ac0f945226d3a9f5d5ac6a5a26b0a338a8cdaba53f6cd39a4f10789ebd821",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIBox32.png\n00"
+    },
+    {
+      "guid": "480816d7d5b863f42984e0a47484f216",
+      "asset": {
+        "sha256": "8539e0fa41b5f5edc6152068e5e48bee6180100821c1f18f558e58076bd9788f",
+        "size": 21792
+      },
+      "asset.meta": {
+        "sha256": "f861d1bef9be1884a5cc3bc7bebdb24e26cbcaeb625e6078fcbde5d89845952e",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIBox32Merge.png\n00"
+    },
+    {
+      "guid": "1b9402ac744555345b9f6111ff8c4b8a",
+      "asset": {
+        "sha256": "58a6ed72e8a8e4135aa282d07ad765a7cbb4cd76943a76829cbbf4d7851d1dce",
+        "size": 19527
+      },
+      "asset.meta": {
+        "sha256": "30c318df13257c8769368bcc325b647381f4b3044b80b680cbd78729d7bb8b83",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUICapsule32.png\n00"
+    },
+    {
+      "guid": "0ad3709299b6f5e44a2db34afc52ccd4",
+      "asset": {
+        "sha256": "f1e162b48c7b9c635bc380831306f1fd42ae78e23f4ce97e16ecb5464a4ee104",
+        "size": 20242
+      },
+      "asset.meta": {
+        "sha256": "c42ccd367dcfb80ffd8a2e70d01c4b17d94834dcdfb44621f4b368f1f4b793e8",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUICapsule32Merge.png\n00"
+    },
+    {
+      "guid": "53b9b7a941c40804b8179b13ecf40b09",
+      "asset": {
+        "sha256": "6a6643dffa6fa560129473eda461a5929a2bacdfe03ef64bca8c802bcd2117a8",
+        "size": 19797
+      },
+      "asset.meta": {
+        "sha256": "5ec77f3680b9f38e1df096e9cbbf234fc5caef4ff4ddcd891fa700cd60043b50",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIConvexMesh32.png\n00"
+    },
+    {
+      "guid": "b0c31ecbc9bd28e4e8ac1e5e43ba307e",
+      "asset": {
+        "sha256": "133ea62a996ccaf73b32d279d2df1f7da7453689c33a34ce26111d7b92cc8aca",
+        "size": 20493
+      },
+      "asset.meta": {
+        "sha256": "30b07067d8b3b28c77cbd0ea0d9718d506e1a7e9bebc21fd2a4ca8d66f93c5b6",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIConvexMesh32Merge.png\n00"
+    },
+    {
+      "guid": "ccbaf976cae4b064f9a918823e8f6552",
+      "asset": {
+        "sha256": "786212f9fe7987fae57797492635321c61a962ffb6506806edcc8bbe1fe6bb03",
+        "size": 21906
+      },
+      "asset.meta": {
+        "sha256": "d5621458ace0833c2f9604b5ca6fedc00875d046af4643e59cf99f4b30debb73",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUICylinder32.png\n00"
+    },
+    {
+      "guid": "2d782a0c73983ee4b95417abf7be42ef",
+      "asset": {
+        "sha256": "8020279a429e85ecc71b90c3d7e2aeea1987937bab3060469b3460668a10f18d",
+        "size": 21879
+      },
+      "asset.meta": {
+        "sha256": "35e91f4297f9f00bb5666dec5250760c35d43ee434ea16ba7f1444efefb1f450",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUICylinder32Merge.png\n00"
+    },
+    {
+      "guid": "06f5537b1554be7429d39076a339a6e9",
+      "asset": {
+        "sha256": "8f632e058d1d654ca617cb5ecb7fb59c5a9a041f674169df61d417884bcb259a",
+        "size": 20028
+      },
+      "asset.meta": {
+        "sha256": "9e9b395d216635b663280e7673577d75073bc787464552a3f8bece053c09315f",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIRotatedBox32.png\n00"
+    },
+    {
+      "guid": "9759e644c16116c46ad7d928f57b00be",
+      "asset": {
+        "sha256": "caa8932a3a5f62bd8519c88964d100e45f6077cc7d7d2dd487f317ae3de9fc47",
+        "size": 22812
+      },
+      "asset.meta": {
+        "sha256": "99c53e618ce64ce4438c118f6cc18ee53e04fa12cbf0dcaebb2a7aed1e3ffa83",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIRotatedBox32Merge.png\n00"
+    },
+    {
+      "guid": "b909a7c899938ca4d8c9705a045fe410",
+      "asset": {
+        "sha256": "204dd2f0c8ddd7de4c6ff94cb5428d6d2b94d901e60e40b140e5cbf677664a74",
+        "size": 19846
+      },
+      "asset.meta": {
+        "sha256": "6850d8b55ff534df0df13fc0382365d8dbf3b73d9162178f298d516fd084234a",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIRotatedCapsule32.png\n00"
+    },
+    {
+      "guid": "764a526c991bd194cbfc2f4319b1d8dc",
+      "asset": {
+        "sha256": "be44f82fc5000d44c7ded1a85b683e425d36096bf65a6bb8e58b40eebd0343e6",
+        "size": 22709
+      },
+      "asset.meta": {
+        "sha256": "6b7117f0dbc782080d0ea8a321b2bd42ae61576bb1c6cd11bf75d5b5eb1d50d9",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUIRotatedCapsule32Merge.png\n00"
+    },
+    {
+      "guid": "e01e5ee2b0ff2214196190f59f373bac",
+      "asset": {
+        "sha256": "324c2f03ab47ac8a532112d1fea317f7c194ba46459d0d2803980d138af14533",
+        "size": 19835
+      },
+      "asset.meta": {
+        "sha256": "6212396036d780a574084580c0a54867a55ae783fed8b49d8090c1d9b36bfeb4",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUISphere32.png\n00"
+    },
+    {
+      "guid": "950da02c7c566da49bd0785d2f903f0f",
+      "asset": {
+        "sha256": "88412a0728ab18ac35e99662c22c74915988850697786a092bf5eec4181f9088",
+        "size": 20552
+      },
+      "asset.meta": {
+        "sha256": "da1f7df02920b4b7ea866800861255a5fa8ffade9eb1560742970715b72a3ce8",
+        "size": 2348
+      },
+      "path": "Assets/EasyColliderEditor/Icons/ECEUISphereMerge32.png\n00"
+    },
+    {
+      "guid": "e652979cf9e1eac4e90f77a15a69ff0c",
+      "asset.meta": {
+        "sha256": "02248c86156aeb12a1e3ea915a419331855b0d126865f0512a4af0daccb6f63e",
+        "size": 180
+      },
+      "path": "Assets/EasyColliderEditor/Scripts\n00"
+    },
+    {
+      "guid": "45eb3a409ea753b44ab3bb6b8585be07",
+      "asset": {
+        "sha256": "b32f9f680539b1bd31269e8a9d51ef483cd80e705d0410a0202814957b8743ab",
+        "size": 70392
+      },
+      "asset.meta": {
+        "sha256": "afd263a92ab7b5a9fad6cab07ec44164c825e4e04a811dfd55e8972ab9ec1b84",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderAutoSkinned.cs\n00"
+    },
+    {
+      "guid": "22d8868ad24ea0c43828e22314004216",
+      "asset": {
+        "sha256": "4496baf9aa885d98b2425dd039f44e492ef8f057158ac7370ee4cf9b34c2102d",
+        "size": 2897
+      },
+      "asset.meta": {
+        "sha256": "85c92a1462a6530bb52c0d1b33858937a72dfe4462f175a32a113e9d5eaa5ed6",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderAutoSkinnedBone.cs\n00"
+    },
+    {
+      "guid": "241873a664ee81d418528c165ef0dd12",
+      "asset": {
+        "sha256": "b693d83695e4f5d90d3a630ee9d57ce8a567dd1a91b061f7a822e592e5737454",
+        "size": 84112
+      },
+      "asset.meta": {
+        "sha256": "57cafe2daeb38b6c2381de5b0e95c27a42d78612d5d2e75bafae0af7e34ee961",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderCreator.cs\n00"
+    },
+    {
+      "guid": "f703485b98da54c489209f1fd7ad2db9",
+      "asset": {
+        "sha256": "791d613eff7abd3143f9609c3b5b4716632c24d007aa8a683db137df1160a85a",
+        "size": 2841
+      },
+      "asset.meta": {
+        "sha256": "e2139d18fb654a7f77ee861d49a4d3de5daa3b9811c6b7a7be2b8d138f761b6b",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderData.cs\n00"
+    },
+    {
+      "guid": "3c95b61c7ebb7b14e9688b95552cef80",
+      "asset": {
+        "sha256": "7489a9a0510df532434765d2f78ac7ea615a5f2614783b091017af2058ecb560",
+        "size": 6123
+      },
+      "asset.meta": {
+        "sha256": "9e2643b3cca8ddeca678c2462c118618d6e4df18ae773deabe14be37c8899d1a",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderDraw.cs\n00"
+    },
+    {
+      "guid": "8765d9c9fa7824d4da8e37f5cc1913fa",
+      "asset": {
+        "sha256": "25c298a938505f2d100f92993006bb073c48f797d29e3a669aa3ccb55022d683",
+        "size": 112358
+      },
+      "asset.meta": {
+        "sha256": "a1cc9efd47eeea7204781fe52a7a75931a9f0f12e1226f4bed2d8b4b7d5bba3c",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderEditor.cs\n00"
+    },
+    {
+      "guid": "d3013554ca157424db48970772ea240c",
+      "asset": {
+        "sha256": "545e2afb4b5604fdc3c9fb0a5c85f9b603e98ea87656782cc50419ae689ac30e",
+        "size": 2542
+      },
+      "asset.meta": {
+        "sha256": "44f95efa551a8c830697df7f1aef05cd17abd98f409a253887f580c2938fbd95",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderEnums.cs\n00"
+    },
+    {
+      "guid": "7302dd3862f934949a13c03008aba827",
+      "asset": {
+        "sha256": "dd236c35a72a46c5e2037030f36e0374ea2071e65c53fadf771706fda349f0ba",
+        "size": 6349
+      },
+      "asset.meta": {
+        "sha256": "24ebcd5fd931ed316a2fee8dea4502c650c9c1858f31f919949e59e3c9823779",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderGizmos.cs\n00"
+    },
+    {
+      "guid": "c4635610932a87342a4bf2e41e9ab050",
+      "asset": {
+        "sha256": "26f8dc018621286dc94686b016b46d62239ae284e28ee3c10f3fbfc61748780f",
+        "size": 2442
+      },
+      "asset.meta": {
+        "sha256": "661400b3ae7574c8492238092d70ad210c23133c8b9f673d413fd4650a305140",
+        "size": 243
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderPostProccessor.cs\n00"
+    },
+    {
+      "guid": "99d3a08e9dc280246aa61e99c233b0c0",
+      "asset": {
+        "sha256": "998f13ab30e47fff51bebd99c2e1a86a8eabf132a3186cb3d0028c8d3bd7dcf4",
+        "size": 2837
+      },
+      "asset.meta": {
+        "sha256": "4cb5c55e7e86935f88e74120e10f6abf7fa86d71bd8c5bf514bd72bd71f9416b",
+        "size": 189
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderPreferences.asset\n00"
+    },
+    {
+      "guid": "fb5e4193615d8464a82ea935f90494a0",
+      "asset": {
+        "sha256": "9502396b09d32fdf236b14f8024d9a8fe194bda50a569c5735b7dca7c0c842c6",
+        "size": 21230
+      },
+      "asset.meta": {
+        "sha256": "435af23f7d968ca7af513f989d0a1c95b046aebd9bb7826cf8f8dcdd1dabb517",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderPreferences.cs\n00"
+    },
+    {
+      "guid": "0975e5f3c5571d940891fd8dc17e7587",
+      "asset": {
+        "sha256": "fe8a26a99ed8c86d4f2ec560f58b7635f7eae63dbb61d3e7bc7bb44f0a7eb7b5",
+        "size": 29292
+      },
+      "asset.meta": {
+        "sha256": "4c018a5a2d3e80df453b0d2cce494021e8ce33c0379834e40bcc2b9ec415d58f",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderPreviewer.cs\n00"
+    },
+    {
+      "guid": "6beb8fffd8449374b81cf9857e315469",
+      "asset": {
+        "sha256": "e35c2011d3503b794e04d5c439e12eacfb8d09cf8a4d9ef9537354c0079c8a97",
+        "size": 2754
+      },
+      "asset.meta": {
+        "sha256": "bee1fd9d82c07115e36abe3bcaa53e56ed51dfc84a575682e2b3ee30e47e9769",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderProperties.cs\n00"
+    },
+    {
+      "guid": "ed797196cc351a34db4a5f88338cc1fe",
+      "asset": {
+        "sha256": "5fcc275c51859cb3e489cb4aa8b2746b147d93ed0928d9a066f99f1415ed2bc0",
+        "size": 48057
+      },
+      "asset.meta": {
+        "sha256": "c15ee91326e73c0f44037fcb783b12081d28610df46b77b8bfeba84550f9c4a0",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderQuickHull.cs\n00"
+    },
+    {
+      "guid": "5e6a373c203fb6b459f89497990e1b24",
+      "asset": {
+        "sha256": "5d713dd5ef52c9facc485a6095efa49fb5d8c14824fa14047c6e68e2a09f7d18",
+        "size": 447
+      },
+      "asset.meta": {
+        "sha256": "2aae2c462dc3903e620f344873595286c8ad55e406aaf05a2068a3a281d46473",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderRotateDuplicate.cs\n00"
+    },
+    {
+      "guid": "6ddf66fc4a34fe740aee3cf08e0549af",
+      "asset": {
+        "sha256": "3cb43a654081700135d6b5979b64d7ff8f372fb56812d0594f198cdfa029adb7",
+        "size": 11746
+      },
+      "asset.meta": {
+        "sha256": "78298c6e527d94cedc030b229999a6cb50595f3588446b959e63e1c140e4efa0",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderSaving.cs\n00"
+    },
+    {
+      "guid": "3855a2c50be7c1742950276affa94392",
+      "asset": {
+        "sha256": "56cf89b05e502dc735f09a4aaa625eeb7635f8650bbec296a9415a0cfdb08725",
+        "size": 2089
+      },
+      "asset.meta": {
+        "sha256": "c8ed86ee8baff343a5aae91ffb40576b410a6e69133ec74aeaa212991b8a62f2",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderTips.cs\n00"
+    },
+    {
+      "guid": "6d01889b53b9585409077f8e53708c46",
+      "asset": {
+        "sha256": "1e26777d238f278c99ef9b9261d81b4070017b11faf69c97ab6b30171242cf9a",
+        "size": 39618
+      },
+      "asset.meta": {
+        "sha256": "044ad1366e71aa1986843c534f0524a649f1f297d2608a645ea73a94fb0635f7",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderUIHelpers.cs\n00"
+    },
+    {
+      "guid": "492957b54e69e0944a816663cdf414ff",
+      "asset": {
+        "sha256": "747a4071c03aea403a656a01b5d068628ab080f4148fa07549c64b3f603375c6",
+        "size": 18662
+      },
+      "asset.meta": {
+        "sha256": "3d750abbb4e586c76022994405deac118e401d6017f3aee302abe620ad0f75d6",
+        "size": 299
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderVHACD.cs\n00"
+    },
+    {
+      "guid": "41abfd88235d8c444be04e8d0ddd38b7",
+      "asset": {
+        "sha256": "2879848bb00bd88ea83347bd4a564a7737f0aebd7a4b81af2b5e23650115918f",
+        "size": 1846
+      },
+      "asset.meta": {
+        "sha256": "17df0d73dace5f63fb82820ff758a2a5ec89910426276d4243e7aa161ca38a38",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderVertex.cs\n00"
+    },
+    {
+      "guid": "8db49ba7c851ab146b4dd362cf607446",
+      "asset": {
+        "sha256": "6f36a801e393e703aec315105d5e48f8171188ae1944587c08897a32fbe77b67",
+        "size": 205739
+      },
+      "asset.meta": {
+        "sha256": "b94951dde473fc6f41bfc4f7fa0faa3ee19f412ad3fb786d2c03b5edebe7ede8",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/EasyColliderWindow.cs\n00"
+    },
+    {
+      "guid": "ac9df4839a2693149a285fc07e42c21f",
+      "asset.meta": {
+        "sha256": "bd320c121dfe00c8d88bf871f88e5aedd949120121c206550473ad638274bc52",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Interfaces\n00"
+    },
+    {
+      "guid": "b6cf4bc0f3d036f46a48313c8a796bed",
+      "asset": {
+        "sha256": "770a542e1e4bb6f301171bb23f74c7676b977658e3244bc3e01e21780faf2167",
+        "size": 1363
+      },
+      "asset.meta": {
+        "sha256": "233e82ada32d7e0bd835ccf45cd6f7fd3d8938e099cb3ff2d2b05814a6b530ec",
+        "size": 243
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Interfaces/IEasyColliderPostProcessor.cs\n00"
+    },
+    {
+      "guid": "a8a38e163b87eb748aebb1b989f8503b",
+      "asset.meta": {
+        "sha256": "79d680b7d98167cd57e2f0c61243e7a28b45e17c1fe436e16894cc38af82b7ab",
+        "size": 225
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins\n00"
+    },
+    {
+      "guid": "68a88bb9c40937341bf6536bbe774f0d",
+      "asset": {
+        "sha256": "5cae8eed3355d6749c3d3e18157fefcc6e07b055c3b93179b0c439c112f17cb2",
+        "size": 163328
+      },
+      "asset.meta": {
+        "sha256": "4e21244d6b49bd14e21569ac7e43fef0ec6d039a5301faf61524b60dad63e5d2",
+        "size": 1631
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/ECE_VHACD.dll\n00"
+    },
+    {
+      "guid": "88f8f3ea0a40624418d9c27ab616b7ea",
+      "asset.meta": {
+        "sha256": "4c79eb293b57197fb79e86298c9a585b58d4e0fcf3e1e22d74d0edf8629d28eb",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX\n00"
+    },
+    {
+      "guid": "a9491b77ec748994585680ed2c3066b5",
+      "asset.meta": {
+        "sha256": "eb97519a301fc0220787762b73652acf478349d3962aa3af8df34c20a151dfd9",
+        "size": 1333
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle\n00"
+    },
+    {
+      "guid": "6a8585019d15a9a46bcd1c5a4672a0dc",
+      "asset.meta": {
+        "sha256": "b9e6da29fd0aeef8a527d55e15167c32517e10c8523f92ff9bb5fa397da4c4b9",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents\n00"
+    },
+    {
+      "guid": "83850870751fafa4f8364bc51be0ab24",
+      "asset": {
+        "sha256": "fa1d4e42d4d0e172ac80017afebeec7b95df7e0e76c2496aebfd99c2bf355d19",
+        "size": 1349
+      },
+      "asset.meta": {
+        "sha256": "875f2ea1dc2a338a03fcfda9697972a7921f973188cc8c6c135725af0578a55c",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Info.plist\n00"
+    },
+    {
+      "guid": "a0f15c4d5e14a654984875f8b9c256e2",
+      "asset.meta": {
+        "sha256": "11fb03df2e164b62d3becff03387bb9603a5e4a15c9c319e30fa58162ba410d0",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/MacOS\n00"
+    },
+    {
+      "guid": "894e7e3d151e79743883647e697ca076",
+      "asset": {
+        "sha256": "65f86c89ff596b069ddf6769ac36ea9548fc93171097465ef3d3837336d078b5",
+        "size": 841168
+      },
+      "asset.meta": {
+        "sha256": "c9a7cc268fd09e00736101b6ede03a90aac90329ad02337c0887931ead366baf",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/MacOS/ECE_VHACD\n00"
+    },
+    {
+      "guid": "f1b2f199639e70343a1ee88ed11361b5",
+      "asset.meta": {
+        "sha256": "bbe499a61cf1bb7e850eb4b8c31e7253e9e5d08e1cf4264631effb811adc01dd",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources\n00"
+    },
+    {
+      "guid": "a469a75b8323e8c489729d9f7a9f573b",
+      "asset": {
+        "sha256": "edcfdfd007d5bf124a0b1c7044b45288f1066e61237b43ef0ddacb25e6d19175",
+        "size": 142744
+      },
+      "asset.meta": {
+        "sha256": "154f7077e39539021c859e8ac3318ad0a1b125c48a2a8a4cb9c7274424cf9a59",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources/FloatMath.inl\n00"
+    },
+    {
+      "guid": "5e72209414c03aa49a0a6211102b0ee6",
+      "asset": {
+        "sha256": "5a6ca4c49b9341fae9915bbf8f6cefaeabb2759f980f269de135b1af14207881",
+        "size": 3398
+      },
+      "asset.meta": {
+        "sha256": "1536e7f06bcb3f603edfa8e79af2e010dd604abc403f038ee6f7376c65372293",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources/vhacdCircularList.inl\n00"
+    },
+    {
+      "guid": "ec20134b0979d004fbcebbc31ac99ee4",
+      "asset": {
+        "sha256": "b358e2f515f2abc856d747fbf3cd0d9e0b3ae65c07a9dde98058e3a2f467d663",
+        "size": 8893
+      },
+      "asset.meta": {
+        "sha256": "e20befc79e8a8147f3377f5a00fd75837aca4fd7cab0b801b98eeacfbd0912bf",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources/vhacdVector.inl\n00"
+    },
+    {
+      "guid": "053bcd82e5178b84f92ae9aad65047d0",
+      "asset.meta": {
+        "sha256": "8b6a2663ef0ac78e06ee25aa06255949943dfd2f9cc17d62f7514038c6e48b0f",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/_CodeSignature\n00"
+    },
+    {
+      "guid": "58554b9c464101245b99c8d933bd5453",
+      "asset": {
+        "sha256": "c1507993691da00623c15a9caf9007fda7c5e9bc5112b108522dbd49d6aedf55",
+        "size": 2932
+      },
+      "asset.meta": {
+        "sha256": "ee9048deb01dd99c21be460009c9b4a8d7b42a2f83da1cf9033d6b8cce7d1dd1",
+        "size": 155
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/_CodeSignature/CodeResources\n00"
+    },
+    {
+      "guid": "0a79fff97a7a7294b835aea10e1cb6cf",
+      "asset": {
+        "sha256": "65919d9ef10ce57909f10b6a5d30aa938e897f1fa8614021416f69c464802142",
+        "size": 1578
+      },
+      "asset.meta": {
+        "sha256": "d17f856d2c2f08d282132806e518a71ea6c465e3400fa2dab012d16840ca6273",
+        "size": 210
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Plugins/VHACDLicense.txt\n00"
+    },
+    {
+      "guid": "e07e2f113dc48584a95e5460e745c076",
+      "asset.meta": {
+        "sha256": "86f485004dc7b8c0c2eb2a229cb68641c1d735b93566071ab830e7415dedd903",
+        "size": 172
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Shader\n00"
+    },
+    {
+      "guid": "58c194f3826ab0b429ddebb6e0fa5adf",
+      "asset": {
+        "sha256": "ebbb1c043e373efd033a0eb4737f0b34ab9fa4715f167197fbb7b69824ef49db",
+        "size": 30744
+      },
+      "asset.meta": {
+        "sha256": "9c5ba78e285432309ded53d572fd96a1dec960dc38a53e5d30421640a80edb72",
+        "size": 243
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Shader/EasyColliderCompute.cs\n00"
+    },
+    {
+      "guid": "fc68b98d1257f434680734c4924323ef",
+      "asset": {
+        "sha256": "ee93780f0f1eecdcb201b085047a966aacc7b5b73dde6582cecdb0cfaef464e5",
+        "size": 3410
+      },
+      "asset.meta": {
+        "sha256": "fe577127cd9adafbcb904e43e63955ab41554e9017077d160b15224c55d9211f",
+        "size": 229
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Shader/EasyColliderMeshColliderPreview.shader\n00"
+    },
+    {
+      "guid": "47ca8cc19e520064baecb98dc4e2eb9e",
+      "asset": {
+        "sha256": "4eee2a2dda7d75a6de8abdc1b8941d378fafdb0b6751de0444d36d3b3a4a8092",
+        "size": 7489
+      },
+      "asset.meta": {
+        "sha256": "a4ff6928c110fe500cd74d24237d7aac9558d9b5430c0143a9716abbc0c645b9",
+        "size": 204
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/Shader/EasyColliderShader.shader\n00"
+    },
+    {
+      "guid": "77dedb303367131439faaeb70ed23f25",
+      "asset": {
+        "sha256": "dcb12bc9d74de1f33c8fe8e49d2c7b2ed48ec87a38a5f2e7c6463f88d3e0f85d",
+        "size": 6293
+      },
+      "asset.meta": {
+        "sha256": "2c3ebcdf304c3bc8305e22cc851f32c3558b3febd99369b8e744f80985ae521e",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/VHACDParameters.cs\n00"
+    },
+    {
+      "guid": "4787408722c64ab4db0b7df26d9653a7",
+      "asset": {
+        "sha256": "c466f2d2bae9cce4e345858d6ebf1a5551b4e669cdd1e6e67dd63614fe661ab5",
+        "size": 2616
+      },
+      "asset.meta": {
+        "sha256": "f616addd971070b0fa2a65be4c089deabc402fdef02f725b18cde3bbf5df08c0",
+        "size": 254
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/VHACDScriptableSettings.cs\n00"
+    },
+    {
+      "guid": "f2afcddae4edf9041bf10bee2f4e86df",
+      "asset.meta": {
+        "sha256": "101fb0caf953b29e9107d7441de92889926d126e81497a34267bed57244da7aa",
+        "size": 180
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/VHACDSettings\n00"
+    },
+    {
+      "guid": "b342658f1ee710947aa3d97df0dc576f",
+      "asset": {
+        "sha256": "bdfcb28eff3a4ed1b855c46906612757eea88b952c26fe861f7e0b938d6c418a",
+        "size": 1063
+      },
+      "asset.meta": {
+        "sha256": "03e60c9209fe398ddd2f22bae42e6e61a3017201f6852c2003082d766dacd514",
+        "size": 189
+      },
+      "path": "Assets/EasyColliderEditor/Scripts/VHACDSettings/ECE_DefaultVHACDSettings.asset\n00"
+    },
+    {
+      "guid": "fbd80c39db074c64a89a5e820a12b2f8",
+      "asset": {
+        "sha256": "868e345ec729daa156c2f5c8fc19432b19732ea171e07570f99b858825ed5e1a",
+        "size": 341
+      },
+      "asset.meta": {
+        "sha256": "7832006b516c41beb310e8d9c3fc2c5a277a183431e1474bdc01d233db5185de",
+        "size": 210
+      },
+      "path": "Assets/EasyColliderEditor/ThirdPartyNotices.txt\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "9f56266f9a6ff01b25489c27ffe9d30852dd92853fb65e17c5bd64041ea538a5",
+      "size": 16340
+    }
+  ],
+  "control_character_paths": [
+    "Assets/EasyColliderEditor\n00",
+    "Assets/EasyColliderEditor/DOTS\n00",
+    "Assets/EasyColliderEditor/DOTS/ECEDots.unitypackage\n00",
+    "Assets/EasyColliderEditor/DOTS/EasyDOTSDocumentation.pdf\n00",
+    "Assets/EasyColliderEditor/DOTS/Scripts\n00",
+    "Assets/EasyColliderEditor/DOTS/Scripts/EasyColliderDOTS.cs\n00",
+    "Assets/EasyColliderEditor/EasyColliderEditorDocumentation.pdf\n00",
+    "Assets/EasyColliderEditor/Icons\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIBox32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIBox32Merge.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUICapsule32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUICapsule32Merge.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIConvexMesh32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIConvexMesh32Merge.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUICylinder32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUICylinder32Merge.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIRotatedBox32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIRotatedBox32Merge.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIRotatedCapsule32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUIRotatedCapsule32Merge.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUISphere32.png\n00",
+    "Assets/EasyColliderEditor/Icons/ECEUISphereMerge32.png\n00",
+    "Assets/EasyColliderEditor/Scripts\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderAutoSkinned.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderAutoSkinnedBone.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderCreator.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderData.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderDraw.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderEditor.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderEnums.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderGizmos.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderPostProccessor.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderPreferences.asset\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderPreferences.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderPreviewer.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderProperties.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderQuickHull.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderRotateDuplicate.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderSaving.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderTips.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderUIHelpers.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderVHACD.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderVertex.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/EasyColliderWindow.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/Interfaces\n00",
+    "Assets/EasyColliderEditor/Scripts/Interfaces/IEasyColliderPostProcessor.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/ECE_VHACD.dll\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Info.plist\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/MacOS\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/MacOS/ECE_VHACD\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources/FloatMath.inl\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources/vhacdCircularList.inl\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/Resources/vhacdVector.inl\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/_CodeSignature\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/OSX/ECE_VHACD.bundle/Contents/_CodeSignature/CodeResources\n00",
+    "Assets/EasyColliderEditor/Scripts/Plugins/VHACDLicense.txt\n00",
+    "Assets/EasyColliderEditor/Scripts/Shader\n00",
+    "Assets/EasyColliderEditor/Scripts/Shader/EasyColliderCompute.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/Shader/EasyColliderMeshColliderPreview.shader\n00",
+    "Assets/EasyColliderEditor/Scripts/Shader/EasyColliderShader.shader\n00",
+    "Assets/EasyColliderEditor/Scripts/VHACDParameters.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/VHACDScriptableSettings.cs\n00",
+    "Assets/EasyColliderEditor/Scripts/VHACDSettings\n00",
+    "Assets/EasyColliderEditor/Scripts/VHACDSettings/ECE_DefaultVHACDSettings.asset\n00",
+    "Assets/EasyColliderEditor/ThirdPartyNotices.txt\n00"
+  ]
+}

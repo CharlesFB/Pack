@@ -1,0 +1,2377 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-text-animator-for-unity-d050710a",
+  "build_id": "7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+  "artifact": "artifact.unitypackage",
+  "sha256": "7a176acbc5c31d178a74b8d01020db74856651b17c66306dad01653f7e2963e2",
+  "size": 583027,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "c3c851caa99d03d4a8c8842ded166a7c",
+      "asset.meta": {
+        "sha256": "81d54d9a98ff6dbd6bc5ae8fbfad058f2d4d5bf4c33b37516636b0db6c56bf04",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator\n00"
+    },
+    {
+      "guid": "da631c92e6b893e49acea17d69d48252",
+      "asset.meta": {
+        "sha256": "02529ebedf70d4b8c1274c420620d8574c4e4e3bfba6d7b14abbe25c9be6b4e7",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes\n00"
+    },
+    {
+      "guid": "001402f99874ca24780daf2947cf5e14",
+      "asset.meta": {
+        "sha256": "8750a9179bac7c109cf625466a37969ccc261f2f4cd37fd5d3c1dcc2ec7cb688",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Editor\n00"
+    },
+    {
+      "guid": "06ce1d00801daba44918ac07070012a3",
+      "asset": {
+        "sha256": "6a30f38c6c4d221c7ae0eeb3c22b8b6903855111d711e24cd0ed398a2e86cbc3",
+        "size": 2206
+      },
+      "asset.meta": {
+        "sha256": "2f0b7af8cf0659777f93de0fa9a4358840bff1e9b717c90ca27c55fcef75356c",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/CharsDisplayTimeAttributeDrawer.cs\n00"
+    },
+    {
+      "guid": "fbcceeb83a7197e40b5e481f8eeb8508",
+      "asset": {
+        "sha256": "44c47829a0b9e42de007c354c4ad629d788377918d9f794c8a0329bafdc4a9dc",
+        "size": 433
+      },
+      "asset.meta": {
+        "sha256": "54efcb1a4753027954951ef6013132be38dfa2dcfdee2f4488e7740a5caced05",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/Febucci.Attributes.Editor.asmdef\n00"
+    },
+    {
+      "guid": "d6969374730fb584ea155e370491caf1",
+      "asset": {
+        "sha256": "0a5e6f4321716e2b31dea581a7bf1650cb2c908523d7d883a229872bf65d8b06",
+        "size": 982
+      },
+      "asset.meta": {
+        "sha256": "1421a31cbb266bdecdc5d5d82dffc63fded9044b8621e205916299e28102714b",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/MinValueAttributeDrawer.cs\n00"
+    },
+    {
+      "guid": "319c5abbdd9c94e479d7c58013da0a7a",
+      "asset": {
+        "sha256": "78c0a5f63f027730f7e1c765a8091d4c0e0d4e55b86a639f8e05e79ee56caaa7",
+        "size": 1612
+      },
+      "asset.meta": {
+        "sha256": "a28ba6cb69e7ae0c110c68086ce702e028bf4cbd01f7fa5675283abc193c0106",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/NotZeroAttributeDrawer.cs\n00"
+    },
+    {
+      "guid": "f9574f1311c20a8418059bbedf619737",
+      "asset": {
+        "sha256": "141eb433f3dc98d8303cd137f72c3b70357cfb2bace592d1693be06e5b17a445",
+        "size": 1614
+      },
+      "asset.meta": {
+        "sha256": "f170bbb7385f76f68677c7fedcf98c74410bf63044a9f6b4068d0b396d99bfe6",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/PositiveValueAttributeDrawer.cs\n00"
+    },
+    {
+      "guid": "c54a190a44816374899a417122886ada",
+      "asset.meta": {
+        "sha256": "18c6adfcbaa80614541f6c8d5e424b333898336c2452425441d6fabb19b7df79",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime\n00"
+    },
+    {
+      "guid": "17a442d7a8bcb7843a7b81ae4b6fcbaa",
+      "asset": {
+        "sha256": "f61d11132f8c6994bf306ec6e6c2d06a1496d8d7294c7ba49b8bb89ffdbb94cd",
+        "size": 131
+      },
+      "asset.meta": {
+        "sha256": "a899b506cbda499c48328eaae61ff490fd0ce184cc90a1bfc689f6be3616ba47",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/CharsDisplayTimeAttribute.cs\n00"
+    },
+    {
+      "guid": "448b0b55421917e4784a8f2f7449081f",
+      "asset": {
+        "sha256": "1b7f62d8738a7d0c04702adec2e1bb224c39141c3546e758754eb0d3f218a379",
+        "size": 359
+      },
+      "asset.meta": {
+        "sha256": "a12e219d8fab3f1a2b73f2e58143098f7689c20dd12690f65b7c1f10bdc1ee45",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/Febucci.Attributes.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "15c1cd35897ccae4ea16b7d7bd05c74b",
+      "asset": {
+        "sha256": "4fd3e06658d394e55d553bf9d9db1bf67c38f621a0dc9a80a85a85af5cfd7902",
+        "size": 245
+      },
+      "asset.meta": {
+        "sha256": "958b69f686944f624518784972e1ae288bccc21bf410ee4e08d346991aac9cc3",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/MinValueAttribute.cs\n00"
+    },
+    {
+      "guid": "330d54a9b2a8cde41a7128d6f9418661",
+      "asset": {
+        "sha256": "bf45312beaa1a55374b7dd397dc9553232ba2825f67355687f35b6f4424b5ca0",
+        "size": 123
+      },
+      "asset.meta": {
+        "sha256": "36aca6e4c134a439ed1063fd1fe0eae91d48dc8e176c7cff813811e56c3dac31",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/NotZeroAttribute.cs\n00"
+    },
+    {
+      "guid": "2f12d9869f06b66498d39516b6e88aa7",
+      "asset": {
+        "sha256": "02933046afcfea15c0460031a033977806e6e8e95a939d927747f7240b538d42",
+        "size": 129
+      },
+      "asset.meta": {
+        "sha256": "a9e6766a4f47d36233c280950e48e0cdcb977f96c9e3422f056b5321e37f8d65",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/PositiveValueAttribute.cs\n00"
+    },
+    {
+      "guid": "85011d1648ca8914cb0fc9500772569f",
+      "asset.meta": {
+        "sha256": "1dac337fd3462aa84c7bd7556b2e88a01a9188d9f21d06fd67d8a77d114886fb",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example\n00"
+    },
+    {
+      "guid": "6eaf322d703d50146afecde586026f57",
+      "asset": {
+        "sha256": "be7fceb82229a4f6542d7efe09c0cd549d524f1007813921b7f16eab8e4b8429",
+        "size": 14377
+      },
+      "asset.meta": {
+        "sha256": "0176475cff9c36a1df83ec20458c8dfdd18cfcfb6d493e83bd732c40e7b4a909",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/00 - Welcome.unity\n00"
+    },
+    {
+      "guid": "33f73b8875f94f64b867105f5c7d4747",
+      "asset": {
+        "sha256": "a2113981cd7756ef297c5e5b61664cf76f9434bfdede3a09c80852cadeca915d",
+        "size": 17525
+      },
+      "asset.meta": {
+        "sha256": "ce919523fc9f7ed479e209a9b5fb9cbd758f7d0a2d4184bcb74d01a80a47d0ca",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Example 1A - Effects.unity\n00"
+    },
+    {
+      "guid": "82a6944f7c7c3fa47856f534f7482122",
+      "asset": {
+        "sha256": "a3e0297bdd6260b9f9fca74c0fa7a4793cf4f1f772bcf752a12637eb89387f2a",
+        "size": 18051
+      },
+      "asset.meta": {
+        "sha256": "f6190e5a50fdb2130712b0ae26d9b400889d3e0747356da26d6ab96432735504",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Example 1B - Stacks.unity\n00"
+    },
+    {
+      "guid": "85ee4ca1f3a508347b883d20385a5eac",
+      "asset": {
+        "sha256": "a739c8f3850c8085f1971786996b46a78d9372673b5f3c2cff617500f230f807",
+        "size": 16512
+      },
+      "asset.meta": {
+        "sha256": "7bbcaf445bfca2c8adf2898053e58bd57d9c07bc7598b14b6b39185dd50900e1",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Example 1C - Attributes.unity\n00"
+    },
+    {
+      "guid": "b6a3261d7db5245c5b24f3ec0d4968b5",
+      "asset": {
+        "sha256": "532373712e913ce60b589bd7245258f0be9c39268b90e24f08ea14114fd3fb1d",
+        "size": 45550
+      },
+      "asset.meta": {
+        "sha256": "8eea381357a63aa85c2fc2a9c18e70dc383c6724a9da62e9d01ea9369ba4c224",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Example 2 - Events.unity\n00"
+    },
+    {
+      "guid": "ba92474cac6c572459cd8fb75148ea94",
+      "asset": {
+        "sha256": "885701d258c58fce078e7e4bb814bde23c9564e96a0ee9f99957997c01d5a49c",
+        "size": 16066
+      },
+      "asset.meta": {
+        "sha256": "b56384377c87f66a5da3448e9a23c9f1382fe4eacef22107b43c3e82f1877b8f",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Example 3 - Actions.unity\n00"
+    },
+    {
+      "guid": "9b13dc9321a13ef4383917b6db657d65",
+      "asset.meta": {
+        "sha256": "f24772ff496cc1429d50127d2fc9163131b82e646c5b4fa5140fefe08441c60b",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Font\n00"
+    },
+    {
+      "guid": "1ffb8c3515fb6dc4688eff5a7e48200f",
+      "asset": {
+        "sha256": "47c4d20090415fdb14720b60c28b7cc32b1e124d4d749d3a7f9809d5c0ecddce",
+        "size": 2196763
+      },
+      "asset.meta": {
+        "sha256": "ca2833813566c98a3b9362dae12d11a94b63dcc734f246adc516f950803ebcbd",
+        "size": 189
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.asset\n00"
+    },
+    {
+      "guid": "49342641ea2b7e6429da3245744bb92b",
+      "asset": {
+        "sha256": "ea8979c22cf1d830e3ff939aadd49cc4d78c851e3cb59d2aa95ea10ee752d5d1",
+        "size": 75136
+      },
+      "asset.meta": {
+        "sha256": "17ee8b38d1de3393368c3501dcfaa82fc20efb0303433428b42730e6eda38d17",
+        "size": 486
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.ttf\n00"
+    },
+    {
+      "guid": "00c3ff69a8133b34c9df87ba6dd26bf2",
+      "asset": {
+        "sha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+        "size": 4407
+      },
+      "asset.meta": {
+        "sha256": "847e5525f1a62e773e7b2efae0d76760964f0a467a661209ff995e7f01a5d29e",
+        "size": 158
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Font/OFL.txt\n00"
+    },
+    {
+      "guid": "3319478745348604ea0630be39d375db",
+      "asset.meta": {
+        "sha256": "2b2f616d3155f48eb58ca51995dfe8734dc66a0218977747e561d3c28db799cd",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Scripts\n00"
+    },
+    {
+      "guid": "dba2e994350d1f14cb2e667e48dee952",
+      "asset.meta": {
+        "sha256": "244a0d5f18cb75993ce1f6db3c44140c1114d1d1a561a18137b3bf6ac32da25b",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime\n00"
+    },
+    {
+      "guid": "b97a825c489d94194a088dd18fedd2f0",
+      "asset": {
+        "sha256": "8cd921c2abc4a369793e42526c426a969902afbeb3a658bccebddfc5802bc385",
+        "size": 2265
+      },
+      "asset.meta": {
+        "sha256": "26dd738f59e67c67e00605c4aed9928b2329bdbc740ff5646fae92ecbe316708",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/DefaultEffectsExample.cs\n00"
+    },
+    {
+      "guid": "90f9467af4b1d44aab0c2f932db2b5a7",
+      "asset": {
+        "sha256": "3d3a38b1714bffb2229c148367b8dbe8f15335fa8aaa88f5eb468acddbce4340",
+        "size": 5468
+      },
+      "asset.meta": {
+        "sha256": "a922c9dd0206b75f6bc04be543bf991b6feb03e8b48b0f2475831f24e04e4be1",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/ExampleEvents.cs\n00"
+    },
+    {
+      "guid": "b5c827fa52e382c45a066c5ff085b512",
+      "asset": {
+        "sha256": "8950561285b767d2deeb96769ccc3f6b838a64ed994d87c621c53faf6b365bc3",
+        "size": 390
+      },
+      "asset.meta": {
+        "sha256": "8d6e2438b6c6e800d5f0bfe54d5a9e3ac2aade8b41bfa66d55937a1a55256f25",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/Febucci.TextAnimator.Demo.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "65cd2c622bcc2df47813a20bb2263361",
+      "asset": {
+        "sha256": "35326fa741230758cff29e3f1399370934abb2c4b4e75cfad8c3b01b98bfe24a",
+        "size": 808
+      },
+      "asset.meta": {
+        "sha256": "9c70b4737055268a1e0d11ec284f802e73c389fe2a4ef6a672ba899788a3ee41",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/UsageExample.cs\n00"
+    },
+    {
+      "guid": "fbf9d43e4f6a84cb49b3acc07f802085",
+      "asset.meta": {
+        "sha256": "886621941b2347ece2f86ca4db2004a6d5c088b47409a72ed471838275f3d43c",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Sprites\n00"
+    },
+    {
+      "guid": "e074a9b4b276847b0b578d2c96d2c1db",
+      "asset": {
+        "sha256": "bb7d2343d29ab79151adae6fc1399fe12b3c904fe4fced7063b212c4021f06c3",
+        "size": 7598
+      },
+      "asset.meta": {
+        "sha256": "57e8aeb90099a15e975f5f579a77dcef4c5802a5f7df6d76f528367ac047838a",
+        "size": 4279
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Sprites/Circle.png\n00"
+    },
+    {
+      "guid": "4dffe6eab57ca4e4ba2f967307bd1c29",
+      "asset": {
+        "sha256": "639b9088701766b9dc6a23b77092e44ce29ac36178d83f1fcbd70be5ff9fcad2",
+        "size": 147550
+      },
+      "asset.meta": {
+        "sha256": "d09190f2f8f3fc1428cff7c0629a678e87e5d4fb8e2aad6cd6069e29ea29132b",
+        "size": 8845
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Sprites/Example_sprites.png\n00"
+    },
+    {
+      "guid": "0ee0b44b8c03546a392c57dc59d85589",
+      "asset": {
+        "sha256": "a9e94ddab6347d300b23e6a64d4a3c675a9dbe0475f3ec92e1fc9d4d66c0d85a",
+        "size": 7929
+      },
+      "asset.meta": {
+        "sha256": "ae786fcbf4fced2a622784306628bd1446d1f48541448ed4f4801e6788217308",
+        "size": 2492
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Example/Sprites/example_dialoguebox_body.png\n00"
+    },
+    {
+      "guid": "9589a74fa45a59448bb1a6a9aa8a597f",
+      "asset.meta": {
+        "sha256": "3c457725bfebc24b75f50755092330c57b6a6536eb710f64505f8b862d31e4c9",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Extra\n00"
+    },
+    {
+      "guid": "560a88da2bbc70140bed167f0ba7fe37",
+      "asset": {
+        "sha256": "f5af2b531e98b7bf7dc6842dc27e5ae617e00550c2a90d52614ffe5ba7c4a369",
+        "size": 38059
+      },
+      "asset.meta": {
+        "sha256": "4682982c3cb70b23f52cd6f0fa3d7c8712b2bb27c4644a728fc0ac3617ce4678",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Extra/Typewriter Sound - Package.unitypackage\n00"
+    },
+    {
+      "guid": "b68fd61c2b78d79478cbaac617d6bc42",
+      "asset.meta": {
+        "sha256": "131ef37a370ba9ef4926a4d36f473f91e77bdd476e9b22877460b56f426aab98",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Integrations\n00"
+    },
+    {
+      "guid": "f6b5bd674898d304684e21cc62c5a15a",
+      "asset": {
+        "sha256": "5e418bf62bc1f97039e6029df234fefc1b26f24afa44caa9c3b48f09776a95a5",
+        "size": 391
+      },
+      "asset.meta": {
+        "sha256": "e4acc80bf6df4ff8a05e110b5dba5d8a91518e5aac85d8848f0259588d0bd7d6",
+        "size": 158
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Integrations/Integrations.txt\n00"
+    },
+    {
+      "guid": "fb01be13d6e88ca488dda82150319bfc",
+      "asset": {
+        "sha256": "d509226408393e9444a6e7c6ea86810e45a797caa0d7e10fdbb4c9d445eb8c94",
+        "size": 1005
+      },
+      "asset.meta": {
+        "sha256": "ff1a57f74141cf6f1a9c496e5684cb01ee39635a01397164ce51598d64be92d7",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Integrations/PlayMaker - Integration.unitypackage\n00"
+    },
+    {
+      "guid": "117dcc671050f5247bd8743b91ecaab7",
+      "asset": {
+        "sha256": "a263575a9c00e8b45630fc56b28c652e4f537f198c1c070689cf2325c01cd0d5",
+        "size": 1478
+      },
+      "asset.meta": {
+        "sha256": "a930f695792836ec8cce6036a2cf9451990c4527f1b162ea444302da4e8ee14c",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Integrations/Visual Scripting - Integration.unitypackage\n00"
+    },
+    {
+      "guid": "f2803ca31271d4631b7dcb81cccea0ee",
+      "asset": {
+        "sha256": "cbdf6d37c16867381a40e5f86d5d50f0762157e1f40ab7b3c8a24da722a4393b",
+        "size": 86783
+      },
+      "asset.meta": {
+        "sha256": "6447c4ad4d224c54efbb92e236645e2250b2def706ed90af5bb61adb28b26844",
+        "size": 155
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Quick Start [Offline].pdf\n00"
+    },
+    {
+      "guid": "a47363b2fbe9e2d45b00c72c79679fc3",
+      "asset.meta": {
+        "sha256": "f0b52e6c13402e88480841ed56aad0a9f3f8d5ba65e9c630fcd275522b88b6cc",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts\n00"
+    },
+    {
+      "guid": "834807df07adbb843a9e2270df867e8f",
+      "asset.meta": {
+        "sha256": "91b716a183467dcf2cf827cb6ad5fedab5045a887991f9fa87e1d4ea6f24c063",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor\n00"
+    },
+    {
+      "guid": "4092478b3f6ba408384c2224ec1edc58",
+      "asset.meta": {
+        "sha256": "295b0455eec3e5d7182dd2011595a2068961f696727bb4b22bb8fd86bef57e47",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers\n00"
+    },
+    {
+      "guid": "71fee1318e1eb47f7854704b0697d75d",
+      "asset.meta": {
+        "sha256": "dd0e2251886f0a45d3a34f12e5c60e51ed89f7d84af59f214232d43fd3bc234b",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components\n00"
+    },
+    {
+      "guid": "bcb43c683fc0e47569981a9ff0d346bc",
+      "asset": {
+        "sha256": "857ff4c7ce649a0c2e47732218024ec771c7ecd706f145fdaf6dfe46318a4da4",
+        "size": 30727
+      },
+      "asset.meta": {
+        "sha256": "e2f7f85973ed0afc662adbfae3ba86bacb798342f6a0de44661ed45fe266581a",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TAnimCoreDrawer.cs\n00"
+    },
+    {
+      "guid": "867d2cd807cf4028ad7222663d1d20dc",
+      "asset": {
+        "sha256": "353eae3930155b0c9c8c9a3ad0375de087abc564a6d05179d0743c614bd35854",
+        "size": 3563
+      },
+      "asset.meta": {
+        "sha256": "9ea0c262624a42a107137a020997d836e967d1a9aee260edbfbc285b49178c42",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TypewriterByCharacterDrawer.cs\n00"
+    },
+    {
+      "guid": "89bf62aedbe94754920fc2335a4fc7d0",
+      "asset": {
+        "sha256": "cf83d89aebc204f4ad4097be49ccba66272924bf8ca5d3a166396fed3888f4bd",
+        "size": 1896
+      },
+      "asset.meta": {
+        "sha256": "363d8ad6fe424fbe42436a36b7e0bfbc8aea85d83ab6c773b9c1a55c8e32a342",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TypewriterByWordDrawer.cs\n00"
+    },
+    {
+      "guid": "c505a7fbdbbf6604f9f76bf0afbec264",
+      "asset": {
+        "sha256": "adafb855ec683b87e0e73bf79b26806eb4706cae91d98d90eaa43708abd2a86f",
+        "size": 8671
+      },
+      "asset.meta": {
+        "sha256": "68af0d181cea037d7ded69bde1d38c985c2d1ff7e562ac7cef740f101510310a",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TypewriterCoreDrawer.cs\n00"
+    },
+    {
+      "guid": "2072e32578cb41c696fbc87874010a2b",
+      "asset.meta": {
+        "sha256": "918282192a55898a3c9009ee530e55bd2be02b71e0e1980b848d3ab88e474687",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties\n00"
+    },
+    {
+      "guid": "66208123db9e4e77b655117ebcc45e29",
+      "asset": {
+        "sha256": "2daa7a86c806052e71f0fb08e42a5965ed8a961824c3251d9e41a845e13db9af",
+        "size": 2346
+      },
+      "asset.meta": {
+        "sha256": "951f8b48186d69fb4cdddbf4abe4a95c3ff7477759389e4621fddcb5387f23cd",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties/ColorCurvePropertyDrawer.cs\n00"
+    },
+    {
+      "guid": "4d090238fa054eed8276f4ad839ea8d0",
+      "asset": {
+        "sha256": "07064fc3a34f1862af552f764a4cb8e91f0725f07f1b4e347124dbb45ce55abd",
+        "size": 1985
+      },
+      "asset.meta": {
+        "sha256": "fce138901bc64bc2163ca5990689f4dbde6b5aa92afa40a18330db0540d8e72e",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties/EmissionCurvePropertyDrawer.cs\n00"
+    },
+    {
+      "guid": "4894f9d8534334cd7a2f30c70b7bf59f",
+      "asset": {
+        "sha256": "b923f64c80b1291ed2ed7e199a71106ed47ca7875ea2a59bd1c8cc1423bb8a31",
+        "size": 2348
+      },
+      "asset.meta": {
+        "sha256": "96645c5da1d8071f0d19d25ca32db87bc8c1b82bfce0e3f139b4ba964cf7ddb8",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties/FloatCurvePropertyDrawer.cs\n00"
+    },
+    {
+      "guid": "92e50da885b094e4fb85655841952277",
+      "asset.meta": {
+        "sha256": "53d1182d27784217a9896bd86cc4696dc41e1039ea94ceae6b12cb2a0e403334",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables\n00"
+    },
+    {
+      "guid": "8c2f725852edc492b8576fab496a36bb",
+      "asset.meta": {
+        "sha256": "dbe15e4d7e070a817428b4c7173b381056353ae8038c41e0c75de6378c4a5074",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Actions\n00"
+    },
+    {
+      "guid": "2200ec37f7bdf40a2aebe58049fd175f",
+      "asset": {
+        "sha256": "1884103aade8c93db841c8bdec43e6b1322a5aa06eabb3bff26498596f3ccf72",
+        "size": 385
+      },
+      "asset.meta": {
+        "sha256": "1308ef7d001e4d3f161411811b419aa8033b098d87cb241c242ae96a0fb51e85",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Actions/ActionScriptableDrawer.cs\n00"
+    },
+    {
+      "guid": "b590f529b1e874522b94d7c65ad0dc13",
+      "asset.meta": {
+        "sha256": "87885d1cbde69a2c2a2282911bd6e6ad7355cd8101a56beadb24f25be082683d",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Animations\n00"
+    },
+    {
+      "guid": "475624099e3c24c10a455adc583e9044",
+      "asset": {
+        "sha256": "37db4241db08c79396618a1adc182c15c67062fae190359e6cf942ced98e29a6",
+        "size": 386
+      },
+      "asset.meta": {
+        "sha256": "85301a271a8528b90e685dbd03692509f8d959b28f270628b2f576bfa7b66f5e",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Animations/AnimScriptableDrawer.cs\n00"
+    },
+    {
+      "guid": "322f146cc940c4028b1d7a11a84d2e89",
+      "asset.meta": {
+        "sha256": "9b5bbf690e681847b4ce1c7461732bc8410958f469e9c4201977aa80db903c2a",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database\n00"
+    },
+    {
+      "guid": "cef03566441d243eca1e263c1a8d95ae",
+      "asset": {
+        "sha256": "bca5f12008aeaf314419b6b4c66c6e0a4e397c73d75890b2992bf81463a6614a",
+        "size": 419
+      },
+      "asset.meta": {
+        "sha256": "aa894b73b2125f5b4406eb01d6ad066d0b6df5694446cd9ce7363f16a5351de3",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/ActionDatabaseScriptableDrawer.cs\n00"
+    },
+    {
+      "guid": "4d5e9601a30fe4cd8a211bde9711dd42",
+      "asset": {
+        "sha256": "aff4b2b023ea6fe67c1346d0d91cf13554e1a3c3be30f1866433bc7f9d0bb9b8",
+        "size": 389
+      },
+      "asset.meta": {
+        "sha256": "3f2235d03e3a5994f24db22f0686dec706cb1b2153957f0d4a6a709c5a9327ab",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/AnimDatabaseScriptableDrawer.cs\n00"
+    },
+    {
+      "guid": "44ca8d8eac0743e88fa01e22338f71f7",
+      "asset": {
+        "sha256": "799f80e6f3ac275efc4a5ab1eb7350703ab3aa47d46493669ef0ee3a4be1b8c6",
+        "size": 3247
+      },
+      "asset.meta": {
+        "sha256": "fff007db7a05b4be49e131253a544988db383e3750bd24fe1a137187a2594af6",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/AnimationElementDrawer.cs\n00"
+    },
+    {
+      "guid": "c02119de7d2e84ba9ad22ff6b6c23dfa",
+      "asset": {
+        "sha256": "91ba054f61947156e806ed9cb2e82d712e522817896e7b6fd560865ba9177fa5",
+        "size": 2568
+      },
+      "asset.meta": {
+        "sha256": "232443b5392c96eebb274da2e720808770a3065d9286e5f5f16367e386a9fe55",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/DatabaseSharedDrawer.cs\n00"
+    },
+    {
+      "guid": "18ea5fac169d489ebc9f01ebedbd65be",
+      "asset.meta": {
+        "sha256": "0a6541a1a30ec382e0d28a627f711288250f903b731e82575c38ea40045e61fe",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings\n00"
+    },
+    {
+      "guid": "9e2a5ebb2c224910b14d053825d88b4a",
+      "asset": {
+        "sha256": "aea38025d2facc8644d006ca49b5600326f7375500c0def4bc807928dec93d76",
+        "size": 242
+      },
+      "asset.meta": {
+        "sha256": "4f64d61418cea6c778b4bf62a1dd393839297737172b9a33a5659184f97d4a2c",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorInstallationData.cs\n00"
+    },
+    {
+      "guid": "88089012e3cf74143abc644150aba565",
+      "asset": {
+        "sha256": "53d32e5d691c6bf5282151d3ef547d511a22c0e779959a6cf6690f0a01378d7f",
+        "size": 2001
+      },
+      "asset.meta": {
+        "sha256": "3e0271e301267789e3abe309e1ee44a833667a7fd71f7ee618610fca656553bc",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorInstallationDataDrawer.cs\n00"
+    },
+    {
+      "guid": "67c87275cac3743da833880fb7431757",
+      "asset": {
+        "sha256": "d2d9eb10654033515eff8d327e6be076832f2f2a470cce39db8d947e90d5be57",
+        "size": 2729
+      },
+      "asset.meta": {
+        "sha256": "6f5cd338a90e9c0a98a51b72f7ab3fd2d23e6249dca88fde2cf9de43cd12a8a9",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorSettingsDrawer.cs\n00"
+    },
+    {
+      "guid": "0301c4642b7847db8af9a12e47083bf3",
+      "asset": {
+        "sha256": "96154fcdfdd9e10b995835f99e4063da30b81a36863289632b8ad30174698308",
+        "size": 23134
+      },
+      "asset.meta": {
+        "sha256": "ba6c7cff2735085e850941cc3aac1504e5b0366f75706279c4832f7cfbdc6aa3",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorSetupWindow.cs\n00"
+    },
+    {
+      "guid": "aa8ee49190adc45c5a5fea31311af75a",
+      "asset.meta": {
+        "sha256": "5dc3afa6d3cd979822777e20509d88ca4938299b20a8025d7076bf739f8e2fbe",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core\n00"
+    },
+    {
+      "guid": "f18ab2a0e017d4193b01c358f796c4b2",
+      "asset": {
+        "sha256": "2f3d5fbeb4423008bd80c601257a888ef111369073357f757eb98195f3932453",
+        "size": 1651
+      },
+      "asset.meta": {
+        "sha256": "02563788d1ba699a4f26315653f3d5b313c69f2483d4d04caf07639a107853f0",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core/GenericSharedDrawer.cs\n00"
+    },
+    {
+      "guid": "f91133a2133874ec7a3239f6932eefad",
+      "asset": {
+        "sha256": "fd5e13b15bc2b21572eeaf897a445549db7e2ba88d6fbbd7266a80d28d71bee8",
+        "size": 1959
+      },
+      "asset.meta": {
+        "sha256": "bd42e95dbecfe891db52c498bf6de24504f072b5a38c778d422324529c199830",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core/SharedDrawer.cs\n00"
+    },
+    {
+      "guid": "bfd3592baf4bc4a84a1c008acf9aac45",
+      "asset": {
+        "sha256": "c8e46737723d4fe4593f413952b0d5e3d9594d13d7b5e524df459d01d72a06bb",
+        "size": 2171
+      },
+      "asset.meta": {
+        "sha256": "59d2f04a5a4a82fab8b35b1a07fd36c4b3fe459d350b4b4ab80529ce75f544b5",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core/TexturesLoader.cs\n00"
+    },
+    {
+      "guid": "0306e69412d8fbf41a94465bbaf34341",
+      "asset": {
+        "sha256": "713e6c36510f10172019a9dc236244a77f755b4d6618fbf670f8539e83fc87cc",
+        "size": 435
+      },
+      "asset.meta": {
+        "sha256": "1a22abf17685b63c35780e0275fea1ee118219ae19219718ee3e5115ab98aa22",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Febucci.TextAnimator.Editor.asmdef\n00"
+    },
+    {
+      "guid": "44dfac1202f97428c8f53d2d01bc88cb",
+      "asset.meta": {
+        "sha256": "3badb5efbfdf3b4ec05cd0f31ce458047be9f7fe685e796820e1c8b90a062c48",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources\n00"
+    },
+    {
+      "guid": "a149d8b764bcf4a398f25186fb0db4e4",
+      "asset.meta": {
+        "sha256": "21aa549e30ac6db4c674666ccfdc0ceb2b74f2d7694f3b797871fafeef1146c4",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator\n00"
+    },
+    {
+      "guid": "04f06a54beeb7574a8c2b2083e7be396",
+      "asset": {
+        "sha256": "5142cd5c7652491780e27395e44d6481ebd2ff61e75570c8667509428d7cd33e",
+        "size": 22597
+      },
+      "asset.meta": {
+        "sha256": "fdb2e14681754969b6357f96f27b0c5e56d112d7ea1639f9c9ee5df177273551",
+        "size": 2482
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/about_logo.png\n00"
+    },
+    {
+      "guid": "58094e2ec45f7480e81fb4a78bc2dd66",
+      "asset": {
+        "sha256": "74e15780dd03243b84d09f4f180c95ac411c794c625d4d5fde869629057520fc",
+        "size": 529
+      },
+      "asset.meta": {
+        "sha256": "bb5e60b74d08742c26e3e71be3e0132d961e79baa6e0bc7f178e15ae6d514d06",
+        "size": 2479
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/pause_icon.png\n00"
+    },
+    {
+      "guid": "8d8fcd591cdad453fb3c120cb0d3f43d",
+      "asset": {
+        "sha256": "78d8bfed6ed1646c9bbad85f357b057821d9535b94f117592c1dc029ad4ae9ef",
+        "size": 640
+      },
+      "asset.meta": {
+        "sha256": "1a623502715f3c85a17a8159591b50ccf0c93ecd8ef5f6e8e95a73d8885eb143",
+        "size": 2479
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/play_icon.png\n00"
+    },
+    {
+      "guid": "6ca8dac30112340e78d79a57c6348d72",
+      "asset": {
+        "sha256": "01fcd2d9a484034eb3130d2ffb2d510f7ae3c99de71e7f7ba0d3f070b2a1a158",
+        "size": 918
+      },
+      "asset.meta": {
+        "sha256": "2d2225ad572a99f63a8a4e70a1a628ff4f230a14f0d45eedb36e484f71da0ab3",
+        "size": 2479
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/restart_icon.png\n00"
+    },
+    {
+      "guid": "039155adb637742a997e9d56b089e95f",
+      "asset": {
+        "sha256": "a7fc8fe5e7df99f1186d165870cbe960ccccb369255d39701717806df06bee83",
+        "size": 779
+      },
+      "asset.meta": {
+        "sha256": "59beb4e15ee26894a16555f615b4f267db52988ac83ea4725cb7c17f9be755d7",
+        "size": 2479
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/save_icon.png\n00"
+    },
+    {
+      "guid": "9c056a25dd76643ba8f1ee229906a71b",
+      "asset": {
+        "sha256": "3786a9bb49fadc6e1b1a5c33e25985b171dcef95be5741f1064266d3dea2142c",
+        "size": 567
+      },
+      "asset.meta": {
+        "sha256": "b05577a4f46b5ad5cf8fdfd2473197404e2d41f188d3c6efc1d0708e79863719",
+        "size": 2153
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/stop_icon.png\n00"
+    },
+    {
+      "guid": "df7d5220397fe2547bef0d83a82cd45c",
+      "asset.meta": {
+        "sha256": "4aa0b239ab0614e10b4e5b595c5085f12d016642ec6cde0276756cadc84ca381",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime\n00"
+    },
+    {
+      "guid": "2f9d800b5adc74d4f9570b41fc986a5e",
+      "asset.meta": {
+        "sha256": "cecdc96bce08012a4bdeaf9e94bb1dab4c01b130ff163341fce8cc40651ca6bc",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components\n00"
+    },
+    {
+      "guid": "a82ba40ede495c24a8ac264fc5945681",
+      "asset.meta": {
+        "sha256": "7247b7c030ca58bf2a44b27acdcb6c36cf5bc1567e696bc86769624f874738ff",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator\n00"
+    },
+    {
+      "guid": "c5ac60f2cc66e4d4ca386fe558fd4be6",
+      "asset.meta": {
+        "sha256": "99979138881476fa85cbd95571694e600f4578450c2bcfae25cb841353b8daf6",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro\n00"
+    },
+    {
+      "guid": "e539678cf69674b418d82e89c16a9753",
+      "asset": {
+        "sha256": "92cc7993b628ad4167e1de3342172dda97723ff0bb3f55163941fa8c782fe4af",
+        "size": 778
+      },
+      "asset.meta": {
+        "sha256": "6432b1496f011d8e7e9df5fc07a186b5338c07b4bb882b3a23f97bacfab37892",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro/Febucci.TextAnimator.TMP.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "4a3d19aed716a0144afe3d3676bee59c",
+      "asset": {
+        "sha256": "c2af10d4cb8addf8fe7298f2f0164a80bf4b6a2f24de11f66bba1e5c4a103c21",
+        "size": 4077
+      },
+      "asset.meta": {
+        "sha256": "ded0622f6b7b027fe3a6c5a49dc09058a0eeaee51a30e067b63006393a9e2954",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro/TMPTagParser.cs\n00"
+    },
+    {
+      "guid": "e8ace8ced0e81c847968cdca0aeda757",
+      "asset": {
+        "sha256": "0150c7109c7c3c11b1bbf9d0b5f2874ead2e722972f98d39f5aaedd971eb1039",
+        "size": 9020
+      },
+      "asset.meta": {
+        "sha256": "f32978729591b7aa537db0a575e22df00b36ac1ac72946bf6cf0ba0582ff51c2",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro/TextAnimator_TMP.cs\n00"
+    },
+    {
+      "guid": "fcc9bd3818c90824396a4b66126b13d9",
+      "asset.meta": {
+        "sha256": "2f8331bfefa606d740592cd036c2568e4632fca523ffb6f9858595e65f794cdc",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core\n00"
+    },
+    {
+      "guid": "98cf9e54383e4c35bd21cabe037c5fbc",
+      "asset": {
+        "sha256": "5a1dcef63eff599ce46c12b773853ad89844857dbaf2c5b0f0be7569edf38c32",
+        "size": 211
+      },
+      "asset.meta": {
+        "sha256": "aaaecd89cc7a5bffd6e37d95c77ad7a752c23918fd52cc7c822ded9c65b90874",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/AnimationLoop.cs\n00"
+    },
+    {
+      "guid": "1ef08882d835b14448c3919401c5a566",
+      "asset": {
+        "sha256": "89ee4d57e285af33996982488e871071b7ab7d66514c183db2b084d00bbcdb8a",
+        "size": 54101
+      },
+      "asset.meta": {
+        "sha256": "7ae7b597f17d50e35c00b27f68dfd4d6fda0a18e8d2be6aca81221a2084dd403",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/TAnimCore.cs\n00"
+    },
+    {
+      "guid": "7d512b128eb34fbbbfb3d7ddd5a07900",
+      "asset": {
+        "sha256": "dbf56d961aafe91acf1d860a67417148f2e8be6200505e8f41d13e0c9b3130a0",
+        "size": 967
+      },
+      "asset.meta": {
+        "sha256": "d8daeb5ddd044c62f93fb595807b31395e1c0120723f45c570892c09c96914b4",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/TimeData.cs\n00"
+    },
+    {
+      "guid": "7750818052bf43bdbdf9cf58aecedb0e",
+      "asset": {
+        "sha256": "fafa634e30ccfd88fd05b56eb6fd02793cea2b99b529c2f6b0c1b8da96b4f5cb",
+        "size": 243
+      },
+      "asset.meta": {
+        "sha256": "81df2470dd7a6780c7c5c0b02fc621510917aad1beaad611087becdadb85b4ad",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/TimeScale.cs\n00"
+    },
+    {
+      "guid": "11c8bab48f67f694281dd60b75bd1e39",
+      "asset.meta": {
+        "sha256": "33c0f4694c8eb4855e75479d0291ce18f038ca62771e51fc9d5bae102e3e87df",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter\n00"
+    },
+    {
+      "guid": "ebf5cc3c746f24542ba634e1b83b8b9b",
+      "asset.meta": {
+        "sha256": "b1bd21fc5ac88d77a520da282bf3e748db000688b076ad11a68f75fa400fd189",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/Built-in\n00"
+    },
+    {
+      "guid": "57a6945b90dcd0c4b81619c0d8b5c283",
+      "asset": {
+        "sha256": "15b2add1994ca6bbf4368335b0166a9dd326f5100a031311a0884d2628ed37ca",
+        "size": 4364
+      },
+      "asset.meta": {
+        "sha256": "9c2b1d9890569321232a2ea148054feced59f6953bc326cfc102a7a9b55780da",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/Built-in/TypewriterByCharacter.cs\n00"
+    },
+    {
+      "guid": "eb821b3a89e0240aa91c53955ccade89",
+      "asset": {
+        "sha256": "055f5967e22bbf3566613b6497dd6e29da6e3a96b0061a0ea6f579726f307ebd",
+        "size": 2180
+      },
+      "asset.meta": {
+        "sha256": "058e42d648e77e446759d739bbfdc45745e53974c678608cd3c23af6fb0b6426",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/Built-in/TypewriterByWord.cs\n00"
+    },
+    {
+      "guid": "56405348257d5434abae725e56e3ff2e",
+      "asset.meta": {
+        "sha256": "4c7caa92e3706cf6cc2fba7d15b3f417fc629cecfe5a85358a461eb1ade812c1",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core\n00"
+    },
+    {
+      "guid": "a35872b2f367498cb45631f5e243278e",
+      "asset": {
+        "sha256": "c5e285dc3c8a529b9d5d69179c51c6c6cd6f3a724c85bdd19f3ae22874cc6952",
+        "size": 137
+      },
+      "asset.meta": {
+        "sha256": "a48d2d1bd5a151922a1d0e161e26ab8a8c09705bad8aff92be229c7aa62d2288",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/CharacterEvent.cs\n00"
+    },
+    {
+      "guid": "84fd57f550b545b2a6ad379e4d4ea3b9",
+      "asset": {
+        "sha256": "f7e59e1ac1dcec90c4ec0f5f8a8b7cd481bb79c27478ded571e35b6d05cc0b86",
+        "size": 173
+      },
+      "asset.meta": {
+        "sha256": "8a0f8b3ec63b30e843924cea83bd770c8840c31cb862167ee8dac779134e8b8c",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/MessageEvent.cs\n00"
+    },
+    {
+      "guid": "ac6b0a2b8ddbab342ad54b5409ccffec",
+      "asset": {
+        "sha256": "17d13b3e9316b3de84a5ba206a1b4ed81b8c25905147717dd9cfa7e97b74e53b",
+        "size": 23901
+      },
+      "asset.meta": {
+        "sha256": "7bf909eba042452e0c8ffe61c825f907a6128aa5f5260bf647e3d2aa7dc8a2bc",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/TypewriterCore.cs\n00"
+    },
+    {
+      "guid": "116f934309cb4a4fa084190dac6083f4",
+      "asset": {
+        "sha256": "46cd5da7b01832d3f1e4f6472ebd82a743f42ab2bdea2b2b61f8de74d2340933",
+        "size": 476
+      },
+      "asset.meta": {
+        "sha256": "a1466f52a12681e2030d66b33e81269e686784fe1d9fab7b9db4506ba3df6857",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/TypingInfo.cs\n00"
+    },
+    {
+      "guid": "1e113d3b5d77bc04eab508251483e8ff",
+      "asset": {
+        "sha256": "b6707055e0a8a7267b7fe72f2baf3b4518caf2273835ae001148439bcddfd393",
+        "size": 414
+      },
+      "asset.meta": {
+        "sha256": "96b28bfd2b370e7fc78d975a2ffd440db60f7421cc19f01d38b0fd083dbcb040",
+        "size": 166
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Febucci.TextAnimator.Runtime.asmdef\n00"
+    },
+    {
+      "guid": "b82ca89fa6e4443c184b6c6a988ce125",
+      "asset.meta": {
+        "sha256": "17ee36b7dbfa5d3927a99d7da16adb18bfcb204e0d0d3a9106918bbf42b527f7",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing\n00"
+    },
+    {
+      "guid": "bae97d779d1a5423bbb8446fc2e88fc6",
+      "asset.meta": {
+        "sha256": "85500ea904c06e48e7570eee66e9d7b1b4af4df78c3a2543720f343136fad26c",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers\n00"
+    },
+    {
+      "guid": "1ba7e1fc9cc234e52bea0b6e3765e563",
+      "asset.meta": {
+        "sha256": "43509b97c904567af19a339e676993c8f72d16e53439a4766cd2d23dabdd362a",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions\n00"
+    },
+    {
+      "guid": "975089f62a0f141b0b6c1e96bb49c873",
+      "asset": {
+        "sha256": "1453daf2b9b71d74d99e05720331b6820ea7b27402628344d271776bd68a9765",
+        "size": 302
+      },
+      "asset.meta": {
+        "sha256": "1f2c0fbab2f10cd4372d90a5fc5f823301e7788404b730a419abdf9e244ec444",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions/ActionDatabase.cs\n00"
+    },
+    {
+      "guid": "88dd2b2ee4cae41c1ab322d46fc27c51",
+      "asset": {
+        "sha256": "d4ca27f90c11ec5ff5cdf9c0ecf05bcf0668f8ce753ce403054375a1600ef5d8",
+        "size": 337
+      },
+      "asset.meta": {
+        "sha256": "dde7c0dfdd2f8ee88f0ac52695d321ad717767b70fe0afebdb343e0d8cc661d5",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions/ActionMarker.cs\n00"
+    },
+    {
+      "guid": "4b6593795a37f4d9ea045b10d92ce442",
+      "asset": {
+        "sha256": "cb496b7014a7277adc479aa7a6fa31e9812b2332e3f9fd82b6769f906427284b",
+        "size": 2244
+      },
+      "asset.meta": {
+        "sha256": "039ec1edc56f3067f079563929b8796ebb7552c87ba6ef5d39ad354b69110244",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions/ActionParser.cs\n00"
+    },
+    {
+      "guid": "e4267f6f185ce4a81aa5e74e70e8696e",
+      "asset.meta": {
+        "sha256": "d9db9c112943d3a00c5f7355f8280406596f921e94513563241fe5fddc41837f",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Events\n00"
+    },
+    {
+      "guid": "07720fa0081784ae9aa4f33c20050078",
+      "asset": {
+        "sha256": "e562ffcd1822f4f94249c7d06a1a67c62fafd46b5880ddf8d62eedad33f8c0c8",
+        "size": 337
+      },
+      "asset.meta": {
+        "sha256": "cda8d7c434e9e175e74bf2fb3cd4600b5527b66a8f72b028343bf8f400bbc3b7",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Events/EventMarker.cs\n00"
+    },
+    {
+      "guid": "5992208bf6566454398999726c886d89",
+      "asset": {
+        "sha256": "3850fecb07c2b8220504b5d15e92309052a0e2f69ef786a09b9ecb2d780cdf33",
+        "size": 1787
+      },
+      "asset.meta": {
+        "sha256": "064b3779e08756d5e1848649a061096ac7d78612c0d083b496f33f45b17e3b65",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Events/EventParser.cs\n00"
+    },
+    {
+      "guid": "2971a97a3d8c14f359a2a9b5d9db390e",
+      "asset.meta": {
+        "sha256": "52249391c00cc586c7b002222e7e5de5b88f9c378ba6d63ba08911a5b98d73fc",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/_Core\n00"
+    },
+    {
+      "guid": "8b7eebc58c32445fd9af5a1b681b2266",
+      "asset": {
+        "sha256": "4cb6a0004ccb8f88a57ea49e92daea87bbe69a32e97a8f0658edb21cfd9013c8",
+        "size": 1530
+      },
+      "asset.meta": {
+        "sha256": "3c2dcb537581b1a21706507f1d80d2a134fcfcabc8c956c223defeeb2eaf1d1f",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/_Core/MarkerBase.cs\n00"
+    },
+    {
+      "guid": "5104e8d934da1497e8d56e84dcec2511",
+      "asset.meta": {
+        "sha256": "fd828b1a58c4211d5d674a46748faccd3176ce083ea6f434f976b8a49ecda011",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions\n00"
+    },
+    {
+      "guid": "44576839baa2d4f7488e12a2f1ebbd1c",
+      "asset.meta": {
+        "sha256": "a272107de063684cc3f9441bf059a25cdc64a2df803bb0fecb5ad41f08a394a4",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Animations\n00"
+    },
+    {
+      "guid": "8690f773b4aba40a9b72dad8937dd503",
+      "asset": {
+        "sha256": "b6856f0a3f118d77639f295dd50e6726ef41466a3b1082e8fd97c55201418d04",
+        "size": 4287
+      },
+      "asset.meta": {
+        "sha256": "a7414a160d5b55f096c3c59884aa5efb586f562a7b43fe801a5e098a0a3779db",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Animations/AnimationParser.cs\n00"
+    },
+    {
+      "guid": "1ff8e127f267378409a5cb9bdf7f2c10",
+      "asset": {
+        "sha256": "4c628e240d729f86a610db7de7234950a663f117718a146521004d772d82f84d",
+        "size": 3860
+      },
+      "asset.meta": {
+        "sha256": "305508b7ed9cdc5968c1addef6dbf3edfc32dc06163c4947e10fd3b90d36e4e4",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Animations/AnimationRegion.cs\n00"
+    },
+    {
+      "guid": "4e6294bfaee94d2198ac6b2881b89e04",
+      "asset.meta": {
+        "sha256": "11edcb6f49b6df32c0bc1a5b684f9d90c8c9f4b0dfa6274edd4cda94f3630668",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Styles\n00"
+    },
+    {
+      "guid": "65740e56e7b54edaaa39fb4caaa7ab35",
+      "asset": {
+        "sha256": "757146b674c3a84b4200dd74869765056b92ca587aaf4d58f871a3594c6b3e58",
+        "size": 2095
+      },
+      "asset.meta": {
+        "sha256": "bd8d7959b6fd7445dbd486e639617e64f9da80b34c3748051bd514f20dc4318c",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Styles/StylesParser.cs\n00"
+    },
+    {
+      "guid": "da51d4014591a4119940f9647d5b6cf6",
+      "asset.meta": {
+        "sha256": "36d4aa8182bab9956e75be57ee4d9df10bb04282f8dab33f8bf089c47e62a29f",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core\n00"
+    },
+    {
+      "guid": "c67b17c620c357c48a6fa7c63135b03f",
+      "asset": {
+        "sha256": "a4433df914028aa33a4c18e0fb66e2a49cbd85e66410a14a55a8b83af99525fc",
+        "size": 475
+      },
+      "asset.meta": {
+        "sha256": "31c261765995c37a8bd720cdd14c9535abd6af219cff3fc8ff36983400093c9d",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core/ModifierInfo.cs\n00"
+    },
+    {
+      "guid": "3a3db40c7789a4b2e8f4b7c760c42d26",
+      "asset": {
+        "sha256": "3c6a9d350cdac5527bf9477d746654ae4302a0e94f3ff0976441d656bc22e95a",
+        "size": 847
+      },
+      "asset.meta": {
+        "sha256": "647dab3557688798d2078d170fe45fe98c1ffdf2a7e9a789a6161f3bfb9d2dd0",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core/RegionBase.cs\n00"
+    },
+    {
+      "guid": "bc9fe708cb635ad47bc864d6a4949899",
+      "asset": {
+        "sha256": "ee917e1cd2e10ad7f27119a234a68a6ff133a1045dd055e844ca9de8e6775ef8",
+        "size": 1067
+      },
+      "asset.meta": {
+        "sha256": "be431beaa31f655f607058b0080f21fde614c25d9e20d48e5ea00732731b0e46",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core/TagRange.cs\n00"
+    },
+    {
+      "guid": "62b50d2f8435a44d5abcc3b0aec4daed",
+      "asset": {
+        "sha256": "6c494f36b4eb3cee46df117f04ea340af89fd1eddf70217d2047dc7a0c8872b8",
+        "size": 4611
+      },
+      "asset.meta": {
+        "sha256": "67ac0c70143cc2e677718cfac0a7e2e942a7b3f473254851e56af8c4c980d495",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/TextParser.cs\n00"
+    },
+    {
+      "guid": "2e43be599da104e6bba973f670eecf31",
+      "asset.meta": {
+        "sha256": "0aeac3a9a175ec4ff358a4d4c59ef85a397175a32f6a65244e89b18da6a8255a",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core\n00"
+    },
+    {
+      "guid": "7317a03cd5fb4135ba38336b9ed9fd1c",
+      "asset": {
+        "sha256": "058147cf356c1ac64b3452fd9b682219894f7e420212fe7dedbc4ec92df14278",
+        "size": 313
+      },
+      "asset.meta": {
+        "sha256": "819dc6352691491358459fb18caf4d77e86121bc2f11f3f9c29e8e91cb8c91a1",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/CharInfo.cs\n00"
+    },
+    {
+      "guid": "36a40ff9978cfb0458b260b57a2e84f7",
+      "asset": {
+        "sha256": "839258666af7f67cbe2595e98e3acff729e3e9780dd292377d2228dc0070891f",
+        "size": 1636
+      },
+      "asset.meta": {
+        "sha256": "8a7c0b93bd07e423ff0e78d3afb2429c3accc14d6b874017358faa5667b7af1c",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/CharacterData.cs\n00"
+    },
+    {
+      "guid": "ad15696ec142b4b74a18062348e0c8ee",
+      "asset": {
+        "sha256": "5e0b888abd465d90057c68e4f5b5dd04fda63f1cf2f3172c985b29e73d18b6f0",
+        "size": 3336
+      },
+      "asset.meta": {
+        "sha256": "260c02907a39fb3c3532633ee08794c4e42e23a53a59457279bea93cec098ea3",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/Database.cs\n00"
+    },
+    {
+      "guid": "95954e1bd9a8247e485caea208576867",
+      "asset": {
+        "sha256": "180eaf6b7b3524e5045dad71418e8f143573249d2930ea7255939abe044e1dbe",
+        "size": 116
+      },
+      "asset.meta": {
+        "sha256": "08a9e357eb563a31cddeff6540454e06c717d1f094a20824a6826aecbccba33e",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/ITagProvider.cs\n00"
+    },
+    {
+      "guid": "36780d2b32e74616a2d854f1c8c2c242",
+      "asset": {
+        "sha256": "e4925234f2440575073977602eda1ee56b16d0c930623b7a17e999b440c5771c",
+        "size": 1197
+      },
+      "asset.meta": {
+        "sha256": "a9680c4fc5d90015f6e30bbf1e6a29f73021ba69401ea7b8ea8934d4d4c8007d",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/MeshData.cs\n00"
+    },
+    {
+      "guid": "55c7a4ae649c8407f8d95bf3403945ef",
+      "asset": {
+        "sha256": "8bf9556dae9ff30d8e74a954a03c6836920d67f3a818fca7819cd847a8e3c18a",
+        "size": 946
+      },
+      "asset.meta": {
+        "sha256": "b4be531a46de9bf599b4e5d5dc1fe3980ae73973b6c4aed78d697ed9f07455db",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/TagParserBase.cs\n00"
+    },
+    {
+      "guid": "ada8bd43a5c046838f7be64d1e3f7e3d",
+      "asset": {
+        "sha256": "f10c9d52b18e60ae57be29ee9e6198492d864f268d3594986689e9764a2068a6",
+        "size": 457
+      },
+      "asset.meta": {
+        "sha256": "ffefc9a92c2106d3e7f3e5e6a227dd4f4cc6cbf2a1f796d9f52b0204a72b0b22",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/WordInfo.cs\n00"
+    },
+    {
+      "guid": "c62ca3b12006dd046abe6a66e7f5c690",
+      "asset.meta": {
+        "sha256": "081a85b0a664c800494072068c89b2eb6bc3b1b55be53abbcee4803396f0d6f1",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables\n00"
+    },
+    {
+      "guid": "35d5f4998a2cc4d709e95a90ff304e6e",
+      "asset.meta": {
+        "sha256": "732f623d6f7cc249292355e7d70a8aef053862c7d66b287aca3a8513f9189de3",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions\n00"
+    },
+    {
+      "guid": "0af2dade929034a0ead991e371617b6c",
+      "asset.meta": {
+        "sha256": "f12abec627ea28bb8faee14b1714b0c97e4ebfc9d4f6a742ec1615aa19604a79",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in\n00"
+    },
+    {
+      "guid": "24451f867ad2a6146baf57f938a44d18",
+      "asset": {
+        "sha256": "636c5a50a7c40270c9f67734886c405144db5da8a65063ed0257ff39ba5a1810",
+        "size": 999
+      },
+      "asset.meta": {
+        "sha256": "f49e8e2ced46254fb980847006a87220e8735ebecb00d0d3f45e564d884977e8",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in/SpeedAction.cs\n00"
+    },
+    {
+      "guid": "aed6905e7c644c14a804ef32a5216aa3",
+      "asset": {
+        "sha256": "5775731a89ed3f0643359385eeac2dfc4905c3e920acee163ec8b2ed39fd83c4",
+        "size": 582
+      },
+      "asset.meta": {
+        "sha256": "99da71ac32b4f16424438955d85266a57aec84d6106c5ced570e780aaee013bb",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in/WaitAnyInputAction.cs\n00"
+    },
+    {
+      "guid": "7806fdd5903ae4a1b8ddb77cde0d5832",
+      "asset": {
+        "sha256": "5c3aff503a3922ef5e9deee3245f65b3d7862cb6374de5f712a77ce09cea08cd",
+        "size": 1132
+      },
+      "asset.meta": {
+        "sha256": "a2ae08d237b87e107e0839c99f8eda78dc4afa4d73a5397171e08b799692b80a",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in/WaitForAction.cs\n00"
+    },
+    {
+      "guid": "7c3dbde1f78df466e95f8020923a8696",
+      "asset.meta": {
+        "sha256": "ef0960bf6879fbd69bbd480e5334798949cb1f681819bd702691b7f3764503ed",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/_Core\n00"
+    },
+    {
+      "guid": "b39050096895d4d758c32f76c7391954",
+      "asset": {
+        "sha256": "19c5f221a1a9e993656fbb9bd856001a0be3e0472db0ed00fae8a8413e0076b4",
+        "size": 513
+      },
+      "asset.meta": {
+        "sha256": "7be5462b919a5832e54da17169a79c021e2f332d2c2c7b0b76e3001fa3dc4f4c",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/_Core/ActionScriptableBase.cs\n00"
+    },
+    {
+      "guid": "452cdf0b0bd2b53428c1a3398784e999",
+      "asset.meta": {
+        "sha256": "fa69bcbf49f49c4cf938ce49cd343eb1032f3bf738b8245b706adca687e919e5",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations\n00"
+    },
+    {
+      "guid": "7351ce21b48094cd69f7fbc6531652bc",
+      "asset.meta": {
+        "sha256": "c6ab6fae27b1756d6baf495efaea61c83e18d41efed3100dff4241e46f31a3fe",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances\n00"
+    },
+    {
+      "guid": "7a9665765cbb54293a006234c8f34c0d",
+      "asset.meta": {
+        "sha256": "e86edfdb0a4ecfb456929398b03ba547c6d45cb426faca4ac71ceabc5c60f4ab",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in\n00"
+    },
+    {
+      "guid": "7303246fad8e2a049aebd6c0c71d2985",
+      "asset": {
+        "sha256": "30e6d76a7a8fa7d541738f8206c712a713b7af20ed263315387a04ebe86d8bee",
+        "size": 2069
+      },
+      "asset.meta": {
+        "sha256": "7364177193d4b4969579f9b961d3ab22fa777c7a6012e2e063ba244396b079f2",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/DiagonalExpandAppearance.cs\n00"
+    },
+    {
+      "guid": "6d26528e73e36f64dab95b69625232a7",
+      "asset": {
+        "sha256": "e19b90c04fe60d180d45e820c4ae2cb50005e9e0de542ac0700e7a4c8dfea4ac",
+        "size": 944
+      },
+      "asset.meta": {
+        "sha256": "a6568372dd49c11c5450c67f6aaa589634ed520503d8b9c7ea9361773e4eab11",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/FadeAppearance.cs\n00"
+    },
+    {
+      "guid": "3dbde6098d9bea441b3ac872e52073ba",
+      "asset": {
+        "sha256": "fa0aa25f3ca7ab0095c06cde3f8354afc0d384af593076f16d91163d8116d374",
+        "size": 3854
+      },
+      "asset.meta": {
+        "sha256": "9ad648995ad9a1af30ef16029e9c0e81a6dd4dd9e1967550d422374ed5db0ae9",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/HorizontalExpandAppearance.cs\n00"
+    },
+    {
+      "guid": "146552007a93ecc42b0d63f26788e6cb",
+      "asset": {
+        "sha256": "618d6a88e62bb358574b8dd6d79fce74acc9269f6723e184c51922a6f22bdb69",
+        "size": 1210
+      },
+      "asset.meta": {
+        "sha256": "e636fb186d8788b4cf28f459991d1bfdeea1b95761a5b2f5c52719a0d84b49e5",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/OffsetAppearance.cs\n00"
+    },
+    {
+      "guid": "6a65a9b7775dded41a0295e6f75be25d",
+      "asset": {
+        "sha256": "576deb185ba55dbab0397cf053228a1e089bf54c2677c06d313e2d4d11778824",
+        "size": 1870
+      },
+      "asset.meta": {
+        "sha256": "91e0f0033b5ecd707aba991498faa86378b4a7929e67ccc240ef5091eb6929af",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/RandomDirectionAppearance.cs\n00"
+    },
+    {
+      "guid": "465a2951870a6954d8205f9c58a546de",
+      "asset": {
+        "sha256": "f77608bf067b4c270713e146af81e00fd0a508bfafd2db4fa3e08862944cc500",
+        "size": 1328
+      },
+      "asset.meta": {
+        "sha256": "500d84c7996f64575c223cec80cf6fd24aa46733f11f5c7783ae55f9d43c37b4",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/RotatingAppearance.cs\n00"
+    },
+    {
+      "guid": "5ff5882c38f1b6c4682c7f207f0c98db",
+      "asset": {
+        "sha256": "466bfa406ed0db010a291d42757b40841fc7c1200ff634e4d65b6a8b0c71c1db",
+        "size": 1233
+      },
+      "asset.meta": {
+        "sha256": "2afa4a3f791f6398dab6532f49119946bb4459360db70573efe5b28a8ca9d7b0",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/SizeAppearance.cs\n00"
+    },
+    {
+      "guid": "351d9d9e5c9ea7946842aee1160f7731",
+      "asset": {
+        "sha256": "aaab720dce2dbde0a28b2ed49d72f06cc0c186338c53cb055f2f31ced1d7ea97",
+        "size": 2147
+      },
+      "asset.meta": {
+        "sha256": "c82a76d51f852be6ca3c9796214a229fb9486ec4d9a41fb97e0557553c2a3324",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/VerticalExpandAppearance.cs\n00"
+    },
+    {
+      "guid": "9164d28933c0b4352b5b48dcbb7c8240",
+      "asset.meta": {
+        "sha256": "5a2b34b4974740c6b1e7828af8f80809a79e49d8743a5fe1008976a7be51c811",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/_Core\n00"
+    },
+    {
+      "guid": "cb71b61f2fec745acaf81b5bf98f19f2",
+      "asset": {
+        "sha256": "a38081bed117e3093b469ee0eb56a33182b06ab71cbc6e23ffc39267d2ab75ed",
+        "size": 907
+      },
+      "asset.meta": {
+        "sha256": "f8c231d036a31bfdfd0b8d31448c47a60f25381ca1f2907f9ced3cabf410cff5",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/_Core/AppearanceScriptableBase.cs\n00"
+    },
+    {
+      "guid": "0ca263a61b56e4699ac2efe4d837032e",
+      "asset.meta": {
+        "sha256": "4896803cf1b64eb4e6eb96295aa657d8e9364c33b269943e8dea95e634876a5e",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors\n00"
+    },
+    {
+      "guid": "58afd08ab8fee49849a0174b6e5bb64b",
+      "asset.meta": {
+        "sha256": "f3a076604547f47715b502f3174a2fb729c8bd3025a0e58e47b9a95ba35677be",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in\n00"
+    },
+    {
+      "guid": "a333962955c4a08498d132d86d9ce19e",
+      "asset": {
+        "sha256": "ce040b3f14751747b811a46060794e9baf527db248e8d5393604353083f330b2",
+        "size": 1336
+      },
+      "asset.meta": {
+        "sha256": "1049ceb0b1b913e4f9a4f7262a58d3558b628dda2cf2383ee48d2545384cf6bd",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/BounceBehavior.cs\n00"
+    },
+    {
+      "guid": "01a91f0b9c670b242ae5c34286409cd9",
+      "asset": {
+        "sha256": "57f34c77491c38286482537dde31f88c26384e112e33f630059f3eef2d879116",
+        "size": 1474
+      },
+      "asset.meta": {
+        "sha256": "1456015954eea719179b5f48291db725dcb28f8f4277ecc0ad701b972e31d95e",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/DangleBehavior.cs\n00"
+    },
+    {
+      "guid": "d1f1dde3a46b6e748885a8d202c32044",
+      "asset": {
+        "sha256": "78d82599da894861db75f500db5898804876a68c847a45ac0157b41da881f65b",
+        "size": 2251
+      },
+      "asset.meta": {
+        "sha256": "c3ed91d7f67831eb95a46fde69209a29ddf02c4736496c1163ec4acbc8477166",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/FadeBehavior.cs\n00"
+    },
+    {
+      "guid": "5005fc4984831834d826c8a9e3d42443",
+      "asset": {
+        "sha256": "bdcadaf4834eb6f8d1e2874304f31899bd9390ab5e2a22948059d69939efc6aa",
+        "size": 1486
+      },
+      "asset.meta": {
+        "sha256": "e659fbe34eb5709fccf928983f6d48ce6613044b61646f4e0c8533a6c09cadb6",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/PendulumBehavior.cs\n00"
+    },
+    {
+      "guid": "5400420051c0a9341be4aece65080148",
+      "asset": {
+        "sha256": "f8bc65a31a589804ed2e1838812717472c9541268ec3b9c7e188efa9171c8e5c",
+        "size": 1541
+      },
+      "asset.meta": {
+        "sha256": "0d5698a57469228fdaae62a36d3cb0f231468416648fcf385e73896e709e404b",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/RainbowBehavior.cs\n00"
+    },
+    {
+      "guid": "c179eec3e2795104eb216e340b8d8513",
+      "asset": {
+        "sha256": "77bfc0fd4f304107fbc15f2352dfcb961da9523c3f5158f94226c9fbea6633d9",
+        "size": 1341
+      },
+      "asset.meta": {
+        "sha256": "13a9ea15c9c0a6b2cae807790e085cbe43d551811ecb94bf123c8e0a31b3c217",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/RotationBehavior.cs\n00"
+    },
+    {
+      "guid": "144066a43449f48469b89b2e2c9ab37d",
+      "asset": {
+        "sha256": "3186ff0048572d5160c51853aa4949ad9a8ae6fbc99437d267a7bbd7c3f484b7",
+        "size": 2326
+      },
+      "asset.meta": {
+        "sha256": "c8ee4deee9e4bf56f7444a060b3fbd5a5e7c73b02a89a54fd8efbcac1c3b800b",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/ShakeBehavior.cs\n00"
+    },
+    {
+      "guid": "6da0c21b80efda84188912ce510ee1ca",
+      "asset": {
+        "sha256": "36dd50bb88923138de11fc2d37cce1af9a5fa31c0a9d6a5db2f2b65b54915ecb",
+        "size": 1489
+      },
+      "asset.meta": {
+        "sha256": "0033f6b5fd9c289da7edc27b2e5dcccbbaeed12c9be8aeb1782739abd4132677",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/SizeBehavior.cs\n00"
+    },
+    {
+      "guid": "a740b03d4c3f2d84f9cfc7b3a6f8ea80",
+      "asset": {
+        "sha256": "351049d1ca5ae10c6206a7bd97c31ab520538a3de53a24b17e485f788d03f12b",
+        "size": 1138
+      },
+      "asset.meta": {
+        "sha256": "0de4bdb1d1c44b7bdd80cdee2250da493f6a322840c6a6f6d1269341b121cf19",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/SlideBehavior.cs\n00"
+    },
+    {
+      "guid": "63b7822b5552d3748b1acc2a07066822",
+      "asset": {
+        "sha256": "0a522110cafb4047bdc7e459945da02e7f81d1e2090398deb2cd443d20dd4a17",
+        "size": 769
+      },
+      "asset.meta": {
+        "sha256": "2cddc99e06bdcfce2897da2feeb30f2c07cdc342304b05db4c34c538d67370f3",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/SwingBehavior.cs\n00"
+    },
+    {
+      "guid": "99de7ce7cdaed2d42b0bd233e69e67db",
+      "asset": {
+        "sha256": "8e4d0a513554c9edd04c5440b16a2951b58eac063fc73ea07eb85341bc431176",
+        "size": 823
+      },
+      "asset.meta": {
+        "sha256": "062a80312d321930b724cb5e9a7a2bcc3d02639fa634eeca21e8e199856c3095",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/WaveBehavior.cs\n00"
+    },
+    {
+      "guid": "7c98870d7ebce9a4fa6c4a16e9701755",
+      "asset": {
+        "sha256": "b4204202654c8dab10e75e3566c71559b41298c979f4705e449cdc97ff03b47a",
+        "size": 1491
+      },
+      "asset.meta": {
+        "sha256": "ff922e399b6a1e373bc9c1964035adb72bf07d57132f6ac877030cfe91b6d65f",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/WiggleBehavior.cs\n00"
+    },
+    {
+      "guid": "5c76974580a2e4940a22bd3504b213d9",
+      "asset.meta": {
+        "sha256": "345ea9c3866f70663398d720b797c532dd0a9bd2acdc9ffecd81389c7778003f",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/_Core\n00"
+    },
+    {
+      "guid": "d77bbe0b705d24c8caed399bf26d7b97",
+      "asset": {
+        "sha256": "e38b163c2481b3f493fba48441682051828aad33e9cf25fb34c269a1e8b79d8e",
+        "size": 404
+      },
+      "asset.meta": {
+        "sha256": "cda264973ffcb6eff3d9bed9696daca1ec3dd3e943fb802b1bb85b6f17a503f3",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/_Core/BehaviorScriptableBase.cs\n00"
+    },
+    {
+      "guid": "8288d52cadf6b453591b461027037a85",
+      "asset": {
+        "sha256": "9ff6758b8a29f74144fcbadcde51a5d47572a778a6e71d61777fee748ca3bd2f",
+        "size": 1160
+      },
+      "asset.meta": {
+        "sha256": "d7d59be77af668253a7ff7198ab9cc0a84f55882348b8fab4bb9184f5493d89a",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/_Core/BehaviorScriptableSine.cs\n00"
+    },
+    {
+      "guid": "44af3aa44863aa44f926c79c825adb59",
+      "asset.meta": {
+        "sha256": "b72b3baf82a77bfe1e99ac193607e6bfda288cd4959cc5fb0adea6b052d03819",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special\n00"
+    },
+    {
+      "guid": "1030e778d6c8678498b5860c46980fb7",
+      "asset": {
+        "sha256": "9d91dd67a3195573a106ba62156a61af0716e1d081923b68131c6de73defb46a",
+        "size": 2513
+      },
+      "asset.meta": {
+        "sha256": "b3e086210760497f1a3bce90775894c32d66be233e5305d92242b264853af950",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/CompositeAnimation.cs\n00"
+    },
+    {
+      "guid": "7c6129e0ca01d4768b7b56e188a0001d",
+      "asset": {
+        "sha256": "b7baaf99237ec71a906e2ca1cdb5c6f95e6801fa522f6578bb10e26745204713",
+        "size": 3458
+      },
+      "asset.meta": {
+        "sha256": "06fdd0c33d7093dceec09269b1088dc92480d359b39c320bb465df9a67a10890",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/CompositeWithEmission.cs\n00"
+    },
+    {
+      "guid": "e775bae152dd345599f58d6360352d31",
+      "asset.meta": {
+        "sha256": "6cb7289768d0ad03eeb8ece65ad3bd11ec595e6217a66acceda128b28faa5be8",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves\n00"
+    },
+    {
+      "guid": "634e4c6f22807e7449881726b1bd52ab",
+      "asset.meta": {
+        "sha256": "7ba18a6be8bba3061ff76b7718b97d8d2210d64a2a30bb6fe6a22f083b02edae",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/Built-in\n00"
+    },
+    {
+      "guid": "f29c16c9fe849e442b4f1bab0c32e28a",
+      "asset": {
+        "sha256": "966290f54781f023e3aefb22daa61d3c0a87b8d89533165b7a220c2ecf0f23d9",
+        "size": 2513
+      },
+      "asset.meta": {
+        "sha256": "fc23f60dbd3553e23d2c1e001d7a3d088b01d4e06bb15ca94c595b71b5ad7be9",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/Built-in/UniformCurveAnimation.cs\n00"
+    },
+    {
+      "guid": "29c51188496414c2893fff43f194d40a",
+      "asset": {
+        "sha256": "d7e49988a3c2eefe427203ded57bb3256dffa44a085ff0d29fecad2cf1f150b5",
+        "size": 4057
+      },
+      "asset.meta": {
+        "sha256": "5fcb65093ebb26e011c9b4b38a27c03b7c1b8369e3b8fec06f16f51bc1395caf",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/Built-in/VertexCurveAnimation.cs\n00"
+    },
+    {
+      "guid": "9447a4edcc4c042219276d5c0bad1da9",
+      "asset.meta": {
+        "sha256": "901cc21665e7a12d473c436e72d1de1021e31017c13e7d300649293d3632bd5f",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core\n00"
+    },
+    {
+      "guid": "3b417e2a805ff4c638d914f06efa1659",
+      "asset": {
+        "sha256": "d41ba4d5ef28642ead29faa12af5cec5edb3764d71429fa325c33350b0fb9afa",
+        "size": 3245
+      },
+      "asset.meta": {
+        "sha256": "d8a1659d50d36e38b56552ee9e71c7b6b1191dd7e7b623cd05dae4b2396dceb1",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/AnimationData.cs\n00"
+    },
+    {
+      "guid": "54279f81e5b424013885578744e46a04",
+      "asset": {
+        "sha256": "80fff3f9ebb8921d674eb63211f50431e2d7c6308c236f3eb8cf95acb5321cbf",
+        "size": 1226
+      },
+      "asset.meta": {
+        "sha256": "b834ffe24f2296097aada2989110016bfe6d8e8bb61ea325dbfd4c5321c9f2b5",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/ColorCurve.cs\n00"
+    },
+    {
+      "guid": "0a1f62454fdf64f1fa75746c09b89a39",
+      "asset": {
+        "sha256": "95a24e60a4cf70e2f91fd7598dfcc83d2b8801dfea4c97186e8a851ccc051d9b",
+        "size": 1136
+      },
+      "asset.meta": {
+        "sha256": "c32cda461a2fe3829a96eca499daea98d2b648c7f747ac121dff3cc14f32369d",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/EmissionCurve.cs\n00"
+    },
+    {
+      "guid": "534fa2c94985d4c0f9e3f08be5643d93",
+      "asset": {
+        "sha256": "49febb51a1768bb0468ef3c9d7bedae61884db4e0495ad637a6a85968ac3974d",
+        "size": 1202
+      },
+      "asset.meta": {
+        "sha256": "fddbf578f347b756960026baf9a3ceb125b4801ad789b3f4a0793c1046eb8555",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/FloatCurve.cs\n00"
+    },
+    {
+      "guid": "7da2fc6307c647549bfdba8d42c00652",
+      "asset": {
+        "sha256": "d1dbc85900b9c943773a6db1b1e947e50a5e6955326edebbe915f0ca28501e7f",
+        "size": 817
+      },
+      "asset.meta": {
+        "sha256": "1aeb8ef1ddb28543f36b101f6a5a096cfe4508df644b83992ff88cfb919cec8b",
+        "size": 85
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/TimeMode.cs\n00"
+    },
+    {
+      "guid": "da150bd21a2db4b87ac5eed209c5ae29",
+      "asset.meta": {
+        "sha256": "0d2a627d6383190430d7d6da6d52116cb11a91915e32872a7eb48ae78e04aabf",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core\n00"
+    },
+    {
+      "guid": "fdd8e5ebf6899a84f89605d743590fdb",
+      "asset": {
+        "sha256": "358c5005c8bc66220157f795500d4b89e280cbfc6abd0e0bf6b5201be2fed185",
+        "size": 1649
+      },
+      "asset.meta": {
+        "sha256": "1405e7a13e9ba0f677adf0e19838de7e9dd20673b9b1d10f1d8be8b10365673e",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/AnimationScriptableBase.cs\n00"
+    },
+    {
+      "guid": "103e863f5c0347be8a512f431aaf5ec1",
+      "asset": {
+        "sha256": "778619ae50f2d0cd66c4d70c46a2729451ebc966d1d48c5aba8bcc1378665923",
+        "size": 437
+      },
+      "asset.meta": {
+        "sha256": "53bbafb0c9c91c3588a9470bec960ca5beceed28ee4504a28bce4d70796d5728",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/AnimationsDatabase.cs\n00"
+    },
+    {
+      "guid": "1aa92d7ec7964d30b8976caee1babfe7",
+      "asset": {
+        "sha256": "252195c8662be5881e5150b82bce9220fd7bfc247efbe78c9c31b29050189838",
+        "size": 484
+      },
+      "asset.meta": {
+        "sha256": "91c7d37070126b4e999e8ffe65dc9a31e0ac05b563f049580ed993786acf38f6",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/DefaultValueAttribute.cs\n00"
+    },
+    {
+      "guid": "d39438ca5b9e4692916f5929b4c3ff1d",
+      "asset": {
+        "sha256": "d8e8929f70b7a6962afd37a14fa9021c73f8d3da1b4ccc1e24cb8e84ec762626",
+        "size": 765
+      },
+      "asset.meta": {
+        "sha256": "0fb4e06c4b078ff702cfa1990e96d7b344dbf3d93ca7d69779e25d3742cb9c5d",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/EffectInfoAttribute.cs\n00"
+    },
+    {
+      "guid": "8b5322a2db28c4d3893673cabc2b05db",
+      "asset.meta": {
+        "sha256": "7ae2450af299eb07bcda6c097dc232d3c9c13d73d181078dcdac0adc198e08e7",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Settings\n00"
+    },
+    {
+      "guid": "9743a50feedea474dbef99517d3e30eb",
+      "asset": {
+        "sha256": "27c4af5f7a8f930104e873b1c7e0ae5c3d2d3ef4c7067e217a826b8946fa158c",
+        "size": 3628
+      },
+      "asset.meta": {
+        "sha256": "bf1d708c8e46c4e00accd111892d4c6f5525a1faa5dc2f42f08eb18ee53e2e2c",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Settings/TextAnimatorSettings.cs\n00"
+    },
+    {
+      "guid": "f83c4bdf968d4e9bbbc80c1de1fd36ae",
+      "asset.meta": {
+        "sha256": "bf8aba25ff152d098d278e55e4816f49d588a9f480e6810fe3b6947a9dc58de5",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Styles\n00"
+    },
+    {
+      "guid": "19d76f309ea84e8d9129f4ba7e8ae42a",
+      "asset": {
+        "sha256": "6a47ed907c0d125f4e09e89e5e23f6a685ee61dc98fa0d2c9d58d130e18ad904",
+        "size": 463
+      },
+      "asset.meta": {
+        "sha256": "fb4713c0a3a83d37727fefc6cd26ff59534607cc8e8b73824008175f6820b5ee",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Styles/Style.cs\n00"
+    },
+    {
+      "guid": "fd7ecee5706a4d10b0a63a2233d5c131",
+      "asset": {
+        "sha256": "c92206eca58c956aa92b57c2939c17d276a96ddbe5b5d00f94cc6fdb9d8b8079",
+        "size": 1761
+      },
+      "asset.meta": {
+        "sha256": "8747b67df5c5a218863eb00dd1896782ea4067444cf670a94e51f1f50e2afcd9",
+        "size": 83
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Styles/StyleSheetScriptable.cs\n00"
+    },
+    {
+      "guid": "b0ccd8b0aa52fed49bcb7994d0e16485",
+      "asset.meta": {
+        "sha256": "a66d26fa3d89da6fb4174d90eaee8a7ca41f702c475a5b7ecccdea7d49d36e07",
+        "size": 172
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities\n00"
+    },
+    {
+      "guid": "fa97b1b4f8a3bfa4b82ca06b835b4bb7",
+      "asset": {
+        "sha256": "6648ab1cc7f2cb952ea73ec0daf6466461ee93451678c6798bfd55843cd166c3",
+        "size": 2080
+      },
+      "asset.meta": {
+        "sha256": "b626cb69a3f8b75d4c13679d5d111272ac146e8b45124c7bd1e19fa003dca78c",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities/FormatUtils.cs\n00"
+    },
+    {
+      "guid": "792ffbd6b25610f48800fce737481b10",
+      "asset": {
+        "sha256": "542a124fe2a8df9fe3b395702efb822458212371ee2e69384ec30314c79adfe6",
+        "size": 7190
+      },
+      "asset.meta": {
+        "sha256": "69fdaf7867521e40073540e537abc2f6ed9385adb0bf99d3d8a1fbd93fcf0dd8",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities/TextUtilities.cs\n00"
+    },
+    {
+      "guid": "2edcfb3709f1187429d9fda2e36df38e",
+      "asset": {
+        "sha256": "e2cacf31231dd4585dc460192431782aa6cddb260584893058a243af1a56552e",
+        "size": 2994
+      },
+      "asset.meta": {
+        "sha256": "266bffe90df59a7bfab2e929b98691c8cb1019fd045bed8afedc748f364aab8d",
+        "size": 243
+      },
+      "path": "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities/Tween.cs\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [
+    "Packages/manifest.json\n00"
+  ],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "93aaacb0da6aa6e4bd3cf1caafd55efa1ae5a2cd26047da4e6e7f106c37e9b9c",
+      "size": 36777
+    }
+  ],
+  "package_manager_manifest": {
+    "asset": {
+      "sha256": "409a80b6c39f73034fb4a75bdf121323fb699b9e6348330080a26ef12bde540d",
+      "size": 56
+    },
+    "path": "Packages/manifest.json\n00"
+  },
+  "control_character_paths": [
+    "Assets/Plugins/Febucci/Text Animator\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Editor\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/CharsDisplayTimeAttributeDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/Febucci.Attributes.Editor.asmdef\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/MinValueAttributeDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/NotZeroAttributeDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Editor/PositiveValueAttributeDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/CharsDisplayTimeAttribute.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/Febucci.Attributes.Runtime.asmdef\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/MinValueAttribute.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/NotZeroAttribute.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Attributes/Runtime/PositiveValueAttribute.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/00 - Welcome.unity\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Example 1A - Effects.unity\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Example 1B - Stacks.unity\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Example 1C - Attributes.unity\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Example 2 - Events.unity\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Example 3 - Actions.unity\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Font\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.asset\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Font/Lato-Regular.ttf\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Font/OFL.txt\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Scripts\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/DefaultEffectsExample.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/ExampleEvents.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/Febucci.TextAnimator.Demo.Runtime.asmdef\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Scripts/Runtime/UsageExample.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Sprites\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Sprites/Circle.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Sprites/Example_sprites.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Example/Sprites/example_dialoguebox_body.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Extra\n00",
+    "Assets/Plugins/Febucci/Text Animator/Extra/Typewriter Sound - Package.unitypackage\n00",
+    "Assets/Plugins/Febucci/Text Animator/Integrations\n00",
+    "Assets/Plugins/Febucci/Text Animator/Integrations/Integrations.txt\n00",
+    "Assets/Plugins/Febucci/Text Animator/Integrations/PlayMaker - Integration.unitypackage\n00",
+    "Assets/Plugins/Febucci/Text Animator/Integrations/Visual Scripting - Integration.unitypackage\n00",
+    "Assets/Plugins/Febucci/Text Animator/Quick Start [Offline].pdf\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TAnimCoreDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TypewriterByCharacterDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TypewriterByWordDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Components/TypewriterCoreDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties/ColorCurvePropertyDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties/EmissionCurvePropertyDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Properties/FloatCurvePropertyDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Actions\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Actions/ActionScriptableDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Animations\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Animations/AnimScriptableDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/ActionDatabaseScriptableDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/AnimDatabaseScriptableDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/AnimationElementDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Scriptables/Database/DatabaseSharedDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorInstallationData.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorInstallationDataDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorSettingsDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/Settings/TextAnimatorSetupWindow.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core/GenericSharedDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core/SharedDrawer.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Drawers/_Core/TexturesLoader.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Febucci.TextAnimator.Editor.asmdef\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/about_logo.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/pause_icon.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/play_icon.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/restart_icon.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/save_icon.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Editor/Resources/Text Animator/stop_icon.png\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro/Febucci.TextAnimator.TMP.Runtime.asmdef\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro/TMPTagParser.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/TextMeshPro/TextAnimator_TMP.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/AnimationLoop.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/TAnimCore.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/TimeData.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Animator/_Core/TimeScale.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/Built-in\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/Built-in/TypewriterByCharacter.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/Built-in/TypewriterByWord.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/CharacterEvent.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/MessageEvent.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/TypewriterCore.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Components/Typewriter/_Core/TypingInfo.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Febucci.TextAnimator.Runtime.asmdef\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions/ActionDatabase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions/ActionMarker.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Actions/ActionParser.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Events\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Events/EventMarker.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/Events/EventParser.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Markers/_Core/MarkerBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Animations\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Animations/AnimationParser.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Animations/AnimationRegion.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Styles\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/Styles/StylesParser.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core/ModifierInfo.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core/RegionBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/Regions/_Core/TagRange.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/TextParser.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/CharInfo.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/CharacterData.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/Database.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/ITagProvider.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/MeshData.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/TagParserBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Parsing/_Core/WordInfo.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in/SpeedAction.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in/WaitAnyInputAction.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/Built-in/WaitForAction.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Actions/_Core/ActionScriptableBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/DiagonalExpandAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/FadeAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/HorizontalExpandAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/OffsetAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/RandomDirectionAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/RotatingAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/SizeAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/Built-in/VerticalExpandAppearance.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Appearances/_Core/AppearanceScriptableBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/BounceBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/DangleBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/FadeBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/PendulumBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/RainbowBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/RotationBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/ShakeBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/SizeBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/SlideBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/SwingBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/WaveBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/Built-in/WiggleBehavior.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/_Core/BehaviorScriptableBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Behaviors/_Core/BehaviorScriptableSine.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/CompositeAnimation.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/CompositeWithEmission.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/Built-in\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/Built-in/UniformCurveAnimation.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/Built-in/VertexCurveAnimation.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/AnimationData.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/ColorCurve.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/EmissionCurve.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/FloatCurve.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/Special/Curves/_Core/TimeMode.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/AnimationScriptableBase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/AnimationsDatabase.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/DefaultValueAttribute.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Animations/_Core/EffectInfoAttribute.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Settings\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Settings/TextAnimatorSettings.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Styles\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Styles/Style.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Scriptables/Styles/StyleSheetScriptable.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities/FormatUtils.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities/TextUtilities.cs\n00",
+    "Assets/Plugins/Febucci/Text Animator/Scripts/Runtime/Utilities/Tween.cs\n00",
+    "Packages/manifest.json\n00"
+  ]
+}

@@ -1,0 +1,3104 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-epic-toon-vfx3-b45e8e1d",
+  "build_id": "127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+  "artifact": "artifact.unitypackage",
+  "sha256": "127dcb79d10378038ea4f940777a196e5d8e2761b8b04979390d11ffa5c98df0",
+  "size": 32964590,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "bdbe5b4992126d042b7ccf5385600993",
+      "asset.meta": {
+        "sha256": "4b641dfe77108f48b899f2dacc9db29e4510cce5c3ad011ad3ba68d26bb2efd2",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene\n00"
+    },
+    {
+      "guid": "181e2146a05c7034cb821c29448c9762",
+      "asset.meta": {
+        "sha256": "86b2d4b7c78afeacb4a9486bda712df5437004f78c5ab84e13955010b613a432",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files\n00"
+    },
+    {
+      "guid": "ba7f513a199d49745b8a2d939a3c399e",
+      "asset": {
+        "sha256": "c243d927f333f50314fec6943ee5fd32dafc974814b85e64c36b3990310fb7bb",
+        "size": 1885216
+      },
+      "asset.meta": {
+        "sha256": "8ee687dadc953e3ed5ec839d5fc79956a278f1a11e38d15bd828b8b0dfbb5565",
+        "size": 34368
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Character.fbx\n00"
+    },
+    {
+      "guid": "1d3b0450fb849af4fbf92ce356507aa4",
+      "asset": {
+        "sha256": "cee0c8ae29f9fc3f248d8906836636e2e4a1d0541a6a0bd94b684c21b16410a8",
+        "size": 6398
+      },
+      "asset.meta": {
+        "sha256": "c09d9bfc9aa9ccfe4a19172417cebdb9dc8655066081f0fafa786a6de3473be2",
+        "size": 243
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/DemoToonVFX.cs\n00"
+    },
+    {
+      "guid": "06e46687ef2797a49b1b2e5c9382130c",
+      "asset": {
+        "sha256": "87e1f9b67e3538a21d67453cd25d82f083bc5b4c6fa122b9727587ff4c7f3b8f",
+        "size": 4934592
+      },
+      "asset.meta": {
+        "sha256": "d19b5d67382e9db5230bd79a7173790eece29c83e11da6643add1bef52f71266",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Front attack.anim\n00"
+    },
+    {
+      "guid": "5c841766645f08c41baf96ec21d97627",
+      "asset": {
+        "sha256": "02af37e6d5e40e45e254bab1f30988ec0dbbce47764e03694a84fb14510475cf",
+        "size": 2024
+      },
+      "asset.meta": {
+        "sha256": "dd9b4e44eeb5fc03df04df3ac5f8ef6f57e57bb791cc6dd4705f1a9134094e7e",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Gray.mat\n00"
+    },
+    {
+      "guid": "bb058fbc18c6ae64e9427db3f8279f16",
+      "asset": {
+        "sha256": "c803c14e3fb4c0a52e2cf7a339deb02f960a6242fd78d8155870334a5c07631e",
+        "size": 2120
+      },
+      "asset.meta": {
+        "sha256": "099fface8c242e82b645af6b248993cf2e17f442be3acc12eedfeb8c86754b49",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/GrayMat.mat\n00"
+    },
+    {
+      "guid": "a1f50c8c4967ba94d8cdb4febe915d6e",
+      "asset": {
+        "sha256": "356ca09866c542c5091c516d50039fd3e339ff18af27b679f4b9aad51ae86b21",
+        "size": 4121330
+      },
+      "asset.meta": {
+        "sha256": "56b16dd3b58e62b052b8bcc04661916ceccb8415315f3a4126af69506a9aacba",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Ice wall.anim\n00"
+    },
+    {
+      "guid": "dc0f1ee0c42c3024fbf6396c1ae10e6e",
+      "asset": {
+        "sha256": "b4b77d1ef1118e3ca00d18f8176b3ffe29871c341298001dda800251e1eaf3c8",
+        "size": 13200
+      },
+      "asset.meta": {
+        "sha256": "eef19d967bee8b77bdeec7f9a48a52d9110f82b0a3436c7d68414afdc734d947",
+        "size": 189
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/LightingData.asset\n00"
+    },
+    {
+      "guid": "adc7c79847ecd3341a7daf48dfc5e56c",
+      "asset": {
+        "sha256": "f1d94df93be16c87b160e9b8ea1ad68b00745c38d16c1f0202daa9212483bb17",
+        "size": 4180542
+      },
+      "asset.meta": {
+        "sha256": "3fbdc84b7896c6d0a8b7ed7045d5bb6ebdae42e80b23dfeb8ccd417dacae9889",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/MagicRay.anim\n00"
+    },
+    {
+      "guid": "87d1cbfffe6ae6b4cac6d34f21360f33",
+      "asset": {
+        "sha256": "03683213b7fd662c4ae9463958ee87fe77010cd03b1ed2ebdd0bf4a82b9f0caa",
+        "size": 133554
+      },
+      "asset.meta": {
+        "sha256": "e45894dbf784388f34797ead8649fc371e1f92b8b6803729283c368cc2758e03",
+        "size": 1853
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/ReflectionProbe-0.exr\n00"
+    },
+    {
+      "guid": "38e8359284dce3841ac07a23ae94e660",
+      "asset": {
+        "sha256": "169b65f6a56f6330418958e259ad852035eccee15438ed82fa29a7ee9d2323df",
+        "size": 4268038
+      },
+      "asset.meta": {
+        "sha256": "02d57c88f9f5f640e0d09ad2e4d6506d5034c314b3853942fe68cb9cad9f5787",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Sharks.anim\n00"
+    },
+    {
+      "guid": "3ff01f79a394db94ebb579a1c3d5afd3",
+      "asset": {
+        "sha256": "2c01e0093e514484395da2c4f59aea9fa92962cfe6ef54b7c38f3dab2899a449",
+        "size": 5378209
+      },
+      "asset.meta": {
+        "sha256": "77ef3dfefe3a5133de673e38c8503b7eb6232b80ded98b180ade0781893b2023",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Shockwave.anim\n00"
+    },
+    {
+      "guid": "fde11d335af76ba458631b22ed8ffe40",
+      "asset": {
+        "sha256": "f5027a04e1d43c149cef1a165fb05867196695a6266d3d029fa3d207ce104724",
+        "size": 2746492
+      },
+      "asset.meta": {
+        "sha256": "994a2f3eed719ef0952c5996c4af7789fe5064000b77a59874830fcb97dfddac",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Standing.anim\n00"
+    },
+    {
+      "guid": "2c381bc9ace9168458e8efcb9a2ad772",
+      "asset": {
+        "sha256": "f3c765b1070c0c5bf09f3465e0bc846a43fe6ceb771f7349b3126a10e42a6208",
+        "size": 3628740
+      },
+      "asset.meta": {
+        "sha256": "45a57cc206c66d3cbae2feeb552b937f67765a0574376969ca68d449ab7fde87",
+        "size": 115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Throwing.anim\n00"
+    },
+    {
+      "guid": "3c624dbfe75dc2348b399da0c42666a0",
+      "asset": {
+        "sha256": "ae7a98e99e63d510738daf29b4262b3a005518d036ec2f5d767a3ff96e59285a",
+        "size": 33741
+      },
+      "asset.meta": {
+        "sha256": "ca616453956a20e4cd5d22795164562f1188225148a97bcbc16f38846b5bcaa9",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Toon VFX 3.controller\n00"
+    },
+    {
+      "guid": "2a714df06e718d146bda41b2b3695d58",
+      "asset": {
+        "sha256": "8e677c1ec48583f2cfe0257d045ddbe8c8577dd3603f5ba0875f3ec820c2d997",
+        "size": 1997
+      },
+      "asset.meta": {
+        "sha256": "034be72287324d73f5977bf2ab17a2f48ec03d01f0b5ddef46769c8c2f56da1e",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/WhiteMat.mat\n00"
+    },
+    {
+      "guid": "ca17a2e465e79c74a91583435a5309d8",
+      "asset": {
+        "sha256": "b4f164ef6063c0cc7bf91ea74a1f574807b1b3b802da52c4679785f57ae84333",
+        "size": 77945
+      },
+      "asset.meta": {
+        "sha256": "6b68e359b2266f5f7efd57dab6e830406217a65a6dba2ff8ca0febfbf6bf0e88",
+        "size": 176
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene.unity\n00"
+    },
+    {
+      "guid": "8057540fd999a804091902586b74508c",
+      "asset": {
+        "sha256": "74e127fd76672ff33a2752e05c073c9af89977a9c090f2f88f92851ec4eafbf5",
+        "size": 94
+      },
+      "asset.meta": {
+        "sha256": "9c4a1ec490d1cfede565cb39cb88551afd310a526352b5f9da1401b7de01325e",
+        "size": 158
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/HDRP and URP(LWRP).txt\n00"
+    },
+    {
+      "guid": "70629691e8eede744b1c85c9ddcc4bc4",
+      "asset": {
+        "sha256": "32b14e6a809f7e483b0fd53a3bf7e099a7bbf7b2cc2ea5977e93d6af0d7099a6",
+        "size": 22237
+      },
+      "asset.meta": {
+        "sha256": "7fa1150ab712bf95004c926d068c91cb13efd2d7d1e81b4ca54789671078a69e",
+        "size": 189
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/PP low.asset\n00"
+    },
+    {
+      "guid": "6eb62cb16fb2ed244bb5b839638550b4",
+      "asset": {
+        "sha256": "7c8ab7e7f220d1894bd1cf90dd8188b05b52eaaead98771cf0cbf4733e95ffb3",
+        "size": 1668
+      },
+      "asset.meta": {
+        "sha256": "f15b103fb68cb5fc8ff0250df5fe735a640e874d32e875b07528c8a5421813e6",
+        "size": 158
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Readme.txt\n00"
+    },
+    {
+      "guid": "7dde1435d7862624bbdc81d4cb593be1",
+      "asset.meta": {
+        "sha256": "af77bad1909f89b4af5af1b36bcd28ceb2173a14bab60b1da45a85cd7ca55eb9",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials\n00"
+    },
+    {
+      "guid": "8f7260ae490a6f64e97398d880b66e55",
+      "asset": {
+        "sha256": "66e61330494bdcba8b04cec04054fc1f171d31624645d0a44b8061721abe29c1",
+        "size": 2849
+      },
+      "asset.meta": {
+        "sha256": "919e3b29d02726eadb5acce03301723fcdab6b27536d4a83946ce2263ec7356c",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Additive.mat\n00"
+    },
+    {
+      "guid": "bde37168984c0604c96cc835d001e6f1",
+      "asset": {
+        "sha256": "76a3c2bdada4d69c3537cf164b376f684040e8129ca324626a14fcd21d891fc4",
+        "size": 1611
+      },
+      "asset.meta": {
+        "sha256": "f19fce841726d6cf434663ee7ce03db64cfb1174bac69f538cebcdd532b5445b",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Apple2TS.mat\n00"
+    },
+    {
+      "guid": "2ea935d701ace8d4982d72750076f741",
+      "asset": {
+        "sha256": "b4ed0b733a12b3a663f67033d8ebffd7d94072a01c374dcf2483623cab8a015b",
+        "size": 1613
+      },
+      "asset.meta": {
+        "sha256": "10ca7328190147b442b057c4ae111a68fc281be3e6cf006b3b998e673b4fb2c6",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/AppleTS.mat\n00"
+    },
+    {
+      "guid": "2691ffe7852dfa44da20d9e0651e7327",
+      "asset": {
+        "sha256": "9570fb387c729caf757b093afd807bc60bc74c359b5b261b17e50cead7d8f482",
+        "size": 2699
+      },
+      "asset.meta": {
+        "sha256": "c035246ae53a1c240f514d9b5a7e00732cccd7c740ad442cbb114bfe84b696c4",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Aura16bcg.mat\n00"
+    },
+    {
+      "guid": "e39739995fd64944c883bb68df712f97",
+      "asset": {
+        "sha256": "ead60debfcb44150f35486740b94bfa57d8f28c7875f6c0e55f29f8aad5f2ab0",
+        "size": 2700
+      },
+      "asset.meta": {
+        "sha256": "7f6609c378858693dfbcb39d22e621388bf44fe9a092b99156e7f4a28d4e2f8a",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Circle107bcg.mat\n00"
+    },
+    {
+      "guid": "ca93a53cd7329bf49b7145beee8e22a9",
+      "asset": {
+        "sha256": "90bc854a1d5a2231e1c213600a85e76d7b866490d84c9e986ddbf91999d5df51",
+        "size": 2742
+      },
+      "asset.meta": {
+        "sha256": "d769730a26d4cba992fbeaa3efc3f8af469025395dba974482f6e2b494a2b8c0",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Circle96cg.mat\n00"
+    },
+    {
+      "guid": "826d40dff1e4c7845a7ad7f381b82351",
+      "asset": {
+        "sha256": "4b5b1cb35613838012d8fbf4195294a59ec773441cdc7c7f1d5cf8674dbecf21",
+        "size": 2831
+      },
+      "asset.meta": {
+        "sha256": "92375e268df7773ee143d6eb7dac6a3b551a04de40a248d2b0d4cd109fff168a",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater17bcg.mat\n00"
+    },
+    {
+      "guid": "280916d7e90704c42b4c427f0b2fa34e",
+      "asset": {
+        "sha256": "4375557deeb1f4b006f8d556b828c3af62f2f3e469f999c5c6bfa4ee2fd211cc",
+        "size": 2831
+      },
+      "asset.meta": {
+        "sha256": "c856d485cfb997429c8e271c24020f6d86b93be4e7221a44f0b4a25a8cf353e8",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater36bcg.mat\n00"
+    },
+    {
+      "guid": "77b3cf30fe44bde4498632fe849e81f1",
+      "asset": {
+        "sha256": "d6a1483bad23af74b3869cfc9054f086a114f43a34d838776c0365537f770728",
+        "size": 2768
+      },
+      "asset.meta": {
+        "sha256": "921f39ff9fc1cca06d8abef2bbf5f4e500d13264979b8fccb3ebdfaf95fe22bd",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater40bcg.mat\n00"
+    },
+    {
+      "guid": "81256b681d164ee49bc0b8bb59de58ed",
+      "asset": {
+        "sha256": "de0ea4f366a59498adb41c3ff0d5bcc40e9af26d5c284674e910ee2c127d7e95",
+        "size": 2045
+      },
+      "asset.meta": {
+        "sha256": "c4857397fb30dd2d4373848981305ff85d4874c571cbd4ef17613c5bbf3c7d46",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater61dn.mat\n00"
+    },
+    {
+      "guid": "e3e099e4fea3f6b4688eb130b2518ad3",
+      "asset": {
+        "sha256": "81b906f57a9c03ec7033e5b20366771494410d8f8b69cde87f62f253a1f4d825",
+        "size": 3002
+      },
+      "asset.meta": {
+        "sha256": "3e371b6dcfad738b9b1004d5008314504a4b5fd455dd68587e50a4b8198c8167",
+        "size": 209
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater63bcg.mat\n00"
+    },
+    {
+      "guid": "630ddcbab420440459087f91bcd9f4c6",
+      "asset": {
+        "sha256": "39ae67814dda186f43a82f8e8b38876e7dbf3d4cbc838634c9bd2dfe144bd4b4",
+        "size": 1250
+      },
+      "asset.meta": {
+        "sha256": "68aabf70363daf05acc0cabd9d3a85f756795a3b5d994f2dd8106794b1cf6f3e",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Distortion.mat\n00"
+    },
+    {
+      "guid": "0bb7355b2f5f8bd4c9d15d147091415e",
+      "asset": {
+        "sha256": "45b0ba001e58dc3550b96ff26505dfdef48594d6bec3b0509f8ac57a9d3bfba7",
+        "size": 2796
+      },
+      "asset.meta": {
+        "sha256": "ccc153970db7a5ac62f9f2494fa420c9f296c55c788b3014fa1902d6144436f0",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare10cg.mat\n00"
+    },
+    {
+      "guid": "d89326cbc425f694dafcf57a0caf2da6",
+      "asset": {
+        "sha256": "2915d3a6b510dc87f3f76bbcd865d9b7982662c85e4d7908f10b23333824573c",
+        "size": 2833
+      },
+      "asset.meta": {
+        "sha256": "64d0fd0cc8e8a138a93379bfbd4e19876ba0b99f80b7bf906df29913b5a0ee4d",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare14cg.mat\n00"
+    },
+    {
+      "guid": "0847e1137284fba48a169ca162e08038",
+      "asset": {
+        "sha256": "c219389623ae168c15a69a782fea9b88141e62356abd6825ae71bef89eec3b4b",
+        "size": 2774
+      },
+      "asset.meta": {
+        "sha256": "dac00db7533b459f778c46fa051ac974695003ce177f489ce6bce468ca92ca3b",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare21bcg.mat\n00"
+    },
+    {
+      "guid": "82f16bfe1d124c54e877ead985da0dc0",
+      "asset": {
+        "sha256": "2cd0f07c428d6aea47722169f0751bd8d3c866beeca860d018c0c181fbbf15a9",
+        "size": 2813
+      },
+      "asset.meta": {
+        "sha256": "585a65a56fcbcac95db506596616da8c1c07bc654bdcdc06be19643145a8eda4",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare6cg.mat\n00"
+    },
+    {
+      "guid": "7dad299f9caed054ea10097fd11f0a54",
+      "asset": {
+        "sha256": "d291fcce62fe19909a416d42a133657bd2e94f3a1366ec87a6e29bed52a40ae2",
+        "size": 2743
+      },
+      "asset.meta": {
+        "sha256": "154121cfd71c35d4949444c6a479243edf21f3d3876b550d9a802a4ac8d1b051",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flash21bcg.mat\n00"
+    },
+    {
+      "guid": "d5dfb7b499f5de840871d37b9f54d073",
+      "asset": {
+        "sha256": "63240eeabcb9f168707fcfcbcb1f41e541e07a2c209ff4ab60f2b91b8e3e4804",
+        "size": 3005
+      },
+      "asset.meta": {
+        "sha256": "9d218f4c96c044e274a3b09d94bc971a825cfa1ecc59cd10ecc85b827d53c1e3",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/FlashGroundCG.mat\n00"
+    },
+    {
+      "guid": "db0eda4c763c64d45a721c795ca1f355",
+      "asset": {
+        "sha256": "d87fb6e9fbbc75f18d342bde2b28aed5418880bcceecbd7f620b79d7fd9e98d3",
+        "size": 2602
+      },
+      "asset.meta": {
+        "sha256": "7fa552fb58ce3e3e5319cc7ffc74c19721d9d739697442d6dfb17b0967cea6ab",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Fresnel4.mat\n00"
+    },
+    {
+      "guid": "12fb1d84a82a2de4f8b3e8b1f2747b43",
+      "asset": {
+        "sha256": "3814affb3037947e67a8da897d52f3717231e9cf0942b44ad0adc85ac96b0086",
+        "size": 2715
+      },
+      "asset.meta": {
+        "sha256": "cdedc2fdaebf219f1f7d7e8a4f287acea32d088ec256f60e1b03eee603070a11",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Glow1cg.mat\n00"
+    },
+    {
+      "guid": "0abe55a3158bb5f41925e4fddbfe9de2",
+      "asset": {
+        "sha256": "47b0fbbd7ad0d9bf9358c7670f82cf8b97bc39647a39868fc398e8bd459064f9",
+        "size": 3357
+      },
+      "asset.meta": {
+        "sha256": "97279d6fedd901947afed8a2ce0ee0c300c2fafa7186bc3c6f669c5aa88a042e",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Gradient17cg2.mat\n00"
+    },
+    {
+      "guid": "9789c18d41224784a9de7d60dac2b68f",
+      "asset": {
+        "sha256": "cc1e5479188c315c4f53f736070243b62a7cc694e61eb468160a914ee0780406",
+        "size": 3366
+      },
+      "asset.meta": {
+        "sha256": "5ca9ef2fa97a3068db762cea74ad18baa15485acc171a03aa62b6bc7ff30630f",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Gradient17сg.mat\n00"
+    },
+    {
+      "guid": "1b5f613319e0f324c9637cfac64149e4",
+      "asset": {
+        "sha256": "aa4d7e21c6a91fd61ea2ca43b7d55c5bec74ecd5df67daaeea72d2992deb11fe",
+        "size": 2886
+      },
+      "asset.meta": {
+        "sha256": "f8a572cec57568634fa24d1d368bf2353b7f2e6040eb1fa24a2f3a9701298ceb",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/HPL2cg.mat\n00"
+    },
+    {
+      "guid": "65c36ec3a6dcb3d45a08a26d456a07f9",
+      "asset": {
+        "sha256": "c216a967c3d64ec2d848b2335ede9bf896e1146c4140ebbb0deea48bb6551c89",
+        "size": 2019
+      },
+      "asset.meta": {
+        "sha256": "7cdc13a7a610189b4a7ee2791a8548cb63a9b798e2bfbfc7ba8639537df19b4b",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/HPWater2bcg.mat\n00"
+    },
+    {
+      "guid": "f8aa13d5ed966cf44b850c6de57ac5b9",
+      "asset": {
+        "sha256": "bbd2727e27413f69c5dc80bc66c6b3f0010efa4bc40ff05dd9db4b68973d5e63",
+        "size": 2701
+      },
+      "asset.meta": {
+        "sha256": "8b548ebb721c432a10aa6d3c74745bce49d0525d10f317f67e67405cf52d87d2",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/HPwater3bcg.mat\n00"
+    },
+    {
+      "guid": "21da2bf5b4bbc8840bd07929ebecb512",
+      "asset": {
+        "sha256": "7b7d06ad86ca48cfc1ee0880f9596902b2dabae2a44b724c87cf6047e1f6d706",
+        "size": 1184
+      },
+      "asset.meta": {
+        "sha256": "8ac9b3954541da7c5c702ab3b88fc13bedf922b103c5220a8146a7ec29349ef4",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Ice.mat\n00"
+    },
+    {
+      "guid": "225fe34f2efbd4e48b47d0c711f0703e",
+      "asset": {
+        "sha256": "67c6a2c8304a6b121e2ab5c39e3665c1c3d8feb5cbce2a4e7528194c681b12cb",
+        "size": 2463
+      },
+      "asset.meta": {
+        "sha256": "cae708e505ac84d41e3115134e570d2cd41638b7e1edea5598c9fd25eac8bb4b",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Ice5.mat\n00"
+    },
+    {
+      "guid": "eb5b5baad131e114da6259b4dacaae3e",
+      "asset": {
+        "sha256": "ef044bfeb194c8082ea63812d3a397e6409bf66088533328df25129927d29310",
+        "size": 1396
+      },
+      "asset.meta": {
+        "sha256": "cb2d9d9bf0f25f1e3104a84e938032f812556f06503c08c2d19ef5c9ff70d69d",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Mask34cg.mat\n00"
+    },
+    {
+      "guid": "916e45ed79d82594e91da8cdcda1a2f7",
+      "asset": {
+        "sha256": "2dcdd5413072e83eea87d5e11a3a26af490bf143aa54be7c1f4988df9f89e9c4",
+        "size": 2741
+      },
+      "asset.meta": {
+        "sha256": "c743bb4a6345802ad4f9615b8b34e5b63a108604cab00a0c945bc0b5ea5f3194",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Mask9bcg.mat\n00"
+    },
+    {
+      "guid": "0ae5b07cb509ca04ab936aa7e86e8ce9",
+      "asset": {
+        "sha256": "e7fd5d8ef2d535d96aa9cd0b6620170c308247a6d59ae85dae10e0a2cc0fb43e",
+        "size": 2888
+      },
+      "asset.meta": {
+        "sha256": "2ed72f8f9893e72fe9f9b7acac5a8aec09d57f5780c5d4609ec302aaf3f30235",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/MaskPoint1.mat\n00"
+    },
+    {
+      "guid": "991ce8ab7d217524583108593e2ac2da",
+      "asset": {
+        "sha256": "865a9908a135d6171e2159a1378338884e1990e7f8cce5fbf8d48d3c264db2af",
+        "size": 2815
+      },
+      "asset.meta": {
+        "sha256": "dbecae7e209f292330270642f9e1a7feb83dd9e02b66752f96e20b9ed80ca031",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Object1bcg.mat\n00"
+    },
+    {
+      "guid": "c90a3c23b0fc60244a9f3588ff9e721f",
+      "asset": {
+        "sha256": "bd747a1e9b03a3e50665246e695a5b912080d8b69759c9562b3dca504e3fa252",
+        "size": 2798
+      },
+      "asset.meta": {
+        "sha256": "fb53766ccdcc0d600453e2826b5b3aa7d4f5b69fe27e55436243d0fc9f9b8573",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point11cg.mat\n00"
+    },
+    {
+      "guid": "9aaa13d175bcf1c4b8acc4d930ee06ee",
+      "asset": {
+        "sha256": "8622537b77fcede54d24322604c0892510ada4223e2b5babc946b89d2bcb0986",
+        "size": 2872
+      },
+      "asset.meta": {
+        "sha256": "59bb52efe695f9c1dcd55592b2529ddfe3589d327e4d65e35711acf2f3d33d6a",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point12cg.mat\n00"
+    },
+    {
+      "guid": "0711ea139cbfdb04aa3f8bbbb67bca98",
+      "asset": {
+        "sha256": "c0afdf480e067d5818f4e815265605b69080f2981a261ad9cf43c65beada1693",
+        "size": 2932
+      },
+      "asset.meta": {
+        "sha256": "563f9c3628be296d77f8ef0145c02bc82079c4509fdf076151e41494e5d59457",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point19bcg.mat\n00"
+    },
+    {
+      "guid": "1827c6f1d27f4f843b3f093269f914d3",
+      "asset": {
+        "sha256": "6509f7f2d910a2641f38663aa47e40bab558a003954ec98482d1472697bbf4a9",
+        "size": 2933
+      },
+      "asset.meta": {
+        "sha256": "85df558a05deae66277e899b84df80da6b0597402b176d09f1dcaed758f67389",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point19bcg2.mat\n00"
+    },
+    {
+      "guid": "85455188b71fea741bd0b80cbe893384",
+      "asset": {
+        "sha256": "d87e87c7cf347ca68efac06ba1a8e4db8046784f6345f451465d31986c09a7f8",
+        "size": 2814
+      },
+      "asset.meta": {
+        "sha256": "08f9a5b83bb351555f65b3980e473417cfc72ae72e76516bd95f36003840216c",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point5cg.mat\n00"
+    },
+    {
+      "guid": "4cf1ea0b08d689245942a3788a4267f4",
+      "asset": {
+        "sha256": "51fa6e3708ccb6c07dd4903fe6904ebd96a19a4ee69c90bd9fde45c17468e34b",
+        "size": 2696
+      },
+      "asset.meta": {
+        "sha256": "81d3825d3203fe1446272579f478e51becc795301b98d174e62ae9f37b766a4f",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/SS2bcg.mat\n00"
+    },
+    {
+      "guid": "9cafe0a3c7620b14faabce2e87e77617",
+      "asset": {
+        "sha256": "1e4d77e264153ac24578cafdeb1168537cacf44b7a26a7fa4a60a4889afa6454",
+        "size": 1647
+      },
+      "asset.meta": {
+        "sha256": "f115bcdbd717f6c64f9957cbda301bd73d50084b91110d4e65a23faee1ce58be",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/ShieldBeamsTS.mat\n00"
+    },
+    {
+      "guid": "f8bfdb30cff45894389fcc9ce14ba25e",
+      "asset": {
+        "sha256": "97192df578e7e392c5c419d794b15a229bf0e3d591fc049222eff3d61b773bae",
+        "size": 2741
+      },
+      "asset.meta": {
+        "sha256": "7b5697168cc4422f5cfcc24401eb86f5678ae34d25f53cd49bf4572eb0ba8202",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Snow2bcg.mat\n00"
+    },
+    {
+      "guid": "35f5e6dc715494f44b17248eee5426bd",
+      "asset": {
+        "sha256": "d8f920ecf59f0e4ff2dc8dbb5adcb57e00bd0bd9e2d8185764c916015ebc1026",
+        "size": 2815
+      },
+      "asset.meta": {
+        "sha256": "ff15164589c1d24c440b2d6824886677b1480238ce10fab2faa8b14451933216",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Snow4bcg.mat\n00"
+    },
+    {
+      "guid": "2687a30d68920d9418667b64d76a5fab",
+      "asset": {
+        "sha256": "33d64de52f1fb0d4a4a00fc03e3f0068720e8887081a47b87472c47736c57146",
+        "size": 2697
+      },
+      "asset.meta": {
+        "sha256": "7e06ce63ef650a70baa48b79252cc663660c955ad0018c0cbe66eba8595e0702",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Stone3bcg.mat\n00"
+    },
+    {
+      "guid": "1527ae2bfa2902f4aa26e90dbf40dae9",
+      "asset": {
+        "sha256": "dbba414143ae26068e04da132e6ce03db28033d0d4df5ca68657ef538547a4ea",
+        "size": 3071
+      },
+      "asset.meta": {
+        "sha256": "3e30dbb7ce4ae7db53018ff502f868a405d59bf03286e6b292ff7dd8d0dd4d67",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail29cg3.mat\n00"
+    },
+    {
+      "guid": "29af2b65de6d8d744832fb259c7a9425",
+      "asset": {
+        "sha256": "62cccf57e27df0eed1cafcece93ef745b42f44a44d4877160e360b26b5e60c02",
+        "size": 3013
+      },
+      "asset.meta": {
+        "sha256": "fea65d258c7b7b0791252ad9cf884ea31f2739217fe7ad98eaf45bc0b5588e7c",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail29cg4.mat\n00"
+    },
+    {
+      "guid": "b527b89446cea4146b3e3b0ae3072619",
+      "asset": {
+        "sha256": "12e62724c52bd84194aed255963b8f569022976d1115ea68f1789a32b1c350de",
+        "size": 3029
+      },
+      "asset.meta": {
+        "sha256": "0699ce7e4b46010622964c3f818c374b137b027bc2ca5cd671c115084158757f",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail58cg.mat\n00"
+    },
+    {
+      "guid": "ddd740a226795f745aa95910d90d15ab",
+      "asset": {
+        "sha256": "1670876653ae9a13bfbfdda18ca82208f41ca3fb17917cea42071ff8ad65a00f",
+        "size": 2868
+      },
+      "asset.meta": {
+        "sha256": "9186bddf8ae8d678a27316cf6e2110c6614d0b9692cd679424280baeced8ac36",
+        "size": 231
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail5cg.mat\n00"
+    },
+    {
+      "guid": "3c2dcb5247f38264da76c3f821f809fb",
+      "asset": {
+        "sha256": "39e1499d85a1a26dedda58cbd8494c47996b8288cb4d8f67933aad900e4cf170",
+        "size": 2698
+      },
+      "asset.meta": {
+        "sha256": "00005737ab7488c19adcd88e861eb8fc0f0f08510576a36dfa14c1a1000cc92c",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail65cg.mat\n00"
+    },
+    {
+      "guid": "cc312dfb05f20164eacc14fd327913d6",
+      "asset": {
+        "sha256": "e7d502a7651c0d481e44a07b22efec845e98b7a3a3e8086dc76572051b69943f",
+        "size": 2698
+      },
+      "asset.meta": {
+        "sha256": "ad7c3b3fd3ece196cbf4a1bb85770880c9b0b10ebe7a06babddb2aa8a88b1efa",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail66cg.mat\n00"
+    },
+    {
+      "guid": "bf114b674e9a60448b25215d940ed2f4",
+      "asset": {
+        "sha256": "6353d73e297ebfb58861104f4e8bb069722c6dc9a44f44ff70439e48f9e0d7c2",
+        "size": 3057
+      },
+      "asset.meta": {
+        "sha256": "bdd49d296161e79599b24d80b9cc84b22bc7d5f42ddf341e65a4e30fcf77eff2",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail68bcg.mat\n00"
+    },
+    {
+      "guid": "38b6c7a68ed0ba0448c26d98225e2278",
+      "asset": {
+        "sha256": "3ebf0b3d3ece204f2ea3fd2d27a69ed14e6e34c2cd3769247ce664f836fb34d5",
+        "size": 2698
+      },
+      "asset.meta": {
+        "sha256": "b62ceda29ce58ce8cc3ba142bd36350b370fa55bffa6d15fbec05a8467dcabfd",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail79bcg.mat\n00"
+    },
+    {
+      "guid": "0ab6457f631053a42a1c0c292cee1057",
+      "asset": {
+        "sha256": "a7ea8f0d784416d8e537ed9e550cc92e63be4b6e6cc048d6bf1f82e1b3e8b35e",
+        "size": 3159
+      },
+      "asset.meta": {
+        "sha256": "ae12786788895728a87829fab6ce6803b9b1f33f82e5ddb8c332a5c1e1d9919e",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TrailPart9cg.mat\n00"
+    },
+    {
+      "guid": "9d7aa987bb067e6439cf2be2b2250818",
+      "asset": {
+        "sha256": "27f1905a89845eb42b60f885e53d679bdbddc1e1e4e4fda2c918dd92455fd256",
+        "size": 2903
+      },
+      "asset.meta": {
+        "sha256": "2b081f625b37eca15a8f0da685a2a804a7e2f6f9de43ba5fa6a51aa951ea1b43",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides11.mat\n00"
+    },
+    {
+      "guid": "72363959d11d2ba4584265a16271148e",
+      "asset": {
+        "sha256": "77dfaa992f3ecafe8dc8a65cd8d80a09c5648fad09fef22911eb4cc421d2aec7",
+        "size": 2903
+      },
+      "asset.meta": {
+        "sha256": "efcc5fe9194ac635b9347b5c30870753eca2637cdf71c4d5585d150c60b82de6",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides12.mat\n00"
+    },
+    {
+      "guid": "9925c80f1269ec7458d9963472dd6b1a",
+      "asset": {
+        "sha256": "103e295c54880144caa69ad905f53fbf4fe782cc993eb854a8e6f8fc96e44d30",
+        "size": 3164
+      },
+      "asset.meta": {
+        "sha256": "d737b061e64d2d83a8a9a5acfab053a24ed7ae4557b306f920896dc1ba0dd71e",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides14.mat\n00"
+    },
+    {
+      "guid": "564373b9253c700459a93f5c71a69dd3",
+      "asset": {
+        "sha256": "ad828b2e0e5d3c5f1cd48493d66a4cf807c852b077dc0ea830011c027e9cd186",
+        "size": 2906
+      },
+      "asset.meta": {
+        "sha256": "4aec7c55985d8429df0cd5363036954f3dece0f69da2d8b2e4e5ff31bad3b1c5",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides17.mat\n00"
+    },
+    {
+      "guid": "892ed97ed1391f74094b6fd404aab7ab",
+      "asset": {
+        "sha256": "94318d303d624cbfd7bea80af617659659f5b9cd8b7e2327a882a4f807a0a548",
+        "size": 2908
+      },
+      "asset.meta": {
+        "sha256": "79b3cf5f734eb00f28b844c2cca8fdb549cc11102d48cd493a57d00937cd05e1",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides18.mat\n00"
+    },
+    {
+      "guid": "253697e4c104e18448b4e6aa05e6007e",
+      "asset": {
+        "sha256": "69211021d34a1c253c45871665b21f6a2ee7547a788f28cfa24411e2e6da6644",
+        "size": 2905
+      },
+      "asset.meta": {
+        "sha256": "6bd36d512bf9833037526a2f580c2218462e1d9a26cd8420e812241e3c8f1a65",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides19.mat\n00"
+    },
+    {
+      "guid": "237ad81c3eb001c4ea282a6292645251",
+      "asset": {
+        "sha256": "945382f91877fefa7763782e7f73c973b7fe93e1381f6e1fef45be1135b69053",
+        "size": 2910
+      },
+      "asset.meta": {
+        "sha256": "12cf083584be90710988c24c14a9ed3453b25cc4c1ce1f35469d08cdc5a12c43",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides21.mat\n00"
+    },
+    {
+      "guid": "47638d990f8e97c419463c6f0a11a9a3",
+      "asset": {
+        "sha256": "982c7f5578c3303ee98c1843df6db0fc2065ea5c222fe09d51fd99ed83f0b143",
+        "size": 2928
+      },
+      "asset.meta": {
+        "sha256": "e62827b22bffa0d8ba04ecf3a6c015633bb5e89437a92595719347547b585c82",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides22.mat\n00"
+    },
+    {
+      "guid": "58d48fa284731b34aa8ebc9ec45f2a6c",
+      "asset": {
+        "sha256": "4f8e9694602fb8a74e8c8e10386a9da066632ba860f062a7ab45dfa40d4a80ff",
+        "size": 2909
+      },
+      "asset.meta": {
+        "sha256": "8b440c55f176cd83d68c7293c266ac71f9a37562795ccfbeb7a6b5b6d43c2275",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides23.mat\n00"
+    },
+    {
+      "guid": "24a670aa72cc1de41bc1b74e6963106f",
+      "asset": {
+        "sha256": "067f0864465256b93220efd6dfb2ec3b6f1929fe1b8b06ad06d46c0ac8856d63",
+        "size": 2957
+      },
+      "asset.meta": {
+        "sha256": "c15c23cf609955ac848a2ce113a9bf9c659a2da9beec0c45fb32d0327713b4c5",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides25.mat\n00"
+    },
+    {
+      "guid": "feec15190eee5de42bfdf66b0763957b",
+      "asset": {
+        "sha256": "07be7484caafa7ca23e3ad80ecd5dd737b9a8e7fab2c11f6ff9c582844f6cf80",
+        "size": 2927
+      },
+      "asset.meta": {
+        "sha256": "d92a1f4aa121b093bccb519ff25d3fd37da08a677fcf2959b51d67da7f9a14e1",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides27.mat\n00"
+    },
+    {
+      "guid": "b34e32b4c8320294b92f36d5eb8d6e61",
+      "asset": {
+        "sha256": "4295fa68f320ccbf317064344a388ab93ec4124d0c3c2af1312fe0c44d507d29",
+        "size": 2963
+      },
+      "asset.meta": {
+        "sha256": "764273861d618492f74cd079c7d265c94bbcfe5a62a3749f1e6511420580834d",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides28.mat\n00"
+    },
+    {
+      "guid": "0b248784ee7ed6442abadacf365bd572",
+      "asset": {
+        "sha256": "6b7344085dcdd4b87609500501f2b15d47ec978106fe97c16fcc71b5423bba10",
+        "size": 2907
+      },
+      "asset.meta": {
+        "sha256": "242679e84015091a1805ee9b8b4760fe18785e2fbdcffc8a7244827c6cdbe4dd",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides33.mat\n00"
+    },
+    {
+      "guid": "bb29f115b4432c5409ead5497119a545",
+      "asset": {
+        "sha256": "b4bb5376467f9492a9c600c3c605748f21fb5d83602efdc76d610cad10c5ec4c",
+        "size": 2998
+      },
+      "asset.meta": {
+        "sha256": "8f8023d1d2188ae29e4a7acec74bf0ad65f730ccca216a1d67713d117b40b215",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides34.mat\n00"
+    },
+    {
+      "guid": "7bd859ac9e635ea40b972e5369226b91",
+      "asset": {
+        "sha256": "1d2a9118b6b53182ef56f78247dba8ecf422d08d608723af8df90ccc92e3a1c9",
+        "size": 2951
+      },
+      "asset.meta": {
+        "sha256": "fce6a40fe3dda54e7dedca93f9f48e83a04c5ccb85405bc3e4422ae0dab6c756",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides35.mat\n00"
+    },
+    {
+      "guid": "84fc9d4673a68024fa94b8a5ab734f08",
+      "asset": {
+        "sha256": "7427b62d3173618cede505cc8a67a8800d5a7d2c3b496181fb9b0500a2cf837c",
+        "size": 3217
+      },
+      "asset.meta": {
+        "sha256": "e30aceff8be14d0168d8c52f5d1e8ad1c03a8bef8b13922bbb10b83dc72fa283",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides36.mat\n00"
+    },
+    {
+      "guid": "2502ef35cb004fc42919b2fa6523106f",
+      "asset": {
+        "sha256": "32594babf2b7c1ea4f5c4098908fd456cc7d227a424162e9e9b0c72d9ea067d7",
+        "size": 2902
+      },
+      "asset.meta": {
+        "sha256": "65752c756bf5d4fe2bdb5af659e617c1e398a7a74663b2b89942eebc262ca427",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides9.mat\n00"
+    },
+    {
+      "guid": "dd3bccca54963a24d937ef8ba34a577d",
+      "asset": {
+        "sha256": "65c5844556097e271d9849d8e2bd4fdb6fdacd87adc4cd8ec9b1b915d45ac1fd",
+        "size": 2021
+      },
+      "asset.meta": {
+        "sha256": "5d07e5838bae5e3831eb49a458ae3f38dbaff50b7db8319879a21fe7897f43a1",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/WaterPoint1bcg.mat\n00"
+    },
+    {
+      "guid": "8a2d576b47babc843a00f97e63d4ef51",
+      "asset": {
+        "sha256": "dbcc5b9e31d68f7dbd985469e7c6a34c0ad411e6f14d93cfd453a69433192187",
+        "size": 3006
+      },
+      "asset.meta": {
+        "sha256": "8f64e6fea9d8e1a1eaa137d3b5c3bca9fbd3e81485f2e4f771a90acf26894b0d",
+        "size": 188
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Materials/Waves21cg2.mat\n00"
+    },
+    {
+      "guid": "96ce1f4397dfd74418127c287c5c1c21",
+      "asset.meta": {
+        "sha256": "da21ea162065d39c8547b13cf18f6606ca46f80cc019325abb0aa2ab424b579e",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models\n00"
+    },
+    {
+      "guid": "3ad86eb5b8dc2e941a291441f8446711",
+      "asset": {
+        "sha256": "d97a0898106f98bb42e8d96d4a51e70d4b47bd4a411ec3799cabcb14f957f4b8",
+        "size": 154524
+      },
+      "asset.meta": {
+        "sha256": "9575c6a7a0de3d4effc642c096da66d01ccd007075a8e6fd9871567c57a4fefa",
+        "size": 4814
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/Apple.fbx\n00"
+    },
+    {
+      "guid": "71ed97187ac84c94ab903c47a50d507b",
+      "asset": {
+        "sha256": "e9786ecaf6c4e52c234baa52f2d64a9ea401831546a61717bb0e63151987db14",
+        "size": 11964
+      },
+      "asset.meta": {
+        "sha256": "08852c69f07457d20aafbf3809394fb21c294cde94600b603e8f063bf8a6ad55",
+        "size": 2224
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/Cell.fbx\n00"
+    },
+    {
+      "guid": "9f383b802545bff40a5639b09dee9d6c",
+      "asset": {
+        "sha256": "94245223c8f3204da54c9007b1f41ffbb5e3a1c3b0673c54f0f598cb7b4ef018",
+        "size": 13836
+      },
+      "asset.meta": {
+        "sha256": "0e0ae3b882356869adec08c30d444c46c5e66103d0f5c8ebbfebfca01235c73e",
+        "size": 2239
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/CylinderFromCenter2.fbx\n00"
+    },
+    {
+      "guid": "82dbd8e3418cba140afc86fa4b355d35",
+      "asset": {
+        "sha256": "7ca59cfa1f274828fe130dac53ebbf9fa7984e1b056fdc28dbc036c648de0254",
+        "size": 13612
+      },
+      "asset.meta": {
+        "sha256": "c9d7ae6ec91e5b3f5ec12496fc977648f8b152da9888544e9491974a3c2d22e1",
+        "size": 2239
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/CylinderFromGround.fbx\n00"
+    },
+    {
+      "guid": "8a32b27e8f16c3143b5895f52bccd93d",
+      "asset": {
+        "sha256": "70bf4ed0d5a0cc36253086aee7de243a08f07da2041b816f2a078231aca942e4",
+        "size": 14972
+      },
+      "asset.meta": {
+        "sha256": "c64fa2db6a1f41cc7f9880a328b292c932ce1d0fec684c34f48a14b874b3da20",
+        "size": 2247
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/CylindricalCone.fbx\n00"
+    },
+    {
+      "guid": "b2f8b571d854cfc42962427536e286b9",
+      "asset": {
+        "sha256": "d8af6218b5213478f7f89a6c1a523088a17356109c9f041a1c7c82321a0e09a4",
+        "size": 15340
+      },
+      "asset.meta": {
+        "sha256": "6691b106096c5609ee7ce32af5626caa7f03e279517f6eac6b4797139e81116f",
+        "size": 2248
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/CylindricalCone2.fbx\n00"
+    },
+    {
+      "guid": "a10cbaeaaec36a74593b35af91197afa",
+      "asset": {
+        "sha256": "cb9044c2cb2575ac4e6af6bb2c9ebf2051f37966681f4777adb5d0456beb9e6a",
+        "size": 20700
+      },
+      "asset.meta": {
+        "sha256": "76d331e9e32dc4ec6d2496a829b345a9a0061af520efdf020b357d2b90c7b632",
+        "size": 2226
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/Flower.fbx\n00"
+    },
+    {
+      "guid": "3e7e92633d750d440b9551f9f4bf95aa",
+      "asset": {
+        "sha256": "197444dd57646ca1434d2ccf8a21ef73d0bb4cba3073c39dc6fb08e94c129a81",
+        "size": 11964
+      },
+      "asset.meta": {
+        "sha256": "cd7806a49f75c387d7c044819320c49c769b1b6bb106b4c01ff0424850ee5b72",
+        "size": 2271
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/HOVLCrystalPiese.fbx\n00"
+    },
+    {
+      "guid": "6fc61f78cba1f0245810b085c93c8eb2",
+      "asset": {
+        "sha256": "06def4d9bf6dce4f7837f08f338eda9407084d243a9be1b797200e72f893b1b0",
+        "size": 16892
+      },
+      "asset.meta": {
+        "sha256": "894e09070ef42bb790b95faa0216cc4b3fd7b02ef5534fc3fffa157460d39ed8",
+        "size": 2409
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/IceSpikes3.fbx\n00"
+    },
+    {
+      "guid": "e92ce5cb618463747a46a37577014970",
+      "asset": {
+        "sha256": "72127ce56699e5d53286084d4c1f01b33eb11174bea7e79d876907c4af16971e",
+        "size": 40636
+      },
+      "asset.meta": {
+        "sha256": "1e141390b061f8dc3958fc36fdf89283828c8912abd572679b18fabc97dd873a",
+        "size": 2227
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/Icewall.FBX\n00"
+    },
+    {
+      "guid": "c8d5a7358c9bf01408461da3ee546b65",
+      "asset": {
+        "sha256": "6b6a49b2bbf88d205d8386b333b927d215564cfb9d3ebec873d5c8a66d60c2f3",
+        "size": 46556
+      },
+      "asset.meta": {
+        "sha256": "d372132326c3b387f0b48dfa2c9a10a603074b8e643937ec847d518a21392634",
+        "size": 2229
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/MoonSword.fbx\n00"
+    },
+    {
+      "guid": "fd5d3621bb45e944d9921d10d00fe43e",
+      "asset": {
+        "sha256": "cbca661590cc7bfd58d98c639243a5fa18f2e1de15718e98744aafc20d5a69bd",
+        "size": 25084
+      },
+      "asset.meta": {
+        "sha256": "96e0868bb495b02b3c50d4be14b963d4bc593f5c31c47e0382df86cc440d64c4",
+        "size": 2225
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/Path6.fbx\n00"
+    },
+    {
+      "guid": "c9b3eaae0aa575c4db6feb3ae6fea5a7",
+      "asset": {
+        "sha256": "1c776cae844a6916168c7a8f475d1ee024fa9a1617c4c18225f8bafaadca8e7a",
+        "size": 18700
+      },
+      "asset.meta": {
+        "sha256": "66578b196b89859aedd9d796832f29327c6193c19233820036d3c5172e4bfdc7",
+        "size": 2232
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/QuadToCircle.fbx\n00"
+    },
+    {
+      "guid": "948445baaa8facb48bcd4b98b2bf4645",
+      "asset": {
+        "sha256": "2527afa9fa9a9b29d13de7abe09626320937fc062d82647a4a9ca26f6c9a8a36",
+        "size": 12140
+      },
+      "asset.meta": {
+        "sha256": "840f735f5f4740182c4ae3c334dc890733bbba51a7b3f4be819323a2165a4d86",
+        "size": 2603
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/ShieldBeam2.fbx\n00"
+    },
+    {
+      "guid": "3404b6599a9a5b043aace8c0e32e6e9b",
+      "asset": {
+        "sha256": "350bde9de156d845bacd6669c16d8f3451417ce84458fd9b898a8ce2652d7f79",
+        "size": 73660
+      },
+      "asset.meta": {
+        "sha256": "7d13ba58e7f59e019eff8a3d0001f65e6447f9e6f0edbc5c88c8225ca97027df",
+        "size": 3383
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/ShieldBeams.fbx\n00"
+    },
+    {
+      "guid": "98c5cf133c979c34fa5a18564b9d9a05",
+      "asset": {
+        "sha256": "bbca04e6a6ce3a7cb763305fde5800cc2c6ff5ae500f8ddde5b42e24a73303fd",
+        "size": 12396
+      },
+      "asset.meta": {
+        "sha256": "a5dc3885fc0abac83d56d271e5fbeebf240dba389f526b47eecc521ca8374a8c",
+        "size": 2232
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Models/WaterSplash2.fbx\n00"
+    },
+    {
+      "guid": "4c95898c9961d34489f192fca866e526",
+      "asset.meta": {
+        "sha256": "e89aac823a3a90ecea237fe5e863d210f9fc98691b2ba4fbd86c6bef853cc005",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs\n00"
+    },
+    {
+      "guid": "6793f95c16800684fa801e00201a9e4c",
+      "asset.meta": {
+        "sha256": "f5af3f38080387ce3ca9e85bd67467fea7a67b976fb701e62b3615eb2e5e0399",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple bombs\n00"
+    },
+    {
+      "guid": "91d25cd660e16da4ca46b52bc558628b",
+      "asset": {
+        "sha256": "37a11284cb908e499b9d6f84c227e94bf3b515ca7ae7f67e169f9dc4c1183a1b",
+        "size": 226110
+      },
+      "asset.meta": {
+        "sha256": "c3cfe60c79f35a18e2f488020421ec3651a52858f135470e0fefc3ab5ee17012",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple bombs/Apple bombs.prefab\n00"
+    },
+    {
+      "guid": "31ffed627fb52de4cb0f05a93a3e5bbc",
+      "asset": {
+        "sha256": "2f09306babad0bc484ced4c09d77e06971e98dd9e7483ad43e9242628ad2fba1",
+        "size": 970893
+      },
+      "asset.meta": {
+        "sha256": "4d647ae4b456d4d1a731d6aa9fb245893c173454692ee68293f6488ef948f78a",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple bombs/Apple.prefab\n00"
+    },
+    {
+      "guid": "0509b56b437d5124eb31ada8a40930f1",
+      "asset.meta": {
+        "sha256": "e5cc96062792cea43d74590b9d18d48aca6f29abcc76bf07648efb4aae41d820",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple of Eden\n00"
+    },
+    {
+      "guid": "7a9099a1b7f90cc4aba605375ae3bbf4",
+      "asset": {
+        "sha256": "c9652181d13cf4960c24adbb75e6ccf856d06aabd597d2d403937e296a57c704",
+        "size": 1362292
+      },
+      "asset.meta": {
+        "sha256": "be02e405b0c5fc2d1b905970b46c82243f3aa0dea232cc65cec4f42f25c1dba5",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple of Eden/Apple of Eden.prefab\n00"
+    },
+    {
+      "guid": "bdbfc4bdcd09a1d469b8833840c23082",
+      "asset": {
+        "sha256": "f3d538273b4f54eeec087a981c07a0d19a25531214187dc691bfcba82d9fab2b",
+        "size": 2189878
+      },
+      "asset.meta": {
+        "sha256": "75547a424645a77a20e46db9fbffbe4f552c6852c4811d951dde845bf5495abe",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple of Eden/Apple.prefab\n00"
+    },
+    {
+      "guid": "b3fec2feaa2203247bd2b7de5821217a",
+      "asset.meta": {
+        "sha256": "8484b63dfe1793ef0add551f7da7146440b76bfc8abf0f7a233063aec732005c",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy buff\n00"
+    },
+    {
+      "guid": "aa640b9e87b32814cb9ae49e1ac7463d",
+      "asset": {
+        "sha256": "6c5ecd32c17e008ddee6e83473e492bae4ecc7055fece8f1d3fa4941657b4b25",
+        "size": 1544072
+      },
+      "asset.meta": {
+        "sha256": "7659e5bb2919775dbdc2c7798a045db5dab4c3d02c0b65eb7ba4f2af7d0221bf",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy buff/Energy buff.prefab\n00"
+    },
+    {
+      "guid": "4199baedc0ca9e844be3e2e3841c768e",
+      "asset.meta": {
+        "sha256": "5a6dd627e8bb256bebbdd97c3c24d2addf3b88e235a50301c1ee135d1b1cfc4b",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy shockwave\n00"
+    },
+    {
+      "guid": "53b9544a6946cbc44a783a922b999bc6",
+      "asset": {
+        "sha256": "a9c68945873112f42c88b2af6256e50198df47acb50c4f1462c44f581035bf7d",
+        "size": 1368899
+      },
+      "asset.meta": {
+        "sha256": "bae3d05f671ac13148f271d3e6826c7a1b9dd4cc64201bcdeae33f6ce8826c27",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy shockwave/Energy shockwave.prefab\n00"
+    },
+    {
+      "guid": "66e1d8d899ee6644fa925a8828afb44b",
+      "asset.meta": {
+        "sha256": "15281fd73631abfa3175afb7b21459d66801aca229573bc910cf358c474a9aca",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors\n00"
+    },
+    {
+      "guid": "f3b3d3ea380de1f42a8fdc9ccb9efb89",
+      "asset": {
+        "sha256": "932413b30b3f88353439047aecc0c2046c97a3c33e79826860958fc4c7b2ea71",
+        "size": 118448
+      },
+      "asset.meta": {
+        "sha256": "e9fa9303e1f022a88d367e71bc8be9bcebf96d9cbd76ddfb0a9c0c446665f7cb",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors/Fire meteors.prefab\n00"
+    },
+    {
+      "guid": "eb9f695c41d3f51439feba06a22b7924",
+      "asset": {
+        "sha256": "119372a845c5e2f8240ad723d8fbfe863f532a5f9c6f0df1f1cd0dde61cd1e28",
+        "size": 1702552
+      },
+      "asset.meta": {
+        "sha256": "784701a374598d6e38b69745196fc1c4133c4354882ab8f0f2293704eccc1584",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors/Meteor hit 2.prefab\n00"
+    },
+    {
+      "guid": "c4d9515b3fdbed946a27de6b61d77a07",
+      "asset": {
+        "sha256": "24713de99089bdb381b48a836e39eea803dc8f80d45e1db07ff09295ea256f90",
+        "size": 1702830
+      },
+      "asset.meta": {
+        "sha256": "de81ce75ec1d48563b560d5a5abed2c5014579a4c23b9a8869a5620c584d2661",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors/Meteor hit.prefab\n00"
+    },
+    {
+      "guid": "f745e4f6b3cbc714ba41b0d5ee9f9218",
+      "asset.meta": {
+        "sha256": "5690e85c00cb5caaf5cfb9cff4fa7f993f36619134957509e52a6474592e44db",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall\n00"
+    },
+    {
+      "guid": "a1fd51e33143bf84fa8bdbd6ef485348",
+      "asset": {
+        "sha256": "6757e2a65872416c01aea8d3f509865d475d23cdbd5fa6a19abacc6768b21d5e",
+        "size": 800988
+      },
+      "asset.meta": {
+        "sha256": "ca4c5020b42c492798c026dea79026ca8ac1d436f164df64a5561ede30797c82",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Ice wall Style 2.prefab\n00"
+    },
+    {
+      "guid": "ded1c96ba26c75041b7877e882e6f62e",
+      "asset": {
+        "sha256": "524688f39921442947b1f02e9f78f10d4e7a6212cfaece017e9519d115031893",
+        "size": 800980
+      },
+      "asset.meta": {
+        "sha256": "ce7aba4f83c03731c6d6933e9ad873b42d54769b560f1786e7a7a63224e2d6d3",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Ice wall.prefab\n00"
+    },
+    {
+      "guid": "71be81d0b0d952b4a9fe2d27f3e54d36",
+      "asset": {
+        "sha256": "8d0cd51de49db86c9bf4362f3776556e7add62e62c5330db23df4e3dd43803f9",
+        "size": 1265221
+      },
+      "asset.meta": {
+        "sha256": "da9febcf33008936ddaa3b42dfb3e2da0615bd85ff5e5ce19f57fa3f6fe1d279",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall.png\n00"
+    },
+    {
+      "guid": "7d56a0f447b9a194f92bcbc1793d7ceb",
+      "asset": {
+        "sha256": "01af204b62292a27cb5c5af5867115f76591d65937d9d109e30c8ad16f601022",
+        "size": 1427406
+      },
+      "asset.meta": {
+        "sha256": "5ce93907f935de069f4433384f3d83cadd2bbdae1e6c3d4c47d9f29f76648dd9",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall_2.png\n00"
+    },
+    {
+      "guid": "c82c4bf76b03d4541bdf313cad920423",
+      "asset": {
+        "sha256": "f41bbdff50d3b5dbcff7b00824ae1498ba2bc2d4948c6c035761721967484bd5",
+        "size": 506681
+      },
+      "asset.meta": {
+        "sha256": "213afd835fde32e7f6512138d0c8d592b4241cafc65b245219508df9983dd41e",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall_emissive.png\n00"
+    },
+    {
+      "guid": "aee1a347dc49cba458209815275f2a38",
+      "asset": {
+        "sha256": "182cf4537f4eeaf376c21d6328886ce8d78297411c3a80cd864fb0b274f282f0",
+        "size": 745787
+      },
+      "asset.meta": {
+        "sha256": "18a3d6665b4912a2a4785c31bc1ceafc49de9082b164aa6f077f08ea07744031",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall_normal.png\n00"
+    },
+    {
+      "guid": "6e84ec77ee2b3f3468682f87f1b5616c",
+      "asset.meta": {
+        "sha256": "dc849fc0730704f9d58dfe701544c4becd745d07f5578a047add673ab88c72c2",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray\n00"
+    },
+    {
+      "guid": "57f9bae16675de6479e152e7dc9e88ad",
+      "asset": {
+        "sha256": "b734eeee9d8ec453a7ee33e51fb6717037eff840b31ac4154ae4690d5009c8fc",
+        "size": 567685
+      },
+      "asset.meta": {
+        "sha256": "93e7142f149c29b1872a60c36a718afb8d93bf0d48c6f7d22bea1e5161a0be43",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray/Magic ray attack.prefab\n00"
+    },
+    {
+      "guid": "5cffc870d57654a468bca4967b4c967e",
+      "asset": {
+        "sha256": "4eca238411e1d1524cd2f946fd3ca06e030f5a979d12096a32b3458ad3b20bc6",
+        "size": 2022101
+      },
+      "asset.meta": {
+        "sha256": "00acd3dfcd95c84f0843bd3f362d7fdc317bdddc5031c24ddd5aea5746021f69",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray/Magic ray long.prefab\n00"
+    },
+    {
+      "guid": "e63053b75dd9aa84a9939d174c9f4581",
+      "asset": {
+        "sha256": "da0b5c0eab745cee6d4879f11e13720e7848048971e4c9290661e5a522089f77",
+        "size": 1940052
+      },
+      "asset.meta": {
+        "sha256": "5b9d23a721b5bcbaee1905ce68a8dc1e29438afc55d2ea9bcb68201314fd93f8",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray/Magic ray.prefab\n00"
+    },
+    {
+      "guid": "a2299c45b0d46914289b0d163aee24c2",
+      "asset.meta": {
+        "sha256": "cde3f28100d0e78be4901f7f349b53e1be016a8b708a928061f19ec07fba28c7",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Sword air attack\n00"
+    },
+    {
+      "guid": "0d203c111d7065d4cb86eea48b3d7c73",
+      "asset": {
+        "sha256": "572e2addbebcbf1bc104469effd5cd8c27743bdab8dc36b5a361af3d3b9aee6a",
+        "size": 1475887
+      },
+      "asset.meta": {
+        "sha256": "eed7ae0c637bf1bc64b4bc9316d48f812cd61c206463309685c4d0f1ea62615d",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Sword air attack/Sword crater.prefab\n00"
+    },
+    {
+      "guid": "9dec8624e3a0a47479378e72336142c0",
+      "asset": {
+        "sha256": "2cfbb7ebd321baf1a72d0ad7e1341f9e84ee89f4375f8877ae55b6104c23debb",
+        "size": 455288
+      },
+      "asset.meta": {
+        "sha256": "d31394e3c5a6333ee60e00fcc2f581875427e4703c2864395c36681305c9c734",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Sword air attack/SwordAOE.prefab\n00"
+    },
+    {
+      "guid": "55aae6ba344a2f148a852a5f2995d776",
+      "asset.meta": {
+        "sha256": "dfb3256a22e9f04c531151d3ff8f9772908582ff697a5dd11ca8dd48f2f59dd0",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Water cannon\n00"
+    },
+    {
+      "guid": "f36d0c49c723b3b48a2fda6ce4f54837",
+      "asset": {
+        "sha256": "47629eb311d5eacfe82d0bb9150bb5ff7c55a3c20db11e9f3004665c18f9a786",
+        "size": 1140621
+      },
+      "asset.meta": {
+        "sha256": "4b00e66e5e7f7e291c35697e3caab9ed8e2f466dc065f022746e2b5fc3531835",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Water cannon/Water cannon.prefab\n00"
+    },
+    {
+      "guid": "d624ae82b55e24049b6883c1881e9fe1",
+      "asset": {
+        "sha256": "a7eac463f5b250c924331fabbdb7d16490a87240c01c69e82f36586c226e708a",
+        "size": 947261
+      },
+      "asset.meta": {
+        "sha256": "08f57f46d329eff31bfdf88c8e1a9d7f470158bd4c40bb44dbb18973afb1b35b",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Water cannon/Water hit.prefab\n00"
+    },
+    {
+      "guid": "b9a46bee95c072742b4cfbee3414cc47",
+      "asset.meta": {
+        "sha256": "a380bfd81699c7588887793773d66373243fcab0d5fa9ca0f7d054ef94ac83b3",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Wood shield\n00"
+    },
+    {
+      "guid": "63da88641e4a7794e928b312b1b06a93",
+      "asset": {
+        "sha256": "425dc2b21bbaac49ac1e3e28d5bde09dbdff18e95957b30273a41fed983ef938",
+        "size": 3205087
+      },
+      "asset.meta": {
+        "sha256": "486b501d08f4f0ab6e74fa01ee84e81ef6aa4a8ca87061942a9de64b62c7774f",
+        "size": 190
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Wood shield/Wood shield.prefab\n00"
+    },
+    {
+      "guid": "34707b2aee2ae8c4583f54c9172d7194",
+      "asset.meta": {
+        "sha256": "412b2c175271a845cc57f8aca8434feea22a2eb449639b131e26147901a9eedd",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Scripts\n00"
+    },
+    {
+      "guid": "a79ba5bb0b3780b4a98ce45e779b6441",
+      "asset": {
+        "sha256": "3ca1589241571413ef004758b31e493d70091b0c1e7fa8e08e0d1c882c8bfe4d",
+        "size": 909
+      },
+      "asset.meta": {
+        "sha256": "92409f6f4fb3d08dce491d8d89bf4acbee443bd978e916cd2c88e24158c8c604",
+        "size": 243
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Scripts/EGA_EffectSound.cs\n00"
+    },
+    {
+      "guid": "acbb7810273873d4a82423fa8fc12ea8",
+      "asset": {
+        "sha256": "e2628a2e0e124c14ce1848a292d2bb0c8a52ac5a3b51876dfb73b5fee6151d89",
+        "size": 1208
+      },
+      "asset.meta": {
+        "sha256": "bf4a4e0c256bc6794c4e139b3de3f9bd084f4f1f52500f452f0134e2d6507cb1",
+        "size": 243
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Scripts/Hovl_CellExplosion.cs\n00"
+    },
+    {
+      "guid": "33fc6307c11f1c140baef79ca882bc65",
+      "asset": {
+        "sha256": "29984d3ec9cdbced22c7e782935c0bfea8af2d0371bd4651c4ca2e1c220cdedd",
+        "size": 685
+      },
+      "asset.meta": {
+        "sha256": "df2e61d5e1d2a34a58accf70a1e762a2b19e62d8711c3873c4d6783ef6858053",
+        "size": 243
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Scripts/ObjectInstance.cs\n00"
+    },
+    {
+      "guid": "1a959a1b0b8414d4fb8a68bdc12d69ed",
+      "asset": {
+        "sha256": "f0237ea3d944793a18fda07a324fd52e63bf360dba2e5a333a4e3ec45b3b8d1e",
+        "size": 2068
+      },
+      "asset.meta": {
+        "sha256": "591cdc040ae42229d2b30aa2ed891f4c2cfa541d64856a8945f5de7f7eff0a3c",
+        "size": 286
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Scripts/ParticleCollisionInstance.cs\n00"
+    },
+    {
+      "guid": "eb1b1472e46fce447b3f63dffe9be633",
+      "asset.meta": {
+        "sha256": "fdf0f624dc32adfd7821e603722bb74191490750a685d8102656fe77bec5fde2",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders\n00"
+    },
+    {
+      "guid": "bd6af5d577c618947b73aa60db554e51",
+      "asset": {
+        "sha256": "615c76eb30a5420571dad7d888f3ac20a02f17aa80e96f2f00a6bc18190d7a52",
+        "size": 14924
+      },
+      "asset.meta": {
+        "sha256": "96335897124693494b6a89fc99c5a9820f2358a94a17f9cc13920acd396fa36e",
+        "size": 230
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Add_CenterGlow.shader\n00"
+    },
+    {
+      "guid": "65ebf61e1c6310c4aa8065768071beff",
+      "asset": {
+        "sha256": "180675a7772b882af6b855d754351b146720cb4b2e5cd5f9edac700f15016be2",
+        "size": 16410
+      },
+      "asset.meta": {
+        "sha256": "8c8b3dcde3258c1dd1a175b4623b382ecee43ad919af4a2c3bcba02dbf803c1e",
+        "size": 204
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Add_Fresnel.shader\n00"
+    },
+    {
+      "guid": "b68b99c2e57cef4419465c63c527201b",
+      "asset": {
+        "sha256": "103f1c7a297f31aeed7e01c459624bc17a8b7dc817caac19046ce78935357570",
+        "size": 15070
+      },
+      "asset.meta": {
+        "sha256": "7fe6082524ab0279bf681c0e7c53ab64bd6443c94ce4c79c0928a7ffe2b9c98a",
+        "size": 230
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Blend_CenterGlow.shader\n00"
+    },
+    {
+      "guid": "56bedbcbfe68e1345a5e87fe73790dab",
+      "asset": {
+        "sha256": "7328d4cef375ddc029786b037fb4993b3d6d5ce4da27e2b722950015fa14e09c",
+        "size": 22426
+      },
+      "asset.meta": {
+        "sha256": "3b132b2ab434ee2d0e090eff46dc5b7826d93b30557ed5a38e1c8d60fef02d78",
+        "size": 343
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Blend_TwoSides.shader\n00"
+    },
+    {
+      "guid": "145bae762d8de8f4c8fb1b284128fae7",
+      "asset": {
+        "sha256": "cacfe5358a78e37ce159c9c392e35ad1caefe2821a73158aa30bfd2e657bf33b",
+        "size": 18952
+      },
+      "asset.meta": {
+        "sha256": "d55cc9d59b0891f92c8060156de13be03920e0144a6a3cf605c6b44276fb8ba8",
+        "size": 204
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/DissolveNoise.shader\n00"
+    },
+    {
+      "guid": "36121c42b945b624fb938cb9637f28d0",
+      "asset": {
+        "sha256": "f8398249b9efb17882a9ecc7c6e116268d2a705c056608654628ca44006138fb",
+        "size": 7190
+      },
+      "asset.meta": {
+        "sha256": "81aebdb399db699e0e7e4410879fb6e3b16aa65d5efe6ff5ba9b17916adf2efd",
+        "size": 204
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Distortion.shader\n00"
+    },
+    {
+      "guid": "e52f9f0dc7121e64baa4b3c726594e61",
+      "asset": {
+        "sha256": "ebe401d9e232c131c0d26cc8697aceb633f4a07478fc35f52611b9cb27b6afa3",
+        "size": 7976
+      },
+      "asset.meta": {
+        "sha256": "bb22d2962a8d494eae9b3519c2697cb5bb108a507e16b9836e156c76eef23c37",
+        "size": 204
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Ice.shader\n00"
+    },
+    {
+      "guid": "13a43378542625f489f7c1c85ba6a4c4",
+      "asset": {
+        "sha256": "bf98f640785c55d1ced251052b69bf0acc9b31613217f61bc76938662b1f521f",
+        "size": 4163
+      },
+      "asset.meta": {
+        "sha256": "b4bac73bbd6afdb2f8bd32a17f151ba18bc68e8da94c26b9e2ba10c135c91cd5",
+        "size": 204
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Lit_CenterGlow.shader\n00"
+    },
+    {
+      "guid": "acf6bbeaf968370489a7a6d6d211a26a",
+      "asset.meta": {
+        "sha256": "806207c1baae05219b86aac36291452023cb01ac3f8c79b7f622ddd929385ef1",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds\n00"
+    },
+    {
+      "guid": "2a51fdb0c81244f498be9bcba9823b3a",
+      "asset": {
+        "sha256": "3a3432553061d4a357f86170529d05f6a8cedc2c8d492fc8547cab4cfa00b703",
+        "size": 263332
+      },
+      "asset.meta": {
+        "sha256": "bcc2e8bacdaf9b09c6ceae70959b54112395a6622ca7e99aecf4ada9a15c0524",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Apple bombs.wav\n00"
+    },
+    {
+      "guid": "7deba3ada87fdb8458933cbad694d9e6",
+      "asset": {
+        "sha256": "25ccc67cd5148bab9cfa3e66bf846b3c10f6e2cbc22712ff2ef23b02123129df",
+        "size": 662236
+      },
+      "asset.meta": {
+        "sha256": "b00ba6d3fb93e5c67096658e1756ba73c7c21aa2109ec408a2b411cc2efe131a",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Apple of Eden.wav\n00"
+    },
+    {
+      "guid": "5fbdbeaa5ea3c6444a93c7463ebb13fb",
+      "asset": {
+        "sha256": "f6610d0a70d5c02573a2a2eac2b6488cb2cb73a60b0ccf7e0ca8cd7a255ca22d",
+        "size": 460404
+      },
+      "asset.meta": {
+        "sha256": "4f1651ba204f3d10f9fa8466eb812d427b407a5e07951ca98e0f9a5521c0aac6",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Energy buff.wav\n00"
+    },
+    {
+      "guid": "acffe8bbe4e91414eb554414c68cb8ce",
+      "asset": {
+        "sha256": "790dc89b62dba6af3179bd025725a7876222d5f2cc3ecb23141f44a52430fa70",
+        "size": 662236
+      },
+      "asset.meta": {
+        "sha256": "971e1e71160630866f9481787a6075719b5307e78f6650ac126e1754bb95a9b0",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Energy shockwave.wav\n00"
+    },
+    {
+      "guid": "f2bdefaf170c9cc478eefbac7703e59e",
+      "asset": {
+        "sha256": "49ef036b3fdcfefb03e49bdf809a092479ffc285b61da87b3b19d46e0b80ffee",
+        "size": 353536
+      },
+      "asset.meta": {
+        "sha256": "06cbf097d1bc7016658826a3ef22d2360e6f2bcd1f5cc0d6fc64552e16e82754",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Fire meteors.wav\n00"
+    },
+    {
+      "guid": "4021c1c43e6b77a4db13313e98ae1f00",
+      "asset": {
+        "sha256": "96dc82a798a507ee90a7f2d26c5232ceab990f51e33322e0a8299561c27a01c9",
+        "size": 254312
+      },
+      "asset.meta": {
+        "sha256": "56a2e6d7b7f37b509ef8a63d2ffe8f29829c3c96c948e25b56cde9acca1854e1",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Ice wall.wav\n00"
+    },
+    {
+      "guid": "859d6754b495aa84abb2caf390530940",
+      "asset": {
+        "sha256": "cf37e1d7c16927dfd4ddfb1ba4fab50983efb7c69823ec5c7061f0a27624aae9",
+        "size": 342512
+      },
+      "asset.meta": {
+        "sha256": "5d58e9ac171932dde032b6df08d44cb7fda1c77151c6c191543a8fb7ccb37b58",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Magic ray.wav\n00"
+    },
+    {
+      "guid": "6f9fcf0be0e27104882841bf473ec5b3",
+      "asset": {
+        "sha256": "343f24e8e8aee58f490798f34bcf5b6c22b09ef3ac519777f2edf5f503642671",
+        "size": 507888
+      },
+      "asset.meta": {
+        "sha256": "5f5e0b0cdd49da42bb7ebe3875ca64905fd69ffcda14195379df6f57d8bd301f",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Sword air attack.wav\n00"
+    },
+    {
+      "guid": "d1cc0aed2c0eeee47995028b00cdb97a",
+      "asset": {
+        "sha256": "3459aeff34273057b913de3137202ef8ca6e35f73dd89caa45800f8980a9d22a",
+        "size": 199188
+      },
+      "asset.meta": {
+        "sha256": "ce02f960840f92b571c373fcb7561b1ed4e43eee37d07f1cf9dc6dd05d4ed865",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Water cannon hit.wav\n00"
+    },
+    {
+      "guid": "fb36fbdef91335448905abdd5f2a8f7e",
+      "asset": {
+        "sha256": "6ac10e9011c5c98ee3d3ed1544e5ce6b29287e7f2bfb2f088d319055793fae0d",
+        "size": 462444
+      },
+      "asset.meta": {
+        "sha256": "f5787857becb97c4590c68adbfaccf85fe39cd53b5ddc9c6c9e0fe5a8fcc5359",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Water cannon.wav\n00"
+    },
+    {
+      "guid": "f45057dc6635fec4387f7bd8d151dc23",
+      "asset": {
+        "sha256": "1a68f1f5527a33a6682335a08e78f2bac33efe9e8e494e1da5b08b7202f41150",
+        "size": 298412
+      },
+      "asset.meta": {
+        "sha256": "69d1d3b7034f5c23e414161ef933561e9640eb49a133eefe522ef772bfa54338",
+        "size": 458
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Wood shield.wav\n00"
+    },
+    {
+      "guid": "150a1b01070ccdc4cb3cb58ede2504b8",
+      "asset.meta": {
+        "sha256": "1a64ac863518044206221e6230250d707470876000083c979463a28580a045c6",
+        "size": 172
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures\n00"
+    },
+    {
+      "guid": "cee113ca3bf16624e93b971a51307899",
+      "asset": {
+        "sha256": "b8f1c9cfa729034696444849e87242671bd333893f98297a3caacec9228903eb",
+        "size": 348076
+      },
+      "asset.meta": {
+        "sha256": "af58e9a1cc78e4ff8f63dc92d103af56245451482d403dd826d61123d07bc164",
+        "size": 3097
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Apple.png\n00"
+    },
+    {
+      "guid": "a26fa90df540054479abb3f8fc10a5e0",
+      "asset": {
+        "sha256": "ba2adabafcc5de18becc39229d59d9fec1b05b0b5dfcf77f871a0272105896b1",
+        "size": 241027
+      },
+      "asset.meta": {
+        "sha256": "ceba64cb85a7437108ccb26014b1d4f53df1aa27d750b8b53e68b9cf915873ab",
+        "size": 3097
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Apple2.png\n00"
+    },
+    {
+      "guid": "4cdecdfbc6f2fa34689b6691b5d55879",
+      "asset": {
+        "sha256": "a79d4872735cad8ecfe7f31860aa117a91866e303a999fc9c41f251fcdae4df7",
+        "size": 86835
+      },
+      "asset.meta": {
+        "sha256": "ea334845730d6a60a2d72e2a9a60d0d3029b5778eb2fb7817cb191d4ad2a4c80",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Aura16.png\n00"
+    },
+    {
+      "guid": "69d82ab3328df5b4185e5860e0739897",
+      "asset": {
+        "sha256": "2cb5f42a278cd0c82598da7f0943279c33f786aedd6c9f87d927cb650afadf9e",
+        "size": 758126
+      },
+      "asset.meta": {
+        "sha256": "5f4e2ac0789f2d154bc9888796f89efda4fc94825666a1b5512c16973ce1e63f",
+        "size": 3101
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Circle107.png\n00"
+    },
+    {
+      "guid": "497f35906e684b0459b62e395f9be765",
+      "asset": {
+        "sha256": "e11a8e100dff45e8e46e04312755e2efdb59db911989c11f33ca6ed5e636f9c9",
+        "size": 171510
+      },
+      "asset.meta": {
+        "sha256": "15c9ddd57078815d4586dcce2da49d55b30e9f0c2199891cd06efd9a898a0129",
+        "size": 3097
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Circle96.png\n00"
+    },
+    {
+      "guid": "f9b2ffd8221a8584bb0198fe1857f143",
+      "asset": {
+        "sha256": "4c9295171a5bbec120e52e8aa19f9033a1d10b5c081fb7d969d56ecb02df14da",
+        "size": 48612
+      },
+      "asset.meta": {
+        "sha256": "763d2aa1d21514b5655e44132cd3aea302cbffcab890eac4e6c3ead9c592a78a",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/CircleBigMask.png\n00"
+    },
+    {
+      "guid": "e3bc86a54605d55459a5c878596eea59",
+      "asset": {
+        "sha256": "abd014bdb7a4369db25e5f59556c373d3e9c8f57eb7bf474e221a526b94f2fa1",
+        "size": 68856
+      },
+      "asset.meta": {
+        "sha256": "bc04f5077b0b40e11f1a31808b99729dbde4cb468ef343439b3122883af8d558",
+        "size": 3097
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater17.png\n00"
+    },
+    {
+      "guid": "b757888c0c90221499b2c530c0ff1624",
+      "asset": {
+        "sha256": "12325434bc38d758a21596f5d951dd12ef01bbe40c23ae98fdb28f62d083fb5e",
+        "size": 1774072
+      },
+      "asset.meta": {
+        "sha256": "1b83f5272255d64811ded45f8dd741a2b4855c0382886d3b9e05bb5402b53b25",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater36.png\n00"
+    },
+    {
+      "guid": "fa64409114f8d564d8dde73c320ae627",
+      "asset": {
+        "sha256": "d5db3a5d0d48218d95fce5e545caafa11b3522c6e0098f440fc36652758b5664",
+        "size": 273072
+      },
+      "asset.meta": {
+        "sha256": "dc7889dafdb23b30aa16cc59bbaf431ec77932d0e7d837e1b5c0631c4eec52f6",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater40.png\n00"
+    },
+    {
+      "guid": "1207b7bdd7025e64992fefc746e1955c",
+      "asset": {
+        "sha256": "aca1d121bc3085e2937a98dc4555f3320f9d00c30ef8b2b6d4f1cea0f389a826",
+        "size": 164112
+      },
+      "asset.meta": {
+        "sha256": "c9a788e7d93f20e3fa68e5e7ea4bb9415db88a80564f9c5c2272a361f8797d77",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater61.png\n00"
+    },
+    {
+      "guid": "c117261fc4380db45982f698966cdb33",
+      "asset": {
+        "sha256": "523d407c390473b08167b45478acc949f36e2c0554c400257884bbde6e9e1abe",
+        "size": 164800
+      },
+      "asset.meta": {
+        "sha256": "e916adf324d4a48073e6743cd1543b0b3c05be89b48edb228a389b6820250452",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater63.png\n00"
+    },
+    {
+      "guid": "5f4ddc499b4cc394aa27fb95c37b1ff5",
+      "asset": {
+        "sha256": "38648eb9eec12e0f0492f6b0479c5ad5cbfc584c46f18783363f3b4c504fcaa0",
+        "size": 76387
+      },
+      "asset.meta": {
+        "sha256": "72049890176b2dc2bb07bbd0c79e12bdb52c8c525fd19b1876f691d658403c98",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare10.png\n00"
+    },
+    {
+      "guid": "62f42cf95c5d20e43aed2ee326e4871b",
+      "asset": {
+        "sha256": "3409208314cf15ee2d52a014d7850923a989c751749da328c3b9eeabae0e086b",
+        "size": 80411
+      },
+      "asset.meta": {
+        "sha256": "d133fdd3a701969915729611fa7f389a3bd4fcb297b3a1f693be95bb3785dc9f",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare14.png\n00"
+    },
+    {
+      "guid": "947fe6f544d82394db98003a81460397",
+      "asset": {
+        "sha256": "07fd903932314c4e3ea2a96776e94afca9df5fd3c4c67f500baa9895862e7aff",
+        "size": 173736
+      },
+      "asset.meta": {
+        "sha256": "c39129c3513a62577b50581dd665ebf6bf282376361b002e9169196b2b637f2b",
+        "size": 3011
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare21.png\n00"
+    },
+    {
+      "guid": "fb60f4826d03c644c80d10aace44bfcb",
+      "asset": {
+        "sha256": "e78a7327bc90e118a5b53ecd32433e86a434f0d5c6a701123ab273028ad85905",
+        "size": 42371
+      },
+      "asset.meta": {
+        "sha256": "ef2079190dfd9f6d306b7939c25c5ff95e71242ffd3ca5c5888ae91378459473",
+        "size": 3097
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare6.png\n00"
+    },
+    {
+      "guid": "6c6076316faf3ec48b1600130510cc09",
+      "asset": {
+        "sha256": "f0fdae10f3280d0786127ff50292d4836490c6445dd773e499853ea06b0a7aa2",
+        "size": 356245
+      },
+      "asset.meta": {
+        "sha256": "563fbc064b509cf425d48ccbf95af74b2fd0d6079217f2fe2a1ca9a2a267a427",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flash21.png\n00"
+    },
+    {
+      "guid": "a739f31abb2aa0a43a78d4aabfe78bd1",
+      "asset": {
+        "sha256": "b7ddae86e9dee1483c066d3747fd48e6881fad43082475999d0a71a53bf18ca6",
+        "size": 51181
+      },
+      "asset.meta": {
+        "sha256": "8a1d10f9ae5924f15766e9db04228919e63f54bf19b61e53ff419900cab8675c",
+        "size": 2393
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flash32.png\n00"
+    },
+    {
+      "guid": "7605196420d204945843c4c794c58361",
+      "asset": {
+        "sha256": "2687c2b0aa3ec835f4a8d4ace9879b544be6b2887a865dd977bc6405b6e4ead5",
+        "size": 43916
+      },
+      "asset.meta": {
+        "sha256": "c765074993ebbd129963f4bd24012eba640e21ea26da7589145ea05d8bb92793",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Glow1.png\n00"
+    },
+    {
+      "guid": "e535306ab7c05d54294264b1d2c16fd5",
+      "asset": {
+        "sha256": "d4036854c3c3b8b712e5d8dca855d10955cbe8d5d69b18d86352371924ed8335",
+        "size": 1735
+      },
+      "asset.meta": {
+        "sha256": "714f7ae929589f9be2814cf95fece65a7b4be748306bf5b561e41bf53527ff79",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient11.png\n00"
+    },
+    {
+      "guid": "32a2a0fff0c45634fb83d8d541ab67a1",
+      "asset": {
+        "sha256": "23920f8efc3402a768d4aa7c776b8a6cfa32fd5026ed68e680c573a4f79ccbf6",
+        "size": 1329
+      },
+      "asset.meta": {
+        "sha256": "9865935fa411f8048dd5f47c41ba1be4454cb53cd8fd8b542fbb166d6bcd7b79",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient12.png\n00"
+    },
+    {
+      "guid": "61e68320eb0a34646ae9e7855bba9d92",
+      "asset": {
+        "sha256": "fbf7f22518fdd35f06f7e8f742fe42775bfadbf38f7689f9c85860ebb721bc04",
+        "size": 17870
+      },
+      "asset.meta": {
+        "sha256": "323a6c6b40aba9420c428a1571b7ca65afaae39a84ad804eb0084cd1cfc1c58d",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient17.png\n00"
+    },
+    {
+      "guid": "ed3a5efebe958ba429d350e04f14d1ab",
+      "asset": {
+        "sha256": "da017c2eb00fdc01a93ecbdb525caa0b358dafe9607b9db7617af07a5a1ccce4",
+        "size": 1453
+      },
+      "asset.meta": {
+        "sha256": "822f11effb2e32340690c56f9b5376be2c5d156f6ea8dd833d7861610aa25eb5",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient3r.png\n00"
+    },
+    {
+      "guid": "fb6ed9f6221d0244f89fd5c8467e8624",
+      "asset": {
+        "sha256": "3d944d4de0130fb5798552ea985eebede76d376a5e29ce9d6f74120af9908401",
+        "size": 1465
+      },
+      "asset.meta": {
+        "sha256": "34652cf68bb915a335be70a10f03273804c306f8fc05d9ab309aec6421fd32c1",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient3t.png\n00"
+    },
+    {
+      "guid": "396f38a210576e54e859be3bfc253e2d",
+      "asset": {
+        "sha256": "0f6080ebadcffe6ddcd47ee72ecc303c41e130b74fad46ed75e63dbf41f9a2e9",
+        "size": 1793
+      },
+      "asset.meta": {
+        "sha256": "e485ca7c9c2d89446e9fc7269f7ad659c74da46bb4d145829040dd390992250a",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient4.3.png\n00"
+    },
+    {
+      "guid": "e505e649e0a8d5045985b89a5176bdc5",
+      "asset": {
+        "sha256": "f036ca1adce39b8ead3d0e5e3a1fdb8078a4cb81d538afb938125a7c66169a1c",
+        "size": 6867
+      },
+      "asset.meta": {
+        "sha256": "135777c2b888a66fc9e422bbeb298fc631ce7c78e5680c4fa91ed6913682473b",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient9.png\n00"
+    },
+    {
+      "guid": "da451e98bc9edb741970c6e5de9d68e1",
+      "asset": {
+        "sha256": "efd12c7b27680eb7d5831e45f62f4555b9c8398afc92d3859b84467f366c57ed",
+        "size": 78039
+      },
+      "asset.meta": {
+        "sha256": "241ffe47aad767e93d14b638a713b5f3ff91b9ac9473489a78913869d09e8502",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/HPwater2.png\n00"
+    },
+    {
+      "guid": "d5f12de378a90064e8427946ec54d98c",
+      "asset": {
+        "sha256": "492c1cd0b18b88899db508cf36876f4a7c2a0c407435c43054865ed2edbcb836",
+        "size": 15197
+      },
+      "asset.meta": {
+        "sha256": "9f1d18b55d9ab0dc065f06c28b2206d341f177b8d3a5a65df42dfee2a5211981",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/HUE.png\n00"
+    },
+    {
+      "guid": "e1f5daa4611af4844a03ec5a45012456",
+      "asset": {
+        "sha256": "198eb364673dd910f34236610ac4dc64af12b20d24412b4258127fa58ebc2cb5",
+        "size": 39828
+      },
+      "asset.meta": {
+        "sha256": "54005cccad2669cb9a1331fa021b414a955d855f6bc40fe74aace49087d178ba",
+        "size": 2393
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/HandPaintedLightning2.png\n00"
+    },
+    {
+      "guid": "8bebb0a00bf64fc4491e5a2ad47c2699",
+      "asset": {
+        "sha256": "d457774ca8906c17e402d03c9a1583a614fa6211ddd2f597094ebf813ab1516e",
+        "size": 188985
+      },
+      "asset.meta": {
+        "sha256": "da5c0200f45189adfdd67d69970faa23d3eaddb8c23ed83d4e85f58b39ae36e2",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Ice5.png\n00"
+    },
+    {
+      "guid": "066524a80e5b29a42817d8249e80eed5",
+      "asset": {
+        "sha256": "1f4f7d857d71c20bec8293175b53d5971ce4249127daae8a9980bb8f6920c7ab",
+        "size": 876904
+      },
+      "asset.meta": {
+        "sha256": "3acb8df1ec881b46db73c7ef650a8476e41fd02be2a1be9b24b4038bb82f986d",
+        "size": 2672
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/MagicCircle51.png\n00"
+    },
+    {
+      "guid": "893575b378cc2374fbecf7f212c4e118",
+      "asset": {
+        "sha256": "86fec6952cad7138b40ccf687916753e7b0c23cf0da471e9d6fc079c7b5ef329",
+        "size": 101084
+      },
+      "asset.meta": {
+        "sha256": "a67c608344c8119fbd3a9844925e3055e952a63b38a9690422a0fc0eea33565d",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Mask34.png\n00"
+    },
+    {
+      "guid": "49ac7b1a8d5f80b43a940ab835c429a0",
+      "asset": {
+        "sha256": "eb86f03647ac15be31b4a13c3daae5cf6eb86f252cf36c5df52045cfd7ac484d",
+        "size": 29210
+      },
+      "asset.meta": {
+        "sha256": "133c1d1ff09e109b9fca47c17ab955302a518267a63d7e95711295b8deb46fe6",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Mask45.png\n00"
+    },
+    {
+      "guid": "4f52c7f1d1950c048a218f314911f3ef",
+      "asset": {
+        "sha256": "50f0d7d749a4c57aae70845b4a162a4e273caebc6f2035698e64fe020927b454",
+        "size": 20307
+      },
+      "asset.meta": {
+        "sha256": "6d96895a1de2a8dc21a2a63772e87de71211ec74de13035f5051c97b3d56def9",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Mask9.png\n00"
+    },
+    {
+      "guid": "60d224affeaecf84ead5a8b24c6c9995",
+      "asset": {
+        "sha256": "a619a98e00eef09b77de94f15bba24304c201e9a8b549c48dc6123e5e73ac387",
+        "size": 50534
+      },
+      "asset.meta": {
+        "sha256": "355968645f794d971b28581b690bf2b37c2cb09167481d87bf378ee597879c3f",
+        "size": 2200
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/MaskForShader.png\n00"
+    },
+    {
+      "guid": "e199ee8112362864f831425463b09fda",
+      "asset": {
+        "sha256": "c5333d4e9992cd0c414f6fa0a03fefb721bb17d9134fcd3b0b16c847a02441b9",
+        "size": 218507
+      },
+      "asset.meta": {
+        "sha256": "5c7a70e2c55c97c4d66dead5a8a32cb6c25f462c76aa745ef58bd85182073206",
+        "size": 2206
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise1.png\n00"
+    },
+    {
+      "guid": "04a40b50e9e63ed43af8af28f2ba4f86",
+      "asset": {
+        "sha256": "94591c82e5c67019fde7d11ea433012eaefdda4e60822170162165a586afd7f9",
+        "size": 390459
+      },
+      "asset.meta": {
+        "sha256": "d924f27518e6671ab7b6d591f3b44ea4a9e50d4fa878b4aab5b9cc2cf0d4d01b",
+        "size": 2675
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise28.png\n00"
+    },
+    {
+      "guid": "3f1d4fadb37c37e4488860109d7dce4b",
+      "asset": {
+        "sha256": "83ca803e505092c265ca059b363cde587ca2748fea130b2d846657532073d63b",
+        "size": 289770
+      },
+      "asset.meta": {
+        "sha256": "0fc72cb0454f89b2bf08f00c6d22c04fc7fc52893c73a31dd9dc04263ce54253",
+        "size": 2675
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise34.png\n00"
+    },
+    {
+      "guid": "beea0694d337e23449c7d21e4dfef1cb",
+      "asset": {
+        "sha256": "591a7cd9058c4fb9c9135746e7eb744447f75007dbefdb33bc31ddfab56baddc",
+        "size": 241407
+      },
+      "asset.meta": {
+        "sha256": "456305acd9f86880b1b274001932d70a3a18804a8b22145b2cf9c6cfc67e6209",
+        "size": 2396
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise35t.png\n00"
+    },
+    {
+      "guid": "1eae6143ce30e2849b37136524e197f0",
+      "asset": {
+        "sha256": "66cfdf17ce1d2b5701cdf7b50af32a3704b4282dcb9a16bf89873ab3799269e8",
+        "size": 553952
+      },
+      "asset.meta": {
+        "sha256": "560839730ea99b1c7e4e1ded3a171c086cf0e3c2fb2c25724a6194a479488724",
+        "size": 2396
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise41.png\n00"
+    },
+    {
+      "guid": "4e3951c538fc8a647a4a10a99b480987",
+      "asset": {
+        "sha256": "42682319f974b126fb92fdaafc65d64e42013df1e42990bebf9b173832f246af",
+        "size": 1543102
+      },
+      "asset.meta": {
+        "sha256": "bea20017bf15fb26ef77f594b1ef5f464f0282df6e2f3f4aaf6613439459ac6b",
+        "size": 2672
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise50.png\n00"
+    },
+    {
+      "guid": "e793730e1790ae2408948cf883bcac1a",
+      "asset": {
+        "sha256": "2ba9d6c3a5fa39e575386160b2af17884e275c3e8c9e44dbafef0408c02de81c",
+        "size": 82721
+      },
+      "asset.meta": {
+        "sha256": "b9c5e6c7d9aa8fb711b43e6f22a267fb24cc66c692a096e804a6bfc7038d38b1",
+        "size": 2671
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise51.png\n00"
+    },
+    {
+      "guid": "7d68a918c0765ff46bd6aa7513519399",
+      "asset": {
+        "sha256": "9a12b90e567d947f1240ccfaf9b40c05c971de5320f77de08234615e9175ccfa",
+        "size": 2717889
+      },
+      "asset.meta": {
+        "sha256": "99e0f71c5c13190330f9e27d85fe3078815bea4bee8b621ae54d42eb4aced8f7",
+        "size": 2672
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise53.png\n00"
+    },
+    {
+      "guid": "fecbc2dbf76d9ab4089330c3e5ee2423",
+      "asset": {
+        "sha256": "469f4ebb56a26ef12756a25a914778566c9014cdecf7c7fe265ba7fc579d76d2",
+        "size": 901810
+      },
+      "asset.meta": {
+        "sha256": "740d9bb682cda11033a506c08c115e747ae598e85509e75493af1112b3201e98",
+        "size": 2672
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise63.png\n00"
+    },
+    {
+      "guid": "3584f2bf4afb5284d91edb6a29126e62",
+      "asset": {
+        "sha256": "2e5137adaef0421bdf59a8111c54d5399f68696a418e220284de47b4be86a654",
+        "size": 272605
+      },
+      "asset.meta": {
+        "sha256": "158447017082eb08c18a9f9e7ff8a5ab9750b24bd90189484dac26f5f0f3de1c",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise69.png\n00"
+    },
+    {
+      "guid": "950e9e23ceae56c48a25ba32f408d964",
+      "asset": {
+        "sha256": "593f59fde1e09e8561f554dd76e6ba674a86b5d709e623fcd1088fe85f2690f9",
+        "size": 135768
+      },
+      "asset.meta": {
+        "sha256": "0645d4533708b2a80d8fccd84385f9044905b331a4b4ee14a8a869fd99e00505",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/NormalMap8.png\n00"
+    },
+    {
+      "guid": "77915be38e4ee2a48b695d046d8bf19e",
+      "asset": {
+        "sha256": "318a81094d1ceb328b5e494c31fa710b8aee34718b6003941ac50bf8dd53e500",
+        "size": 45811
+      },
+      "asset.meta": {
+        "sha256": "9146262bc32d4f19abae1018f9ded01f8c6f86422489e080194b8f939cf527a0",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Object1.png\n00"
+    },
+    {
+      "guid": "16c09c008bc4ddc4695f67e0c74a6ab1",
+      "asset": {
+        "sha256": "7d1a3fdfa526e6b2c9eb0d52c4ab9e64492a04ff21eb61e75afb39af8fe38545",
+        "size": 4022
+      },
+      "asset.meta": {
+        "sha256": "b372a18894e065fa38359db16c8cd41aa77faf80c7cfe7e1923c35c3af857735",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point11.png\n00"
+    },
+    {
+      "guid": "c8ada4fdced7c07409542d983b96835e",
+      "asset": {
+        "sha256": "5ffffb99d813533b70ceb3c5d8240d6b1fc841757ef36b6e011bee9587529a86",
+        "size": 78500
+      },
+      "asset.meta": {
+        "sha256": "57cb44ccb99d80ce67d6f2f6cfa20e317918335b1c011ec581127f4d52fb4d84",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point12.png\n00"
+    },
+    {
+      "guid": "4b0225a5290cbe540bc56e26a8682db2",
+      "asset": {
+        "sha256": "e5c5c1805325315bf0fd0ab4ac402fba52efc228bc40a7ab6c1276df354debca",
+        "size": 48590
+      },
+      "asset.meta": {
+        "sha256": "6f3328a110f548cd0b52d9bb909e95307ba0b6b680d445254950db0cf4d24f15",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point19.png\n00"
+    },
+    {
+      "guid": "02b9b18c4238f2345b649081568ea51f",
+      "asset": {
+        "sha256": "ccdb7deed94e96b9a600b0c733688b261a19cdf12988030e1766f3fc1e65e4ac",
+        "size": 25488
+      },
+      "asset.meta": {
+        "sha256": "29fa07a31c219e19a935476bec2fcfca323ee0b89e9a6cb881d723dec2219981",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point5.png\n00"
+    },
+    {
+      "guid": "802ddd854a81b044d8ded8591dc2ae8d",
+      "asset": {
+        "sha256": "e003df47ec09bc3be9322ee84249632749b67f9ecf2f0bc5f1de615d40768dd4",
+        "size": 121357
+      },
+      "asset.meta": {
+        "sha256": "d12b723d7badf0afd33b55a7f5d8543d05fde8b398501c2ad198845e8a3b2279",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Rays3b.png\n00"
+    },
+    {
+      "guid": "5a0839b9bd7f84c418768540b7be9c1e",
+      "asset": {
+        "sha256": "9dc35c28557da2c1576f0dcf16fe6da71daee1fc9e5468cc02c9ba7bd66d5787",
+        "size": 146265
+      },
+      "asset.meta": {
+        "sha256": "4b7e273dfd6a2944bb4cbcd0a7a2cb925ded4e444a962f8dd0b93e70c3cbe5d1",
+        "size": 2393
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/SS2.png\n00"
+    },
+    {
+      "guid": "a316e1bac9d949842bbedcd2360fdd89",
+      "asset": {
+        "sha256": "d326a7a82b894acc96670f594e9dcba0900a86769c0a2c295cda6a05af18b191",
+        "size": 221040
+      },
+      "asset.meta": {
+        "sha256": "439a2fb48c65647b293f616c039fc20d851b234b9e6ab099a4ca46d236d5e343",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/SharpStone.png\n00"
+    },
+    {
+      "guid": "d5c350d6c3ec67a458bd32bcda46d205",
+      "asset": {
+        "sha256": "54f7b3bafe930575d3704f5c7faf0c8dff366519d86f12f6661701fb41bb859b",
+        "size": 1122676
+      },
+      "asset.meta": {
+        "sha256": "54e226e9ded438ff1026137425f9815cf78e0904a5619e0b78f96db8e86c4afc",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/ShieldBeams.png\n00"
+    },
+    {
+      "guid": "52b767eecc2845a429e0e9e2155a8ea5",
+      "asset": {
+        "sha256": "01e25d1b2f49646b7f6fd70e3053897c85a3266b071f5fca40189a040864262f",
+        "size": 74210
+      },
+      "asset.meta": {
+        "sha256": "b9c2261c3a55ded85500cb456b3ea365b9c76aa49fd2740cb89b10749cf9d345",
+        "size": 2200
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Smoke3.png\n00"
+    },
+    {
+      "guid": "c1055f2d530a98b4ba60807272a2e0c7",
+      "asset": {
+        "sha256": "1d1a7990b14a6402ed7904e3a82e3caf0f5c73b5371f34f6d3984ed8deeb1474",
+        "size": 46820
+      },
+      "asset.meta": {
+        "sha256": "22ccb99e08d478483a48260748bc57de74134d9bceb678bd518a098577c3cd76",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Snow2.png\n00"
+    },
+    {
+      "guid": "2dbe75cf06e0c6842b4eae60ddda63ef",
+      "asset": {
+        "sha256": "1abd7c67869635f998d9d82c21345912a244e4d065fa77b4fdf0cbbeb9014fa4",
+        "size": 45121
+      },
+      "asset.meta": {
+        "sha256": "cff04f1373441ce388227c4c25460c099a93c014c4cb154e3043015224f0c3ba",
+        "size": 2200
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Snow4.png\n00"
+    },
+    {
+      "guid": "66a3f4188e734d947a4c6a47225252f9",
+      "asset": {
+        "sha256": "8ad4ece3815c101d538e794aaea539e253e2d6901c7ae77705115cf00e6935dc",
+        "size": 430909
+      },
+      "asset.meta": {
+        "sha256": "992cd58333b3cac0fe78a64a7e568691ce707c091fc3d6ecf63554e24e5971f5",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Stone3.png\n00"
+    },
+    {
+      "guid": "54f1f0934c5544a44916f2e0ec6cc81c",
+      "asset": {
+        "sha256": "214be538221b6bfd231100f152e8a6894ef802285aed8edff51b485cbbf59062",
+        "size": 43004
+      },
+      "asset.meta": {
+        "sha256": "5b55a2bf9e878e044446491e6b6227d197cdac038e2a644b2c01a7141a45b825",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail22.png\n00"
+    },
+    {
+      "guid": "63e298374ab0c384ebe243e627781d4c",
+      "asset": {
+        "sha256": "ade141a6c40f4d720b65ab8c8fa3b555a96fe166bc307b92577c2ea011316a8c",
+        "size": 34129
+      },
+      "asset.meta": {
+        "sha256": "1776de614c02687f2f899c690e187b3592dff525b16476f67b014fbd47a01967",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail25.png\n00"
+    },
+    {
+      "guid": "83846a180913c7241b6e6fee8ecd9dc5",
+      "asset": {
+        "sha256": "a6aff2b1dcf08a8c37908f49132fea9a497c6f5249da016633dbfc72ab9f1e89",
+        "size": 59492
+      },
+      "asset.meta": {
+        "sha256": "760b50db1d000a0d812c5cb7bb44275473fed2505141902ac7f0045c33a384d3",
+        "size": 2200
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail5.png\n00"
+    },
+    {
+      "guid": "dbec9039c70e09e47b8ff15d508f39ac",
+      "asset": {
+        "sha256": "8779cf0c4858362eb7c904e649663b0368633eb98d6a37e7117abce39d437c4b",
+        "size": 236899
+      },
+      "asset.meta": {
+        "sha256": "d2fe24d10d32cb662bd0707bb203d0d85a1646579aff466aea71315c0fe95ff2",
+        "size": 3007
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail58.png\n00"
+    },
+    {
+      "guid": "5c03bc4b80b50384a9904843f3769487",
+      "asset": {
+        "sha256": "4f59fdcf3f1e0ec492bbb725bcbe0f1f730f97b0493bcf0e90e8cf31deba4c34",
+        "size": 80824
+      },
+      "asset.meta": {
+        "sha256": "2803c2d1a5a6c19a3f7c2f0082a49823c95df84d51a9decfab36f8b0fc8a1a4b",
+        "size": 2203
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail6.png\n00"
+    },
+    {
+      "guid": "af1e6e52a00618a4e88aec68732ef946",
+      "asset": {
+        "sha256": "c76cfa67a05252c41e3558b5cf34f0d68861d48592fad87f1209d16be296e8e9",
+        "size": 132369
+      },
+      "asset.meta": {
+        "sha256": "ac60e62e5bbb55a85aa24ac9cc09ddbbf6511435908f73b6cecda878085a3ab0",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail62.png\n00"
+    },
+    {
+      "guid": "ddae16d63fd8046459b7c40b5bc830b3",
+      "asset": {
+        "sha256": "720e782ed32306d110464f3735e44bb4eeec2d60137342533331dcab357d2887",
+        "size": 3241691
+      },
+      "asset.meta": {
+        "sha256": "8936bfdaa952279b1e443438afff1cb3ab1a1828a14dbf07489135d5cca8b147",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail62For.psd\n00"
+    },
+    {
+      "guid": "ddd2497da944b0842baca3f78a1f51f2",
+      "asset": {
+        "sha256": "0234e9df5ecf19453508ef65a83e71461d4cb65398bcf58ed8d8d2f60629284e",
+        "size": 57904
+      },
+      "asset.meta": {
+        "sha256": "0a42f16913c990c5288a3c0689acfc7ce0a21b62594bbf72e162fea66bea3c01",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail65.png\n00"
+    },
+    {
+      "guid": "3372dfca043bf3445832b4a37461bbf8",
+      "asset": {
+        "sha256": "22ba29424d7de98144e4b54c702bfeb7523ab93430a08773a91a21fdc01938de",
+        "size": 190493
+      },
+      "asset.meta": {
+        "sha256": "0c20f82c04b9f0ff91be7fbab8d967e6fce1eb9435d07030d9172cc623f5e96d",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail66.png\n00"
+    },
+    {
+      "guid": "f59181de20b1a28428b39f6c20f6ec73",
+      "asset": {
+        "sha256": "7958086ad66e9dac5ee16c5de07ae0db414c32d6b0de3f996ff8f7360b23c89e",
+        "size": 68795
+      },
+      "asset.meta": {
+        "sha256": "d997a0ca38d977f01f56382f2996e071eaffd764d99c1f1f5911065df0a898be",
+        "size": 2390
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail68.png\n00"
+    },
+    {
+      "guid": "a48cee095eb0e094ab6e3c1dabd1bf1f",
+      "asset": {
+        "sha256": "a14c81484878d2a57c5523d43a0f97ef3c4c30b75bbf9a00a88bcbf3a903eba7",
+        "size": 85711
+      },
+      "asset.meta": {
+        "sha256": "7d95dd6a0e50a800513489dfafe87d1df5714b561e7af7ee5c4ae52d2a59020f",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail79.png\n00"
+    },
+    {
+      "guid": "a8ab14eb4cf2941489e3687f01e48d45",
+      "asset": {
+        "sha256": "74c682cb78862ecb5e885277f63b5baa88257f91813afde601d8f1559c1b79e0",
+        "size": 94796
+      },
+      "asset.meta": {
+        "sha256": "39557bf769fe99c4db60dd4d3b68e51efa5f3d51f22deeceea016ea354d6e896",
+        "size": 2672
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/TrailPart9.png\n00"
+    },
+    {
+      "guid": "b22013b4a66bd8044a49335f5ba731a7",
+      "asset": {
+        "sha256": "58e60a7ace9b871773b77395373717b77abccb517d2d1769a5414ab3e4c33671",
+        "size": 118672
+      },
+      "asset.meta": {
+        "sha256": "b571936af354f2c84679975da36b209258314abd1b9b65a8e1ebe1a0eea77b35",
+        "size": 1831
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/WaterF2.png\n00"
+    },
+    {
+      "guid": "160ec70c2b53033498c44061abc85ec0",
+      "asset": {
+        "sha256": "e3015196ffabad04836c01516f1220960a6ff452e170e8e36d567ce6f58fc51d",
+        "size": 25388
+      },
+      "asset.meta": {
+        "sha256": "201dd8199e6408dd263c87227cb20cafd07c7f7e16551e2ed927b9275fead2fd",
+        "size": 2668
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/WaterPoint1.png\n00"
+    },
+    {
+      "guid": "593a84d3537a8d94a8db032cf167ea36",
+      "asset": {
+        "sha256": "e5fc7ad7f4e4d3fd787ec19652f49e61d821794b4dd671733311826ce71fea5a",
+        "size": 792491
+      },
+      "asset.meta": {
+        "sha256": "91311b6fe3cb236338abe90308ec5c473b061304d4ae29216de487016ff938f9",
+        "size": 2115
+      },
+      "path": "Assets/Hovl Studio/Epic toon VFX 3/Textures/Waves21.png\n00"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": [
+    "Packages/manifest.json\n00"
+  ],
+  "auxiliary_members": [
+    {
+      "path": ".icon.png",
+      "sha256": "6a919d3ba301862f12d2ea7dc87cd574197f86e6675b454438d32dd7cab45950",
+      "size": 39566
+    }
+  ],
+  "package_manager_manifest": {
+    "asset": {
+      "sha256": "871d729336150c0ee78d564226d862cde1e65abe9be8dd7d736a730057b2c3ee",
+      "size": 1513
+    },
+    "path": "Packages/manifest.json\n00"
+  },
+  "control_character_paths": [
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Character.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/DemoToonVFX.cs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Front attack.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Gray.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/GrayMat.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Ice wall.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/LightingData.asset\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/MagicRay.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/ReflectionProbe-0.exr\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Sharks.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Shockwave.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Standing.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Throwing.anim\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/Toon VFX 3.controller\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene files/WhiteMat.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Demo scene.unity\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/HDRP and URP(LWRP).txt\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/PP low.asset\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Demo scene/Readme.txt\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Additive.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Apple2TS.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/AppleTS.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Aura16bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Circle107bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Circle96cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater17bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater36bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater40bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater61dn.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Crater63bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Distortion.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare10cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare14cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare21bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flare6cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Flash21bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/FlashGroundCG.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Fresnel4.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Glow1cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Gradient17cg2.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Gradient17сg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/HPL2cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/HPWater2bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/HPwater3bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Ice.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Ice5.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Mask34cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Mask9bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/MaskPoint1.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Object1bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point11cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point12cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point19bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point19bcg2.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Point5cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/SS2bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/ShieldBeamsTS.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Snow2bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Snow4bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Stone3bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail29cg3.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail29cg4.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail58cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail5cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail65cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail66cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail68bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Trail79bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TrailPart9cg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides11.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides12.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides14.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides17.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides18.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides19.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides21.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides22.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides23.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides25.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides27.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides28.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides33.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides34.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides35.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides36.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/TwoSides9.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/WaterPoint1bcg.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Materials/Waves21cg2.mat\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/Apple.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/Cell.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/CylinderFromCenter2.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/CylinderFromGround.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/CylindricalCone.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/CylindricalCone2.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/Flower.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/HOVLCrystalPiese.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/IceSpikes3.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/Icewall.FBX\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/MoonSword.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/Path6.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/QuadToCircle.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/ShieldBeam2.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/ShieldBeams.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Models/WaterSplash2.fbx\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple bombs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple bombs/Apple bombs.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple bombs/Apple.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple of Eden\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple of Eden/Apple of Eden.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Apple of Eden/Apple.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy buff\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy buff/Energy buff.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy shockwave\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Energy shockwave/Energy shockwave.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors/Fire meteors.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors/Meteor hit 2.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Fire meteors/Meteor hit.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Ice wall Style 2.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Ice wall.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall_2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall_emissive.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Ice wall/Icewall_normal.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray/Magic ray attack.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray/Magic ray long.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Magic ray/Magic ray.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Sword air attack\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Sword air attack/Sword crater.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Sword air attack/SwordAOE.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Water cannon\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Water cannon/Water cannon.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Water cannon/Water hit.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Wood shield\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Prefabs/Wood shield/Wood shield.prefab\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Scripts\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Scripts/EGA_EffectSound.cs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Scripts/Hovl_CellExplosion.cs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Scripts/ObjectInstance.cs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Scripts/ParticleCollisionInstance.cs\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Add_CenterGlow.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Add_Fresnel.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Blend_CenterGlow.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Blend_TwoSides.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/DissolveNoise.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Distortion.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Ice.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Shaders/Lit_CenterGlow.shader\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Apple bombs.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Apple of Eden.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Energy buff.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Energy shockwave.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Fire meteors.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Ice wall.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Magic ray.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Sword air attack.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Water cannon hit.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Water cannon.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Sounds/Wood shield.wav\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Apple.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Apple2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Aura16.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Circle107.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Circle96.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/CircleBigMask.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater17.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater36.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater40.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater61.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Crater63.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare10.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare14.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare21.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flare6.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flash21.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Flash32.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Glow1.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient11.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient12.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient17.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient3r.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient3t.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient4.3.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Gradient9.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/HPwater2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/HUE.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/HandPaintedLightning2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Ice5.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/MagicCircle51.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Mask34.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Mask45.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Mask9.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/MaskForShader.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise1.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise28.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise34.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise35t.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise41.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise50.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise51.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise53.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise63.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Noise69.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/NormalMap8.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Object1.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point11.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point12.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point19.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Point5.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Rays3b.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/SS2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/SharpStone.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/ShieldBeams.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Smoke3.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Snow2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Snow4.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Stone3.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail22.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail25.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail5.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail58.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail6.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail62.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail62For.psd\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail65.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail66.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail68.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Trail79.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/TrailPart9.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/WaterF2.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/WaterPoint1.png\n00",
+    "Assets/Hovl Studio/Epic toon VFX 3/Textures/Waves21.png\n00",
+    "Packages/manifest.json\n00"
+  ]
+}

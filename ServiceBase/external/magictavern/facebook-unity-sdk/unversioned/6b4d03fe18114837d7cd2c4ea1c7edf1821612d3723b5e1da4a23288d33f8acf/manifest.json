@@ -1,0 +1,1859 @@
+{
+  "schema_version": 1,
+  "plugin_id": "facebook-unity-sdk",
+  "build_id": "6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf",
+  "artifact": "artifact.unitypackage",
+  "sha256": "6b4d03fe18114837d7cd2c4ea1c7edf1821612d3723b5e1da4a23288d33f8acf",
+  "size": 9138067,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "201fa01d552b84a74917c9cc8a4c297c",
+      "asset.meta": {
+        "sha256": "4514dff9233ff827a5d37c091f07c70ff5dbb00af6c56319185dbd0e3a42971c",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "d6eaa6d1c8385cab03e5cf76d7c5b100171a96c28a4aba017c98e10070263a26",
+        "size": 2505
+      },
+      "path": "Assets/Editor/DisableBitcode.cs"
+    },
+    {
+      "guid": "34ef1a7ba6c31468191d691e41339cc2",
+      "asset.meta": {
+        "sha256": "72a9a573dfbbaff69668f96c05fa7a31c4b5cb239017ee92aaf0e3ed80eef621",
+        "size": 645
+      },
+      "asset": {
+        "sha256": "89f6eba9ee91649f4b66d146c40e3a2ab3659c56097b1341e946764f881fafbd",
+        "size": 66048
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.IOSResolver.dll"
+    },
+    {
+      "guid": "b532a96fbafff491daf602bf55e44078",
+      "asset.meta": {
+        "sha256": "075abddbfaf0728b228b2633f9ca78754f8ba21a525606b201adeb68c65ac31f",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "49271cff2f25c68916758c154e120bbdda832325160e97719ae0ba3dcf330381",
+        "size": 14733
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.IOSResolver.dll.mdb"
+    },
+    {
+      "guid": "370c9f770254a456d878542f4b395f96",
+      "asset.meta": {
+        "sha256": "450b3ef06f592850bff51f9ee125ad273b8145eac2a11aaff72cabb9b6d9971b",
+        "size": 645
+      },
+      "asset": {
+        "sha256": "b4aab682612d59bc85f01a21b48dc07b04d7c4fe05a743862dfe5160b8cf2c2c",
+        "size": 349184
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.JarResolver.dll"
+    },
+    {
+      "guid": "e06c4d8e1f28d4bb4b0e52f0b84eb756",
+      "asset.meta": {
+        "sha256": "e23bd961e40636ad38a83d7504b5826404909c829d71a729663e94bf0d1890bb",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "f01436d2611719ea15bb9df19e6b3fc3a4c47ae64bdf31af6bfdb8818e7f9bc3",
+        "size": 71800
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.JarResolver.dll.mdb"
+    },
+    {
+      "guid": "71dcde5ebc4564800a552c17d30beef3",
+      "asset.meta": {
+        "sha256": "0825885971554f1c5a2a63e259f841c8f1170503490d2c380dba52bfaa463a78",
+        "size": 645
+      },
+      "asset": {
+        "sha256": "585b72dcd89f3e933f679f5de52adb65df5b8673d6b2950a2bbce4843ff3dcba",
+        "size": 73216
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.PackageManagerResolver.dll"
+    },
+    {
+      "guid": "2203f8a4456514134a61b0d7e7c26139",
+      "asset.meta": {
+        "sha256": "5a4f41644fd7b1c29010a7ecfae79a98a7c2dc2de5a63ad6532abee19eaec732",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "93c456b661ce59833b0f08faf38eb553fb9bfceb48da79f186a88e063c16d6c0",
+        "size": 28540
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.PackageManagerResolver.dll.mdb"
+    },
+    {
+      "guid": "6d2dcffbe507f4b28a69b6adf24da6da",
+      "asset.meta": {
+        "sha256": "0952d76e9af26ebc03c3b7b36b5c5f4576d8dd5dfef31d4773097b20e74d8db4",
+        "size": 645
+      },
+      "asset": {
+        "sha256": "06d8ac63b166b76547b1c4e1cc3198cdcc02b77743d7ce7119ab028bd0003b2e",
+        "size": 117760
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.VersionHandlerImpl.dll"
+    },
+    {
+      "guid": "d0926fd8eb22a4a94b496af33a32a2a1",
+      "asset.meta": {
+        "sha256": "147c5c960a3fbc55308b1d4a6cd683b749cbff097cc03b2141c35e9fc432a5ce",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "21bdac0d0df3d00fbdeb387e0ec4e0dac07d28f3083aa6df03b25866a99df88d",
+        "size": 43572
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/1.2.166/Google.VersionHandlerImpl.dll.mdb"
+    },
+    {
+      "guid": "d67e36cf70144eeeb62948707545ecfd",
+      "asset.meta": {
+        "sha256": "2469b83635c8a2cd200883463af5f852b9be52dc7967fe9c251ceaceb07c74bd",
+        "size": 274
+      },
+      "asset": {
+        "sha256": "585b7a9b84a8934e12336aaf7969be6dd030a98d636667b13a15f0b4748fdc5e",
+        "size": 52257
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/CHANGELOG.md"
+    },
+    {
+      "guid": "bb6999c8a5ce4ba99688ec579babe5b7",
+      "asset.meta": {
+        "sha256": "28291fcc0b246ca93d14998aebe1c978d9fd2b0d5cd6193214cd3ae56a9b513d",
+        "size": 724
+      },
+      "asset": {
+        "sha256": "d4d884f2fa94142ffd7d9d1ed6b9785d387c6bd32daba76ad62711a3f04f85f3",
+        "size": 14848
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll"
+    },
+    {
+      "guid": "3aa17cd5f43042a1a7381759dc1258a7",
+      "asset.meta": {
+        "sha256": "d75ad10b3f7817da84464c5faddf848f9b5d896e80a55c59bc6fdd9c2e3feea0",
+        "size": 288
+      },
+      "asset": {
+        "sha256": "f29e50de0b5824b53de7ca8ffecaee0715b5f0b0c65b2d9320aebb12e8c36c7d",
+        "size": 3983
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.mdb"
+    },
+    {
+      "guid": "35a6726adf03479eb04b8c082346d551",
+      "asset.meta": {
+        "sha256": "aad36d5d6b26bd23da5b0313d8e08e94c54140d88a75df68de4f9e80719c4704",
+        "size": 269
+      },
+      "asset": {
+        "sha256": "f76f18185c04ec80175330572b38e40772dccda80f4bf0868e042e4e5b0b58a5",
+        "size": 13395
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/LICENSE"
+    },
+    {
+      "guid": "11eb52f780284fd69194951ac46cb538",
+      "asset.meta": {
+        "sha256": "34dc5969a19348e81eb0d9c23a34cf9e3c88db976cab6df6346c072162cab24f",
+        "size": 271
+      },
+      "asset": {
+        "sha256": "a33db68819989bf8b625e4e8e2486569510ac56c1b744599b34b666b7975cbac",
+        "size": 35550
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/README.md"
+    },
+    {
+      "guid": "70e37c0d68034f8a953638d978633f87",
+      "asset.meta": {
+        "sha256": "6f2cb316702e211c4f7d2c6f57bce108bdd187e7e86e74b65c165b77fcda92d5",
+        "size": 425
+      },
+      "asset": {
+        "sha256": "27cec2e9d1bc9f72bde817dd8cbfb57c51d380478ffb87a55be6cfdae463aa8b",
+        "size": 843
+      },
+      "path": "Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.166_manifest.txt"
+    },
+    {
+      "guid": "4c5e54f177d1f4d4a97e1e85ee98de79",
+      "asset.meta": {
+        "sha256": "7a111fde150d6a3b4d681d3ea74a97f134275931eb93c2ffd0453b833e926837",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "243bae3d53dfaa99838d87152e8a579bec8655849a867e4fa18067620e6f8b15",
+        "size": 289765
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/MainScene.unity"
+    },
+    {
+      "guid": "2f433644f2a2d4e839bd2ef3d2a7b476",
+      "asset.meta": {
+        "sha256": "099664487257a8876b99538ff6a5470762be9f8dfb2e1672905b43f6e0c5a5ba",
+        "size": 458
+      },
+      "asset": {
+        "sha256": "4d2b37d96d1c4b2dc5579becbf01c891faa652a1738407a72244f38e2c1cbfbc",
+        "size": 1826724
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Music/the-epic-2-by-rafael-krux.mp3"
+    },
+    {
+      "guid": "d5a426e03015442f1864eb0e805eda98",
+      "asset.meta": {
+        "sha256": "b3afa929075b6a48cb4ef94b90c7e2f311ba1ab947564365c1023c7537ede6f5",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "40d7051ae2a07f70cd13e3cec536be96cf7be56d4a80498ced7e09ddf6ea1e55",
+        "size": 2421
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Prefabs/ProductRowPrefab.cs"
+    },
+    {
+      "guid": "6966b93684c434b41b2fb6dcce89caa3",
+      "asset.meta": {
+        "sha256": "11c2a63b0b839b11b07ffb87c1589785772a26e1baeb6490a89d95bbcf4219e9",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "e1b336ec9216cbc63bc196bdbdf97f0f1367d396a18cc8166604d34052e47e20",
+        "size": 25404
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Prefabs/ProductRowPrefab.prefab"
+    },
+    {
+      "guid": "9feaad17c481d44469952dc10f3f4bf6",
+      "asset.meta": {
+        "sha256": "ed837bc1789eb181775ac0f8c1103c17142e56335579637e9a8f80a6521c9a13",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "3d30bad40fed58642b0297e0750d2bf08068124733fd7e776b7b80fddac75bbd",
+        "size": 2614
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Prefabs/PurchaseRowPrefab.cs"
+    },
+    {
+      "guid": "43804ee08a8b34e12b7fa666fd586774",
+      "asset.meta": {
+        "sha256": "6a328b866796e56a9533dbcb18df80f7c93abdda1a356ced3d1b851eaa51d47a",
+        "size": 154
+      },
+      "asset": {
+        "sha256": "ed35ad2540496ad0108a065f87f6367c5d78b5511ada2157953cb31b9d4fc154",
+        "size": 25122
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Prefabs/PurchaseRowPrefab.prefab"
+    },
+    {
+      "guid": "c27511b840ed846b385304666945e4db",
+      "asset.meta": {
+        "sha256": "4b8c7b343f61bf25ec296fa99daf82182875b564072408de99ba9e849de319e9",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "88295bf5d1afc25cdf070b4e0f3fa634a72cb29ff6f08ee7f9fe6605d6453306",
+        "size": 3305
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/AdsPage.cs"
+    },
+    {
+      "guid": "bd18f8ae8b6af4dc68f7c88319ee024b",
+      "asset.meta": {
+        "sha256": "b15fdd853270dc47b637dc4cbdc948d1be6c32ede00486bb1681b471ae73fede",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4b4707fce7ead7a713efbe4b867413fb9054211ec50aa013056b556232b7643d",
+        "size": 2264
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/LogScroller.cs"
+    },
+    {
+      "guid": "7d4353ba3d5f24acdbb20ccbd443012a",
+      "asset.meta": {
+        "sha256": "3a3e2d7c97307fe752c0015f57bb4900a712e777538a57083b0f414dde00dc81",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "1ff495ca48cf218bf33c8709212b65dab1260d5f5133af5e01785bb2b285d1ea",
+        "size": 2780
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/MainPage.cs"
+    },
+    {
+      "guid": "1533c3c1ab7624d62b7ed5f9088e86bc",
+      "asset.meta": {
+        "sha256": "1bb66468dcbd7188167b0a043fc27ad654dd50cec9f7fd2c14a5d28d3e1c4cd1",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "a0112af8343c840a4d5437898cbafd2107ead0db8dbd4a1d5411b5bf1bdb4a88",
+        "size": 3537
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/Menu.cs"
+    },
+    {
+      "guid": "0e4d701b96c9b4c48967148ca6ed7c50",
+      "asset.meta": {
+        "sha256": "a69f82497ee3f1e276f3e5b5e31cf4f1425d6146d2200aa89fe082edd5f9dbdd",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "255d77d6da6401762487cc4eea48e1055aaea5c3a62d330374c6df5ea489eac0",
+        "size": 5595
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/PurchasePage.cs"
+    },
+    {
+      "guid": "c83c2525a94994989972f826e5a84766",
+      "asset.meta": {
+        "sha256": "81086bf33d0a5218c24885245ee3858edebd65fd640846a9a62f7e31e37282e4",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "9464f17852c59e86f65add656aa4ae8d7e5de05503dccc70b5462d8d1aa031f5",
+        "size": 4113
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/SavePage.cs"
+    },
+    {
+      "guid": "cc2ee337e0a7e4a92b625f1528063a7c",
+      "asset.meta": {
+        "sha256": "e86cfc1795b2d7aea7acb6047a12454def26776e2af64b450e86a61dc0d217a2",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "b419e380ab0b03f0a783d25a89126a208fb2a0c4da0255319ad9940794402004",
+        "size": 1375
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/SettingsMenu.cs"
+    },
+    {
+      "guid": "a81f52b5215b240a9b1444969f76d834",
+      "asset.meta": {
+        "sha256": "d92a5ca9c0351f2abac7516aca0ea65ea50d50ad912a8697a6ed84ec2afa8af5",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "18dc62528485bb4cf2747a84b6daf21302daa340ddb07db77f4a655560ead5c3",
+        "size": 1257
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/UIState.cs"
+    },
+    {
+      "guid": "741519083c2d049a7a7116fa192892e2",
+      "asset.meta": {
+        "sha256": "5f9f7658dfb617160cda055788daeeea0b50a00436efbd9151e43ac285e6bcf8",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "d625f9ba572c377742b879de972158a0ca5fe0f5d3b64486701dba20073c76ef",
+        "size": 1989
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Scripts/Utility.cs"
+    },
+    {
+      "guid": "a4bad31774d974484bf03b787388227c",
+      "asset.meta": {
+        "sha256": "32809dc3188f4db980492d57b8cf69b3767ed2bb754a3bbe3b3a075057e427aa",
+        "size": 2191
+      },
+      "asset": {
+        "sha256": "3142940fb880e3905f8716ffef78bcae95c0f4e551a873de478b639b3d0db869",
+        "size": 486
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/box.png"
+    },
+    {
+      "guid": "add552b6deef24dbc84ebcb5f8091d68",
+      "asset.meta": {
+        "sha256": "38e491bff9b4acd7f15274d57c0bbb5791093f1155ad6b065ac3bb0b4e73bef2",
+        "size": 2191
+      },
+      "asset": {
+        "sha256": "884894d97086b546c1cb41ecd3e1ecfe83e6f7b992a1bc0fa8ebc3603677d283",
+        "size": 2091
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/cog.png"
+    },
+    {
+      "guid": "60c5bc5048eeb45a5b648589f88e8c60",
+      "asset.meta": {
+        "sha256": "11c62ed77ec838dcd3887160ae5db2552110cf3bec6956c492ec12f521d78a00",
+        "size": 2191
+      },
+      "asset": {
+        "sha256": "8494f61deae8567f99fd4fbaae77c068eab4f7ac87c541c3349a8aaa42cb38ed",
+        "size": 676
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/delete.png"
+    },
+    {
+      "guid": "31956cf11e98440098fe28cc73ea8117",
+      "asset.meta": {
+        "sha256": "2dd967e68af629cb4f26915b37649882490349dbf6fe83811bcd33356ed30ff8",
+        "size": 2191
+      },
+      "asset": {
+        "sha256": "5723318b505b9415e3b8c53bfc024736c5c17c65da66a48489d736b4b4016914",
+        "size": 301
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/file.png"
+    },
+    {
+      "guid": "340f516ff37dc4abb9aa344626c70981",
+      "asset.meta": {
+        "sha256": "371fdf723e928983ff9fc5620c3602db60693fa78044a3cd98afbaf9837b70cd",
+        "size": 2191
+      },
+      "asset": {
+        "sha256": "55e7a6dfbcc3d23d200acab5850a143845641b9634e46944c8a12397c5734522",
+        "size": 365
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/folder.png"
+    },
+    {
+      "guid": "680cf5f80b0f44e0e97a459174ac73a9",
+      "asset.meta": {
+        "sha256": "e769633cc018f65f5ecc1348fae38c1aef1bb1e51acfbbc3786c19584660dc92",
+        "size": 2191
+      },
+      "asset": {
+        "sha256": "56f1dbfad22b50c25db37981db77c220126bc8d83da8eee95c25354b719efb66",
+        "size": 1376
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/mute.png"
+    },
+    {
+      "guid": "9f7e3b5686c924b8aa7ced06fd49d3e4",
+      "asset.meta": {
+        "sha256": "19012bbab5b4ad34aaeada4a5f254632fb26f42e0e848a5bea48a55e532c75c0",
+        "size": 2186
+      },
+      "asset": {
+        "sha256": "5a661505071262245deae0aa3106e39b7bfd5f34e4db7c878793050cb2c342db",
+        "size": 1650
+      },
+      "path": "Assets/FacebookSDK/Examples/CloudAndroid/Sprites/volume-max.png"
+    },
+    {
+      "guid": "cc23d36722b109748ab140e5516e57f2",
+      "asset.meta": {
+        "sha256": "70003fa2f5714597c2961967b2ea235a5cc4d66d9fb0aa4d5c377af4fe762278",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "c8bab326920f671f5135c554ca57f8aeab07d405301f964995c46c5aa20789c2",
+        "size": 1484
+      },
+      "path": "Assets/FacebookSDK/Examples/InputSystemWarning.cs"
+    },
+    {
+      "guid": "67cb5b2387b8e4ec9b2fa69ad9510e9b",
+      "asset.meta": {
+        "sha256": "9672ac413926c720d9cc1938508999df010c7f4fd2509b6f48c0a0746a896b5e",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "5b64cc120d6d7398c115eb39c82a18d9d0ae1a358a787132933cb56dacf72b2d",
+        "size": 6986
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/AccessTokenMenu.unity"
+    },
+    {
+      "guid": "68ab940fa15e34433bff18301686b080",
+      "asset.meta": {
+        "sha256": "3fff000a610e3e9061910aa25dd6637e4f40e91d20834d2b217e335597e45aeb",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "40d15f7664c517d81113fcc2f55d502e2ff79d6d2d3f56e4a9fa3066e9cbefaa",
+        "size": 6980
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/AppEvents.unity"
+    },
+    {
+      "guid": "4ac12dfde6570493291366d0ab3eb20d",
+      "asset.meta": {
+        "sha256": "7dbe430b340e8ecb73e6a1dc38573d9601465877fe365aaec906d93317fc85e1",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "2625bdbd102817fec61f4d1c3f3a43284daba706cea05688bb1982e31a3d18d9",
+        "size": 6979
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/AppLinks.unity"
+    },
+    {
+      "guid": "c2250c9c5cf00425384401321f8dffb4",
+      "asset.meta": {
+        "sha256": "4ecd9fe927c681b93976692610ddbd085a64b0634323e15a9364cf7a7fac8d49",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "a29ec9fd907e0d4e32db6b4c68e8b164de11e1002597bf02424341f1a5bca051",
+        "size": 6982
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/AppRequests.unity"
+    },
+    {
+      "guid": "190c345841ecc464e9a122f04369757e",
+      "asset.meta": {
+        "sha256": "923bb58b9bd2f1e3dbf7157f075eed0ffcaebccbfc391694e342f29d1fbb59ab",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "7633193b8684ebc8502428da8747324c926323d9a58866e18fe2a75ae9c3434c",
+        "size": 6982
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/DialogShare.unity"
+    },
+    {
+      "guid": "444ae7ddf432b457a97bfe42021075e3",
+      "asset.meta": {
+        "sha256": "1a98cd4c9b0e54fdf6b82faa4348f5343a912df88cc0dcc2019ca081a8754a73",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "b168328f3f9d6e4fcef26981823790ab6a69af1d12a50f0a0e3b5921bbff5e69",
+        "size": 6983
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/GraphRequest.unity"
+    },
+    {
+      "guid": "c07ff0bf6bea74c2eb681ac0cae44265",
+      "asset.meta": {
+        "sha256": "d6b3dff9e8b96fa46feb344197d309b371111481f64eaec063cdba1f36fb1741",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "576f1fd797ea6b0b5f72a6cb368f2990b0d277674403e4b9b727878fa56d1a27",
+        "size": 6978
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/LogView.unity"
+    },
+    {
+      "guid": "7c38a8c9adc9d5c4b869612e4033ead8",
+      "asset.meta": {
+        "sha256": "21cced9d546f637c858d7bdbda374229d4573d5568ac3170df089e358b0c35a7",
+        "size": 133
+      },
+      "asset": {
+        "sha256": "0e029e2b7531db1b0b12bd14708b35e47553334dd652a81545efc9a7b0c0f33b",
+        "size": 9541
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/MainMenu.unity"
+    },
+    {
+      "guid": "3ee189cdb21ea4bdb9d7022a0780c44c",
+      "asset.meta": {
+        "sha256": "c94bc6a5e4879c2578adac77e78630c3449304ed2719b62cc75f412d057149b2",
+        "size": 174
+      },
+      "asset": {
+        "sha256": "365601485e4c97c504629c6b5e464ababd9bdd2a2e7efae4d0f11d097b9f8757",
+        "size": 6893
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Pay.unity"
+    },
+    {
+      "guid": "e8659f5605d094c19a8b7ef9471c3603",
+      "asset.meta": {
+        "sha256": "bcacd1bbec14e7dd5907a3b6b2a6bb0684d29b361fd525dac2f46c5f478cf7f1",
+        "size": 221
+      },
+      "asset": {
+        "sha256": "7081243b43ea4be969c1b10d1894df6b37b95bf5dca89eba49dcc3708509e0c8",
+        "size": 7415
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/ConsoleBase.cs"
+    },
+    {
+      "guid": "910cbe16250cb4363b70464c39fc701a",
+      "asset.meta": {
+        "sha256": "3b4686d04aee52e0f554d891ab5f456c21d3d93e0cd9fef23adbb11434d61788",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "a9f2f03806648b14daadc5c65e815df060923655dd0919307c6a281188502a45",
+        "size": 2687
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/LogView.cs"
+    },
+    {
+      "guid": "8f28f9112a7d44d3c999fbd95333abbb",
+      "asset.meta": {
+        "sha256": "83bb2833391effcd4fb092385df4fb8be0cf7c1780eaafe275daa3a88c8d5631",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "88a190e8a5ec62f73d0980ad2267eae4ae37114aafe14d000dd2771af970eb11",
+        "size": 8103
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/MenuBase.cs"
+    },
+    {
+      "guid": "4cc408e158eec46b28b93a44fc8819ff",
+      "asset.meta": {
+        "sha256": "82dd54788b2364c171dc7a12b69eacdf28e25ac745243d242ea4e74652bed607",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "e20b2728f39b187191b1491cccec2ba4066506a3a2a4e1474b35ebde3c263169",
+        "size": 1411
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/AccessTokenMenu.cs"
+    },
+    {
+      "guid": "e3c0dd81ff77c4c30834810815c69f6d",
+      "asset.meta": {
+        "sha256": "ecb54597562667c92db3caf3f5b880dff06802801ad85201d0df2db99a589653",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "8f39a62c2e07e6fc8af63b8a570e473f6b04e7c29b0840a0950e9135a40ff7f4",
+        "size": 1883
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/AppEvents.cs"
+    },
+    {
+      "guid": "f9f0b7257fa054227be6e26bf1f6b339",
+      "asset.meta": {
+        "sha256": "6a0d5cdcc7724b7e6b6941e246bb80463ee5a4792701c69943a76901b0fda67f",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "dce78e9c2677b897a673075692aebda3d00fda94d21bdac817a53492eba39098",
+        "size": 1552
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/AppLinks.cs"
+    },
+    {
+      "guid": "3b4c675f81a254b87adc8ad01006c580",
+      "asset.meta": {
+        "sha256": "ea5c47b1919afaab823815506781ef00afe69f0051f265c3a9e9c5b0711d5744",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "c6b63fb8602ae413dd3e37365c2c682037c76e45f4646848de6fedbc26ef210c",
+        "size": 6098
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/AppRequests.cs"
+    },
+    {
+      "guid": "e93c4155902d3496399630ee494eab6b",
+      "asset.meta": {
+        "sha256": "a4509b0b8da189562fcc4528855b341cf35312c64bb8f2fcb09691ede6d13933",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "391e055962a2b3557d90d06a8a812e076b3e9bf3b407c40abbe8ff5e6aa123c4",
+        "size": 5155
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/DialogShare.cs"
+    },
+    {
+      "guid": "23c3cb06c2209474e9a8441e2712d5d2",
+      "asset.meta": {
+        "sha256": "27d1e44bda4e3d7692e8a9cdc98bc34a52499154b9311cc8f86f5f90987d7dde",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "4f4059dc726acabc265e3460040eda92e3428e636f455ccbf1d04d4782280904",
+        "size": 3362
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/GraphRequest.cs"
+    },
+    {
+      "guid": "922e3ad8d88a146b3b392cd8c84edd6a",
+      "asset.meta": {
+        "sha256": "59406193f87bd46d112bc6ffcdb4f5bad7f8466cacdd08a7a36b3181a49e6a52",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "c7738e2309204c26ffcd65077818e42a3c9b2932a58389b2277d82dd2e50c518",
+        "size": 9795
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/MainMenu.cs"
+    },
+    {
+      "guid": "7f08c9721703046ec883e57562184726",
+      "asset.meta": {
+        "sha256": "e4bf9fa7147088a35d24fd9d8dcc4652eba495e52d61575dd11646a9f9cc77db",
+        "size": 262
+      },
+      "asset": {
+        "sha256": "47a0a637a7a887e3751a258df18bb8d62c21cbbb79d90c5dd30935aca0e6cede",
+        "size": 1655
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/Pay.cs"
+    },
+    {
+      "guid": "f7d5ab9d4565843d893f8f2343fe39bb",
+      "asset.meta": {
+        "sha256": "e2cec66ddcba8eb6ddc4c7f4aa751f835902967cfc06c5c6ca98bb73408715c6",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "a370389764d053578cc839b6bbd1eddb2ccefc0ccd0c0b6ec8cd9df4c276bb95",
+        "size": 2852
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/Subscription.cs"
+    },
+    {
+      "guid": "4ad38019c04d54713a79b19e9b246a0c",
+      "asset.meta": {
+        "sha256": "9a2c9000340a8cdf9cf711de6f764ea39d565d527aeba3647dc41ed48a253aba",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "2014c8a8b2799ff587fd711faa2e6790d094d9af49c113126e2b34354aa27ea9",
+        "size": 4242
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/TournamentsMenu.cs"
+    },
+    {
+      "guid": "62b5e01f04ca946c28e79eca12b9b44c",
+      "asset.meta": {
+        "sha256": "6fe324b7bb80eb5448e12df352d61bcdb7541be83e76f760280366c7cf4ee3c0",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "380a2140888aabe3bea98c8a2d28c1230326c41df4122f1a8b2734bca1a351d8",
+        "size": 4335
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/SubMenus/UploadToMediaLibrary.cs"
+    },
+    {
+      "guid": "a84a9100c67194dc8a9de6be34f02b7e",
+      "asset.meta": {
+        "sha256": "2c5eabac1dd815a40597c4753ff5cfa093a13c6c8e4c9a72e6a931dd416344d8",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "a5b99a70e513579d7c66e332c532e1142443f8b3dc10877f72a1d943db02be1a",
+        "size": 3887
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Scripts/UIInputHelper.cs"
+    },
+    {
+      "guid": "4ad37b3bb7e634d2eaa15a73b923b09e",
+      "asset.meta": {
+        "sha256": "9594113f62f3a2c5f163657a147ab76f656fc958e9b5d68c1b46908b30ec7d55",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "b7b72ff5732b31adbc9434fda8bdb67f71b9cf18951a11141e4ecb0fa71c6198",
+        "size": 6757
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Subscription.unity"
+    },
+    {
+      "guid": "6f2bd1fb3a7ec4616b4311f171db577d",
+      "asset.meta": {
+        "sha256": "c8860edc07fda1dc491d269eb66970cf66cfc30c91bc1327622c8bede02a3d13",
+        "size": 1166
+      },
+      "asset": {
+        "sha256": "8c4d92098bc83629d0ef5d643640a1e60c14cedc2752a3eee8cb732deeee5660",
+        "size": 23542
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/Textures/White.psd"
+    },
+    {
+      "guid": "6f8d688887086476cb9533793ffa1756",
+      "asset.meta": {
+        "sha256": "69ce0929064cfa583d9db9a88f4921a7b4e1aff0c9aefce1ca6611b0281c57b6",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "b0e4bb12a3a046ae9f852e39edb2ef4fe10c041ba93d282844aaf0feb56b2461",
+        "size": 6763
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/TournamentsMenu.unity"
+    },
+    {
+      "guid": "6953b5ebad5134d32b0433745ec4a661",
+      "asset.meta": {
+        "sha256": "85e3635ca2fad75c5a79eaa223b4a5fc2c7b86b455d5f61bf6d9cf3276ce8b9b",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "9b316903f657be1cb2f3498824c7c4f26f6f1ec5a9092179f8554e3a13ceea5d",
+        "size": 6767
+      },
+      "path": "Assets/FacebookSDK/Examples/Mobile/UploadToMediaLibrary.unity"
+    },
+    {
+      "guid": "a87b0532431cd8543ad24dba4f6553c9",
+      "asset.meta": {
+        "sha256": "e2126bf430b1508322cfa85af591fe05ecf765def0fd5d13e3635af2c8c10881",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "a76dd6c0d33c45f517a08209226b5e49b9b32fe5acaa9ee5c80b255876528916",
+        "size": 2023
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsA2UNotificationsManager.cs"
+    },
+    {
+      "guid": "67f2f22b10b98134995830e8bee86439",
+      "asset.meta": {
+        "sha256": "047f3c390b152a43f72ef9fe8a7b2e1f1a6da2dbbe8e08292b8456c4f0915d72",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "cb19773b301ae42fdfd2f2fd55e534a512e2ab80ac51bd64dfe437420e019c52",
+        "size": 4951
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsADSManager.cs"
+    },
+    {
+      "guid": "d684454c7ae4aa749bf72961f5d54d1a",
+      "asset.meta": {
+        "sha256": "bcc689e749190d5a7ef145dab69d9d80b31ab16398dffd3d7a23f13c8f953f41",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "4910cf0f3fcd85a94c74156875f1ebb0f98a5697eabf0688debade1fee69c2d3",
+        "size": 1562
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsExampleTabsManager.cs"
+    },
+    {
+      "guid": "cdcf7065d5dd5214c8e6b1088e8d7dce",
+      "asset.meta": {
+        "sha256": "4c05c63c7db451af0819451d7dcb25d4f53201e8301f2e944ab3439462ecbaa0",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "6e9e852e55e843f9f70f033c1af9068c3c86af0ab762d681aea5698015399c2f",
+        "size": 4616
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsFriendsManager.cs"
+    },
+    {
+      "guid": "f7c6c79221d642a49a2d6c7008efb024",
+      "asset.meta": {
+        "sha256": "cea51b8253b9a85c5ffa3aadb4f198cb702a680c8c499ac10c93fdebe7d90a82",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "7f7334a6d43419ac8fd301ffc9ba042fb1c878ea74d647f62844f21b01be8d14",
+        "size": 2325
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsGraphAPIManager.cs"
+    },
+    {
+      "guid": "645295939ce40b34da9edd1810f5ba00",
+      "asset.meta": {
+        "sha256": "b776daf3d9ae000688354968fd7c413c9908523c580d48ab5ab912f70b9d0f47",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "2e534e419df0739bde2343ace3fcb1559e481c4e6a4bf74401c51b2bcbc33dcc",
+        "size": 2216
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsInitManager.cs"
+    },
+    {
+      "guid": "3bd31f5b4e50e1f4ebd23bab7e8dc57e",
+      "asset.meta": {
+        "sha256": "0a3901f21832f0321bbd1b8d70a22395b60eafeb4c06407250c2ea631fc98930",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "7b64e4ec79b8f107982c811518ead15bbe941a4a4ce4952d9b68614b6fd2ac92",
+        "size": 5110
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsLoginManager.cs"
+    },
+    {
+      "guid": "9f240dd53cc273847b9bbd76d0516894",
+      "asset.meta": {
+        "sha256": "0245462bf5cd9e43a402bb1d33603dad5cab45bb6487c6b8ee6956a655163467",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "b8ad6297ceb22050ae36d2617579ffde2a7398f009a9cc081996760496228b6f",
+        "size": 2444
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsLogsManager.cs"
+    },
+    {
+      "guid": "9182b148f48517f4d969163211f36b2c",
+      "asset.meta": {
+        "sha256": "1ee0a30b87c77066e7f51274d782316a6058bfb9fb1d8d2939e4fc4563468759",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "7205e1210f83564a10658765b0cc27d8e15bd1169a7c9caffba039be075fd7c4",
+        "size": 3045
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsPhysicalGamepadManager.cs"
+    },
+    {
+      "guid": "75adb6f2e516703489df2362d990ebea",
+      "asset.meta": {
+        "sha256": "783959426773e7d670750db7ab2d4f379f17009368541c62efa99e5454524a27",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "db69ed4d4b8a8f718625669b03595329ad9458b929201f0a08b6b8c5a557e515",
+        "size": 7427
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsPurchaseManager.cs"
+    },
+    {
+      "guid": "072116e69ac3a4eeca3ce336f18334aa",
+      "asset.meta": {
+        "sha256": "e29faac31976a8ac0b338b70332db1c93d8ffeeb54a7488d51934ac2d450de0f",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "630b97e8d5884cb73e501105ac08d890c113e7733fb10eda1f6fe125fbc9748c",
+        "size": 2823
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsReferralsManager.cs"
+    },
+    {
+      "guid": "6d2b9aa5c2a660f4394334fa45fc34cd",
+      "asset.meta": {
+        "sha256": "0a5b40973d5f08cffcbcc2019b4e4e3467f46f71b9f2bc6ddbead1c2c0d7d6bb",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "078d0c57c99173c7bc3e9b6aa849f737c3eab8ff3c1b3b094161bc088425860e",
+        "size": 3283
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsShareManager.cs"
+    },
+    {
+      "guid": "f44675a5bb5ab2140bf25f5abc67dac8",
+      "asset.meta": {
+        "sha256": "036b897b483ba66c645e8aa1c0b05d0287d1bdba9af7f40dfac1ea8607d53192",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "08580ae3348e42785b35f80e4a665a5d0ed4373f9f2c02f9bb0ae74e4ccce517",
+        "size": 1862
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsSoftKeyboardManager.cs"
+    },
+    {
+      "guid": "a04a3f841e0a748058e520e5cddc969a",
+      "asset.meta": {
+        "sha256": "613ae9ff80ae250d31e94f7209f56bd2986eb2aab76fcccb371c203b398a3f38",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "40fb0d9878759f07096c623465c5601a673cb14721315b1a6b804e2cb2eec672",
+        "size": 4992
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsTournamentsManager.cs"
+    },
+    {
+      "guid": "59e12909d8366e14fadb4c9f13d6d4d6",
+      "asset.meta": {
+        "sha256": "701bbb06d29f4235a2809eced94c3ac6e29987b1f6a89ebd40d90790b704a3f3",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "ade1d3bf6d184b1e7a92dee93263b953017dac84925ad1d4941bf58d05c03112",
+        "size": 1996
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/FBWindowsVirtualGamepadManager.cs"
+    },
+    {
+      "guid": "48ecc8417590fd543b994fb05d0e5c9d",
+      "asset.meta": {
+        "sha256": "25a89b4f650837bbe4fd9dbde0a9f0ef4b09db52a56f86cc3ef385a4d45c828b",
+        "size": 190
+      },
+      "asset": {
+        "sha256": "ecd9a658a0488a46d05bacf94af67049f8ef556705e0d670602141ba79290a85",
+        "size": 8030
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/PurchaseButton.prefab"
+    },
+    {
+      "guid": "a3acdfcd48c61dc4a89fc0056edf3fc6",
+      "asset.meta": {
+        "sha256": "dbf82ef8619fa4b49bc3c26d12386815a8f5b0b209c05eaabd267dbff0bb424e",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "3c47aa930a352dba352fea981cbd22fe5741234ce03e04b1480bbd7b9a9f8813",
+        "size": 831091
+      },
+      "path": "Assets/FacebookSDK/Examples/Windows/WindowsExample.unity"
+    },
+    {
+      "guid": "fb286cd0f33ce4f5e81baf10dab8d865",
+      "asset.meta": {
+        "sha256": "f4269a365ed5e2e932703607121dba78f007097105ddf919d4a233370d62d604",
+        "size": 573
+      },
+      "asset": {
+        "sha256": "0e2ad16114bc94546435a81b19f156a18ff36d5fb0f4212856e863a17bf2bab9",
+        "size": 4096
+      },
+      "path": "Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll"
+    },
+    {
+      "guid": "12bc3b8e35b664eb2bb6b5c8c0bc08d0",
+      "asset.meta": {
+        "sha256": "abcc8413ddd2c926c662867b40aca9981d00b039afca5756e1097c717757bf5c",
+        "size": 608
+      },
+      "asset": {
+        "sha256": "2c15af734cca9dbf66732a2eedad30ceb74547bef521f014dce11692878f97e6",
+        "size": 75859
+      },
+      "path": "Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-16.0.2.aar"
+    },
+    {
+      "guid": "082cd93ddb11e4437b52ea3d121816d8",
+      "asset.meta": {
+        "sha256": "0da08bb5a8bc51e5d5716e6a3a0ce64a90e94edee69eff1a882d6622ee455e87",
+        "size": 569
+      },
+      "asset": {
+        "sha256": "43ceeeb3f4fa31fd9238e77c04a76fd10248fb4ba1efcf2239deed0c6d14286c",
+        "size": 10551
+      },
+      "path": "Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib"
+    },
+    {
+      "guid": "c57105322a98c474faf1ce607f20c3f8",
+      "asset.meta": {
+        "sha256": "0407dbbeb0e9645c64c5152c50bbf808e1fbc164f98c4db6f9e778a841740caf",
+        "size": 569
+      },
+      "asset": {
+        "sha256": "1f0a55076923454b0fd830edf80119d99b6756b8496eba39f926806f2082237d",
+        "size": 5120
+      },
+      "path": "Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll"
+    },
+    {
+      "guid": "1543e5f9bab73423c96b42cab90363ab",
+      "asset.meta": {
+        "sha256": "9d503231c3d1ded255e33b96cf6145ec079d58d5d4f8b097a705c87713922971",
+        "size": 158
+      },
+      "asset": {
+        "sha256": "319200d25990efa9e34d456fd49b4c8d16e67810a6f3cb52b6268a8c411b5ab9",
+        "size": 949
+      },
+      "path": "Assets/FacebookSDK/Plugins/Editor/Dependencies.xml"
+    },
+    {
+      "guid": "137a102f808364a0fb444bedefe2575d",
+      "asset.meta": {
+        "sha256": "1f5bc3e5050ea62f5f9dd9bf7a509a9687d6d8e4c8809935f4433ec8c9723d9c",
+        "size": 610
+      },
+      "asset": {
+        "sha256": "faf313d4f6dc697fc2a7964bc01e46fdd5360cbdcf55fb9e1f4832e3c2a24742",
+        "size": 117248
+      },
+      "path": "Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll"
+    },
+    {
+      "guid": "08462833fafe743b8bd59914b9f52696",
+      "asset.meta": {
+        "sha256": "8559833823eeeb1ff187c0d1a0bd394b431707c54d18a0d1929d382390d78215",
+        "size": 610
+      },
+      "asset": {
+        "sha256": "f6bc83a0fb6844b36e41a53b98639e6fc58fa4cd68588c1520e832227221c998",
+        "size": 172544
+      },
+      "path": "Assets/FacebookSDK/Plugins/Facebook.Unity.dll"
+    },
+    {
+      "guid": "c49f2b3ca212b47fc9cd8ce655177c89",
+      "asset.meta": {
+        "sha256": "dc5e11d9dbe456fff94231c18c51f5606f8c8fccaf88766b266a65ac75b3c5c1",
+        "size": 610
+      },
+      "asset": {
+        "sha256": "b7debcd2ace0fa385ef15a1a1358e740f7c1ff54b780232d97e63e9b9f1e4456",
+        "size": 9216
+      },
+      "path": "Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll"
+    },
+    {
+      "guid": "401db7925e96046b8a4e1b248577ee01",
+      "asset.meta": {
+        "sha256": "25f2b3ae4b812df751d8dcdecbd7c0cec5d2e69b76230e8c102dcd6c62c99bfe",
+        "size": 689
+      },
+      "asset": {
+        "sha256": "f7a2f2bcf22e5506311eca98dc0bbaf0dc70c782730008c4be07f54c21832745",
+        "size": 26112
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/Facebook.Unity.Windows.dll"
+    },
+    {
+      "guid": "56b0270c53c474c6a93d5bb82a543d4c",
+      "asset.meta": {
+        "sha256": "b77a1947ce8c706b9919f0b9a750354925642a30c837c0132cddd3677ce660da",
+        "size": 689
+      },
+      "asset": {
+        "sha256": "0440ab7e1447dff14b047a7f2095e3e9ada66f9ed1192eaa82c8983d1507a848",
+        "size": 45568
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/LibFBGManaged.dll"
+    },
+    {
+      "guid": "3b8139c338d6c4e8c81ce053a8d93a29",
+      "asset.meta": {
+        "sha256": "296569c002b0c3b6fc24a55921ce69901b7a24b6b5f471d06b309f489fc74c11",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "27ed84f17f5457e82bf33dbd8caa4584317f9dc77d31dd2653c2f40cff316d23",
+        "size": 127
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/METADATA.bzl"
+    },
+    {
+      "guid": "bb8fba510a20562428ce21dcfe1f9689",
+      "asset.meta": {
+        "sha256": "c90ad2bf86d9dec96dfa2f859c956b84eabef03412429bccbd7c776ff27da2f5",
+        "size": 689
+      },
+      "asset": {
+        "sha256": "f98bd4b5710bf054f5f4f48f9652c1da017efa55a066332ac21023332a2b0d9f",
+        "size": 9216
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/XInputDotNetPure.dll"
+    },
+    {
+      "guid": "240ff6613196f40b9a6038730ff9ef6f",
+      "asset.meta": {
+        "sha256": "8f4cb8ce3626044af5e3be6c8a74e5b249ba047ac2d0ac943401dd2ff278b7f8",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "ce9df8134d5552c829fde618d3049441fca895d007a51d9304da0f40bc214de4",
+        "size": 1228800
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/LibFBGPlatform.dll"
+    },
+    {
+      "guid": "25786f464040f451b93415a003df67ea",
+      "asset.meta": {
+        "sha256": "73d8cbe3d8c0d51725c5ec51591c4f796d7c5d5569120e20618625def0c98492",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "6556928b6c505144190a2d71fe8a52bc60177715fafe0df069199b845f8bdf61",
+        "size": 444928
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/LibFBGUI.dll"
+    },
+    {
+      "guid": "f8e3f9f49f590403790dc506589f0256",
+      "asset.meta": {
+        "sha256": "9003f8c7fa46aab24b8e8f5554934ebe444a98332cf541fe786961baf445dcef",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "dadb84f5bcf407b05dca3bb717452544eeba889ff69edf4aa0832041f8c5f1bf",
+        "size": 123
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/METADATA.bzl"
+    },
+    {
+      "guid": "d68c1b66096b44c2aa701165f2ebdae7",
+      "asset.meta": {
+        "sha256": "135f927b20737cf313c49fe1478c4d2d8377daac011aceab7faa6cb72e38ef18",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "8652f4837f15fad67185eafa1c6f036c2ce5c16d41da6de8b7f0631d847124aa",
+        "size": 136592
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/WebView2Loader.dll"
+    },
+    {
+      "guid": "4a90381adadeb104780cdd17fb448eaf",
+      "asset.meta": {
+        "sha256": "21814d653aac36f51579bdd9ae924ce0b5a7cbfd4533e749a82f926ff9d2f4c8",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "8361b17ba4ce250a6452f0b5df54c1df912b22238e8340236d6f63a61dab236c",
+        "size": 110592
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/XInputInterface.dll"
+    },
+    {
+      "guid": "569805c32550e47c283ad218ec2ca32d",
+      "asset.meta": {
+        "sha256": "727724d107b10baa7c9459a0f703efd272e504a9a1dd212fbd71f3560f1082a0",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "5be7722db59da357f79830219fcd56fa0747fa5e408ec047523c61361bbb079c",
+        "size": 965120
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/cpprest_2_10.dll"
+    },
+    {
+      "guid": "f37026febb1834867bf083f0086b40d0",
+      "asset.meta": {
+        "sha256": "f167f8312f7fdebb8c5e0ba428e4b39dacf03c513a6e92098f4b6041b17bfb1c",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "ef7d15bb26f9ec97414b4da377a99ad4a7c28862b4038265a994c176f4616796",
+        "size": 3740672
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/libcrypto-3-x64.dll"
+    },
+    {
+      "guid": "71330672282ef414180b64f67f3eb158",
+      "asset.meta": {
+        "sha256": "f9d8305a038ce3cbf1dd8c73b18cd50adb4e5bc3bed28ea700c6bc5f6b2c64a3",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "7e934d27bf8e7072972d8e807e2f0bbeb8ac4379f2b23017701022a8f88ad866",
+        "size": 534528
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/libcurl.dll"
+    },
+    {
+      "guid": "4aff1e5a04c6647e69bef8c8751beb94",
+      "asset.meta": {
+        "sha256": "f64b3583ff4f41ccfaba9a0885c4138432043d728b6764f00f0d1d9e7b3ac164",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "e05a69dd6ff63fbea968f2795299922802a51844c4cda278552da35f60be1ae7",
+        "size": 547840
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/libssl-3-x64.dll"
+    },
+    {
+      "guid": "5e5b8778d73d64f72978f47978c337d7",
+      "asset.meta": {
+        "sha256": "6754ef255879714469f9e0a463e56a91e4c377c529cd9c14cf3abaf504fd6230",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "5668e7a4f14e2fcc87867691b0eee4bfdc0492ee85b1ba11f671477dd302ef60",
+        "size": 94208
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/tinyxml2.dll"
+    },
+    {
+      "guid": "eae7c4d2856384b839d5b5d3745bad29",
+      "asset.meta": {
+        "sha256": "173307da8027885d8cfcfd161a9e2dc20ccd02bd3131830a89d80d72fc135521",
+        "size": 687
+      },
+      "asset": {
+        "sha256": "26cda45a5fce52fc4a730cdeba4a25c0ee41569885cc35a7fc23188d4fd91812",
+        "size": 89088
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x64/zlib1.dll"
+    },
+    {
+      "guid": "c3f48162e7882419fb866d16763cba89",
+      "asset.meta": {
+        "sha256": "050dcff73add6ed080f05de80352310c7ad77ba5d9b4d93e8335da6dcfba50b8",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "55dcff4010a81a14366d2b3d498be7bddc56cac830237c57e377b73871721b29",
+        "size": 1175040
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll"
+    },
+    {
+      "guid": "ac18dc5f21eed41ea8babc0884a63f8b",
+      "asset.meta": {
+        "sha256": "6a8ea04ec9aed49d88af90c774f59ad7989ef08d792e0aabd534aba9c64df61e",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "193abc12445d394475126db8d4e298c4ed9ca7819258918d0c992d57047d33bc",
+        "size": 427008
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll"
+    },
+    {
+      "guid": "2e071419f04b5442f9bf0e90a7f7573d",
+      "asset.meta": {
+        "sha256": "400ab5515b8941822a86b5760a2ba5d1a905c106ff6b604ce196356696d972c6",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "5023397be5ec99027240f467824830c7e266edaaa01bf23e2898fe3343d79a0e",
+        "size": 123
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/METADATA.bzl"
+    },
+    {
+      "guid": "6f37573bb14b64e5d99975b76a7fa540",
+      "asset.meta": {
+        "sha256": "ae0552d6297087c016fcfa4b512d4ca0343d6f0720db040a70d2e4d584b8c647",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "1460310fe5bd7036f807cd96af55c451db422f25724deecb7707893f12c551f5",
+        "size": 109976
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll"
+    },
+    {
+      "guid": "60bb5ceb2a9084f4fa94352a8ba41fd7",
+      "asset.meta": {
+        "sha256": "4155c951c60c634382fd4d075c96728477f81425e74ba7866987fd648bcedbc8",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "a55eb7b3afc17d2698e602ff9344c89b6c2e4bd350fdbe534e04d8259c5453d6",
+        "size": 94208
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/XInputInterface.dll"
+    },
+    {
+      "guid": "001a5ab3fd80b43e780ba5da0bfef822",
+      "asset.meta": {
+        "sha256": "7b538d117f6ec02a2313f7b34184dec2528ba5e27bfd81ef1af96896bc61f3c9",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "ceb11219c01d7d7e806b03473e8f23bc8136b23917c3c82ed422f97d3cbbaf21",
+        "size": 812544
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll"
+    },
+    {
+      "guid": "b03568f7572c74e378d468a04d921b3c",
+      "asset.meta": {
+        "sha256": "27ba31fc2668f23c7b83e369fb9fff9f65e7f5383b30d4cddd4a714bf2413ca4",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "ad197f42305cb9993ca1738a8f23202e0940517de4bc38fe3d778fb5c26422b0",
+        "size": 2784256
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-3.dll"
+    },
+    {
+      "guid": "d66b8b4ad59fb40029d898f0670c4ed5",
+      "asset.meta": {
+        "sha256": "8d8dbabd342d8debbcf56f854a5c32fe039f88dd9eb3a0a66dcc6c9f39ba6d8f",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "2b5d6327d7c56fde7da6b1e55c5d7c98f05412e5ae6dfa8c5bea6949b9471c4a",
+        "size": 473600
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll"
+    },
+    {
+      "guid": "21e586019094245afb5360db13ab7829",
+      "asset.meta": {
+        "sha256": "12e90b36c1ed99c6ec551eab6ccad6d19a44328b564639a9fa61b35522d6eded",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "974ca99e43a601e539699e0bc92bc568ce6d56b3a84750460eac23c033d8a779",
+        "size": 453632
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/libssl-3.dll"
+    },
+    {
+      "guid": "0a90e75fb86ed489a87dc88c2d72a30d",
+      "asset.meta": {
+        "sha256": "4fe7c39854f4f37bdd050a3e1a5f9f4d426b2e80c9e44bab767634e98a2f6f54",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "93895784f9c1f339852c2280db925877e6e9605c34edcdfd22098b6a2825dec5",
+        "size": 72704
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll"
+    },
+    {
+      "guid": "06b47556a07ea483786a6f1916c31f84",
+      "asset.meta": {
+        "sha256": "00c45a79834060dcb31c6a29de91a1736cc9690c3fecc9da02ca76222b615f4b",
+        "size": 607
+      },
+      "asset": {
+        "sha256": "58cb73e8efebb2aaea4df364530def9106c48da93d59e15ff5c10f310c3ee155",
+        "size": 77312
+      },
+      "path": "Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll"
+    },
+    {
+      "guid": "516664901472b44fe83b720b195b5b60",
+      "asset.meta": {
+        "sha256": "b9c6debbdecf169fd60132311e4ea284b6e547afd910fef8fde5d893978806fa",
+        "size": 488
+      },
+      "asset": {
+        "sha256": "8e8a6ac46409af6ee6f9c9d81d2739409fa3081a3cc28fd24de0f8e37f55d371",
+        "size": 9728
+      },
+      "path": "Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll"
+    },
+    {
+      "guid": "66952bdb75cae4c348f3d0521da59bfd",
+      "asset.meta": {
+        "sha256": "7acfa5bf84ee5c145660cb2af4ccb6f6d4729b4fcd5aaf088b65e6b8334c6410",
+        "size": 1061
+      },
+      "asset": {
+        "sha256": "bd2ba42633994583af9f63f574b313bc22fb398a96fba67f350e18baf361acc4",
+        "size": 1617
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h"
+    },
+    {
+      "guid": "511e95bcdad89425999ccbb3e315246a",
+      "asset.meta": {
+        "sha256": "f77587b4db42ada6d580f2e542bbe87cfd0b0d1e9676bab32e618b7072975773",
+        "size": 1020
+      },
+      "asset": {
+        "sha256": "9fdc9823766c8ebafb22605de3f157ade5194dc59e6db32317520ffe39b1da45",
+        "size": 1783
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h"
+    },
+    {
+      "guid": "4c29c5d59509848c4bc24c13ac976932",
+      "asset.meta": {
+        "sha256": "c18d1459910435934a44a73bfa987bc60517822a20a73eb918e75f1104a639e9",
+        "size": 1020
+      },
+      "asset": {
+        "sha256": "bece8fa3fbd2fd03fb0082b083c05cca853d0a125339cd73abd9c7c1703a99f3",
+        "size": 36372
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm"
+    },
+    {
+      "guid": "7461bcc2e2c714a03a3f60d68ec79369",
+      "asset.meta": {
+        "sha256": "29ac98f54c584641f5fadca847b33c564ac10b40293ac8abf669ba5895467891",
+        "size": 1061
+      },
+      "asset": {
+        "sha256": "84277fff3f5b1e54ec95582d33dc30f6d6c5e801303625b17cf19559b99fbb92",
+        "size": 3267
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h"
+    },
+    {
+      "guid": "fbc51482e3ca248329707d61959f9d9d",
+      "asset.meta": {
+        "sha256": "26ba0c38c1ad43df274bfdcfec1007445f04df406dfd2075c566162d99cdb5cb",
+        "size": 1061
+      },
+      "asset": {
+        "sha256": "307aa82c4b81c9cd8338d1952e2e17a5057ea9ada42ed8c82ab7782eb1e9df26",
+        "size": 8276
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m"
+    },
+    {
+      "guid": "b4469d6625a664618b68231ee0dcc093",
+      "asset.meta": {
+        "sha256": "b2b8a25014a13b160d4c0589081f836cd79a13d197282600610c8d9c31b63332",
+        "size": 1061
+      },
+      "asset": {
+        "sha256": "7696ed557a4df1e26653977338829ab7dfa941f84823a4308fb5a5a726945aae",
+        "size": 2210
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h"
+    },
+    {
+      "guid": "5cafb2af7ca9641f58022a816236d1ad",
+      "asset.meta": {
+        "sha256": "8a322969f1fcd9383b25d1229842a592211c2d34585cce6e6b0ab08bf49ac62d",
+        "size": 1061
+      },
+      "asset": {
+        "sha256": "437310b14de465d2bbe568998fc81624dffac2ca25983cf4dab1592e5adaff8f",
+        "size": 7931
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm"
+    },
+    {
+      "guid": "e8b68c3227d0545b0baf196182ca495c",
+      "asset.meta": {
+        "sha256": "844936b1b80919fad5730f2519ada57fb4d493a0f011e69a4adf8fffd1fa2f88",
+        "size": 568
+      },
+      "asset": {
+        "sha256": "b1d9aa0ae986c051124ef96b0cb22e5d5ca842796a13e3ffb1be3e24b610f415",
+        "size": 3124
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift"
+    },
+    {
+      "guid": "40782e83ff8774bfb8280e20c134e6c2",
+      "asset.meta": {
+        "sha256": "2f281230e3ad5ba04f75d1afe4e87e7f4d0695751e88465d3075fc889bf92c42",
+        "size": 568
+      },
+      "asset": {
+        "sha256": "a905c87dc376825627dc637a4de8292199c057905330ca3927e93ccda86d2f23",
+        "size": 2692
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift"
+    },
+    {
+      "guid": "a2bf9c24f7d8f4c83b760043d97deadf",
+      "asset.meta": {
+        "sha256": "7dee4805abd972f54713cd3b8e5fb14053dde1bf12258c2b177a7419ab94f8ff",
+        "size": 568
+      },
+      "asset": {
+        "sha256": "aff5ba63d54f30ec192d0bf4ea5b49c07ff21a14dd433743521c944623ec3bba",
+        "size": 1948
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift"
+    },
+    {
+      "guid": "aa01d6bdb7c7f4c52bf29c7adbee61fd",
+      "asset.meta": {
+        "sha256": "68fbc14bdc1c7cf040a99c9a1139d71a273ae7455f83dc4fe710ac9332512768",
+        "size": 568
+      },
+      "asset": {
+        "sha256": "6399a16ef172fcc7d948aab512979c3951bcca1976bc063604c9dbcf8dc0c271",
+        "size": 2835
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift"
+    },
+    {
+      "guid": "aead30834362b490ea67fdd7fd0351c5",
+      "asset.meta": {
+        "sha256": "2d978090f188d83502a4b591889e178e19587c9af2b4ca7ddbecd0ae9bfc44b3",
+        "size": 133
+      },
+      "asset": {
+        "sha256": "0ce7fdc335b546e3018f6eb49dcad4bb833e4be3fa49d411bf3f3e96e648c30a",
+        "size": 484
+      },
+      "path": "Assets/FacebookSDK/SDK/Editor/iOS/fixup.projmods"
+    },
+    {
+      "guid": "51f4619c385224a23a3edb9092c7d49b",
+      "asset.meta": {
+        "sha256": "985229b48c470a2a1d5246f44e4158565299f388bd4e05cabda61a53f8aa2118",
+        "size": 177
+      },
+      "asset": {
+        "sha256": "13fdd89b6681858b467096a8065b2f1bf61a1054344600c434f54218b62139e0",
+        "size": 441
+      },
+      "path": "Assets/FacebookSDK/link.xml"
+    },
+    {
+      "guid": "0d21613618d660742a8799bee37104d2",
+      "asset.meta": {
+        "sha256": "4ee5d328004218c71704d85f36fbd8b10a60ba012658a4ade30c7645bbfb1ef3",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "bc77ca13dcf7277a1655efcd106aac171cc83143f1a992f5b8d55e59ed478722",
+        "size": 18617
+      },
+      "path": "Assets/StreamingAssets/meta-logo.png"
+    },
+    {
+      "guid": "d1af671404848704f8d30617ff8f4643",
+      "asset.meta": {
+        "sha256": "6119e319ff55f0ce090d60e80078110c402519231cb62fd4ac12323afdd1ffbc",
+        "size": 155
+      },
+      "asset": {
+        "sha256": "2d92d3f679d99d0c0a23ddcbf9bf6569c7c407b774a0b41278bf0faa2ba743d2",
+        "size": 346513
+      },
+      "path": "Assets/StreamingAssets/meta.mp4"
+    },
+    {
+      "guid": "76c392e42b5098c458856cdf6ecaaaa1",
+      "asset.meta": {
+        "sha256": "413c933162aa0d1d06d41c78edddfe4139108b4a100fe947b5579fccf13e8557",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "b9cc4ae24040dd5c4db185d6c29c2ab839934d0c201c228caff82a68e1d9f57c",
+        "size": 14362
+      },
+      "path": "Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs"
+    },
+    {
+      "guid": "4f231c4fb786f3946a6b90b886c48677",
+      "asset.meta": {
+        "sha256": "b03139f399153191f15a8a12c1ddd8b58fec3e5a6753bc291a4a461db928bcb0",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "eb76e46a0bb383dba753ccf776e449dfda380786c08c4e94ff5ef6a95ee22452",
+        "size": 24839
+      },
+      "path": "Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs"
+    },
+    {
+      "guid": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "asset.meta": {
+        "sha256": "4430ccd81a742991bc19d4d0d230d7cc8e3c928673e3d98ba1d944f27a673415",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "168d28906e9ab6a0375946a81719b7959d5856563f134b8a15c448d67bf9b599",
+        "size": 6301
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Button.cs"
+    },
+    {
+      "guid": "0d0b652f32a2cc243917e4028fa0f046",
+      "asset.meta": {
+        "sha256": "3dd816e43431bdaab1728d8e4e1d1dab3dc1f07c2051f47cb46ee7e1ecbcdb16",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "293ff104f356f27b1c8973a9db9ed1018870a4501152e3866a07e78431849588",
+        "size": 45025
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Dropdown.cs"
+    },
+    {
+      "guid": "dc42784cf147c0c48a680349fa168899",
+      "asset.meta": {
+        "sha256": "bd85d59c1e6f2343419e25903d6ef60a7d4c39a491696cc04d1feb6865fd24b7",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "0ccb3855856d2a246f77d3177197ddb4d7cfddcb71b68ed7a8e8fa1c90c3a6dc",
+        "size": 13908
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs"
+    },
+    {
+      "guid": "fe87c0e1cc204ed48ad3b37840f39efc",
+      "asset.meta": {
+        "sha256": "5d5268c445723f854020175a8fdfe91d4ca7fbc62f360438d4224a3ecca32066",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "cbd660f458ac96ccf630687bf79e02f7528fdb31fa82dacf4ba41373db517501",
+        "size": 74360
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Image.cs"
+    },
+    {
+      "guid": "d199490a83bb2b844b9695cbf13b01ef",
+      "asset.meta": {
+        "sha256": "35a2facf64921478ae742dc07511476b415ee04a4bf76c5c196bfa8ac1f4dce7",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "b8aeea9fa0be566b492112786486168a053dfd02b530fe52c3d4168cd0ef5821",
+        "size": 124168
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/InputField.cs"
+    },
+    {
+      "guid": "0cd44c1031e13a943bb63640046fad76",
+      "asset.meta": {
+        "sha256": "e60f5021b9d7f74b44c6c5aa722d924dfc48dad17afeac20f6114b02021442cd",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "a111154414ceed8242dc29cbbc4571f9e786abeb050afe6f53b83f134eb6e633",
+        "size": 20633
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs"
+    },
+    {
+      "guid": "3245ec927659c4140ac4f8d17403cc18",
+      "asset.meta": {
+        "sha256": "0fedd1ac89e603605d4632d8b992eeb450e1b0a82dcf16dc3fd9d4bb5acee9f7",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "967ea0fb94ccb868aaa5147096f0ad7ba82879eb01c880676ca29f122e2a8d03",
+        "size": 4396
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/ContentSizeFitter.cs"
+    },
+    {
+      "guid": "8a8695521f0d02e499659fee002a26c2",
+      "asset.meta": {
+        "sha256": "36e7cc6a16f9d519f5ff0d674de0df5cb312d4dc1149b779a8ba8b90ac59cbaf",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "0c4c8eaf08936b0bdd35da0ff477069b71a6dfc52d7031c7e0fd156065a65888",
+        "size": 12405
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs"
+    },
+    {
+      "guid": "30649d3a9faa99c48a7b1166b86bf2a0",
+      "asset.meta": {
+        "sha256": "6056786a4f956f0ecf2c9a50b877b43200f97b28e1f2d97aceef2e38c453a3a9",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "60c993b71761a9b431b8321f58ef397a100cd0f7febcf4d82c3e82e30b58459b",
+        "size": 1289
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs"
+    },
+    {
+      "guid": "306cc8c2b49d7114eaa3623786fc2126",
+      "asset.meta": {
+        "sha256": "10054a60194f0eb3ad44e4448e6a985b477e5d3421055976067aaefaafdf7653",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "f1c1ed2c33950ca050ef12a648f2138064790859e06918cfcbab0e0a010b78f5",
+        "size": 9024
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs"
+    },
+    {
+      "guid": "59f8146938fff824cb5fd77236b75775",
+      "asset.meta": {
+        "sha256": "9d257813a1280923de2cd30de064f0f4487036b6f80435b97caca6776d0f47cb",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "55ec0610da9479b4752008b23990fe486df9df4ff78958f92027edf86906d035",
+        "size": 1270
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs"
+    },
+    {
+      "guid": "31a19414c41e5ae4aae2af33fee712f6",
+      "asset.meta": {
+        "sha256": "b8b18afa02274e8b845ce02d57c570ca224230ebd0b6e0c3fb8ba4c9353e768f",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "03b8fc34fdbb5995767ec9bac537ae3d978f5104923699e075e599ebdfe215d3",
+        "size": 6777
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs"
+    },
+    {
+      "guid": "1344c3c82d62a2a41a3576d8abb8e3ea",
+      "asset.meta": {
+        "sha256": "853f04e252f73c41d879f6dbc241d21a3f0f6025fec4d88c404cc082af3dec20",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "3d83c458f28b809f672195dd1bd53051146fe7c55e78847a33b9e63600f340b8",
+        "size": 5670
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/RawImage.cs"
+    },
+    {
+      "guid": "1aa08ab6e0800fa44ae55d278d1423e3",
+      "asset.meta": {
+        "sha256": "c1355876695aacc1b89f0a9ac7e01e68b7983be8fc07467b23cf51280ac20e3a",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "d354d2165652df21082d281f5d497a1bddbc889e6663c827fa27ddf1a99cf671",
+        "size": 54972
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs"
+    },
+    {
+      "guid": "2a4db7a114972834c8e4117be1d82ba3",
+      "asset.meta": {
+        "sha256": "db887259299d06380dce4914fe57374a7af24f900a0bf0bec983afd6c925301c",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "25a7dcfcc60fc54f79090f9bbb7e4b7b06d507eb9155b4ccb85fbacee52dcffd",
+        "size": 20250
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Scrollbar.cs"
+    },
+    {
+      "guid": "5f7201a12d95ffc409449d95f23cf332",
+      "asset.meta": {
+        "sha256": "a0611775734d3ed0051fb155c0730261cf36b84022472a67b96428f85dfe899b",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "955f30c1497450265c4d96a584d17c04623c7b016a491f5b729738ec520bf64c",
+        "size": 25834
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Text.cs"
+    },
+    {
+      "guid": "9085046f02f69544eb97fd06b6048fe2",
+      "asset.meta": {
+        "sha256": "72bce650a1d76dddfeaf21a14ec42199abc3b6050c86d682d9b07276e4cf2e9b",
+        "size": 243
+      },
+      "asset": {
+        "sha256": "b0ff9bd04b3739d3da46c2dae2543008ec6d16f4ee6d520aa9f80b76bf8413d3",
+        "size": 10540
+      },
+      "path": "Packages/com.unity.ugui/Runtime/UI/Core/Toggle.cs"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "non_assets_paths": [
+    "Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs",
+    "Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Button.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Dropdown.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Image.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/InputField.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Layout/ContentSizeFitter.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/RawImage.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Scrollbar.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Text.cs",
+    "Packages/com.unity.ugui/Runtime/UI/Core/Toggle.cs"
+  ],
+  "missing_meta_paths": []
+}

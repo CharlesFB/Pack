@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-nugetforunity-d17a20b9",
+  "build_id": "47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+  "artifact": "artifact.unitypackage",
+  "sha256": "47d92ef3bbea3941e022bf7d2639201e322b403836377d594f9ce28206d6dd4c",
+  "size": 277041,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "217cb7caed5f7fb49b339428b1d80974",
+      "asset.meta": {
+        "sha256": "668e5d589ff9469e74668885394643d61f914cc6d957ea1fccb41f35aa1567ad",
+        "size": 201
+      },
+      "path": "Assets/NuGet"
+    },
+    {
+      "guid": "b3fad56c531ac5a4db190a745f589a8e",
+      "asset.meta": {
+        "sha256": "d0d13ea167012aecea52330144f0409cfc0c7f5274ee64f664ad3e8283b632cb",
+        "size": 201
+      },
+      "path": "Assets/NuGet/Editor"
+    },
+    {
+      "guid": "8dc1be91775c4bb469f6b74cef450eaa",
+      "asset": {
+        "sha256": "e04806fb0fdd8c69515fcb9fc3c2e57a63b467b2477e280cea927eb901fa070a",
+        "size": 95744
+      },
+      "asset.meta": {
+        "sha256": "b78a609182dbe8166c65342bb4a82a08b95844f082798528c0ea5ab9e1c2cd6d",
+        "size": 678
+      },
+      "path": "Assets/NuGet/Editor/NugetForUnity.dll"
+    },
+    {
+      "guid": "1d9014b99ad06af428514a5902d29ff3",
+      "asset": {
+        "sha256": "7e6a7df95d7fb07fe80f530dc77fb4f68a4266cd7ebba1968aeeb700b4198a3c",
+        "size": 1094
+      },
+      "asset.meta": {
+        "sha256": "6eba045b6590e9485fb079a75d53150991a293c688e4449b7d6e4db1aa19af4f",
+        "size": 182
+      },
+      "path": "Assets/NuGet/LICENSE"
+    },
+    {
+      "guid": "83c5d2001771f15429a88d67e81366d6",
+      "asset": {
+        "sha256": "ddeae90440270610a7c46a0f9d257a9d214e4bd802eba31b7d436a328b535aa2",
+        "size": 246595
+      },
+      "asset.meta": {
+        "sha256": "2526da96c677ae73c283b7695531cf0def623aabd21d222d147b0af85ff5a1fd",
+        "size": 183
+      },
+      "path": "Assets/NuGet/README.pdf"
+    },
+    {
+      "guid": "1738075a39a390447b7a620ca6962142",
+      "asset.meta": {
+        "sha256": "8d5aa964930a7585ea05e8381167a07a9f061b7b712f2a708b4551aa60a1f69a",
+        "size": 201
+      },
+      "path": "Assets/NuGet/Resources"
+    },
+    {
+      "guid": "eec19781926cd2248b7c9abfde8db555",
+      "asset": {
+        "sha256": "d8377f973abb6f54a6f8b2b281401720b5754141e47050f539b9a4ea88df017a",
+        "size": 4415
+      },
+      "asset.meta": {
+        "sha256": "b6dcf2aeb0c1b53c80b8ef82edf839fbffed29b8f97ae711c95cd39247c6d7b2",
+        "size": 2053
+      },
+      "path": "Assets/NuGet/Resources/defaultIcon.png"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

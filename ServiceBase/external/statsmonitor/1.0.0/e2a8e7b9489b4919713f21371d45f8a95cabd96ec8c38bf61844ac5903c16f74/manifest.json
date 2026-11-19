@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "plugin_id": "external2636-statsmonitor-16a8b28e",
+  "build_id": "e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+  "artifact": "artifact.unitypackage",
+  "sha256": "e2a8e7b9489b4919713f21371d45f8a95cabd96ec8c38bf61844ac5903c16f74",
+  "size": 28893,
+  "metadata_status": "needs_review",
+  "layout": "embedded-assets-paths",
+  "files": [
+    {
+      "guid": "825672698d8574b6ab2b0a3e9a9f1db4",
+      "asset.meta": {
+        "sha256": "a797f79323c4ab20d46da3f63d02b622d3de9d19667991b095f0b30f0cde6328",
+        "size": 172
+      },
+      "path": "Assets/Addons/StatsMonitor"
+    },
+    {
+      "guid": "82019bb081279954c9fae45d17b967bc",
+      "asset.meta": {
+        "sha256": "ff8dca21e7cd97128f266c688af672df557c3ca4ef03a954e16959fdc9680c3c",
+        "size": 215
+      },
+      "path": "Assets/Addons/StatsMonitor/Editor"
+    },
+    {
+      "guid": "b75913f992eb308428abbb52095a8e71",
+      "asset.meta": {
+        "sha256": "cf4dfbd3668834c97df189f5b801d4dccb018ccd268355912a3a25cec94484c0",
+        "size": 286
+      },
+      "asset": {
+        "sha256": "315c5b54528af58dcfc9521f43c76fd0d0d47d3c4d3388ea5bb3d2517054a385",
+        "size": 4837
+      },
+      "path": "Assets/Addons/StatsMonitor/Editor/StatsMonitorEditor.cs"
+    },
+    {
+      "guid": "62ad58674db572c45abdab8ace5cc92f",
+      "asset.meta": {
+        "sha256": "87450ea4a1a9d02956298914e97ee60d097fe3a9442b1a3cb95c576f6cb33d15",
+        "size": 286
+      },
+      "asset": {
+        "sha256": "dbee424260edf2880afffe795c1de2e9d7b98d03eff76c261e7552099fd14fd7",
+        "size": 22587
+      },
+      "path": "Assets/Addons/StatsMonitor/Editor/StatsMonitorWidgetEditor.cs"
+    },
+    {
+      "guid": "3311ebbd6bd974e4e8c9ad51082fbdaa",
+      "asset.meta": {
+        "sha256": "8970f566159b2d30d1c62435e9ab3f11706a4d3f616e760feb3521280ce8888c",
+        "size": 215
+      },
+      "path": "Assets/Addons/StatsMonitor/Resources"
+    },
+    {
+      "guid": "b224938208648b444b89dfc5c2b4bc80",
+      "asset.meta": {
+        "sha256": "b2ffbd8224db479903ac089346f31a84360b73145c6fa883fd64b5d7d63e3adf",
+        "size": 215
+      },
+      "path": "Assets/Addons/StatsMonitor/Resources/Fonts"
+    },
+    {
+      "guid": "147eb3338c4f0514789e46651ad0ca41",
+      "asset.meta": {
+        "sha256": "cd9a698b96dfdd04770f1775690befa9a4edd7ad9cfd8d3dd1a7513a1aa5f849",
+        "size": 486
+      },
+      "asset": {
+        "sha256": "6627f6f10de713bc7208b5a456372ceda351fcb25c1f527b70ba16c68fdbbcf2",
+        "size": 14288
+      },
+      "path": "Assets/Addons/StatsMonitor/Resources/Fonts/terminalstats.ttf"
+    },
+    {
+      "guid": "a56085ce5a644fd488c8c614cfc00a0d",
+      "asset.meta": {
+        "sha256": "393ecc86d770827a5866d95340c14abac72d90356359bdad4b022948bc579d82",
+        "size": 215
+      },
+      "path": "Assets/Addons/StatsMonitor/Scripts"
+    },
+    {
+      "guid": "701f70c72f438624eb1fa79954d7a088",
+      "asset.meta": {
+        "sha256": "89523581c42884e50af68e5e79b6719f130316aaad3ec66a9801890a675e0ec2",
+        "size": 286
+      },
+      "asset": {
+        "sha256": "5cb288fc85a82c9e1dea0929ebf3be25b731a57acb4135e14af3528b2dca7d10",
+        "size": 5522
+      },
+      "path": "Assets/Addons/StatsMonitor/Scripts/StatsMonitor.cs"
+    },
+    {
+      "guid": "e62dea80f0615c94b99435061685ac56",
+      "asset.meta": {
+        "sha256": "df9b9e856de1cfafb97b3538e562042131f4d88cea30ae917c1e7390d53997a1",
+        "size": 286
+      },
+      "asset": {
+        "sha256": "352552dfb90c930bcea69c3954e8b670801d99bf1548655756c7487bc3448026",
+        "size": 81146
+      },
+      "path": "Assets/Addons/StatsMonitor/Scripts/StatsMonitorWidget.cs"
+    }
+  ],
+  "ignored_appledouble_entries": 0,
+  "missing_meta_paths": [],
+  "non_assets_paths": []
+}

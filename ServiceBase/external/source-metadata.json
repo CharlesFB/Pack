@@ -1,0 +1,82 @@
+{
+  "Odin Inspector_ConfigTool.unitypackage": {
+    "id": "odin-inspector-configtool",
+    "name": "Odin Inspector ConfigTool"
+  },
+  "DOTween.unitypackage": {
+    "id": "dotween",
+    "name": "DOTween"
+  },
+  "AppLovin-MAX-Unity-Plugin-8.0.1-Android-13.0.1-iOS-13.0.1.unitypackage": {
+    "id": "applovin-max",
+    "name": "AppLovin MAX"
+  },
+  "facebook-unity-sdk-16.0.2.unitypackage": {
+    "id": "facebook-unity-sdk",
+    "name": "Facebook Unity SDK"
+  },
+  "googleplay-games.unitypackage": {
+    "id": "googleplay-games",
+    "name": "Google Play Games"
+  },
+  "google-signin-plugin-1.0.4.12.unitypackage": {
+    "id": "google-signin",
+    "name": "Google Sign-In"
+  },
+  "Odin Inspector 3.1.10.0.unitypackage": {
+    "id": "odin-inspector",
+    "name": "Odin Inspector"
+  },
+  "external-dependency-manager-1.2.175.unitypackage": {
+    "id": "edm4u",
+    "name": "External Dependency Manager for Unity"
+  },
+  "external-dependency-manager-1.2.170.unitypackage": {
+    "id": "edm4u",
+    "name": "External Dependency Manager for Unity"
+  },
+  "BuildConfig.zip": {
+    "id": "build-config",
+    "name": "Build Config"
+  },
+  "README的副本.md.zip": {
+    "id": "test-readme-archive",
+    "name": "Test README Archive"
+  },
+  "Adjust_v5.0.6.unitypackage": {
+    "id": "adjust",
+    "name": "Adjust"
+  },
+  "Animations.unitypackage": {
+    "id": "ui-animations",
+    "name": "UI Animations"
+  },
+  "Demigiant.unitypackage": {
+    "id": "demigiant-bundle",
+    "name": "Demigiant Bundle"
+  },
+  "Demigiant.zip": {
+    "id": "demigiant-bundle",
+    "name": "Demigiant Bundle"
+  },
+  "helpshiftX-plugin-unity-v10.2.1.unitypackage": {
+    "id": "helpshift-x",
+    "name": "Helpshift X"
+  },
+  "com.esotericsoftware.spine.timeline-4.1-2023-05-16.zip": {
+    "id": "spine-timeline",
+    "name": "Spine Timeline"
+  },
+  "spine-unity-4.1-2023-05-16.unitypackage": {
+    "id": "spine-unity",
+    "name": "Spine Unity"
+  },
+  "DotweenPro.unitypackage": {
+    "id": "dotween-pro",
+    "name": "DOTween Pro"
+  },
+  "NiceVibrations-v-3-9-0.unitypackage": {
+    "id": "nice-vibrations",
+    "name": "Nice Vibrations"
+  }
+}

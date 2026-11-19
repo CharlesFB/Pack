@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "plugin_id": "spine-timeline",
+  "build_id": "51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4",
+  "artifact": "artifact.zip",
+  "sha256": "51469f5895214b7a862545948234697305ea22050df4d05740dfb277befa17e4",
+  "size": 254277,
+  "metadata_status": "needs_review",
+  "layout": "unconfirmed",
+  "files": [
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation.meta",
+      "sha256": "0bcc415e27664e4f3fdc7fe829906af4e00f69840495b8775012ee33aed0fecd",
+      "size": 214
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/README.md",
+      "sha256": "13b227c857c3eb39098dbc9fb895c82cccfa636dd2319b40be1cc07aac60862f",
+      "size": 9874
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/README.md.meta",
+      "sha256": "651ef153c6d3eb62221decfa584765b218c1875e74ec59e63bafb61642e3a88c",
+      "size": 197
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/add-menu.png",
+      "sha256": "be538a46141b4a2e16aa3b0c93792fdf20d5e10f221b4d61c9ff021af48001e6",
+      "size": 24379
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/add-menu.png.meta",
+      "sha256": "06e2e729ad1193920267324ab628fa9e184e1e8fdba09febe7485f29b69fc74b",
+      "size": 2548
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/animationstate-clip-inspector.png",
+      "sha256": "6d73f386341fb2e338720a03efe4e4e40c452de552bbd273e9502f0089896c38",
+      "size": 51232
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/animationstate-clip-inspector.png.meta",
+      "sha256": "ba910535cfde26df34965cf78a93a2441314fa17ccfce3174ed6789e526692d5",
+      "size": 2548
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/animationstate-track-inspector.png",
+      "sha256": "1a0418a192116957802a7755d295ff77ec0c9849ba950624d405257c84d71882",
+      "size": 14254
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/animationstate-track-inspector.png.meta",
+      "sha256": "b669542ecddb01f5482fe00cd03410b32becf4ce316d44e603b285357a626f51",
+      "size": 2114
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/animationstate-track.png",
+      "sha256": "974da7c4f4df61c35ffa6a5993bdc15790d577cb980cc6810ececc72662a8916",
+      "size": 33290
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/animationstate-track.png.meta",
+      "sha256": "8764420b289d2f355f08b10e788109138c61d5b0ce2964a65f6c38729acc6863",
+      "size": 1609
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/skeleton-flip-clip-inspector.png",
+      "sha256": "6986b72e2cf482e2d59b8058ec203e777cf053a264e843aaefc867edd79cccb3",
+      "size": 17788
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/skeleton-flip-clip-inspector.png.meta",
+      "sha256": "5ca796ecd15a69ec07a144dc1fb90261686f4574e32d1ff68bd34605501ec6eb",
+      "size": 2548
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/skeleton-flip-track.png",
+      "sha256": "c6457dd97cba9a5cd53bcca8b7eff69fd95f6f4deab73c88c683afb76b6c822d",
+      "size": 32882
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/skeleton-flip-track.png.meta",
+      "sha256": "0dae7d572a292b71b22f35a4c0b86469c0c66d3ab72719d924535d81e0331e27",
+      "size": 1609
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/timeline.png",
+      "sha256": "68c2c5aaf5eebf4505f926a87eef0a6f1de29d2348875f1f69239a4d52c155eb",
+      "size": 35599
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Documentation/timeline.png.meta",
+      "sha256": "05fd56e6b4bfe6643e1774d36869c13a6625b10a157de1720e7e963274167fb2",
+      "size": 1610
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor.meta",
+      "sha256": "e33e0ba5987f6b54dd4dc4aa0a775cc76df76349e3ac956816efb01fdb431cb6",
+      "size": 192
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateClipInspector.cs",
+      "sha256": "b26c05d28b27c52656b1cf573eedfaab3be341ed005d2da143675375a53d8406",
+      "size": 4649
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateClipInspector.cs.meta",
+      "sha256": "42607d2cbb65f86c67070e2cc9194a516fe2db9cf777ab9637967e91791e12b9",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateDrawer.cs",
+      "sha256": "e9a30d3980eb550a04cb8ba09b7c7ef04d98c93fed36c3fd0e16aa354c517d13",
+      "size": 7056
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateDrawer.cs.meta",
+      "sha256": "abcf671a9befdf57fb310cb9c8c31ec8a4cdc36618ccd0560ea457fb266dbf7a",
+      "size": 285
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateGraphicTrackInspector.cs",
+      "sha256": "45fa3c687b1442017dcb3bb578fc320e78a9266323e5c6d25758cef7123d1843",
+      "size": 2974
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateGraphicTrackInspector.cs.meta",
+      "sha256": "2f1562dcaec5842c32603e241eb44b944a5aa24feb34344870309d8de22d9336",
+      "size": 262
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateTrackInspector.cs",
+      "sha256": "f8547052af4fafce67b9b69e05b621c7b50d90431d9293855fed457b9b66bb7d",
+      "size": 2946
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineAnimationStateTrackInspector.cs.meta",
+      "sha256": "58d871342a418c67cc7bfd94c357a61a79e4df15c09bf1d29c52a788da354f26",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipClipEditor.cs",
+      "sha256": "25db1138dc615bb2a47e00aad7f1e0a9667f0d026527651c2c57d7d3c8b41d09",
+      "size": 2824
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipClipEditor.cs.meta",
+      "sha256": "846b26e0bac78685b80d3bffce8aa1589c83f14562355b8b276182966f67b48a",
+      "size": 243
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipClipInspector.cs",
+      "sha256": "a356b47616fc0e733b99edc681f19ca8ecdc666970fb4a13aede6695d3aa070d",
+      "size": 2306
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipClipInspector.cs.meta",
+      "sha256": "cdce5858108b7fd2451637663485c714fe366412441e43b909a7801eb70cda30",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipDrawer.cs",
+      "sha256": "fa9edb089ba55a0fa236a4a63121f2b67bf9726bcebb7e21e9224ffe28d08f42",
+      "size": 2640
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipDrawer.cs.meta",
+      "sha256": "e3bf65105d4a8583d4b765e46ad334f7ae36e3fa8e3f81a148cfe6782fbde7c5",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipTrackInspector.cs",
+      "sha256": "bde23011adc3cd4ea47cd0a4056c02af58b95f16e13a8ad8280fafeb7d165144",
+      "size": 2408
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/SpineSkeletonFlipTrackInspector.cs.meta",
+      "sha256": "1139e498bb6c9c996f7b17c0851df883d5cc0c1c3e15bb238ed6e66fad989ff2",
+      "size": 243
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/spine-timeline-editor.asmdef",
+      "sha256": "fe1b4dc9eb1d7554e568731809d46e49a8f55c4d7d784a10bef37138f8728432",
+      "size": 515
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Editor/spine-timeline-editor.asmdef.meta",
+      "sha256": "fbe67dfc78e76e6a10d50868ec77b6c05489335a16abba47ba22ad327e312446",
+      "size": 166
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/LICENSE.md",
+      "sha256": "25d078c3f4e7be032498e6fcd8248b1d63dfd0e5b3bc8645d827525a6cfc1587",
+      "size": 1481
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/LICENSE.md.meta",
+      "sha256": "18cd7fb3e9565e15b203f031a0bea61e0ac46893cf4a57cd100f8813cbec6884",
+      "size": 158
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime.meta",
+      "sha256": "464d2eaead396f33a2464295a0cb81fdce0a8a960f1e8dbfb9bad0e8c3fddf50",
+      "size": 172
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component.meta",
+      "sha256": "e3823a134988a681f960ebb9cc5ec68423acffbe1727f3d021b14de6b69a7470",
+      "size": 192
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component/SkeletonAnimationPlayableHandle.cs",
+      "sha256": "a7272bc46227891a99791aa670f06e7a3fb949891e00efb0fba7d4e3247accb2",
+      "size": 2716
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component/SkeletonAnimationPlayableHandle.cs.meta",
+      "sha256": "fddebbad57069de6ac25b10b463ad9684995489987b8717bb225909c174aaa7c",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component/SkeletonGraphicPlayableHandle.cs",
+      "sha256": "5a2bf2fc69bb610e56e97de45a7dc32ebb3b9ec83cfcb547fcf31c536bd6e613",
+      "size": 2698
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component/SkeletonGraphicPlayableHandle.cs.meta",
+      "sha256": "23c14aacba6651f71927bbc79ddfb81776028cdd76ff695f3c1490a7594b5572",
+      "size": 262
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component/SpinePlayableHandleBase.cs",
+      "sha256": "b712578f234eac083ce88fdbf34badde1b9a8814520ea4805dd48675c127afb6",
+      "size": 2736
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/PlayableHandle Component/SpinePlayableHandleBase.cs.meta",
+      "sha256": "666658837dc2457cf8aad6f5d3d8efdd3d51d67a56ffccb659d3f2de25527025",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState.meta",
+      "sha256": "da86b9d6bc9015969171d27c057151fa3b95c25bdd6300f193bb3f3b649ca465",
+      "size": 214
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateBehaviour.cs",
+      "sha256": "d39018fabd1875bdd0f188af8f1d2b56ae0b1fa17410ec62323a4c560a43951a",
+      "size": 2986
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateBehaviour.cs.meta",
+      "sha256": "a13a5bdec25e42e9655879b1aa159744d0e6b2b50be5e5e26fafef2e722d30c3",
+      "size": 285
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateClip.cs",
+      "sha256": "1c1c09cadc2b23b9844b68e61fb9d564047bdd176331734e518e245831942ca8",
+      "size": 2775
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateClip.cs.meta",
+      "sha256": "a1e8b88dca6816051dd9f4f172249a42d360b11321463e29f172ca1bc0de3c84",
+      "size": 285
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateGraphicTrack.cs",
+      "sha256": "a6d6aac0e6621742b8e85403ed9e8802d390a757f5a280e9803bde6c8481022c",
+      "size": 3413
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateGraphicTrack.cs.meta",
+      "sha256": "65c02fa895783460537b1e302f24c7e0c40242bc245ca785ac7bfc12b9e4d3bd",
+      "size": 262
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateMixerBehaviour.cs",
+      "sha256": "8a46a96d433a17571482530b9216c795dbcf7f316fd987024b695190ff028f46",
+      "size": 15892
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateMixerBehaviour.cs.meta",
+      "sha256": "2312be2415b0631fb4dbc0eed4f8a63321c4c3b703eb378c4e18cc5214a7b176",
+      "size": 285
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateTrack.cs",
+      "sha256": "e1ee06cd2bc4cd118c7f3bdce9837ebf12b651b7f35f11055d6a330cd2b688fa",
+      "size": 3412
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineAnimationState/SpineAnimationStateTrack.cs.meta",
+      "sha256": "1cb3cce90bf9bc97309ba55418f180e4cf3497983014efe5e3a98f00882a0d24",
+      "size": 285
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip.meta",
+      "sha256": "8760e88e9db4ce03670f5e1e31bd8054d5aa3433acb6d5b036502ef241e840af",
+      "size": 192
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipBehaviour.cs",
+      "sha256": "4f327bd642dec84574c8e4d359639db37529f3b3d1f48f66207219eee83001a8",
+      "size": 1943
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipBehaviour.cs.meta",
+      "sha256": "578b58cc601ad97d41fee10751ca6edc27ff27168917bcc216e7e312fdacbf87",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipClip.cs",
+      "sha256": "c4caccdc8aa9ff261f2e4036d1c91d49a1faa876f43544100d0a57043280c7ab",
+      "size": 2271
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipClip.cs.meta",
+      "sha256": "6a3bd47cdf2547b2b11a286dea4976546d01777f33a2d7a02808928bf8ed9fca",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipMixerBehaviour.cs",
+      "sha256": "6c17180bb1d9767b40bf4157e8e012c768a9fe6f375fdbded83e96ec5d0b725e",
+      "size": 4621
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipMixerBehaviour.cs.meta",
+      "sha256": "2a4e99529c2f51d4f7607a2b519529953f87f9083678c79d7c96b30a3ff6cc48",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipTrack.cs",
+      "sha256": "5e66ee7c2eb406cf64a2748b3fc9afabe750b7a150272196114bbc66af418434",
+      "size": 3079
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/SpineSkeletonFlip/SpineSkeletonFlipTrack.cs.meta",
+      "sha256": "aec63c348f9f46ff2d400d7031f4b2fea05e8573b7fa1190617735ee5b55bef0",
+      "size": 263
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/spine-timeline.asmdef",
+      "sha256": "7895ed531bc19441ee13696623fb595b31e73515796ad38761116e5c9527c77c",
+      "size": 417
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/Runtime/spine-timeline.asmdef.meta",
+      "sha256": "b85655835be33d74f8ee4a15ae0118a184aab74c3ddb14017081a5c26d03f701",
+      "size": 166
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/package.json",
+      "sha256": "85b37a18fe4fe70cd37117187558382766117812edaa06c37094fc4ab4ef962e",
+      "size": 673
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/package.json.meta",
+      "sha256": "4bff15bbc1fc313309d4010d3191f74298e76c863fa525ac3d82f9ea34268aef",
+      "size": 163
+    },
+    {
+      "path": "com.esotericsoftware.spine.timeline-4.1/version.txt",
+      "sha256": "771288534a213523e3eb76a95ce90b7e71cbb560da13cb00fe15b451618955f9",
+      "size": 72
+    }
+  ]
+}
